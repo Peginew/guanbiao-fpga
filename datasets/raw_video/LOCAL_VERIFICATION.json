@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "bytes": 1367634672,
+  "parts": 82,
+  "sha256": "f98285a9b6915c34db108fce03d00d2b027157da8c7f24488347dc702ffbeb4a",
+  "video_reencoded": false,
+  "all_part_hashes_verified": true,
+  "all_parts_max_bytes": 16777216,
+  "elapsed_seconds": 5.28,
+  "temporary_roundtrip_deleted": true,
+  "source_modified": false,
+  "network_or_hardware_actions": false
+}

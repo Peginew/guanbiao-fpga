@@ -1,0 +1,39 @@
+{
+  "target_classes": [
+    "gauge_face",
+    "no_visible_gauge_face"
+  ],
+  "network_heads": [
+    "hub",
+    "thin_terminal"
+  ],
+  "supervision_roles": [
+    "full_keypoints",
+    "hub_only",
+    "thin_terminal_only",
+    "negative_no_gauge",
+    "positive_no_keypoint_supervision"
+  ],
+  "loss_targets": {
+    "visible_point_heatmap": "Real visible mechanical point with accepted uncertainty",
+    "zero_heatmap": "Known no visible gauge; valid negative supervision",
+    "ignore": "Occluded, unknown, or coarse point; NOT a negative"
+  },
+  "scene_labels": {
+    "planned": {
+      "front_medium_soft_light": "正面、中尺寸、柔光",
+      "front_large_soft_light": "正面、大尺寸、柔光",
+      "front_dim": "正面、偏暗",
+      "backlight_or_local_reflection": "逆光或局部反光",
+      "mild_left_view": "轻微左侧取景",
+      "mild_right_view": "轻微右侧取景"
+    },
+    "negative": [
+      "empty_background",
+      "non_gauge_circular_or_reflective_object"
+    ],
+    "challenge": "Visual issue tags retain source uncertainty; not measured yaw/lux/focus"
+  },
+  "coordinates": "Native1280x720; top-left origin; x right/y down; [x0,y0,x1,y1) bbox",
+  "pressure": "User-reported psi retained; derived bar is unit conversion, not an independent reference measurement"
+}

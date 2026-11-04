@@ -1,0 +1,221 @@
+{
+  "status": "GROUPED_DATASET_ORGANIZED_NO_TRAINING",
+  "date_local": "2026-11-02",
+  "completed_utc": "2026-11-01T19:31:52.469100+00:00",
+  "source_annotations": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotations.json",
+  "source_annotations_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "summary": {
+    "train": {
+      "images": 177,
+      "groups": [
+        "D",
+        "E",
+        "F"
+      ],
+      "roles": {
+        "full_keypoints": 134,
+        "hub_only": 15,
+        "negative_no_gauge": 9,
+        "positive_no_keypoint_supervision": 13,
+        "thin_terminal_only": 6
+      },
+      "pressure_psi_distribution_gauge_only": {
+        "12": 18,
+        "11": 12,
+        "9.5": 12,
+        "8": 12,
+        "6.5": 12,
+        "5": 12,
+        "3.5": 12,
+        "2.5": 42,
+        "11.5": 6,
+        "10": 6,
+        "8.5": 6,
+        "7": 6,
+        "5.5": 6,
+        "4": 6
+      },
+      "scene_distribution": {
+        "front_medium_soft_light": 24,
+        "front_large_soft_light": 24,
+        "front_dim": 24,
+        "backlight_or_local_reflection": 24,
+        "mild_left_view": 24,
+        "mild_right_view": 24,
+        "empty_background": 3,
+        "non_gauge_circular_or_reflective_object": 6,
+        "challenge_with_gauge": 24
+      },
+      "true_negative_count": 9,
+      "all_user_capture_setup_confirmed": true
+    },
+    "validation": {
+      "images": 59,
+      "groups": [
+        "G"
+      ],
+      "roles": {
+        "full_keypoints": 50,
+        "negative_no_gauge": 3,
+        "positive_no_keypoint_supervision": 2,
+        "thin_terminal_only": 2,
+        "hub_only": 2
+      },
+      "pressure_psi_distribution_gauge_only": {
+        "12": 6,
+        "11.5": 6,
+        "10": 6,
+        "8.5": 6,
+        "7": 6,
+        "5.5": 6,
+        "4": 6,
+        "2.5": 14
+      },
+      "scene_distribution": {
+        "front_medium_soft_light": 8,
+        "front_large_soft_light": 8,
+        "front_dim": 8,
+        "backlight_or_local_reflection": 8,
+        "mild_left_view": 8,
+        "mild_right_view": 8,
+        "empty_background": 1,
+        "non_gauge_circular_or_reflective_object": 2,
+        "challenge_with_gauge": 8
+      },
+      "true_negative_count": 3,
+      "all_user_capture_setup_confirmed": true
+    },
+    "test": {
+      "images": 59,
+      "groups": [
+        "H"
+      ],
+      "roles": {
+        "full_keypoints": 49,
+        "hub_only": 3,
+        "negative_no_gauge": 3,
+        "positive_no_keypoint_supervision": 2,
+        "thin_terminal_only": 2
+      },
+      "pressure_psi_distribution_gauge_only": {
+        "12": 6,
+        "11.5": 6,
+        "10": 6,
+        "8.5": 6,
+        "7": 6,
+        "5.5": 6,
+        "4": 6,
+        "2.5": 14
+      },
+      "scene_distribution": {
+        "front_medium_soft_light": 8,
+        "front_large_soft_light": 8,
+        "front_dim": 8,
+        "backlight_or_local_reflection": 8,
+        "mild_left_view": 8,
+        "mild_right_view": 8,
+        "empty_background": 1,
+        "non_gauge_circular_or_reflective_object": 2,
+        "challenge_with_gauge": 8
+      },
+      "true_negative_count": 3,
+      "all_user_capture_setup_confirmed": true
+    },
+    "reserve": {
+      "images": 177,
+      "groups": [
+        "A",
+        "B",
+        "C"
+      ],
+      "roles": {
+        "positive_no_keypoint_supervision": 142,
+        "full_keypoints": 18,
+        "hub_only": 8,
+        "negative_no_gauge": 9
+      },
+      "pressure_psi_distribution_gauge_only": {
+        "12": 18,
+        "11": 18,
+        "9.5": 18,
+        "8": 18,
+        "6.5": 18,
+        "5": 18,
+        "3.5": 18,
+        "2.5": 42
+      },
+      "scene_distribution": {
+        "front_medium_soft_light": 24,
+        "front_large_soft_light": 24,
+        "front_dim": 24,
+        "mild_left_view": 24,
+        "mild_right_view": 24,
+        "backlight_or_local_reflection": 24,
+        "empty_background": 3,
+        "non_gauge_circular_or_reflective_object": 6,
+        "challenge_with_gauge": 24
+      },
+      "true_negative_count": 9,
+      "all_user_capture_setup_confirmed": true
+    },
+    "total_images": 472,
+    "first_round_training_images": 164,
+    "front_clear_curriculum_images": 56,
+    "training_performed": false,
+    "model_evaluation_performed": false,
+    "original_images_modified": false
+  },
+  "source_images_unchanged": true,
+  "canonical_annotations_unchanged": true,
+  "training_performed": false,
+  "model_scoring_performed": false,
+  "ROI_adapter_status": "PENDING",
+  "old_trainer_drop_in_compatible": false,
+  "independent_review": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\review\\partition_independent_review.json",
+  "artifacts": {
+    "dataset_manifest.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\dataset_manifest.json",
+      "sha256": "e512850e54db6cc20c4b1973db9d48c852bf8737c3846a07afcb5cf9472c9872"
+    },
+    "split_summary.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\split_summary.json",
+      "sha256": "7a5157ad725d4d84dc7c70cd69dda0e1ecb3397669059a95b7604ec9aec30f0c"
+    },
+    "label_dictionary.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\label_dictionary.json",
+      "sha256": "ebcdf67f0151ce72f7344331c1bb6c102bfcf6faad2844f97c84202bdbe009c8"
+    },
+    "all_assignments.csv": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\all_assignments.csv",
+      "sha256": "5a218e05bb9677a8228281f9f2ca61540f478e7fea44f2afbbd67f6754e01817"
+    },
+    "train_and_validation_contents.csv": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\train_and_validation_contents.csv",
+      "sha256": "638391ff8967485b03e0a7367f1001cdc74278902f5149e8f6e27a4c864a3ac7"
+    },
+    "partition_validation.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\partition_validation.json",
+      "sha256": "c9a8d2a89d6d18e87d8d77da695301992c802c2ff5dd279a0b1ad74943abdb4d"
+    },
+    "source_leakage_audit.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\source_leakage_audit.json",
+      "sha256": "0ed187297944dcb8bbef59e29cd212f3d388a1b8d8e61a22e3d5feb85b52f83a"
+    },
+    "source_fingerprints.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\source_fingerprints.json",
+      "sha256": "02cd86959ce29e42550aed58c21c9197f6bd2e41d371a267cc610b1add88b750"
+    },
+    "数据集使用说明.txt": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\数据集使用说明.txt",
+      "sha256": "82b1233a3a35d50eac5e809a805846ccd709444c07d67077af324a22342ea4cf"
+    },
+    "quality_review/independent_sample_role_review.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\quality_review\\independent_sample_role_review.json",
+      "sha256": "3b7bb57a913ee5cecc908e04a2e3e96e9e0fe2f5c9605e3348a3f0696a9ffadb"
+    },
+    "review/partition_independent_review.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\review\\partition_independent_review.json",
+      "sha256": "dc1f8e58a7fa61cffc72db1d76cde26889ef15aa443fabb4a286948bfd85dad7"
+    }
+  }
+}

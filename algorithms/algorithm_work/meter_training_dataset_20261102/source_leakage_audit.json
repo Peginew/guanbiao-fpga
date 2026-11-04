@@ -1,0 +1,133 @@
+{
+  "status": "PASS_SOURCE_IDENTITY_WITH_SCREENING_LIMITS",
+  "source_annotation_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "native_images_read_and_sha256_verified": 472,
+  "source_errors": [],
+  "exact_duplicate_sets": [],
+  "cross_partition_pairs_screened": {
+    "reserve/train": 31329,
+    "reserve/validation": 10443,
+    "reserve/test": 10443,
+    "train/validation": 10443,
+    "test/train": 10443,
+    "test/validation": 3481
+  },
+  "phash_candidate_threshold_bits": 4,
+  "high_similarity_threshold": {
+    "hamming_max": 2,
+    "masked_luma_mae_max": 1.5
+  },
+  "phash_candidates": [],
+  "high_similarity_candidate_count": 0,
+  "nearest_active_partition_phash_pairs": [
+    {
+      "distance": 18,
+      "id_a": "D_016",
+      "id_b": "H_004"
+    },
+    {
+      "distance": 18,
+      "id_a": "E_058",
+      "id_b": "G_004"
+    },
+    {
+      "distance": 18,
+      "id_a": "E_058",
+      "id_b": "G_023"
+    },
+    {
+      "distance": 18,
+      "id_a": "E_058",
+      "id_b": "G_050"
+    },
+    {
+      "distance": 18,
+      "id_a": "F_004",
+      "id_b": "H_004"
+    },
+    {
+      "distance": 18,
+      "id_a": "F_022",
+      "id_b": "G_024"
+    },
+    {
+      "distance": 18,
+      "id_a": "F_022",
+      "id_b": "H_051"
+    },
+    {
+      "distance": 18,
+      "id_a": "F_043",
+      "id_b": "G_035"
+    },
+    {
+      "distance": 18,
+      "id_a": "F_046",
+      "id_b": "H_004"
+    },
+    {
+      "distance": 18,
+      "id_a": "G_002",
+      "id_b": "H_046"
+    },
+    {
+      "distance": 18,
+      "id_a": "G_014",
+      "id_b": "H_016"
+    },
+    {
+      "distance": 18,
+      "id_a": "G_014",
+      "id_b": "H_046"
+    },
+    {
+      "distance": 18,
+      "id_a": "G_037",
+      "id_b": "H_046"
+    },
+    {
+      "distance": 20,
+      "id_a": "D_034",
+      "id_b": "H_004"
+    },
+    {
+      "distance": 20,
+      "id_a": "D_038",
+      "id_b": "H_004"
+    },
+    {
+      "distance": 20,
+      "id_a": "D_038",
+      "id_b": "H_038"
+    },
+    {
+      "distance": 20,
+      "id_a": "D_038",
+      "id_b": "H_044"
+    },
+    {
+      "distance": 20,
+      "id_a": "D_055",
+      "id_b": "G_052"
+    },
+    {
+      "distance": 20,
+      "id_a": "E_058",
+      "id_b": "G_001"
+    },
+    {
+      "distance": 20,
+      "id_a": "E_059",
+      "id_b": "G_008"
+    }
+  ],
+  "method": "Full-scene 64-bit DCT perceptual hash plus 64x36 luma MAE; fixed OSD regions ignored for fingerprint only.",
+  "test_pixels_used_for": "Source identity and leakage screening only; no CNN inference, test metrics or selection.",
+  "raw_images_modified": false,
+  "model_training_or_scoring": false,
+  "limitations": [
+    "Perceptual similarity is only a screening candidate, not proof of a copied frame.",
+    "Same gauge and pressure can be visually similar across genuine rearranged sessions.",
+    "No claim of statistical independence, a new-meter test, or exhaustive detection of all near-duplicates."
+  ]
+}

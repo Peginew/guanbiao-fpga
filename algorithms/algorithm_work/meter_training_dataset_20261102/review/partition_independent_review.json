@@ -1,0 +1,199 @@
+{
+  "schema": "independent_grouped_dataset_partition_review_v1",
+  "status": "PASS_DATA_ORGANIZATION_ONLY_ROI_ADAPTER_PENDING",
+  "reviewed_utc": "2026-11-01T19:28:43.609966+00:00",
+  "dataset_manifest_sha256": "e512850e54db6cc20c4b1973db9d48c852bf8737c3846a07afcb5cf9472c9872",
+  "canonical_annotations_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "review_scope": "Read-only independent check of references, whole-group splits, per-head supervision policy and reserved test semantics. Not new image geometry review, model training, inference evaluation, or FPGA readiness.",
+  "counts": {
+    "all": 472,
+    "train": 177,
+    "first_round_train": 164,
+    "validation": 59,
+    "prospective_reserved_test": 59,
+    "training_refinement_reserve": 177
+  },
+  "training_performed": false,
+  "new_images_decoded_by_this_review": 0,
+  "canonical_modified": false,
+  "model_scoring_performed": false,
+  "board_operations": false,
+  "files_bound": {
+    "dataset_manifest.json": "e512850e54db6cc20c4b1973db9d48c852bf8737c3846a07afcb5cf9472c9872",
+    "split_summary.json": "7a5157ad725d4d84dc7c70cd69dda0e1ecb3397669059a95b7604ec9aec30f0c",
+    "partition_validation.json": "c9a8d2a89d6d18e87d8d77da695301992c802c2ff5dd279a0b1ad74943abdb4d",
+    "label_dictionary.json": "ebcdf67f0151ce72f7344331c1bb6c102bfcf6faad2844f97c84202bdbe009c8",
+    "build_grouped_dataset.py": "e74a9b276fdfdf419b7eab017ec37e951fe22a1fb988952d0b63738ad5a8a051",
+    "source_leakage_audit.json": "0ed187297944dcb8bbef59e29cd212f3d388a1b8d8e61a22e3d5feb85b52f83a"
+  },
+  "checks": [
+    {
+      "name": "frozen_canonical_source_hash_and_no_canonical_split_mutation",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "all_472_records_have_exactly_one_derived_destination",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_capture_sessions_never_cross_splits",
+      "pass": true,
+      "evidence": {
+        "train": {
+          "D": 59,
+          "E": 59,
+          "F": 59
+        },
+        "validation": {
+          "G": 59
+        },
+        "test": {
+          "H": 59
+        },
+        "reserve": {
+          "A": 59,
+          "B": 59,
+          "C": 59
+        }
+      }
+    },
+    {
+      "name": "all_native_points_visibility_uncertainty_bbox_pressure_preserved_exactly",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "only_original_png_sources_and_frozen_labels_referenced",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "per_head_visible_bounded_masks_and_coarse_unknown_occluded_ignore",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "positive_missing_evidence_never_negative_and_negative_zero_heatmaps",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "first_round_164_is_only_train_with_any_valid_supervision",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "13_positive_no_supervision_retained_outside_weight_updates",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "134_full_21_partial_9_negative_lists_exact",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "optional_front_clear56_is_derived_only_from_train",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "ABC_reserved_for_future_train_after_refinement_no_initial_updates",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "training_updates_and_validation_selection_input_lists_separated",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "H59_reserved_test_input_index_has_no_labels_or_pressure",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "H_test_annotation_QA_exposure_disclosed_and_future_selection_prohibited",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "scene_planned_and_observed_provenance_not_physical_measurements",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "pressure_retained_as_reference_not_network_regression_target",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "augmentation_only_train_with_parent_split_and_point_transform",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "old_trainer_and_ROI_adapter_status_explicitly_pending",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "all_partition_jsonl_file_hashes_match_frozen_manifest",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "summary_train_counts",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "summary_validation_counts",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "summary_test_counts",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "summary_reserve_counts",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "separate_source_leakage_review_bound_without_exhaustive_independence_claim",
+      "pass": true,
+      "evidence": {
+        "review_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\source_leakage_audit.json",
+        "review_sha256": "0ed187297944dcb8bbef59e29cd212f3d388a1b8d8e61a22e3d5feb85b52f83a",
+        "status": "PASS_SOURCE_IDENTITY_WITH_SCREENING_LIMITS",
+        "note": "Referenced actual source-only screening; this review does not re-run fingerprinting or claim no possible near duplicates."
+      }
+    },
+    {
+      "name": "assignment_csv_has_472_matching_destinations",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "no_training_model_score_or_board_operation_claim",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "review_snapshot_manifest_and_canonical_stable",
+      "pass": true,
+      "evidence": null
+    }
+  ],
+  "limitations": [
+    "H was viewed in annotation QA and is a prospectively reserved evaluation set, not previously unseen human-certified gold.",
+    "An uncertainty threshold of 8 native pixels is a supervision policy, not proof of label accuracy.",
+    "ROI preprocessing and current trainer schema adaptation remain pending.",
+    "Near-duplicate screening limits remain those of the separately bound source audit."
+  ]
+}

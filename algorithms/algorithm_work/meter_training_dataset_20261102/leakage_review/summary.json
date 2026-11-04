@@ -1,0 +1,126 @@
+{
+  "source_annotations": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotations.json",
+  "source_annotations_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "scope": "Only native PNG source identity and full-frame low-resolution fingerprints; no recognition model, score, or test-based tuning.",
+  "image_count": 472,
+  "group_counts": {
+    "A": 59,
+    "B": 59,
+    "C": 59,
+    "D": 59,
+    "E": 59,
+    "F": 59,
+    "G": 59,
+    "H": 59
+  },
+  "proposed_split": {
+    "train": [
+      "D",
+      "E",
+      "F"
+    ],
+    "validation": [
+      "G"
+    ],
+    "prospective_test": [
+      "H"
+    ],
+    "train_only_reserve": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "source_sha_verified": 472,
+  "exact_file_duplicate_sets": [],
+  "exact_decoded_pixel_duplicate_sets": [],
+  "pair_count": 20886,
+  "candidate_thresholds": {
+    "phash64_hamming_lte": 6,
+    "dhash64_hamming_lte": 6,
+    "very_close_additional_rgb64x36_rmse_lte": 8.0
+  },
+  "candidate_pairs": 0,
+  "very_close_pairs": 0,
+  "candidate_group_pairs": {},
+  "visual_review_selected_pairs": [
+    {
+      "train_id": "D_055",
+      "held_id": "G_042",
+      "train_group": "D",
+      "held_group": "G",
+      "phash_hamming": 30,
+      "dhash_hamming": 25,
+      "full_scene_rgb64x36_rmse": 60.08485,
+      "candidate_screen": false,
+      "very_close_screen": false
+    },
+    {
+      "train_id": "D_034",
+      "held_id": "H_004",
+      "train_group": "D",
+      "held_group": "H",
+      "phash_hamming": 28,
+      "dhash_hamming": 22,
+      "full_scene_rgb64x36_rmse": 49.217255,
+      "candidate_screen": false,
+      "very_close_screen": false
+    },
+    {
+      "train_id": "E_058",
+      "held_id": "G_004",
+      "train_group": "E",
+      "held_group": "G",
+      "phash_hamming": 22,
+      "dhash_hamming": 14,
+      "full_scene_rgb64x36_rmse": 57.726089,
+      "candidate_screen": false,
+      "very_close_screen": false
+    },
+    {
+      "train_id": "E_022",
+      "held_id": "H_004",
+      "train_group": "E",
+      "held_group": "H",
+      "phash_hamming": 18,
+      "dhash_hamming": 25,
+      "full_scene_rgb64x36_rmse": 46.410618,
+      "candidate_screen": false,
+      "very_close_screen": false
+    },
+    {
+      "train_id": "F_016",
+      "held_id": "G_042",
+      "train_group": "F",
+      "held_group": "G",
+      "phash_hamming": 22,
+      "dhash_hamming": 20,
+      "full_scene_rgb64x36_rmse": 50.472271,
+      "candidate_screen": false,
+      "very_close_screen": false
+    },
+    {
+      "train_id": "F_022",
+      "held_id": "H_028",
+      "train_group": "F",
+      "held_group": "H",
+      "phash_hamming": 22,
+      "dhash_hamming": 19,
+      "full_scene_rgb64x36_rmse": 43.426369,
+      "candidate_screen": false,
+      "very_close_screen": false
+    }
+  ],
+  "visual_review_sheets": [
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_training_dataset_20261102\\leakage_review\\cross_split_pairs_01.jpg"
+  ],
+  "recognition_model_run": false,
+  "training_performed": false,
+  "source_images_modified": false,
+  "limits": [
+    "Hashes may miss shifted or illuminated near-duplicates; low-resolution full-scene similarity is dominated by the background.",
+    "Same gauge and same pressure can produce similar images without copied frames.",
+    "Visual candidate inspection must precede any assertion of actual duplicate leakage.",
+    "A-H have already been viewed during annotation; prospective_test is future model evaluation holdout, not a previously unseen image source."
+  ]
+}

@@ -1,0 +1,1884 @@
+{
+  "summary": {
+    "images": 59,
+    "selection_loss": 0.5610280999770532,
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 6.219050437567329,
+      "median": 2.208027268439224,
+      "p90": 6.212882385293264
+    },
+    "within5": 42,
+    "within10": 48,
+    "full": 50,
+    "accepted": 42,
+    "accepted_over10": 1,
+    "negative_count": 3,
+    "negative_accepted": 0
+  },
+  "rows": [
+    {
+      "id": "G_001",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 296.86451021726015,
+      "valid": true,
+      "score": 0.9210407733917236,
+      "margin": 0.710915207862854,
+      "hub_roi": [
+        61.24506782281365,
+        60.17644542614153
+      ],
+      "direction_reference_endpoint_roi": [
+        77.0609459103092,
+        28.953729331581815
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 294.7643257161153,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "19ab126049051dd7df875c1d14ce77035523b6033c19a306cfcef61428a8fcc6",
+      "split": "validation",
+      "angle_error_deg": 2.100184501144838,
+      "target_ray_error_deg": 0.48616414241013217,
+      "hub_error_roi": 1.1172129287985038,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_002",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 296.8828066192409,
+      "valid": true,
+      "score": 0.9289931058883667,
+      "margin": 0.8404325246810913,
+      "hub_roi": [
+        59.92394977833924,
+        60.05595185347979
+      ],
+      "direction_reference_endpoint_roi": [
+        76.38283139417706,
+        27.589581314784894
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 292.52812721393497,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "7e4d72a183af33380bb8339045f3fbc602204298329be51b4e5245be1f4f7dd9",
+      "split": "validation",
+      "angle_error_deg": 4.354679405305944,
+      "target_ray_error_deg": 1.4539091904118777,
+      "hub_error_roi": 1.9454734990873692,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_003",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 300.2525871235974,
+      "valid": true,
+      "score": 0.8419355750083923,
+      "margin": 0.5385392904281616,
+      "hub_roi": [
+        63.41861611246264,
+        60.04774823522822
+      ],
+      "direction_reference_endpoint_roi": [
+        80.69940139537543,
+        30.418970670065928
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 299.72497265019524,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "4056de662956bf9d25e2c415dd4e35fc930fc6af5988c76beaaf247a79ff732a",
+      "split": "validation",
+      "angle_error_deg": 0.5276144734021386,
+      "target_ray_error_deg": 0.05025564466950527,
+      "hub_error_roi": 0.8656930072422763,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_004",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 111.92932973149729,
+      "valid": false,
+      "score": 0.2425491213798523,
+      "margin": 0.180816650390625,
+      "hub_roi": [
+        65.99177252201153,
+        48.72779716190175
+      ],
+      "direction_reference_endpoint_roi": [
+        53.443426023103086,
+        79.89667587358035
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 302.034145705989,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "234f6b198f176bfcf7361913765cf0f0f14700bb816bb18429431d23038ed8ca",
+      "split": "validation",
+      "angle_error_deg": 169.89518402550834,
+      "target_ray_error_deg": 160.28554177713852,
+      "hub_error_roi": 12.213436749189244,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_005",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 303.4368626716216,
+      "valid": true,
+      "score": 0.8430876135826111,
+      "margin": 0.7084276676177979,
+      "hub_roi": [
+        65.39684651644353,
+        60.44730709005396
+      ],
+      "direction_reference_endpoint_roi": [
+        84.29675521637648,
+        31.824179183862462
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 299.1047311486127,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "fd8b0f10c415a9274dbbed0ef260575a0db373e71835e693fd2c27e32c52b01c",
+      "split": "validation",
+      "angle_error_deg": 4.332131523008911,
+      "target_ray_error_deg": 1.2241547784479394,
+      "hub_error_roi": 2.0141851875906878,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_006",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 299.9695280144389,
+      "valid": false,
+      "score": 0.6760030388832092,
+      "margin": 0.48696964979171753,
+      "hub_roi": [
+        58.83465038827102,
+        60.15956381102899
+      ],
+      "direction_reference_endpoint_roi": [
+        75.26949485222352,
+        31.658583346390756
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 298.7866196480494,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "7ae6f16c0f1926d77f16a284e7accd94b4b02538748d25d294d405fc42314c13",
+      "split": "validation",
+      "angle_error_deg": 1.1829083663894835,
+      "target_ray_error_deg": 0.8032869888221512,
+      "hub_error_roi": 1.5874653576424744,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_007",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 289.1677339183668,
+      "valid": true,
+      "score": 0.8829925656318665,
+      "margin": 0.6807271838188171,
+      "hub_roi": [
+        62.452068991218,
+        60.10638810239043
+      ],
+      "direction_reference_endpoint_roi": [
+        72.33494555825862,
+        31.675089314599553
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 287.88239687155306,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0f79206cf774a05fd5475c591982af3c57c7382618ceeb84a27c97bf6795501e",
+      "split": "validation",
+      "angle_error_deg": 1.2853370468137655,
+      "target_ray_error_deg": 0.1685284541844112,
+      "hub_error_roi": 0.8080755920716782,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_008",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 290.0599360401327,
+      "valid": true,
+      "score": 0.9260038733482361,
+      "margin": 0.7835859656333923,
+      "hub_roi": [
+        60.15927050009737,
+        60.038370984409816
+      ],
+      "direction_reference_endpoint_roi": [
+        73.36488410725732,
+        23.873999439221976
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 285.86715467863,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "3586f8627ca5adab7449a1781fa5556859a9f75d5a002dad2dd3af9bc88106cd",
+      "split": "validation",
+      "angle_error_deg": 4.192781361502682,
+      "target_ray_error_deg": 1.3733331517672127,
+      "hub_error_roi": 1.9796435938599337,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_009",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 293.8417469923197,
+      "valid": true,
+      "score": 0.7794696688652039,
+      "margin": 0.48385119438171387,
+      "hub_roi": [
+        61.81733555468661,
+        60.45890408652438
+      ],
+      "direction_reference_endpoint_roi": [
+        75.39885369271929,
+        29.72614688730307
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 292.0350185478878,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "63e0cec605f16e5abd5103b017154b9eac1fb0df9602b764570aa446ea5561e1",
+      "split": "validation",
+      "angle_error_deg": 1.8067284444319398,
+      "target_ray_error_deg": 0.6643775184952005,
+      "hub_error_roi": 0.7111740321197882,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_010",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 294.96731001700977,
+      "valid": true,
+      "score": 0.5286938548088074,
+      "margin": 0.31704410910606384,
+      "hub_roi": [
+        63.20395974582046,
+        59.85288338184813
+      ],
+      "direction_reference_endpoint_roi": [
+        77.0910859699083,
+        30.027429064499472
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 293.8493988200361,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "b13d4097e2e1ab2cbcae289c294e0f3270fe3337d027f1eac88bb0d2bb9afa8f",
+      "split": "validation",
+      "angle_error_deg": 1.1179111969736937,
+      "target_ray_error_deg": 0.335765319279119,
+      "hub_error_roi": 0.9188160918906788,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_011",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 295.0065808646807,
+      "valid": true,
+      "score": 0.6206113696098328,
+      "margin": 0.588523805141449,
+      "hub_roi": [
+        64.22316079946111,
+        60.659488047516895
+      ],
+      "direction_reference_endpoint_roi": [
+        78.42663194196818,
+        30.20917758105418
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 289.1336345526397,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "27cb1eb00873e217db80cb3694192c16b8bf9f457bc92edfadb26aeb2d0f22de",
+      "split": "validation",
+      "angle_error_deg": 5.872946312040995,
+      "target_ray_error_deg": 1.999147157276525,
+      "hub_error_roi": 2.338215171422306,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_012",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 286.9998387998117,
+      "valid": true,
+      "score": 0.7785091400146484,
+      "margin": 0.6569607257843018,
+      "hub_roi": [
+        58.89016493515027,
+        60.295573335339974
+      ],
+      "direction_reference_endpoint_roi": [
+        68.71376381169819,
+        28.163705896414392
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 281.5346230132143,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "dd3c3e49976f6c68286ebaed07370099aeb82419d63ace1a328190ec6d7db0bb",
+      "split": "validation",
+      "angle_error_deg": 5.465215786597412,
+      "target_ray_error_deg": 3.4827022376322816,
+      "hub_error_roi": 1.8729728158731263,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_013",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 271.25134390603364,
+      "valid": true,
+      "score": 0.8983069062232971,
+      "margin": 0.7937776446342468,
+      "hub_roi": [
+        63.65696245307941,
+        61.308886467393236
+      ],
+      "direction_reference_endpoint_roi": [
+        64.40601734467317,
+        27.017066498640055
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 271.66105146399474,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "3ec790fdac4b3ad561eaadac0d8631388b9c9052219a9f90538d7597a27d88d5",
+      "split": "validation",
+      "angle_error_deg": 0.4097075579610987,
+      "target_ray_error_deg": 0.4482363619288776,
+      "hub_error_roi": 0.6436590209987654,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_014",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 272.432857082384,
+      "valid": true,
+      "score": 0.9142659902572632,
+      "margin": 0.7232239246368408,
+      "hub_roi": [
+        61.2576451294307,
+        60.23559293664335
+      ],
+      "direction_reference_endpoint_roi": [
+        62.92163056525559,
+        21.070925793038484
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 269.3768670273674,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "b29d7303c150a154293e5625be7a97b4f16e1ceeb29b732906d89330ab259ca3",
+      "split": "validation",
+      "angle_error_deg": 3.0559900550165935,
+      "target_ray_error_deg": 0.8460860707660913,
+      "hub_error_roi": 1.8806844225622428,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_015",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 274.9374929691253,
+      "valid": true,
+      "score": 0.7914382219314575,
+      "margin": 0.6698817014694214,
+      "hub_roi": [
+        62.74351770584434,
+        63.55754539624213
+      ],
+      "direction_reference_endpoint_roi": [
+        65.9366734881435,
+        26.59521651736913
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 274.07164757667215,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "70ae0253a62d46ca75b3d24010e112aaa07f9b41160ae81736340f9c59bf2d6b",
+      "split": "validation",
+      "angle_error_deg": 0.8658453924531386,
+      "target_ray_error_deg": 0.34192587146844744,
+      "hub_error_roi": 2.950432756678558,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_016",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 278.94176199663684,
+      "valid": true,
+      "score": 0.8459601998329163,
+      "margin": 0.6631188988685608,
+      "hub_roi": [
+        61.990372446808614,
+        58.27148637072675
+      ],
+      "direction_reference_endpoint_roi": [
+        67.53923964094318,
+        23.005354276862853
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 276.94544709574086,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "5dc05e7fe30007a5457ac364875a3bb8fdf99fdd0c5261f3ae3bba7947c2e351",
+      "split": "validation",
+      "angle_error_deg": 1.9963149008959817,
+      "target_ray_error_deg": 0.1524060290045668,
+      "hub_error_roi": 2.1021746443394114,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_017",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 278.31272335334893,
+      "valid": true,
+      "score": 0.8389102220535278,
+      "margin": 0.6483800411224365,
+      "hub_roi": [
+        65.08800247202367,
+        60.184581616582165
+      ],
+      "direction_reference_endpoint_roi": [
+        70.24936338359166,
+        24.859656230383003
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 273.9793899525742,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "f6826b9cd95b60c18a60770de9cdcb0af415dafe52c78e39943b8ec565557e15",
+      "split": "validation",
+      "angle_error_deg": 4.333333400774734,
+      "target_ray_error_deg": 1.856889176233949,
+      "hub_error_roi": 1.77681730911445,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_018",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 279.1386886698347,
+      "valid": true,
+      "score": 0.8445194959640503,
+      "margin": 0.7493481636047363,
+      "hub_roi": [
+        59.7018437102706,
+        58.45796510728819
+      ],
+      "direction_reference_endpoint_roi": [
+        65.3718882512844,
+        23.21111283785966
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 276.17018093397826,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "3725e6a4907b86fb17547ed1f7aa0809367eb9abaa23f1d019d580e50424213f",
+      "split": "validation",
+      "angle_error_deg": 2.9685077358564627,
+      "target_ray_error_deg": 1.6968895709051708,
+      "hub_error_roi": 1.666328043458759,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_019",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 243.142743333769,
+      "valid": true,
+      "score": 0.9865449070930481,
+      "margin": 0.7631478309631348,
+      "hub_roi": [
+        62.17281800885683,
+        60.04819071701666
+      ],
+      "direction_reference_endpoint_roi": [
+        46.04465428803774,
+        28.198978246463252
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 242.35402538097793,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2460f56ae339c42716317997b051e2eec89ebd4b834f68d21a3093be84278d2b",
+      "split": "validation",
+      "angle_error_deg": 0.7887179527910746,
+      "target_ray_error_deg": 0.29881556078461813,
+      "hub_error_roi": 1.1643788701045328,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_020",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 244.86209757747923,
+      "valid": true,
+      "score": 0.987882137298584,
+      "margin": 0.8256692886352539,
+      "hub_roi": [
+        60.40912617662163,
+        64.31054333114544
+      ],
+      "direction_reference_endpoint_roi": [
+        42.567594064220515,
+        26.28844801957483
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 241.49786804717587,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "e2293754a97a916db350d8ec6bbbee4732b82d833f41b9503e63f91ee68cf954",
+      "split": "validation",
+      "angle_error_deg": 3.364229530303362,
+      "target_ray_error_deg": 0.9671884104381832,
+      "hub_error_roi": 2.2341678052065883,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_021",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 250.9909436784249,
+      "valid": true,
+      "score": 0.8298425674438477,
+      "margin": 0.7499732971191406,
+      "hub_roi": [
+        63.779112459709694,
+        63.860716983967954
+      ],
+      "direction_reference_endpoint_roi": [
+        52.378996405740764,
+        30.769368356931913
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 249.51728649628834,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "6621b34abf73f3bbde261d82b000ec33b50166b594ff49efc42ffb7833435bc3",
+      "split": "validation",
+      "angle_error_deg": 1.4736571821365771,
+      "target_ray_error_deg": 0.3919410296086312,
+      "hub_error_roi": 3.0801875960699467,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_022",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 254.1107619019351,
+      "valid": true,
+      "score": 0.8965912461280823,
+      "margin": 0.8666039109230042,
+      "hub_roi": [
+        63.86485659950579,
+        61.37179680939027
+      ],
+      "direction_reference_endpoint_roi": [
+        54.66589666793767,
+        29.055560392112284
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 254.18955994613265,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "002625b00ba4a1d2ce309d8054cd07e5fdeb0b93376a8e1310d458ba665bbcdb",
+      "split": "validation",
+      "angle_error_deg": 0.07879804419755487,
+      "target_ray_error_deg": 0.08761388183918939,
+      "hub_error_roi": 0.9758995812705534,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_023",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 249.04501155966855,
+      "valid": false,
+      "score": 0.907304584980011,
+      "margin": 0.8017564415931702,
+      "hub_roi": [
+        64.98006128219846,
+        61.54795786854822
+      ],
+      "direction_reference_endpoint_roi": [
+        52.212512547886334,
+        28.209096170569318
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 247.61987157615295,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "e584988e273d0787952328d4f29613d0dbe054dd7e6b125cee028feb84ce445b",
+      "split": "validation",
+      "angle_error_deg": 1.4251399835156064,
+      "target_ray_error_deg": 0.9824517948205482,
+      "hub_error_roi": 1.690775332517433,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_024",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 257.6203816512458,
+      "valid": true,
+      "score": 0.3998470902442932,
+      "margin": 0.24074611067771912,
+      "hub_roi": [
+        61.89751105077129,
+        77.57654118145545
+      ],
+      "direction_reference_endpoint_roi": [
+        54.3939350769863,
+        43.390340052847485
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 244.62843500397184,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0e1d7c00c82f8dc22d780443b14dca23170965420aefa0991ec3f9b0b9123f13",
+      "split": "validation",
+      "angle_error_deg": 12.991946647273949,
+      "target_ray_error_deg": 5.160435778461078,
+      "hub_error_roi": 16.91144883339322,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_025",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 230.0748779035249,
+      "valid": true,
+      "score": 0.9834011197090149,
+      "margin": 0.7333619594573975,
+      "hub_roi": [
+        63.03995000341305,
+        60.48210989612065
+      ],
+      "direction_reference_endpoint_roi": [
+        41.47594229637089,
+        34.714813343889446
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 229.6187531520548,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "da33a38966de8555098d93bbbc8434d657b87876be71b9998b5fe4e6464031c0",
+      "split": "validation",
+      "angle_error_deg": 0.45612475147009945,
+      "target_ray_error_deg": 0.42055148671633447,
+      "hub_error_roi": 0.4796870067613365,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_026",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 232.28939145389953,
+      "valid": true,
+      "score": 0.9929319620132446,
+      "margin": 0.8202645182609558,
+      "hub_roi": [
+        59.98448794463073,
+        58.44756797652666
+      ],
+      "direction_reference_endpoint_roi": [
+        36.43505711851895,
+        27.989821707864955
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 230.99470762297125,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "705bd770456a402f2d57ee64290584e4e6d52950f56bf38c36957b05374049c7",
+      "split": "validation",
+      "angle_error_deg": 1.2946838309282782,
+      "target_ray_error_deg": 0.5852802767205674,
+      "hub_error_roi": 2.8990417857769537,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_027",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 235.91973203865223,
+      "valid": true,
+      "score": 0.8687823414802551,
+      "margin": 0.6936975717544556,
+      "hub_roi": [
+        61.948684243910414,
+        63.803207156484866
+      ],
+      "direction_reference_endpoint_roi": [
+        40.3750634668924,
+        31.915452664056012
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 231.19757489502575,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "37f4589c0c84a3e4c794108283b701627aa7e11ac44e8afd43ddf3631438709d",
+      "split": "validation",
+      "angle_error_deg": 4.722157143626475,
+      "target_ray_error_deg": 1.7998397902312604,
+      "hub_error_roi": 3.570815659269611,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_028",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 232.150548225541,
+      "valid": true,
+      "score": 0.9339151382446289,
+      "margin": 0.6197382211685181,
+      "hub_roi": [
+        60.4459302255649,
+        58.48719390180568
+      ],
+      "direction_reference_endpoint_roi": [
+        35.96373690062798,
+        26.981127660517895
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 230.86839998145976,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "78247233be816bef621d9c59f181c6b1d77d4038fd2e9de124553b97a93f0416",
+      "split": "validation",
+      "angle_error_deg": 1.2821482440812417,
+      "target_ray_error_deg": 0.8136416178035688,
+      "hub_error_roi": 3.0407124362687905,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_029",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 230.99099517923017,
+      "valid": false,
+      "score": 0.9371711015701294,
+      "margin": 0.8241313099861145,
+      "hub_roi": [
+        64.116386033023,
+        60.20755992820472
+      ],
+      "direction_reference_endpoint_roi": [
+        38.56101962086303,
+        28.659449881163148
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 228.17983082600074,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "9ab426007ded4e5b377405d83470efdbfb100193c0e502ea4bb57ec6644b0fee",
+      "split": "validation",
+      "angle_error_deg": 2.8111643532294295,
+      "target_ray_error_deg": 0.8562390274493907,
+      "hub_error_roi": 2.67055792042285,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_030",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 234.31276181845254,
+      "valid": false,
+      "score": 0.9677063822746277,
+      "margin": 0.36205369234085083,
+      "hub_roi": [
+        57.52004375808112,
+        58.43735606386835
+      ],
+      "direction_reference_endpoint_roi": [
+        33.42726267223158,
+        24.892939247513787
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 230.77432401800223,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "1d8fd4fdd3ef8636a2b9c12aaafbe11b019cfc857a8908a672fda332f7f31211",
+      "split": "validation",
+      "angle_error_deg": 3.5384378004503105,
+      "target_ray_error_deg": 3.68075229789946,
+      "hub_error_roi": 1.9381958316013002,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_031",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 205.67111160318407,
+      "valid": true,
+      "score": 0.9705992937088013,
+      "margin": 0.7087098956108093,
+      "hub_roi": [
+        61.52826089066316,
+        60.55802754827579
+      ],
+      "direction_reference_endpoint_roi": [
+        28.721102628016936,
+        44.78937615604559
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 204.33676703047047,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0b12acb9e9335c2f89be350cd713e9a3ebe9be72e41f5ca87097a08ed978e974",
+      "split": "validation",
+      "angle_error_deg": 1.3343445727136043,
+      "target_ray_error_deg": 1.0466753840404124,
+      "hub_error_roi": 0.7846887720504891,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_032",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 209.05394952700735,
+      "valid": true,
+      "score": 0.973506510257721,
+      "margin": 0.8454570770263672,
+      "hub_roi": [
+        62.11742455747977,
+        64.37483879478428
+      ],
+      "direction_reference_endpoint_roi": [
+        26.62641389244436,
+        44.65814125248927
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 204.69398654578663,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2dcdedbc39e3e55f75ca2620a66af66123870b9b12bf477e1af9ff672c1da212",
+      "split": "validation",
+      "angle_error_deg": 4.359962981220718,
+      "target_ray_error_deg": 1.1390086821488126,
+      "hub_error_roi": 2.944814263259511,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_033",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 215.86343708573605,
+      "valid": false,
+      "score": 0.694151759147644,
+      "margin": 0.3365108370780945,
+      "hub_roi": [
+        63.92812466160199,
+        65.90581884640059
+      ],
+      "direction_reference_endpoint_roi": [
+        31.02524866099853,
+        42.12009306624177
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 207.4504772003672,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "296fd47e58b8a7aac21ab1d90ec76aaa7104fb6df103e8656603a0bf54cd4948",
+      "split": "validation",
+      "angle_error_deg": 8.41295988536885,
+      "target_ray_error_deg": 3.414000109200458,
+      "hub_error_roi": 6.024149107088727,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_034",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 211.66730089459702,
+      "valid": true,
+      "score": 0.9690076112747192,
+      "margin": 0.906076192855835,
+      "hub_roi": [
+        63.204872219839636,
+        62.27153965837266
+      ],
+      "direction_reference_endpoint_roi": [
+        29.245548856875935,
+        41.3245981935748
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 208.8247495463396,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "40210ddf1cbab63f9beafc74650d502ae2f5b512efb95be8315fa24406dc52fe",
+      "split": "validation",
+      "angle_error_deg": 2.842551348257416,
+      "target_ray_error_deg": 0.9396881222035631,
+      "hub_error_roi": 2.4672733858685123,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_035",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 203.8899811017141,
+      "valid": false,
+      "score": 0.35515573620796204,
+      "margin": 0.06351479887962341,
+      "hub_roi": [
+        60.617040459905986,
+        53.5844323010694
+      ],
+      "direction_reference_endpoint_roi": [
+        22.21539947170276,
+        36.57520041326359
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 210.7453496957015,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "bfda3139b88b394ae5b5145f921df8884bfdd2e389696b3cff58aa41aede866a",
+      "split": "validation",
+      "angle_error_deg": 6.855368593987379,
+      "target_ray_error_deg": 1.3964715753813834,
+      "hub_error_roi": 10.039303760312539,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_036",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 212.7950999897138,
+      "valid": true,
+      "score": 0.7351275682449341,
+      "margin": 0.6313279867172241,
+      "hub_roi": [
+        59.21153389735422,
+        58.467609950647585
+      ],
+      "direction_reference_endpoint_roi": [
+        25.67107806939378,
+        36.85632070514827
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 211.5441543600014,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "a61d0c4d0c9405073264e6b99488c1d32e4b00da37a8ea23cc946ecb9281272a",
+      "split": "validation",
+      "angle_error_deg": 1.2509456297124188,
+      "target_ray_error_deg": 2.2424982290882554,
+      "hub_error_roi": 0.8742480005905192,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_037",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 185.74716880424103,
+      "valid": true,
+      "score": 0.9718182682991028,
+      "margin": 0.6700239777565002,
+      "hub_roi": [
+        59.920024684824696,
+        60.19900471140314
+      ],
+      "direction_reference_endpoint_roi": [
+        18.827620468905963,
+        56.06326828900576
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 186.875741299572,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2f10fbbd6615a1ce6f0d4304c3665fa4ea952f3a0587fd16b6dac031f279bd9d",
+      "split": "validation",
+      "angle_error_deg": 1.1285724953309852,
+      "target_ray_error_deg": 0.47180470857503565,
+      "hub_error_roi": 2.2372553079778963,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_038",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 185.89041748068294,
+      "valid": true,
+      "score": 0.9882726073265076,
+      "margin": 0.5422568321228027,
+      "hub_roi": [
+        59.89230524288755,
+        60.43054823300314
+      ],
+      "direction_reference_endpoint_roi": [
+        20.899281442854907,
+        56.40760218189987
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 186.52576104470828,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "a0ba4d5558222f187a5e94ca715088d1f97a8d4a6dc89df68103e5ae5adf6af1",
+      "split": "validation",
+      "angle_error_deg": 0.6353435640253338,
+      "target_ray_error_deg": 0.41045329317583423,
+      "hub_error_roi": 1.9186034864944057,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_039",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 192.06448599141427,
+      "valid": true,
+      "score": 0.8668840527534485,
+      "margin": 0.5785210132598877,
+      "hub_roi": [
+        62.30295620552576,
+        62.16869865174235
+      ],
+      "direction_reference_endpoint_roi": [
+        28.076001970946812,
+        54.85326265489035
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 188.5587037023723,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "6aac7274008a8af7ce6a1af76510756e4b3235040e8a98c10a5da95c347aa730",
+      "split": "validation",
+      "angle_error_deg": 3.5057822890419743,
+      "target_ray_error_deg": 1.2002464550503191,
+      "hub_error_roi": 1.537228351955294,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_040",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 193.00950073617486,
+      "valid": true,
+      "score": 0.8560172915458679,
+      "margin": 0.8055039048194885,
+      "hub_roi": [
+        64.30126224725785,
+        61.44008993475064
+      ],
+      "direction_reference_endpoint_roi": [
+        30.199615990181293,
+        53.561148219189086
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 191.69459792590652,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "efde643e1c09a9b55e255a34b2b5c229811c2be24929332a45249d8a387fe755",
+      "split": "validation",
+      "angle_error_deg": 1.314902810268336,
+      "target_ray_error_deg": 0.597413220719119,
+      "hub_error_roi": 0.8542075210109616,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_041",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 186.16153751014548,
+      "valid": true,
+      "score": 0.8100400567054749,
+      "margin": 0.5996082425117493,
+      "hub_roi": [
+        64.4123494127571,
+        60.4994543507254
+      ],
+      "direction_reference_endpoint_roi": [
+        26.830710955207273,
+        56.44230623338834
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 188.46128801112502,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "69d57539d7fa8bc482854cf5d5199be5e6f5867ca977cf5eb3b5b3652b0cb0c5",
+      "split": "validation",
+      "angle_error_deg": 2.299750500979542,
+      "target_ray_error_deg": 1.4331511484388955,
+      "hub_error_roi": 1.7933171565971486,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_042",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 200.48201037320953,
+      "valid": true,
+      "score": 0.7486204504966736,
+      "margin": 0.6363221406936646,
+      "hub_roi": [
+        63.84697335951397,
+        63.89323726139195
+      ],
+      "direction_reference_endpoint_roi": [
+        31.059599839680352,
+        51.64627283460793
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 194.03624809638416,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0a3dadaa0f89120733b1d39397b45d06938d0a7d0e9ae0c3f29f09a258a7610f",
+      "split": "validation",
+      "angle_error_deg": 6.445762276825377,
+      "target_ray_error_deg": 3.063939891889561,
+      "hub_error_roi": 4.770369458059101,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_043",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 176.17687865449457,
+      "valid": true,
+      "score": 0.9801725745201111,
+      "margin": 0.7635781764984131,
+      "hub_roi": [
+        63.3169982620778,
+        60.52851484205717
+      ],
+      "direction_reference_endpoint_roi": [
+        27.696443519855507,
+        62.9088677268926
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 176.67493852154357,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "45e395b5255d28a4f3ed22ddf9110dfcd9d472a28a0cfad8163dbec806dad738",
+      "split": "validation",
+      "angle_error_deg": 0.49805986704899396,
+      "target_ray_error_deg": 0.31074665009370506,
+      "hub_error_roi": 0.3332510958638315,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_044",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 180.29537692076215,
+      "valid": true,
+      "score": 0.9750495553016663,
+      "margin": 0.7415125370025635,
+      "hub_roi": [
+        55.82091808279103,
+        61.949020035714874
+      ],
+      "direction_reference_endpoint_roi": [
+        12.42149480493191,
+        61.7252810153804
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 177.49360526980274,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "dea2b60677d522bd188e01c474c5818060b6f93039d43d2c7198b7aa85f85d4b",
+      "split": "validation",
+      "angle_error_deg": 2.8017716509594095,
+      "target_ray_error_deg": 0.8232546232546838,
+      "hub_error_roi": 4.767129996103536,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_045",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 179.06473982231117,
+      "valid": true,
+      "score": 0.8295238614082336,
+      "margin": 0.6554336547851562,
+      "hub_roi": [
+        64.40154829499505,
+        61.81891842314742
+      ],
+      "direction_reference_endpoint_roi": [
+        30.106117852029072,
+        62.3787851320006
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 175.72124330796146,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2dbfd4645a2b79ccf02cb5eb3734e0a42303d7131e7e8f32c460282a0991a507",
+      "split": "validation",
+      "angle_error_deg": 3.3434965143497095,
+      "target_ray_error_deg": 1.1564149650070306,
+      "hub_error_roi": 1.4336756448707288,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_046",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 169.99415430478848,
+      "valid": true,
+      "score": 0.9638863205909729,
+      "margin": 0.8359716534614563,
+      "hub_roi": [
+        63.41066636533246,
+        60.570691335026176
+      ],
+      "direction_reference_endpoint_roi": [
+        28.253662253331747,
+        66.77351826061135
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 170.7202771765715,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "265a34dde22630c6885c38c078fd813b594514abfa82e48e8c088031ace51bde",
+      "split": "validation",
+      "angle_error_deg": 0.7261228717830193,
+      "target_ray_error_deg": 0.354598712915589,
+      "hub_error_roi": 0.4056019802538874,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_047",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 165.78894528414392,
+      "valid": true,
+      "score": 0.8750404715538025,
+      "margin": 0.7019215822219849,
+      "hub_roi": [
+        66.10456561243804,
+        60.10712983186134
+      ],
+      "direction_reference_endpoint_roi": [
+        32.85421414547895,
+        68.5275886865611
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 167.90524932004283,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "ef577babaffba508dcdcfa7a5d812c468db98603dd76564b51d35ff47b8ba5fe",
+      "split": "validation",
+      "angle_error_deg": 2.1163040358989065,
+      "target_ray_error_deg": 1.2209209888576424,
+      "hub_error_roi": 0.6044987396051604,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_048",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 171.0723454399511,
+      "valid": true,
+      "score": 0.9661181569099426,
+      "margin": 0.4196856617927551,
+      "hub_roi": [
+        58.769157007861914,
+        60.67813310539188
+      ],
+      "direction_reference_endpoint_roi": [
+        24.884698842950222,
+        66.00105475335452
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 170.8194607154994,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "850cec5b89eee6fb2d7ec6b30585c61b3eddf894e5c78921bfe206dbc7f4cbfa",
+      "split": "validation",
+      "angle_error_deg": 0.25288472445171806,
+      "target_ray_error_deg": 0.09488401953643688,
+      "hub_error_roi": 0.9614643154163042,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_049",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 187.64195986593168,
+      "valid": false,
+      "score": 0.4540652334690094,
+      "margin": 0.2360193282365799,
+      "hub_roi": [
+        64.2193674072702,
+        20.757224662995583
+      ],
+      "direction_reference_endpoint_roi": [
+        29.530222773743816,
+        16.10284558579444
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": false,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "6a0e99006122dea3d89fe40bb54f052a187fd2f93d107018bae424f6482e7438",
+      "split": "validation",
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_050",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 140.79312336777934,
+      "valid": false,
+      "score": 0.2183699905872345,
+      "margin": 0.09731309115886688,
+      "hub_roi": [
+        48.295310628939426,
+        63.70858203440263
+      ],
+      "direction_reference_endpoint_roi": [
+        21.174908682335264,
+        85.83286277422849
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": false,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "abdd5bea76cde9941a57b33d5b122a30f3bb1cfe2121bae92c8f2b6c024c987f",
+      "split": "validation",
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_051",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 24.192536849263178,
+      "valid": false,
+      "score": 0.19830960035324097,
+      "margin": 0.011764034628868103,
+      "hub_roi": [
+        52.22057311167486,
+        55.87938341783682
+      ],
+      "direction_reference_endpoint_roi": [
+        84.14664573752124,
+        70.22253114381323
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": false,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "34846cbc306b4334882bce4cd821d97630faab291bcf9cd77be899fbb7cd0ff3",
+      "split": "validation",
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_052",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 353.82540630034526,
+      "valid": true,
+      "score": 0.6265987157821655,
+      "margin": 0.39776235818862915,
+      "hub_roi": [
+        67.95631275575118,
+        52.108889307578956
+      ],
+      "direction_reference_endpoint_roi": [
+        111.10453875294695,
+        47.44084975173554
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        0
+      ],
+      "source_sha256": "9bdfb5492036ee8d11883dcc76ac8d04d0fa5c7d61bdcb7d8c873af1075791fa",
+      "split": "validation",
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_053",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 164.7888878345327,
+      "valid": true,
+      "score": 0.3011946976184845,
+      "margin": 0.1984085738658905,
+      "hub_roi": [
+        64.57441734054179,
+        62.37591356941537
+      ],
+      "direction_reference_endpoint_roi": [
+        36.20442792619528,
+        70.08977775216239
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 169.43898930880363,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "a3628e60552adf773f21841e98dc265cba2fac01889b1d63bb2cd2ad41aec8bd",
+      "split": "validation",
+      "angle_error_deg": 4.65010147427094,
+      "target_ray_error_deg": 0.8813731698752463,
+      "hub_error_roi": 2.71852306810405,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_054",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 175.56735997836552,
+      "valid": false,
+      "score": 0.06738691031932831,
+      "margin": 0.04420312121510506,
+      "hub_roi": [
+        76.3944348613353,
+        63.97649947579351
+      ],
+      "direction_reference_endpoint_roi": [
+        45.686561189012366,
+        66.35693946131215
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 169.38035313657582,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "16659051de9332bd87066269098a9a37feba97b4d01d259d3d1f074c1199b800",
+      "split": "validation",
+      "angle_error_deg": 6.187006841789696,
+      "target_ray_error_deg": 0.7870301706398379,
+      "hub_error_roi": 13.790113971676487,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_055",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 71.14597175546031,
+      "valid": false,
+      "score": 0.018356673419475555,
+      "margin": 0.002496343106031418,
+      "hub_roi": [
+        76.26432912605446,
+        65.54886681628145
+      ],
+      "direction_reference_endpoint_roi": [
+        85.99139137915272,
+        94.03384987620885
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        0
+      ],
+      "source_sha256": "5dee84169295c9f21d980bcfae47e7d8aa7273ee4f00f22e6717c42bcbbac577",
+      "split": "validation",
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_056",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 175.4681236831055,
+      "valid": true,
+      "score": 0.3011663854122162,
+      "margin": 0.16055454313755035,
+      "hub_roi": [
+        71.56386978960478,
+        64.33132950654685
+      ],
+      "direction_reference_endpoint_roi": [
+        30.39299304215394,
+        67.59459594467462
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        1
+      ],
+      "source_sha256": "fc7fa78212cff0754f9e74a0b5cba2b6c83e4ca5947c56a36a0e7a5951eb3f3b",
+      "split": "validation",
+      "target_ray_error_deg": 1.2220421566744335,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_057",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 283.2562281179962,
+      "valid": false,
+      "score": 0.1259704828262329,
+      "margin": 0.04370690882205963,
+      "hub_roi": [
+        64.40187166634601,
+        65.51053292626919
+      ],
+      "direction_reference_endpoint_roi": [
+        73.71170326567096,
+        25.992346788843676
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        1
+      ],
+      "source_sha256": "9e9946afe09bfd0063cf0cde5a52c1ccf97808122d65a15f426eb2fe3d65ed33",
+      "split": "validation",
+      "target_ray_error_deg": 109.31506729577228,
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_058",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 174.91542569985376,
+      "valid": true,
+      "score": 0.49574005603790283,
+      "margin": 0.3395277261734009,
+      "hub_roi": [
+        63.98652481982926,
+        64.13393699595052
+      ],
+      "direction_reference_endpoint_roi": [
+        22.849041878623126,
+        67.794196175568
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        0
+      ],
+      "source_sha256": "118de3907619ac1da493d4d6c0841c80f4112a00a822e464887d976dd3c3c88f",
+      "split": "validation",
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    },
+    {
+      "id": "G_059",
+      "model_name": "robust_hub_polar_v1",
+      "angle_deg_image": 281.4428672347764,
+      "valid": false,
+      "score": 0.15746945142745972,
+      "margin": 0.02031877636909485,
+      "hub_roi": [
+        63.55358165627844,
+        62.41949258064161
+      ],
+      "direction_reference_endpoint_roi": [
+        69.10852122200929,
+        34.9760480734177
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        0
+      ],
+      "source_sha256": "51176451fcf00b1f6e4930084da67cea8453f1d5a8dab56e13a07237f089ee7c",
+      "split": "validation",
+      "unit": "psi",
+      "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+      "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+      "direction_display_independent_of_READ": true
+    }
+  ]
+}

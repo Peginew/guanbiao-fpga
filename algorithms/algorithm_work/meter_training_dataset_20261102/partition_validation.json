@@ -1,0 +1,11 @@
+{
+  "status": "PASS_PARTITION_ONLY_ROI_ADAPTER_PENDING",
+  "records": 472,
+  "errors": [],
+  "source_annotations_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "training_performed": false,
+  "model_evaluation_performed": false,
+  "original_images_written": false,
+  "full_source_pixel_read_required_here": false,
+  "source_pixel_identity_review": "separate leakage/source audit"
+}

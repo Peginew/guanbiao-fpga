@@ -1,0 +1,60 @@
+{
+  "date_local": "2026-11-04",
+  "image_count": 497,
+  "canonical_annotated_count": 472,
+  "additional_unassigned_images": 25,
+  "initial_group_to_split": {
+    "A": "reserve",
+    "B": "reserve",
+    "C": "reserve",
+    "D": "train",
+    "E": "train",
+    "F": "train",
+    "G": "validation",
+    "H": "test"
+  },
+  "selected_landmark_model_training": {
+    "groups": [
+      "D",
+      "E",
+      "F"
+    ],
+    "images": 177,
+    "selection": "prior_b857_U7"
+  },
+  "rejected_expanded_training_attempt": {
+    "groups": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "images": 295,
+    "selected": false
+  },
+  "development": {
+    "group": "G",
+    "images": 59,
+    "repeatedly_used_for_development": true
+  },
+  "historical_final_evaluation": {
+    "group": "H",
+    "images": 59,
+    "already_evaluated": true,
+    "prior_annotation_QA_exposure": true,
+    "unseen_blind_gold": false
+  },
+  "selected_candidate_final_evaluation": {
+    "group": "C",
+    "images": 59,
+    "completed_once_after_freeze": true,
+    "used_to_reselect_or_tune_final_candidate": false,
+    "prior_annotation_QA_exposure": true,
+    "unseen_blind_gold": false
+  },
+  "original_split_artifacts_scope": "Historical initial partition; latest use is stated separately here without rewriting source split assignments.",
+  "pressure_unit": "psi",
+  "ground_truth": "User-provided pressure references and AI-assisted geometry with explicit visibility/uncertainty; not certified metrology gold.",
+  "roi_scope": "Native HDMI captures; manual face-box 128x128 proxies do not establish equivalence to actual automatic CSI ROI."
+}

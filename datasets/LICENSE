@@ -1,0 +1,14 @@
+# 数据许可
+
+Copyright (c) 2026 Peginew and project contributors.
+
+本目录中由项目团队自行采集的图像、原始采集视频和原创标注，采用
+Creative Commons Attribution 4.0 International (CC BY 4.0) 许可。
+
+标准许可及法律条款：https://creativecommons.org/licenses/by/4.0/
+SPDX-License-Identifier: CC-BY-4.0
+
+建议署名：Peginew and project contributors, GuanBiao FPGA instrument dataset,
+https://github.com/Peginew/guanbiao-fpga, 2026.
+
+本授权不包括图像中的第三方商标、标识及非团队原创作品。源代码沿用根目录或文件内的软件许可证。

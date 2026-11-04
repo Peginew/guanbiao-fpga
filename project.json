@@ -1,0 +1,44 @@
+{
+  "name": "GuanBiao",
+  "repository": "https://github.com/Peginew/guanbiao-fpga",
+  "snapshot_date": "2026-11-04",
+  "competition_topic": "Anlogic topic 2",
+  "hardware": {
+    "board": "HX1P35A",
+    "fpga": "PH1P35MDG324-3",
+    "camera": "SC500CS"
+  },
+  "deployed_snapshot": {
+    "fpga_prefix": "87da",
+    "mcu_elf_prefix": "793d",
+    "mcu_payload_prefix": "347b"
+  },
+  "selected_neural_parameters": {
+    "hub": 1202,
+    "polar": 1009,
+    "print_landmarks": 1222,
+    "total": 3433
+  },
+  "dataset": {
+    "images": 497,
+    "canonical_annotations": 472,
+    "annotation_status": "original geometry retained; public paths relocated",
+    "images_release_tag": "instrument-images-20261104",
+    "images_download": "python datasets/download_images.py"
+  },
+  "entry_points": {
+    "implementation": "docs/IMPLEMENTATION_STATUS.md",
+    "third_party_dependencies": "DEPENDENCIES_REQUIRED.json",
+    "algorithms": "algorithms/README.md",
+    "dataset": "datasets/README.md"
+  },
+  "acceptance": {
+    "natural_axis_needle_pressure_on_board": "PENDING",
+    "new_rover_integrated_bitstream": "PENDING"
+  },
+  "licenses": {
+    "original_software": "MIT",
+    "original_data": "CC-BY-4.0",
+    "third_party": "per-file notices"
+  }
+}

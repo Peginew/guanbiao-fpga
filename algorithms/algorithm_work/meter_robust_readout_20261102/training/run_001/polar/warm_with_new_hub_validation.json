@@ -1,0 +1,1648 @@
+{
+  "summary": {
+    "images": 59,
+    "selection_loss": 0.7302753696074853,
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 6.208336660512137,
+      "median": 2.1514154687655633,
+      "p90": 6.041286523468351
+    },
+    "within5": 42,
+    "within10": 47,
+    "full": 50,
+    "accepted": 42,
+    "accepted_over10": 2,
+    "negative_count": 3,
+    "negative_accepted": 0
+  },
+  "rows": [
+    {
+      "id": "G_001",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 296.79462680991907,
+      "valid": true,
+      "score": 0.7439000010490417,
+      "margin": 0.5593518614768982,
+      "hub_roi": [
+        61.24506782281365,
+        60.17644542614153
+      ],
+      "direction_reference_endpoint_roi": [
+        77.0228519475515,
+        28.93446200457928
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 294.7643257161153,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "19ab126049051dd7df875c1d14ce77035523b6033c19a306cfcef61428a8fcc6",
+      "split": "validation",
+      "angle_error_deg": 2.0303010938037573,
+      "target_ray_error_deg": 0.4162807350690514,
+      "hub_error_roi": 1.1172129287985038
+    },
+    {
+      "id": "G_002",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 296.7546493099976,
+      "valid": true,
+      "score": 0.7866127490997314,
+      "margin": 0.6830331087112427,
+      "hub_roi": [
+        59.92394977833924,
+        60.05595185347979
+      ],
+      "direction_reference_endpoint_roi": [
+        76.31017057536268,
+        27.552847878763828
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 292.52812721393497,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "7e4d72a183af33380bb8339045f3fbc602204298329be51b4e5245be1f4f7dd9",
+      "split": "validation",
+      "angle_error_deg": 4.226522096062638,
+      "target_ray_error_deg": 1.3257518811685713,
+      "hub_error_roi": 1.9454734990873692
+    },
+    {
+      "id": "G_003",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 300.25601217773146,
+      "valid": true,
+      "score": 0.592506468296051,
+      "margin": 0.3340478241443634,
+      "hub_roi": [
+        63.41861611246264,
+        60.04774823522822
+      ],
+      "direction_reference_endpoint_roi": [
+        80.70117252753938,
+        30.420003741937993
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 299.72497265019524,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "4056de662956bf9d25e2c415dd4e35fc930fc6af5988c76beaaf247a79ff732a",
+      "split": "validation",
+      "angle_error_deg": 0.5310395275362225,
+      "target_ray_error_deg": 0.053680698803589166,
+      "hub_error_roi": 0.8656930072422763
+    },
+    {
+      "id": "G_004",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 112.2009056857841,
+      "valid": true,
+      "score": 0.3430411219596863,
+      "margin": 0.2884615361690521,
+      "hub_roi": [
+        65.99177252201153,
+        48.72779716190175
+      ],
+      "direction_reference_endpoint_roi": [
+        53.29583033636804,
+        79.83684812812052
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 302.034145705989,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "234f6b198f176bfcf7361913765cf0f0f14700bb816bb18429431d23038ed8ca",
+      "split": "validation",
+      "angle_error_deg": 170.16675997979513,
+      "target_ray_error_deg": 160.55711773142536,
+      "hub_error_roi": 12.213436749189244
+    },
+    {
+      "id": "G_005",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 303.0029781734541,
+      "valid": true,
+      "score": 0.6492315530776978,
+      "margin": 0.38546279072761536,
+      "hub_roi": [
+        65.39684651644353,
+        60.44730709005396
+      ],
+      "direction_reference_endpoint_roi": [
+        84.07946063900985,
+        31.68187767300396
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 299.1047311486127,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "fd8b0f10c415a9274dbbed0ef260575a0db373e71835e693fd2c27e32c52b01c",
+      "split": "validation",
+      "angle_error_deg": 3.898247024841396,
+      "target_ray_error_deg": 0.7902702802804242,
+      "hub_error_roi": 2.0141851875906878
+    },
+    {
+      "id": "G_006",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 300.0619080784065,
+      "valid": false,
+      "score": 0.39544373750686646,
+      "margin": 0.10465982556343079,
+      "hub_roi": [
+        58.83465038827102,
+        60.15956381102899
+      ],
+      "direction_reference_endpoint_roi": [
+        75.31542663487743,
+        31.685118876855224
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 298.7866196480494,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "7ae6f16c0f1926d77f16a284e7accd94b4b02538748d25d294d405fc42314c13",
+      "split": "validation",
+      "angle_error_deg": 1.2752884303570795,
+      "target_ray_error_deg": 0.7109069248545552,
+      "hub_error_roi": 1.5874653576424744
+    },
+    {
+      "id": "G_007",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 288.89567748268985,
+      "valid": true,
+      "score": 0.6877828240394592,
+      "margin": 0.6000978350639343,
+      "hub_roi": [
+        62.452068991218,
+        60.10638810239043
+      ],
+      "direction_reference_endpoint_roi": [
+        72.19983487210312,
+        31.62848332813691
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 287.88239687155306,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0f79206cf774a05fd5475c591982af3c57c7382618ceeb84a27c97bf6795501e",
+      "split": "validation",
+      "angle_error_deg": 1.0132806111367927,
+      "target_ray_error_deg": 0.1035279814925616,
+      "hub_error_roi": 0.8080755920716782
+    },
+    {
+      "id": "G_008",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 289.9360081354305,
+      "valid": true,
+      "score": 0.7267476916313171,
+      "margin": 0.5960879325866699,
+      "hub_roi": [
+        60.15927050009737,
+        60.038370984409816
+      ],
+      "direction_reference_endpoint_roi": [
+        73.28663155157601,
+        23.845520974716997
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 285.86715467863,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "3586f8627ca5adab7449a1781fa5556859a9f75d5a002dad2dd3af9bc88106cd",
+      "split": "validation",
+      "angle_error_deg": 4.068853456800468,
+      "target_ray_error_deg": 1.249405247064999,
+      "hub_error_roi": 1.9796435938599337
+    },
+    {
+      "id": "G_009",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 293.7974144517921,
+      "valid": true,
+      "score": 0.4738355278968811,
+      "margin": 0.21485084295272827,
+      "hub_roi": [
+        61.81733555468661,
+        60.45890408652438
+      ],
+      "direction_reference_endpoint_roi": [
+        75.37507019561018,
+        29.71564740467135
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 292.0350185478878,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "63e0cec605f16e5abd5103b017154b9eac1fb0df9602b764570aa446ea5561e1",
+      "split": "validation",
+      "angle_error_deg": 1.7623959039043484,
+      "target_ray_error_deg": 0.6200449779676092,
+      "hub_error_roi": 0.7111740321197882
+    },
+    {
+      "id": "G_010",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 294.4663231253205,
+      "valid": true,
+      "score": 0.3234991729259491,
+      "margin": 0.2430037558078766,
+      "hub_roi": [
+        63.20395974582046,
+        59.85288338184813
+      ],
+      "direction_reference_endpoint_roi": [
+        76.82976850618424,
+        29.907143524132245
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 293.8493988200361,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "b13d4097e2e1ab2cbcae289c294e0f3270fe3337d027f1eac88bb0d2bb9afa8f",
+      "split": "validation",
+      "angle_error_deg": 0.6169243052844422,
+      "target_ray_error_deg": 0.16522157241013247,
+      "hub_error_roi": 0.9188160918906788
+    },
+    {
+      "id": "G_011",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 294.88125132921255,
+      "valid": true,
+      "score": 0.5149884819984436,
+      "margin": 0.4560202360153198,
+      "hub_roi": [
+        64.22316079946111,
+        60.659488047516895
+      ],
+      "direction_reference_endpoint_roi": [
+        78.35999060858039,
+        30.178181596710097
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 289.1336345526397,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "27cb1eb00873e217db80cb3694192c16b8bf9f457bc92edfadb26aeb2d0f22de",
+      "split": "validation",
+      "angle_error_deg": 5.7476167765728405,
+      "target_ray_error_deg": 1.8738176218083709,
+      "hub_error_roi": 2.338215171422306
+    },
+    {
+      "id": "G_012",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 286.98206224505674,
+      "valid": true,
+      "score": 0.5299968719482422,
+      "margin": 0.3628467321395874,
+      "hub_roi": [
+        58.89016493515027,
+        60.295573335339974
+      ],
+      "direction_reference_endpoint_roi": [
+        68.70379412480573,
+        28.16065957899169
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 281.5346230132143,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "dd3c3e49976f6c68286ebaed07370099aeb82419d63ace1a328190ec6d7db0bb",
+      "split": "validation",
+      "angle_error_deg": 5.447439231842452,
+      "target_ray_error_deg": 3.464925682877322,
+      "hub_error_roi": 1.8729728158731263
+    },
+    {
+      "id": "G_013",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 271.6381973326577,
+      "valid": true,
+      "score": 0.7910611033439636,
+      "margin": 0.6800759434700012,
+      "hub_roi": [
+        63.65696245307941,
+        61.308886467393236
+      ],
+      "direction_reference_endpoint_roi": [
+        64.63753228563273,
+        27.02290561802149
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 271.66105146399474,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "3ec790fdac4b3ad561eaadac0d8631388b9c9052219a9f90538d7597a27d88d5",
+      "split": "validation",
+      "angle_error_deg": 0.022854131337055605,
+      "target_ray_error_deg": 0.06138293530483452,
+      "hub_error_roi": 0.6436590209987654
+    },
+    {
+      "id": "G_014",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 271.8315993734021,
+      "valid": true,
+      "score": 0.8126738667488098,
+      "margin": 0.5908493399620056,
+      "hub_roi": [
+        61.2576451294307,
+        60.23559293664335
+      ],
+      "direction_reference_endpoint_roi": [
+        62.510555342922515,
+        21.05562080805541
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 269.3768670273674,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "b29d7303c150a154293e5625be7a97b4f16e1ceeb29b732906d89330ab259ca3",
+      "split": "validation",
+      "angle_error_deg": 2.4547323460347457,
+      "target_ray_error_deg": 0.2448283617842435,
+      "hub_error_roi": 1.8806844225622428
+    },
+    {
+      "id": "G_015",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 274.85692579885426,
+      "valid": true,
+      "score": 0.5258107781410217,
+      "margin": 0.28948622941970825,
+      "hub_roi": [
+        62.74351770584434,
+        63.55754539624213
+      ],
+      "direction_reference_endpoint_roi": [
+        65.88469531164525,
+        26.590762965946496
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 274.07164757667215,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "70ae0253a62d46ca75b3d24010e112aaa07f9b41160ae81736340f9c59bf2d6b",
+      "split": "validation",
+      "angle_error_deg": 0.7852782221821144,
+      "target_ray_error_deg": 0.2613587011974232,
+      "hub_error_roi": 2.950432756678558
+    },
+    {
+      "id": "G_016",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 278.82092910139676,
+      "valid": true,
+      "score": 0.5948228240013123,
+      "margin": 0.38169240951538086,
+      "hub_roi": [
+        61.990372446808614,
+        58.27148637072675
+      ],
+      "direction_reference_endpoint_roi": [
+        67.46485348673887,
+        22.993730527370673
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 276.94544709574086,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "5dc05e7fe30007a5457ac364875a3bb8fdf99fdd0c5261f3ae3bba7947c2e351",
+      "split": "validation",
+      "angle_error_deg": 1.875482005655897,
+      "target_ray_error_deg": 0.03157313376448201,
+      "hub_error_roi": 2.1021746443394114
+    },
+    {
+      "id": "G_017",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 278.12548174199645,
+      "valid": true,
+      "score": 0.6344439387321472,
+      "margin": 0.41466349363327026,
+      "hub_roi": [
+        65.08800247202367,
+        60.184581616582165
+      ],
+      "direction_reference_endpoint_roi": [
+        70.13389478614346,
+        24.84297765249606
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 273.9793899525742,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "f6826b9cd95b60c18a60770de9cdcb0af415dafe52c78e39943b8ec565557e15",
+      "split": "validation",
+      "angle_error_deg": 4.1460917894222575,
+      "target_ray_error_deg": 1.6696475648814726,
+      "hub_error_roi": 1.77681730911445
+    },
+    {
+      "id": "G_018",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 279.0313844738205,
+      "valid": true,
+      "score": 0.7570539712905884,
+      "margin": 0.651558518409729,
+      "hub_roi": [
+        59.7018437102706,
+        58.45796510728819
+      ],
+      "direction_reference_endpoint_roi": [
+        65.3058676352207,
+        23.200555732114488
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 276.17018093397826,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "3725e6a4907b86fb17547ed1f7aa0809367eb9abaa23f1d019d580e50424213f",
+      "split": "validation",
+      "angle_error_deg": 2.861203539842222,
+      "target_ray_error_deg": 1.5895853748909303,
+      "hub_error_roi": 1.666328043458759
+    },
+    {
+      "id": "G_019",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 242.96216072762022,
+      "valid": true,
+      "score": 0.910950779914856,
+      "margin": 0.7574018239974976,
+      "hub_roi": [
+        62.17281800885683,
+        60.04819071701666
+      ],
+      "direction_reference_endpoint_roi": [
+        45.94435345219727,
+        28.249968469016
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 242.35402538097793,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2460f56ae339c42716317997b051e2eec89ebd4b834f68d21a3093be84278d2b",
+      "split": "validation",
+      "angle_error_deg": 0.6081353466422854,
+      "target_ray_error_deg": 0.11823295463582895,
+      "hub_error_roi": 1.1643788701045328
+    },
+    {
+      "id": "G_020",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 244.93345279727848,
+      "valid": true,
+      "score": 0.9268072843551636,
+      "margin": 0.6833313703536987,
+      "hub_roi": [
+        60.40912617662163,
+        64.31054333114544
+      ],
+      "direction_reference_endpoint_roi": [
+        42.61495997895747,
+        26.266257960936343
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 241.49786804717587,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "e2293754a97a916db350d8ec6bbbee4732b82d833f41b9503e63f91ee68cf954",
+      "split": "validation",
+      "angle_error_deg": 3.435584750102606,
+      "target_ray_error_deg": 1.0385436302374274,
+      "hub_error_roi": 2.2341678052065883
+    },
+    {
+      "id": "G_021",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 251.09815066750085,
+      "valid": true,
+      "score": 0.5962511301040649,
+      "margin": 0.43863043189048767,
+      "hub_roi": [
+        63.779112459709694,
+        63.860716983967954
+      ],
+      "direction_reference_endpoint_roi": [
+        52.44093404273191,
+        30.748095369472082
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 249.51728649628834,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "6621b34abf73f3bbde261d82b000ec33b50166b594ff49efc42ffb7833435bc3",
+      "split": "validation",
+      "angle_error_deg": 1.5808641712125109,
+      "target_ray_error_deg": 0.49914801868456493,
+      "hub_error_roi": 3.0801875960699467
+    },
+    {
+      "id": "G_022",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 254.11313614650427,
+      "valid": true,
+      "score": 0.6527240872383118,
+      "margin": 0.5707051157951355,
+      "hub_roi": [
+        63.86485659950579,
+        61.37179680939027
+      ],
+      "direction_reference_endpoint_roi": [
+        54.66723580848101,
+        29.055179229815074
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 254.18955994613265,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "002625b00ba4a1d2ce309d8054cd07e5fdeb0b93376a8e1310d458ba665bbcdb",
+      "split": "validation",
+      "angle_error_deg": 0.07642379962837254,
+      "target_ray_error_deg": 0.08998812640837173,
+      "hub_error_roi": 0.9758995812705534
+    },
+    {
+      "id": "G_023",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 249.01280826478921,
+      "valid": false,
+      "score": 0.7746685743331909,
+      "margin": 0.6674079895019531,
+      "hub_roi": [
+        64.98006128219846,
+        61.54795786854822
+      ],
+      "direction_reference_endpoint_roi": [
+        52.19377634077577,
+        28.216277481913842
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 247.61987157615295,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "e584988e273d0787952328d4f29613d0dbe054dd7e6b125cee028feb84ce445b",
+      "split": "validation",
+      "angle_error_deg": 1.3929366886362686,
+      "target_ray_error_deg": 1.014655089699886,
+      "hub_error_roi": 1.690775332517433
+    },
+    {
+      "id": "G_024",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 258.6556007830447,
+      "valid": true,
+      "score": 0.5630865097045898,
+      "margin": 0.5018488764762878,
+      "hub_roi": [
+        61.89751105077129,
+        77.57654118145545
+      ],
+      "direction_reference_endpoint_roi": [
+        55.01280189385006,
+        43.260352875867014
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 244.62843500397184,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0e1d7c00c82f8dc22d780443b14dca23170965420aefa0991ec3f9b0b9123f13",
+      "split": "validation",
+      "angle_error_deg": 14.027165779072845,
+      "target_ray_error_deg": 6.195654910259975,
+      "hub_error_roi": 16.91144883339322
+    },
+    {
+      "id": "G_025",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 229.94010408161267,
+      "valid": true,
+      "score": 0.9176120162010193,
+      "margin": 0.730204701423645,
+      "hub_roi": [
+        63.03995000341305,
+        60.48210989612065
+      ],
+      "direction_reference_endpoint_roi": [
+        41.4153909653607,
+        34.76560845424896
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 229.6187531520548,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "da33a38966de8555098d93bbbc8434d657b87876be71b9998b5fe4e6464031c0",
+      "split": "validation",
+      "angle_error_deg": 0.32135092955786604,
+      "target_ray_error_deg": 0.28577766480410105,
+      "hub_error_roi": 0.4796870067613365
+    },
+    {
+      "id": "G_026",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 232.22565041206428,
+      "valid": true,
+      "score": 0.9479361176490784,
+      "margin": 0.6475338935852051,
+      "hub_roi": [
+        59.98448794463073,
+        58.44756797652666
+      ],
+      "direction_reference_endpoint_roi": [
+        36.401187728235655,
+        28.016039081261148
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 230.99470762297125,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "705bd770456a402f2d57ee64290584e4e6d52950f56bf38c36957b05374049c7",
+      "split": "validation",
+      "angle_error_deg": 1.2309427890930351,
+      "target_ray_error_deg": 0.5215392348853243,
+      "hub_error_roi": 2.8990417857769537
+    },
+    {
+      "id": "G_027",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 235.77044611389513,
+      "valid": true,
+      "score": 0.7357445955276489,
+      "margin": 0.4916222095489502,
+      "hub_roi": [
+        61.948684243910414,
+        63.803207156484866
+      ],
+      "direction_reference_endpoint_roi": [
+        40.29205226015843,
+        31.971771575909322
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 231.19757489502575,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "37f4589c0c84a3e4c794108283b701627aa7e11ac44e8afd43ddf3631438709d",
+      "split": "validation",
+      "angle_error_deg": 4.5728712188693805,
+      "target_ray_error_deg": 1.6505538654741656,
+      "hub_error_roi": 3.570815659269611
+    },
+    {
+      "id": "G_028",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 231.98489323078454,
+      "valid": true,
+      "score": 0.81352698802948,
+      "margin": 0.45609909296035767,
+      "hub_roi": [
+        60.4459302255649,
+        58.48719390180568
+      ],
+      "direction_reference_endpoint_roi": [
+        35.87274822410863,
+        27.05204277566497
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 230.86839998145976,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "78247233be816bef621d9c59f181c6b1d77d4038fd2e9de124553b97a93f0416",
+      "split": "validation",
+      "angle_error_deg": 1.1164932493247761,
+      "target_ray_error_deg": 0.6479866230471032,
+      "hub_error_roi": 3.0407124362687905
+    },
+    {
+      "id": "G_029",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 230.76169361419204,
+      "valid": false,
+      "score": 0.8251187801361084,
+      "margin": 0.6359090209007263,
+      "hub_roi": [
+        64.116386033023,
+        60.20755992820472
+      ],
+      "direction_reference_endpoint_roi": [
+        38.43496695265494,
+        28.76197654963617
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 228.17983082600074,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "9ab426007ded4e5b377405d83470efdbfb100193c0e502ea4bb57ec6644b0fee",
+      "split": "validation",
+      "angle_error_deg": 2.5818627881913017,
+      "target_ray_error_deg": 0.6269374624112629,
+      "hub_error_roi": 2.67055792042285
+    },
+    {
+      "id": "G_030",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 234.252849362277,
+      "valid": false,
+      "score": 0.8663386106491089,
+      "margin": 0.32070863246917725,
+      "hub_roi": [
+        57.52004375808112,
+        58.43735606386835
+      ],
+      "direction_reference_endpoint_roi": [
+        33.39219947275325,
+        24.918150671392667
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 230.77432401800223,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "1d8fd4fdd3ef8636a2b9c12aaafbe11b019cfc857a8908a672fda332f7f31211",
+      "split": "validation",
+      "angle_error_deg": 3.4785253442747717,
+      "target_ray_error_deg": 3.620839841723921,
+      "hub_error_roi": 1.9381958316013002
+    },
+    {
+      "id": "G_031",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 205.13303453336871,
+      "valid": true,
+      "score": 0.8494960069656372,
+      "margin": 0.5921643376350403,
+      "hub_roi": [
+        61.52826089066316,
+        60.55802754827579
+      ],
+      "direction_reference_endpoint_roi": [
+        28.574464687821155,
+        45.098166105767454
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 204.33676703047047,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0b12acb9e9335c2f89be350cd713e9a3ebe9be72e41f5ca87097a08ed978e974",
+      "split": "validation",
+      "angle_error_deg": 0.796267502898246,
+      "target_ray_error_deg": 0.5085983142250541,
+      "hub_error_roi": 0.7846887720504891
+    },
+    {
+      "id": "G_032",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 209.13295344996877,
+      "valid": true,
+      "score": 0.8824903964996338,
+      "margin": 0.7119970917701721,
+      "hub_roi": [
+        62.11742455747977,
+        64.37483879478428
+      ],
+      "direction_reference_endpoint_roi": [
+        26.653634555325446,
+        44.60922221742706
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 204.69398654578663,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2dcdedbc39e3e55f75ca2620a66af66123870b9b12bf477e1af9ff672c1da212",
+      "split": "validation",
+      "angle_error_deg": 4.438966904182138,
+      "target_ray_error_deg": 1.218012605110232,
+      "hub_error_roi": 2.944814263259511
+    },
+    {
+      "id": "G_033",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 215.07226340745487,
+      "valid": false,
+      "score": 0.5298096537590027,
+      "margin": 0.25826194882392883,
+      "hub_roi": [
+        63.92812466160199,
+        65.90581884640059
+      ],
+      "direction_reference_endpoint_roi": [
+        30.69994872893288,
+        42.57668846853205
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 207.4504772003672,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "296fd47e58b8a7aac21ab1d90ec76aaa7104fb6df103e8656603a0bf54cd4948",
+      "split": "validation",
+      "angle_error_deg": 7.621786207087666,
+      "target_ray_error_deg": 2.6228264309192753,
+      "hub_error_roi": 6.024149107088727
+    },
+    {
+      "id": "G_034",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 211.78543694902885,
+      "valid": true,
+      "score": 0.8574748635292053,
+      "margin": 0.7447433471679688,
+      "hub_roi": [
+        63.204872219839636,
+        62.27153965837266
+      ],
+      "direction_reference_endpoint_roi": [
+        29.288810737517636,
+        41.254623292565
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 208.8247495463396,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "40210ddf1cbab63f9beafc74650d502ae2f5b512efb95be8315fa24406dc52fe",
+      "split": "validation",
+      "angle_error_deg": 2.9606874026892456,
+      "target_ray_error_deg": 1.0578241766353926,
+      "hub_error_roi": 2.4672733858685123
+    },
+    {
+      "id": "G_035",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 203.99506085267674,
+      "valid": false,
+      "score": 0.36926043033599854,
+      "margin": 0.1004495918750763,
+      "hub_roi": [
+        60.617040459905986,
+        53.5844323010694
+      ],
+      "direction_reference_endpoint_roi": [
+        22.24665875726435,
+        36.504800923502025
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 210.7453496957015,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "bfda3139b88b394ae5b5145f921df8884bfdd2e389696b3cff58aa41aede866a",
+      "split": "validation",
+      "angle_error_deg": 6.750288843024748,
+      "target_ray_error_deg": 1.2913918244187528,
+      "hub_error_roi": 10.039303760312539
+    },
+    {
+      "id": "G_036",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 212.90843966625684,
+      "valid": true,
+      "score": 0.5855154991149902,
+      "margin": 0.4768091142177582,
+      "hub_roi": [
+        59.21153389735422,
+        58.467609950647585
+      ],
+      "direction_reference_endpoint_roi": [
+        25.713894047976247,
+        36.79001496131899
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 211.5441543600014,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "a61d0c4d0c9405073264e6b99488c1d32e4b00da37a8ea23cc946ecb9281272a",
+      "split": "validation",
+      "angle_error_deg": 1.3642853062554536,
+      "target_ray_error_deg": 2.35583790563129,
+      "hub_error_roi": 0.8742480005905192
+    },
+    {
+      "id": "G_037",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 185.73593276470288,
+      "valid": true,
+      "score": 0.8627579808235168,
+      "margin": 0.5952984094619751,
+      "hub_roi": [
+        59.920024684824696,
+        60.19900471140314
+      ],
+      "direction_reference_endpoint_roi": [
+        18.826810216816583,
+        56.07132683076753
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 186.875741299572,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2f10fbbd6615a1ce6f0d4304c3665fa4ea952f3a0587fd16b6dac031f279bd9d",
+      "split": "validation",
+      "angle_error_deg": 1.1398085348691325,
+      "target_ray_error_deg": 0.48304074811318287,
+      "hub_error_roi": 2.2372553079778963
+    },
+    {
+      "id": "G_038",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 185.8544326558486,
+      "valid": true,
+      "score": 0.9236159324645996,
+      "margin": 0.5611114501953125,
+      "hub_roi": [
+        59.89230524288755,
+        60.43054823300314
+      ],
+      "direction_reference_endpoint_roi": [
+        20.896762507399366,
+        56.4320926855806
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 186.52576104470828,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "a0ba4d5558222f187a5e94ca715088d1f97a8d4a6dc89df68103e5ae5adf6af1",
+      "split": "validation",
+      "angle_error_deg": 0.6713283888596777,
+      "target_ray_error_deg": 0.4464381180101782,
+      "hub_error_roi": 1.9186034864944057
+    },
+    {
+      "id": "G_039",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 191.91965362742275,
+      "valid": true,
+      "score": 0.719403088092804,
+      "margin": 0.41416311264038086,
+      "hub_roi": [
+        62.30295620552576,
+        62.16869865174235
+      ],
+      "direction_reference_endpoint_roi": [
+        28.05761937102487,
+        54.93980488494948
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 188.5587037023723,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "6aac7274008a8af7ce6a1af76510756e4b3235040e8a98c10a5da95c347aa730",
+      "split": "validation",
+      "angle_error_deg": 3.3609499250504484,
+      "target_ray_error_deg": 1.0554140910587932,
+      "hub_error_roi": 1.537228351955294
+    },
+    {
+      "id": "G_040",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 193.00161612687705,
+      "valid": true,
+      "score": 0.7237550020217896,
+      "margin": 0.6713340282440186,
+      "hub_roi": [
+        64.30126224725785,
+        61.44008993475064
+      ],
+      "direction_reference_endpoint_roi": [
+        30.19853207305937,
+        53.565841102905644
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 191.69459792590652,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "efde643e1c09a9b55e255a34b2b5c229811c2be24929332a45249d8a387fe755",
+      "split": "validation",
+      "angle_error_deg": 1.307018200970532,
+      "target_ray_error_deg": 0.589528611421315,
+      "hub_error_roi": 0.8542075210109616
+    },
+    {
+      "id": "G_041",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 186.26322634672556,
+      "valid": true,
+      "score": 0.6573666930198669,
+      "margin": 0.4406980574131012,
+      "hub_roi": [
+        64.4123494127571,
+        60.4994543507254
+      ],
+      "direction_reference_endpoint_roi": [
+        26.837970788038184,
+        56.375612578025255
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 188.46128801112502,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "69d57539d7fa8bc482854cf5d5199be5e6f5867ca977cf5eb3b5b3652b0cb0c5",
+      "split": "validation",
+      "angle_error_deg": 2.198061664399461,
+      "target_ray_error_deg": 1.3314623118588145,
+      "hub_error_roi": 1.7933171565971486
+    },
+    {
+      "id": "G_042",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 199.99875658434624,
+      "valid": true,
+      "score": 0.611935555934906,
+      "margin": 0.41281944513320923,
+      "hub_roi": [
+        63.84697335951397,
+        63.89323726139195
+      ],
+      "direction_reference_endpoint_roi": [
+        30.957471855137328,
+        51.923246000175155
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 194.03624809638416,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "0a3dadaa0f89120733b1d39397b45d06938d0a7d0e9ae0c3f29f09a258a7610f",
+      "split": "validation",
+      "angle_error_deg": 5.962508487962083,
+      "target_ray_error_deg": 2.5806861030262667,
+      "hub_error_roi": 4.770369458059101
+    },
+    {
+      "id": "G_043",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 176.1193565250369,
+      "valid": true,
+      "score": 0.9139713048934937,
+      "margin": 0.6368268728256226,
+      "hub_roi": [
+        63.3169982620778,
+        60.52851484205717
+      ],
+      "direction_reference_endpoint_roi": [
+        27.69885122732093,
+        62.944627796875274
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 176.67493852154357,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "45e395b5255d28a4f3ed22ddf9110dfcd9d472a28a0cfad8163dbec806dad738",
+      "split": "validation",
+      "angle_error_deg": 0.5555819965066746,
+      "target_ray_error_deg": 0.3682687795513857,
+      "hub_error_roi": 0.3332510958638315
+    },
+    {
+      "id": "G_044",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 180.1451963281416,
+      "valid": true,
+      "score": 0.9182136654853821,
+      "margin": 0.7240659594535828,
+      "hub_roi": [
+        55.82091808279103,
+        61.949020035714874
+      ],
+      "direction_reference_endpoint_roi": [
+        12.42105743873708,
+        61.83903787035752
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 177.49360526980274,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "dea2b60677d522bd188e01c474c5818060b6f93039d43d2c7198b7aa85f85d4b",
+      "split": "validation",
+      "angle_error_deg": 2.651591058338852,
+      "target_ray_error_deg": 0.6730740306341261,
+      "hub_error_roi": 4.767129996103536
+    },
+    {
+      "id": "G_045",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 178.90753557647994,
+      "valid": true,
+      "score": 0.6582755446434021,
+      "margin": 0.39407625794410706,
+      "hub_roi": [
+        64.40154829499505,
+        61.81891842314742
+      ],
+      "direction_reference_endpoint_roi": [
+        30.107783063141163,
+        62.472880365839416
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 175.72124330796146,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "2dbfd4645a2b79ccf02cb5eb3734e0a42303d7131e7e8f32c460282a0991a507",
+      "split": "validation",
+      "angle_error_deg": 3.1862922685184856,
+      "target_ray_error_deg": 0.9992107191758066,
+      "hub_error_roi": 1.4336756448707288
+    },
+    {
+      "id": "G_046",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 170.05495717060273,
+      "valid": true,
+      "score": 0.8119655847549438,
+      "margin": 0.7644670605659485,
+      "hub_roi": [
+        63.41066636533246,
+        60.570691335026176
+      ],
+      "direction_reference_endpoint_roi": [
+        28.247099547674445,
+        66.73620580343025
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 170.7202771765715,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "265a34dde22630c6885c38c078fd813b594514abfa82e48e8c088031ace51bde",
+      "split": "validation",
+      "angle_error_deg": 0.6653200059687663,
+      "target_ray_error_deg": 0.293795847101336,
+      "hub_error_roi": 0.4056019802538874
+    },
+    {
+      "id": "G_047",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 165.80048004691116,
+      "valid": true,
+      "score": 0.7399638891220093,
+      "margin": 0.512442946434021,
+      "hub_roi": [
+        66.10456561243804,
+        60.10712983186134
+      ],
+      "direction_reference_endpoint_roi": [
+        32.852519615988236,
+        68.52089456888523
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 167.90524932004283,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "ef577babaffba508dcdcfa7a5d812c468db98603dd76564b51d35ff47b8ba5fe",
+      "split": "validation",
+      "angle_error_deg": 2.104769273131666,
+      "target_ray_error_deg": 1.2093862260904018,
+      "hub_error_roi": 0.6044987396051604
+    },
+    {
+      "id": "G_048",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 171.0271352623949,
+      "valid": true,
+      "score": 0.8263830542564392,
+      "margin": 0.4353371262550354,
+      "hub_roi": [
+        58.769157007861914,
+        60.67813310539188
+      ],
+      "direction_reference_endpoint_roi": [
+        24.888909530092356,
+        66.02779018272774
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 170.8194607154994,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "850cec5b89eee6fb2d7ec6b30585c61b3eddf894e5c78921bfe206dbc7f4cbfa",
+      "split": "validation",
+      "angle_error_deg": 0.2076745468955039,
+      "target_ray_error_deg": 0.14009419709265103,
+      "hub_error_roi": 0.9614643154163042
+    },
+    {
+      "id": "G_049",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 353.0087911023919,
+      "valid": false,
+      "score": 0.4141682982444763,
+      "margin": 0.0734049379825592,
+      "hub_roi": [
+        64.2193674072702,
+        20.757224662995583
+      ],
+      "direction_reference_endpoint_roi": [
+        98.95913676597283,
+        16.49712784436043
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": false,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "6a0e99006122dea3d89fe40bb54f052a187fd2f93d107018bae424f6482e7438",
+      "split": "validation"
+    },
+    {
+      "id": "G_050",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 140.7697931334057,
+      "valid": false,
+      "score": 0.2597333490848541,
+      "margin": 0.13771337270736694,
+      "hub_roi": [
+        48.295310628939426,
+        63.70858203440263
+      ],
+      "direction_reference_endpoint_roi": [
+        21.183919703123475,
+        85.84390408011917
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": false,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "abdd5bea76cde9941a57b33d5b122a30f3bb1cfe2121bae92c8f2b6c024c987f",
+      "split": "validation"
+    },
+    {
+      "id": "G_051",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 163.02889016731822,
+      "valid": false,
+      "score": 0.1453879475593567,
+      "margin": 0.003854602575302124,
+      "hub_roi": [
+        52.22057311167486,
+        55.87938341783682
+      ],
+      "direction_reference_endpoint_roi": [
+        18.744751132550604,
+        66.09551491767478
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": false,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "34846cbc306b4334882bce4cd821d97630faab291bcf9cd77be899fbb7cd0ff3",
+      "split": "validation"
+    },
+    {
+      "id": "G_052",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 353.1644222760276,
+      "valid": true,
+      "score": 0.4819391667842865,
+      "margin": 0.04568561911582947,
+      "hub_roi": [
+        67.95631275575118,
+        52.108889307578956
+      ],
+      "direction_reference_endpoint_roi": [
+        111.04781661194369,
+        46.943398487555605
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        0
+      ],
+      "source_sha256": "9bdfb5492036ee8d11883dcc76ac8d04d0fa5c7d61bdcb7d8c873af1075791fa",
+      "split": "validation"
+    },
+    {
+      "id": "G_053",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 164.91765987235667,
+      "valid": false,
+      "score": 0.22922958433628082,
+      "margin": 0.13275453448295593,
+      "hub_roi": [
+        64.57441734054179,
+        62.37591356941537
+      ],
+      "direction_reference_endpoint_roi": [
+        36.187162713312766,
+        70.02599688457374
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 169.43898930880363,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "a3628e60552adf773f21841e98dc265cba2fac01889b1d63bb2cd2ad41aec8bd",
+      "split": "validation",
+      "angle_error_deg": 4.521329436446962,
+      "target_ray_error_deg": 0.752601132051268,
+      "hub_error_roi": 2.71852306810405
+    },
+    {
+      "id": "G_054",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 179.97920288110893,
+      "valid": false,
+      "score": 0.026272647082805634,
+      "margin": 0.02182537131011486,
+      "hub_roi": [
+        76.3944348613353,
+        63.97649947579351
+      ],
+      "direction_reference_endpoint_roi": [
+        45.59443689033415,
+        63.987679204095016
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": 169.38035313657582,
+      "loss_mask": [
+        1,
+        1
+      ],
+      "source_sha256": "16659051de9332bd87066269098a9a37feba97b4d01d259d3d1f074c1199b800",
+      "split": "validation",
+      "angle_error_deg": 10.598849744533112,
+      "target_ray_error_deg": 5.198873073383254,
+      "hub_error_roi": 13.790113971676487
+    },
+    {
+      "id": "G_055",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 306.9947525493948,
+      "valid": false,
+      "score": 0.005552960094064474,
+      "margin": 0.0010852562263607979,
+      "hub_roi": [
+        76.26432912605446,
+        65.54886681628145
+      ],
+      "direction_reference_endpoint_roi": [
+        94.37675963468286,
+        41.50827903082771
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        0
+      ],
+      "source_sha256": "5dee84169295c9f21d980bcfae47e7d8aa7273ee4f00f22e6717c42bcbbac577",
+      "split": "validation"
+    },
+    {
+      "id": "G_056",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 175.11599352773877,
+      "valid": false,
+      "score": 0.28919458389282227,
+      "margin": 0.0974847674369812,
+      "hub_roi": [
+        71.56386978960478,
+        64.33132950654685
+      ],
+      "direction_reference_endpoint_roi": [
+        30.413825933613346,
+        67.8475619576202
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        1
+      ],
+      "source_sha256": "fc7fa78212cff0754f9e74a0b5cba2b6c83e4ca5947c56a36a0e7a5951eb3f3b",
+      "split": "validation",
+      "target_ray_error_deg": 0.8699120013077106
+    },
+    {
+      "id": "G_057",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 120.95208600802262,
+      "valid": false,
+      "score": 0.13269563019275665,
+      "margin": 0.03884176164865494,
+      "hub_roi": [
+        64.40187166634601,
+        65.51053292626919
+      ],
+      "direction_reference_endpoint_roi": [
+        43.520435703892915,
+        100.32899975273888
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        0,
+        1
+      ],
+      "source_sha256": "9e9946afe09bfd0063cf0cde5a52c1ccf97808122d65a15f426eb2fe3d65ed33",
+      "split": "validation",
+      "target_ray_error_deg": 52.98907481420132
+    },
+    {
+      "id": "G_058",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 173.92149266034892,
+      "valid": true,
+      "score": 0.3457854688167572,
+      "margin": 0.26984643936157227,
+      "hub_roi": [
+        63.98652481982926,
+        64.13393699595052
+      ],
+      "direction_reference_endpoint_roi": [
+        22.918724335140006,
+        68.50723819181579
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        0
+      ],
+      "source_sha256": "118de3907619ac1da493d4d6c0841c80f4112a00a822e464887d976dd3c3c88f",
+      "split": "validation"
+    },
+    {
+      "id": "G_059",
+      "model_name": "polar_angle_v1",
+      "angle_deg_image": 119.1179269155442,
+      "valid": false,
+      "score": 0.15083113312721252,
+      "margin": 0.06008715182542801,
+      "hub_roi": [
+        63.55358165627844,
+        62.41949258064161
+      ],
+      "direction_reference_endpoint_roi": [
+        49.92853677665644,
+        86.88085296857356
+      ],
+      "endpoint_semantics": "Display direction radius only; not a detected tip",
+      "target_present": true,
+      "reference_angle_deg": null,
+      "loss_mask": [
+        1,
+        0
+      ],
+      "source_sha256": "51176451fcf00b1f6e4930084da67cea8453f1d5a8dab56e13a07237f089ee7c",
+      "split": "validation"
+    }
+  ]
+}

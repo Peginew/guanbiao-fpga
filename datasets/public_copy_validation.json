@@ -1,0 +1,28 @@
+{
+  "status": "PASS_PUBLIC_METADATA_ONLY_IMAGES_NOT_COPIED",
+  "source_canonical_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "public_canonical_sha256": "a84da8d999b90173a2e94164215c818419e7e74810a6e6557a19700aeeef41f8",
+  "canonical_records": 472,
+  "all_image_sha_computed": 497,
+  "canonical_image_sha_matches": 472,
+  "extras_unassigned": 25,
+  "protected_geometry_pressure_visibility_records_checked": 472,
+  "initial_split_assignments_preserved": true,
+  "absolute_local_paths_remaining": [],
+  "images_copied": false,
+  "source_images_modified": false,
+  "training_or_hardware_actions": false,
+  "png_metadata_review": {
+    "images": 497,
+    "with_exif_or_png_text_fields": 0
+  },
+  "visual_sample_ids": [
+    "A_001",
+    "D_025",
+    "E_050",
+    "F_049",
+    "G_054",
+    "H_059"
+  ],
+  "visual_review_scope": "Six actual images viewed; gauge/indoor captures and OSD, one hand visible; not a full manual review of497 frames."
+}

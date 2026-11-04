@@ -1,0 +1,323 @@
+{
+  "format": "guanbiao-image-archive-v1",
+  "release_page": "https://github.com/Peginew/guanbiao-fpga/releases/tag/instrument-images-20261104",
+  "archive_name": "images.zip",
+  "archive_bytes": 847403594,
+  "archive_sha256": "fbf982264e24c04c873c3aadb907182a2efef42deb599129d7ff7a571b6c253e",
+  "archive_compression": "ZIP_STORED; original PNG file bytes unchanged",
+  "part_bytes": 16777216,
+  "image_count": 497,
+  "canonical_count": 472,
+  "unassigned_count": 25,
+  "image_index": "image_index.json",
+  "image_index_sha256": "b0b0bcc8fc89b71443896b6e3dfa0bf91835154a5422021a3035f0dd81ba1d01",
+  "entry_paths": "images/<A-H>/<original_filename>.png; relative to datasets/",
+  "parts": [
+    {
+      "name": "images.zip.part0001",
+      "bytes": 16777216,
+      "sha256": "b86b03773aa49a06258592622628875dbe2f8ee18fcda3b54c89c604e7d4c79b",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0001"
+    },
+    {
+      "name": "images.zip.part0002",
+      "bytes": 16777216,
+      "sha256": "2defe0ae1447a9ab55d79a494bd959ad8aa543b813b1ae04f669c5bca950b2e9",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0002"
+    },
+    {
+      "name": "images.zip.part0003",
+      "bytes": 16777216,
+      "sha256": "2479120ebeb6b2677e3a24a8a21b056d0d383e99e90395a6a543609a83263d95",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0003"
+    },
+    {
+      "name": "images.zip.part0004",
+      "bytes": 16777216,
+      "sha256": "88f9e42fd3915d27827fb934bf07d39b674fd0b4ccd041ca5720a6bf90322c7b",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0004"
+    },
+    {
+      "name": "images.zip.part0005",
+      "bytes": 16777216,
+      "sha256": "5d2fb4c4f12e739a4307b0cfd1c81fc418d00e9282e114c0da8f40a55829305c",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0005"
+    },
+    {
+      "name": "images.zip.part0006",
+      "bytes": 16777216,
+      "sha256": "e583466e43216a2e2792e01b580e033292058ff5c99839823f22970c7ebc63fe",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0006"
+    },
+    {
+      "name": "images.zip.part0007",
+      "bytes": 16777216,
+      "sha256": "c26e4eab53424832b3607c1ab882407966f54fcc71f677428c817fc973bf2ac2",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0007"
+    },
+    {
+      "name": "images.zip.part0008",
+      "bytes": 16777216,
+      "sha256": "fcdaff40620573678c532797f193be4fc4659aaaf4a0f4d88d02ce81b530e33d",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0008"
+    },
+    {
+      "name": "images.zip.part0009",
+      "bytes": 16777216,
+      "sha256": "2259e53c3399e6c5b79b2cabe7d16cf5ddd1a24539bd400c1dc56a6ffe8980f3",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0009"
+    },
+    {
+      "name": "images.zip.part0010",
+      "bytes": 16777216,
+      "sha256": "21fa633b6d3c3594b64e29e60cc49aab18fa5eed741d710039d5984209cd81bd",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0010"
+    },
+    {
+      "name": "images.zip.part0011",
+      "bytes": 16777216,
+      "sha256": "0df70649d0070786bef797613a1e40efa59de2b6a738e5bbfc328a771b3858c6",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0011"
+    },
+    {
+      "name": "images.zip.part0012",
+      "bytes": 16777216,
+      "sha256": "11f0dac24eb69a425a7a775b36cbe09fedc26964091d25fa427ce6db0d9b19a3",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0012"
+    },
+    {
+      "name": "images.zip.part0013",
+      "bytes": 16777216,
+      "sha256": "56fd457d73fb332c46267c431b787df2cd206b43806003e52bc433f149bd77be",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0013"
+    },
+    {
+      "name": "images.zip.part0014",
+      "bytes": 16777216,
+      "sha256": "581c2e084abf4abb824a1f8086d6955b0ecf58f62891360fc0e1d0d8b0e76ec5",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0014"
+    },
+    {
+      "name": "images.zip.part0015",
+      "bytes": 16777216,
+      "sha256": "2e03728aae8b31d239e31aea1235f403e620ef421f6319f734678a70b133a0da",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0015"
+    },
+    {
+      "name": "images.zip.part0016",
+      "bytes": 16777216,
+      "sha256": "59feaf831ad6f332ae1eba2799bcaf0a3348aeb854ba62c38f8f89f37c18e724",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0016"
+    },
+    {
+      "name": "images.zip.part0017",
+      "bytes": 16777216,
+      "sha256": "f2cc5ba201526f1b79ba9c4cda8b5198797404a45b2a0dd950f998edcd64935f",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0017"
+    },
+    {
+      "name": "images.zip.part0018",
+      "bytes": 16777216,
+      "sha256": "c026f7d63acadcbd2bc0ec26d8a98515a68043365e8f1ddeae0bdc7d74f8e897",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0018"
+    },
+    {
+      "name": "images.zip.part0019",
+      "bytes": 16777216,
+      "sha256": "54e86fd863764fe70d1099aa89a0035f5a4fde16c284c7f1f3e25df66d5464a5",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0019"
+    },
+    {
+      "name": "images.zip.part0020",
+      "bytes": 16777216,
+      "sha256": "0a6faa013f235bdd66a93de00b50c93277cc8a62e9e6972230ed3c540d097789",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0020"
+    },
+    {
+      "name": "images.zip.part0021",
+      "bytes": 16777216,
+      "sha256": "7161bad6e7b76b70eda3f5b911cccd7e44a3575a6763e7552419f5044f8580a9",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0021"
+    },
+    {
+      "name": "images.zip.part0022",
+      "bytes": 16777216,
+      "sha256": "701ca5f1ca33bcfbc106a9aa240d356cbd5128b6b1db8e3ccbc34cb24be687e5",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0022"
+    },
+    {
+      "name": "images.zip.part0023",
+      "bytes": 16777216,
+      "sha256": "452db4a588c306a52f5b3e50529c8952afd8cf0ed99cc10a3b2b7e450192277a",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0023"
+    },
+    {
+      "name": "images.zip.part0024",
+      "bytes": 16777216,
+      "sha256": "67b709eee740780c084b43129b162b47a0b6b47762276e01016aeedb811c86c7",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0024"
+    },
+    {
+      "name": "images.zip.part0025",
+      "bytes": 16777216,
+      "sha256": "ae166114738e8a03cff247676deb36717084cbc7b39a8216b5685a013279f357",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0025"
+    },
+    {
+      "name": "images.zip.part0026",
+      "bytes": 16777216,
+      "sha256": "87c7fe9067c5beb77f089cd6340375cd81b73d7eb5fd71c8d453f54716586b15",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0026"
+    },
+    {
+      "name": "images.zip.part0027",
+      "bytes": 16777216,
+      "sha256": "3cc418a77d04b5cc57179d44ceaf9c4d8986c23d2f4c56b2155b189619bd2722",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0027"
+    },
+    {
+      "name": "images.zip.part0028",
+      "bytes": 16777216,
+      "sha256": "6296191d039e59bc83c9a9bfd0ce45dbe6709ac6328879aafcb6f52213339c5c",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0028"
+    },
+    {
+      "name": "images.zip.part0029",
+      "bytes": 16777216,
+      "sha256": "5ee196444b3cfc12c89a8d7319f677034c7d9a01e0a5e6b1841afbcc07aeec4e",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0029"
+    },
+    {
+      "name": "images.zip.part0030",
+      "bytes": 16777216,
+      "sha256": "30f8e10b5687ec5da7972acbff8e33d9216906a33fcc4893a3f5d88e24d8256f",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0030"
+    },
+    {
+      "name": "images.zip.part0031",
+      "bytes": 16777216,
+      "sha256": "7f28eedbbb4c86cf437610d547bf0c7a5de0c7ddf4051452f2ae9e342012e9e2",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0031"
+    },
+    {
+      "name": "images.zip.part0032",
+      "bytes": 16777216,
+      "sha256": "01de03a2f20a34215f33353d7f487531c2764a0f55e558c1eb5687ba42a0761d",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0032"
+    },
+    {
+      "name": "images.zip.part0033",
+      "bytes": 16777216,
+      "sha256": "887d4477a3c02b926859ab75bd5260badafac516e8cbe1feff4c677d176ebb86",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0033"
+    },
+    {
+      "name": "images.zip.part0034",
+      "bytes": 16777216,
+      "sha256": "1fcc9749a4a6c5bb0445d21afbe6227838c202af595db5e5c64545dbb6721d45",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0034"
+    },
+    {
+      "name": "images.zip.part0035",
+      "bytes": 16777216,
+      "sha256": "577512edc5d59d28b15f51dc3f4c887713f20996b6ae50c564b0e7d60721e2da",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0035"
+    },
+    {
+      "name": "images.zip.part0036",
+      "bytes": 16777216,
+      "sha256": "09d032041bc7101dc3eef7eda3f73c452ae91b652e7d17f57f634304a893551f",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0036"
+    },
+    {
+      "name": "images.zip.part0037",
+      "bytes": 16777216,
+      "sha256": "4c1dc0e1e2f3ee98cbe077df26ffa738875bfc6671ad9bc607e6ad28cbaf11d5",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0037"
+    },
+    {
+      "name": "images.zip.part0038",
+      "bytes": 16777216,
+      "sha256": "e1bd7762b6e9c74b3578b402b5a0d23d06f00c1a8df3ae897b9cdd524a817e9d",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0038"
+    },
+    {
+      "name": "images.zip.part0039",
+      "bytes": 16777216,
+      "sha256": "3160edef2cd4ce86e386234da70c500eb99cc8b0e2527b2a9d742c12864b1f11",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0039"
+    },
+    {
+      "name": "images.zip.part0040",
+      "bytes": 16777216,
+      "sha256": "f38b4fa5b4e6b2c7f166fc401fdae3645f2117d703f7e778d65f7b4bf8dbb772",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0040"
+    },
+    {
+      "name": "images.zip.part0041",
+      "bytes": 16777216,
+      "sha256": "2c8196459c15814dc63c324d98039ea543becd3360491b11433ff908f6213d10",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0041"
+    },
+    {
+      "name": "images.zip.part0042",
+      "bytes": 16777216,
+      "sha256": "f056232f140b8f411ae423d2835c63d9a0e253c1c72abb9f2770ef3f504e19b0",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0042"
+    },
+    {
+      "name": "images.zip.part0043",
+      "bytes": 16777216,
+      "sha256": "d261ce1f1350c94307eddb7083d2ea43f098226a6be399fd2c339b197fdfe982",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0043"
+    },
+    {
+      "name": "images.zip.part0044",
+      "bytes": 16777216,
+      "sha256": "68acde4e014137dcea2000785fa3b2b4c50f6636ebd3509e3da8e2db272d2267",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0044"
+    },
+    {
+      "name": "images.zip.part0045",
+      "bytes": 16777216,
+      "sha256": "b617311836e72e51b547d9391c430d2763a68b0e49bf7283c8adcda8040b0231",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0045"
+    },
+    {
+      "name": "images.zip.part0046",
+      "bytes": 16777216,
+      "sha256": "5f52c5a5dd899daa0a4e075d04243c744da2cf98877582449fba3d767d3d4409",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0046"
+    },
+    {
+      "name": "images.zip.part0047",
+      "bytes": 16777216,
+      "sha256": "5e8c12390a36b775476cea6b7b9e40c96aa2db31fab78997653e5d2d9e9175b6",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0047"
+    },
+    {
+      "name": "images.zip.part0048",
+      "bytes": 16777216,
+      "sha256": "c81f82de82b4711855698b01e3a426eafec6b7b3cde18c3b9aa0d3098b2732d5",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0048"
+    },
+    {
+      "name": "images.zip.part0049",
+      "bytes": 16777216,
+      "sha256": "38187974ffb001aa6a6a3117ebe78dca432e9f71b4bfabe41cf0ec3dfec9a661",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0049"
+    },
+    {
+      "name": "images.zip.part0050",
+      "bytes": 16777216,
+      "sha256": "7760165c89f3c7ddb1a2e82c236c706bec1393515f6fab5019e2d2869554a75f",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0050"
+    },
+    {
+      "name": "images.zip.part0051",
+      "bytes": 8542794,
+      "sha256": "49b61632a0c707ea5ed5eeb8110ec0b5ddb9b9208b1f6858936f2cddbcc2ae85",
+      "url": "https://github.com/Peginew/guanbiao-fpga/releases/download/instrument-images-20261104/images.zip.part0051"
+    }
+  ]
+}

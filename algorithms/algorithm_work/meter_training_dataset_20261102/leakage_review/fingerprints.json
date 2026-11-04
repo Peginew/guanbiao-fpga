@@ -1,0 +1,4250 @@
+[
+  {
+    "id": "A_001",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00043346_1793532678000083700_83b459.png",
+    "sha256": "75fcf5eeb8eacd64d072f6bac112393a17529d7b4366ed9400a65eaf7003b845",
+    "decoded_bgr_sha256": "7be6f0911923b1f4f96c9ae2d3bef6b604fa759a63e5b48dacbffac94b37a98f",
+    "phash64": "05ad648e525f3fa0",
+    "dhash64": "e3e7a7e0eaeaeac6"
+  },
+  {
+    "id": "A_002",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00043525_1793532683966540400_fd829c.png",
+    "sha256": "3cc8c9d05596bcb08ab7f483a3f6c857bfd36066cc3913c4548243cd57d7bfda",
+    "decoded_bgr_sha256": "b28a966d21aaf02e2ef658adfea0ab0102323099a40e4a20936294edc6e74380",
+    "phash64": "0dad66a3505ebf20",
+    "dhash64": "e3f3b3f0f2eaeae8"
+  },
+  {
+    "id": "A_003",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00044244_1793532707933251600_eb51fe.png",
+    "sha256": "1025e2fa153b809f7f2cf0b5187c67e6e910aebeb187e0d98767a4455881eef3",
+    "decoded_bgr_sha256": "0fddd1409dee9ac9b1e62cc273648ee7e650093501f5d98b436ba03d87e80c5a",
+    "phash64": "06ad68895257bfa1",
+    "dhash64": "e3e3a7e8eaeaeacc"
+  },
+  {
+    "id": "A_004",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00045697_1793532756365102400_208f86.png",
+    "sha256": "d9ae08f0201f68ef96a2e8f008131d953cbbbe36ee04e6f98c095ac0a590d6ba",
+    "decoded_bgr_sha256": "38072683d88dfb9e09bc66d75d665250cdd4aec383d65d483c8d301d63b35475",
+    "phash64": "058c26adc6584f7b",
+    "dhash64": "e3e6f1d2d2d2988c"
+  },
+  {
+    "id": "A_005",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00045923_1793532763900424100_f12ed8.png",
+    "sha256": "1c1aa2384a6677888b92cadb627f50598da6247100f2861b210350ce933e9ca5",
+    "decoded_bgr_sha256": "f7ec55ce5bf51c8eeae1873e5ae0d2d1c6778b0a17024065e6169ae2bb81a34e",
+    "phash64": "018c388dd7524f6f",
+    "dhash64": "e3e6e1eaeaea9cd8"
+  },
+  {
+    "id": "A_006",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00047519_1793532817099709100_cd8186.png",
+    "sha256": "fec3233fbec1ee22395bf121d96fcd5099c41f4419535d9d364ed957923355c4",
+    "decoded_bgr_sha256": "2e3f77e4dd1d12f532dd730cbda7acd9ceebddec3b92abb49e0f2df8824681ac",
+    "phash64": "058c368dc6584f7b",
+    "dhash64": "e3e6e3e2eaea8ccc"
+  },
+  {
+    "id": "A_007",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00047814_1793532826933000700_8053b7.png",
+    "sha256": "03df01e15e9c9c1252e4d8d8be74ea90a861b1aec1b20725826791bb0e4de9dd",
+    "decoded_bgr_sha256": "3f561782bb0b17eb2d4d11e50c71c93bf18e3f88c767f86537db6ba8c2702245",
+    "phash64": "050c66a5dcd25b4f",
+    "dhash64": "e2f6f1f2f2eae8ec"
+  },
+  {
+    "id": "A_008",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00048295_1793532842968072200_88efd2.png",
+    "sha256": "4b07a76b6f9d653721b9af85de88ecd8db2b40b9a75cab2e49e0b23be3f2084d",
+    "decoded_bgr_sha256": "947802beedb2181d6d6109527122f50be1bd26abcd573342440c0027a86751f9",
+    "phash64": "018c2e8dd7525b6b",
+    "dhash64": "e3e6c9daeaca8ccc"
+  },
+  {
+    "id": "A_009",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00048543_1793532851233294000_7e7ba3.png",
+    "sha256": "1c5fab813689bb3d0ec73c5a68143e6045858440976c1fa89d5151f067ca9819",
+    "decoded_bgr_sha256": "0809930156a83590a404f0626919b9e949c327bc0d5bcb683f82710d8023c49d",
+    "phash64": "068c2c9dd7524f4b",
+    "dhash64": "e2e6e9eaeaeacccc"
+  },
+  {
+    "id": "A_010",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00048959_1793532865101549600_478c89.png",
+    "sha256": "6e5149bea06f16729b231b1b1cf5087d8a41552a4802958e21dd44b7beb80f87",
+    "decoded_bgr_sha256": "222411428a7a1c4be02a596af5e1574de36fccc05d2e8307dc6bd8fe9d5799e3",
+    "phash64": "018d66bbcfb0c85a",
+    "dhash64": "f3e7d0daea9a8cc6"
+  },
+  {
+    "id": "A_011",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00049084_1793532869265180300_da4173.png",
+    "sha256": "41fba80dbde3bcab2dc248a0a2e3020c6373caa3ad8b76bbe13c0ef94f52b325",
+    "decoded_bgr_sha256": "248195ab0a25fdee817351ccf49e2b7a6ce217817c6d5bfda181b6cb980ca66e",
+    "phash64": "018c3cacb392d35f",
+    "dhash64": "e3e7c0caeaea94da"
+  },
+  {
+    "id": "A_012",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00049870_1793532895466727700_3ed50a.png",
+    "sha256": "e37239b2fb45b08024aab9633f357ccbdfe1a6ff4be76899b7290afaa9a0edf6",
+    "decoded_bgr_sha256": "61ba434968a0fabce069c0a754b8389c8d21d0500c1688b7e4e600d8bf91b075",
+    "phash64": "058c34bdb993534e",
+    "dhash64": "f3e7e0e2e2eaac8e"
+  },
+  {
+    "id": "A_013",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00049983_1793532899233155000_2a1697.png",
+    "sha256": "ac3b70d46f77af8765b2335b633cbe5500269251ed188958c9d364b818780e59",
+    "decoded_bgr_sha256": "6a88405740b18eb89917a585a58488412bb83d33b635b4fd1f4faa05f33aa155",
+    "phash64": "0c2c66bcb993534e",
+    "dhash64": "f3e7e0fab2f2f4e2"
+  },
+  {
+    "id": "A_014",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00050373_1793532912233796600_974fcb.png",
+    "sha256": "0456739a231ea5ff578588745d9b16e65fca6839761aa11900cc86012f7f3070",
+    "decoded_bgr_sha256": "0657168a944f9cbffa74c321092fe4884f790298ba1b7ab1b5cd1444df1f8826",
+    "phash64": "038c2c9cb3b3535e",
+    "dhash64": "e3e7c8cacada9c8a"
+  },
+  {
+    "id": "A_015",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00050601_1793532919832546900_0ad380.png",
+    "sha256": "151198de5199db2b536ec3b89a320a28c8ccf0618481c022f6d8cb2ee6b7d3bb",
+    "decoded_bgr_sha256": "a6c5de855e8627bdcc5ba0fe4fe8de76a315bbdc56878d0206cef630da592eb1",
+    "phash64": "078c4c9da3b3c359",
+    "dhash64": "e2e6e8caeae8ecca"
+  },
+  {
+    "id": "A_016",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00050962_1793532931868582600_aff066.png",
+    "sha256": "4f533b742f7716c2942f9dcf86fd3f3e47ae56d6010dc98e8de47369a38c50c3",
+    "decoded_bgr_sha256": "e995d8552af3e1e02c610ed14251b5a309b64951e5e53ec400d9cee5289bb0ed",
+    "phash64": "050c3cbdf1d25a4e",
+    "dhash64": "e3e6e0eaeaeae8ce"
+  },
+  {
+    "id": "A_017",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00051164_1793532938600554600_2743cb.png",
+    "sha256": "4bec4aba18a7b6e7348af1c20cce28a387663fbaac11e03f4c6f427f709b8c51",
+    "decoded_bgr_sha256": "d34fc5c379ee59cc4420f239e3a3e739bfbd503c342acefc8ab5d208699f8f54",
+    "phash64": "060c39bdf3d0534e",
+    "dhash64": "e3e6e0e2eaeae0cc"
+  },
+  {
+    "id": "A_018",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052163_1793532971899363700_ed77aa.png",
+    "sha256": "a929a47a46aabf6ef7aac8f9afb4a6379a4f5a3737ad518de676587e531e30e0",
+    "decoded_bgr_sha256": "82ac23a90d4f7a13188835ea7b86dac6c99e7741de1f497c1183cb3060969e61",
+    "phash64": "04ad34b9b1d25b4e",
+    "dhash64": "e3e6e0eae2eae4c4"
+  },
+  {
+    "id": "A_019",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052288_1793532976066105500_5bbddb.png",
+    "sha256": "b53e537807b4ee198030ded8383612c9df10716024f44e38923c6ef1817ea66a",
+    "decoded_bgr_sha256": "935bd504914c1917b05576d1e74cfebf6f7c50b32c272b204e354678f4632486",
+    "phash64": "0c2c27acccd25b4f",
+    "dhash64": "e3e6f0b2f2e2e4ea"
+  },
+  {
+    "id": "A_020",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052594_1793532986267265300_f56c9a.png",
+    "sha256": "a4534158c86f940a853318b7de4362d7fc9a5dadc409af1107054c3f93cd5190",
+    "decoded_bgr_sha256": "60221b1273a402d8838a04f911df8c8e1f4ca14f3e6e536f08508065473dfb0b",
+    "phash64": "078c0cbd33d34b4e",
+    "dhash64": "e7e6e0cacacac484"
+  },
+  {
+    "id": "A_021",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052847_1793532994701300700_cffa0b.png",
+    "sha256": "b0c138e367d96b4deae5bc8bea8d8af596ee9897158f9368c89904e651e7de26",
+    "decoded_bgr_sha256": "c55d2fdd0eb4964a679ca2bf626cd997c445cf884fb3218b0452305685ab0756",
+    "phash64": "068c0cb5b3da5b4e",
+    "dhash64": "f0e6e1eceeeee8e8"
+  },
+  {
+    "id": "A_022",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00053148_1793533004733312900_ef38c8.png",
+    "sha256": "9770294709b2e4b854377b10418cded927288bd3397a492da4dc534cd64bff19",
+    "decoded_bgr_sha256": "274f56c781e8b1dbfb3ede1a6ce9b60799436ed108d60035e2ceaa8ccec5566c",
+    "phash64": "05ac26bcb9b37146",
+    "dhash64": "e3e7e2daf2e8ecea"
+  },
+  {
+    "id": "A_023",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00053277_1793533009033383100_0ec7ed.png",
+    "sha256": "a0502590b3af1b41c843e138c28a94f49c651c94f24459df634c008ba2865ac0",
+    "decoded_bgr_sha256": "a2a548f39723ee01b1e15f87b1cb825377610f084362579b3d1a4b77f2289212",
+    "phash64": "04ec3abc39b2d259",
+    "dhash64": "e3e7e2e6e2e8ecce"
+  },
+  {
+    "id": "A_024",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054262_1793533041867070800_fa41d0.png",
+    "sha256": "e350efc0f1cc212dc0ab126ed71bce1bf6e3d3419c9eaaf673cf0887ede12f54",
+    "decoded_bgr_sha256": "47890fe05b4ee2fb8fa89ce9e4676a0036522ca3ca8f73113f47fe3d7a9d557a",
+    "phash64": "040c26beb9b3714f",
+    "dhash64": "e3e7e2f2f2e8ec8e"
+  },
+  {
+    "id": "A_025",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054390_1793533046133979000_65bd58.png",
+    "sha256": "81727bcb04e06e212e4976a6db9da5a5933cf7a6f89ead52d7c3307ecb6471d0",
+    "decoded_bgr_sha256": "47f3ebfbab17d6d872d3aa56ffab6800e350ba6efc144c2b93ec32a658c51630",
+    "phash64": "0c2d66b6adb6d148",
+    "dhash64": "e3e7f2e2f2e8e4e2"
+  },
+  {
+    "id": "A_026",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054595_1793533052968621300_2f30e4.png",
+    "sha256": "ffcff3508e88794d8d1b096a3d3ad429b70cc8aefaf53f78d9d4d66166b7acf1",
+    "decoded_bgr_sha256": "ec8bcc5db6acfdb09369ef67555718337193a4c8ccd6e7482ec225efb5703b60",
+    "phash64": "06ac289c39b7b359",
+    "dhash64": "e7e7eeeeeaececcc"
+  },
+  {
+    "id": "A_027",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054910_1793533063467722300_06a5fc.png",
+    "sha256": "555f28b68aa573783351426eabb34074bb2dc3ee5eff1279970c8118ff7235df",
+    "decoded_bgr_sha256": "dc74bcd99e3a5c10bdb3b30a51437e7ed72fab5b79d68b0e0266e5db46053985",
+    "phash64": "049c1398b3beb359",
+    "dhash64": "f0e4e6e6e2e4e4c4"
+  },
+  {
+    "id": "A_028",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00055247_1793533074700177200_1a521d.png",
+    "sha256": "1be7a847b5e465b653636b24dd4a577c75eba790022d460eacc96b29a307f918",
+    "decoded_bgr_sha256": "03ae994601a24cd71f0caf3ffad3aec6e6dbce5d298aa568ad5900ded91b7568",
+    "phash64": "0c892cbc3bb73153",
+    "dhash64": "b3e7e2eaeae4e4c6"
+  },
+  {
+    "id": "A_029",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00055323_1793533077235141500_0c9056.png",
+    "sha256": "85d8ffa3c666874de9466a805dc059a91013d848a267e757347710d0e3d30d47",
+    "decoded_bgr_sha256": "668ccba3d09b70ade563967488531368c64208c3353686e0e0aa705ef7b6460a",
+    "phash64": "0ccc36b83bbde051",
+    "dhash64": "a3e7e2e2e2f4e4e6"
+  },
+  {
+    "id": "A_030",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00056699_1793533123100931800_21759d.png",
+    "sha256": "6604a809d53ed4597879ca873001f458812042f5519996d603026e80aa714f92",
+    "decoded_bgr_sha256": "acee6564ea8358cc0f5c61df053c161bc56642109116681ac1f6f7e64b3944b3",
+    "phash64": "048c26ae39bf3353",
+    "dhash64": "a3e7f2f2eae8ec8e"
+  },
+  {
+    "id": "A_031",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00056815_1793533126967504500_633667.png",
+    "sha256": "aa2cae2f8bd74fe103d12bca4796628b71716f822ae75d5ea7d0bc6164bc3c48",
+    "decoded_bgr_sha256": "1410809d8026d2e8c2e9c26bd7d98c021bc68db6c41c6059d02998f2839e32e0",
+    "phash64": "0d0966acb9b6b159",
+    "dhash64": "a3e3f2faf2e4e0e2"
+  },
+  {
+    "id": "A_032",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057071_1793533135501477500_1dc694.png",
+    "sha256": "f7b052031df956bb0dc4db85a518e1ab70bf0023e7d52cc881eccf7d6b9eb3a1",
+    "decoded_bgr_sha256": "d5621883d2125fd127422a8e16167e129ef4958c706f513ddcec8f0208e51251",
+    "phash64": "018f2e8c3bb3b171",
+    "dhash64": "a3f79a9adad0949a"
+  },
+  {
+    "id": "A_033",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057376_1793533145667382900_9157b1.png",
+    "sha256": "3fd5cde71fe444b60af91da807aa95d2a6f468ae2011bf90b744fac750e738af",
+    "decoded_bgr_sha256": "6d6bee71263316cd0c15055963598937ce1ff96522ea0ccb58abb23f5d8d4ca6",
+    "phash64": "058c0c9db9b3b359",
+    "dhash64": "f2e0cacaeae8cc9a"
+  },
+  {
+    "id": "A_034",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057836_1793533161000987700_cecb1d.png",
+    "sha256": "319c6cb4d457cc0f8b5b483f024bfb863bf346c170d2473e46756423234ea31d",
+    "decoded_bgr_sha256": "32d737c1f762d5e62e9689737cdae1d62e5ad88efe1b01e9efafe15676134093",
+    "phash64": "098c2cbf39b33346",
+    "dhash64": "77f7e2dad3e8ec8c"
+  },
+  {
+    "id": "A_035",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057902_1793533163201675100_8be981.png",
+    "sha256": "51f806511480293645cb8e29653ade2d46b18ab434e60df63997119a31d9d833",
+    "decoded_bgr_sha256": "ccaafbcd8a9840cbadb525615fc8f775bbe146080ebde7ba9f93d45bd96dd697",
+    "phash64": "048c2cbe39b7b352",
+    "dhash64": "77e7e2e2ebe8ecce"
+  },
+  {
+    "id": "A_036",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00059531_1793533217502785800_f4dcf5.png",
+    "sha256": "944ee159450cd1da139e75f4ff011d0395bf36654b32170d18d6509a38998b1c",
+    "decoded_bgr_sha256": "297129da875e405833ba47c6c805e17842425d10684ef78d825b05697807bb96",
+    "phash64": "0c8d26be39b3b350",
+    "dhash64": "e3e7e2e2f2e8acc6"
+  },
+  {
+    "id": "A_037",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00059689_1793533222767744600_75298f.png",
+    "sha256": "3671e87bbc4d9d67181e70391352e3dca04a255387aa31b2cca440a3696bb0c6",
+    "decoded_bgr_sha256": "854c16e259d11b2f53a78ec28bce35549cb7169c20ba8fb11815f2731096bd94",
+    "phash64": "082c66b9b9b69959",
+    "dhash64": "a3e3f0f0f8eae4e2"
+  },
+  {
+    "id": "A_038",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00059906_1793533230001907900_b420b5.png",
+    "sha256": "d256c5953e8445b78f86d0d92fe4469f07950405f751c0f63603cea690a736ed",
+    "decoded_bgr_sha256": "81e81950aded0cbb15a6a1668ae29d9017bcd14da64f371411d20ca3a490e38e",
+    "phash64": "06ad399831b6b353",
+    "dhash64": "a3e7eeeeeae8acc6"
+  },
+  {
+    "id": "A_039",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00060161_1793533238501698500_001d89.png",
+    "sha256": "d3fcef6a68c6aff887f15e5f135065e02b7978fb86919533d21026e3ef8b4a4f",
+    "decoded_bgr_sha256": "20c9ac863b2b61e269018d89a58a259f63b045f276553f3c3e483327aef9f5ef",
+    "phash64": "06988898b1b7b37b",
+    "dhash64": "f0f0e2eeeaecece4"
+  },
+  {
+    "id": "A_040",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00060570_1793533252135420800_9bacce.png",
+    "sha256": "d7d4df3c32a3db799a9f3c9ca63553dc909c7c6c33cc46ea77395231a01967ae",
+    "decoded_bgr_sha256": "0a729ac1830b62a7740147a353ed358abb2d91b91e1c529b52b2c8993b826d7d",
+    "phash64": "0c892cbd3bb63153",
+    "dhash64": "37e7e2eaebf4e4e6"
+  },
+  {
+    "id": "A_041",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00060843_1793533261235309900_07afa1.png",
+    "sha256": "a1effe07382a6f345f9508250d8d3a9e5e477ac00df32921b970076c3f1ea39a",
+    "decoded_bgr_sha256": "49d85aec93da6b027a4277278fe2a86c893d97418b6bda4385ee6d26484c6802",
+    "phash64": "0c8926b83bbeb352",
+    "dhash64": "37e3e2eaf3f4e4a6"
+  },
+  {
+    "id": "A_042",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062034_1793533300936135900_901d0b.png",
+    "sha256": "d7b61a2b1869e69a44638fa2a7cd23c2dd9bdebb0f2e3a7ac0b13b1ef69c425f",
+    "decoded_bgr_sha256": "57060b0223584dbc189727f83b42aa6dabbf6454f657b05ee134c28570c694ff",
+    "phash64": "0cc926bdb1b69352",
+    "dhash64": "77f7e2d25b7424a4"
+  },
+  {
+    "id": "A_043",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062110_1793533303468553000_38bd99.png",
+    "sha256": "6d81411314bb75c43e6d941a914057897f9925f687871eee3cadce5b943550ff",
+    "decoded_bgr_sha256": "37c8a879039313500d253655d16faa4de7acb489343f8e149b04d333a065a9cc",
+    "phash64": "0cc126bcbbb69951",
+    "dhash64": "37e7f2aa73743474"
+  },
+  {
+    "id": "A_044",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062482_1793533315868005800_79c26d.png",
+    "sha256": "73a056d7b09ce2ccf8943bc21456c2b9dacb567ee751f7ca7a3733f00bcf7375",
+    "decoded_bgr_sha256": "50826ba86c64ad06dbdbc373218272a1b8d24580cddb6dd78b0303d89cf36a84",
+    "phash64": "26cc0cb9b9b6b342",
+    "dhash64": "77e7eeee6b5c9cdc"
+  },
+  {
+    "id": "A_045",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062747_1793533324703590700_52bd02.png",
+    "sha256": "9bce966b6aeb6a516bc75343a31bf19a2f7adcfd23afd38652ba03ccadd09114",
+    "decoded_bgr_sha256": "04abc81cd53fde99ec32e80fcc4a7a6a32be84042579f442bcdf9eec481ed988",
+    "phash64": "0cc80abbb9a7b6c8",
+    "dhash64": "f3f0e2a6327c6cf6"
+  },
+  {
+    "id": "A_046",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00063307_1793533343369486800_1e2c40.png",
+    "sha256": "bf72a2aa43e809f7b6d4cce12dbcbc2d6c187a0713c3e8dd951335812fe9c04d",
+    "decoded_bgr_sha256": "8a9d498a160e435dd20b180c46e49652abe0e87727075f9c3144a61afebe27f5",
+    "phash64": "0cc82cbeb3b79641",
+    "dhash64": "77f7e2cb6b3464c4"
+  },
+  {
+    "id": "A_047",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00063433_1793533347569866800_153f11.png",
+    "sha256": "2579774d76da5a3aeca6967565f5fb04b2bc724c87833fe601b84ae109e45324",
+    "decoded_bgr_sha256": "6aafc947149abb4f8bf02f410dcb68541c231940d8f08c9ef74d00c0337988a4",
+    "phash64": "0cc92dbca3b39741",
+    "dhash64": "77f3e2d7772444cc"
+  },
+  {
+    "id": "A_048",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00063837_1793533361037307500_6ff2a2.png",
+    "sha256": "7d388dffe7774b4028140d06d564fa5f76e1a83bd05c45ddada51816efcdae91",
+    "decoded_bgr_sha256": "724d2b95386dbafd63650a8e0200ddceb6c18de4f1038a0c9466e21ea3270b0b",
+    "phash64": "0c0964b93bbeb163",
+    "dhash64": "77f7f2f3f3f0e4e0"
+  },
+  {
+    "id": "A_049",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00064159_1793533371769800300_a1db1b.png",
+    "sha256": "45facc714c6da8936cc69c2a098436841d2c9d2abaca29a568a0d504b6d0845d",
+    "decoded_bgr_sha256": "00e4c693afbc08270242a5b31f9c9112adedb76df0cb5d1fb4341ff17e358de7",
+    "phash64": "0ce961bc31aebb44",
+    "dhash64": "77f7723333706470"
+  },
+  {
+    "id": "A_050",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00067603_1793533486571420500_86ed12.png",
+    "sha256": "bb1efee7a7fa94cb22e50c7a702065f854908e75eea545f97f27731197d450d8",
+    "decoded_bgr_sha256": "fde5def7864a55b78bbdc39c5a2a36f3905df2d2d62b25b36211aeb67f2700d2",
+    "phash64": "09cd2cbcecb3b340",
+    "dhash64": "77f7d2d3b3385cb0"
+  },
+  {
+    "id": "A_051",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00068842_1793533527871147400_1e9619.png",
+    "sha256": "e89669abfea77b4489aa42ed621b48ccbc9e597edd7ea1117fe6151ea0dffa41",
+    "decoded_bgr_sha256": "7555538e99387983423c8b79314c6c4e7e9bf89db759c750d02ceefd37772902",
+    "phash64": "05335e8b318f9473",
+    "dhash64": "53d7e6d7dbc2e2e4"
+  },
+  {
+    "id": "A_052",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00069320_1793533543804316700_1fbbcc.png",
+    "sha256": "e7b7293d6824f82c99baf114c82cc46b99f25e75cbbc7226b4579e4e664c76dd",
+    "decoded_bgr_sha256": "05f3cf65d97ec5b7eac435aaf4817696fc8866df6aad98a510aa46d2cfb59da1",
+    "phash64": "082b6cbc33e09d73",
+    "dhash64": "77f7e2dbdb30e4e0"
+  },
+  {
+    "id": "A_053",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00070582_1793533585870692800_6d70a8.png",
+    "sha256": "9ec4d3596478e8d589036ff0bec5618fc668df1f69fa52e50eb2208ac9ce28ce",
+    "decoded_bgr_sha256": "9a3564f57c69104cfa29c7ef0bdff0b5b9be5502b927f12d09cbb6aa27c14093",
+    "phash64": "0c0d33adb9b7b340",
+    "dhash64": "77f3f2f2f3f0a470"
+  },
+  {
+    "id": "A_054",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00072149_1793533638104058700_a8cf22.png",
+    "sha256": "9420b9a1d527b07706bbf410dc62316c4d81843ed52863a0b44b7cbcdbd48f67",
+    "decoded_bgr_sha256": "99a3a3039326345a438e4264e6675309a04685d8a385d4cee116e23c495c3650",
+    "phash64": "0c2c679d3bb69942",
+    "dhash64": "77f3f2e3f3f0e468"
+  },
+  {
+    "id": "A_055",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00072920_1793533663803674300_93f14f.png",
+    "sha256": "bd8501e7b5c8ad7e15f78ec6f7650267c3871125d46dc6cfd6b6340363c1bbf9",
+    "decoded_bgr_sha256": "b27dd80c0c9b4af664e5c5524f9aad3fc3f936c26847440864bcc206b2e95464",
+    "phash64": "09cc2ca7abbbb142",
+    "dhash64": "77e7f2cbcbd83cb4"
+  },
+  {
+    "id": "A_056",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00073889_1793533696104216200_089cf1.png",
+    "sha256": "d3c4d02fb83adc91b6557d752c1cbe83b90fb10043133c7aeb20ae3e6f8954a6",
+    "decoded_bgr_sha256": "68c12c1cf79c29ac26e10f51fa44f685228d46a443b57bc8573ec65ad0acb926",
+    "phash64": "038d4cb9abb8b343",
+    "dhash64": "77f7eacbcbc88cc4"
+  },
+  {
+    "id": "A_057",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00074276_1793533709005602000_cf76b8.png",
+    "sha256": "d6dc84fc62f08686fc0524ec922d9acd75586bb9a8f862bbcb2b144654c5caed",
+    "decoded_bgr_sha256": "3a3a510ff797c412456e886b635aba34f1d13376ad1614e593a76f121b8eb66c",
+    "phash64": "09cc64bcb9b33343",
+    "dhash64": "77e7f2fb535ccccc"
+  },
+  {
+    "id": "A_058",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00075987_1793533766039347800_d9180a.png",
+    "sha256": "184b4818a0186069970c4d32f08a8e82e77fc8a141a1fdd3fda399cd91067f1e",
+    "decoded_bgr_sha256": "03b78988e60ebf07ad493141953827003a43a89d2091ecdf635ec05142dc05a3",
+    "phash64": "098c66b9a9b3b651",
+    "dhash64": "77f3e2f3d3ccccc4"
+  },
+  {
+    "id": "A_059",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\补拍12psi逆光.png",
+    "sha256": "16d8cea4bc72ca76ae85f81a91deb3bf4f35bf02d622767ffc9e3e3dd5d94501",
+    "decoded_bgr_sha256": "256328dfa97d60bb79be726f64f2cbb2101abde063bb9d4300afd30eaad97d63",
+    "phash64": "4c4fbc983e2c38e8",
+    "dhash64": "f2c2e2e2b0b0b0a0"
+  },
+  {
+    "id": "B_001",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00004582_1793534447110211500_7632ad.png",
+    "sha256": "92010a8b823c21039a5c6c15f1e51c251bb928185fdb3e08323faecc4a5090e1",
+    "decoded_bgr_sha256": "15dd2ea6e02d133c292c62a070397caaf3e2279fa17677d59cd5150a1734b6fe",
+    "phash64": "09cc6439a4bbb356",
+    "dhash64": "77e3f2f232181a8c"
+  },
+  {
+    "id": "B_002",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00004763_1793534453144651000_8f99e9.png",
+    "sha256": "3a2ee861a58da0a1520d895072776c129558314ad3516f8e48c8e462dced0da8",
+    "decoded_bgr_sha256": "f5ccd5a22730307ee2e86903e0870e854cb25e77777233b92b9394a8800d5328",
+    "phash64": "19c0663ba8b9b754",
+    "dhash64": "77f3f2f2321a1234"
+  },
+  {
+    "id": "B_003",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00005225_1793534468545774400_8c04ad.png",
+    "sha256": "8f0a9ebab514f3ffcd409b699986314b560bad465f8091e71927583e5b2911e4",
+    "decoded_bgr_sha256": "951aefb10152b936c193361fab2be0e7967069d8b336237df7b27754b262bada",
+    "phash64": "07cc4c99aca73356",
+    "dhash64": "77e3eeee3a5aeecc"
+  },
+  {
+    "id": "B_004",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00005644_1793534482512597600_dba575.png",
+    "sha256": "ba6f804cda62eb8a3d5179facc16df02f0832ba160ef181689ee09d2934d31c2",
+    "decoded_bgr_sha256": "0dda15250b47f0c2fdf87276ee32c0a090385a2e2a8076c0f6aae7c7c7b205c0",
+    "phash64": "01ce4c9db8a7b057",
+    "dhash64": "f3e2caca385aca9c"
+  },
+  {
+    "id": "B_005",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00007008_1793534527978013100_ee6482.png",
+    "sha256": "2df41cbd3eff097f17aa2f485d98dacf05f52df31b7213de879eea0b08378fc7",
+    "decoded_bgr_sha256": "63167569bb352d2f30588d4852c5f030f61323b0070727197e5cce904a3a139b",
+    "phash64": "09cc643da0bf3356",
+    "dhash64": "77e3f2f2325a5a8c"
+  },
+  {
+    "id": "B_006",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00007109_1793534531345921000_912d92.png",
+    "sha256": "d9e3255ad0de4e74a09d3e4199511dcbcdb5d16893d5684629118641e2157c98",
+    "decoded_bgr_sha256": "4d49e2e544dbbcae5c3558b0929bacb588f45144f8bb6b9fb23d600b25bb98c3",
+    "phash64": "0dcc6039e0bf3356",
+    "dhash64": "77e3e6f63a5a5acc"
+  },
+  {
+    "id": "B_007",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008332_1793534572112583900_23e410.png",
+    "sha256": "014e7995a31a228a5cb714ac26458a2b2b25a2c2220a2f27206eaf9e4943d4e9",
+    "decoded_bgr_sha256": "ef5c37e7cc5da4e2a17abd02e4c1e14d4ad2101db435204e56e67f4c3a586d62",
+    "phash64": "0dcc6639e4b9b350",
+    "dhash64": "77e3f2f23a5a5acc"
+  },
+  {
+    "id": "B_008",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008446_1793534575913621900_d769e3.png",
+    "sha256": "4d2e7ae3890fc14cda839d89dfaa37fd1e5ed503207b559a61d36ab435c432e4",
+    "decoded_bgr_sha256": "7fdfd5209def783cabebc0b0827cb708689bb6d98189c76e2c12611e6e27a917",
+    "phash64": "19c4663dacb1b750",
+    "dhash64": "37e3f2f232525a7c"
+  },
+  {
+    "id": "B_009",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008709_1793534584677753300_5589ae.png",
+    "sha256": "0c116b62725047b9167a2e0ed396354286732e6503c321c688153cde9ad93b07",
+    "decoded_bgr_sha256": "6c2f899f43b0a74a80146e8f595a629943d18a45a8d94c1846bab0cb1c2bd6e7",
+    "phash64": "06cc61b9e6a73352",
+    "dhash64": "37e3e6ee3a5a5ecc"
+  },
+  {
+    "id": "B_010",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008862_1793534589778515700_e6d26c.png",
+    "sha256": "d903a85e0000a11188a2b1fd95f0e9bbe98658e2c11fdf5a6141453e2ffddfd1",
+    "decoded_bgr_sha256": "2ea66f957415c82b199f2282c4cf55e1917faffe719dfe88eadfb052407d88a3",
+    "phash64": "0ccb463bc6b39872",
+    "dhash64": "e0f0f0e0707072e4"
+  },
+  {
+    "id": "B_011",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008991_1793534594080376700_b8097e.png",
+    "sha256": "339cc13528a4d6c777c10c51085471986305fa423385d968d80796abb6e7e01e",
+    "decoded_bgr_sha256": "cba23236da763cba23e923d5845c3d49be0bd5c5e723e6a97d2764ca7cac485a",
+    "phash64": "09cc643fa0bb3356",
+    "dhash64": "37e3f2f23a5a7acc"
+  },
+  {
+    "id": "B_012",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00009117_1793534598277903500_d30487.png",
+    "sha256": "80658cab5ec0b23f991ea50c0717a9d86a115cbdf7f69a74b8d6301571ea017a",
+    "decoded_bgr_sha256": "6a45597e378611bcb1d70c46e2407b9dd2d2e82449d8234fdc47fc0eb79218c8",
+    "phash64": "0ecc6339e2b5b350",
+    "dhash64": "37e3e6e23a5a5ecc"
+  },
+  {
+    "id": "B_013",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00010260_1793534636378021800_081749.png",
+    "sha256": "4d429485037b9571a2780528ba6761e7bb9ea7b920df6b99d1308566644ada99",
+    "decoded_bgr_sha256": "f79c4caca7955b273c00a0a1567fc6be337c0908ffa12d5aef4e0c586495cd36",
+    "phash64": "0dcc6c39acb3b350",
+    "dhash64": "77e3e2f2325a5a2c"
+  },
+  {
+    "id": "B_014",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00010351_1793534639412403800_7d5385.png",
+    "sha256": "0f646f5dc005bb83165889be941f6604db79a6932c173a575046e9a65fd379a5",
+    "decoded_bgr_sha256": "3a092466e400904e5d87cf738d9055448738a597f93809b3314525d3d7d685dc",
+    "phash64": "0dc4663facb39650",
+    "dhash64": "37f3f2f2327a5a70"
+  },
+  {
+    "id": "B_015",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00010641_1793534649078646200_843ab1.png",
+    "sha256": "045b5b451beb9c1dff9294067955027fc6245681f5b2d5031cc49ad82aadafec",
+    "decoded_bgr_sha256": "14686043b8d17e2809b7ab432d47fc8f65c864c21509401061c69232dfb2f15f",
+    "phash64": "11cf6c8cb6b3b150",
+    "dhash64": "37f3dada1a529a98"
+  },
+  {
+    "id": "B_016",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00011066_1793534663246781000_cfdaec.png",
+    "sha256": "2bc869158f608ccd8762e716c48a646b0fded6273b441a2c8a86e33b07e6a5f6",
+    "decoded_bgr_sha256": "e75014e69ed67ddb5dd9ffba884a311e70a4bb3f6aeb05241e61c0c190dc8ea1",
+    "phash64": "0c8ec339b39eb344",
+    "dhash64": "f0f0f0f0f070f2d0"
+  },
+  {
+    "id": "B_017",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00011283_1793534670479110300_aa9c6a.png",
+    "sha256": "e7dca38b54af78af101158f5323f1959ee6fbfc914d986b3cc7e4d094cdc7862",
+    "decoded_bgr_sha256": "cdbc84fc021869994243e2f34835119e62dd7aa7c6d7411f3dae6d245810ef52",
+    "phash64": "08cc60bda6b3b173",
+    "dhash64": "37f3f2b232725a98"
+  },
+  {
+    "id": "B_018",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00011428_1793534675312692400_48e3cc.png",
+    "sha256": "c3f18691d005c9d6ed44888d8dce236ba1086830d6d2eb0a66f650d41e13183f",
+    "decoded_bgr_sha256": "fd228363a6ff994876262addfe7366c77f5c9e9774c2b6a24f342ba043568039",
+    "phash64": "09ce609de2a7b153",
+    "dhash64": "37f3caea3a72da9c"
+  },
+  {
+    "id": "B_019",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00012214_1793534701513723600_acdd3e.png",
+    "sha256": "d9b3cd7ee6d8180d60d463f3ad8eed568f598ccbf7315fadd1983f18c2fcacc4",
+    "decoded_bgr_sha256": "abb83fab4f5cbc5ede26f9d93f3859358ba377e3a15db9ab1d7062df47fd2564",
+    "phash64": "09cc623de29db156",
+    "dhash64": "77e3f2f23a5a5acc"
+  },
+  {
+    "id": "B_020",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00012597_1793534714278881600_5b5d34.png",
+    "sha256": "493176e9ada0b0d47aaac29d026e38ae73cc16b2f4e744a0bab871ac27c84d63",
+    "decoded_bgr_sha256": "b39c182ba836ff5f5e86e00db0a7cec4a39652552717d270c92629a7726e801c",
+    "phash64": "0cc033beaeb39750",
+    "dhash64": "37f3f2e23272527c"
+  },
+  {
+    "id": "B_021",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00012886_1793534723912127200_8ed8a2.png",
+    "sha256": "42d4494037f85306425a757298251d185fb0f06a124774e19ca6311af7d36cf5",
+    "decoded_bgr_sha256": "84c05035bfa5484c9407ca7b7b2a71089ea575235f385c7e6c06bcac8daa0443",
+    "phash64": "11cc6c9caeb3b350",
+    "dhash64": "37f3dacaba9adadc"
+  },
+  {
+    "id": "B_022",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00013550_1793534746046113800_250807.png",
+    "sha256": "2a30460a8a245e4e706a82fad0666955bc947c772ed44f9107412d41a3ffe649",
+    "decoded_bgr_sha256": "aa185268bf392f67dabba2d90d4ddb763db950cfea91807b233753b820b1b7ce",
+    "phash64": "09ccc799c3b89372",
+    "dhash64": "e3e1e0e0f810d8d0"
+  },
+  {
+    "id": "B_023",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00013712_1793534751445934400_fae1bd.png",
+    "sha256": "1b429b316ba492b0d62eb0f28a2f480b611f6910d80ab1ec0c2f68a9e7cbd1a8",
+    "decoded_bgr_sha256": "dfc8e3beef425f9be593dd5b8354208a0545ae2f1954b9f9ba329bd8de7f7d3b",
+    "phash64": "09cc66bda0bbb152",
+    "dhash64": "37e3d2d2327a7a9c"
+  },
+  {
+    "id": "B_024",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00013925_1793534758545568600_d33c4c.png",
+    "sha256": "8f2cfab6f780f1447b63776e2902380ebe64c53ab531d456b9cfe812fc88ea52",
+    "decoded_bgr_sha256": "7d861dd6c2ff1afc977f06c07193138d53e016ec29af4b63337d890a04ad84bb",
+    "phash64": "0dcc6139e0b7b352",
+    "dhash64": "37e3e6e63a5a7acc"
+  },
+  {
+    "id": "B_025",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015249_1793534802678956200_eb05c1.png",
+    "sha256": "30a8800b988eb2c3c49ca62a6a58f9f73d178cfd32ed8bf3645c62465f528417",
+    "decoded_bgr_sha256": "ad22129f97fef4f1d1067157a1f175f8b1819ada2aeb1a2156b1a6cd8e0809b2",
+    "phash64": "0ccc6639a9b3b352",
+    "dhash64": "77e3e2e232525e46"
+  },
+  {
+    "id": "B_026",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015387_1793534807279726900_b9c33d.png",
+    "sha256": "69bb2bf7013bab4d6d86c0257dfca07f9f0d30f1f5ff9f3dcb496d2c417602e2",
+    "decoded_bgr_sha256": "95efa651f76494c0972d697d4f5477582b6bc54106c247d658a6681e14d86fea",
+    "phash64": "19c0663f8cb3b750",
+    "dhash64": "37f3f2f2327a5a74"
+  },
+  {
+    "id": "B_027",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015636_1793534815579601400_ddaed5.png",
+    "sha256": "29d9999e80f58099a92689554d78225261ca036366fb2ced35187563c0124391",
+    "decoded_bgr_sha256": "b65ff15ace4013f92b852ed97e4f013dba89cb51c908887cb9ef33330e7dd6b4",
+    "phash64": "03cc4c9da6b73370",
+    "dhash64": "33e3caca3a5a5edc"
+  },
+  {
+    "id": "B_028",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015868_1793534823313973900_3b0f4c.png",
+    "sha256": "fc2898c88b204bfeb33223cb5efa8fd2bc00b07822bf1ebd668df55b4bb2420d",
+    "decoded_bgr_sha256": "5c62439e5855304b3d4c32dc0f5dae4a4541797dcc098ffa61c5725b15dc799e",
+    "phash64": "0ccc433b82bf9372",
+    "dhash64": "f0f0f0f0707072d0"
+  },
+  {
+    "id": "B_029",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00016007_1793534827946263400_6df2a9.png",
+    "sha256": "d4e3fc5d5abb8f3a7561717a023179341083b313d5e9c402dd8686322346c2fd",
+    "decoded_bgr_sha256": "22d5480fca7b9311c8e44e859450986078f6dae3560e4198385db4a902a90eec",
+    "phash64": "09cc643de0bb3356",
+    "dhash64": "37e3d2d23a5a7acc"
+  },
+  {
+    "id": "B_030",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00016084_1793534830514267100_280316.png",
+    "sha256": "fd4889902d6dd7504480fdc3183e833dc6fcd47d7eedeb8f97959c2e05e177a1",
+    "decoded_bgr_sha256": "d657241b5edf4efb5e3145b50db7bb719836362c84dc5564d668c68c3055f488",
+    "phash64": "0dcc6139e0b73356",
+    "dhash64": "37e3e6e63a5a5ace"
+  },
+  {
+    "id": "B_031",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017012_1793534861445890200_7e009c.png",
+    "sha256": "01321ae5897309099784815dd2987e6e0131ddacc2d51dc6e033b765f0148fc6",
+    "decoded_bgr_sha256": "06104b783c8b1b5d58e6d68d9d5cb521fe80b5be94188a601b1ad8a717a7345a",
+    "phash64": "0ccc6639e3b9b350",
+    "dhash64": "37e3e2e232521ec6"
+  },
+  {
+    "id": "B_032",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017121_1793534865080375900_7f6843.png",
+    "sha256": "c480c964dd03d7ea21307bc00b773095c64ecf34bbaae71570ff99470a97b019",
+    "decoded_bgr_sha256": "30dacec59bcf0cee42e711dba32df2608d12ae602048a03587e8075d5abd0153",
+    "phash64": "1dc426bda9b33350",
+    "dhash64": "37f3f2f232725a7c"
+  },
+  {
+    "id": "B_033",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017373_1793534873479715900_73fa89.png",
+    "sha256": "a0fefcbec843759dca1763ccb24261d79c373341f4303e364e5ea6cdc31223e1",
+    "decoded_bgr_sha256": "adcfb0aee8c153e1b6e62a60b011c492cbf8380ed7adb7120d29de962fac6848",
+    "phash64": "06cc4d99a6b73352",
+    "dhash64": "33e3eeeeaa5acacc"
+  },
+  {
+    "id": "B_034",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017567_1793534879946274700_31e9a4.png",
+    "sha256": "2ce26a623e94a39c0e91b37d314feb134c9ba4117b705d3b11640c9f91b70156",
+    "decoded_bgr_sha256": "367f29a22f62e66746e59149f7ba518e574ba2a4f29032c333ba722b4db47f8c",
+    "phash64": "0ccc4e9b8ab39372",
+    "dhash64": "f0f0f0f0f070fad4"
+  },
+  {
+    "id": "B_035",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017721_1793534885080128000_a6af5e.png",
+    "sha256": "8a948152f426a9a643aef4fec305f170bd0e800fd0d1444eaa848f750a86e6d9",
+    "decoded_bgr_sha256": "276709d0443493610b82649b58f8988f847967a882c94fdcad16f04cc774bcdb",
+    "phash64": "09cc643da1bb3356",
+    "dhash64": "37e3f2da3a5a7acc"
+  },
+  {
+    "id": "B_036",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017810_1793534888046801200_5af017.png",
+    "sha256": "23c629f67dfd79c64b99fe337680a2adf816f15eb46fc44d17f3087dfd581230",
+    "decoded_bgr_sha256": "43148d35153019313266611545c6d0236b34f41359f7b2ef9f12a99392f8648b",
+    "phash64": "05cc6139e6bd3352",
+    "dhash64": "37e3e6e63a5a7acc"
+  },
+  {
+    "id": "B_037",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00018709_1793534918014497700_fbc528.png",
+    "sha256": "4370b191fc2f862329526092e808d04109818de7450bb7f69bf7503b6cfb5c8e",
+    "decoded_bgr_sha256": "1d65d58fd7ebd7ff1edb29fe04b7dc1f07b96253887792924162d0576abd76a1",
+    "phash64": "0dcc6639a5b3b350",
+    "dhash64": "77e3e2e2325a5a44"
+  },
+  {
+    "id": "B_038",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00018855_1793534922880169900_d70ad2.png",
+    "sha256": "f56798ab770315f079409d3badb5380cb6532c7fba7e6bf2df113bb6bed3b201",
+    "decoded_bgr_sha256": "04c24f1043c41a4abddf307ba6a71a93cb9d698ad4134aa9609e228bfa88e03a",
+    "phash64": "19c4663da8b3b750",
+    "dhash64": "37f3f2f232525a7c"
+  },
+  {
+    "id": "B_039",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019054_1793534929514079000_40df3c.png",
+    "sha256": "acc6378dd2c41455b0c789873931013dcd0c0346e337e9162973a84d1c56901a",
+    "decoded_bgr_sha256": "e8cd25c8767ff1e7499e30832a715f6613dc92910ef099b7d3c81e6eca0174bd",
+    "phash64": "33cc4c9da2b33352",
+    "dhash64": "37e3caca3a5a5a9c"
+  },
+  {
+    "id": "B_040",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019319_1793534938348086500_713ed6.png",
+    "sha256": "a884d200faaf52e2b1d2d4029652b25f1c8ad1e61824dd9027caa1a96175647e",
+    "decoded_bgr_sha256": "f2d36cdbb37e0e888e195b195a0cdaecaf3d77a6084c3d2f3dda7404e6a576e0",
+    "phash64": "0c8c46bb86b3b356",
+    "dhash64": "f0f0f0f0307a7ae4"
+  },
+  {
+    "id": "B_041",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019472_1793534943446955700_0a321e.png",
+    "sha256": "ee21af2211bd111e7713af63c53db28513939ce3589cae61c29faad643ebf82b",
+    "decoded_bgr_sha256": "1f45e52c0d10ef5dc9456894e8025d8a3837f530966f1f93f989aa5527b680a1",
+    "phash64": "19cc663da0b33356",
+    "dhash64": "37e3e2da325a5a8c"
+  },
+  {
+    "id": "B_042",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019553_1793534946147613100_794031.png",
+    "sha256": "3d1510b391d5b3bd6f8162a534249ef023d91d085c024e71c90eda6564abff34",
+    "decoded_bgr_sha256": "a2aabd1b294644edda0ef674c14eef59baaaa85375164e10cc230f8c800820a2",
+    "phash64": "09cc6cbda0b7b152",
+    "dhash64": "37f3eaea3a5a5a9e"
+  },
+  {
+    "id": "B_043",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00020643_1793534982484168200_fe80fb.png",
+    "sha256": "7f2a297ae3ac7dcf46e4ce3d86752978a54ac29f39758a352fe81fab200f1f96",
+    "decoded_bgr_sha256": "52d3f335700af9650d1cd4631127e311b06f77e2dda99c17e3d6ef3434adbbd3",
+    "phash64": "0ccc21bea3b39956",
+    "dhash64": "37e3f2ea62725a10"
+  },
+  {
+    "id": "B_044",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00020952_1793534992779357600_f44941.png",
+    "sha256": "cfe968ee67e16a725d62458e87ff34f153d41136fc402d01f3d480b4385ec323",
+    "decoded_bgr_sha256": "bb81a6053c7d1f7651d7402d66ee7454e6f4b6d2bdbeaf6a589345a0c59cd25e",
+    "phash64": "0ce0339cabb39e51",
+    "dhash64": "37f3f2e232727250"
+  },
+  {
+    "id": "B_045",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021481_1793535010414510400_2b124a.png",
+    "sha256": "11cb7c4494025a0dab5e935747a4315693b1d28992167cd8f84787fd578c10a0",
+    "decoded_bgr_sha256": "2d37b09c2bd15c0e4ca3458498f02701e21a76dbd67be5ad07c43f3e8407f154",
+    "phash64": "27cc09b9a6b3b350",
+    "dhash64": "37f3eece3e5a5a5c"
+  },
+  {
+    "id": "B_046",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021647_1793535015949073800_06b9c5.png",
+    "sha256": "de4aaa7cd2fb4c0637403d89632b5d5ab7316213dba3d72d498351896ede64d0",
+    "decoded_bgr_sha256": "ab5df3cbb119aec414674e902efeaa694765b4d55121b40b8ae76d0d8c140225",
+    "phash64": "4ecc4e3fb8c338c0",
+    "dhash64": "e3e3e0e2327ac2e0"
+  },
+  {
+    "id": "B_047",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021836_1793535022247274800_0a8d4d.png",
+    "sha256": "28bd3fa1faf9eb01181ad87bd31769125b6b1eda30af3ab8818866bdc798a0f4",
+    "decoded_bgr_sha256": "9d525ca490f9af92aa621f64c9b3d0e2aaf5cc443dfe310c46958df3ed683147",
+    "phash64": "19cc64bdb0b39354",
+    "dhash64": "37f3f2da32725a90"
+  },
+  {
+    "id": "B_048",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021906_1793535024581509400_18ce0f.png",
+    "sha256": "968708209070d7164c42963e9a22c85eac7454612f19d13ba7884fda10c7b536",
+    "decoded_bgr_sha256": "1272307520d5130feae512246ab8015941c4c0fc4417b1951a1e2e1f55623d58",
+    "phash64": "09c068bfa2b39d56",
+    "dhash64": "37f3f2ea2a725a94"
+  },
+  {
+    "id": "B_049",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00022101_1793535031083386700_7d85d3.png",
+    "sha256": "f7feb59a783d32b9686fd6f67a3188a909449e3c8c820d99805a57d692e12e83",
+    "decoded_bgr_sha256": "004eeef6538d2fbfe2861bcf3240f7ac5f5e219af14041d47883e319983de808",
+    "phash64": "0dc46739a6b79170",
+    "dhash64": "37f3f2e232525a70"
+  },
+  {
+    "id": "B_050",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00022357_1793535039614301200_1fdf6d.png",
+    "sha256": "a8f73b84f01de98db9315678979ba0eaf932b49ad07ab28f73bf5f1056b4163d",
+    "decoded_bgr_sha256": "c4d712feae9f7e3d71f1f41f90663273b17ef30a32f038b7f8e6bb5b17666684",
+    "phash64": "0bc42f3ba4b79950",
+    "dhash64": "77f3f2e6395b596b"
+  },
+  {
+    "id": "B_051",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00022997_1793535060948895500_fd3ccb.png",
+    "sha256": "ca6bbdd4d5ffcd2209c6d1ce620e3b6560e63c1a3b48dbcb1eb0d4b153d5b4d1",
+    "decoded_bgr_sha256": "959cd08876523ed11dc4eda674630f3309e4c0467b8983a3ba98e05962143cc0",
+    "phash64": "1cc44da3acbcb171",
+    "dhash64": "77e396222a5a5a70"
+  },
+  {
+    "id": "B_052",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00023465_1793535076548127800_18961c.png",
+    "sha256": "e5d92b58905f7bedd4c6ecf98f4613bfeb96e5ac303ddc28112a51a561c41880",
+    "decoded_bgr_sha256": "541ba6f00323876ebb9667bab3aa1d0fd5ea8d586eda98bd6b8b2f3b9c362873",
+    "phash64": "0f27649a362bcd4c",
+    "dhash64": "6bd3634d61617242"
+  },
+  {
+    "id": "B_053",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00023633_1793535082150875800_e5373f.png",
+    "sha256": "8c1a979968a119a643a0db59496603b5947e82edbe9fad6122ce5633c5084c51",
+    "decoded_bgr_sha256": "a6b0c9230306d2a94dcbc78465ae0c246f449074d065e0998b73a68e824c44e0",
+    "phash64": "09c46cb933b1d752",
+    "dhash64": "77e3e2dada5a5a70"
+  },
+  {
+    "id": "B_054",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00024433_1793535108814033300_db5925.png",
+    "sha256": "c8788524f1cada2cf0ef7cfda74e02f231a18f03f2ed2e045aebc3b6adc13a68",
+    "decoded_bgr_sha256": "fa8724e2edc4d62caf2d2ce3467be89e795cb7755fd4ea1d69f2f50a53cbacd9",
+    "phash64": "09666699bbe63146",
+    "dhash64": "b7a3e0f03870e0f0"
+  },
+  {
+    "id": "B_055",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00024925_1793535125215950000_6dbf12.png",
+    "sha256": "4ea28eebaf04e48f1843c4e606de2afb014001c77b0c53875b079a2ce0828bfe",
+    "decoded_bgr_sha256": "8412bac3b96cc6c47cf84adfde6121a614049df7f93309783dc1fa43ca39d1af",
+    "phash64": "09ec6699b9e73150",
+    "dhash64": "37e3e0723070e2c0"
+  },
+  {
+    "id": "B_056",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00026910_1793535191382115500_66fcd3.png",
+    "sha256": "870247ec4cc23bf5c7930a6495becebef8a7f0905170ec2d2ebecbda02ac3e4b",
+    "decoded_bgr_sha256": "cfe27c6a3e8898310eb95da1e12ac1df4ae65c2ebd680d1f3cf446bdc73c93ce",
+    "phash64": "0ccc6cbcb3b39644",
+    "dhash64": "37e3e2ea2a2abaa8"
+  },
+  {
+    "id": "B_057",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00028395_1793535240881942200_994de8.png",
+    "sha256": "22f12b9d060ca5066aeed4842a2fd0deb1f3a50bde687118c479c804c4db3267",
+    "decoded_bgr_sha256": "a25e68b7a95082dc302e2fc187e733fd15bccbcf5f450fb0270166b0265bbd6c",
+    "phash64": "0dcc663da3b3b150",
+    "dhash64": "37e3e2e2325252cc"
+  },
+  {
+    "id": "B_058",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00028643_1793535249146940100_8d4693.png",
+    "sha256": "ee9c942ef345fc80c69eb4c66220b9eeb01d7bfb8c2f60b021c43a610cf998a3",
+    "decoded_bgr_sha256": "8820c96ad37e1ef38193e926b465b97bffefb0830f8fc50b61f0f0f5691c455a",
+    "phash64": "0ccc623fb3a73350",
+    "dhash64": "37e3e2e232525acc"
+  },
+  {
+    "id": "B_059",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00028688_1793535250648646700_beae7b.png",
+    "sha256": "5eca2439941d4a420a55c39635724496970e5a04de3676134f3971b21bd38bb7",
+    "decoded_bgr_sha256": "f50398e39e18493bd36a0335e2a0a208c273f4ed5affdccac4405ddd5dd3a076",
+    "phash64": "0dcc663da3a3b350",
+    "dhash64": "37e3e2ea32525acc"
+  },
+  {
+    "id": "C_001",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00019092_1793536858410345000_77d412.png",
+    "sha256": "460f590d644c9f91a062fb3662c5da18023a5c4e7e222aa6d300ce6d983984c7",
+    "decoded_bgr_sha256": "4b74b071afea33b49e781d6e12e27313b2170b479b28882e8c553ee80c8650be",
+    "phash64": "4999a48db39296ce",
+    "dhash64": "727331b9f3f3e3e6"
+  },
+  {
+    "id": "C_002",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00019320_1793536866008632600_4f0ed9.png",
+    "sha256": "a8cf02d985daf7265163c1447326d80e9ebf91d672cb7985e7476060ee4a51e8",
+    "decoded_bgr_sha256": "95411c65f5bfaa782229b875ee1a95b987b39449376da326e7d4725c79b61edc",
+    "phash64": "4c19968eb1d99366",
+    "dhash64": "727333b3e3e3e7c4"
+  },
+  {
+    "id": "C_003",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00019687_1793536878241230600_cfa4df.png",
+    "sha256": "ef7595f10d07e436c28a927f02bc45345312bcf8fe2597e19f4cc9d19f71c1a0",
+    "decoded_bgr_sha256": "a0418881b57c296cab08b8d80802aa51aaefcb4e5ec91d80ffee9812ff345c2b",
+    "phash64": "4c9dc68b939016cf",
+    "dhash64": "727333b3f3f3e3e3"
+  },
+  {
+    "id": "C_004",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00021728_1793536946277288200_15b097.png",
+    "sha256": "0ff1452eda1f742c6ffd9caf8e43f0252984fdcf493dd6f74133238293421172",
+    "decoded_bgr_sha256": "aab77dc8228239fec01af0d12f77cd10b23e113aa95e616795ddc83999ae58c1",
+    "phash64": "6a2e18399c59e6d1",
+    "dhash64": "33a3e3e3cbc398b1"
+  },
+  {
+    "id": "C_005",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00021824_1793536949476715600_8b9e4a.png",
+    "sha256": "0d409d8d269e1293bb258f19cd270b42d579d66db75dbc3916547a29ca1e858d",
+    "decoded_bgr_sha256": "cc7fcc06250fa505ddf488e9f939064e72ca15727c1e819106b0e5951e60b80d",
+    "phash64": "4998262c993ef1e3",
+    "dhash64": "33b3d3dbd3c3e3e3"
+  },
+  {
+    "id": "C_006",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00022215_1793536962510068400_3c4d87.png",
+    "sha256": "635f8339ad1caad43ff3a69a7813a6a7d76b741208c41e8546f9c69b3929209d",
+    "decoded_bgr_sha256": "18a530b9d2d2dc790a71081f8a8ab525bc51a1b229ba6b3d7a6444a2c19ef187",
+    "phash64": "6a2e1e0c9855f1e3",
+    "dhash64": "33a3c3d3c3c2cc9d"
+  },
+  {
+    "id": "C_007",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00026541_1793537106712194200_fe9884.png",
+    "sha256": "7683dd026672179f2ac451ed3200c91d6f4d485757edce493df40fc978876e5f",
+    "decoded_bgr_sha256": "6cddfd7b626078663fd0dfe061ed3fc00cebcb720ca6af1143c970723932817c",
+    "phash64": "48c7976b94338c33",
+    "dhash64": "c1c1e1f1d5d599b4"
+  },
+  {
+    "id": "C_008",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00026657_1793537110577518300_293c40.png",
+    "sha256": "f9180de1ac970636cf21e40693f3cb9175bc2ea088bc0c186e63c77c5d115e62",
+    "decoded_bgr_sha256": "218eb72f1faa9f4002e472a7cf109242c849c86bef2de4348254f034ec5027e7",
+    "phash64": "484d132bd133de33",
+    "dhash64": "d171a1f5d5d599b8"
+  },
+  {
+    "id": "C_009",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00026734_1793537113143336400_d11307.png",
+    "sha256": "e839aa3369ca4b7bbc23814a06fae43badbcdace990090691d8db27efda8def7",
+    "decoded_bgr_sha256": "b346e147e37edb370555de158ecdcdbe2f60631169d003fd12a0cc5af6fb8b5e",
+    "phash64": "4a49962b9d339e32",
+    "dhash64": "d151e1d1d5d58924"
+  },
+  {
+    "id": "C_010",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00028238_1793537163278119700_d92c0d.png",
+    "sha256": "a8b3264281b0239c9babf506bded5b5659b8393a68c7de825b268353ed65b362",
+    "decoded_bgr_sha256": "4a6d05c4ff3d830d5b0cecf9ed71bf72820fa91eadf0e10f9361ecdf96c6ad0a",
+    "phash64": "48093323116ef3ef",
+    "dhash64": "d9f1d1f1d1c5d5dd"
+  },
+  {
+    "id": "C_011",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029282_1793537198078362600_be1310.png",
+    "sha256": "274e0fc797cf84b8fef48c4544b472daae60b9f85fc98346207e5f910f3bf38b",
+    "decoded_bgr_sha256": "fbbc61be322c59a9b61b7c162d40c627472a1159d297b49b1c900bf7678086c5",
+    "phash64": "48171131833ef97d",
+    "dhash64": "d1f16165d1b191d1"
+  },
+  {
+    "id": "C_012",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029466_1793537204213048300_6f8be4.png",
+    "sha256": "feded175eec274f7a2ad51b9b1bd90bca42ff3b721052c8bf2438456b8b2ce81",
+    "decoded_bgr_sha256": "7be55a3dbc68e7f6eb4f3cfe3ea490116d1a2e4d16f5bfbfd3428d7f1ce2ae2c",
+    "phash64": "630915089939f3ef",
+    "dhash64": "91c1c1c1e1c1c3cc"
+  },
+  {
+    "id": "C_013",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029739_1793537213310914100_a1db9e.png",
+    "sha256": "e54166f5edf19d7992352b69c782b1e7ca97f1a56425e1ee4559d7bdf8aabc8e",
+    "decoded_bgr_sha256": "c7e72df9a537ad432362bdde6cd3af749a07a9588148a5996cb613fe082053fc",
+    "phash64": "4acd132b928cf0ed",
+    "dhash64": "e1e1e1e5d1d1d3dc"
+  },
+  {
+    "id": "C_014",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029850_1793537217011971600_623dab.png",
+    "sha256": "13aba9e21c332919c1d72efbfe57cb72a7b69efa91696655cd89a3a3a93224b3",
+    "decoded_bgr_sha256": "bfc626cedfd270ecedfcc36eb845ba7939ebed92d5702b10cf52f4123d7d8be2",
+    "phash64": "4849332912adf3ed",
+    "dhash64": "91d1b1a5d1d3d69d"
+  },
+  {
+    "id": "C_015",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029950_1793537220346707500_64738b.png",
+    "sha256": "d8104b9678a87804503fe540064c29536614839e584b9d81896c6e2344a808ec",
+    "decoded_bgr_sha256": "3b0fe61d1b3ceb4fae3e5769c0124a1a520b99014cd465ea2713f4be4b91cc21",
+    "phash64": "4a49312930bff2cd",
+    "dhash64": "91d1e1e5d1d1e58d"
+  },
+  {
+    "id": "C_016",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00030653_1793537243779138500_b72329.png",
+    "sha256": "81410b3b5b26f4b109780365e97db610a2b6ed499ecd2ee032ae2a8f4cfffc23",
+    "decoded_bgr_sha256": "ab01f1700b7a565ed676cc53a4d8a64a99cde55354f137ec3336970207a341de",
+    "phash64": "484d112b913bf973",
+    "dhash64": "91d1f1e5d1d19190"
+  },
+  {
+    "id": "C_017",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00030752_1793537247079881800_e8d419.png",
+    "sha256": "14796422d22c6a2d7109dc470999f6723d07e3415be02e4511e93c807ac1893a",
+    "decoded_bgr_sha256": "7a853094df191b7c4a3e3dc681a7f0eb36e504a56f34983ddb99e71248894a9b",
+    "phash64": "481d313913b8f3cd",
+    "dhash64": "91e1a1e5f1d1d1d1"
+  },
+  {
+    "id": "C_018",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00031071_1793537257713336500_d8803c.png",
+    "sha256": "38f7b5bfad82bb8591d0a6e64e3a20964eba5af568665e69fdaee05411330ca6",
+    "decoded_bgr_sha256": "09afb52b9c5a346c0f48aa165fde93c2be27de758cfcc7767cc314266722b261",
+    "phash64": "484913e31231fbed",
+    "dhash64": "91d19195d1d19098"
+  },
+  {
+    "id": "C_019",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00031233_1793537263112313500_7c14c9.png",
+    "sha256": "2361fe76a3b8bc04875a858d28e355c70b60f99f78ad0157c9d0c9d06655dfa5",
+    "decoded_bgr_sha256": "9f07c8bab3d1eed2bbcabfec841828139ee6aee16aca63daccdae2817939de31",
+    "phash64": "4cc69c219a31f2ed",
+    "dhash64": "e1e1e1e5e1d1f1b1"
+  },
+  {
+    "id": "C_020",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00032620_1793537309347799500_edd5a8.png",
+    "sha256": "33399a6edf63e8d89d07aeb8f92a489ae2ae1d950b9597d6ea18e3b0cb84de1c",
+    "decoded_bgr_sha256": "f6b16cfdd252197cdbff447d9614e17cb2c038b91566a2f63563a9ab17793f8b",
+    "phash64": "484931b13ab479db",
+    "dhash64": "91d1b1a5d1d3d692"
+  },
+  {
+    "id": "C_021",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00032769_1793537314314356900_bdfc23.png",
+    "sha256": "07932546556a081f73ede18e443df76602809a7d000aa2782fbdf7a557e7207c",
+    "decoded_bgr_sha256": "cb375859bf4d4515db4c2e131d6cd6b328fd7b2bb4eca17d4355473148cfc38c",
+    "phash64": "4849352a33f373cc",
+    "dhash64": "91f1d1d5d191f312"
+  },
+  {
+    "id": "C_022",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00033465_1793537337515102300_61ccdd.png",
+    "sha256": "5c7f0f62b9bdf30bb7fd996e03097170b3fa5fa0ffe9758a1a28b23fc9636d79",
+    "decoded_bgr_sha256": "ef2a38dab218835c8ded444cdb6ff4504e142a5e32eaf3dd39dc44f793e1d9e8",
+    "phash64": "484d312b107ef16f",
+    "dhash64": "91d1b1e5d1d1d19d"
+  },
+  {
+    "id": "C_023",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00033538_1793537339947811300_15dd63.png",
+    "sha256": "769818459157b03c7d2bc34a7aabb9b6bb379413fa84d00e961f764d72453828",
+    "decoded_bgr_sha256": "67bfc5a7276d9c55002d1fba4723aa2ba618668fbac9223e8196823b0e2b8ccb",
+    "phash64": "4a1d11398339f87d",
+    "dhash64": "91d1a1f5a1d1d1d1"
+  },
+  {
+    "id": "C_024",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00033722_1793537346081866200_40d575.png",
+    "sha256": "3e65585d787874c07e38668d183ecfbbb5fb506a70cc19877477cae87eb63616",
+    "decoded_bgr_sha256": "8040c6c2b3e0953c5d7ff4f149d2574e8aff40c8c98e5aa0eb2e21268c7ef1dc",
+    "phash64": "4a69112a987bf173",
+    "dhash64": "91d1d1d5c1c18198"
+  },
+  {
+    "id": "C_025",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00034082_1793537358081549800_371857.png",
+    "sha256": "80e99d5d11688d3608e6b24e440aa9adce55f1a9209eb5adc70ae653f9fe9d4e",
+    "decoded_bgr_sha256": "b9b21dde3eba7115c4f103fc28d50f9d5a51b2915b61555c7e31548467153c9e",
+    "phash64": "4acc932b903af16b",
+    "dhash64": "e1e1e1e5d1c1e1d1"
+  },
+  {
+    "id": "C_026",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00034709_1793537378981441400_125248.png",
+    "sha256": "e0eb8b6e3763f3cc1da56863f45a5d948a6fb824a507337f216e0f54da067702",
+    "decoded_bgr_sha256": "1ebfbf5329cc38279f4cb4f5ded52922ae6987ef3d81c93e91684110dcce8011",
+    "phash64": "480d112b933ff26d",
+    "dhash64": "91d1b1a5d1d19198"
+  },
+  {
+    "id": "C_027",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00034807_1793537382247772300_dbce68.png",
+    "sha256": "76704e3854167cce1ebe32fcdf62f7cfe9148c55e1e007bb94f304050bccf5f9",
+    "decoded_bgr_sha256": "b9022182d7e9ed3d69d51b70a1bd139956ce746a0466eb932ec5c1c6bfbadc38",
+    "phash64": "484911293373f3ed",
+    "dhash64": "91f1e1c5d1d1d1a8"
+  },
+  {
+    "id": "C_028",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00035743_1793537413449211200_83e2ea.png",
+    "sha256": "15eae9aae3e722b23d586139ee38a47a73d319e70df6b4146aadabd70436ba6f",
+    "decoded_bgr_sha256": "0087e7539b3d84cd3215b3f3e009ba3c8eeb7660968c6c637a4f395b9c8ad770",
+    "phash64": "4881312b1333fb7d",
+    "dhash64": "91d1b1e5d1d191b1"
+  },
+  {
+    "id": "C_029",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00035837_1793537416583330800_e16c73.png",
+    "sha256": "3367452e77c417e47d9863c1403320df08d5622b454438c638af4aa36f8a633e",
+    "decoded_bgr_sha256": "c9f70133dea5c63039392ec46d3fc1ab16f59416bfdab8d773966c79420b7dc8",
+    "phash64": "4815113b133cf9ed",
+    "dhash64": "91d16155e1a191d1"
+  },
+  {
+    "id": "C_030",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036197_1793537428582147000_693013.png",
+    "sha256": "d61d9d4e0379d2caa088c983ae4e753ba4eb7de79d23b11b8d5a03fc75b497d8",
+    "decoded_bgr_sha256": "4cb688096fd34b53f13c4b141c5e5545e8ab6e73971ccaa0496ac62d3476aa38",
+    "phash64": "48211d2b9c73f173",
+    "dhash64": "91d19195d1d191b1"
+  },
+  {
+    "id": "C_031",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036480_1793537438016353200_e0ac9b.png",
+    "sha256": "df3d70677dce9fc6bea4cb04fb03ae5183f1db1ba82ecb6da20be4e61e24e4bd",
+    "decoded_bgr_sha256": "67298d701e27d5341824ba89e745822abe41fd2fbc2d072ac04cb1fc8ecdd733",
+    "phash64": "4ccc1923923afa6d",
+    "dhash64": "e1e1e1e1f1d1d1b1"
+  },
+  {
+    "id": "C_032",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036722_1793537446083541100_b54e2e.png",
+    "sha256": "d59ad37cbec7de4303e69a850addccfccd7e7ee85961a5aecff0d5e9075bc260",
+    "decoded_bgr_sha256": "42d93705d775fa1670e9b7ab8aa8d273c2f091d081632b8dbd468bebb965f4d5",
+    "phash64": "4885312033f6fbec",
+    "dhash64": "91f1b1e5b1913119"
+  },
+  {
+    "id": "C_033",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036845_1793537450182753000_30c9c6.png",
+    "sha256": "0c7bcebdfd8893e1071b3b55ad4bfa236ac1e6ab75293d49addf8a24fbc443f4",
+    "decoded_bgr_sha256": "5482f9f48a8a440baa44b739d961e6a0169b7fe7f15f397df7a1adab0ce61ac6",
+    "phash64": "4a81312933b3f3cd",
+    "dhash64": "91f1e1e5d1d1d189"
+  },
+  {
+    "id": "C_034",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00037425_1793537469515539400_86519f.png",
+    "sha256": "c1168f77fb15eb1cd455acb08aa5d538c2b0db7ae8c8beeaae19505a36c791b2",
+    "decoded_bgr_sha256": "866660261b738bcd76b037b999e0a0ed564d00f2ba9253ff8ee33b6e8267c98b",
+    "phash64": "4a4d312b917af163",
+    "dhash64": "91d1d1e5c1c1c1dc"
+  },
+  {
+    "id": "C_035",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00037547_1793537473583041400_44adf7.png",
+    "sha256": "55d0ce0efb2c2317051092324c54100390fb2264e98f552609c22015261ad9bb",
+    "decoded_bgr_sha256": "eb338559d71eb0c0c19344b98a4fa400ec2a23d04c0f4698be884cc97821fc72",
+    "phash64": "4a1d33388339f965",
+    "dhash64": "91e1a1b5a1d1d1c1"
+  },
+  {
+    "id": "C_036",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038036_1793537489883359900_da773f.png",
+    "sha256": "8138fc188ace68816aa9273853fcc07090bdffcb1f7ff40cc5820f7bc0c7e3e5",
+    "decoded_bgr_sha256": "dc88b0915a4ad2386bafbaeb12857d5eaa6c82893fa0acfc1db81945449e03aa",
+    "phash64": "4809138f903bf17f",
+    "dhash64": "91d19195d1d19199"
+  },
+  {
+    "id": "C_037",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038209_1793537495649998300_6d64dd.png",
+    "sha256": "94ab4f9baaecfb74c48e0e24ed2b912eb0f39aa6989a082486d7db78adf521b0",
+    "decoded_bgr_sha256": "bb0261acfe616e70fd2d3fdd3ce025c46b43dcf2fca5c0e8d7a4883fdc590369",
+    "phash64": "4ccc99239833f86d",
+    "dhash64": "f1e1e1e5f3d1f1b1"
+  },
+  {
+    "id": "C_038",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038618_1793537509284243700_6e762d.png",
+    "sha256": "4fc7f984aa42b564c9ec622eacf05b3a5dc8564f0067cef4edcc3ac5f7c459cc",
+    "decoded_bgr_sha256": "eba96788efa5207f8607ca94ca73d45107b2bc71ba692b5c99429ce7e517d5c7",
+    "phash64": "480d3123b17ef16d",
+    "dhash64": "91d1b1a5d3d1919b"
+  },
+  {
+    "id": "C_039",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038959_1793537520651776200_53dfc3.png",
+    "sha256": "b0f68cbb8f7a693e39a2ccd5b41c7f8ea8dbdf2c9721f5f57c06d0fdd349f185",
+    "decoded_bgr_sha256": "3c358f54da40b261c92641b3fb2deceeda0e2e0e017eb7a73065eeb13525f19f",
+    "phash64": "488931283373f3ed",
+    "dhash64": "91f1d1d5d1d191a9"
+  },
+  {
+    "id": "C_040",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00039283_1793537531451164300_e8c621.png",
+    "sha256": "4ac1323bbe6515938713cb93c36009d5872180fe7e1bbb90027971452d807c12",
+    "decoded_bgr_sha256": "50e1ccd5151bbf056b2fc466361d9bc37c8206d497d2eb7282fffc6277bbb6e9",
+    "phash64": "4a493139253af3ec",
+    "dhash64": "91f1d1a5f1d1f5c4"
+  },
+  {
+    "id": "C_041",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00039395_1793537535184744100_ecc48c.png",
+    "sha256": "a5b9c3792cbde9dc0b2f8fd47c016ec044d497521a9466565892bb4de72195a9",
+    "decoded_bgr_sha256": "6d3155f0df473464d9279bab0dc6fcd8a87ec4f92aebe20ff4defa7446b66d20",
+    "phash64": "48093328933bf1f7",
+    "dhash64": "91f1b1b1a1d1d5c9"
+  },
+  {
+    "id": "C_042",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00039613_1793537542450864400_5382e4.png",
+    "sha256": "69a9b2268613af9713fa22f75d74cab967b032d2909c7952d7e69f5218ae96f5",
+    "decoded_bgr_sha256": "ac31af49043397a61d521e331f0817cd8a838d2227ef5198c05bf3f8498c1ab9",
+    "phash64": "4b19159a2131f3ed",
+    "dhash64": "91f1d1d5d1d1e4c6"
+  },
+  {
+    "id": "C_043",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040046_1793537556885205200_6d9aca.png",
+    "sha256": "45c48b1c1a6e4464ab4592ca8ff362d2262333f59e879765ef76fcd57e5f4b7d",
+    "decoded_bgr_sha256": "4938209231f90f247a5994fd5dc7dcd43f28720497ab51a4e49bfe86061e99a6",
+    "phash64": "589935923398db63",
+    "dhash64": "b8f0f1f1f1f1f4e0"
+  },
+  {
+    "id": "C_044",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040171_1793537561051827000_5040dc.png",
+    "sha256": "ea76cd253db63d1f5c12ff47678787c29fdae754e411b0620b7532dbd20d173c",
+    "decoded_bgr_sha256": "d7f135f27361016d1a924d03222332ca3237191bce185fb0fb40946db5151efd",
+    "phash64": "4a49353b2130f3ed",
+    "dhash64": "91f1d1b5d1d1e4c4"
+  },
+  {
+    "id": "C_045",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040294_1793537565151580100_811d78.png",
+    "sha256": "e35d22b28ed92783de6c36b2ca79ec7949cef4e1d2dd98181d13e503bf7a3ef9",
+    "decoded_bgr_sha256": "75ddcd0d198863a68e4809628193c2a7595e4294af110d3038091b67ac8760f3",
+    "phash64": "4a49351b2332f36d",
+    "dhash64": "91d1d1e5d1d9e4c4"
+  },
+  {
+    "id": "C_046",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040516_1793537572551364700_13abe9.png",
+    "sha256": "4895d7cc255a80a2ec3d9c99c3ea5cd49e445a3a1473190d8c249b9cf224db58",
+    "decoded_bgr_sha256": "b919f5a6ac712f21e096d8c1b27688666f1d0af2c15882dc0efe81314775e540",
+    "phash64": "483119399338f3ed",
+    "dhash64": "91f1f1f5e3c171e1"
+  },
+  {
+    "id": "C_047",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00041686_1793537611552281800_dd2999.png",
+    "sha256": "2f24aaab8db6db07d420542e6611eb83d45c3db0bda97ed2f92307ed8a5ad051",
+    "decoded_bgr_sha256": "2d7aed4f5cce0a408e657c9a7d261e7999d9f42a0d95f6403d6ddb2178ce9155",
+    "phash64": "49390c33533cc96f",
+    "dhash64": "91e6f3d1c9d3f6e1"
+  },
+  {
+    "id": "C_048",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00042157_1793537627252502800_716eb6.png",
+    "sha256": "29d09a0c8308e3e2a82a350bce7bedc8038d8a2e0099c09d2097495b5830f9a6",
+    "decoded_bgr_sha256": "718cd947789555350ee84b37af85c4f02862c5e70cfec8977f4fb92fef4c75da",
+    "phash64": "5af0418b03cdf974",
+    "dhash64": "d19d353569797161"
+  },
+  {
+    "id": "C_049",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00042305_1793537632187001900_d71efc.png",
+    "sha256": "2bcbe1c87713cfe86db95f3d4a2cd3d51cb8a90b872f08f7c8b5302b032df759",
+    "decoded_bgr_sha256": "c8e09bcb35c1b971914591871df50043852981a9015de599b6bd8570fbee2093",
+    "phash64": "4c3919311a39f3ec",
+    "dhash64": "91f1e1e5e5c4f6e1"
+  },
+  {
+    "id": "C_050",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00043103_1793537658787120100_11f42a.png",
+    "sha256": "88a49b90a2dffef9bb794a74b380b6400dda23677fd56fcce8e81f3bed15d920",
+    "decoded_bgr_sha256": "62f5cc764661ccd672cfeb81fec40c1c33857efe0d8b6e2b02492b308d2612e8",
+    "phash64": "4e493131499cf3d9",
+    "dhash64": "91e1e1e5e1cde0cc"
+  },
+  {
+    "id": "C_051",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00043378_1793537667953217300_b0101d.png",
+    "sha256": "2ed8c49fc882df297123b49aa53fa38d1bc5b073ec93a860c303e56d47fd4744",
+    "decoded_bgr_sha256": "f4effc33eb42be3231e2f135a542397e4fcb6e743ea24123782d9b4c12fd6176",
+    "phash64": "4e693133419c73cd",
+    "dhash64": "91f1e1e5e1c9e8cc"
+  },
+  {
+    "id": "C_052",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00043963_1793537687453728900_dc7e68.png",
+    "sha256": "35ccbb208fa587347e3b852efa92e0442a9e9c6ba73f24d5cc57fd57a26e2944",
+    "decoded_bgr_sha256": "074f8dbe66c1cc06b07c08b912cb5367fc52da749ad686cb172e5bf744c2245a",
+    "phash64": "4a4931339930f3f9",
+    "dhash64": "91f1c1a5d1c5c4c4"
+  },
+  {
+    "id": "C_053",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00044701_1793537712053857100_12c944.png",
+    "sha256": "e663ec7e74eee26cc30f2420d4bed10bab1a721b88712b895874c404311ae568",
+    "decoded_bgr_sha256": "4c0dbc7d0077e044b5b8056c9becae19c44fc4a539742120acdca52b7715e721",
+    "phash64": "4a49113313b8e5f7",
+    "dhash64": "91d1c1e5e5c5e8e6"
+  },
+  {
+    "id": "C_054",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00044916_1793537719220145100_5d9afe.png",
+    "sha256": "dfb0deed5536d826eb79061005e828cca788239fef535d87ffa6e1cecadeae03",
+    "decoded_bgr_sha256": "de47d93ca64d7691362ab8e4883a858ddbcc4357742de49e6f67a20ad5de006a",
+    "phash64": "485931319b39e3d6",
+    "dhash64": "91f1c1e1e1c3e6e3"
+  },
+  {
+    "id": "C_055",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00044991_1793537721720162600_46ab24.png",
+    "sha256": "8f989f7e9bad19037e7d5906558e306ae05ed1e926ec6497917ef9534bc3bf03",
+    "decoded_bgr_sha256": "dac3b1c7f60ed64eba6849ed1015a07a7ab742222589891e1493354f1c2663a1",
+    "phash64": "485935311339e3d7",
+    "dhash64": "91f1e1f1d1c3e6e1"
+  },
+  {
+    "id": "C_056",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍12第一张.png",
+    "sha256": "2f06cbeac45903934d6a8cf491fa75cf405bb15c7e9a1676f93b790ea248e784",
+    "decoded_bgr_sha256": "5632fe8160f4e3b1b762f278b16e2ef81d17e343119895bc4cc0d96852f86253",
+    "phash64": "454d64c6191cefe2",
+    "dhash64": "e6c2c2f2c8e0e4c6"
+  },
+  {
+    "id": "C_057",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍12第三张.png",
+    "sha256": "5664b6b825135f595ca5e2a6dd802f732f43d063963f95247fa2ca05904ed724",
+    "decoded_bgr_sha256": "fe77b4adf83818e617816d17e4d4e9c26485ea09ba0e3fb1563eb3452e501d03",
+    "phash64": "414caec91c3d9ae3",
+    "dhash64": "e6c2c2f2d0d0d8dc"
+  },
+  {
+    "id": "C_058",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍12第二张.png",
+    "sha256": "89a3f9d91fd12cb0ee9f196ce5b3f132327756c7db1f98366f9428ffd003e4c1",
+    "decoded_bgr_sha256": "ea1a13530a62a55e4a90a06d8780b17539a92945d5db35a0cd0d7042055ab70f",
+    "phash64": "444fcf885c0c9ee3",
+    "dhash64": "e6c2c2f280a09080"
+  },
+  {
+    "id": "C_059",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍杂物.png",
+    "sha256": "7a9e593296fc502224d061f8b5cda0e450be2f4b25cbadcecfc06bc7c62375d2",
+    "decoded_bgr_sha256": "2ed734a47e6ac2d4114024650bb58dee05719945e87bea268b33cbebc97f34ed",
+    "phash64": "445ded849d2ca4d3",
+    "dhash64": "e6c2c262c8e5e3eb"
+  },
+  {
+    "id": "D_001",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00011842_1793538173127938700_e56c3d.png",
+    "sha256": "dd07d871c18745d409486f194d343e7b651a458f2d93ec287c0de49bb7278644",
+    "decoded_bgr_sha256": "8c704515e11e65d106c323eaa126e3401ebdcee3229614b9f9a3e0142746737a",
+    "phash64": "6193133330aaf35b",
+    "dhash64": "98d4e1a6a2c3979a"
+  },
+  {
+    "id": "D_002",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00012957_1793538210295979300_b95e38.png",
+    "sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+    "decoded_bgr_sha256": "173d2726c39cab031e7e21393aa39694063668d89fd610f41ad347aa8c14dcc0",
+    "phash64": "4c931329836ada7b",
+    "dhash64": "d8f421d6e2a287c6"
+  },
+  {
+    "id": "D_003",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00013209_1793538218695894000_5a5846.png",
+    "sha256": "8d1fcaebee037f6a4c82dfec9ab7f1dc12bb7130d03b67254586b7628b1c493d",
+    "decoded_bgr_sha256": "3b19ec2f97c039219ba1bcb74de0c2bd78a4e53863e6ea69f87b1092c314e57a",
+    "phash64": "6199132910eadb7b",
+    "dhash64": "98d4919682c2869c"
+  },
+  {
+    "id": "D_004",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00013545_1793538229896358700_42e5f5.png",
+    "sha256": "9f20391f04da6db93269ee858ee8f6b4b950617ce5bf7bb40aba4a6d95a0f36c",
+    "decoded_bgr_sha256": "a8cdc3459d6657210bdecc9872ecd0b8a01e5833bb88d97969aaaf838ef6347a",
+    "phash64": "4ccc932992aadb5a",
+    "dhash64": "f0f4f1e6a2c3a3d8"
+  },
+  {
+    "id": "D_005",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00013768_1793538237329159300_8f9ad8.png",
+    "sha256": "f74a2cc2a8ee13c5173ac914c3c86a435b55f88387e68f5707f2a9545ca7b885",
+    "decoded_bgr_sha256": "fa3717a4fec3e17f089f857a7e93868508ae81765344c07b8448c5cad71acb61",
+    "phash64": "4099133318fadb6b",
+    "dhash64": "98d4d1b682c68cad"
+  },
+  {
+    "id": "D_006",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00013977_1793538244296567800_40578b.png",
+    "sha256": "fc24fbc4589c70ed869c371057302333bcc1a4f0f93b2d5e1259c88c8316ac03",
+    "decoded_bgr_sha256": "a7968ae41d1f592517903cb67707c25631dae41f5f729bf8015988a624ac9375",
+    "phash64": "41db133132daf24b",
+    "dhash64": "99d4e1a682c68a98"
+  },
+  {
+    "id": "D_007",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00014715_1793538268895889700_a63765.png",
+    "sha256": "106fc28259ce33b0a5e12ee5a3134624c1fa1b146d53c4a1880a7c5fcd2514b3",
+    "decoded_bgr_sha256": "82e49ca15a06bee9abda147197100c58bd7f059aca3b4709bdc908667808e892",
+    "phash64": "6199132112eadbdb",
+    "dhash64": "98d4a1a682c2878d"
+  },
+  {
+    "id": "D_008",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00014824_1793538272530547900_a30932.png",
+    "sha256": "534a5596bac89f7e8eaa0935a7589f08fcf2c807035120f59156d5c4e042b047",
+    "decoded_bgr_sha256": "77f5ccfd650d8f51ff2356b5599351448d7faef289f289cfa270ac64540d1e89",
+    "phash64": "4d9a132183eada7a",
+    "dhash64": "d8b4b1f6e28297d6"
+  },
+  {
+    "id": "D_009",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00015116_1793538282262913700_6dd811.png",
+    "sha256": "b9c44a2d0494d8378b4fd2792296f230f5a45a3950cf9f3ad312d7756fce6928",
+    "decoded_bgr_sha256": "a4d00a62432b5ed7b010affe4365f641d5016e533cdacddcf0de79c275be71d9",
+    "phash64": "6191132d903adb7b",
+    "dhash64": "98d4919682c287d0"
+  },
+  {
+    "id": "D_010",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00015401_1793538291763482400_979ada.png",
+    "sha256": "087b968dba3bb6e5161b0240b934d6a116bc77d654624f0fb8d38e5203676ada",
+    "decoded_bgr_sha256": "ff14cce200b83d39328a896d842b7133062772aa743f8a95bfbf8f84466d85b2",
+    "phash64": "4c9c9a2192aadb5b",
+    "dhash64": "f0f4f1a6a2c2b3d1"
+  },
+  {
+    "id": "D_011",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00015636_1793538299597684300_645fb0.png",
+    "sha256": "a8a01929420338231bae568f96ae5c07d6cc0f69b0771bb652365dbf22ba3ad9",
+    "decoded_bgr_sha256": "f3b2d37d87a9d0519d06f4e80b518adcd682639a9b2ee49ef0650fb212fd4f16",
+    "phash64": "4199132192eadb7b",
+    "dhash64": "98d4a1a682c283a8"
+  },
+  {
+    "id": "D_012",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00015760_1793538303729561600_a46797.png",
+    "sha256": "0bf43da443b68d43995b571a2e2b81ee4b24bcdca45a2b32ecbd57e5ea34c967",
+    "decoded_bgr_sha256": "071ce7cac794bafa2e5b6ad7e332de160bf0daab82c24c09fcce6d23eb031d9a",
+    "phash64": "619b1329126adb5b",
+    "dhash64": "98d4e1a682c28388"
+  },
+  {
+    "id": "D_013",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00016458_1793538326996490600_d5a04e.png",
+    "sha256": "e4faf9de936f4300e9173573bd0fdb22fdd2953815644aaca5b76f46a2fe076b",
+    "decoded_bgr_sha256": "009a0d2a2367021b7530cda89c5360942ad2b91f4090731886c8db89a54360c4",
+    "phash64": "4193132113eafb5b",
+    "dhash64": "98f4a1e6a2c29799"
+  },
+  {
+    "id": "D_014",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00016597_1793538331629489600_c46aa9.png",
+    "sha256": "998d46999232b8309f14e5ef33bd5729b9c0dda79d05c2852aa1f2c1817316af",
+    "decoded_bgr_sha256": "f0732cb7ce4aee69ee587a7e6194decad46d716db91b33e41085b05626225684",
+    "phash64": "4d921321913afa7b",
+    "dhash64": "d8e4a1b6a28287c6"
+  },
+  {
+    "id": "D_015",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00016830_1793538339397142700_80e5ce.png",
+    "sha256": "5cecd36635e798ed3c3daf4f4d258d2e9b1a845086c2b40e4769391854878564",
+    "decoded_bgr_sha256": "0c2719f06f3410566c1c015e9afa725bf8de0f84419a00039f20dbb65721885a",
+    "phash64": "6191932d903ad37b",
+    "dhash64": "98d4918682c283d0"
+  },
+  {
+    "id": "D_016",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00017030_1793538346062807800_fa4ff7.png",
+    "sha256": "8c9db58d5ea7dc1f0541adac79e1f6e8fca47c1597045396778693ba18ea8a57",
+    "decoded_bgr_sha256": "0d540ed82c0859ad2aadf20b72c4aec3876b97daf385cf322193a40ab3cbbbd8",
+    "phash64": "489c9a379238d379",
+    "dhash64": "f0f0f1b2a2c2b3d0"
+  },
+  {
+    "id": "D_017",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00017161_1793538350430447700_a0416f.png",
+    "sha256": "dbf98e17d7d76c3346ec51fb3c8f44a89ef33ed0a153342aeebdc9a90952c686",
+    "decoded_bgr_sha256": "6be7e40753e2162e1b8be07b29841fa0aa665384e2626ac222b719d0017ddc9e",
+    "phash64": "41921331933adb7b",
+    "dhash64": "98f4a1a6a2c293d0"
+  },
+  {
+    "id": "D_018",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00017262_1793538353797484200_993564.png",
+    "sha256": "2ece195c107d688e02389cbecc9d44a9dba1acf28c05693d8e4df5f85dd03c55",
+    "decoded_bgr_sha256": "adbae6b06a317d9d0ec70e7d3c8ba0394d7b0f2f656c548cef5c8a58900fbf6d",
+    "phash64": "41931331923bcb7b",
+    "dhash64": "98f4e1a682c287aa"
+  },
+  {
+    "id": "D_019",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00017874_1793538374196203400_1d990e.png",
+    "sha256": "57ffedecd06d33c99d8e1b137325dec7cd49469983a59ebd83f2b17727e1c2dd",
+    "decoded_bgr_sha256": "84ed3a99f3624b932c1ccaaa0a64f7846883610a7a36c24f2129e07f6058f2de",
+    "phash64": "419b132112eadb7b",
+    "dhash64": "98f4b1a682c28399"
+  },
+  {
+    "id": "D_020",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00018009_1793538378697293300_63fee3.png",
+    "sha256": "5e163d2b9983baf9ca5942710eee66a119b35a4e71c755b7f0e43383bcc37cd7",
+    "decoded_bgr_sha256": "96240219d6d44eccfbb36bd501fe155621185f15beca189d6ab577ce753f8dae",
+    "phash64": "45921321937afa7a",
+    "dhash64": "d8f4a1c6e2a297d6"
+  },
+  {
+    "id": "D_021",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00018248_1793538386663262500_fe400c.png",
+    "sha256": "c650223f3617d379fcf0b428b19130acfad0a988c2bce7395779fee4bb21233a",
+    "decoded_bgr_sha256": "ca948f7628968cce58da57875551d5c04ed7e2a29d1ba0cec8f776ab1dde9547",
+    "phash64": "61911329983adb7b",
+    "dhash64": "98c4d986a2c28fec"
+  },
+  {
+    "id": "D_022",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00018510_1793538395398393300_4563ec.png",
+    "sha256": "6bc273523da16225298a9185991ada5c17b55664f5cbd1e5a6cfb77b684d839a",
+    "decoded_bgr_sha256": "cca64c350b1c5c848ac955bc3927828594d34a65781ba73e378dc4e3cd99cfb2",
+    "phash64": "5999922493b8d37a",
+    "dhash64": "f0f0f1f2b2e2a3d9"
+  },
+  {
+    "id": "D_023",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00018668_1793538400664379700_f3a319.png",
+    "sha256": "b359b70d01b407afff43b3dec44366661c52cddc968052f774ab8b902b41c743",
+    "decoded_bgr_sha256": "b2b8ce457e2bbf88c533345e7b90b697d24beabc6a49f8eae931fd558a25b550",
+    "phash64": "41991321927adb7b",
+    "dhash64": "98d4d1a682c283e8"
+  },
+  {
+    "id": "D_024",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00018804_1793538405197829300_9f2065.png",
+    "sha256": "52e3a0d9dc33a93e03224d90eac2b892f4e8d0762fb5b08ce1ac0aa5e7b90ab0",
+    "decoded_bgr_sha256": "417e2260182b18208da1a3b26492fbd10901328366389dad61d4aa59bf7ea4d6",
+    "phash64": "419b1331903adb7b",
+    "dhash64": "98d4e1a6a2c283d8"
+  },
+  {
+    "id": "D_025",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00019280_1793538421065586200_f1f821.png",
+    "sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+    "decoded_bgr_sha256": "4757a5ef2550ecaf34b8be71f406c1558da6f33d00509deb9da95e19cfca9123",
+    "phash64": "4199132112eafb7b",
+    "dhash64": "98f4b1a6a2c287cc"
+  },
+  {
+    "id": "D_026",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00019366_1793538423931243500_21a5dc.png",
+    "sha256": "7af1be8a47b9e80fafac495f10d5f882662ad4de2bf97b789f5df2ac917f866d",
+    "decoded_bgr_sha256": "e73d273251049b70fde6a79a670e9ff5f8546aec69fe1eea094bc9640ec23279",
+    "phash64": "4d981321833bfb78",
+    "dhash64": "d8f4b1a2a2c287c6"
+  },
+  {
+    "id": "D_027",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00019631_1793538432765091100_d32fcf.png",
+    "sha256": "bd1feb6663a3afe90fdbc3b9dffccb2785cb9bf2dd227feda70debe827a2aa14",
+    "decoded_bgr_sha256": "67c63de7a345edff6f5ddf9b2ad85f1d2258003b0d636154ddd5a6f3721d6e18",
+    "phash64": "413193299c3acb7b",
+    "dhash64": "98ccc9a6a2c28de0"
+  },
+  {
+    "id": "D_028",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00019835_1793538439565473300_0af17f.png",
+    "sha256": "bd764a393c02504137c0af8680a9bc540ea93e2dbc34bca2b5175843c69cf311",
+    "decoded_bgr_sha256": "2bfb7036cb62d73ddd86330fb1b173dcb987d7966cad9fb28d46fcf01c200ce5",
+    "phash64": "4999922d93b8c379",
+    "dhash64": "f0f0f1f2b2e2b1f0"
+  },
+  {
+    "id": "D_029",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00020004_1793538445199185600_e14615.png",
+    "sha256": "e56687799f2d028e3950b6543878fb506efe0ec2d232840203a3deff96cfeac2",
+    "decoded_bgr_sha256": "66c229498bac613f6429d3330aa942d07188d6387a0da6a1b24f8d9cae76966f",
+    "phash64": "419912319c3bcb7b",
+    "dhash64": "98d4d1b6a2c28be0"
+  },
+  {
+    "id": "D_030",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00020119_1793538449031950200_f05dd1.png",
+    "sha256": "7a62969e1514f0be4ad397f02e65b2823136838ff014fbdf18ef83297a06eb36",
+    "decoded_bgr_sha256": "a0f35c6a9db30fac9c20d2cf39912b3ac3b7abf37645dd2c3cad33a18e4bccf7",
+    "phash64": "619b132132aadb5b",
+    "dhash64": "98d4e1a682c28788"
+  },
+  {
+    "id": "D_031",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00020724_1793538469198257700_51fb96.png",
+    "sha256": "289e4a80569fc0c74cc27a7e1b9d40de64050d37b644ba5ac41136346464e755",
+    "decoded_bgr_sha256": "44b3f38570723421977c40f86417cd3402df354509be6d288e9f5836de2bfc2c",
+    "phash64": "41991331923adb7b",
+    "dhash64": "98d4d1a682c283d9"
+  },
+  {
+    "id": "D_032",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00020892_1793538474798166500_8397a9.png",
+    "sha256": "41740742d5933ebec6f6ca62f4016c7245b6b0b600338f3685bcef49f0cfca4c",
+    "decoded_bgr_sha256": "7248476adce033ea29a7f5e72b00ce6bc8d654d81c326c8362a5813f3047dddf",
+    "phash64": "49981229933afb7a",
+    "dhash64": "98f4b1a2e28287c6"
+  },
+  {
+    "id": "D_033",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00021088_1793538481331519800_c9fd26.png",
+    "sha256": "3f2897a05c47a873003a761bf765962e64597d95872b2481d11ef74f00e0dbb3",
+    "decoded_bgr_sha256": "314f2bdebaf1da68462e684d5853f82407f51973cc87a5a245a3880514b52f85",
+    "phash64": "41981327923adb7b",
+    "dhash64": "98d4919682c28ad0"
+  },
+  {
+    "id": "D_034",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00021361_1793538490432636500_0f8725.png",
+    "sha256": "6832b54c65c14ab42030a6513d47cbf1293e9f1b6a5ab30eff037c36fb24ad08",
+    "decoded_bgr_sha256": "296a01bcb48508dcd029e8b22fa979b2bb017c0c238f9be757c2254f3cdef1a1",
+    "phash64": "4c989a369832db7a",
+    "dhash64": "b0f0f1f2f2f2b2f0"
+  },
+  {
+    "id": "D_035",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00021600_1793538498399362500_8dec1f.png",
+    "sha256": "d9ade81df3e18dfa506c8bd743d461e87dbdcbbe50691a72813f297517383d58",
+    "decoded_bgr_sha256": "7ad632489e4fb4b7740656432e60e660866fef00efbc3f47e1af2bf7a3788746",
+    "phash64": "419913319a3acb7b",
+    "dhash64": "98d4b1a682c28ae9"
+  },
+  {
+    "id": "D_036",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00021725_1793538502564958500_433d39.png",
+    "sha256": "da0d595b5c9a98555dd2f10eebe0bf18343c8f2c1d2be47b35dff3c7e483ea96",
+    "decoded_bgr_sha256": "f32e8d0f6e486504083660115849589dea4ea51d75ee2b429214ba499d8c15e1",
+    "phash64": "419b1331923acb7b",
+    "dhash64": "98f4e1a682c282c0"
+  },
+  {
+    "id": "D_037",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00022793_1793538538165757800_6037c8.png",
+    "sha256": "b20bf438e3cecee76dd92aca29b80cae6418b694ed8cb87d54e2c00b92f70a7e",
+    "decoded_bgr_sha256": "645dde07468567b42d86ea675ec14737bbc9866307aab9a1598360b94fc212c8",
+    "phash64": "419b133110ebf36b",
+    "dhash64": "98f4b1a6a2c287cc"
+  },
+  {
+    "id": "D_038",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00023466_1793538560600962600_fd2911.png",
+    "sha256": "f51d8d4996b6019e34c2ec5136f2a918147db82369c378ac955b9a6e8436e6aa",
+    "decoded_bgr_sha256": "8de0eaf19940bdf1d276452004289c001fe5d12dbe73a124bd73741ff1a50726",
+    "phash64": "4d921209933bf37a",
+    "dhash64": "f8f4b1b2a2e3b7c6"
+  },
+  {
+    "id": "D_039",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00023749_1793538570035806800_9d9719.png",
+    "sha256": "50dadd281b8f858302c0fef210dedc3e9af620e1f9774e5958d0e91384d40cce",
+    "decoded_bgr_sha256": "2c77a9266a1892949c71a0bd596739a4abcfb073ec2c7ecec679a48d21bf9ae0",
+    "phash64": "6199122d103bf3db",
+    "dhash64": "d8d4d99682c3868c"
+  },
+  {
+    "id": "D_040",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00024006_1793538578600684600_bbc9b4.png",
+    "sha256": "59e89eade2eaac8071569aef51a3ed3c3378733e1aa9a449befe58091aee5f54",
+    "decoded_bgr_sha256": "f090db7c8cddd43000c537bf61bbb2f0dc4780b20899875c92ddeb20158d3946",
+    "phash64": "4c981a211abadb7b",
+    "dhash64": "f0f0f1a2a2e3e6b1"
+  },
+  {
+    "id": "D_041",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00024196_1793538584934484100_de1db0.png",
+    "sha256": "1e2eecaa14eacda5058384e5f32299b40ea0a5f606f6a70a5e5f4c68f52621b6",
+    "decoded_bgr_sha256": "ada95ec673030701fc879bffb6fdfa0167781e67cd257fcae76c19d5101027c2",
+    "phash64": "41991321927adb7b",
+    "dhash64": "d8d4b1a682c382e9"
+  },
+  {
+    "id": "D_042",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00024362_1793538590466132200_9aee9e.png",
+    "sha256": "a905b3339caa677339c3236eaf9938ac5cf0b5b530d36fb83dc2e83baa104397",
+    "decoded_bgr_sha256": "65025c320c810735871c1ad881c9e590033b9e1f4af83dd78d1e5bcaad74a3ea",
+    "phash64": "409b132912baf37b",
+    "dhash64": "d8d4e1a6a2c387cc"
+  },
+  {
+    "id": "D_043",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00024670_1793538600734393000_a590b1.png",
+    "sha256": "fc855c474b55ee876bbddee6d5d832075ac81429cf2762f9fc9fbf1748f4aef6",
+    "decoded_bgr_sha256": "8a9bbedc769b599ee67847b66a03db806b835dbc43e4d80ac52caba4397af6e6",
+    "phash64": "409b1333649af36b",
+    "dhash64": "d8d4e1a6828b94c4"
+  },
+  {
+    "id": "D_044",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00024815_1793538605567705800_65fc46.png",
+    "sha256": "b1b4715326af622c3cf64964655e9b72819eb9f7aaccedbc8026ee76dc06821c",
+    "decoded_bgr_sha256": "27515230eec99c1dbd5ff95f43b8757d016cd34688b569e38e59b2f6f74a8a46",
+    "phash64": "49931323133adbce",
+    "dhash64": "d8d431d6e28387d5"
+  },
+  {
+    "id": "D_045",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00025010_1793538612067641500_9f5c3b.png",
+    "sha256": "c8060cd7f9248d865cb2a34aa3141eb97ad3765867daca11656054c409a7289e",
+    "decoded_bgr_sha256": "1a175f159adca6138b5fa0c1aa799a507b9f91e7a56cd400db42de0b73b7143a",
+    "phash64": "619913934cb8f36a",
+    "dhash64": "d8d4d99682c884c6"
+  },
+  {
+    "id": "D_046",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00025203_1793538618501365900_525602.png",
+    "sha256": "4d186d110a76679fb9263b9ef93a590271ca17c56eea4d327a0fe0d98dc80e59",
+    "decoded_bgr_sha256": "585b554d7a9fa9ae530b136a2c084bfa349b2a4372b6d3ca5c38b279e9371553",
+    "phash64": "11989331649bf36d",
+    "dhash64": "d8f4f1b2a2e8f0e4"
+  },
+  {
+    "id": "D_047",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00025475_1793538627568723400_d7e25f.png",
+    "sha256": "f101955eff799d86461bed6b6a1bce87a5b3062ef2880536a154bc4b965a963d",
+    "decoded_bgr_sha256": "4d0b7974b6d3b0dce587dee62e7a0cd2b71c1ff2afa5a2b82c70fd0bed809d4b",
+    "phash64": "409913336cbbf34c",
+    "dhash64": "d8f4f1a6a28b92c4"
+  },
+  {
+    "id": "D_048",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00025572_1793538630801409500_e841d9.png",
+    "sha256": "bdcae35ae35b5629dfa0084aa4aa8e6b385418881f8ee8b2823d8689abe0f96c",
+    "decoded_bgr_sha256": "dc873d741700fc265a4961a92615665a466d93011506b867846a91fbf9d0823c",
+    "phash64": "4119133365bbf349",
+    "dhash64": "d8d4e1a6a28fb2c4"
+  },
+  {
+    "id": "D_049",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00025653_1793538633500219200_b8dc2e.png",
+    "sha256": "50cf31db4772dc40885cd6fb88e9edd719b921bde4df7e7688292d7e9423002a",
+    "decoded_bgr_sha256": "bbda6b11f4ea9688c2d461b4e215e8ef7aada2b92fd70f7d3b257cc539d154d3",
+    "phash64": "44931333137adb5a",
+    "dhash64": "d8f4f1a6a283a7e6"
+  },
+  {
+    "id": "D_050",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00025943_1793538643167607600_863633.png",
+    "sha256": "069ad253deebadfd36955a7607769daf2c4bcef64a5c16ed0ac57671553098ce",
+    "decoded_bgr_sha256": "dddc62babd77690d68dc07e8d957ef0a40d12413946ddc1fd0420a276b315886",
+    "phash64": "6c931b2331ea935a",
+    "dhash64": "d8f4f1a6a2c32716"
+  },
+  {
+    "id": "D_051",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00026406_1793538658602187900_34e103.png",
+    "sha256": "13a484a3a0e646a2335c8467dbdf525391c30a6692c681a8f8aab81fcd903529",
+    "decoded_bgr_sha256": "5487d09b4d656a33d077580496cea71368f212c80115777fb0ab886209d888a7",
+    "phash64": "41931333136bb3da",
+    "dhash64": "d8f4f3b2b387a7c6"
+  },
+  {
+    "id": "D_052",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00026636_1793538666267523600_747e70.png",
+    "sha256": "52d93e64a9c90984f34a4ac9d8170677e514598066653c328e53f466abcb363c",
+    "decoded_bgr_sha256": "07ec58952c2a4c02c6e61c20e3fac62cd3631dc17551484e753b0c9494a3d560",
+    "phash64": "2f2950a18a37ae6e",
+    "dhash64": "972a676b626a66a4"
+  },
+  {
+    "id": "D_053",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00026814_1793538672200417400_fb5342.png",
+    "sha256": "f4b3b383c91229c1223d8057e5c9c4199faf3a73d3496c8014a8bd12a3a86725",
+    "decoded_bgr_sha256": "5539f8fa787317d7bc2a8a487a044e0ac9ca66037497e0adae05bca5d09cc9c0",
+    "phash64": "4093193312bbfb6a",
+    "dhash64": "d8f4d1a8ac8ba7c6"
+  },
+  {
+    "id": "D_054",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00027392_1793538691467365200_682901.png",
+    "sha256": "477fb4fd5f52d3895b68d26ea3a53870e69fecbfb31961ba777482f906375c72",
+    "decoded_bgr_sha256": "1f6e96d8be8f3214629095a57198e29b8df903a5befb316248190f05f4b825c4",
+    "phash64": "422931996792dbd9",
+    "dhash64": "98f4e1e6e2a8b8cc"
+  },
+  {
+    "id": "D_055",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00027554_1793538696867797200_03c965.png",
+    "sha256": "54e4ba177159d6dce082fdb589b6b35ca98bea106264e9da8df44519b282a4d2",
+    "decoded_bgr_sha256": "377126da3b14991cdc78a4b5a5f0125670013d90e3608edd1be01858035210c0",
+    "phash64": "439e301167b29bcb",
+    "dhash64": "98f4e1e6c29898d0"
+  },
+  {
+    "id": "D_056",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00028301_1793538721769599600_f16838.png",
+    "sha256": "65004546415bd196d1dab2cd31273704b03fd93ea96be5354017541157546e39",
+    "decoded_bgr_sha256": "ea5f506adb0025b3f14a70a75b7c0c093d2532a6d253bdad51422f19e5100606",
+    "phash64": "409b133321da6bdb",
+    "dhash64": "d8f4b1a6a6858cd6"
+  },
+  {
+    "id": "D_057",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00028745_1793538736567492700_acff39.png",
+    "sha256": "76093c8814ec5ccbe736c30e9f1a76bedd695bae2f886300d464f00a35203804",
+    "decoded_bgr_sha256": "1743b677718f16ae2e2497f75cebd45d743403391f045ddc583a679e9c3f3bdd",
+    "phash64": "449b13332932dbda",
+    "dhash64": "d8f4d1a6a2a794c6"
+  },
+  {
+    "id": "D_058",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00029349_1793538756700914700_4f53a6.png",
+    "sha256": "6f11854241129c7a2e532df9b33db57a3ae11bd208fe87435c06b758f79eab8f",
+    "decoded_bgr_sha256": "a06fea37535bd096515c30f02a0d66f465e3f070ef0bb957034a9fef69a7bf35",
+    "phash64": "449913337132db5b",
+    "dhash64": "d8f4e1a6a2a7a7e4"
+  },
+  {
+    "id": "D_059",
+    "group": "D",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00029390_1793538758067578800_fa9bde.png",
+    "sha256": "30c21a6be1bc6a03452cf7b7e1acbf1b8c3a8aa70ceb7d5324b2748576030230",
+    "decoded_bgr_sha256": "1472d48a8bd61cf86f62f772d4e30122d748e3ba118fe03497a7d1724faea53f",
+    "phash64": "449313333132dbdb",
+    "dhash64": "d8f4d1a6a2a7a7c4"
+  },
+  {
+    "id": "E_001",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00009998_1793539135788384700_737da2.png",
+    "sha256": "7a080d113408403cbd9859ad7625e9c17636b26141f3498c313999f690c23d02",
+    "decoded_bgr_sha256": "9568eca21f3e5bfa9ad4191ff36d0975cb8f7e94a6f0c84a5ae5bc60cc5a109e",
+    "phash64": "1ac9513183cb5b79",
+    "dhash64": "98b4a1292d1c0c9c"
+  },
+  {
+    "id": "E_002",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00010124_1793539139987814100_714814.png",
+    "sha256": "f9d1d9c6a5f5a9972c10ce558e0476d09e873ce97c04f7925839428d2f0e124d",
+    "decoded_bgr_sha256": "2a9524a4e8d9af448fe87ba05bcb8ee1125c07384d656f46ff0ca71e80b39cd9",
+    "phash64": "16c93133893b5a79",
+    "dhash64": "98f471494d6c0c8c"
+  },
+  {
+    "id": "E_003",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00011092_1793539172255299500_529025.png",
+    "sha256": "393afa9ff698ed6dfe3d9b5c68db4d8978117af7e095fc20bd98cde40687f8d3",
+    "decoded_bgr_sha256": "3e8bdeeb6dc0c9824ce76c4d11cd01758918f413b36aec8bd13d21f4982555f0",
+    "phash64": "30d951328ada5b79",
+    "dhash64": "98b4b9392d0c0c9c"
+  },
+  {
+    "id": "E_004",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00011494_1793539185656837300_f43255.png",
+    "sha256": "450584ffa849e8d70720d7ed09c36742cf850e4790e0b320bafdabe86f83a180",
+    "decoded_bgr_sha256": "f578b9785a2a15e49cb5857b4ab9cbfde035c48bb50006d7ddd3c5d3e2d8fb95",
+    "phash64": "1cc959328adad86b",
+    "dhash64": "b0f4f169692c0cd4"
+  },
+  {
+    "id": "E_005",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00011594_1793539188988291100_96b084.png",
+    "sha256": "2093d0f9a450e3c1d2dac8b1e2a28de712914e463d13d5a2bdb0df6df201ec21",
+    "decoded_bgr_sha256": "e101c7676b40068de4797dcd59d1b00d1c98529211e4c0579bf988f47fa98e30",
+    "phash64": "32c9583393da5a69",
+    "dhash64": "98f461694f0d0d9c"
+  },
+  {
+    "id": "E_006",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00011738_1793539193789660800_bd896f.png",
+    "sha256": "614a57ff0ca44e17a7f922f97c449c8b2c5a791c9b0b8641c7bfdac3fa00cd7c",
+    "decoded_bgr_sha256": "cfbe79fa09a1a9777afcea935349c5da054af2b9ffad017c324ba929a20b705b",
+    "phash64": "12c9183193fa5b6b",
+    "dhash64": "98f4c1696d2c0c9c"
+  },
+  {
+    "id": "E_007",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00013866_1793539264722714600_f84008.png",
+    "sha256": "faa7ca7bb7c7f7c53d81cc20ff6faf9a9c019d7dd7a4527fa707cb368a38e58f",
+    "decoded_bgr_sha256": "a74ab263df30c917ef32b032f95bfc084d6c54771598605626807ff74cf0e213",
+    "phash64": "32d95133835aca79",
+    "dhash64": "98b4a1292f0d0c8c"
+  },
+  {
+    "id": "E_008",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00013939_1793539267155557300_55e12e.png",
+    "sha256": "4cf0b6b0c0414d8a598d4e7981816d48d350455516a0b4affd691257eb2a19f9",
+    "decoded_bgr_sha256": "4352ff93c0d5d47c411962f2bbbd72c25d2228278fe5506872ed1f54a5e81826",
+    "phash64": "16c931338b9b7a68",
+    "dhash64": "b8f4e1696d2c0cac"
+  },
+  {
+    "id": "E_009",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00014180_1793539275189661500_a3c1e6.png",
+    "sha256": "e5e3281f52037d8144b5e9af3490a7dd5aff120ee8a802cbb0e1dac526796a69",
+    "decoded_bgr_sha256": "113c99bd687401f41230bc9f288ad878b134503c5f0c8caac1a700a1b424144a",
+    "phash64": "30d9513782db5a69",
+    "dhash64": "98b4b9392d0c0c9c"
+  },
+  {
+    "id": "E_010",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00014407_1793539282756587900_1c09cd.png",
+    "sha256": "369233f6cdb6cec55acbc15ad4cfe830e296a774a17bfe7834f038bda0f1b11b",
+    "decoded_bgr_sha256": "94cb6a157cfc9772cde556c70880ef470e30331697e118617db2c664772aab4f",
+    "phash64": "0ccc5c328b73d86b",
+    "dhash64": "b0f4f1694d2d0cb0"
+  },
+  {
+    "id": "E_011",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00014529_1793539286823949500_9447ad.png",
+    "sha256": "398f7891897f8dc3e68678e7adbd8dd09b638b4877b922a308fa7271b08c7332",
+    "decoded_bgr_sha256": "d5c9068071b6ffdac0237b7ef09f82c9b11cbb0009946678b2b4ff4eeb6e7030",
+    "phash64": "32c9583393da5a69",
+    "dhash64": "98f461694f0d0d9c"
+  },
+  {
+    "id": "E_012",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00014610_1793539289522689700_b87645.png",
+    "sha256": "1152c32b8f780e3cc8c3981d7fc16617ac4fb2948793f4855e48abeee65b4269",
+    "decoded_bgr_sha256": "d50bdbc5a80860f77cafd46cd3b1f4fbe2b0840b607f69b78807e26bd35104d2",
+    "phash64": "12d918339bba5b49",
+    "dhash64": "98f4a1696d4c2cac"
+  },
+  {
+    "id": "E_013",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00015133_1793539306956457400_5cff66.png",
+    "sha256": "0735b3b0f6f8c3a626a922ebf4a52c2496786eda05072709fe6838423cd5e1ec",
+    "decoded_bgr_sha256": "7cb5d68050b53a74186fdad8c07fdf6d3fcaab0b6353c32bda0168ae790cbd95",
+    "phash64": "1ac951318bda5b69",
+    "dhash64": "98b4a1292f0d2c9c"
+  },
+  {
+    "id": "E_014",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00015243_1793539310623578900_8888e5.png",
+    "sha256": "53b0397abeb75d6d73967d25de4841cc49da0a7badf750e68faf06698f8209e7",
+    "decoded_bgr_sha256": "ea397bc198fdd06ae45e85e1f709f48a224e8c706ad37fe2b4f19df85b98e0cd",
+    "phash64": "1ed930938b3a5879",
+    "dhash64": "b8f4b17165642ca4"
+  },
+  {
+    "id": "E_015",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00015522_1793539319923401400_3bd664.png",
+    "sha256": "21f7494f0c6d1ef85f2a891beed2e353138b014938ca0993c52da10611c02f15",
+    "decoded_bgr_sha256": "5f52cd2c4a9b4e99d5c1a84c2fc8a38572252420d26f32166900969f734fb21c",
+    "phash64": "30d9593783fa5849",
+    "dhash64": "98b4b1290c0c0c98"
+  },
+  {
+    "id": "E_016",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00015773_1793539328289066600_e7bfa1.png",
+    "sha256": "8d1362f7bf6c64d49f106fd4e1bad3bed4e250d2d956ff5b3f752d2e7ac2747b",
+    "decoded_bgr_sha256": "85b6b53aff7ddd7a8215f8ffe95fe218673f4f68532b5d791fd68f4670151476",
+    "phash64": "0ccc5c33827bda69",
+    "dhash64": "b0f4f149591d1ca0"
+  },
+  {
+    "id": "E_017",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00015876_1793539331722714000_8a4dbe.png",
+    "sha256": "160b27f33ea471a33c5ccca96842cda2d3cb50e78aebf92319e727e24322981c",
+    "decoded_bgr_sha256": "4330b67f2e9573253b33550fe514bf74d6eacd061e2c7df58294b3a8cd55c762",
+    "phash64": "33c9583193cada69",
+    "dhash64": "98b4a1694f0d0c9c"
+  },
+  {
+    "id": "E_018",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00016037_1793539337089601300_7889a5.png",
+    "sha256": "10c18ced7950c5e8e9e34900f365992b69dbd103eb416b4b5226315dbe2c28ba",
+    "decoded_bgr_sha256": "c03f48c612dcf58c2cc73e98d47a037e79bf162fedbbdd568342811ecd033af1",
+    "phash64": "32c958329bda5a69",
+    "dhash64": "98f4e1494f0d2c9c"
+  },
+  {
+    "id": "E_019",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00016532_1793539353589647200_c65877.png",
+    "sha256": "c0f10b3fb2a7aaac94572e94b219a080c7779c4604238565e43ce3437766ef65",
+    "decoded_bgr_sha256": "9a3480e1d977e8b63b9570b796a7d68d690676c4ed16c42b52a69732ca3726c5",
+    "phash64": "12d9513183cbda79",
+    "dhash64": "98b4b1292d2c0c9c"
+  },
+  {
+    "id": "E_020",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00016669_1793539358156747200_e82517.png",
+    "sha256": "d8a65a50a2886f0e6c026504523f76f7e9b1a5a45f48afffefc51f27f0ea36a7",
+    "decoded_bgr_sha256": "9c61ebcdbeedd5085be072555ab53d0170d9ee9b19725c9baa0fb2bd312ad9a5",
+    "phash64": "16d911b3893a5a79",
+    "dhash64": "98f421594d6c0cb5"
+  },
+  {
+    "id": "E_021",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00016921_1793539366556045000_66c66e.png",
+    "sha256": "45b32f67da200d89efc1bf2c6d36f35752062b16ed50eba7e78bab5ebf5ba67c",
+    "decoded_bgr_sha256": "f3a33483bbef2a180678e4434d777670131746397951f9d4906ed54b1592498b",
+    "phash64": "3099513382db7a79",
+    "dhash64": "98b4b9392c0c1c9c"
+  },
+  {
+    "id": "E_022",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00017133_1793539373623659000_5ddec5.png",
+    "sha256": "9cf6730e3ddb1ae72e385a8e27fcf7c51bca62512aa558811aaef7beffbd9e1c",
+    "decoded_bgr_sha256": "d9cac50f95cf57cb35a17430913304c1a169a6e53560347c99da1d223b3230d2",
+    "phash64": "1cd95832939bdb48",
+    "dhash64": "b0b0b171283c32f1"
+  },
+  {
+    "id": "E_023",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00017444_1793539383989441500_44ba43.png",
+    "sha256": "b72417dc78f9e2fd2e85094a406696e32ffc7ebf2130111938b943d31e813ef0",
+    "decoded_bgr_sha256": "315685d960ecaf1103ca56ebc2e80934a4b3d21796f67bd788352abcb62bdcd3",
+    "phash64": "1a99513183cb5b79",
+    "dhash64": "98b4a1292c1c0d8d"
+  },
+  {
+    "id": "E_024",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00018151_1793539407557494800_8fd27d.png",
+    "sha256": "56054d17030c9cdf182b0ceaebf3ce6c62ec5f6d7a806f6a27b2c0c7a9d6862c",
+    "decoded_bgr_sha256": "e41613f9be9421ea6832aaf85ee52d66633e4a6182f540aa0697b938b6f6c820",
+    "phash64": "18d8513383db5b78",
+    "dhash64": "98b4b1292d1c1c8c"
+  },
+  {
+    "id": "E_025",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00018278_1793539411790852700_f068bd.png",
+    "sha256": "af7f11d60461ad3f3c565003d2e71d001ab3a5c32e6d795bcf739e42eb283626",
+    "decoded_bgr_sha256": "2dfb5b156da79141af2e0a86f9bdf439935777e047daa868341dc8cb278104d9",
+    "phash64": "1cd930978b38587b",
+    "dhash64": "b8e4b15168742cb4"
+  },
+  {
+    "id": "E_026",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00018449_1793539417491487900_f0e524.png",
+    "sha256": "13fd3d9a8e976e73acbecf125120864b4c3d93c993d0ee52309b9899e7660bf8",
+    "decoded_bgr_sha256": "ae22f7de8c9a44a076a5a0d260ccf030fb1563bc1d599fc0b66f87a447e108d7",
+    "phash64": "309945938b9a737a",
+    "dhash64": "98b499393c1c1ccc"
+  },
+  {
+    "id": "E_027",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00018612_1793539422924488100_bb8f4f.png",
+    "sha256": "3724b4d90ff50fb987992bbe6411a43e0a259b100109bd054eda01730a79b819",
+    "decoded_bgr_sha256": "dda5accc77af1c044dcc99006f7edbf44ad75020fe40e7cd19be44b06fbf9254",
+    "phash64": "189851328b9adb7e",
+    "dhash64": "b8b0b139391c3ce8"
+  },
+  {
+    "id": "E_028",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00018760_1793539427857824500_3479f6.png",
+    "sha256": "232ac9a861d44976f4c995e71f7dc7f99bbcc2ad6c0959d25aa48d0ff5cf99e1",
+    "decoded_bgr_sha256": "f1837eb118d0a28cbfe35f91f96d3a30140aac821ef18e012fb089d55a299aaa",
+    "phash64": "18d851338bda4b7a",
+    "dhash64": "98b4b1311d1d1cce"
+  },
+  {
+    "id": "E_029",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00019154_1793539440991557900_75249f.png",
+    "sha256": "6069bee1864c934fbcb2e5c377bfb9b32845eefee53325ac68a419eac1c24bc8",
+    "decoded_bgr_sha256": "03f9c699c45fd20cec424b3bce4f45643b70eeb148827d077121d3fb03b95768",
+    "phash64": "12c95131a3db536b",
+    "dhash64": "98b4a1292d1c1ccc"
+  },
+  {
+    "id": "E_030",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00019727_1793539460095336600_9bea53.png",
+    "sha256": "e180103693c7d7df96091073c285b3a9b97d45d8a62298f203bad9fa5ee4e31c",
+    "decoded_bgr_sha256": "7d14b987b7013ecd0140584d8d2633d5112f850d22374d16a563b82d2f9a1aef",
+    "phash64": "189851338bda4b7b",
+    "dhash64": "98b4b1292f1d1cc6"
+  },
+  {
+    "id": "E_031",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00019960_1793539467857522200_dee8ae.png",
+    "sha256": "04c6ba19d7c8ef6b36fec6d9705e840761cae2bc74e3f0e1264ba2f676ef43a2",
+    "decoded_bgr_sha256": "c8b32e4d584035a54031e34804a305b849547e78e2e6a0fa991726600b56348a",
+    "phash64": "1ec931338b3b7849",
+    "dhash64": "b8a4b161652c0c8c"
+  },
+  {
+    "id": "E_032",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00020245_1793539477357965000_09c905.png",
+    "sha256": "97746d4568ea0400e0988cd124370ebde650b0701bd73b8d8a7d743c9334e98f",
+    "decoded_bgr_sha256": "ee4cea0fac76468ec89ab0f77b04f69b70834932fcc9b492f5d7843a9fde0dfe",
+    "phash64": "30995133829b5b7b",
+    "dhash64": "98b4b9392c0c1c8c"
+  },
+  {
+    "id": "E_033",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00020445_1793539484024350000_c7a2f0.png",
+    "sha256": "375d9ba009ccb7ccba88b5f881fdd8ba453bbf05740687316fbf135d64a6e2e7",
+    "decoded_bgr_sha256": "9c82915c11916238875b928c4fe7a829ba91a66de975ffbf0ca362bce5689951",
+    "phash64": "1cc858329a73d87b",
+    "dhash64": "b0b0b121293c3cb0"
+  },
+  {
+    "id": "E_034",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00020828_1793539496790896900_2f22c2.png",
+    "sha256": "91f133c67a03d38c3db34cc3f424fd71ee134522e15148d903521bb7b5f668d6",
+    "decoded_bgr_sha256": "ed78fff6b845b09bf28237b1923231e0e4e3afff103e1a0c2cf3d1702a9291da",
+    "phash64": "18d851338bda5379",
+    "dhash64": "98b4b1213d1c1c8d"
+  },
+  {
+    "id": "E_035",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00020971_1793539501558867300_3b053e.png",
+    "sha256": "45140e403868f791c797d515514db40702d9083b9484a7e4d77e0ceb40862588",
+    "decoded_bgr_sha256": "24d050eeae9a42f35ffeb7decb649e2bdfc70b1985a8d4a1c49cc5682470216a",
+    "phash64": "1ac95131a2db536b",
+    "dhash64": "98b4a1292d1c1c8c"
+  },
+  {
+    "id": "E_036",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00023832_1793539596926745400_ddb57a.png",
+    "sha256": "b4778ea6ab65a0ac9b57c27107547bced6b15b5e425a60a42308e8d637e5f80f",
+    "decoded_bgr_sha256": "1e807d408bc9d54d12f3b163bab7435a6c523daf247a792b17c9a54709160ca9",
+    "phash64": "1ec911338bdb7348",
+    "dhash64": "98b4a1212d0c0c8c"
+  },
+  {
+    "id": "E_037",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00023984_1793539601992954900_f770a2.png",
+    "sha256": "6d9db2f7dd17f47670fce83a6f8ad7b1d2882aadf2eb01f5446a5790289a1eb9",
+    "decoded_bgr_sha256": "2f1ca81049ae962b7ee770443f1e6044c7c81d883a05010da16e450d0993ef1e",
+    "phash64": "16d93097993b5869",
+    "dhash64": "b8e4a171656c2cac"
+  },
+  {
+    "id": "E_038",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00024128_1793539606793097000_78970b.png",
+    "sha256": "343ed5ae72d7c476ef24c915310684206ebdfb21bf6189fc647282b1d1efc00e",
+    "decoded_bgr_sha256": "94715e6f9a44f1eadd0da796b0bdeab115e1a27cfff2b35f0c5ed47842aa5a9d",
+    "phash64": "3099513783da5b69",
+    "dhash64": "98b4b1392c0c0c98"
+  },
+  {
+    "id": "E_039",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00024327_1793539613426650500_100ce6.png",
+    "sha256": "b08d89c8a69fd2ac1de61ded269d10d2727043876bde87957e81d76ab865f8ee",
+    "decoded_bgr_sha256": "b7f04b7975bb7e94afc58eb65624812b8f4abbd0b7cb0ccf573cdb9b7ef5da98",
+    "phash64": "4ecc4c338a73d869",
+    "dhash64": "f0e4e1e9492c0cb0"
+  },
+  {
+    "id": "E_040",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00024454_1793539617659706900_4745a2.png",
+    "sha256": "1feb32cea42d06534e3791a61051e0727aeb42e9e6c9d06e61ca6965076e735f",
+    "decoded_bgr_sha256": "30e0d764e241642decb20c745ae9ef138d3370fad5875dddc4d86d1cc5d1ddec",
+    "phash64": "32d9593383d25a69",
+    "dhash64": "98b4a1692f0d0c9c"
+  },
+  {
+    "id": "E_041",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00024610_1793539622860154700_4fe49e.png",
+    "sha256": "c525891b1a192559b2338bc2b86ebf7b6aa087b8af334307936ec033a90a8d18",
+    "decoded_bgr_sha256": "2dc92b2a652026e5f3b5fd8fa4728c6dc26452f0fdbae4d26254f423a1b5070f",
+    "phash64": "33c918309beada69",
+    "dhash64": "98d4d1494d0c0c98"
+  },
+  {
+    "id": "E_042",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00025097_1793539639093679000_2d443f.png",
+    "sha256": "f1c7788a53a27a491738e76cc9b11030f42257bd20e6d5fb6c60fc551b9b45e4",
+    "decoded_bgr_sha256": "3773233c3e204c3b1d42424b5f184a19ad7232aa4cb2393220f0d7085233f52c",
+    "phash64": "1c593097193b5b6c",
+    "dhash64": "98b4b131702c2cac"
+  },
+  {
+    "id": "E_043",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00025370_1793539648193881700_70180e.png",
+    "sha256": "8e8bdeafac0f0e4ca186c0c0d43c3330fc57b8fede6aeb0e382c7b93d74678df",
+    "decoded_bgr_sha256": "c9df5e89e94c5cdab767d82b12f5ddb2246d6ce9433dbf4d3e7fac70db034791",
+    "phash64": "389941b382db5b66",
+    "dhash64": "98b4b1392c1c14a6"
+  },
+  {
+    "id": "E_044",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00025583_1793539655295365400_c15619.png",
+    "sha256": "070199953e897eac3ce52802ec95309ff2608edb10d44d1083618be747a98dbf",
+    "decoded_bgr_sha256": "c3b44183704c1ff338576c3cfcb59cbfb7bbdd8e4696f1934a8476cc9841b358",
+    "phash64": "18cc49b38edb724c",
+    "dhash64": "b0b4b1b1b41c90b4"
+  },
+  {
+    "id": "E_045",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00025683_1793539658627824200_f2d588.png",
+    "sha256": "5e8cf0866758e5e257a96db7b0cb441a486567bf213c5bb71461496c3e480297",
+    "decoded_bgr_sha256": "09d3334827928389f1e8f9658461db09eba8eec53ffeb76fe43e07ec9e0b086d",
+    "phash64": "18d9719688fb4a59",
+    "dhash64": "9894b13134341894"
+  },
+  {
+    "id": "E_046",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00025750_1793539660861752100_9972d5.png",
+    "sha256": "beea1bc710308370707737657950a277f94b833600e8fed36957a09a832faeed",
+    "decoded_bgr_sha256": "1cf2e81e8c238ecfd9500c361de5d05bac3bfbd02f082cb8793461b0f3de0b7f",
+    "phash64": "18d931b386db6a49",
+    "dhash64": "9894b1292c2c1894"
+  },
+  {
+    "id": "E_047",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00025877_1793539665094655800_db7653.png",
+    "sha256": "a0dbb4e9d46753b9d9f2195c897a543dbd7fdce65cd5280bef32d7b4cfde5fcb",
+    "decoded_bgr_sha256": "bb757d6a91352ec2ebcd8a61b9de72aae3a308b47d6647149b52ca1344111068",
+    "phash64": "30d944b693cbda49",
+    "dhash64": "989491191d1d1d9d"
+  },
+  {
+    "id": "E_048",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00026120_1793539673194139400_c0b60d.png",
+    "sha256": "3c9073f2d47a848249eee09b95337482d36116570bb26085d560c96323d7221e",
+    "decoded_bgr_sha256": "1ec28e36c359ffb47a3a57aa0c95119c3e5a2ee9572258070514905e9040f533",
+    "phash64": "30594cb007f9ca7b",
+    "dhash64": "989491191d8f9765"
+  },
+  {
+    "id": "E_049",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00026347_1793539680761637400_6302dd.png",
+    "sha256": "fcd2955d3b5a4ebefade28620d0ccd34deb7cc286d9471d476350c413764c0fd",
+    "decoded_bgr_sha256": "bd0d85cf5d29b8a061f85355749bf0b6038d87e2aa6a9aeda2dfc17aa1a08e97",
+    "phash64": "1c9919a49ac3cb7c",
+    "dhash64": "9894b169246626bc"
+  },
+  {
+    "id": "E_050",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00026524_1793539686661776600_284d35.png",
+    "sha256": "83d85380df4277c73f7474f7972ab2fc98e3305c27406c50ea738df21f9ddc82",
+    "decoded_bgr_sha256": "510b1ed45171b532506d625252456978bbba0a561109079841fc305820237a34",
+    "phash64": "02245992bd7ada5d",
+    "dhash64": "e4e6c5cdd6cdc8aa"
+  },
+  {
+    "id": "E_051",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00026697_1793539692427961400_d4b90f.png",
+    "sha256": "bf0a43217d50d155a7501d8b9a739d97ffafed3dae705dd8151c80c367563f01",
+    "decoded_bgr_sha256": "042116e770079826cd185c218a74e5f544c2576b5914c5bcc4768522f194a463",
+    "phash64": "30d959b3036b525b",
+    "dhash64": "99b4b01f1d1e1e9d"
+  },
+  {
+    "id": "E_052",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00027669_1793539724827649400_1083e7.png",
+    "sha256": "c2188ee837fdb8779c6ee2d3bd542cc9a9268860c67d1cfcb2c554ce3a0bed2e",
+    "decoded_bgr_sha256": "b927e0f22af4e43cea4799a8833b04b87bc0f12149cc163a3a42f465991dba57",
+    "phash64": "1863738c9363db64",
+    "dhash64": "98949131b0b3b498"
+  },
+  {
+    "id": "E_053",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00027956_1793539734394140900_692f02.png",
+    "sha256": "c4f165af59e2d076195c3f79b0c10470e1dbd78d1ecd4ef910e0324ced834870",
+    "decoded_bgr_sha256": "29de100fd3a0e9f6b4cb5f8dc0261afcf6dc0b97ade179e1a53334016fd49e96",
+    "phash64": "1871738cb3635a69",
+    "dhash64": "989491bbb3b0b09c"
+  },
+  {
+    "id": "E_054",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00028789_1793539762160843500_667d83.png",
+    "sha256": "c61f36b803509675eda8785804e6b136ecbe838ad87be50337a085856fc61896",
+    "decoded_bgr_sha256": "8b174c33be924fe8f8585afa1856e42e3ffb69bc85e19abc193cc8c755214d09",
+    "phash64": "139918b782cbc3cd",
+    "dhash64": "9894d149ed4c66ad"
+  },
+  {
+    "id": "E_055",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00029556_1793539787730298400_0bdc07.png",
+    "sha256": "cee3d109ad89148ca181ec9ade18ac1ff934457e64488a417b2aff9409d717d5",
+    "decoded_bgr_sha256": "8066e8481f8575f9354f70aeefb7450294b25ae81ab04b05b8828cb48020495a",
+    "phash64": "139818b68adbcbc9",
+    "dhash64": "989491496d4c4cd7"
+  },
+  {
+    "id": "E_056",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00029637_1793539790431697900_87abf5.png",
+    "sha256": "3688fc7bff02f131fe3c061e7943da40be099c5574806b092a9567829d9c695f",
+    "decoded_bgr_sha256": "9117fe52d2a2a6115921a050dfea0cd918ff008b38b807d3612c881bc472cdfd",
+    "phash64": "139819b68adbcac9",
+    "dhash64": "9894d1696d4c4cd7"
+  },
+  {
+    "id": "E_057",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00029691_1793539792231582000_9f5a93.png",
+    "sha256": "b1986e76d0ae50380ffcf7023cb31b08e7a4ebf965856c7dbadc5e9281c49aa6",
+    "decoded_bgr_sha256": "e6bb0775c3855a6552f730af7b63c251f5315922890051c8b3853755e8f86334",
+    "phash64": "139819b68adbcac9",
+    "dhash64": "9894d1496d4c4cd7"
+  },
+  {
+    "id": "E_058",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\补拍 8psi 右侧.png",
+    "sha256": "f579538d646e2ea7e8c33d552423a1c5d763fdf496feaf2aaf959ecacf6cf725",
+    "decoded_bgr_sha256": "0c76f7cf3eacd415ddfb750e38babe9148c0788f7d9bae576b2698c36117edf6",
+    "phash64": "444fe9985e0cbae2",
+    "dhash64": "e6c2c262a088c0d0"
+  },
+  {
+    "id": "E_059",
+    "group": "E",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\补拍2.5psi第一张.png",
+    "sha256": "597f928e0234e6691706cbb03221db404feb7c4483c3da3e0183848af621b18c",
+    "decoded_bgr_sha256": "589fb0900ff181635885e994540476aa8eda7320840a52386580d226bec9b0cf",
+    "phash64": "4dcde09b0c0cb2f3",
+    "dhash64": "e2c2c27278d8b898"
+  },
+  {
+    "id": "F_001",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00012897_1793547140139696200_de0aea.png",
+    "sha256": "a9486ff997f176f20db398d3c14bf5f1bbc4d0f071ddd72535c612d059204b3c",
+    "decoded_bgr_sha256": "9344bc7d0ecc2fad984b935e59778459dc8ea04cbfa8f3f491d899e2b0f90ff7",
+    "phash64": "0e2271ce8e317ee8",
+    "dhash64": "9d9ddd696160d090"
+  },
+  {
+    "id": "F_002",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00012983_1793547143005874300_145ff1.png",
+    "sha256": "f2749c4aa4e2904024d1b195b2bd863e11daea07721c3a9f1179237f51157b9f",
+    "decoded_bgr_sha256": "8b432a2266e52eaeae6f6f5c69c69367ef42dd218312c2b0e8a6b849a01fd88c",
+    "phash64": "473868c7391c78c7",
+    "dhash64": "9d9ddd59696860e0"
+  },
+  {
+    "id": "F_003",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00013106_1793547147106501500_934c50.png",
+    "sha256": "b03c13e672ed4a7560d7837aba31f3e7882840f7c0d9e002de52db23c47a90f9",
+    "decoded_bgr_sha256": "72a6b05c84affc219c78a8e4436c3d350e36259fad932e05011e2dc851828778",
+    "phash64": "1a2a6077a8857f78",
+    "dhash64": "9d9ddd7d5958f0b0"
+  },
+  {
+    "id": "F_004",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00013288_1793547153172805900_c70066.png",
+    "sha256": "72b99962df33075fa1b05ab931d7e9351e58949d0ac531387076d7d9d3b5aa47",
+    "decoded_bgr_sha256": "f33a7aa6dd66a0debef0e55024f681e9134bf62a5120a0a1a08beac9b0147612",
+    "phash64": "4fce4cc32119736c",
+    "dhash64": "e1e1e1e14948f8b0"
+  },
+  {
+    "id": "F_005",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00013496_1793547160106537500_77f3a3.png",
+    "sha256": "938d4339e33c8218845f4ccdd3ce3963c0569d5558645fafde4de7215c9bb4d6",
+    "decoded_bgr_sha256": "69ea4690c7530e84d16463e0f4cd03db8296743ccebb161300669388b4cd1ca7",
+    "phash64": "03387cc73d18477c",
+    "dhash64": "9d9ddddd4d48d1a0"
+  },
+  {
+    "id": "F_006",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00013575_1793547162739652700_e7d289.png",
+    "sha256": "9a19a07bd414cc9976aa5fbf841aa209769f1686c305762668f3d94de6aa4e8c",
+    "decoded_bgr_sha256": "ac9f987cfd0488c2b3f8b446301dce4ac75cfa680ddd84a88b92e2d9eccff0fd",
+    "phash64": "013a5ce1ae1d786e",
+    "dhash64": "9d9dddddddd8d0b0"
+  },
+  {
+    "id": "F_007",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00017143_1793547281674140200_f27515.png",
+    "sha256": "972a8c14d030708f6309628d883dbf8724db9cab36f0bc7795150e50f5f89bc8",
+    "decoded_bgr_sha256": "84bb7e35bdb8ed54f8bd59890f6bca78ad060c3348ff2a2f977b38825d415bd4",
+    "phash64": "0e2270ce8f317ee8",
+    "dhash64": "9d9ddd696968d094"
+  },
+  {
+    "id": "F_008",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00017230_1793547284574735600_fa7e83.png",
+    "sha256": "9c3973a7a68cfdde2874eb26d7914d48274c524fc4df7f2dc92c5bc8c3376c32",
+    "decoded_bgr_sha256": "c471650cd9d664d6d7497ea7840820a225682689412d12e98d06e341c15d3da4",
+    "phash64": "4338c4c63b1c63ee",
+    "dhash64": "9d9ddd5dc9c8e0c0"
+  },
+  {
+    "id": "F_009",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00017418_1793547290842764000_2988ac.png",
+    "sha256": "a3df9c98b9f0f64c58e4acfe7cce7fa157e16aaa5708a467db1bb8f432d202a4",
+    "decoded_bgr_sha256": "23115eb73651300a14690a1dc2e5d8142ccfcab7210e39c76e972bf516378481",
+    "phash64": "1a226077bc837f68",
+    "dhash64": "9d9ddd797958b090"
+  },
+  {
+    "id": "F_010",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00017686_1793547299776986800_d8b664.png",
+    "sha256": "13a920940a96807ea1557432e7eae11430e8b33c242314ab282a94f6cbe87019",
+    "decoded_bgr_sha256": "56db5e2b353ebd587a5d70139ed6e4021cbb244b8895d6c189a29ff6bbb2eadc",
+    "phash64": "47c74cc781187de8",
+    "dhash64": "c1c5c1c94948bcb4"
+  },
+  {
+    "id": "F_011",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00017937_1793547308142936700_c463b0.png",
+    "sha256": "e6a2114fd1644c11b35f16ecea446af3cfa0b400ae11b74c1a2038e7cd171bd4",
+    "decoded_bgr_sha256": "7a9fb00ec275d6959b6d2bd29d782ee4c20407915e44764517d6886547b81056",
+    "phash64": "303a4ee01d9c6b4f",
+    "dhash64": "9d9ddd9999999160"
+  },
+  {
+    "id": "F_012",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00018050_1793547311908640500_cc95de.png",
+    "sha256": "bf2bb919fa1e2864c081bf21b63a2b47497b55dac22a025eb264192d3ac63e2f",
+    "decoded_bgr_sha256": "ae9c8129607440fa750d37016366965509fb050bc2428ee579ac8cdbac9b190b",
+    "phash64": "0e3071ce39117d6b",
+    "dhash64": "9d9ddd6d6960e0d0"
+  },
+  {
+    "id": "F_013",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00019055_1793547345409752900_ce19e5.png",
+    "sha256": "5ae28dc41b193e13c78951c33614455532da9cab3ccc1cf6716a7542e927e5bc",
+    "decoded_bgr_sha256": "bf6b270571dfdf47d9c8899890c47d20ea328ddb3dd5a1445b869badc33382f9",
+    "phash64": "0e3171ce8e315ee8",
+    "dhash64": "9d9dd9696968d0d0"
+  },
+  {
+    "id": "F_014",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00019190_1793547349909631100_818629.png",
+    "sha256": "a87397bbe76f4c1caf05be9504411a005f8a23e469e9b608d9347359f209a030",
+    "decoded_bgr_sha256": "fcbc8fe5a7e60f5bd6781e9e3afbf37095d0a27b7d098e64d265bd44d4761738",
+    "phash64": "0e3170ce331979ce",
+    "dhash64": "9d9ddd796560e0e0"
+  },
+  {
+    "id": "F_015",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00019618_1793547364177846500_8d56b7.png",
+    "sha256": "d1d82466cab298b7b5301a05acfa1521b83a00a3de23524ab10dac9b79745d22",
+    "decoded_bgr_sha256": "8d94efaae56201295c2977165edf34794d2b64a3cdb2f1a1f60cc1627334e821",
+    "phash64": "1a2ae07fac807f68",
+    "dhash64": "9d9dd9797978d0d0"
+  },
+  {
+    "id": "F_016",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00019766_1793547369111864900_4c5e8e.png",
+    "sha256": "9f70829177a605748f275e554fb2613be3f0610c9d18acd4bdfa80cec975b8c1",
+    "decoded_bgr_sha256": "d35c4ed8965e8fdd46688acf73dc999444e03ef02eeccb978ca7caf6f1a732c2",
+    "phash64": "47ceccc785185d38",
+    "dhash64": "e1e1e1494948e8b8"
+  },
+  {
+    "id": "F_017",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00020057_1793547378810938400_845515.png",
+    "sha256": "44c76f00e954054a5dda250597842bfd9174a4ef66c42ff5678dfcfd7b2eb9d2",
+    "decoded_bgr_sha256": "6e095b62c498db1750c9aad9e6ef9ae443ae8c7d51a044c5b08ae98b70ec68f1",
+    "phash64": "033878c795185f7c",
+    "dhash64": "9d9ddd594948f0b0"
+  },
+  {
+    "id": "F_018",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00020260_1793547385578961700_4e0ee8.png",
+    "sha256": "97e7c5a0a08a52e5cc5aa41858c0fe58fbd852868096175dbbdcc3c6973bc538",
+    "decoded_bgr_sha256": "9a0a9dd6299fbfda5f69fe4bb047e24239bd644fcec42bc22c67d2dfc3d0f39b",
+    "phash64": "033878c78f387768",
+    "dhash64": "9d9ddd6969489090"
+  },
+  {
+    "id": "F_019",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00021293_1793547420013287500_54a133.png",
+    "sha256": "16644ccd5e969677734ec247c2530673b95b97ea6bdefdbdf214e9370ed73fdd",
+    "decoded_bgr_sha256": "b1b6a782f068a6b9f35461c4cc5a6ecc973749204b681e6ca3abb879f9c1cf64",
+    "phash64": "0e3071ceaf315e68",
+    "dhash64": "9d9ddd696960e0d0"
+  },
+  {
+    "id": "F_020",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00021441_1793547424946794600_ef7b7e.png",
+    "sha256": "00667f3cc5837a12923cc8427058fba8db7ab5ae34e7890c0493e9ace4939c6a",
+    "decoded_bgr_sha256": "09d08c62e4450ea8531d8d5d57fd5407d4cbd97c6d23cad48ae3c87a1e62a0ee",
+    "phash64": "0e3360cc32117fee",
+    "dhash64": "9d9ddd796160f0a0"
+  },
+  {
+    "id": "F_021",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00021637_1793547431480799100_eb0ded.png",
+    "sha256": "365148edcaf01e3f87f6daad5cc07b7cba68da04040ccedae23877d2dfb5e507",
+    "decoded_bgr_sha256": "f49251d40effcec2af13c49459cc16e74b9991faf493e2aabfd60c8ce7d755a8",
+    "phash64": "1a2ae07ea8847f6a",
+    "dhash64": "9d9ddd797938f0d0"
+  },
+  {
+    "id": "F_022",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00021850_1793547438578868300_1c85d0.png",
+    "sha256": "dfe23d295dc76ef83278e773734792f6de1960dc6a95dee6d1dfdb411449c39f",
+    "decoded_bgr_sha256": "dd2453401c2e960c8f59f8ce2903b542da692c0bacbbe70e03df89b1f276c7c3",
+    "phash64": "07c6c8c7c7385b2c",
+    "dhash64": "e1e5e1e969687078"
+  },
+  {
+    "id": "F_023",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00022063_1793547445679311000_2d7000.png",
+    "sha256": "d7e7b097e655e97b800d1d771ea200401bb81b4200ad6e24d2401ea8fb52946a",
+    "decoded_bgr_sha256": "624aeb923994be0352229b7095a1350f149e5ec5f67591b1778d14fc57834b78",
+    "phash64": "1e22714e8f117e78",
+    "dhash64": "9d9ddd696160f0d0"
+  },
+  {
+    "id": "F_024",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00022195_1793547450078958900_5595d1.png",
+    "sha256": "ce4e6d3a0e471a5d3332e5c5038f7ab32bb450e727b8105f07075daecd89f36f",
+    "decoded_bgr_sha256": "dfeb93ab63b910671ca67f140c45c0a3b2355bef0e5bf5abbe24b039adea1a60",
+    "phash64": "1e20714e8c117feb",
+    "dhash64": "9d9dd9716968d0d0"
+  },
+  {
+    "id": "F_025",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00024102_1793547513644988100_dd64eb.png",
+    "sha256": "2ecc4e16800b28063af664563d16208a214ed04731d7eaeab57630e1c04b18f3",
+    "decoded_bgr_sha256": "1fee8a4a8fc8703417c59ab39b61280166a3ebbc84133b623f7de9b35435eac5",
+    "phash64": "063870c68f317f78",
+    "dhash64": "9d9dd9696968f0d0"
+  },
+  {
+    "id": "F_026",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00024216_1793547517445768600_02dcbb.png",
+    "sha256": "c9aa65c1f7221e553efb11fa10c88becb6510984159b1d4e9b75ae13417f11ad",
+    "decoded_bgr_sha256": "cfc418769f983f3ad67c215991b0567460b6cb83ba8152922ca92b40989049c7",
+    "phash64": "0e31ccce3b114e6b",
+    "dhash64": "9d9ddd7d6560f0e0"
+  },
+  {
+    "id": "F_027",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00029009_1793547677215782400_eec0f5.png",
+    "sha256": "771dc104d3953a617007409b96ef29bc6aeb70c4f1a23e7f23fde8ee797491a3",
+    "decoded_bgr_sha256": "c320bb5700b4b7ced10985bca20bb3e7b007f0d6c5583232c7b52afaf399d1b0",
+    "phash64": "132ae0573d817b78",
+    "dhash64": "9d9ddd7c7858d0d0"
+  },
+  {
+    "id": "F_028",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00029204_1793547683714316100_b8c4b0.png",
+    "sha256": "ebe3534710362161066ea6a5282892f451f7518c3f617c2db92623eeb6c16728",
+    "decoded_bgr_sha256": "f3e4bf880dc97f78c22ff8303909fc651f0263f428652df3308f5b5742bcf66c",
+    "phash64": "43e26cc3151e6a7c",
+    "dhash64": "c1c5d9d8c8c8c0a4"
+  },
+  {
+    "id": "F_029",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00029581_1793547696280965000_6efde5.png",
+    "sha256": "ce119c694874547e60accafb0956cf6576112fe59e4cac6fa0cbb869ac5736a7",
+    "decoded_bgr_sha256": "e980bb740af94f0a85e36e4d96dd02953604dd6b931d305e79f3d4f80dc084c5",
+    "phash64": "03386cc738917e67",
+    "dhash64": "9d9dddd9484840a0"
+  },
+  {
+    "id": "F_030",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00029676_1793547699447469700_16f72b.png",
+    "sha256": "5869631a5bc5e763cb94027ea18c5cf9ca5146bfab7f8d4b99530ed4b029b181",
+    "decoded_bgr_sha256": "5effc98b651ff6701e1a80f63334a71250f23811a730de6895761eb63841d621",
+    "phash64": "073878c73c9178ce",
+    "dhash64": "9d9ddd7c6c48e0d0"
+  },
+  {
+    "id": "F_031",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030345_1793547721747717900_754db3.png",
+    "sha256": "efc8d002e417f533f831e9e56d076967cfde8a4a96c7c94ad234c8687f62258e",
+    "decoded_bgr_sha256": "80c79c58304a37a5956ab5756a6457aeadbb01a2300d59de2297e5ddd1b1e195",
+    "phash64": "073878c739933867",
+    "dhash64": "9d9ddd5c4c68c090"
+  },
+  {
+    "id": "F_032",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030425_1793547724414307900_dafa1b.png",
+    "sha256": "70b31963640a36e62d2bbc4bddebcefbc251145650d5e417473a5e2c988b036b",
+    "decoded_bgr_sha256": "fd1e4b7d7b78f9410893a777d8ade760c7aa5aad2aeb891513244c797d2fa820",
+    "phash64": "4e3231dd318ec873",
+    "dhash64": "9da5e5e47470e0d0"
+  },
+  {
+    "id": "F_033",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030630_1793547731248300000_936c68.png",
+    "sha256": "c46af4c6a18a07a200a3d7721a92cd4756087580ee79030462c9ab901d3cf212",
+    "decoded_bgr_sha256": "ab1586682a0ab2c709c1f65069c50a1dfcfd7aa666cd890764eb4a2287ada6cc",
+    "phash64": "112ae875b5813e6e",
+    "dhash64": "9d9ddd585858d0b0"
+  },
+  {
+    "id": "F_034",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030751_1793547735281848800_475873.png",
+    "sha256": "664aebee50fb70c08ba34db50b9fbc4d65515ef5ce71cdb7a523ce32eb695b92",
+    "decoded_bgr_sha256": "e3dc784fc405a23921249fe3b3987685d9913bf5a2432f7acbe1eab163a808b6",
+    "phash64": "488eced133993a4e",
+    "dhash64": "e1f1f1f0d0d0d0b0"
+  },
+  {
+    "id": "F_035",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030888_1793547739847830200_a9659a.png",
+    "sha256": "ddb4696d16dacc4788337d201b319a69e902ae458d56ab15fbb84eb24f1a304a",
+    "decoded_bgr_sha256": "c86c3ebf98048c3a04e43f9dcd7afb2cd748c461cef8d1ad3617d74f1014a8d3",
+    "phash64": "033828c738997e7e",
+    "dhash64": "9d9dddd94848c0b0"
+  },
+  {
+    "id": "F_036",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030983_1793547743014671800_e35d8c.png",
+    "sha256": "50fdf856c410e17334fc11c28e7d83240968d01db867c6e5e0ef4d74db940100",
+    "decoded_bgr_sha256": "c906e703236b5f2516e67a9daf7005e3ac94716c50641f0287fae03326a90456",
+    "phash64": "433a2cc33d187e6c",
+    "dhash64": "9d9ddd59d8c8d0b0"
+  },
+  {
+    "id": "F_037",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00031814_1793547770714921200_4c12da.png",
+    "sha256": "e135034a76816aec1dacfe1daff2ebe5b7e6abe369ef9599be6118fb843707c1",
+    "decoded_bgr_sha256": "5fefe9d5344bfcd8813fcd87b16dd97a8868b345811819b29739e43d69bc45b8",
+    "phash64": "063b71ce39933871",
+    "dhash64": "9d9d5d6d6060e0d0"
+  },
+  {
+    "id": "F_038",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00031936_1793547774781841100_408468.png",
+    "sha256": "c19b3dea76117aa4cffe0e3117328e0e06ae4b1bfc6b77483c0545f7a587715f",
+    "decoded_bgr_sha256": "7473be8c76f67085611fe24e2441fea973ea9fd29cf8c60778db47681e045650",
+    "phash64": "4e3231cd3186ce73",
+    "dhash64": "9dad65647460e0d0"
+  },
+  {
+    "id": "F_039",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00032122_1793547780981562300_c37038.png",
+    "sha256": "e7a88d40da3108b0c6a2b2fc5f52c59bd6e6fea58226bb07ad4143392a9bd18e",
+    "decoded_bgr_sha256": "06a61f93ada044eef82884651410f096a8025fd03234637a56fa80e7be3055b7",
+    "phash64": "132ae0748c877b6e",
+    "dhash64": "9d9d5d6d3c38e8d0"
+  },
+  {
+    "id": "F_040",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00032253_1793547785348296600_447ebd.png",
+    "sha256": "896ce7d7adcbad0bdc3ed63bfeb064c7ad41bc6cc48c7d2f8def2706b8131c52",
+    "decoded_bgr_sha256": "2633e9164f839c913961c0909306f9f3f555f3ba2a07896e357b322b2037f93e",
+    "phash64": "4c9838c733973876",
+    "dhash64": "f1f1f1606060e0d0"
+  },
+  {
+    "id": "F_041",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00032408_1793547790514954100_8ccc2b.png",
+    "sha256": "50cb7d5493b259af5fd10af963f41cd463ae0f413bae188571c82dcdce30d0f3",
+    "decoded_bgr_sha256": "13035815053fb9f1e360a83d5cfd48337b8164f24ef3c4fd6cf8fb5bd1bc8da0",
+    "phash64": "033a2cc338996e7e",
+    "dhash64": "9d9d5dd9d8c8d0a0"
+  },
+  {
+    "id": "F_042",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00032539_1793547794882030700_1efb61.png",
+    "sha256": "159f7753ac42a8fc01574fa19a0f486bcd381d7e9d8da5df48f25403473f8d16",
+    "decoded_bgr_sha256": "cd38cc45d30d40940ec8ef2235cdde57b01a8b15b1e102076fd4c2915ff763fa",
+    "phash64": "433a38c33e1d327c",
+    "dhash64": "9d9d5d4948c8d090"
+  },
+  {
+    "id": "F_043",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00033557_1793547828814243100_36a34f.png",
+    "sha256": "2d3e89c978e1ce8effb5229d384f194f955639e23e3837ac19f3d33e03abd2af",
+    "decoded_bgr_sha256": "93495f75a380379de160623ba9f569a41bc5a30a0f858c96ceff44ba6d037b9e",
+    "phash64": "0e22315cce9976dc",
+    "dhash64": "9d9d69616020d0d8"
+  },
+  {
+    "id": "F_044",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00033644_1793547831714417700_83b1d8.png",
+    "sha256": "07fbdc2db49b87e0dca05840d2bd40d18b839b4231c51995b66cbee75c4c9bed",
+    "decoded_bgr_sha256": "df5009cbc68fb4e259402a7808ba5e411def53f43107450ece16f9b44f98efc9",
+    "phash64": "4e22314cd9a6ce79",
+    "dhash64": "9dbd65607060e0d8"
+  },
+  {
+    "id": "F_045",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00033764_1793547835714237500_bd3181.png",
+    "sha256": "9a88709b06cf6e921effce71070b0577e9e45546502ce91948f9b4dfb0eb9bf8",
+    "decoded_bgr_sha256": "74649161e76d19776ec4659493cfdeb1a30827ecdcc6bf56dddb539df532c157",
+    "phash64": "172ae05c3399667c",
+    "dhash64": "9d9d4d7c38689094"
+  },
+  {
+    "id": "F_046",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00033960_1793547842246720000_0479dd.png",
+    "sha256": "311c8772ff9437b2dd0c0322c568bbb4ffc1310f587d72aa4b6fd74fcd1e62be",
+    "decoded_bgr_sha256": "a1b99fe498f03a29517141f255273683652a65f405ea696fcf53136860ce706c",
+    "phash64": "4d8ec8c39b931a78",
+    "dhash64": "e1e1f1f0c0c0d0f0"
+  },
+  {
+    "id": "F_047",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00034104_1793547847047739700_c18cc0.png",
+    "sha256": "96f74318148441f267ec885389fc33ca7f469500bf10629d0843bcb437de4597",
+    "decoded_bgr_sha256": "e26a7c2008466395f1dd8b256a8e9cef9716b5d2b7ddb4ed2a5967fb168ae0c0",
+    "phash64": "073278c6ccb34e78",
+    "dhash64": "9d9d5d6c6868f0b0"
+  },
+  {
+    "id": "F_048",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00034181_1793547849613837400_296798.png",
+    "sha256": "1e280d4be378fa9b24b487040a8de3287d7eaf367f0ba9c19213653d593a7502",
+    "decoded_bgr_sha256": "d82ee385058dbdae1ce1a1b40e8b8abae81477846d084210d9ab02fed6cd27f8",
+    "phash64": "032a38e1c79f6378",
+    "dhash64": "9d9d5dccc8c8b0b0"
+  },
+  {
+    "id": "F_049",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00034271_1793547852613915200_62b571.png",
+    "sha256": "7aa38e158d586457a90bd6752690f1353fe4efebe33d95d92ed8cadf607c68f8",
+    "decoded_bgr_sha256": "54693666d14396fc1d40eb0b320012d086ee050135b110c64d507e15461da0f6",
+    "phash64": "1a23c47c39837f68",
+    "dhash64": "d99d59391838f0e0"
+  },
+  {
+    "id": "F_050",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00034363_1793547855682607700_e9985c.png",
+    "sha256": "ff830ec70790b0a605e913033f95de58c312fdcce5a68319bb8eb5d595b52dcb",
+    "decoded_bgr_sha256": "ea4c6a07aecb93859cdc1a6485e7e1c6ce7792506d9a2c1017b05a5f62f0fe8a",
+    "phash64": "1c2364cd30a3bbec",
+    "dhash64": "db985d393070b4b4"
+  },
+  {
+    "id": "F_051",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00034740_1793547868249827300_b04f99.png",
+    "sha256": "8ee86f9c500d9c792fc09d3ebb663406146ac20f7ad94734ead3443ee5f3e9a7",
+    "decoded_bgr_sha256": "9ead65113701183b746e587d9c9fa10076c0413497be648c09bc786732c046e4",
+    "phash64": "063871e61c13ef5c",
+    "dhash64": "9dbd69786c66ccc2"
+  },
+  {
+    "id": "F_052",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00035222_1793547884316993400_ed3d94.png",
+    "sha256": "65a266089ccd039681c8c679e79dcf8b0a0e55f2a73bc72c9c780b76f3b73447",
+    "decoded_bgr_sha256": "b58a5e19ca671377eae63896f1954b80b7ca422ea3f6a1c9a58685be5ab91727",
+    "phash64": "4f32647333c7894c",
+    "dhash64": "c9b571e8787ae2f0"
+  },
+  {
+    "id": "F_053",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00035373_1793547889349908300_a73e27.png",
+    "sha256": "6e899d9fdfd90cda7285f33c966f8d389cbf301cfaa24b6dd4804bf6f98105b8",
+    "decoded_bgr_sha256": "79c59f6731c25b1b8636ae6a760764363ddc49881c9a32a5700fbf37643d0810",
+    "phash64": "132a61dcad639c69",
+    "dhash64": "9d9d796932389896"
+  },
+  {
+    "id": "F_054",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00036233_1793547918016707600_adbae2.png",
+    "sha256": "f097cc4a8cf9e42e260c8adb1066a805d3ff3cbb6c057f3a8a5f9fa5e27f33b7",
+    "decoded_bgr_sha256": "07d6cd133d089bc036c95a62f5ca67be4a2a89c09f2a515c53db46521494b81e",
+    "phash64": "4732385cc78d3a63",
+    "dhash64": "9d9d69686860f0c8"
+  },
+  {
+    "id": "F_055",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00036634_1793547931382067100_3c98c8.png",
+    "sha256": "01dc44cd1a5b6202bed114c5e48532a4edc287e26cfbd4a35f2a58ee0c832033",
+    "decoded_bgr_sha256": "a9bf4dafba9506212a7096fd61347a0addad6232b904fc58b5ec14856f798ad2",
+    "phash64": "47363874c7813e71",
+    "dhash64": "9dbd49484c50d0d0"
+  },
+  {
+    "id": "F_056",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00038187_1793547983150744200_cc0c61.png",
+    "sha256": "621d068aa37de377a6a4491632c3362fe5c09298d968dc4bbad3f7a9a53affff",
+    "decoded_bgr_sha256": "194bd555c7a52fa201ce64ac257783cffe18e2c89eb1d22368b1385b25707f9a",
+    "phash64": "1c2a635c8c936ed9",
+    "dhash64": "9dbd71303030d0c4"
+  },
+  {
+    "id": "F_057",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00038437_1793547991483298200_c6fd21.png",
+    "sha256": "c43d2b301ab144fb604e377b7f27e3abd4edc9b6ff31acbf6618a6c89f18cb90",
+    "decoded_bgr_sha256": "32d1cbcc41a416ca13a471aa6c9f62f670a51b93af9779bd7beceb42989a68ca",
+    "phash64": "152a665c19333b79",
+    "dhash64": "adad79343830c8cc"
+  },
+  {
+    "id": "F_058",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00038553_1793547995350186900_bbe0e3.png",
+    "sha256": "3d3da6dd51967bbfb6e55be0b5ba38a39943553090747d9d8f4246da91cde19a",
+    "decoded_bgr_sha256": "07688a22e0d94cfd7391a5865cd1ef0e48d12ed2c0d545d42b6e390a29d1e0f6",
+    "phash64": "192a63581c866efb",
+    "dhash64": "9ddd49343030d8c8"
+  },
+  {
+    "id": "F_059",
+    "group": "F",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00039153_1793548015354064600_ad45e7.png",
+    "sha256": "c81eb4b146992174c6faea450ec64b69c2c6be15ef67fc14875d9f548a015b4c",
+    "decoded_bgr_sha256": "7a58b879a7f9b86aaef73ae2dbe559248bfb3c3f3147b169fbddc04f22dc75ae",
+    "phash64": "142371ccc7933a7c",
+    "dhash64": "9d9d59682828b090"
+  },
+  {
+    "id": "G_001",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00099858_1793543972139383100_f8c281.png",
+    "sha256": "19ab126049051dd7df875c1d14ce77035523b6033c19a306cfcef61428a8fcc6",
+    "decoded_bgr_sha256": "77887d0930d04b55a6a7479272620fcb01696f7676d24991d2668dd59478f934",
+    "phash64": "494769c95a0d3dcc",
+    "dhash64": "e2c262e2a0b09090"
+  },
+  {
+    "id": "G_002",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00099957_1793543975434784900_0577d7.png",
+    "sha256": "7e4d72a183af33380bb8339045f3fbc602204298329be51b4e5245be1f4f7dd9",
+    "decoded_bgr_sha256": "5d33e12e5243ccc4f6ed703629f2c703036aeae8e5514d97eb3c48335d5d2003",
+    "phash64": "4547c999d91d1d4c",
+    "dhash64": "e2c262c2c8c8b0d0"
+  },
+  {
+    "id": "G_003",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00100158_1793543982138222800_1b57ca.png",
+    "sha256": "4056de662956bf9d25e2c415dd4e35fc930fc6af5988c76beaaf247a79ff732a",
+    "decoded_bgr_sha256": "65bd304ed80bfcce34cf3013bf68abcda84d5fdba5a830250acf403405e75550",
+    "phash64": "414fecc9581d1ccd",
+    "dhash64": "e2c2729290d0d098"
+  },
+  {
+    "id": "G_004",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00100497_1793543993435687400_26cc8a.png",
+    "sha256": "234f6b198f176bfcf7361913765cf0f0f14700bb816bb18429431d23038ed8ca",
+    "decoded_bgr_sha256": "c801f784cf4e316112b402f5ca225ed5e3b602bd35d6a01ff8168fe9e20d6eff",
+    "phash64": "4d4ce393581d3c5c",
+    "dhash64": "e2e2e2e2d0d0d088"
+  },
+  {
+    "id": "G_005",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00100621_1793543997568188400_1b63b5.png",
+    "sha256": "fd8b0f10c415a9274dbbed0ef260575a0db373e71835e693fd2c27e32c52b01c",
+    "decoded_bgr_sha256": "d3666d1d9e97f724546e29e4a12b1d5aabfbd8c15d908e7e9f0410479b07175c",
+    "phash64": "414d67c3580d3dce",
+    "dhash64": "e2c262f2d0d0d098"
+  },
+  {
+    "id": "G_006",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00100764_1793544002336654400_6d6543.png",
+    "sha256": "7ae6f16c0f1926d77f16a284e7accd94b4b02538748d25d294d405fc42314c13",
+    "decoded_bgr_sha256": "c3d5022dd539aa6778defba0365e53b0642c888b04dc272c08fe723a619e8234",
+    "phash64": "414f6dc11b0d1ddc",
+    "dhash64": "e2c262e2d8d0d018"
+  },
+  {
+    "id": "G_007",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00103818_1793544104135637300_35ef79.png",
+    "sha256": "0f79206cf774a05fd5475c591982af3c57c7382618ceeb84a27c97bf6795501e",
+    "decoded_bgr_sha256": "43e50809805da3225cb619cd808ef7837eed3522fe035b297b78612ed5ad2486",
+    "phash64": "4d472dc91c1d1d78",
+    "dhash64": "e2c242e2a090b0b8"
+  },
+  {
+    "id": "G_008",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00103894_1793544106669422700_fe1deb.png",
+    "sha256": "3586f8627ca5adab7449a1781fa5556859a9f75d5a002dad2dd3af9bc88106cd",
+    "decoded_bgr_sha256": "9efc60c5e62e789d82ab328520efa2bd107f6703df8bdee5abdd015f9b07d05b",
+    "phash64": "4545cc99d81d1d4f",
+    "dhash64": "e2c24292d8f0d0a0"
+  },
+  {
+    "id": "G_009",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00104070_1793544112536074400_5678ac.png",
+    "sha256": "63e0cec605f16e5abd5103b017154b9eac1fb0df9602b764570aa446ea5561e1",
+    "decoded_bgr_sha256": "d3d6422b9fff1128e9b185ff8e80d0c3e209f947da20de4cad594604d3c34c44",
+    "phash64": "414f6ccb10193f5d",
+    "dhash64": "e2e262d8d8d0d09c"
+  },
+  {
+    "id": "G_010",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00104254_1793544118670366700_3235da.png",
+    "sha256": "b13d4097e2e1ab2cbcae289c294e0f3270fe3337d027f1eac88bb0d2bb9afa8f",
+    "decoded_bgr_sha256": "2a23558c185dccf476d18efe695551d8520d02a990c5817d08ec19bf5de80bb2",
+    "phash64": "494d61c3d01b3c5f",
+    "dhash64": "f2e272f0f0e8c090"
+  },
+  {
+    "id": "G_011",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00104366_1793544122403642100_7b6d03.png",
+    "sha256": "27cb1eb00873e217db80cb3694192c16b8bf9f457bc92edfadb26aeb2d0f22de",
+    "decoded_bgr_sha256": "24f24492dc34cd60c6a408fadbe73ddd287762c927b42b4c116eba236476eacc",
+    "phash64": "494c63c398d93d5c",
+    "dhash64": "e2e262f0d0d8d09c"
+  },
+  {
+    "id": "G_012",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00104488_1793544126469128400_9fd2d5.png",
+    "sha256": "dd3c3e49976f6c68286ebaed07370099aeb82419d63ace1a328190ec6d7db0bb",
+    "decoded_bgr_sha256": "a5ba7d0db749525f0c47e4527eedc3411e2ab642d5875392335ee165eb5e3aa4",
+    "phash64": "41476cc913d91f5c",
+    "dhash64": "e2e262d0d0d0d038"
+  },
+  {
+    "id": "G_013",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00104966_1793544142404386100_151b7a.png",
+    "sha256": "3ec790fdac4b3ad561eaadac0d8631388b9c9052219a9f90538d7597a27d88d5",
+    "decoded_bgr_sha256": "5df6c93614b2bdc7b0ff81e2e3040c71410a64ff648a4290c9f3475b2ce3a3bb",
+    "phash64": "494761c198c93f5d",
+    "dhash64": "e2e262e0e0d0d0b8"
+  },
+  {
+    "id": "G_014",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00105048_1793544145136111600_bca448.png",
+    "sha256": "b29d7303c150a154293e5625be7a97b4f16e1ceeb29b732906d89330ab259ca3",
+    "decoded_bgr_sha256": "c26834b28d715a15f79eb169185463a36f77f973c7088fc8f6451f6f4217a324",
+    "phash64": "4147cc8bd8191d5f",
+    "dhash64": "e2e262b0e8e8d0b0"
+  },
+  {
+    "id": "G_015",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00105212_1793544150605350000_606bdf.png",
+    "sha256": "70ae0253a62d46ca75b3d24010e112aaa07f9b41160ae81736340f9c59bf2d6b",
+    "decoded_bgr_sha256": "ee18add3dcd03dd715b73f776fe19d0ff18939b978b3e707baf959bb5f4cc048",
+    "phash64": "4947cfc118191f5d",
+    "dhash64": "e2e262b898b090b0"
+  },
+  {
+    "id": "G_016",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00105481_1793544159571412400_6d8b94.png",
+    "sha256": "5dc05e7fe30007a5457ac364875a3bb8fdf99fdd0c5261f3ae3bba7947c2e351",
+    "decoded_bgr_sha256": "e38891ff5ece1da8cdab12f7b4bdaed5bad81b0474ebc931bf95cd38edcd2993",
+    "phash64": "494f6183d01b395f",
+    "dhash64": "e2e262e0f0d0d090"
+  },
+  {
+    "id": "G_017",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00105649_1793544165170444800_27f8f3.png",
+    "sha256": "f6826b9cd95b60c18a60770de9cdcb0af415dafe52c78e39943b8ec565557e15",
+    "decoded_bgr_sha256": "20510206b5c54109edb6d5b30b55c3f964caff0a817fcfdf7ff8a7776941724a",
+    "phash64": "494f67c198c9394d",
+    "dhash64": "e2e262a0b0d0d090"
+  },
+  {
+    "id": "G_018",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00105815_1793544170704009500_993bbf.png",
+    "sha256": "3725e6a4907b86fb17547ed1f7aa0809367eb9abaa23f1d019d580e50424213f",
+    "decoded_bgr_sha256": "f02fbb259d2ca48830bfff8fa0d79eada2d31ceca2024baa9e048815e28ccd01",
+    "phash64": "414f6dc1d2c91d5c",
+    "dhash64": "e2e262e8e8d0d098"
+  },
+  {
+    "id": "G_019",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00106966_1793544209071427900_067f45.png",
+    "sha256": "2460f56ae339c42716317997b051e2eec89ebd4b834f68d21a3093be84278d2b",
+    "decoded_bgr_sha256": "81f7ca7c8ce208284737f386abd541bd8ca783abde91c5968d1ad4c1136495dd",
+    "phash64": "414d6783d08d3d5d",
+    "dhash64": "e2e262f0d0d8c08c"
+  },
+  {
+    "id": "G_020",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00107036_1793544211404983700_5a79a4.png",
+    "sha256": "e2293754a97a916db350d8ec6bbbee4732b82d833f41b9503e63f91ee68cf954",
+    "decoded_bgr_sha256": "6ab04e7ec4f21aa56440b802e46dfae6a0f21cc021c45c007fa446ef14454543",
+    "phash64": "454fcd8bd01b1d1c",
+    "dhash64": "e2e262c8a8f0a0a0"
+  },
+  {
+    "id": "G_021",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00107259_1793544218841711800_f95b92.png",
+    "sha256": "6621b34abf73f3bbde261d82b000ec33b50166b594ff49efc42ffb7833435bc3",
+    "decoded_bgr_sha256": "b6b7b9ffcd8bfcecd16eb244ff1a14824cd069393d12ed5ae41c5bb980a2c353",
+    "phash64": "49474fc118193f5d",
+    "dhash64": "e2e242b890d0d038"
+  },
+  {
+    "id": "G_022",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00107484_1793544226337777000_48f100.png",
+    "sha256": "002625b00ba4a1d2ce309d8054cd07e5fdeb0b93376a8e1310d458ba665bbcdb",
+    "decoded_bgr_sha256": "c85a52e466f3a4ee393da1d572b44542e8f808652000ec7e07bcb5a2b2da39d8",
+    "phash64": "494c61c3d09f391f",
+    "dhash64": "e2e272f0f0d0d098"
+  },
+  {
+    "id": "G_023",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00107598_1793544230138482100_f706ed.png",
+    "sha256": "e584988e273d0787952328d4f29613d0dbe054dd7e6b125cee028feb84ce445b",
+    "decoded_bgr_sha256": "7d67951b480b8a5cee8fb1a5804a8a8bee571dbcdf9cae9e453dac1f32e46274",
+    "phash64": "494768c89bc9395d",
+    "dhash64": "e2e262e0f0b0a030"
+  },
+  {
+    "id": "G_024",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00107674_1793544232672268800_6e59ca.png",
+    "sha256": "0e1d7c00c82f8dc22d780443b14dca23170965420aefa0991ec3f9b0b9123f13",
+    "decoded_bgr_sha256": "9bf51cbe30355992ea1fd1a5e98dc1ae58b8550f17149d940bd65d9d46934780",
+    "phash64": "414f6cc912c93f5c",
+    "dhash64": "e2e262e8f8d0d098"
+  },
+  {
+    "id": "G_025",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00108498_1793544260138262100_25e979.png",
+    "sha256": "da33a38966de8555098d93bbbc8434d657b87876be71b9998b5fe4e6464031c0",
+    "decoded_bgr_sha256": "19918ace476e35d551da674c1d0794fc77cfc36c9159d22b843723c0198062aa",
+    "phash64": "49476dc09bc93b4c",
+    "dhash64": "e2e262b0b0b0b030"
+  },
+  {
+    "id": "G_026",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00108600_1793544263537627600_9e8397.png",
+    "sha256": "705bd770456a402f2d57ee64290584e4e6d52950f56bf38c36957b05374049c7",
+    "decoded_bgr_sha256": "c89fe020bbf14f854461214f361ac08d9978a43175706430b8fd69679780b39f",
+    "phash64": "4947cc83d819393f",
+    "dhash64": "e2e24290e8d8f0b0"
+  },
+  {
+    "id": "G_027",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00108841_1793544271574012600_5a58c3.png",
+    "sha256": "37f4589c0c84a3e4c794108283b701627aa7e11ac44e8afd43ddf3631438709d",
+    "decoded_bgr_sha256": "d756ca9037c4e48ac41313289bccff9076e0e17ab5f708303e9a572fb638bcb7",
+    "phash64": "4947cf8198191f5d",
+    "dhash64": "e2e262b898b090b0"
+  },
+  {
+    "id": "G_028",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00109042_1793544278272481400_21d89e.png",
+    "sha256": "78247233be816bef621d9c59f181c6b1d77d4038fd2e9de124553b97a93f0416",
+    "decoded_bgr_sha256": "8b24f11825bad9160bb060f3633c6fb618f8e43eaed669cb972ff22735458a5e",
+    "phash64": "4d474991d9191b5d",
+    "dhash64": "e2e262e0f0b0b0b0"
+  },
+  {
+    "id": "G_029",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00109132_1793544281272505900_f04c31.png",
+    "sha256": "9ab426007ded4e5b377405d83470efdbfb100193c0e502ea4bb57ec6644b0fee",
+    "decoded_bgr_sha256": "49093ececc6d7ed4a37fad0216ec8c1547e11e14329505a42ba4d728230b6d86",
+    "phash64": "4d436c99da193971",
+    "dhash64": "e2e2c2e0f0f0a0a0"
+  },
+  {
+    "id": "G_030",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00109206_1793544283740799300_cbc87e.png",
+    "sha256": "1d8fd4fdd3ef8636a2b9c12aaafbe11b019cfc857a8908a672fda332f7f31211",
+    "decoded_bgr_sha256": "5699c8b7396fdec500e62d11873f59168c0f6cb66266771311541e914c51c85f",
+    "phash64": "414f4cd993191f5c",
+    "dhash64": "e2e262c8d8d0b0d0"
+  },
+  {
+    "id": "G_031",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00110893_1793544339972879100_bf09c2.png",
+    "sha256": "0b12acb9e9335c2f89be350cd713e9a3ebe9be72e41f5ca87097a08ed978e974",
+    "decoded_bgr_sha256": "f7fc91fa6bd7ba44e1ce92c55490b882ecf05c30e1bdde4d4023ca9fac8686d9",
+    "phash64": "49476cc89a193f4d",
+    "dhash64": "e2e242f0f0b0b030"
+  },
+  {
+    "id": "G_032",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00110969_1793544342507172000_02d417.png",
+    "sha256": "2dcdedbc39e3e55f75ca2620a66af66123870b9b12bf477e1af9ff672c1da212",
+    "decoded_bgr_sha256": "1b9c3ab62b8fcf2fdd847f72ec1a3a18de335204eeec98e97228fd2f83f52c4f",
+    "phash64": "414fcc93d819391f",
+    "dhash64": "e2e26290e8d8d0d0"
+  },
+  {
+    "id": "G_033",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00111114_1793544347338586200_fefa3c.png",
+    "sha256": "296fd47e58b8a7aac21ab1d90ec76aaa7104fb6df103e8656603a0bf54cd4948",
+    "decoded_bgr_sha256": "4759c6f1608eaf0680e716a705743024fa3867792cb8393d3725a2982a3b00ed",
+    "phash64": "4947c69998193b5d",
+    "dhash64": "e2e262b0b0b0a0a0"
+  },
+  {
+    "id": "G_034",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00111399_1793544356841962600_75c7bf.png",
+    "sha256": "40210ddf1cbab63f9beafc74650d502ae2f5b512efb95be8315fa24406dc52fe",
+    "decoded_bgr_sha256": "91a830b994994ff07c23b15bf8b170dc9dec3a50404a6ac20f7916738e3f150b",
+    "phash64": "494fcc91d1193b1e",
+    "dhash64": "f2e262f0d0f0b0b0"
+  },
+  {
+    "id": "G_035",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00111542_1793544361605401200_c78d4a.png",
+    "sha256": "bfda3139b88b394ae5b5145f921df8884bfdd2e389696b3cff58aa41aede866a",
+    "decoded_bgr_sha256": "d5a4cadedf6bfb8527565eba99d03fc7720c7ab5d48c20e72a9a55ec4c6bb803",
+    "phash64": "4c4f6181d8191f5f",
+    "dhash64": "e2e262a0a0e8b0b0"
+  },
+  {
+    "id": "G_036",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00111636_1793544364738524000_c18e43.png",
+    "sha256": "a61d0c4d0c9405073264e6b99488c1d32e4b00da37a8ea23cc946ecb9281272a",
+    "decoded_bgr_sha256": "cbaf8892aad27036c2062d3e96c4cf517b457cf504c6298f8fe62235cf1fd4fe",
+    "phash64": "4147cc91d3191d5f",
+    "dhash64": "e2e262c8d8d0b090"
+  },
+  {
+    "id": "G_037",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00112609_1793544397172394700_fa92fd.png",
+    "sha256": "2f10fbbd6615a1ce6f0d4304c3665fa4ea952f3a0587fd16b6dac031f279bd9d",
+    "decoded_bgr_sha256": "acae035c67f56c95a2e41fb8440e9a18566e018d35a44f808cbed87310afc2b6",
+    "phash64": "49476989d8191f1f",
+    "dhash64": "e2e262a0e8b09090"
+  },
+  {
+    "id": "G_038",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00112665_1793544399039346100_fbf868.png",
+    "sha256": "a0ba4d5558222f187a5e94ca715088d1f97a8d4a6dc89df68103e5ae5adf6af1",
+    "decoded_bgr_sha256": "26bbf1aad7a574a59021faeff9bc63cb4e9f9808069fa505b9fe47d02ea48b25",
+    "phash64": "4947cc8bd819391f",
+    "dhash64": "e2e242d068c8d0b0"
+  },
+  {
+    "id": "G_039",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00112829_1793544404504727800_6f79c3.png",
+    "sha256": "6aac7274008a8af7ce6a1af76510756e4b3235040e8a98c10a5da95c347aa730",
+    "decoded_bgr_sha256": "8a29347c3c492718c09cca87cf00452b8881950972a6f00d8c6a404a9848c2a0",
+    "phash64": "414f67c118193f5d",
+    "dhash64": "e2e2629898d0d098"
+  },
+  {
+    "id": "G_040",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00113053_1793544411974975700_a34c9d.png",
+    "sha256": "efde643e1c09a9b55e255a34b2b5c229811c2be24929332a45249d8a387fe755",
+    "decoded_bgr_sha256": "f763963171cc774e06b931be4751c558ff7429aa007619190fa5f1d1559de4cb",
+    "phash64": "4d4c6f93d819391c",
+    "dhash64": "b2e272f0f0d0d090"
+  },
+  {
+    "id": "G_041",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00113216_1793544417406127100_fb0ce6.png",
+    "sha256": "69d57539d7fa8bc482854cf5d5199be5e6f5867ca977cf5eb3b5b3652b0cb0c5",
+    "decoded_bgr_sha256": "05e423efe9e71d7ae0ea7624d3b856f6610513225401f018a72a85c30d0cfef8",
+    "phash64": "414e67c3d8193d5c",
+    "dhash64": "e2e262b0f0d8d090"
+  },
+  {
+    "id": "G_042",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00113348_1793544421807590600_bc7c4e.png",
+    "sha256": "0a3dadaa0f89120733b1d39397b45d06938d0a7d0e9ae0c3f29f09a258a7610f",
+    "decoded_bgr_sha256": "562a818970559221acf5f19b92a5281acd5e66518e80bafe0d4580b29a513a49",
+    "phash64": "414e6cc1d24b3d5d",
+    "dhash64": "e2e262c8e8d0d09c"
+  },
+  {
+    "id": "G_043",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00113847_1793544438439335400_acc95f.png",
+    "sha256": "45e395b5255d28a4f3ed22ddf9110dfcd9d472a28a0cfad8163dbec806dad738",
+    "decoded_bgr_sha256": "54dedb2b29ba0cb50a6c36e26a61934fdd2c9213800fccd1131dfab2b5b53589",
+    "phash64": "414fcdc1d219393d",
+    "dhash64": "e2e272c8c8d8d0d0"
+  },
+  {
+    "id": "G_044",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00113965_1793544442374070000_a0729a.png",
+    "sha256": "dea2b60677d522bd188e01c474c5818060b6f93039d43d2c7198b7aa85f85d4b",
+    "decoded_bgr_sha256": "5e77b2c10806cce6ae9b13baa37f430370d37fe2aaad8681f8e47b7cc649b090",
+    "phash64": "4149c98ec0cf8f1f",
+    "dhash64": "e2d242e0e4e8e8d0"
+  },
+  {
+    "id": "G_045",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00114229_1793544451172756900_800d12.png",
+    "sha256": "2dbfd4645a2b79ccf02cb5eb3734e0a42303d7131e7e8f32c460282a0991a507",
+    "decoded_bgr_sha256": "cf4455fa31771bb7ad8c8b2c73dffe3a72d111cf6c0d6b620a700c2ceac04bf3",
+    "phash64": "49474cc1d8591f5d",
+    "dhash64": "e2c26290d0d0d0b0"
+  },
+  {
+    "id": "G_046",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00114694_1793544466671983200_f8ed96.png",
+    "sha256": "265a34dde22630c6885c38c078fd813b594514abfa82e48e8c088031ace51bde",
+    "decoded_bgr_sha256": "92543eefc1a84be9e7b0e4a46c5f6e7b37cb1535623549c977926c4409d6cf14",
+    "phash64": "4d4c47d3d1391d1c",
+    "dhash64": "e2e262e0f0c8e8c8"
+  },
+  {
+    "id": "G_047",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00114858_1793544472138742600_87e8c4.png",
+    "sha256": "ef577babaffba508dcdcfa7a5d812c468db98603dd76564b51d35ff47b8ba5fe",
+    "decoded_bgr_sha256": "cd8bcf91537455878949a897729f53c6d97cdf309788db09853445f5f0f3fe66",
+    "phash64": "494f2fc3d1191d1c",
+    "dhash64": "e2e272d0d0d8b8d8"
+  },
+  {
+    "id": "G_048",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00114951_1793544475239492300_d64925.png",
+    "sha256": "850cec5b89eee6fb2d7ec6b30585c61b3eddf894e5c78921bfe206dbc7f4cbfa",
+    "decoded_bgr_sha256": "169f96b75100bc89c80e034976d301a60cf40b71c08a03691f02bb10c2d4126c",
+    "phash64": "414f4dc3d319193d",
+    "dhash64": "e2e272c8c8d818d8"
+  },
+  {
+    "id": "G_049",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00123040_1793544744875755200_fb07f7.png",
+    "sha256": "6a0e99006122dea3d89fe40bb54f052a187fd2f93d107018bae424f6482e7438",
+    "decoded_bgr_sha256": "83761c325b173b52b67a6777e03c51d72040c4aa5ef4db0efba6a3e1cf0148b5",
+    "phash64": "45656dc9c81d3d1c",
+    "dhash64": "e2c262e2e0f0e0e0"
+  },
+  {
+    "id": "G_050",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00123211_1793544750574052600_ac1256.png",
+    "sha256": "abdd5bea76cde9941a57b33d5b122a30f3bb1cfe2121bae92c8f2b6c024c987f",
+    "decoded_bgr_sha256": "6e9963e1d44313b7335c23e3bf1b12666d36f171ed5b1a7742a773634e76364b",
+    "phash64": "404f6399ce391d1e",
+    "dhash64": "c2c262e2a0949c88"
+  },
+  {
+    "id": "G_051",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00123812_1793544770608199800_820190.png",
+    "sha256": "34846cbc306b4334882bce4cd821d97630faab291bcf9cd77be899fbb7cd0ff3",
+    "decoded_bgr_sha256": "b2c70f804a676ef6b0c302cec435acb95c1f32c9a5bc33cea8f16d2d206798b9",
+    "phash64": "4d45c693d2cc194f",
+    "dhash64": "c2c2523218d060e0"
+  },
+  {
+    "id": "G_052",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00124005_1793544777041275200_299c69.png",
+    "sha256": "9bdfb5492036ee8d11883dcc76ac8d04d0fa5c7d61bdcb7d8c873af1075791fa",
+    "decoded_bgr_sha256": "f670c7bdf17af8c6e12c6415066d6ece108b0a63170052319bb5957df9198020",
+    "phash64": "5c5568b275628bc3",
+    "dhash64": "aa70686c686445b2"
+  },
+  {
+    "id": "G_053",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00124104_1793544780339918400_cc3698.png",
+    "sha256": "a3628e60552adf773f21841e98dc265cba2fac01889b1d63bb2cd2ad41aec8bd",
+    "decoded_bgr_sha256": "57d0b3a261a1f6265baff5165b77ad7cc32dccd0ce647dc02c15983aa954cc2b",
+    "phash64": "4d61e799c10f1c1e",
+    "dhash64": "e2c262d2b0b070e0"
+  },
+  {
+    "id": "G_054",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00124567_1793544795774993500_1f0ab6.png",
+    "sha256": "16659051de9332bd87066269098a9a37feba97b4d01d259d3d1f074c1199b800",
+    "decoded_bgr_sha256": "9eace2c20a328821794dfc32fb2f9a1be24e319bfe942f7e7501c7f574515121",
+    "phash64": "4d456391cfcc390e",
+    "dhash64": "e2c272f2f0b0e0d0"
+  },
+  {
+    "id": "G_055",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00124939_1793544808176554900_cfe02a.png",
+    "sha256": "5dee84169295c9f21d980bcfae47e7d8aa7273ee4f00f22e6717c42bcbbac577",
+    "decoded_bgr_sha256": "7482d95d648ce02b96429f795a6910663bb9d1874bcf4ef3f96eca9a991bd4d5",
+    "phash64": "4d4563c8ce781d0f",
+    "dhash64": "e2c272e2f0b0d0e0"
+  },
+  {
+    "id": "G_056",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00125646_1793544831742658900_619919.png",
+    "sha256": "fc7fa78212cff0754f9e74a0b5cba2b6c83e4ca5947c56a36a0e7a5951eb3f3b",
+    "decoded_bgr_sha256": "66475b19f49d707f28d646ebd3b2dcacd5fb48d94491138dd318fd5ac94c186a",
+    "phash64": "5945c699c31d9c1e",
+    "dhash64": "e2c27292981870e0"
+  },
+  {
+    "id": "G_057",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00125812_1793544837275164300_e1b4b3.png",
+    "sha256": "9e9946afe09bfd0063cf0cde5a52c1ccf97808122d65a15f426eb2fe3d65ed33",
+    "decoded_bgr_sha256": "c0c313af186c115719fb62afb6ae41ea3bd7de1dd5eeaad7b76b77c2fa71bbd5",
+    "phash64": "514dcdb3c0199d1d",
+    "dhash64": "e2c272a2d8981858"
+  },
+  {
+    "id": "G_058",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00125920_1793544840875639900_d548f8.png",
+    "sha256": "118de3907619ac1da493d4d6c0841c80f4112a00a822e464887d976dd3c3c88f",
+    "decoded_bgr_sha256": "271b03e04ccd6188a3ff77a905ea2877fb887bd31069815014fc645dc74a9068",
+    "phash64": "514dedb2c819991d",
+    "dhash64": "e2c27292d8981858"
+  },
+  {
+    "id": "G_059",
+    "group": "G",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\G\\snapshot_00125970_1793544842541928400_1d65aa.png",
+    "sha256": "51176451fcf00b1f6e4930084da67cea8453f1d5a8dab56e13a07237f089ee7c",
+    "decoded_bgr_sha256": "5fb36c9324edfd4e1e8e3b5a094c8e92cffe2cf42dc46114a44a3d9e65f8814a",
+    "phash64": "414dedb3c819991d",
+    "dhash64": "e2c272a2d8981818"
+  },
+  {
+    "id": "H_001",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00010093_1793548423788451000_9a1a46.png",
+    "sha256": "a478dc0fb476debb67fd3da4a59aa63a153ec6deabb0265b0b414da7bdb7ab80",
+    "decoded_bgr_sha256": "3ba285e7f944398d95f15a45b63bafba98284fd509bca81f92a0789c9123a9cc",
+    "phash64": "5ee760cfd0958162",
+    "dhash64": "49296c6869622495"
+  },
+  {
+    "id": "H_002",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00010242_1793548428754927600_ea93a7.png",
+    "sha256": "928b506b19b50be9e0f869a6fd57a676d1b9f416a16e8c888c05474875204c85",
+    "decoded_bgr_sha256": "191f87eadf1969dbd89b8aea68f13b4f63df75f2e022116e536a0c2329965511",
+    "phash64": "4eff64cbd2852142",
+    "dhash64": "416144585172e5ad"
+  },
+  {
+    "id": "H_003",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00010594_1793548440488167600_b5c475.png",
+    "sha256": "fdc611ec608cf0b30b3b5d9f6de3c4b3e0715b55b175f13161d4368213b13cb0",
+    "decoded_bgr_sha256": "1dd16e6f3b32506ba00a186ba598fbba3af352689a661e0e33a165c602b0750f",
+    "phash64": "77ef64cbd0918142",
+    "dhash64": "41292c68694a2d8d"
+  },
+  {
+    "id": "H_004",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00011198_1793548460622631000_81b79c.png",
+    "sha256": "4fc8e1bee56f69aef287e5b191c510008dd3e07a08de38a66cee67fe83864929",
+    "decoded_bgr_sha256": "f36d32ccf349e507602246e6af13c7d5c82d331eca67de44082f1059227c1c98",
+    "phash64": "4cd9cccbd391b148",
+    "dhash64": "70717078796274a4"
+  },
+  {
+    "id": "H_005",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00011564_1793548472823033800_ff7e10.png",
+    "sha256": "5d4fe546d9c6adec2123c917f0fade57e9ac0c60eec8812639182bdb3c9b7b08",
+    "decoded_bgr_sha256": "8aaf75ea7960373d200b482a311fe3c68549d6b39376c9c57da0edd836524f68",
+    "phash64": "5ee764cbd1918162",
+    "dhash64": "49296c78696a2cad"
+  },
+  {
+    "id": "H_006",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00011743_1793548478788666300_22fd41.png",
+    "sha256": "853eef24ae758720ab8b650b0baa7a4e685932414d0cc5465649793b6bda52b3",
+    "decoded_bgr_sha256": "47baa6fa0e2fca25a5cae3b7afd14ed91a94518326e2ef392ce4917a106b10dd",
+    "phash64": "47ef6ccbc2958142",
+    "dhash64": "49296c48694a2cad"
+  },
+  {
+    "id": "H_007",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00012370_1793548499690931800_67840f.png",
+    "sha256": "46e736f2b09f26aa3340a3bedda5be9e717776d3b56a05b66dddbd83de6a8505",
+    "decoded_bgr_sha256": "8a17fada4b80cd6527f7a06d14246f55f6489999928fae637b853de8bf1de664",
+    "phash64": "56ef61ebc2958160",
+    "dhash64": "49216468696a2c8d"
+  },
+  {
+    "id": "H_008",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00012620_1793548508023252500_bb8244.png",
+    "sha256": "30c37ae56feb48699e08e43f58a77490027d0b8914c28f3c9834e0219a5ca705",
+    "decoded_bgr_sha256": "e799ec9df79e742059fb1bfa289c05c1ff98a8eb900c50bb18abdf1097d46795",
+    "phash64": "5fe764cbc2858162",
+    "dhash64": "4121786c797a3495"
+  },
+  {
+    "id": "H_009",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00012802_1793548514089712100_0c21ea.png",
+    "sha256": "1d3af42e8ce3fab0122c2fea6de31a7384b319de414dbb25a603cae73d5b0673",
+    "decoded_bgr_sha256": "0bff2bfcd2fd9dd2779034662b026a60fa8a2f2021e0421f850e058a1ea6b652",
+    "phash64": "73ef64c7d0958160",
+    "dhash64": "49611c78596a6c8d"
+  },
+  {
+    "id": "H_010",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00012981_1793548520056731600_8a7b48.png",
+    "sha256": "6c61d28c44466cbbd8ec8f5e1bccd8aa19de4d2bb33eb21bd2e048818048ada7",
+    "decoded_bgr_sha256": "825a7770058a78e9764165507babdb5063eaa972e14a0e0bae051f6691c906a3",
+    "phash64": "43c3665f96359069",
+    "dhash64": "c0c1c4d8d96a34a4"
+  },
+  {
+    "id": "H_011",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00013171_1793548526389646500_e53bc7.png",
+    "sha256": "b2fc6dfcf640726e467f33034cd14084bf89a86bbab1c4fb855f8e02d6efcc63",
+    "decoded_bgr_sha256": "d3af921984db9fb76b34eebc33f2596767c19895db1c24911660c82312e4b08f",
+    "phash64": "73ee65cfd0918160",
+    "dhash64": "4969aca8696a4c8d"
+  },
+  {
+    "id": "H_012",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00013329_1793548531655931700_0bf3d4.png",
+    "sha256": "5c587ecf78327860365557cd1cfcebc0ee0bfbb5d0043b9a4c2114572f6ee82c",
+    "decoded_bgr_sha256": "4b376cd3a52cad548c103d4f1f844501496721bf8ae484bc1e648ba20a84bb47",
+    "phash64": "47ef6cc3d0958168",
+    "dhash64": "49296c68694a2cad"
+  },
+  {
+    "id": "H_013",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00015538_1793548605288584100_5986d2.png",
+    "sha256": "82938afcd3e4ec40c77086b4ce6ba52e290319fae9eedb82106a1dd4a4834c3d",
+    "decoded_bgr_sha256": "6123a2dcaf7570a9e1d8f08cc914add02726a924a026f782dd931926e558131a",
+    "phash64": "47ef65cbc2958148",
+    "dhash64": "49296c68696a6c8d"
+  },
+  {
+    "id": "H_014",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00015753_1793548612456213400_46c1e2.png",
+    "sha256": "6e8cb501d9ff69c465971f2fcdca3d9ce91951380398cd6a8021b52c4f42eacc",
+    "decoded_bgr_sha256": "12d9f6d674efdca12a2801966d3f56f18d6001f3f6a6c1a1d2436b7e1fda363c",
+    "phash64": "5ffb64cbc2858142",
+    "dhash64": "4111787871725485"
+  },
+  {
+    "id": "H_015",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00015905_1793548617523152400_f7eb3e.png",
+    "sha256": "d38b30805e9f99259fd7e0a408a085b383cb87ef4e32aa1ca5756657fcca800f",
+    "decoded_bgr_sha256": "4e5cd73e7e3dcd79db344777a769c89049542292bc563e1045dcca9f10964a2e",
+    "phash64": "76ef64cfc2958140",
+    "dhash64": "49214c78796a2c8d"
+  },
+  {
+    "id": "H_016",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00016085_1793548623522785500_75780d.png",
+    "sha256": "02755578cde9387df38e66699652da06283201082b723397ae13a16cefa662c1",
+    "decoded_bgr_sha256": "6437029166d64cd3d51792b410e8e5e1674415aa46e2c902a72cf0713173246e",
+    "phash64": "47c764cfd295814c",
+    "dhash64": "c041c4c8e96a2cac"
+  },
+  {
+    "id": "H_017",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00016279_1793548629989190700_54cf49.png",
+    "sha256": "a0fb025b954bd5d96ca6a9ade95c5a43afd337bf3a6e0bdb63819286659c66f8",
+    "decoded_bgr_sha256": "9b2c4ed9ac180eb9bb7fe82b4710b1ef20482ec6b3449d6495883696a1ec40b3",
+    "phash64": "5ee764cfd0958160",
+    "dhash64": "49294478796a2cad"
+  },
+  {
+    "id": "H_018",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00016613_1793548641124628500_685671.png",
+    "sha256": "8a126c81d55a861c105a336e95ea8c99edd847b3d6f6f4b7aacf7af788f21f65",
+    "decoded_bgr_sha256": "070541d5cf2c5308d6f5ae50220989fbdca0746ab6d597a060b5e0d680595958",
+    "phash64": "47ef686bc2958162",
+    "dhash64": "49296c68694a2cad"
+  },
+  {
+    "id": "H_019",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00017286_1793548663556838000_d7e023.png",
+    "sha256": "bf5c6d2e41fb83e7dc98832ec398b04567b1eed391fe564e778e405959300702",
+    "decoded_bgr_sha256": "1b581c03cc361cd0831981e43ae75246f4e375fd2002977afc431ae6215ad1e9",
+    "phash64": "57ef606bc2958162",
+    "dhash64": "49296c68695a2c8d"
+  },
+  {
+    "id": "H_020",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00017428_1793548668289092700_7896a9.png",
+    "sha256": "f79efafcd499a8b34be1001032c53367ebfb4beebe5a4f1ce7f477f57f290395",
+    "decoded_bgr_sha256": "c4ce85d4dcb4d0f1c1a32c788f4a1d7b86d1b87f0ca4fb2ab1db1fe5928c94b8",
+    "phash64": "46ef61c3d3858568",
+    "dhash64": "412164e8e9ea6c8d"
+  },
+  {
+    "id": "H_021",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00017605_1793548674189549400_5d59f6.png",
+    "sha256": "def1fd07e9ddf75f12c4ba758c28a5821c19cb16d5182df992c80a48751dd0ec",
+    "decoded_bgr_sha256": "ccc5f9b9525ac722f749da02f6e8f59f643ee462b68ac2bef39cde18a022952b",
+    "phash64": "77ef64cbd2918140",
+    "dhash64": "49292c68696a2c8d"
+  },
+  {
+    "id": "H_022",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00017749_1793548678989213800_35f648.png",
+    "sha256": "d1a447024dad26d921533f44cf21d2913b27e91d5ab83f2513fff79157505b66",
+    "decoded_bgr_sha256": "42b9d2ebbe3179c79d1a5b4a224564ae55052237c08bebed23058adb6d12fc7b",
+    "phash64": "43cf645b9295914e",
+    "dhash64": "c141c4c8c9da4c8c"
+  },
+  {
+    "id": "H_023",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00017966_1793548686223506400_70021d.png",
+    "sha256": "631fa67ad80030d32da43937fb1a8e3ab1ea0b7b757e78f036703f1b1c72eaf7",
+    "decoded_bgr_sha256": "b2c290fff485d66dcaf7c9b163d6ea196a396e1b0a3efe29ebe2259196f5c3e6",
+    "phash64": "47ef65cfd0918160",
+    "dhash64": "49294ca8e96a4c8d"
+  },
+  {
+    "id": "H_024",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00018172_1793548693089561500_f9d6cb.png",
+    "sha256": "fcaaf05876e51648fd74ad3a6a4f817d9a590507912bb9494e1cf9076b633def",
+    "decoded_bgr_sha256": "c4b66c15179b528e4e004d9401d729eb3bf815588f510e7bdbbac7db279fe9c2",
+    "phash64": "47ef6cc3d2958160",
+    "dhash64": "49694c68494a4cad"
+  },
+  {
+    "id": "H_025",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00018899_1793548717322161600_5d17f6.png",
+    "sha256": "a69226573fec924904aecab464d7b9048834c7766a4300870069d18b59a11056",
+    "decoded_bgr_sha256": "f4539b05b46eae77d586faab295aae79f9023b0b20480c5f83f8b3eb5f139d17",
+    "phash64": "5eef646bc291814a",
+    "dhash64": "49296478696a5495"
+  },
+  {
+    "id": "H_026",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00019072_1793548723090023500_1efbae.png",
+    "sha256": "243d74134463dc7b926e64ad84b2516e85242533f975c60c470fde11d5250d35",
+    "decoded_bgr_sha256": "3a40de05910cc0901f8ef17d395ff7cf741895decf4973dea26e473b04f25aae",
+    "phash64": "4eef60c3d3858163",
+    "dhash64": "4131647471726595"
+  },
+  {
+    "id": "H_027",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00019212_1793548727755780300_04ea76.png",
+    "sha256": "fe896a80ac8188a9fce49e383f5acebfbfaa11821b821ae1c98cc276dac26211",
+    "decoded_bgr_sha256": "8a9b06271ff89352990deaf4b743bab62003a6e7b804548abbbd349d8f6b4759",
+    "phash64": "57e76ccbc2b18148",
+    "dhash64": "41292c68696a4cb5"
+  },
+  {
+    "id": "H_028",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00019393_1793548733789113300_0d48af.png",
+    "sha256": "8a09f79a4d3f7b5112447bed1eb6d52a1d2f3484fcceb3fcf9b9e006c2815e19",
+    "decoded_bgr_sha256": "8972cb8fe19f163605c43cf068422107638a134321b6c6a5f2adcbc5543ddd46",
+    "phash64": "47cf6ccbd0b1814c",
+    "dhash64": "e061e4e8e9ca4ca4"
+  },
+  {
+    "id": "H_029",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00019627_1793548741591445300_dde894.png",
+    "sha256": "aeca946b944ff65f39dd6466c99a12b8f7d45e0bc9ed7e3fdace98541bb2583d",
+    "decoded_bgr_sha256": "8c7b00855d0956057746ef733737c4e10630e999db2453be61b330c9f1291398",
+    "phash64": "46f764cfd0958162",
+    "dhash64": "49296ce8796264a5"
+  },
+  {
+    "id": "H_030",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00019872_1793548749759867100_6ea817.png",
+    "sha256": "333b177c659b1104302b2f13dd115be3a346894a0d2f36e6de4e0297b315b5a1",
+    "decoded_bgr_sha256": "ab23942794c94237211398da6c8811d8af1129a37dd56016cb2495edd3a6037b",
+    "phash64": "4ee761cfd0b18063",
+    "dhash64": "49216678696a54b5"
+  },
+  {
+    "id": "H_031",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00020756_1793548779226563900_f9c536.png",
+    "sha256": "710f8989ac4d4d6168465bbf0de90dfc330e8893c55543d376a6556a5e6e5293",
+    "decoded_bgr_sha256": "b9c27ad3aa4c1d04bbab7c79033b4ec8042039cfaa531b14e46fde99ef20f03c",
+    "phash64": "46ef646bc295814e",
+    "dhash64": "49296c68696a4ca5"
+  },
+  {
+    "id": "H_032",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00020909_1793548784328603800_6cb4b4.png",
+    "sha256": "74b63d121f2bf5ba2a2cc62e981868432291df6a2b100a38f54b3e2cbd383a25",
+    "decoded_bgr_sha256": "8e6f49e40ca39c2169f1f849f9919f1169eab5b8af5d2af2e8242e5b2a9da148",
+    "phash64": "4eff64c3d2858143",
+    "dhash64": "4161747071726495"
+  },
+  {
+    "id": "H_033",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00021031_1793548788392594400_375a7b.png",
+    "sha256": "abf04deca762fc1ffd27f94b496a144014e7628ee6d8d883ac055c74ab98cc87",
+    "decoded_bgr_sha256": "81b73abade53a27366406ce1c337c07d78def9bed3499a24c6548150a4556ebc",
+    "phash64": "57ef64cfc2918148",
+    "dhash64": "49294c78696a4c95"
+  },
+  {
+    "id": "H_034",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00021174_1793548793159588100_23cc12.png",
+    "sha256": "65ff441c1ea52b6c765603b8978182edd2d8034fb1affb61e55bbae1c04797a1",
+    "decoded_bgr_sha256": "17289b083c56414805c1d5a3655cb823a259c2d085ccdb042179937d8e150d46",
+    "phash64": "4ecf646bc295814e",
+    "dhash64": "40616468696a6cb5"
+  },
+  {
+    "id": "H_035",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00021325_1793548798192285400_b13398.png",
+    "sha256": "7861c0b44cf6f63d512d736fe38f843e37f99e04c60b4ce9cb13a7ce7b0e73a6",
+    "decoded_bgr_sha256": "bed963d2ef08947530fe66c86ba07aed1925c2610e62a71731f793913b4a4550",
+    "phash64": "5ee7646bd091814e",
+    "dhash64": "49296478696a44b5"
+  },
+  {
+    "id": "H_036",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00021466_1793548802893566700_e6abaf.png",
+    "sha256": "74fcd835c96f1da52480d22e0074d95ec71bf27a6809a4c2f5611bc8543cd101",
+    "decoded_bgr_sha256": "3c7965b1b9ac17595d2bbf89d6c8fb737413cd5c7d6af3c557c9a04afce418bf",
+    "phash64": "47e76c6bc2958143",
+    "dhash64": "49694c68494a4ca5"
+  },
+  {
+    "id": "H_037",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00022147_1793548825592221400_f874ac.png",
+    "sha256": "cb7f5d7be6e38fe09b5466d2c8f8fb7da32134968fe6ec556fa2c4874cc4f7e5",
+    "decoded_bgr_sha256": "83f3b2bb0167aa3ce16acba6b73fca5c08a71a70c587977d1c446d0fe5094bea",
+    "phash64": "5eef6563c2958148",
+    "dhash64": "41216478796a44a5"
+  },
+  {
+    "id": "H_038",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00022308_1793548830959663800_ab38e6.png",
+    "sha256": "4de77ac8729694ceb48569e8c49e416c42b08e8ed60b65139c3ec2f5c5ff863f",
+    "decoded_bgr_sha256": "f74d6b6bfcf9b8a27a734f5c32e089fd3ab5db71a4d98930f2f644ff280a8175",
+    "phash64": "4ffb64c392a78142",
+    "dhash64": "4131647471526495"
+  },
+  {
+    "id": "H_039",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00022395_1793548833859388600_356b9b.png",
+    "sha256": "0e022cfb892c8ed517f8811d3218a189de1d24a41557d5711ab5130911c5db3f",
+    "decoded_bgr_sha256": "71b2837dada322e3952e0a2f33a2af960ef656ef89461846b89ddf966fa38817",
+    "phash64": "57ef64cbd0b18148",
+    "dhash64": "49292c68696a4cb5"
+  },
+  {
+    "id": "H_040",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00022502_1793548837425415000_53d80c.png",
+    "sha256": "0cc6c3028da344ad43334c047550f8b649cf0cb5c9cc610a12d31e55dd439a44",
+    "decoded_bgr_sha256": "36fd22ae8e3401ac546190b869d67d16c0f7f51c8afaeb5bc74ea4ff4bc6a4cb",
+    "phash64": "46e3654bc395854e",
+    "dhash64": "4021a4e869686ca4"
+  },
+  {
+    "id": "H_041",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00023161_1793548859395975100_be9f35.png",
+    "sha256": "a4364fe591fd7ae6dbb58c94125f81a18b29a00a5a2ab44fc257751c546ae915",
+    "decoded_bgr_sha256": "1ba9a75c2491f7ffda3cf20fbedde5c7d07c1ed1f3dfe2f22ba1172e6cfcd366",
+    "phash64": "47ef6c6bc2b18148",
+    "dhash64": "41694ce8696a4da5"
+  },
+  {
+    "id": "H_042",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00023309_1793548864326484600_55b883.png",
+    "sha256": "8e97ee5bcf86362dcb46814db466de15595833131edc67d1b71bceedd30cf120",
+    "decoded_bgr_sha256": "196c80bb94027d6011d28bd32d3a85f73584fc1403db7b926663abcebe4c1763",
+    "phash64": "43ef6c63c2b1c14a",
+    "dhash64": "4929ecc8c9da5ca5"
+  },
+  {
+    "id": "H_043",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00023879_1793548883326638300_0cbc53.png",
+    "sha256": "3b135418e1b065b7129adc0b33a4560acddfc4a728d67b1d5675b167d14f3e6d",
+    "decoded_bgr_sha256": "5909d13d05a8e64250825dccaa5650930a8dae4757dec067699b6c8b206e9272",
+    "phash64": "4ee761cfd0918163",
+    "dhash64": "41296c6869626cb5"
+  },
+  {
+    "id": "H_044",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00024114_1793548891159311300_8309b3.png",
+    "sha256": "bbde52977fb32c9b19c47b4e9d77908da5cf56537d25a97dcdddf3bcecc4830a",
+    "decoded_bgr_sha256": "1bf57779dc8b7bdb3ee9d64dcf38974e6be46873b97d6f86abdc2eab4bd92b99",
+    "phash64": "4cef64c393a7814a",
+    "dhash64": "417164d8f1726495"
+  },
+  {
+    "id": "H_045",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00024254_1793548895827089600_c67afd.png",
+    "sha256": "dc1658051f2d45d1f612a210b6c06269ebf419a5661f253f58a372895fb9fb44",
+    "decoded_bgr_sha256": "8ec6746dcb3407e09dcc49e84a0c81908f33f2ecc0e5425a142335bc5c16047f",
+    "phash64": "57e764cfd0958160",
+    "dhash64": "49295c7879624c95"
+  },
+  {
+    "id": "H_046",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00024476_1793548903225804700_c31132.png",
+    "sha256": "c6fae84ab79dcb8a54f775bccbbcc10aa82faaea50468ca2c572dc417e3d4145",
+    "decoded_bgr_sha256": "0e1f58154b22184925c9850bf8726028d055351c5d546542dc269ec71147115d",
+    "phash64": "4fc764d990b5884b",
+    "dhash64": "c061e0e8797254a4"
+  },
+  {
+    "id": "H_047",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00024743_1793548912126676000_5563bb.png",
+    "sha256": "5a25f2aa9c9ca95aa52ab2214370899754db4f76288d4105ad562269e2979d79",
+    "decoded_bgr_sha256": "4c170bce08f8695f6863e9650c6803e48e4d1e6d80e25452c746054b9cc54b30",
+    "phash64": "4ee764cfd0918163",
+    "dhash64": "49294478696a4cb5"
+  },
+  {
+    "id": "H_048",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00024834_1793548915160048000_5af1f9.png",
+    "sha256": "9d33ab2b681e696edaa522a2d0162194ffd06bc5adc4984a26b9d450c1ad23c3",
+    "decoded_bgr_sha256": "07c0955c6623db43576a7d73d1192fa2baeed85b14ba5a90e8a027a90f65552b",
+    "phash64": "47ef60efd0918162",
+    "dhash64": "41294c68696a4c95"
+  },
+  {
+    "id": "H_049",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00024945_1793548918860341900_9eab88.png",
+    "sha256": "19e8d388dedaa933ab07d18e4e8a5980bd2e05a72b188d4fffe6030376722412",
+    "decoded_bgr_sha256": "fbcb940be9e25f050f0224e6a196ab680f8bbd9d7947ff8d0d9e7f63be6beb72",
+    "phash64": "5ee7657bd0918142",
+    "dhash64": "49296c68695a5da5"
+  },
+  {
+    "id": "H_050",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00025343_1793548932126737600_12fa2c.png",
+    "sha256": "1eb9c4008522e7f8aca6e9213e008eb0a1811f2f8a243e97cc0ef9fc7e8b040a",
+    "decoded_bgr_sha256": "db6327f98f77027d5fd8014e73f44322343bcd1b7ceae4dad9bfb609bb7b14f0",
+    "phash64": "4fe764d9f2858460",
+    "dhash64": "49296c6859f2d19d"
+  },
+  {
+    "id": "H_051",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00025612_1793548941093523700_fccaab.png",
+    "sha256": "e8ac82dc13c4b3a009ed3e450fa177ae11969f525826fb4019e28a440101758f",
+    "decoded_bgr_sha256": "12394bb9e26591e27da9e3fab193c0452d66a53861ebd7d7e400e3d998bd6ee0",
+    "phash64": "47ef6ce3d2b18140",
+    "dhash64": "49296c68694a0c65"
+  },
+  {
+    "id": "H_052",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00026704_1793548977495184000_584a07.png",
+    "sha256": "fbb5255d2982c5e28d00c8dab2e67b453572eca01b73dff1871c8574b4006891",
+    "decoded_bgr_sha256": "684ec1976c30e2438ebff3cab65a5b2c7a2dec610ac3ceba9b395bf790bb02da",
+    "phash64": "5bee647363848163",
+    "dhash64": "41317a7859baf8d1"
+  },
+  {
+    "id": "H_053",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00027050_1793548989028748100_cc2ee0.png",
+    "sha256": "16bfdd6fc79593834f296f3dfacac97f4282c4c6f29fa95015f02b980a3054d8",
+    "decoded_bgr_sha256": "ac24fdc4fcf2d40d25de57af3aee6ed98e23e0eda960f6eaa0b5c80ac10dfb3d",
+    "phash64": "56ef6579d0958142",
+    "dhash64": "49296c68797a6485"
+  },
+  {
+    "id": "H_054",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00027693_1793549010461264500_441beb.png",
+    "sha256": "30c9050d90ae64a4fe8c47dcc470dd4f72a7f85a36acd0e25aeec7af216b44f5",
+    "decoded_bgr_sha256": "65dcd6c4f1a930a1d750dff12ba27839f9235e5544eb1a8388aa4c91b62f48b5",
+    "phash64": "437e3ce3c0b38538",
+    "dhash64": "48294cc8c9caccc5"
+  },
+  {
+    "id": "H_055",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00027908_1793549017628581200_0b5dbb.png",
+    "sha256": "846378d64dc567adf6085dd9641b13e40a62bcc3e93dfe0f2556c7ea96cd41b1",
+    "decoded_bgr_sha256": "7616177c0e49135c1e587cdd885d894b64036de8ef7838cf7d4d707b4e8a5d7f",
+    "phash64": "433e7cc39ab11c68",
+    "dhash64": "48296cc8c9caccc5"
+  },
+  {
+    "id": "H_056",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00028800_1793549047362384000_9e6100.png",
+    "sha256": "f7b4a0d2fd8deaa8eb4b72946f41afe6df998643426a531a4e5c9b125559921f",
+    "decoded_bgr_sha256": "938390a364283a9f4e9e767b8c4c4f07d1c21286132eb2d64a618d6057e54c90",
+    "phash64": "56ff64c3d0b18168",
+    "dhash64": "49296c68696a6da5"
+  },
+  {
+    "id": "H_057",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00028961_1793549052730019100_3aa2f7.png",
+    "sha256": "8fa447b5dcd37b05cf67e523993f0cbc83c66d0191b8679532011e6aebad6dd2",
+    "decoded_bgr_sha256": "88c18cc74b2548aa79fc3f3c720ed86cc62396024014fc828788770db4fe6375",
+    "phash64": "5ee76ccbd0b18160",
+    "dhash64": "49296c68696a2db5"
+  },
+  {
+    "id": "H_058",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00029091_1793549057063187200_b3bdd4.png",
+    "sha256": "4ef964a3334632379665261563ecc92302650a398e72a16b639e98930ad16d12",
+    "decoded_bgr_sha256": "ff999b7aa4d79908b21d5673decb2ba7d62dfebf1659d1a81cf4017bf7b173ac",
+    "phash64": "5ee36ccbd0958162",
+    "dhash64": "49296c78796a6ca5"
+  },
+  {
+    "id": "H_059",
+    "group": "H",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\H\\snapshot_00029183_1793549060129542800_633cd0.png",
+    "sha256": "b3bec91c0336601f80115736521598a636743464fe9ee4c0421f42daee821e77",
+    "decoded_bgr_sha256": "7bb2e3433ab7835d8d188f22a1a098aa5fff469bd147ab5c88588c7e673eddc1",
+    "phash64": "5ee76ccbd0958142",
+    "dhash64": "49296c58796a6da5"
+  }
+]

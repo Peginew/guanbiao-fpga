@@ -1,0 +1,161 @@
+{
+  "train": {
+    "images": 177,
+    "groups": [
+      "D",
+      "E",
+      "F"
+    ],
+    "roles": {
+      "full_keypoints": 134,
+      "hub_only": 15,
+      "negative_no_gauge": 9,
+      "positive_no_keypoint_supervision": 13,
+      "thin_terminal_only": 6
+    },
+    "pressure_psi_distribution_gauge_only": {
+      "12": 18,
+      "11": 12,
+      "9.5": 12,
+      "8": 12,
+      "6.5": 12,
+      "5": 12,
+      "3.5": 12,
+      "2.5": 42,
+      "11.5": 6,
+      "10": 6,
+      "8.5": 6,
+      "7": 6,
+      "5.5": 6,
+      "4": 6
+    },
+    "scene_distribution": {
+      "front_medium_soft_light": 24,
+      "front_large_soft_light": 24,
+      "front_dim": 24,
+      "backlight_or_local_reflection": 24,
+      "mild_left_view": 24,
+      "mild_right_view": 24,
+      "empty_background": 3,
+      "non_gauge_circular_or_reflective_object": 6,
+      "challenge_with_gauge": 24
+    },
+    "true_negative_count": 9,
+    "all_user_capture_setup_confirmed": true
+  },
+  "validation": {
+    "images": 59,
+    "groups": [
+      "G"
+    ],
+    "roles": {
+      "full_keypoints": 50,
+      "negative_no_gauge": 3,
+      "positive_no_keypoint_supervision": 2,
+      "thin_terminal_only": 2,
+      "hub_only": 2
+    },
+    "pressure_psi_distribution_gauge_only": {
+      "12": 6,
+      "11.5": 6,
+      "10": 6,
+      "8.5": 6,
+      "7": 6,
+      "5.5": 6,
+      "4": 6,
+      "2.5": 14
+    },
+    "scene_distribution": {
+      "front_medium_soft_light": 8,
+      "front_large_soft_light": 8,
+      "front_dim": 8,
+      "backlight_or_local_reflection": 8,
+      "mild_left_view": 8,
+      "mild_right_view": 8,
+      "empty_background": 1,
+      "non_gauge_circular_or_reflective_object": 2,
+      "challenge_with_gauge": 8
+    },
+    "true_negative_count": 3,
+    "all_user_capture_setup_confirmed": true
+  },
+  "test": {
+    "images": 59,
+    "groups": [
+      "H"
+    ],
+    "roles": {
+      "full_keypoints": 49,
+      "hub_only": 3,
+      "negative_no_gauge": 3,
+      "positive_no_keypoint_supervision": 2,
+      "thin_terminal_only": 2
+    },
+    "pressure_psi_distribution_gauge_only": {
+      "12": 6,
+      "11.5": 6,
+      "10": 6,
+      "8.5": 6,
+      "7": 6,
+      "5.5": 6,
+      "4": 6,
+      "2.5": 14
+    },
+    "scene_distribution": {
+      "front_medium_soft_light": 8,
+      "front_large_soft_light": 8,
+      "front_dim": 8,
+      "backlight_or_local_reflection": 8,
+      "mild_left_view": 8,
+      "mild_right_view": 8,
+      "empty_background": 1,
+      "non_gauge_circular_or_reflective_object": 2,
+      "challenge_with_gauge": 8
+    },
+    "true_negative_count": 3,
+    "all_user_capture_setup_confirmed": true
+  },
+  "reserve": {
+    "images": 177,
+    "groups": [
+      "A",
+      "B",
+      "C"
+    ],
+    "roles": {
+      "positive_no_keypoint_supervision": 142,
+      "full_keypoints": 18,
+      "hub_only": 8,
+      "negative_no_gauge": 9
+    },
+    "pressure_psi_distribution_gauge_only": {
+      "12": 18,
+      "11": 18,
+      "9.5": 18,
+      "8": 18,
+      "6.5": 18,
+      "5": 18,
+      "3.5": 18,
+      "2.5": 42
+    },
+    "scene_distribution": {
+      "front_medium_soft_light": 24,
+      "front_large_soft_light": 24,
+      "front_dim": 24,
+      "mild_left_view": 24,
+      "mild_right_view": 24,
+      "backlight_or_local_reflection": 24,
+      "empty_background": 3,
+      "non_gauge_circular_or_reflective_object": 6,
+      "challenge_with_gauge": 24
+    },
+    "true_negative_count": 9,
+    "all_user_capture_setup_confirmed": true
+  },
+  "total_images": 472,
+  "first_round_training_images": 164,
+  "front_clear_curriculum_images": 56,
+  "training_performed": false,
+  "model_evaluation_performed": false,
+  "original_images_modified": false
+}

@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "original_file_name": "video_070326_229311_77dbcd.avi",
+  "restored_default_file_name": "raw_capture.avi",
+  "source_group": "H",
+  "original_bytes": 1367634672,
+  "whole_sha256": "f98285a9b6915c34db108fce03d00d2b027157da8c7f24488347dc702ffbeb4a",
+  "part_size_bytes": 16777216,
+  "part_count": 82,
+  "parts": [
+    {
+      "name": "raw_capture.avi.part0001",
+      "bytes": 16777216,
+      "sha256": "66722f753099e0b87aea877dcf6183a6e5d3b6902ef42c9ad7e21c9e37af004c"
+    },
+    {
+      "name": "raw_capture.avi.part0002",
+      "bytes": 16777216,
+      "sha256": "25b27283fb12cc4948caa8343fad4c444f4b4c6750eb07c7581770bad25bbc13"
+    },
+    {
+      "name": "raw_capture.avi.part0003",
+      "bytes": 16777216,
+      "sha256": "35cc887144247efa9dc439d48448e99066a8079f9c230570ac038f8396a6850c"
+    },
+    {
+      "name": "raw_capture.avi.part0004",
+      "bytes": 16777216,
+      "sha256": "2415230c4ae3791068dc5ddf963a0553c4adf18900857a16f1cd21855e7009c0"
+    },
+    {
+      "name": "raw_capture.avi.part0005",
+      "bytes": 16777216,
+      "sha256": "b7bc72a9ddbf04dac8da00b332905cb8b7cd790896fc8aaa6e9ad055d0979284"
+    },
+    {
+      "name": "raw_capture.avi.part0006",
+      "bytes": 16777216,
+      "sha256": "5e0a165428bf029667c94d3c9aad29066c5c793debb5d9e2bcf3ec716b922bff"
+    },
+    {
+      "name": "raw_capture.avi.part0007",
+      "bytes": 16777216,
+      "sha256": "5d4e7fa48de8a355d7487e75a0f3b6e871d5d310589488eebcf68cd2845ba14b"
+    },
+    {
+      "name": "raw_capture.avi.part0008",
+      "bytes": 16777216,
+      "sha256": "b3bee885aa062b226931dcd51f3993a6d50461a11799b2ef3e9bf2abac1ed9fc"
+    },
+    {
+      "name": "raw_capture.avi.part0009",
+      "bytes": 16777216,
+      "sha256": "e625a239b24ee2008c26f262ad3cb1a0cff59178102adfbaef3bca920c061436"
+    },
+    {
+      "name": "raw_capture.avi.part0010",
+      "bytes": 16777216,
+      "sha256": "874af5338807aa9882ef2d6287e2f9ac7bce7a6b50e577175d64d37bdc06070c"
+    },
+    {
+      "name": "raw_capture.avi.part0011",
+      "bytes": 16777216,
+      "sha256": "00a51934879993863052a2bb30649dd2e94763e0358032f0562d12e85a638831"
+    },
+    {
+      "name": "raw_capture.avi.part0012",
+      "bytes": 16777216,
+      "sha256": "b1d519260da737337d10164b9df896f7c28e56b4b8dc0ed233560aa2698b4943"
+    },
+    {
+      "name": "raw_capture.avi.part0013",
+      "bytes": 16777216,
+      "sha256": "311eacee18711956af7ce22178588a8900b924e166e031847334603c4a7e4742"
+    },
+    {
+      "name": "raw_capture.avi.part0014",
+      "bytes": 16777216,
+      "sha256": "a1fe8eab748612e38695f072254045a34ed73d44df5f0918389796f8027b2274"
+    },
+    {
+      "name": "raw_capture.avi.part0015",
+      "bytes": 16777216,
+      "sha256": "8881c415bee5770aa949dafdd64dee2800061d2a64ad31b68dbfc6e840e15b1f"
+    },
+    {
+      "name": "raw_capture.avi.part0016",
+      "bytes": 16777216,
+      "sha256": "18aceb2f7c33b4d7c294e222b49e88dcaa8af47dd518d742963a89da631ffe81"
+    },
+    {
+      "name": "raw_capture.avi.part0017",
+      "bytes": 16777216,
+      "sha256": "f4c0fb994ce2092d7f429dc09910dd91508a5e6d0998f17dd76ffbf9a362f801"
+    },
+    {
+      "name": "raw_capture.avi.part0018",
+      "bytes": 16777216,
+      "sha256": "67cb3bd6fbe5a5119352ccef5baa6d2f4296d3aa3faaaede7fe12f05e7a9e75d"
+    },
+    {
+      "name": "raw_capture.avi.part0019",
+      "bytes": 16777216,
+      "sha256": "0717d396cf1015fc3fa83d237729e1002fff1cc9818a2283bf4c194cee0be121"
+    },
+    {
+      "name": "raw_capture.avi.part0020",
+      "bytes": 16777216,
+      "sha256": "c2dc1b4ef6676cab6a2ce22a0ac30e857915858324b6a04b1d13c5cef58ae3bc"
+    },
+    {
+      "name": "raw_capture.avi.part0021",
+      "bytes": 16777216,
+      "sha256": "17b6b8c208454591be0ade405806b808ac83fc2782bd4669a32123858c2d9f19"
+    },
+    {
+      "name": "raw_capture.avi.part0022",
+      "bytes": 16777216,
+      "sha256": "d5e3d83fcefe52bc71d9564dc3f8ae5768c3fa371d437b6df47b4bfc300faab5"
+    },
+    {
+      "name": "raw_capture.avi.part0023",
+      "bytes": 16777216,
+      "sha256": "9f511302aaee7f72a233184d2ce8a56b2a19752bf03c24c7c03572b7096ecaa7"
+    },
+    {
+      "name": "raw_capture.avi.part0024",
+      "bytes": 16777216,
+      "sha256": "0c5148e66b2d9ef3c3af5f937c0c5a6f0d1d4ebcbc84e80ede2d20f25131da0b"
+    },
+    {
+      "name": "raw_capture.avi.part0025",
+      "bytes": 16777216,
+      "sha256": "c9f458567f18ff719de45fc31a37c40624413ece0c818c9fa7599c9b4c67bdb6"
+    },
+    {
+      "name": "raw_capture.avi.part0026",
+      "bytes": 16777216,
+      "sha256": "fc9700c32ab4ad5484269aca710721c9c82d7b63e3b9ece7a0391bd0b14b45a7"
+    },
+    {
+      "name": "raw_capture.avi.part0027",
+      "bytes": 16777216,
+      "sha256": "96b78097424f21aacf073692af3058f4939073ff324d55d6b10ee84a0be41c68"
+    },
+    {
+      "name": "raw_capture.avi.part0028",
+      "bytes": 16777216,
+      "sha256": "e6751902751d834656b5fe8fb738addc830d7b01e18b7f9a99f71cc4264bd147"
+    },
+    {
+      "name": "raw_capture.avi.part0029",
+      "bytes": 16777216,
+      "sha256": "91c19210640d70c97a40cef6339979ba726cea8ce4dd6805526789109fb66998"
+    },
+    {
+      "name": "raw_capture.avi.part0030",
+      "bytes": 16777216,
+      "sha256": "252828f6a1da22073e0c9b1c6de7e79d49a6181a50edfba4fae1787905175efe"
+    },
+    {
+      "name": "raw_capture.avi.part0031",
+      "bytes": 16777216,
+      "sha256": "7a94cc0df9d0c7306cb57add85ea3ecf17932e39fb3b6452462c4cd68d6cf7b1"
+    },
+    {
+      "name": "raw_capture.avi.part0032",
+      "bytes": 16777216,
+      "sha256": "5504eb68bdba7df31f0db49346091dca3a7cd6ac4727a6414d0996cd92418f2b"
+    },
+    {
+      "name": "raw_capture.avi.part0033",
+      "bytes": 16777216,
+      "sha256": "f82a839515da66ca31a810043bdc07ae6ded1331f0beeda69f2384b1fcccb641"
+    },
+    {
+      "name": "raw_capture.avi.part0034",
+      "bytes": 16777216,
+      "sha256": "ce3e7f8cc2b3b9a2e33ef9778a764efb54b2b0fbb5f89c04e4bccbebe777a9ae"
+    },
+    {
+      "name": "raw_capture.avi.part0035",
+      "bytes": 16777216,
+      "sha256": "43207fecb57b25d30172a9dec0839599d616f4d5e39ea8d7d4d2754d7617967c"
+    },
+    {
+      "name": "raw_capture.avi.part0036",
+      "bytes": 16777216,
+      "sha256": "1b1657309260bf99b1a8ebcc324259360fd765c88347c9f2acf118e0a12a13c1"
+    },
+    {
+      "name": "raw_capture.avi.part0037",
+      "bytes": 16777216,
+      "sha256": "2c50ca695eed78087024efcba4d92ace989f46bd5dd13d5cd00b8fd2ba5ad278"
+    },
+    {
+      "name": "raw_capture.avi.part0038",
+      "bytes": 16777216,
+      "sha256": "bb5ebae5577c1df4947052c2bf4fed83666d3ff2e997b0209b9dae81ee8c90db"
+    },
+    {
+      "name": "raw_capture.avi.part0039",
+      "bytes": 16777216,
+      "sha256": "7bb40ba6a61ec0e6d76fc5db54a74df5d4c246a6dbb480c70fd7c48ca727609d"
+    },
+    {
+      "name": "raw_capture.avi.part0040",
+      "bytes": 16777216,
+      "sha256": "82056905c6b66fb4c01be97e5c859c818c5cb1874ed71a8a052679077c514617"
+    },
+    {
+      "name": "raw_capture.avi.part0041",
+      "bytes": 16777216,
+      "sha256": "50049cdb28dcf60fa853bb00563b50366919d345eb4256a48f51c9076c5845fd"
+    },
+    {
+      "name": "raw_capture.avi.part0042",
+      "bytes": 16777216,
+      "sha256": "a1a97ff37c978c46b860ea6895c75db978815750e3333bea85934295bdeaa1e5"
+    },
+    {
+      "name": "raw_capture.avi.part0043",
+      "bytes": 16777216,
+      "sha256": "d9562d0d5adf8594bf378782d7e6a590b420e59752a8fa4fa73eb46c6a5015ff"
+    },
+    {
+      "name": "raw_capture.avi.part0044",
+      "bytes": 16777216,
+      "sha256": "62ea37a162251c3edb92a253f257e38fc16e65ecd0b25d5c1c772e9b1ee80332"
+    },
+    {
+      "name": "raw_capture.avi.part0045",
+      "bytes": 16777216,
+      "sha256": "279df77ddfdf6276f8b3c03f2192a4b4c9efe084f881009a0bc85566b494365f"
+    },
+    {
+      "name": "raw_capture.avi.part0046",
+      "bytes": 16777216,
+      "sha256": "ac4ad88c3785d8d6da2548b9bb8f160d3beb3c927af8dee9f90d0a723db415bd"
+    },
+    {
+      "name": "raw_capture.avi.part0047",
+      "bytes": 16777216,
+      "sha256": "b5dc753fdbba1a41a7fe0377bf788f74f41f7d4055780cb05fb55dbec189df0e"
+    },
+    {
+      "name": "raw_capture.avi.part0048",
+      "bytes": 16777216,
+      "sha256": "ed7b8cd2abffdaab67c0bc05a3ab03b01b90c74ec70106315e07988d30831149"
+    },
+    {
+      "name": "raw_capture.avi.part0049",
+      "bytes": 16777216,
+      "sha256": "f7c0fb3b834c50c96bba3a989991b081b78ad5aec60b3448c58255d4eddda8a6"
+    },
+    {
+      "name": "raw_capture.avi.part0050",
+      "bytes": 16777216,
+      "sha256": "6fd2998bc6e4af3a6f7b16a69cba7dcbf22dfd4e272927da9a501205da925f51"
+    },
+    {
+      "name": "raw_capture.avi.part0051",
+      "bytes": 16777216,
+      "sha256": "7ed25f7cf3cb58c9a1a27e096175b78e6da120699ddf1e6ab1ddd0f0a18b2f7f"
+    },
+    {
+      "name": "raw_capture.avi.part0052",
+      "bytes": 16777216,
+      "sha256": "d1810141599a94b5e71966b8fb39c7b24157e342d307e8c6008ddd22d6643dcb"
+    },
+    {
+      "name": "raw_capture.avi.part0053",
+      "bytes": 16777216,
+      "sha256": "ca7f6d9f6f5b9c182bfd92cc5f36e7508f138979a9b76ca4f0e846bba02c556d"
+    },
+    {
+      "name": "raw_capture.avi.part0054",
+      "bytes": 16777216,
+      "sha256": "cdfa6ea4ffdd6daab1d80c3e8a3584282efbdcab81f8a27653cec099c01e5bb8"
+    },
+    {
+      "name": "raw_capture.avi.part0055",
+      "bytes": 16777216,
+      "sha256": "3c3d9fcda22ebfdf8e76b152ace922cc0e2a5be9353d420b867b304ee2b8412c"
+    },
+    {
+      "name": "raw_capture.avi.part0056",
+      "bytes": 16777216,
+      "sha256": "4586e0c583aa9a0040c6224e1183469affa672c2ce910108e90a4efe4420e0f3"
+    },
+    {
+      "name": "raw_capture.avi.part0057",
+      "bytes": 16777216,
+      "sha256": "9f9f38ef0175f1fbfdb27fc6786275cde97a6e25abd196eeccd13c3f4d81881b"
+    },
+    {
+      "name": "raw_capture.avi.part0058",
+      "bytes": 16777216,
+      "sha256": "be6c708590cc99333dc84ae2fa7c2bba859faab45fd420b41788f344def6277e"
+    },
+    {
+      "name": "raw_capture.avi.part0059",
+      "bytes": 16777216,
+      "sha256": "831dccf86873c0b2c25b7dd407035712ef44f15ee9f8eac0604e285a64403d05"
+    },
+    {
+      "name": "raw_capture.avi.part0060",
+      "bytes": 16777216,
+      "sha256": "96e95d89d896024b1c5fa3cfeeac5289ade5a8d1aa911bb9076b191a42dd93c9"
+    },
+    {
+      "name": "raw_capture.avi.part0061",
+      "bytes": 16777216,
+      "sha256": "29383ffc09bc8a705e39c4be5d8fd7913615c5f583fd35a1c62fe42fd33eb8e3"
+    },
+    {
+      "name": "raw_capture.avi.part0062",
+      "bytes": 16777216,
+      "sha256": "a90bc5cd3d9e32d418f362aa1c5b779e7e8cfae2272c9f7997af35c277f54122"
+    },
+    {
+      "name": "raw_capture.avi.part0063",
+      "bytes": 16777216,
+      "sha256": "35b0fe5791f586e151c9c339ac4b7f5425b1134e2aba9a656fb560feae3c0a2d"
+    },
+    {
+      "name": "raw_capture.avi.part0064",
+      "bytes": 16777216,
+      "sha256": "c47ec0923a7d5bdeda4b0069fd8c25e837e000ae48752b4aaf40cdb07704e8ee"
+    },
+    {
+      "name": "raw_capture.avi.part0065",
+      "bytes": 16777216,
+      "sha256": "e04805fdd17cbae544d1ebce20abe31c71fd6b22b12a4417a74382c099a18676"
+    },
+    {
+      "name": "raw_capture.avi.part0066",
+      "bytes": 16777216,
+      "sha256": "475781e626caa0d2ca812c1213727151fc19fd75f8978e16777f4d28734bc9c0"
+    },
+    {
+      "name": "raw_capture.avi.part0067",
+      "bytes": 16777216,
+      "sha256": "17ffb73b00a5acb2776ebc809db2f3503d572c735e203dd330386653478257b2"
+    },
+    {
+      "name": "raw_capture.avi.part0068",
+      "bytes": 16777216,
+      "sha256": "9341887644a8d05f229dc4552ee9f54400ef383e8702574071e81fe24eaec3ec"
+    },
+    {
+      "name": "raw_capture.avi.part0069",
+      "bytes": 16777216,
+      "sha256": "c9f0525aac2033c36706120f6bb62753fa3af279b44b7b4e1f867d949c626e4f"
+    },
+    {
+      "name": "raw_capture.avi.part0070",
+      "bytes": 16777216,
+      "sha256": "dcce8b72e6b875e47d8761384a6b1e176733003f47eb01d5889a98299bc50fbb"
+    },
+    {
+      "name": "raw_capture.avi.part0071",
+      "bytes": 16777216,
+      "sha256": "65a783b8c8a9a07c55eb29e009e52d6b65f120bc27a829f5372de4c940965d8d"
+    },
+    {
+      "name": "raw_capture.avi.part0072",
+      "bytes": 16777216,
+      "sha256": "dc72b3e22d0a3d067d1524dcc68b292befdceee1ea71314526613f99d5cb8059"
+    },
+    {
+      "name": "raw_capture.avi.part0073",
+      "bytes": 16777216,
+      "sha256": "fe44aadb16df5f55ab2a6e291c39a80b23d184827e2c2dc72f398d27cfc797eb"
+    },
+    {
+      "name": "raw_capture.avi.part0074",
+      "bytes": 16777216,
+      "sha256": "94c94630b3815fea556e1f5a873a77e9d05d2a45e4104653228e9adbfb1dc69a"
+    },
+    {
+      "name": "raw_capture.avi.part0075",
+      "bytes": 16777216,
+      "sha256": "f813a2c5643d0833cedc8384832150fa2986c4b919da81e0f71b50b3f2b65ddd"
+    },
+    {
+      "name": "raw_capture.avi.part0076",
+      "bytes": 16777216,
+      "sha256": "636c6a2530294a48dd5c0f9e38747b5d40ff3a285f4900aee96480af9fa15753"
+    },
+    {
+      "name": "raw_capture.avi.part0077",
+      "bytes": 16777216,
+      "sha256": "30d1614a0d4f401bb3ba9601d9fb82f20857c3e6953d03057a0f56e78add3ce1"
+    },
+    {
+      "name": "raw_capture.avi.part0078",
+      "bytes": 16777216,
+      "sha256": "44a189ce9a8bdcfe631d083f4023b5bb524b20242cd7dedbf86cccaf5da7bfc2"
+    },
+    {
+      "name": "raw_capture.avi.part0079",
+      "bytes": 16777216,
+      "sha256": "aceeeb90230466af891125f2aa1d183cd174dabee9c56f34cfcf4ca34365643c"
+    },
+    {
+      "name": "raw_capture.avi.part0080",
+      "bytes": 16777216,
+      "sha256": "7aaee1daef3450065c066f52cd77d7f8b1efe8022537519767ad8af44c9f959e"
+    },
+    {
+      "name": "raw_capture.avi.part0081",
+      "bytes": 16777216,
+      "sha256": "68a295eee67c5d3d85d4f3a6a91d5348c21f8bb7468894de49beab4fff43b9c9"
+    },
+    {
+      "name": "raw_capture.avi.part0082",
+      "bytes": 8680176,
+      "sha256": "4e9533ecc45f2d0f95c3b93c91c928f2d454f0bfa2d3dabec7ca011fa0a2b1bf"
+    }
+  ],
+  "storage": "raw byte concatenation; no archive headers and no transcoding",
+  "video": {
+    "container": "AVI",
+    "codec": "FFV1",
+    "width": 1280,
+    "height": 720,
+    "pixel_format": "BGRA",
+    "fps": "30/1",
+    "container_frame_count": 1397,
+    "duration_seconds": 46.566667
+  },
+  "repository": "https://github.com/Peginew/guanbiao-fpga",
+  "release_url": "https://github.com/Peginew/guanbiao-fpga/releases/tag/raw-capture-20261104",
+  "release_download_base": "https://github.com/Peginew/guanbiao-fpga/releases/download/raw-capture-20261104",
+  "video_reencoded": false,
+  "upload_status": "Prepared locally; availability must be confirmed from the actual public Release"
+}

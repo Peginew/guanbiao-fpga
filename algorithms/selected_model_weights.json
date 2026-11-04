@@ -1,0 +1,27 @@
+{
+  "total_parameters": 3433,
+  "selected": "PRIOR_B857_U7_TRAIN_CORRECTED",
+  "weights": [
+    {
+      "role": "hub",
+      "parameters": 1202,
+      "float_training_checkpoint": "algorithm_work/meter_cnn_training_20261102/run_002/best_weights.pt",
+      "checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df"
+    },
+    {
+      "role": "polar",
+      "parameters": 1009,
+      "float_training_checkpoint": "algorithm_work/meter_pointer_readout_20261102/polar_angle/run_001/best_weights.pt",
+      "checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882"
+    },
+    {
+      "role": "six_identified_print_landmarks",
+      "parameters": 1222,
+      "float_training_checkpoint": "algorithm_work/meter_landmark_mcu_training_20261103/model/run_001/best_weights.pt",
+      "checkpoint_sha256": "b857014dd887f46cb754a0596c7e6dba1797ac559561454656a50daea15a1596"
+    }
+  ],
+  "integer_weight_headers": "frozen_math/7b58 and frozen_math/793d",
+  "math_and_integer_headers_identical": true,
+  "new_training_or_evaluation": false
+}

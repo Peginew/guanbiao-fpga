@@ -13,3 +13,7 @@ node_modules/
 *.vcd
 *.logw
 .cooperation/
+
+# Full original images are restored from the same repository Release.
+# Existing tracked preview images remain versioned.
+datasets/images/

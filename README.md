@@ -13,7 +13,7 @@ SC500CS摄像头输入经MIPI接入、像素恢复和DDR帧缓存，送入实时
 | [FPGA部署基线](fpga/board_baseline) | 已部署87da版本的团队RTL、约束、参数及工程配置 |
 | [MCU固件](firmware/mcu_repair) | 793d异常恢复修复源码、整数推理与3433参数模型 |
 | [算法与训练](algorithms) | 训练、量化、几何匹配、三份选定权重及既有评价记录 |
-| [数据集](datasets) | 497张原始PNG索引、472张canonical标注、历史分区及使用说明 |
+| [数据集](datasets) | Git预览、Release完整497张原图、472张标注及使用说明 |
 | [小车程序](rover/integrated) / [通信协议](protocol) | ESP32巡检控制与FPGA双向UART接口 |
 | [独立候选](fpga/candidates) | 分阶段显示、共享映射与小车合并候选源工程 |
 | [实现状态](docs/IMPLEMENTATION_STATUS.md) | 已部署版本、离线候选及尚待验证的边界 |
@@ -28,7 +28,7 @@ cd guanbiao-fpga
 
 请先阅读对应目录README。FPGA工程需要Anlogic TD 6.2.1、官方IP、HX1P35A例程及MCU SDK；须按[依赖清单](DEPENDENCIES_REQUIRED.json)补齐受限第三方实现并配置本机路径。Python算法依赖见[requirements.txt](algorithms/requirements.txt)。本次按原字节整理源文件，部分历史脚本仍有源工作站路径和SHA断言，尚未整理为跨电脑一键构建。
 
-原始图像保留像素、文件名和SHA。标注公开副本使用`datasets/`下的相对路径；训练与评价之前请阅读[数据使用历史](datasets/current_usage.json)，避免将已使用场次再次当作独立测试。原始采集视频的分卷入口见[datasets/raw_video](datasets/raw_video)。
+完整497张原图由[同仓库图片Release](https://github.com/Peginew/guanbiao-fpga/releases/tag/instrument-images-20261104)提供，Git保留部分原图预览。在仓库根目录运行`python datasets/download_images.py`即可下载、校验并恢复全部图片。原始图像保留像素、文件名和SHA。标注公开副本使用`datasets/`下的相对路径；训练与评价之前请阅读[数据使用历史](datasets/current_usage.json)，避免将已使用场次再次当作独立测试。原始采集视频的分卷入口见[datasets/raw_video](datasets/raw_video)。
 
 ## 验证范围
 

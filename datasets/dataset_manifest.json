@@ -1,0 +1,114 @@
+{
+  "schema": "meter_grouped_keypoint_dataset_v1",
+  "dataset_id": "new_native_meter_20261102_grouped_v1",
+  "canonical_annotations": "annotations.json",
+  "canonical_annotations_sha256": "a84da8d999b90173a2e94164215c818419e7e74810a6e6557a19700aeeef41f8",
+  "group_to_split": {
+    "A": "reserve",
+    "B": "reserve",
+    "C": "reserve",
+    "D": "train",
+    "E": "train",
+    "F": "train",
+    "G": "validation",
+    "H": "test"
+  },
+  "source_images": "images/<capture_group>/<original_filename>; relative to datasets/",
+  "split_strategy": "Whole capture groups; quality chosen without CNN model scores; no random per-image split",
+  "initial_supervision_uncertainty_gate_native_px": 8,
+  "uncertainty_gate_is_engineering_policy_not_certified_error_bound": true,
+  "head_order": [
+    "hub",
+    "thin_terminal"
+  ],
+  "pressure_units": "psi",
+  "pressure_is_direct_network_target": false,
+  "partitions": {
+    "train": {
+      "groups": [
+        "D",
+        "E",
+        "F"
+      ],
+      "images": 177,
+      "index_or_labels": "splits/train/labels.jsonl"
+    },
+    "validation": {
+      "groups": [
+        "G"
+      ],
+      "images": 59,
+      "index_or_labels": "splits/validation/labels.jsonl"
+    },
+    "test": {
+      "groups": [
+        "H"
+      ],
+      "images": 59,
+      "index_or_labels": "splits/test/index.jsonl"
+    },
+    "reserve": {
+      "groups": [
+        "A",
+        "B",
+        "C"
+      ],
+      "images": 177,
+      "index_or_labels": "splits/reserve/labels.jsonl"
+    }
+  },
+  "first_round_training_manifest": "splits/train/initial_supervision.jsonl",
+  "front_clear_optional_curriculum_manifest": "splits/train/front_clear_initial.jsonl",
+  "validation_manifest": "splits/validation/labels.jsonl",
+  "test_input_index": "splits/test/index.jsonl",
+  "training_weight_update_inputs": [
+    "train/initial_supervision.jsonl"
+  ],
+  "validation_model_selection_inputs": [
+    "validation/labels.jsonl"
+  ],
+  "test_was_viewed_for_annotation_QA": true,
+  "test_model_selection_use_after_split": "prohibited",
+  "test_is_unseen_human_certified_gold": false,
+  "augmentation": {
+    "generated": false,
+    "allowed_split": "train",
+    "inherit_source_session_and_split": true,
+    "joint_image_and_point_transform_required": true,
+    "no_default_large_rotation_or_mirror": true
+  },
+  "preprocessing": {
+    "status": "ROI_ADAPTER_PENDING",
+    "expected_model_input": "128x128 gray U8 ROI",
+    "native_to_ROI_keypoint_transform_required": true,
+    "not_old_trainer_drop_in_schema": true,
+    "original_OSD_overlap_needs_ROI_review": true,
+    "normalization_statistics_source": "train_only_if_estimated"
+  },
+  "reserve": {
+    "allowed_future_use": "training_only_after_label_refinement",
+    "contains_groups": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "training_performed": false,
+  "model_evaluation_performed": false,
+  "board_operations": false,
+  "files_sha256": {
+    "reserve\\labels.jsonl": "0fe9c6f3ed2cd5d3dc076a6b55732f06eaf73c51f8f1ba31317819b607d8d8a7",
+    "test\\index.jsonl": "51b3099846b47728f0fecbc9f17826aa847f04151dbf099031eaedc21e40f9d4",
+    "test\\labels_for_final_evaluation.jsonl": "8c7f87941772ed40b66e6c180b5efa8321699d1a862566b4e29d4681f9b1b83f",
+    "train\\front_clear_initial.jsonl": "b5803f2a6c47e93fb68ef38fac2c41e68c120bafec344b397cc9a257c7f3e956",
+    "train\\full_keypoints.jsonl": "15ab448cfa1d49b646affba8174b213dcf17441afef6d4aae2a088a0aae9b798",
+    "train\\initial_supervision.jsonl": "9a1fb91bd0114eafac978ac3b3277853d28d0f0b2401578d024360f420479aed",
+    "train\\labels.jsonl": "946e81f4cfdcd1ba3636f3ab81f6caf38b720059c99a53d9961af01dc4acb2ac",
+    "train\\negative_samples.jsonl": "3dc79fce8f5054b022f02664523a0d6a8791150429f8c990fd4c19bb1d1d45eb",
+    "train\\partial_keypoints.jsonl": "d9e1f13096bf866858a7d925825567d4014d1bf774be4a463e0455eba32e233e",
+    "train\\quality_review_only.jsonl": "95aae866528da3dc70f37abad4eaa7618028873d48eda12377b58fc3a9096082",
+    "validation\\labels.jsonl": "0049da575663c3db919cb7037847460900c5735a7e7a262d9378611aaa94691c"
+  },
+  "canonical_annotations_source_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "public_copy_scope": "Portable paths only; source label geometry, pressure, visibility, supervision and split assignments preserved."
+}

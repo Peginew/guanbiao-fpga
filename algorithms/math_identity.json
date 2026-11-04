@@ -1,0 +1,178 @@
+[
+  {
+    "name": "hub_weights_q8.h",
+    "versions": {
+      "7b58": "12a14a7c2260b9a81cc140209946cca0a41f09dbbc46ed9f1348b47d0200b033",
+      "793d": "12a14a7c2260b9a81cc140209946cca0a41f09dbbc46ed9f1348b47d0200b033"
+    },
+    "identical": true
+  },
+  {
+    "name": "landmark_geometry.c",
+    "versions": {
+      "7b58": "2ac19a61ae212135c7c727432eb28dc4eb840fe7fa84cb7283bc30e05793dd79",
+      "793d": "2ac19a61ae212135c7c727432eb28dc4eb840fe7fa84cb7283bc30e05793dd79"
+    },
+    "identical": true
+  },
+  {
+    "name": "landmark_geometry.h",
+    "versions": {
+      "7b58": "f8b381f081987c91bac78f72436adbc42d18dccc06f47a9dabdedad76d5109c0",
+      "793d": "f8b381f081987c91bac78f72436adbc42d18dccc06f47a9dabdedad76d5109c0"
+    },
+    "identical": true
+  },
+  {
+    "name": "landmark_reference.h",
+    "versions": {
+      "7b58": "36b6685c7cef84f5b5b6884d12ea405b1b4bad4126f961b7a0e872c07d2eb829",
+      "793d": "36b6685c7cef84f5b5b6884d12ea405b1b4bad4126f961b7a0e872c07d2eb829"
+    },
+    "identical": true
+  },
+  {
+    "name": "landmark_weights_q8.h",
+    "versions": {
+      "7b58": "152c4d424b8ebd8f5a621a5cab564d8475230830915b7836332388f2268a0a92",
+      "793d": "152c4d424b8ebd8f5a621a5cab564d8475230830915b7836332388f2268a0a92"
+    },
+    "identical": true
+  },
+  {
+    "name": "meter_pose_frontend.c",
+    "versions": {
+      "7b58": "8379ac344fa7a8194e89a65155d4768113d857c572a2a26b714b67b9f96233cc",
+      "793d": "8379ac344fa7a8194e89a65155d4768113d857c572a2a26b714b67b9f96233cc"
+    },
+    "identical": true
+  },
+  {
+    "name": "meter_pose_frontend.h",
+    "versions": {
+      "7b58": "fa51a5683d367a0dfb6741834166e67b32c4c6829d9ae2189352cd5477f1711a",
+      "793d": "fa51a5683d367a0dfb6741834166e67b32c4c6829d9ae2189352cd5477f1711a"
+    },
+    "identical": true
+  },
+  {
+    "name": "meter_pose_matcher.c",
+    "versions": {
+      "7b58": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2",
+      "793d": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2"
+    },
+    "identical": true
+  },
+  {
+    "name": "meter_pose_matcher.h",
+    "versions": {
+      "7b58": "89b125040d65d58433d034406f748e7e16d462e4521a49d01d614db862480921",
+      "793d": "89b125040d65d58433d034406f748e7e16d462e4521a49d01d614db862480921"
+    },
+    "identical": true
+  },
+  {
+    "name": "mroi_c4.c",
+    "versions": {
+      "7b58": "db703479feabeda9c50cafd2efea596206c9f1f7721cd266a4338c4eaf211d5b",
+      "793d": "db703479feabeda9c50cafd2efea596206c9f1f7721cd266a4338c4eaf211d5b"
+    },
+    "identical": true
+  },
+  {
+    "name": "mroi_c4.h",
+    "versions": {
+      "7b58": "fdc97d2a0ad223dc3feea2dc899af8c572766de74cf180591e4e0a6ea686c236",
+      "793d": "fdc97d2a0ad223dc3feea2dc899af8c572766de74cf180591e4e0a6ea686c236"
+    },
+    "identical": true
+  },
+  {
+    "name": "mroi_decode.c",
+    "versions": {
+      "7b58": "0a52a3882002e3f29b591c180f5a59b3e52c978b9a2b5cea08bd74b639d48643",
+      "793d": "0a52a3882002e3f29b591c180f5a59b3e52c978b9a2b5cea08bd74b639d48643"
+    },
+    "identical": true
+  },
+  {
+    "name": "polar_quant_config.h",
+    "versions": {
+      "7b58": "25d9649fae41b47beff987c5195013027e266839d49a415dc6259f9496413312",
+      "793d": "25d9649fae41b47beff987c5195013027e266839d49a415dc6259f9496413312"
+    },
+    "identical": true
+  },
+  {
+    "name": "polar_weights_q8.h",
+    "versions": {
+      "7b58": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d",
+      "793d": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_calibration_domain.h",
+    "versions": {
+      "7b58": "53f6472862be4a2c1ea6f854a8d2a7c1722fe8aa10dabc34c958f44e9e780406",
+      "793d": "53f6472862be4a2c1ea6f854a8d2a7c1722fe8aa10dabc34c958f44e9e780406"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_numeric.c",
+    "versions": {
+      "7b58": "dfaa4c5d93d286de046fbb117fc6e78d4131e9333ac0571c60fe118eefefc6d2",
+      "793d": "dfaa4c5d93d286de046fbb117fc6e78d4131e9333ac0571c60fe118eefefc6d2"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_numeric.h",
+    "versions": {
+      "7b58": "37539a5f6f71d3175dd64bc0158234d3a5f68676ad4604f3ddcfbd06507c7e51",
+      "793d": "37539a5f6f71d3175dd64bc0158234d3a5f68676ad4604f3ddcfbd06507c7e51"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_ring_templates.h",
+    "versions": {
+      "7b58": "5beb70412cfc203a6ab058877a6ce0561110e9dd1c81a146007846f44b2f98c2",
+      "793d": "5beb70412cfc203a6ab058877a6ce0561110e9dd1c81a146007846f44b2f98c2"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_runtime.c",
+    "versions": {
+      "7b58": "4370276f5016078bf019463e7ba4c54bd3f4472b5cd513498e69e4b0af48cb48",
+      "793d": "4370276f5016078bf019463e7ba4c54bd3f4472b5cd513498e69e4b0af48cb48"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_runtime.h",
+    "versions": {
+      "7b58": "44dd0fe1fdb8f46398f5e3db16835166dfede0233198569ae6e405439a449111",
+      "793d": "44dd0fe1fdb8f46398f5e3db16835166dfede0233198569ae6e405439a449111"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_sigmoid.c",
+    "versions": {
+      "7b58": "7106b0b6f4380e3e37dbd054940e2a1f50e9689f97dfd2551413b9b62c0960b1",
+      "793d": "7106b0b6f4380e3e37dbd054940e2a1f50e9689f97dfd2551413b9b62c0960b1"
+    },
+    "identical": true
+  },
+  {
+    "name": "reader_tables.h",
+    "versions": {
+      "7b58": "ec9b07316fbcc95a5c128a163b494ba2d0dc82c00033539092c2631020a05b5d",
+      "793d": "ec9b07316fbcc95a5c128a163b494ba2d0dc82c00033539092c2631020a05b5d"
+    },
+    "identical": true
+  }
+]
