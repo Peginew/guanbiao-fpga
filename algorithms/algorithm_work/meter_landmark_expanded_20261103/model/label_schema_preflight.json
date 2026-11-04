@@ -1,0 +1,17 @@
+{
+  "train": 295,
+  "validation": 59,
+  "active": 267,
+  "coordinate_counts": [
+    238,
+    234,
+    242,
+    244,
+    197,
+    241
+  ],
+  "sourceSHA": {
+    "train": "0161e8ef407390e11b744278a131b1c817c0947661f3b8cab8a5f60ed52d387c",
+    "validation": "0d015ff8e03c56b8bceab1c27d85240b07fe014cbb0fa1c5fd6c897aa6a5600b"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "SHARED_C_CALIBRATION_DOMAINS_PASS_NO_G_INFERENCE",
+  "checks": 51844,
+  "old_domain_exact_comparisons": 51840,
+  "old_domain_valid_preserved": 17748,
+  "additional_permission_cases_synthetic_only": 684,
+  "coefficients_pressure_and_score_unchanged": true,
+  "domain_Q16": [
+    10564968,
+    18954848
+  ],
+  "contract_sha256": "e141b2db1cb3a261bd2639bc08b94817e368a5c5d236974cd344626cf3eb533e",
+  "source_sha256": "dfaa4c5d93d286de046fbb117fc6e78d4131e9333ac0571c60fe118eefefc6d2",
+  "DLL_sha256": "f1496db67db39a91c25a0b5c059ca164c240f0c3338bd7cf12e6c3f48453d50a",
+  "H_read": false,
+  "G_inference": false,
+  "device": false
+}

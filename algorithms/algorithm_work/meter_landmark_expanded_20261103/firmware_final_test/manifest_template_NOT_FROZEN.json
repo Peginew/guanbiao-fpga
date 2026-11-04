@@ -1,0 +1,44 @@
+{
+  "status": "PREPARED_NOT_FROZEN_NO_RUN",
+  "selected_variant": "FINAL_U7_TRAIN_CORRECTED",
+  "selected_point_model": "SUPERVISOR_SELECTS_PRIOR_B857_OR_EXPANDED_ABDEF_BEFORE_C",
+  "selection_policy_before_G": {"path": "G_BEFORE_POLICY", "sha256": "TO_BE_BOUND"},
+  "selection_decision_before_C": {"path": "GLOBAL_MODEL_DECISION_BEFORE_C", "sha256": "TO_BE_BOUND"},
+  "harness_sha256": "SUPERVISOR_FREEZES_AFTER_CODE_REVIEW",
+  "canonical": {
+    "path": "C:/Users/Edward/Documents/ChatGPT/嵌赛FPGA/algorithm_work/meter_dataset_annotation_20261102/annotations.json",
+    "sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e"
+  },
+  "roi_adapter": {
+    "path": "C:/Users/Edward/Documents/ChatGPT/嵌赛FPGA/algorithm_work/meter_cnn_training_20261102/roi_adapter.py",
+    "sha256": "TO_BE_BOUND"
+  },
+  "ELF": {
+    "path": "FROZEN_EXPANDED_ELF",
+    "sha256": "TO_BE_BOUND"
+  },
+  "DLL": {
+    "path": "FROZEN_EXPANDED_MATCHING_HOST_DLL",
+    "sha256": "TO_BE_BOUND"
+  },
+  "build_receipt": {
+    "path": "SELECTED_ACTUAL_BUILD_RECEIPT",
+    "sha256": "TO_BE_BOUND"
+  },
+  "compiled_source_directory": "SELECTED_FROZEN_SOURCE_DIRECTORY",
+  "frozen_model_and_calibration_artifacts": [],
+  "fixed_metrics": {
+    "bands_psi": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "pressure_used_only_for_scoring": true,
+    "all_H_rows_retained": true,
+    "bands_are_not_user_tolerance_spec": true
+  },
+  "output_directory": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\FINAL_C_ONCE",
+  "C_expected_count": 59,
+  "C_prior_annotation_QA_exposure_acknowledged": true,
+  "permission_to_run_C_once": false
+}

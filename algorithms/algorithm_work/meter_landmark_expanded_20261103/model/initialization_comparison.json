@@ -1,0 +1,9 @@
+{
+  "status": "PASS_SAME_ARCH_AND_IDENTICAL_SCRATCH_INITIALIZATION",
+  "tensor_count": 24,
+  "parameter_count": 1222,
+  "firstcandidate_random_SHA": "fba99172a76155a962a7b6e944f83903b671de6c169eca0a190ca87849c11b24",
+  "architecture_source_SHA": "c9d94657e48658b72fe2059ac4816486c28a69af523014d092c82fab96c3d801",
+  "same_architecture_source": true,
+  "training_or_image_reads": false
+}

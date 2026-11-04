@@ -1,0 +1,311 @@
+{
+  "status": "SELECTED_PRIOR_B857_TRAIN_CORRECTED_FULL_FIRMWARE_READY_FOR_LOCKED_C_TEST_NOT_BOARD_VALIDATED",
+  "selected_point_model": "PRIOR_B857",
+  "selected_numeric": "U7",
+  "selection": "ExpandedmodelrejectedusingpredeclaredGpolicy;priorcheckpointunchanged;onlyTRAINdomaincorrectionadopted",
+  "ELF": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.elf",
+    "sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc"
+  },
+  "raw": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.bin",
+    "bytes": 47480,
+    "sha256": "fb31905ac395832ae5bba6a3cfb603339cc02df5d654bd3f18edb3ee8cdce135",
+    "crc32": "8cd49fe9"
+  },
+  "coldboot_payload": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\U33_E00000_E0FFFF_reader_payload.bin",
+    "flash_offset": 14680064,
+    "bytes": 65536,
+    "sha256": "24025d127c2ed12b41ee338d6a2d426308a2689bc0987141e121f8563f6385f1",
+    "policy": "Dedicated sector224 replacement, requires matchedPSIfeaturebit. No device write by builder."
+  },
+  "DLL": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\host\\meter_landmark_reader.dll",
+    "sha256": "21f3f341116be6a5e214cbd5bc61d1529edb5c9c0cb6b9da4941c9bc6f391505"
+  },
+  "memory": {
+    "status": "SELECTED_FULL_ELF_REAL48K_LINK_AND_STATIC_STACK_PASS",
+    "ELF_sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc",
+    "TCM": {
+      "bytes": 49152,
+      "bss_start": 134229816,
+      "end": 134263760,
+      "stack_limit": 134264832,
+      "stack_bytes": 2048,
+      "gap": 1072,
+      "arena_bytes": 32768
+    },
+    "actual_gap_after_heap_alignment": 1072,
+    "stack": {
+      "reserved": 2048,
+      "static_conservative_bound": 1584,
+      "remaining": 464,
+      "actual_MCU_watermark": false,
+      "frames": {
+        "main": 64,
+        "mroi_process_one_with_consumer": 192,
+        "finish": 368,
+        "mlg_consensus_q8": 592,
+        "solve": 112,
+        "project": 32,
+        "mlg_atan2_deg_q16": 48
+      },
+      "exception_entry": 80,
+      "exception_handler": 32,
+      "helper_allowance": 64
+    },
+    "su_sources": [
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\landmark_geometry.su",
+        "sha256": "20063993b6b0c009f5db7dde2687098542983af5dd9b7522ea8f79ebd781de40"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_pose_frontend.su",
+        "sha256": "c73e204063487fcc55ac0ba0a36865070321eea120beb1e49b7590722d1c6b39"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_pose_matcher.su",
+        "sha256": "491678a7bb06a8f57e86899b75615cc335e68de69a4508e60f3da11b38ccfa3c"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\minimal_app.su",
+        "sha256": "727a875d2f503b645a9466c950e3d82558fe7c550bc15a60b5586ffb580a1575"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\minimal_libc.su",
+        "sha256": "90ed69e8b15fc22c4d0ebef0c4b68d3e1d2e9c13e07ee884e5f012a477e9c344"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\mroi_c4.su",
+        "sha256": "835c8a1077628d69d101036a504d957fb8702f78e0999981beb2f103cda011fc"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\mroi_client.su",
+        "sha256": "a9b62a39705ceff21168012d4f42dad3cf818ee67fde364454731d5743c4c7a3"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\mroi_decode.su",
+        "sha256": "cca6a3e74df0ec2487f8129eb3edd7c9909af9f86210d6f1bcb31489d6595bd5"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\platform_binding.su",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\reader_numeric.su",
+        "sha256": "3df715417574f189ae81d6ac0f9917d9874ba2af93010518bb4a46ee4b46580e"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\reader_runtime.su",
+        "sha256": "8fef56d414e1f33a557597708230a3fa164f3994e1c5274c74773d9885ce7dd3"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\reader_sigmoid.su",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\soc_plat.su",
+        "sha256": "8a363a0de6dc505cbb1cae1a83678ff9fe853b8c18ad8eca28ba569e7efb4332"
+      }
+    ],
+    "Flash_payload_bytes": 47480,
+    "Flash_limit_bytes": 65536,
+    "no_virtual_memory_expansion": true,
+    "device": false
+  },
+  "boot_numeric_contract": {
+    "status": "ACTUAL_ELF_FPU_START_AND_POLAR_ROUNDING_CONTRACT_PASS",
+    "ELF_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.elf",
+    "ELF_sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc",
+    "ELF_flags": 3,
+    "ABI": "ILP32F",
+    "stack_top": 134266880,
+    "stack_alignment": 16,
+    "FPU": {
+      "enable_address": 551551154,
+      "compressed_lui": "0x6299 x5=0x6000",
+      "set_FS_instruction": "0x3002a073 CSRRS mstatus,x5",
+      "result_FS_bits": "11 Dirty beforemain",
+      "FCSR_instruction": "0x00301073 CSRRW fcsr,x0",
+      "rounding": "frm0 nearest-even;fflags0"
+    },
+    "polar_F32": {
+      "fp_contract": "off",
+      "fast_math": false,
+      "fmul_count": 8,
+      "fadd_count": 3,
+      "fused_FMA_count": 0,
+      "machinecode_sha256": "2bafb85afede7c1073c33c56085d2f0b83e4cc1b7ef8faee2d1dceb2f9119b62"
+    },
+    "source_scope": "OfficialSDKstartup reused, no newFPUprotectionlayers",
+    "new_board_execution": false,
+    "hardware_actions": false
+  },
+  "calibration_domain": {
+    "default": "TRAIN_CORRECTED",
+    "contract_sha256": "e141b2db1cb3a261bd2639bc08b94817e368a5c5d236974cd344626cf3eb533e",
+    "amendment_sha256": "eba26c29ebe813a3d9ce0bff96a1431dd9d6019a750342124fdcb002b3339046",
+    "header_sha256": "53f6472862be4a2c1ea6f854a8d2a7c1722fe8aa10dabc34c958f44e9e780406",
+    "Q16": [
+      10564968,
+      18954848
+    ],
+    "old_domain_comparison_kept": true,
+    "linear_coefficients_pressure_and_score_unchanged": true
+  },
+  "G_development": {
+    "final_prior_corrected": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 29,
+      "gauge_outputs": 29,
+      "negative_outputs": 0,
+      "MAE_psi": 0.1880387931034483,
+      "within_025psi": 21,
+      "within_05psi": 28,
+      "within_1psi": 29,
+      "over_05psi_ids": [
+        "G_042"
+      ],
+      "gauge_rejected": 27,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_027",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_043",
+        "G_045",
+        "G_046",
+        "G_048"
+      ]
+    },
+    "same_C_ring_corrected": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 21,
+      "gauge_outputs": 21,
+      "negative_outputs": 0,
+      "MAE_psi": 0.14955357142857142,
+      "within_025psi": 16,
+      "within_05psi": 21,
+      "within_1psi": 21,
+      "over_05psi_ids": [],
+      "gauge_rejected": 35,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_029",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_043",
+        "G_045",
+        "G_046"
+      ]
+    },
+    "historical_prior_old_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 26,
+      "gauge_outputs": 26,
+      "negative_outputs": 0,
+      "MAE_psi": 0.18194110576923078,
+      "within_025psi": 20,
+      "within_05psi": 25,
+      "within_1psi": 26,
+      "over_05psi_ids": [
+        "G_042"
+      ],
+      "gauge_rejected": 30,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_027",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_048"
+      ]
+    }
+  },
+  "G_provenance": {
+    "source": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\host_matrix\\validation_matrix.json",
+    "sha256": "705179ad47c12d3053560f35134208d10f4f2fe558a67d999c5e5c8b15c8e0aa",
+    "method": "FrozenoldCrawviaCURRENTselectedDLLcalibrationonly;allfourGarmsverifiedexactly;noGnetworkrerun",
+    "scalar_checks": 413
+  },
+  "artifacts": {
+    "build/build_receipt.json": "01ce0218fdf83379d9880794f630e9002bd8e33c9ba2e443676459ff2cca1669",
+    "boot_numeric_contract.json": "cd78b4284050800a99dcab5c9380e8c5eecc9e0fc226b9ec994e1fab16ff90c1",
+    "numeric_verification.json": "40d13a2b5bd586f1bd4cbd05b7a7b2d0a023a7b68a71b8d5e1da3dbbeaa17646",
+    "link_stack_audit.json": "404ab0c349f4d2b3c540048c055c4dab3a5a8640065f465755e738b35d2541eb",
+    "host/calibration_replay_receipt.json": "4242ac40541b48362dba3431d5cf319f4583416716433397fb884f51b19634d7",
+    "preservation_check.json": "a9553b467e414c5c776cf64578063203c668e0490f5823be0681f9b52e4fbbbf",
+    "calibration_domain_preflight.json": "4140820d6a80e60dd98855f4c8fb064cd21a5b581e1eb6ceaea3d68b87670ce9"
+  },
+  "limits": [
+    "FinalCgroupstilllockedawaitsupervisorFINAL",
+    "NoHrerun;historicalHfactbelongspriordomainonly",
+    "Gisreuseddevelopmentanddoesnotproveindustrialreliability",
+    "NoactualMCUcycle/FlashXIPthroughput/coldbootorCSIautoROIvalidation",
+    "stage_cycles0..3populated,slot4reserved;totalmroi_diag.elapsed_cyclesincludesall",
+    "RequirepairedPSI064/124platform,old80f9notcompatible"
+  ],
+  "hardware_actions": false,
+  "C_group_opened": false,
+  "H_rerun": false,
+  "final_selection_sha256": "0f6e7b59739249fe9681f01fe12247f006c416b24ee76f859929f789b0959c96"
+}

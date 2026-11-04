@@ -1,0 +1,14 @@
+{
+  "status": "PASS_ALLOWED295_ROIS_AND_EXACT_FROZEN_DEF_REUSE",
+  "train_cache_sha256": "827abe60d4b3fcf9ce7f7316b868bbff4a4b0bc5ae802360d910482a28d9e7b3",
+  "old_DEF_cache_sha256": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708",
+  "shape": [
+    295,
+    128,
+    128
+  ],
+  "dtype": "uint8",
+  "newAB": 118,
+  "DEF_exact_pixels": 177,
+  "training_or_C_H_reads": false
+}

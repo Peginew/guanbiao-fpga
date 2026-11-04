@@ -1,0 +1,1662 @@
+[
+  {
+    "step": 400,
+    "loss": 1.8810738325119019,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 11.358984703546435,
+      "visible_false_reject_rate": 0.7516778523489933,
+      "known_invisible_false_accept_rate": 0.15789473684210525,
+      "selection_score": 4.853795560548682,
+      "masked_focal": 1.8832923573935592,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 10.491340095559401,
+          "median_ROI_error": 11.4795707604574,
+          "within3": 2,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 51,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 9.729478106955735,
+          "median_ROI_error": 9.968361455691866,
+          "within3": 6,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 52,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 12.944486823787132,
+          "median_ROI_error": 11.852656390521851,
+          "within3": 0,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 49,
+          "invisible_accepted": 0,
+          "invisible_rejected": 7
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 14.576526089449933,
+          "median_ROI_error": 13.561513149707379,
+          "within3": 21,
+          "accepted_within3": 17,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 11,
+          "invisible_accepted": 2,
+          "invisible_rejected": 2
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 14.234934817639159,
+          "median_ROI_error": 11.656344085223777,
+          "within3": 1,
+          "accepted_within3": 0,
+          "true_visible_accepted": 1,
+          "true_visible_rejected": 44,
+          "invisible_accepted": 0,
+          "invisible_rejected": 11
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 6.177142287887256,
+          "median_ROI_error": 1.657146869510598,
+          "within3": 24,
+          "accepted_within3": 18,
+          "true_visible_accepted": 30,
+          "true_visible_rejected": 17,
+          "invisible_accepted": 4,
+          "invisible_rejected": 5
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 7.5
+  },
+  {
+    "step": 800,
+    "loss": 1.4613490104675293,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 9.236256271578775,
+      "visible_false_reject_rate": 0.6677852348993288,
+      "known_invisible_false_accept_rate": 0.2631578947368421,
+      "selection_score": 4.272853114899271,
+      "masked_focal": 1.6527935154486022,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 10.048418732711166,
+          "median_ROI_error": 10.267913643951244,
+          "within3": 3,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 51,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 13.72970777047712,
+          "median_ROI_error": 14.26914919644109,
+          "within3": 3,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 52,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 10.941115813602435,
+          "median_ROI_error": 11.5638948156186,
+          "within3": 7,
+          "accepted_within3": 0,
+          "true_visible_accepted": 12,
+          "true_visible_rejected": 37,
+          "invisible_accepted": 4,
+          "invisible_rejected": 3
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 3.064657500640333,
+          "median_ROI_error": 0.8946403729508354,
+          "within3": 47,
+          "accepted_within3": 45,
+          "true_visible_accepted": 49,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 14.385415439940749,
+          "median_ROI_error": 11.323375645572757,
+          "within3": 1,
+          "accepted_within3": 0,
+          "true_visible_accepted": 4,
+          "true_visible_rejected": 41,
+          "invisible_accepted": 0,
+          "invisible_rejected": 11
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.2482223721008516,
+          "median_ROI_error": 0.7188837774581381,
+          "within3": 38,
+          "accepted_within3": 31,
+          "true_visible_accepted": 34,
+          "true_visible_rejected": 13,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 15.656999999999243
+  },
+  {
+    "step": 1200,
+    "loss": 1.4554386138916016,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 9.01398782176004,
+      "visible_false_reject_rate": 0.5201342281879194,
+      "known_invisible_false_accept_rate": 0.2894736842105263,
+      "selection_score": 4.103744203862318,
+      "masked_focal": 1.6111366572796098,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 11.866281287249187,
+          "median_ROI_error": 11.017832825773143,
+          "within3": 0,
+          "accepted_within3": 0,
+          "true_visible_accepted": 2,
+          "true_visible_rejected": 49,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 13.42510207630145,
+          "median_ROI_error": 12.11738081319982,
+          "within3": 7,
+          "accepted_within3": 1,
+          "true_visible_accepted": 8,
+          "true_visible_rejected": 44,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 8.410817538430344,
+          "median_ROI_error": 7.733536087289419,
+          "within3": 11,
+          "accepted_within3": 9,
+          "true_visible_accepted": 30,
+          "true_visible_rejected": 19,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.8199728034120715,
+          "median_ROI_error": 1.0255378856826012,
+          "within3": 46,
+          "accepted_within3": 46,
+          "true_visible_accepted": 51,
+          "true_visible_rejected": 3,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 13.170967844803597,
+          "median_ROI_error": 11.747724897754939,
+          "within3": 4,
+          "accepted_within3": 1,
+          "true_visible_accepted": 12,
+          "true_visible_rejected": 33,
+          "invisible_accepted": 1,
+          "invisible_rejected": 10
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.390785380363585,
+          "median_ROI_error": 0.9267137640222118,
+          "within3": 33,
+          "accepted_within3": 30,
+          "true_visible_accepted": 40,
+          "true_visible_rejected": 7,
+          "invisible_accepted": 6,
+          "invisible_rejected": 3
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 23.0
+  },
+  {
+    "step": 1600,
+    "loss": 1.43109929561615,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 7.726916616006537,
+      "visible_false_reject_rate": 0.3959731543624161,
+      "known_invisible_false_accept_rate": 0.18421052631578946,
+      "selection_score": 3.340033078996174,
+      "masked_focal": 1.571693732434471,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 10.396425320392988,
+          "median_ROI_error": 10.136118142790048,
+          "within3": 2,
+          "accepted_within3": 0,
+          "true_visible_accepted": 18,
+          "true_visible_rejected": 33,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 9.9669907021822,
+          "median_ROI_error": 11.838346354814231,
+          "within3": 12,
+          "accepted_within3": 8,
+          "true_visible_accepted": 28,
+          "true_visible_rejected": 24,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 8.37828263147352,
+          "median_ROI_error": 8.14735698791561,
+          "within3": 12,
+          "accepted_within3": 12,
+          "true_visible_accepted": 38,
+          "true_visible_rejected": 11,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.535665576961602,
+          "median_ROI_error": 1.0602722512312794,
+          "within3": 47,
+          "accepted_within3": 46,
+          "true_visible_accepted": 49,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 10.434207091152887,
+          "median_ROI_error": 10.345576682905653,
+          "within3": 9,
+          "accepted_within3": 2,
+          "true_visible_accepted": 8,
+          "true_visible_rejected": 37,
+          "invisible_accepted": 0,
+          "invisible_rejected": 11
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.649928373876022,
+          "median_ROI_error": 0.9089568204533822,
+          "within3": 32,
+          "accepted_within3": 31,
+          "true_visible_accepted": 39,
+          "true_visible_rejected": 8,
+          "invisible_accepted": 3,
+          "invisible_rejected": 6
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 30.906999999999243
+  },
+  {
+    "step": 2000,
+    "loss": 1.1995768547058105,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 7.279129766035958,
+      "visible_false_reject_rate": 0.42953020134228187,
+      "known_invisible_false_accept_rate": 0.2894736842105263,
+      "selection_score": 3.434854158441987,
+      "masked_focal": 1.5863560742179819,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 11.371716553157738,
+          "median_ROI_error": 10.73411561043692,
+          "within3": 1,
+          "accepted_within3": 0,
+          "true_visible_accepted": 2,
+          "true_visible_rejected": 49,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 9.467564442368248,
+          "median_ROI_error": 11.739506767880968,
+          "within3": 14,
+          "accepted_within3": 6,
+          "true_visible_accepted": 28,
+          "true_visible_rejected": 24,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 6.157978398137705,
+          "median_ROI_error": 6.155810401671568,
+          "within3": 16,
+          "accepted_within3": 11,
+          "true_visible_accepted": 28,
+          "true_visible_rejected": 21,
+          "invisible_accepted": 2,
+          "invisible_rejected": 5
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.5549647816712517,
+          "median_ROI_error": 1.0033100913336686,
+          "within3": 48,
+          "accepted_within3": 47,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 9.98551485788188,
+          "median_ROI_error": 9.910791513162067,
+          "within3": 12,
+          "accepted_within3": 5,
+          "true_visible_accepted": 22,
+          "true_visible_rejected": 23,
+          "invisible_accepted": 3,
+          "invisible_rejected": 8
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.137039562998928,
+          "median_ROI_error": 0.8397463042470937,
+          "within3": 33,
+          "accepted_within3": 31,
+          "true_visible_accepted": 40,
+          "true_visible_rejected": 7,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 38.34399999999732
+  },
+  {
+    "step": 2400,
+    "loss": 1.3189706802368164,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 6.979299930141604,
+      "visible_false_reject_rate": 0.3825503355704698,
+      "known_invisible_false_accept_rate": 0.39473684210526316,
+      "selection_score": 3.498457329828198,
+      "masked_focal": 1.5701922642304593,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 9.75168944184829,
+          "median_ROI_error": 8.888158384970762,
+          "within3": 2,
+          "accepted_within3": 0,
+          "true_visible_accepted": 13,
+          "true_visible_rejected": 38,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 8.926528936968724,
+          "median_ROI_error": 11.050567200082643,
+          "within3": 17,
+          "accepted_within3": 12,
+          "true_visible_accepted": 38,
+          "true_visible_rejected": 14,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 6.951465489217745,
+          "median_ROI_error": 6.187304194863802,
+          "within3": 17,
+          "accepted_within3": 8,
+          "true_visible_accepted": 24,
+          "true_visible_rejected": 25,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.4851437210876415,
+          "median_ROI_error": 0.9656793852467374,
+          "within3": 46,
+          "accepted_within3": 46,
+          "true_visible_accepted": 51,
+          "true_visible_rejected": 3,
+          "invisible_accepted": 3,
+          "invisible_rejected": 1
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 9.157805956109076,
+          "median_ROI_error": 9.242142579602916,
+          "within3": 12,
+          "accepted_within3": 5,
+          "true_visible_accepted": 17,
+          "true_visible_rejected": 28,
+          "invisible_accepted": 2,
+          "invisible_rejected": 9
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.603166035618144,
+          "median_ROI_error": 0.8906211594947891,
+          "within3": 31,
+          "accepted_within3": 30,
+          "true_visible_accepted": 41,
+          "true_visible_rejected": 6,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 45.98500000000058
+  },
+  {
+    "step": 2800,
+    "loss": 0.9862971305847168,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 7.304850390789379,
+      "visible_false_reject_rate": 0.3422818791946309,
+      "known_invisible_false_accept_rate": 0.3157894736842105,
+      "selection_score": 3.408810956826178,
+      "masked_focal": 1.5336996820949067,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 11.938190811840085,
+          "median_ROI_error": 11.547240319206345,
+          "within3": 1,
+          "accepted_within3": 0,
+          "true_visible_accepted": 8,
+          "true_visible_rejected": 43,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 8.646747617047582,
+          "median_ROI_error": 8.357533656212736,
+          "within3": 19,
+          "accepted_within3": 15,
+          "true_visible_accepted": 36,
+          "true_visible_rejected": 16,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 6.442868116044197,
+          "median_ROI_error": 5.984472512216718,
+          "within3": 17,
+          "accepted_within3": 14,
+          "true_visible_accepted": 37,
+          "true_visible_rejected": 12,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.5083619990503725,
+          "median_ROI_error": 0.9820985050167664,
+          "within3": 47,
+          "accepted_within3": 47,
+          "true_visible_accepted": 51,
+          "true_visible_rejected": 3,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 10.283007380505902,
+          "median_ROI_error": 9.906913811304534,
+          "within3": 11,
+          "accepted_within3": 7,
+          "true_visible_accepted": 22,
+          "true_visible_rejected": 23,
+          "invisible_accepted": 3,
+          "invisible_rejected": 8
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.009926420248136,
+          "median_ROI_error": 0.7651707745495844,
+          "within3": 34,
+          "accepted_within3": 34,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 54.03199999999924
+  },
+  {
+    "step": 3200,
+    "loss": 1.0349129438400269,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 7.280198450993306,
+      "visible_false_reject_rate": 0.3691275167785235,
+      "known_invisible_false_accept_rate": 0.2631578947368421,
+      "selection_score": 3.3221761232499762,
+      "masked_focal": 1.5592549191225296,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 10.664600913762603,
+          "median_ROI_error": 9.377404652516818,
+          "within3": 1,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 51,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 9.203933595767293,
+          "median_ROI_error": 10.964220754819877,
+          "within3": 15,
+          "accepted_within3": 12,
+          "true_visible_accepted": 37,
+          "true_visible_rejected": 15,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 7.059690220604367,
+          "median_ROI_error": 4.098877389745614,
+          "within3": 18,
+          "accepted_within3": 11,
+          "true_visible_accepted": 30,
+          "true_visible_rejected": 19,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.5586409004279544,
+          "median_ROI_error": 0.9409341993749234,
+          "within3": 46,
+          "accepted_within3": 45,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 2,
+          "invisible_rejected": 2
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 9.958858792360198,
+          "median_ROI_error": 9.899607210576688,
+          "within3": 10,
+          "accepted_within3": 8,
+          "true_visible_accepted": 29,
+          "true_visible_rejected": 16,
+          "invisible_accepted": 2,
+          "invisible_rejected": 9
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.235466283037426,
+          "median_ROI_error": 0.789909849188624,
+          "within3": 33,
+          "accepted_within3": 32,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 3,
+          "invisible_rejected": 6
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 61.46899999999732
+  },
+  {
+    "step": 3600,
+    "loss": 1.0920456647872925,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 7.197328856040971,
+      "visible_false_reject_rate": 0.3523489932885906,
+      "known_invisible_false_accept_rate": 0.34210526315789475,
+      "selection_score": 3.4356691382847035,
+      "masked_focal": 1.5195815099165744,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 11.459983138633826,
+          "median_ROI_error": 10.519824833780415,
+          "within3": 1,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 51,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 9.773145706780154,
+          "median_ROI_error": 10.96386801380129,
+          "within3": 15,
+          "accepted_within3": 12,
+          "true_visible_accepted": 34,
+          "true_visible_rejected": 18,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 6.099006251246686,
+          "median_ROI_error": 3.383452117802648,
+          "within3": 21,
+          "accepted_within3": 19,
+          "true_visible_accepted": 40,
+          "true_visible_rejected": 9,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.578142763422182,
+          "median_ROI_error": 0.9110122536645114,
+          "within3": 45,
+          "accepted_within3": 44,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 8.77937131866938,
+          "median_ROI_error": 9.393358245020709,
+          "within3": 12,
+          "accepted_within3": 8,
+          "true_visible_accepted": 27,
+          "true_visible_rejected": 18,
+          "invisible_accepted": 3,
+          "invisible_rejected": 8
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.494323957493597,
+          "median_ROI_error": 0.805763656926198,
+          "within3": 33,
+          "accepted_within3": 32,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 6,
+          "invisible_rejected": 3
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 69.76599999999598
+  },
+  {
+    "step": 4000,
+    "loss": 1.1268857717514038,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 6.674817049687706,
+      "visible_false_reject_rate": 0.34563758389261745,
+      "known_invisible_false_accept_rate": 0.2894736842105263,
+      "selection_score": 3.1495239688762386,
+      "masked_focal": 1.5155639448421914,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 11.304968265342758,
+          "median_ROI_error": 10.468297542519208,
+          "within3": 3,
+          "accepted_within3": 1,
+          "true_visible_accepted": 5,
+          "true_visible_rejected": 46,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 6.0140605014972826,
+          "median_ROI_error": 2.301657186529096,
+          "within3": 30,
+          "accepted_within3": 23,
+          "true_visible_accepted": 40,
+          "true_visible_rejected": 12,
+          "invisible_accepted": 0,
+          "invisible_rejected": 3
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 6.46502003190738,
+          "median_ROI_error": 3.3726675008498326,
+          "within3": 21,
+          "accepted_within3": 17,
+          "true_visible_accepted": 34,
+          "true_visible_rejected": 15,
+          "invisible_accepted": 2,
+          "invisible_rejected": 5
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.4411999280212715,
+          "median_ROI_error": 0.8964477895667833,
+          "within3": 47,
+          "accepted_within3": 47,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 9.695248493035555,
+          "median_ROI_error": 9.539635792719743,
+          "within3": 12,
+          "accepted_within3": 7,
+          "true_visible_accepted": 24,
+          "true_visible_rejected": 21,
+          "invisible_accepted": 3,
+          "invisible_rejected": 8
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 4.128405078321993,
+          "median_ROI_error": 0.7785433075814394,
+          "within3": 33,
+          "accepted_within3": 31,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 78.31299999999464
+  },
+  {
+    "step": 4400,
+    "loss": 1.2805826663970947,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 6.573834206440487,
+      "visible_false_reject_rate": 0.33221476510067116,
+      "known_invisible_false_accept_rate": 0.4473684210526316,
+      "selection_score": 3.41822967601943,
+      "masked_focal": 1.5381179679960213,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 12.34867332193384,
+          "median_ROI_error": 12.493399488166146,
+          "within3": 3,
+          "accepted_within3": 0,
+          "true_visible_accepted": 0,
+          "true_visible_rejected": 51,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 6.55736470961486,
+          "median_ROI_error": 2.5168045057982895,
+          "within3": 28,
+          "accepted_within3": 20,
+          "true_visible_accepted": 38,
+          "true_visible_rejected": 14,
+          "invisible_accepted": 2,
+          "invisible_rejected": 1
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 5.570814318451316,
+          "median_ROI_error": 3.0724355165648323,
+          "within3": 24,
+          "accepted_within3": 18,
+          "true_visible_accepted": 35,
+          "true_visible_rejected": 14,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.5808419279664836,
+          "median_ROI_error": 0.917800488882581,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 51,
+          "true_visible_rejected": 3,
+          "invisible_accepted": 2,
+          "invisible_rejected": 2
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 8.581390616234996,
+          "median_ROI_error": 9.213465477068667,
+          "within3": 12,
+          "accepted_within3": 9,
+          "true_visible_accepted": 32,
+          "true_visible_rejected": 13,
+          "invisible_accepted": 4,
+          "invisible_rejected": 7
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.803920344441423,
+          "median_ROI_error": 0.7955265326152291,
+          "within3": 34,
+          "accepted_within3": 34,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 6,
+          "invisible_rejected": 3
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 86.93799999999464
+  },
+  {
+    "step": 4800,
+    "loss": 1.0651177167892456,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 6.096669299873077,
+      "visible_false_reject_rate": 0.33221476510067116,
+      "known_invisible_false_accept_rate": 0.39473684210526316,
+      "selection_score": 3.15391154926889,
+      "masked_focal": 1.4917510563895207,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 10.748356548592264,
+          "median_ROI_error": 9.01959937776692,
+          "within3": 5,
+          "accepted_within3": 1,
+          "true_visible_accepted": 3,
+          "true_visible_rejected": 48,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 5.9304028466499155,
+          "median_ROI_error": 2.2328083616799423,
+          "within3": 31,
+          "accepted_within3": 28,
+          "true_visible_accepted": 45,
+          "true_visible_rejected": 7,
+          "invisible_accepted": 3,
+          "invisible_rejected": 0
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 4.831491758499538,
+          "median_ROI_error": 2.1948760607085482,
+          "within3": 28,
+          "accepted_within3": 25,
+          "true_visible_accepted": 40,
+          "true_visible_rejected": 9,
+          "invisible_accepted": 4,
+          "invisible_rejected": 3
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.4063010566946637,
+          "median_ROI_error": 0.7975559589531137,
+          "within3": 48,
+          "accepted_within3": 48,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 9.222812667739579,
+          "median_ROI_error": 9.469858084737638,
+          "within3": 13,
+          "accepted_within3": 8,
+          "true_visible_accepted": 20,
+          "true_visible_rejected": 25,
+          "invisible_accepted": 1,
+          "invisible_rejected": 10
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.4406509210625,
+          "median_ROI_error": 0.7762821308907489,
+          "within3": 36,
+          "accepted_within3": 33,
+          "true_visible_accepted": 41,
+          "true_visible_rejected": 6,
+          "invisible_accepted": 6,
+          "invisible_rejected": 3
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 96.96899999999732
+  },
+  {
+    "step": 5200,
+    "loss": 1.314840316772461,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.671015079917932,
+      "visible_false_reject_rate": 0.3288590604026846,
+      "known_invisible_false_accept_rate": 0.3684210526315789,
+      "selection_score": 2.9560395256384866,
+      "masked_focal": 1.4868261934126783,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 11.033344674950493,
+          "median_ROI_error": 9.430921681830517,
+          "within3": 6,
+          "accepted_within3": 3,
+          "true_visible_accepted": 9,
+          "true_visible_rejected": 42,
+          "invisible_accepted": 0,
+          "invisible_rejected": 4
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 4.403110604829792,
+          "median_ROI_error": 1.9612730156111702,
+          "within3": 35,
+          "accepted_within3": 28,
+          "true_visible_accepted": 39,
+          "true_visible_rejected": 13,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 4.436892149298679,
+          "median_ROI_error": 2.242951915982802,
+          "within3": 29,
+          "accepted_within3": 25,
+          "true_visible_accepted": 40,
+          "true_visible_rejected": 9,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.528063788916804,
+          "median_ROI_error": 0.8735491992986921,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 2,
+          "invisible_rejected": 2
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.963861056738781,
+          "median_ROI_error": 8.711606094315396,
+          "within3": 15,
+          "accepted_within3": 8,
+          "true_visible_accepted": 23,
+          "true_visible_rejected": 22,
+          "invisible_accepted": 3,
+          "invisible_rejected": 8
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.6608182047730464,
+          "median_ROI_error": 0.8084088375518028,
+          "within3": 35,
+          "accepted_within3": 33,
+          "true_visible_accepted": 39,
+          "true_visible_rejected": 8,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 107.875
+  },
+  {
+    "step": 5600,
+    "loss": 0.9325453042984009,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.581316639286613,
+      "visible_false_reject_rate": 0.3053691275167785,
+      "known_invisible_false_accept_rate": 0.4473684210526316,
+      "selection_score": 3.060544849384246,
+      "masked_focal": 1.4690031613279508,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 10.613039509464137,
+          "median_ROI_error": 9.419006277203446,
+          "within3": 8,
+          "accepted_within3": 4,
+          "true_visible_accepted": 8,
+          "true_visible_rejected": 43,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 4.871932713982535,
+          "median_ROI_error": 1.9168067831593116,
+          "within3": 34,
+          "accepted_within3": 30,
+          "true_visible_accepted": 41,
+          "true_visible_rejected": 11,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 4.121003094203358,
+          "median_ROI_error": 2.2598370583503984,
+          "within3": 29,
+          "accepted_within3": 29,
+          "true_visible_accepted": 44,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 4,
+          "invisible_rejected": 3
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.690686905548886,
+          "median_ROI_error": 0.9262301313230532,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.675236590484737,
+          "median_ROI_error": 7.804943068366872,
+          "within3": 15,
+          "accepted_within3": 9,
+          "true_visible_accepted": 24,
+          "true_visible_rejected": 21,
+          "invisible_accepted": 4,
+          "invisible_rejected": 7
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.51600102203603,
+          "median_ROI_error": 0.7746583578168263,
+          "within3": 35,
+          "accepted_within3": 34,
+          "true_visible_accepted": 40,
+          "true_visible_rejected": 7,
+          "invisible_accepted": 6,
+          "invisible_rejected": 3
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 116.01599999999598
+  },
+  {
+    "step": 6000,
+    "loss": 1.2322983741760254,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.5001548445565875,
+      "visible_false_reject_rate": 0.2785234899328859,
+      "known_invisible_false_accept_rate": 0.42105263157894735,
+      "selection_score": 2.9540137012763097,
+      "masked_focal": 1.468735227648844,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 10.645727561169892,
+          "median_ROI_error": 9.396707704223175,
+          "within3": 9,
+          "accepted_within3": 4,
+          "true_visible_accepted": 9,
+          "true_visible_rejected": 42,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 4.1769370950365365,
+          "median_ROI_error": 1.8449793964655086,
+          "within3": 35,
+          "accepted_within3": 35,
+          "true_visible_accepted": 46,
+          "true_visible_rejected": 6,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 4.208877629942008,
+          "median_ROI_error": 1.9933146722746524,
+          "within3": 30,
+          "accepted_within3": 28,
+          "true_visible_accepted": 44,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 4,
+          "invisible_rejected": 3
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 2.7758484721876964,
+          "median_ROI_error": 0.8706628953183287,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.930261693010766,
+          "median_ROI_error": 7.779978014288083,
+          "within3": 15,
+          "accepted_within3": 8,
+          "true_visible_accepted": 23,
+          "true_visible_rejected": 22,
+          "invisible_accepted": 4,
+          "invisible_rejected": 7
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.263276615992625,
+          "median_ROI_error": 0.7569093606622047,
+          "within3": 36,
+          "accepted_within3": 36,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 123.78199999999924
+  },
+  {
+    "step": 6400,
+    "loss": 1.174484372138977,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.416067498708302,
+      "visible_false_reject_rate": 0.2751677852348993,
+      "known_invisible_false_accept_rate": 0.42105263157894735,
+      "selection_score": 2.9226288812955614,
+      "masked_focal": 1.4665576235559963,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 9.387828022608826,
+          "median_ROI_error": 8.376939369896343,
+          "within3": 10,
+          "accepted_within3": 4,
+          "true_visible_accepted": 11,
+          "true_visible_rejected": 40,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 5.025360786010163,
+          "median_ROI_error": 1.9067487192290313,
+          "within3": 33,
+          "accepted_within3": 31,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 10,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 3.7562685054947154,
+          "median_ROI_error": 2.0100872123112223,
+          "within3": 30,
+          "accepted_within3": 29,
+          "true_visible_accepted": 44,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 4,
+          "invisible_rejected": 3
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 3.0491354411170004,
+          "median_ROI_error": 0.9144721644480827,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 49,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.951686143445562,
+          "median_ROI_error": 8.630477500958364,
+          "within3": 14,
+          "accepted_within3": 11,
+          "true_visible_accepted": 27,
+          "true_visible_rejected": 18,
+          "invisible_accepted": 4,
+          "invisible_rejected": 7
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.3261260935735493,
+          "median_ROI_error": 0.7540363988123542,
+          "within3": 35,
+          "accepted_within3": 34,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 132.01599999999598
+  },
+  {
+    "step": 6800,
+    "loss": 0.846433162689209,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.397884882053744,
+      "visible_false_reject_rate": 0.2785234899328859,
+      "known_invisible_false_accept_rate": 0.42105263157894735,
+      "selection_score": 2.919923713775362,
+      "masked_focal": 1.4597823603841282,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 9.392835321854632,
+          "median_ROI_error": 8.50360732722742,
+          "within3": 10,
+          "accepted_within3": 6,
+          "true_visible_accepted": 15,
+          "true_visible_rejected": 36,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 5.050424992979377,
+          "median_ROI_error": 1.8923832644310332,
+          "within3": 34,
+          "accepted_within3": 31,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 9,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 3.8545947611916214,
+          "median_ROI_error": 2.045850236906212,
+          "within3": 30,
+          "accepted_within3": 30,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 6,
+          "invisible_accepted": 4,
+          "invisible_rejected": 3
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 3.04851055814169,
+          "median_ROI_error": 0.9046742945872983,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 49,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.582744609301702,
+          "median_ROI_error": 7.4300733616272945,
+          "within3": 15,
+          "accepted_within3": 9,
+          "true_visible_accepted": 23,
+          "true_visible_rejected": 22,
+          "invisible_accepted": 4,
+          "invisible_rejected": 7
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.458199048853439,
+          "median_ROI_error": 0.753480958931454,
+          "within3": 35,
+          "accepted_within3": 34,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 139.9539999999979
+  },
+  {
+    "step": 7200,
+    "loss": 1.0007413625717163,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.241079609585408,
+      "visible_false_reject_rate": 0.25838926174496646,
+      "known_invisible_false_accept_rate": 0.42105263157894735,
+      "selection_score": 2.8475210614313307,
+      "masked_focal": 1.4589553639392725,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 9.6131558263318,
+          "median_ROI_error": 8.923658085528391,
+          "within3": 11,
+          "accepted_within3": 5,
+          "true_visible_accepted": 12,
+          "true_visible_rejected": 39,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 3.927420080294361,
+          "median_ROI_error": 1.7648473286259516,
+          "within3": 35,
+          "accepted_within3": 31,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 9,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 3.803564343282579,
+          "median_ROI_error": 1.8321077119281457,
+          "within3": 31,
+          "accepted_within3": 30,
+          "true_visible_accepted": 46,
+          "true_visible_rejected": 3,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 3.057504298896638,
+          "median_ROI_error": 0.9197447080590783,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 49,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.580128906347056,
+          "median_ROI_error": 7.309119167626609,
+          "within3": 15,
+          "accepted_within3": 11,
+          "true_visible_accepted": 30,
+          "true_visible_rejected": 15,
+          "invisible_accepted": 5,
+          "invisible_rejected": 6
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.4647042023600134,
+          "median_ROI_error": 0.7760100318357375,
+          "within3": 35,
+          "accepted_within3": 34,
+          "true_visible_accepted": 41,
+          "true_visible_rejected": 6,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 148.51599999999598
+  },
+  {
+    "step": 7600,
+    "loss": 0.9867811799049377,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.317788147056067,
+      "visible_false_reject_rate": 0.23825503355704697,
+      "known_invisible_false_accept_rate": 0.42105263157894735,
+      "selection_score": 2.8529563457336304,
+      "masked_focal": 1.4586074232255053,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 9.426565700762984,
+          "median_ROI_error": 8.388386885235304,
+          "within3": 12,
+          "accepted_within3": 6,
+          "true_visible_accepted": 17,
+          "true_visible_rejected": 34,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 4.466348216769541,
+          "median_ROI_error": 1.8190344637170357,
+          "within3": 33,
+          "accepted_within3": 30,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 10,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 3.958263466768284,
+          "median_ROI_error": 2.0698427440914315,
+          "within3": 30,
+          "accepted_within3": 30,
+          "true_visible_accepted": 47,
+          "true_visible_rejected": 2,
+          "invisible_accepted": 4,
+          "invisible_rejected": 3
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 3.0501332026389045,
+          "median_ROI_error": 0.9145269347490007,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 50,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.545804522277087,
+          "median_ROI_error": 7.422764005843281,
+          "within3": 16,
+          "accepted_within3": 11,
+          "true_visible_accepted": 29,
+          "true_visible_rejected": 16,
+          "invisible_accepted": 5,
+          "invisible_rejected": 6
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.459613773119605,
+          "median_ROI_error": 0.770352715821455,
+          "within3": 35,
+          "accepted_within3": 34,
+          "true_visible_accepted": 42,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 4,
+          "invisible_rejected": 5
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 156.59399999999732
+  },
+  {
+    "step": 8000,
+    "loss": 1.0242857933044434,
+    "validation": {
+      "images": 59,
+      "point_mean_equal_identity_ROI": 5.310958503908137,
+      "visible_false_reject_rate": 0.26174496644295303,
+      "known_invisible_false_accept_rate": 0.39473684210526316,
+      "selection_score": 2.821538151956192,
+      "masked_focal": 1.4628718483368022,
+      "by_identity": {
+        "outer_psi_5_text_centroid": {
+          "coordinate_count": 51,
+          "mean_ROI_error": 9.528407666242325,
+          "median_ROI_error": 8.51789838859289,
+          "within3": 11,
+          "accepted_within3": 6,
+          "true_visible_accepted": 17,
+          "true_visible_rejected": 34,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "outer_psi_10_text_centroid": {
+          "coordinate_count": 52,
+          "mean_ROI_error": 3.916452791034653,
+          "median_ROI_error": 1.7694656584654718,
+          "within3": 36,
+          "accepted_within3": 30,
+          "true_visible_accepted": 41,
+          "true_visible_rejected": 11,
+          "invisible_accepted": 1,
+          "invisible_rejected": 2
+        },
+        "outer_psi_15_text_centroid": {
+          "coordinate_count": 49,
+          "mean_ROI_error": 4.108329646759834,
+          "median_ROI_error": 2.080457057542883,
+          "within3": 30,
+          "accepted_within3": 30,
+          "true_visible_accepted": 46,
+          "true_visible_rejected": 3,
+          "invisible_accepted": 3,
+          "invisible_rejected": 4
+        },
+        "upper_basketball_logo_centroid": {
+          "coordinate_count": 54,
+          "mean_ROI_error": 3.0206645885524486,
+          "median_ROI_error": 0.8612586939762672,
+          "within3": 45,
+          "accepted_within3": 45,
+          "true_visible_accepted": 49,
+          "true_visible_rejected": 5,
+          "invisible_accepted": 1,
+          "invisible_rejected": 3
+        },
+        "middle_soccer_logo_centroid": {
+          "coordinate_count": 45,
+          "mean_ROI_error": 7.525944668531083,
+          "median_ROI_error": 7.416398127570918,
+          "within3": 16,
+          "accepted_within3": 10,
+          "true_visible_accepted": 24,
+          "true_visible_rejected": 21,
+          "invisible_accepted": 4,
+          "invisible_rejected": 7
+        },
+        "lower_striped_ball_print_centroid": {
+          "coordinate_count": 47,
+          "mean_ROI_error": 3.765951662328478,
+          "median_ROI_error": 0.8090256799220819,
+          "within3": 34,
+          "accepted_within3": 34,
+          "true_visible_accepted": 43,
+          "true_visible_rejected": 4,
+          "invisible_accepted": 5,
+          "invisible_rejected": 4
+        }
+      },
+      "pressure_error_evaluated": false,
+      "visibility_is_evidence_not_calibrated_probability": true
+    },
+    "elapsed_s": 168.28199999999924
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED",
+  "started_UTC": "2026-11-03T01:43:20.333968+00:00",
+  "manifest_sha256": "9df9e85087bb36269ab42ce26673d7e6c58b3b3b93f8b7a8c4b20bbe5514cfc1",
+  "selected_variant": "FINAL_U7_TRAIN_CORRECTED",
+  "selected_point_model": "PRIOR_B857",
+  "C_open_started": true,
+  "completed_UTC": "2026-11-03T01:43:23.287989+00:00",
+  "report_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\FINAL_C_ONCE\\final_C_evaluation.json",
+  "report_sha256": "7c5c7b944e9ff60faf064f646b23dfdb741a3d1845edaf1fdac672dab9fa96ce"
+}

@@ -1,0 +1,4 @@
+#define POLAR_SHIFT0 10
+#define POLAR_SHIFT1 7
+#define POLAR_SHIFT2 7
+#define POLAR_SHIFT3 6

@@ -1,0 +1,90 @@
+{
+  "status": "SELECTED_FULL_ELF_REAL48K_LINK_AND_STATIC_STACK_PASS",
+  "ELF_sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc",
+  "TCM": {
+    "bytes": 49152,
+    "bss_start": 134229816,
+    "end": 134263760,
+    "stack_limit": 134264832,
+    "stack_bytes": 2048,
+    "gap": 1072,
+    "arena_bytes": 32768
+  },
+  "actual_gap_after_heap_alignment": 1072,
+  "stack": {
+    "reserved": 2048,
+    "static_conservative_bound": 1584,
+    "remaining": 464,
+    "actual_MCU_watermark": false,
+    "frames": {
+      "main": 64,
+      "mroi_process_one_with_consumer": 192,
+      "finish": 368,
+      "mlg_consensus_q8": 592,
+      "solve": 112,
+      "project": 32,
+      "mlg_atan2_deg_q16": 48
+    },
+    "exception_entry": 80,
+    "exception_handler": 32,
+    "helper_allowance": 64
+  },
+  "su_sources": [
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\landmark_geometry.su",
+      "sha256": "20063993b6b0c009f5db7dde2687098542983af5dd9b7522ea8f79ebd781de40"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_pose_frontend.su",
+      "sha256": "c73e204063487fcc55ac0ba0a36865070321eea120beb1e49b7590722d1c6b39"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_pose_matcher.su",
+      "sha256": "491678a7bb06a8f57e86899b75615cc335e68de69a4508e60f3da11b38ccfa3c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\minimal_app.su",
+      "sha256": "727a875d2f503b645a9466c950e3d82558fe7c550bc15a60b5586ffb580a1575"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\minimal_libc.su",
+      "sha256": "90ed69e8b15fc22c4d0ebef0c4b68d3e1d2e9c13e07ee884e5f012a477e9c344"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\mroi_c4.su",
+      "sha256": "835c8a1077628d69d101036a504d957fb8702f78e0999981beb2f103cda011fc"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\mroi_client.su",
+      "sha256": "a9b62a39705ceff21168012d4f42dad3cf818ee67fde364454731d5743c4c7a3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\mroi_decode.su",
+      "sha256": "cca6a3e74df0ec2487f8129eb3edd7c9909af9f86210d6f1bcb31489d6595bd5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\platform_binding.su",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\reader_numeric.su",
+      "sha256": "3df715417574f189ae81d6ac0f9917d9874ba2af93010518bb4a46ee4b46580e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\reader_runtime.su",
+      "sha256": "8fef56d414e1f33a557597708230a3fa164f3994e1c5274c74773d9885ce7dd3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\reader_sigmoid.su",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\soc_plat.su",
+      "sha256": "8a363a0de6dc505cbb1cae1a83678ff9fe853b8c18ad8eca28ba569e7efb4332"
+    }
+  ],
+  "Flash_payload_bytes": 47480,
+  "Flash_limit_bytes": 65536,
+  "no_virtual_memory_expansion": true,
+  "device": false
+}

@@ -1,0 +1,14 @@
+{
+  "images": 295,
+  "heads_per_image": 6,
+  "point_displacement_mean": 2.0711231487718518,
+  "point_displacement_max": 104.30192650577833,
+  "float_accepted_heads": 1177,
+  "integer_accepted_heads": 1026,
+  "evidence_acceptance_flips": 233,
+  "peak_absdifference_max": 0.16764879089892393,
+  "margin_absdifference_max": 0.22216115463593838,
+  "quantization_parameters_selected_on_train_only": true,
+  "unit": "ROI pixels, not pressure",
+  "full_readout_evaluated": false
+}

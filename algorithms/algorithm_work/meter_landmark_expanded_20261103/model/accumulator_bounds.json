@@ -1,0 +1,50 @@
+[
+  {
+    "layer": "first",
+    "bound": 129873
+  },
+  {
+    "layer": "local.0",
+    "bound": 65903
+  },
+  {
+    "layer": "local.2",
+    "bound": 48303
+  },
+  {
+    "layer": "downs.0.0",
+    "bound": 107195
+  },
+  {
+    "layer": "downs.0.2",
+    "bound": 37274
+  },
+  {
+    "layer": "downs.1.0",
+    "bound": 113780
+  },
+  {
+    "layer": "downs.1.2",
+    "bound": 33223
+  },
+  {
+    "layer": "downs.2.0",
+    "bound": 143886
+  },
+  {
+    "layer": "downs.2.2",
+    "bound": 40773
+  },
+  {
+    "layer": "context.0",
+    "bound": 125477
+  },
+  {
+    "layer": "fuse",
+    "bound": 29351
+  },
+  {
+    "layer": "head",
+    "bound": 23168
+  }
+]

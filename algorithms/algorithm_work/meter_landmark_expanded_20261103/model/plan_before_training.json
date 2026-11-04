@@ -1,0 +1,75 @@
+{
+  "candidate": "C4_SIX_IDENTIFIED_PRINT_HEATMAPS_EXPANDED_AB_DEF",
+  "seed": 1109,
+  "steps": 8000,
+  "batch_size": 12,
+  "optimizer": "Adam",
+  "learning_rate": 0.003,
+  "minimum_learning_rate": 0.00015,
+  "evaluation_interval": 400,
+  "threads": 4,
+  "initialization": "Random scratch Kaimingfan_in, fuse+.05, headstd.01 bias-4.59511985",
+  "input": "Whole128U8ROI normalized(pixel-128)/128; no predicted orGT pose/needle/psi/masks as input",
+  "heads": [
+    "outer_psi_5_text_centroid",
+    "outer_psi_10_text_centroid",
+    "outer_psi_15_text_centroid",
+    "upper_basketball_logo_centroid",
+    "middle_soccer_logo_centroid",
+    "lower_striped_ball_print_centroid"
+  ],
+  "output": "6x64heatmaps, ROIpoint=heatpoint*2",
+  "visibility": "visible/reliablepartial coords supervise peak; explicitlyoccluded/absent supervise no-visiblepeak; unknown ignored",
+  "visible_without_coordinate": "Ignore heatloss, never make positivevisible point a zero-map negative",
+  "augmentation": {
+    "rotation_deg": [
+      -15,
+      15
+    ],
+    "scale": [
+      0.92,
+      1.08
+    ],
+    "translation_ROIpx": [
+      -4,
+      4
+    ],
+    "gain": [
+      0.8,
+      1.2
+    ],
+    "bias": [
+      -12,
+      12
+    ],
+    "noise_probability": 0.25,
+    "noise_sigma": [
+      0,
+      2
+    ],
+    "synthetic_occlusion": false,
+    "out_of_bounds_supervision": "drop thathead mask, neverzero-mapnegative"
+  },
+  "heat_sigma": "max(1.25heatpixels, declared_uncertainty_ROI*scale/2)",
+  "fixed_point_evidence": {
+    "peak_min": 0.3,
+    "margin_min": 0.02,
+    "far_exclusion_heat_radius": 5
+  },
+  "selection": "G equal-identity unconditional pointMAE/3 + known-visible FNR +2*known-invisible FPR; noPSI selection",
+  "point_MAE_confidence_filtered": false,
+  "step0": "Random newlandmarkbranch; trained oldhub/polar remain frozen in system control",
+  "train_groups": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "F"
+  ],
+  "train_images_predeclared": 295,
+  "same_architecture_and_scratch_seed_as_first_candidate": true,
+  "old_hub_polar_integer_parameters_and_runtime_frozen": true,
+  "one_candidate_no_G_parameter_search": true,
+  "C_H_opened": false,
+  "hardware_actions": false
+}

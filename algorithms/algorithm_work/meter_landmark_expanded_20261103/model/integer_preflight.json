@@ -1,0 +1,52 @@
+{
+  "status": "INTEGER_MATH_SYNTHETIC_PREFLIGHT_PASS",
+  "checks": 122970,
+  "plan": {
+    "input": "U8-128 signed8, real scale1/128",
+    "weights": "signed8, power2 scale, RNEeven",
+    "biases": "signed32 at input_scale*weight_scale",
+    "activation": "unsigned7_relu_or_signed8_final",
+    "shifts": "signed power2; rightshift signed-magnitude RNEeven",
+    "final_logit_scale": 0.0625,
+    "calibration": "AB+DEF295 original and4fixedtrainonlyaugmentation views each; noGscaleselection",
+    "calibration_seed": 1110,
+    "calibration_views_per_image": 4,
+    "augmentation": {
+      "roll_deg": [
+        -15,
+        15
+      ],
+      "scale": [
+        0.92,
+        1.08
+      ],
+      "translation": [
+        -4,
+        4
+      ],
+      "gain": [
+        0.8,
+        1.2
+      ],
+      "bias": [
+        -12,
+        12
+      ],
+      "noise": false
+    },
+    "activation_scale": "2^ceil(log2(max_positive/120)), lowerfloor2^-20",
+    "fuse": "Fold local4/context8 branchscale into weights; no new feature rescale",
+    "decoder": {
+      "sigmoid": "RNEeven(32767sigmoid(q/16))",
+      "peak_min_q15": 9831,
+      "margin_min_q15": 656,
+      "far_exclusion_heat_radius": 5,
+      "point": "ROI_Q8=RNEeven(sum_w*heat_coordinate*512/sum_w)",
+      "evidence_not_calibrated_probability": true
+    },
+    "whole_application_link_or_board_verified": false
+  },
+  "source_sha256": "2ea5077abc4d244389b300bef39019cf0f1751fa4c3c3f9eba2b82a89b169b7f",
+  "G_or_labels_read": false,
+  "layer_trace_layout": "CHW_numpy_and_HWC_export"
+}
