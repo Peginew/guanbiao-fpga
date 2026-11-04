@@ -1,0 +1,11 @@
+{
+  "status": "SYNTHETIC_ACCOUNTING_ONLY_NOT_MODEL_ADOPTION_OR_MCU_FIT",
+  "artifacts_sha256": {
+    "account_static_roll.py": "12151f5dec1da033c5da26b2f2faea998e627e128c6192f3c60965e8a8469f16",
+    "README.md": "d423e7bf2af33a0620244784db7b73418ca6e040112488fed5c78b2efdb53296",
+    "static_roll_cost.json": "36c82c81291cbabbe3526e63ba5f18b4161b389862df93e782f02c11e10e87c5",
+    "逐层成本.csv": "f32cc822f7d26f58d177d652605f55b8ec7875454f7cf653eccbe5283a18c5c4"
+  },
+  "compile_or_device_actions": false,
+  "dataset_pixels_read": false
+}

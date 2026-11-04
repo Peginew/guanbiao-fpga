@@ -1,0 +1,102 @@
+{
+  "outer_psi_5_text_centroid": {
+    "automatic_accepted": 2,
+    "visually_localizable_labels": 51,
+    "automatic_accepted_on_visible": 1,
+    "localization_error_normalized": {
+      "mean": 26.256967530594952,
+      "max": 26.256967530594952,
+      "within3px": 0
+    },
+    "localization_hit_rate_within3px_over_visible": 0.0,
+    "accepted_on_visual_unknown_ids": [
+      "G_053"
+    ],
+    "accepted_on_negative_ids": [],
+    "unknown_label_does_not_prove_absence": true
+  },
+  "outer_psi_10_text_centroid": {
+    "automatic_accepted": 3,
+    "visually_localizable_labels": 52,
+    "automatic_accepted_on_visible": 3,
+    "localization_error_normalized": {
+      "mean": 7.164189538302825,
+      "max": 17.107782114566856,
+      "within3px": 1
+    },
+    "localization_hit_rate_within3px_over_visible": 0.019230769230769232,
+    "accepted_on_visual_unknown_ids": [],
+    "accepted_on_negative_ids": [],
+    "unknown_label_does_not_prove_absence": true
+  },
+  "outer_psi_15_text_centroid": {
+    "automatic_accepted": 14,
+    "visually_localizable_labels": 49,
+    "automatic_accepted_on_visible": 13,
+    "localization_error_normalized": {
+      "mean": 2.214643133196713,
+      "max": 4.32063082660244,
+      "within3px": 9
+    },
+    "localization_hit_rate_within3px_over_visible": 0.1836734693877551,
+    "accepted_on_visual_unknown_ids": [
+      "G_053"
+    ],
+    "accepted_on_negative_ids": [],
+    "unknown_label_does_not_prove_absence": true
+  },
+  "upper_basketball_logo_centroid": {
+    "automatic_accepted": 40,
+    "visually_localizable_labels": 54,
+    "automatic_accepted_on_visible": 39,
+    "localization_error_normalized": {
+      "mean": 1.041548832155558,
+      "max": 9.869603529403632,
+      "within3px": 37
+    },
+    "localization_hit_rate_within3px_over_visible": 0.6851851851851852,
+    "accepted_on_visual_unknown_ids": [
+      "G_053"
+    ],
+    "accepted_on_negative_ids": [],
+    "unknown_label_does_not_prove_absence": true
+  },
+  "middle_soccer_logo_centroid": {
+    "automatic_accepted": 13,
+    "visually_localizable_labels": 45,
+    "automatic_accepted_on_visible": 9,
+    "localization_error_normalized": {
+      "mean": 15.391802751165178,
+      "max": 20.44427486789252,
+      "within3px": 0
+    },
+    "localization_hit_rate_within3px_over_visible": 0.0,
+    "accepted_on_visual_unknown_ids": [
+      "G_014",
+      "G_015",
+      "G_056",
+      "G_057"
+    ],
+    "accepted_on_negative_ids": [],
+    "unknown_label_does_not_prove_absence": true
+  },
+  "lower_striped_ball_print_centroid": {
+    "automatic_accepted": 41,
+    "visually_localizable_labels": 47,
+    "automatic_accepted_on_visible": 37,
+    "localization_error_normalized": {
+      "mean": 1.4757572402832686,
+      "max": 10.604821907795131,
+      "within3px": 33
+    },
+    "localization_hit_rate_within3px_over_visible": 0.7021276595744681,
+    "accepted_on_visual_unknown_ids": [
+      "G_014",
+      "G_017",
+      "G_053",
+      "G_055"
+    ],
+    "accepted_on_negative_ids": [],
+    "unknown_label_does_not_prove_absence": true
+  }
+}

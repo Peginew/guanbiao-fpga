@@ -1,0 +1,31 @@
+{
+  "input": "Frozen proxy ROI128 U8 from existing cache, not nativeSIFT/actualCSI proof",
+  "hub_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "polar_checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+  "thresholds": {
+    "hub_peak": 0.3,
+    "hub_margin": 0.02,
+    "hub_center20": 20,
+    "needle_peak": 0.3,
+    "needle_margin": 0.02,
+    "polar_outside_max": 0.05,
+    "pose_center14": 14,
+    "pose_peak": 0.64,
+    "pose_margin": 0.018,
+    "pose_roll_strict_interior": 24
+  },
+  "visual_reference_rule": "Existing visible in-ROI loss_mask1 heads; declared native uncertainty<=8px; no pressure inversion",
+  "calibration": "Frozen existing candidateB train-only fit, no refitting or extrapolation",
+  "uncertainty": "AI annotations bounded by declaration, not certified gold; PSI reference accuracy unknown",
+  "diagnosis_limits": [
+    "Manual source replacing model evidence is not model recognition.",
+    "Hub reference changes frozen polar feature distribution; not a strict oracle upper bound.",
+    "Ring pose remains estimated and is not ground truth.",
+    "0.25/0.5/1psi distributions are not final accuracy targets.",
+    "Reference-only negatives are ineligible, not successful negative rejection."
+  ],
+  "training": false,
+  "native_SIFT_used": false,
+  "ABC_or_H_opened": false,
+  "device_actions": false
+}

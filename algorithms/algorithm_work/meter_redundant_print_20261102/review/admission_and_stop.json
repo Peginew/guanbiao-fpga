@@ -1,0 +1,26 @@
+{
+  "status": "DIRECTION_AND_CONTRACT_REVIEWED_CANDIDATE_PREFLIGHT_PENDING",
+  "primary_unit": "psi",
+  "scope": "Offline redundant print identities and one automatic ROI128 local-patch candidate; no training or deployment",
+  "baseline_invariant": "Old ring accepted selects the exact old pose with unchanged2211 neural evidence and old calibration. New point missingness/conflicts cannot withdraw any old valid result.",
+  "baseline_invariant_is_not_overall_accuracy_guarantee": true,
+  "admission": [
+    "Whole outer-scale5/10/15 word identities remain distinct; basketball/soccer/striped-ball identities are not interchangeable circles",
+    "D025 is the sole clean patch template; D002 is only angle zero via shared visible TRAIN identities, excluding contaminated source patches",
+    "Automatic query uses onlyROI128 and declared unchanged predicted geometry; G manual coordinates/visibility/PSI cannot select windows, prune candidates or enable inference",
+    "Rotation bank transforms both landmark expected positions and patch orientation aroundC64; image-CW and OpenCV-CCW signs tested before G",
+    "Similarity translation means displacement of normalizedC64, not affine intercept about image origin",
+    "Main support needs3distinct point identities, max-pair baseline30, min-point-distance8, fixed residual/scale/rotation/ambiguity rules; no non-collinearity gate required for similarity",
+    "Manual visual poses and automatic patch poses are separate evidence. Manual native landmarks are not automatic128ROI extraction or gold camera pose",
+    "AllG59/56gauge denominators, old-rejected subset, frontal subset and per-band error gains/losses are reported; no hidden fallback or parameter tuning on G"
+  ],
+  "stop": [
+    "Preserve failed candidate if no useful correct new output or added error risk; no G-driven identity, template, threshold or calibration changes",
+    "Keep exact old outputs even when new marks are occluded; never fill missing labels by layout, PSI or needle predictions",
+    "Runtime memory/operations and MCU fit remain separate; NCC confidence is not calibrated probability and3point consensus is not proof of PSI correctness",
+    "H/ABC, canonical labels, prior models/calibration, other UI/REF work and hardware remain untouched"
+  ],
+  "error_bands_psi": [0.25, 0.5, 1.0],
+  "bands_are_user_final_accuracy_targets": false,
+  "final_review": "Pending frozen point sidecars, automatic candidate, fusion and readout evidence"
+}

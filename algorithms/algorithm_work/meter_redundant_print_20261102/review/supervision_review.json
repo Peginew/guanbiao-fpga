@@ -1,0 +1,148 @@
+{
+  "status": "PASS_RESEARCH_REPLAY_KEEP_OLD_READER_AUTOMATIC_PATCH_NOT_FINAL_SOLUTION",
+  "checks": 1855,
+  "unit": "psi",
+  "source_sha256": {
+    "task_contract.json": "a08dcfab7a31b3b9a1798c094e5efa04c6a3aaa6382094146fc4ea5fb4256eaa",
+    "landmark_geometry.py": "841fb7b8ba7136c479890d04877c698d3ba979514e9029f66e3767e208505fb2",
+    "fusion.py": "5c3c5a1f61b2e29bb0a78bfbc9dbc3d59a2e8980c4bee29d3b6844d2b73019d6",
+    "evaluate_redundant.py": "2dbce5001fca5012b298ab1f4bb644346ab5cf3f7495f5a29907e1b35b179383",
+    "annotations\\print_annotations.jsonl": "0e8c3c8c82c8d2ab38fc7f96a087c2c4fb405e431a894063153fc899b2bd073e",
+    "automatic\\static_point_locator.py": "0f3c3865d59b9bcb82ff3192d5c1ca9307226de8395de9e8c23d996ae85f2eb8",
+    "automatic\\config_frozen_before_G.json": "22c3d7344534d2bcb4d29e41a04b3bbfdf8dde717ac471d1c2245a4a4af3621b",
+    "automatic\\predictions.jsonl": "5560a8495c801d29c56d4c538322a1cd94b08105fbf2ed2ec92a6bf07d9472c3",
+    "results\\comparison_summary.json": "ef479566135efb962e9ec971d02c48a16bfdc661b65a7c70135a8029679d942f"
+  },
+  "numbers": {
+    "old_ring": {
+      "outputs": 21,
+      "denominator": 56,
+      "MAE_psi": 0.15740682142050108,
+      "max_psi": 0.45787038715820216,
+      "bins": {
+        "0.25": 16,
+        "0.5": 21,
+        "1.0": 21
+      },
+      "negative_outputs": 0,
+      "new_output_IDs": [],
+      "frontal16": {
+        "outputs": 9,
+        "denominator": 16,
+        "MAE_psi": 0.13878404245490905,
+        "max_psi": 0.2998855626241248,
+        "bins": {
+          "0.25": 7,
+          "0.5": 9,
+          "1.0": 9
+        },
+        "negative_outputs": 0
+      }
+    },
+    "visual_old_first": {
+      "outputs": 31,
+      "denominator": 56,
+      "MAE_psi": 0.21083075311803776,
+      "max_psi": 0.6085834234222283,
+      "bins": {
+        "0.25": 21,
+        "0.5": 29,
+        "1.0": 31
+      },
+      "negative_outputs": 0,
+      "new_output_IDs": [
+        "G_012",
+        "G_017",
+        "G_020",
+        "G_024",
+        "G_027",
+        "G_034",
+        "G_036",
+        "G_041",
+        "G_042",
+        "G_044"
+      ],
+      "frontal16": {
+        "outputs": 11,
+        "denominator": 16,
+        "MAE_psi": 0.18597986470462208,
+        "max_psi": 0.5666983741109419,
+        "bins": {
+          "0.25": 8,
+          "0.5": 10,
+          "1.0": 11
+        },
+        "negative_outputs": 0
+      }
+    },
+    "automatic_old_first": {
+      "outputs": 22,
+      "denominator": 56,
+      "MAE_psi": 0.15163546243261122,
+      "max_psi": 0.45787038715820216,
+      "bins": {
+        "0.25": 17,
+        "0.5": 22,
+        "1.0": 22
+      },
+      "negative_outputs": 0,
+      "new_output_IDs": [
+        "G_041"
+      ],
+      "frontal16": {
+        "outputs": 9,
+        "denominator": 16,
+        "MAE_psi": 0.13878404245490905,
+        "max_psi": 0.2998855626241248,
+        "bins": {
+          "0.25": 7,
+          "0.5": 9,
+          "1.0": 9
+        },
+        "negative_outputs": 0
+      }
+    }
+  },
+  "old21_unchanged": true,
+  "query_G_visibility_not_used_in_automatic": true,
+  "query_psi_or_true_needle_not_used": true,
+  "judgement": [
+    "Old-first routing preserves all21 original outputs exactly. This does not guarantee new accepted readings are correct.",
+    "AI visual redundant points recover10 outputs but2 exceed0.5psi; native diagnostic labels are not automatic ROI128 extraction or pose gold.",
+    "Automatic patch candidate adds onlyG041, error0.0304369psi; frontal16 remains9 outputs. No broad robustness/reading completion claim.",
+    "Outer5/10 andsoccer point localisation is weak. Keep the identified-reference/routing design, not this expensive weak locator as final implementation.",
+    "76944B FP32bank and491520B named PC scratch alone do not fit48KiB TCM. Quantization/streaming/link/cycles are not implemented or proven."
+  ],
+  "cost": {
+    "template_bank_elements": 19236,
+    "FP32template_bytes": 76944,
+    "hypothetical_INT8_bank_bytes_NOT_IMPLEMENTED": 19236,
+    "canonical_U8_image_bytes": 16384,
+    "actual_query_FP32_image_bytes": 65536,
+    "single_identity_score_FP32_map_bytes": 65536,
+    "single_identity_winner_S16_map_bytes": 32768,
+    "maximum_candidate_centers": 141204,
+    "maximum_nominal_patch_pixel_products": 32335716,
+    "nominal_three_correlation_direct_products": 97007148,
+    "correlation_calls_per_bank": 3,
+    "FP32mask_bytes": 5496,
+    "per_identity_mgrid_two_I64_arrays_bytes": 262144,
+    "per_identity_far_FP32_copy_bytes": 65536,
+    "maximum_query_region_squared_FP32_bytes": 12996,
+    "maximum_five_masked_NCC_FP64_result_arrays_bytes": 67240,
+    "minimum_explicit_PC_image_score_winner_far_mgrid_bytes": 491520,
+    "actual_PC_peak_RAM_unmeasured": true,
+    "operation_count_note": "Patchproducts field is one direct-correlation equivalent; actual maskedNCC computes3correlations plusvariance/divide/sqrt. OpenCV internal algorithm/MCUcycles are not measured.",
+    "PC_mean_ms": 8.921441703908473,
+    "PC_max_ms": 10.778099996969104,
+    "OpenCV_internal_buffers_not_measured": true,
+    "MCU_cycles_or_link_fit_not_proven": true
+  },
+  "manual_visual_scope": "Independent G010..018 andG055..059 overlay pages plus clean D025 patch contact checked; not full354point human-gold recertification",
+  "labels_are_diagnostic_not_blind_gold": true,
+  "similarity_not_full_perspective_or_frontal_quality": true,
+  "error_bands_are_descriptive_not_user_final_tolerance": true,
+  "H_or_ABC_opened": false,
+  "training": false,
+  "hardware_actions": false
+}

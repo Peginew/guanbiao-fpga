@@ -1,0 +1,4730 @@
+{
+  "status": "COMPLETED_REFERENCE_DIAGNOSIS_NOT_MODEL_IMPROVEMENT",
+  "unit": "psi",
+  "variants": {
+    "baseline": {
+      "images": 59,
+      "eligible_images": 59,
+      "eligible_gauges": 56,
+      "valid_readings": 21,
+      "fixed_all_gauge_denominator": 56,
+      "coverage_all56": 0.375,
+      "coverage_eligible": 0.375,
+      "mae_psi": 0.15740682142050108,
+      "max_abs_error_psi": 0.45787038715820216,
+      "error_distribution_psi": {
+        "0.25": 16,
+        "0.5": 21,
+        "1.0": 21
+      },
+      "error_over05psi": 0,
+      "eligible_negative_count": 3,
+      "negative_outputs": 0,
+      "rejection_first_reasons": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "ROI128_RING_AMBIGUOUS": 13
+      },
+      "nonexclusive_conditions": {
+        "calibration_angle_pass": {
+          "failed": 14,
+          "passed": 40,
+          "unavailable": 5
+        },
+        "calibration_psi_pass": {
+          "failed": 9,
+          "passed": 45,
+          "unavailable": 5
+        },
+        "finite_angle_pass": {
+          "failed": 0,
+          "passed": 59,
+          "unavailable": 0
+        },
+        "hub_center20_pass": {
+          "failed": 2,
+          "passed": 57,
+          "unavailable": 0
+        },
+        "hub_margin_pass": {
+          "failed": 4,
+          "passed": 55,
+          "unavailable": 0
+        },
+        "hub_peak_pass": {
+          "failed": 13,
+          "passed": 46,
+          "unavailable": 0
+        },
+        "needle_margin_pass": {
+          "failed": 1,
+          "passed": 58,
+          "unavailable": 0
+        },
+        "needle_peak_pass": {
+          "failed": 7,
+          "passed": 52,
+          "unavailable": 0
+        },
+        "polar_inside_pass": {
+          "failed": 2,
+          "passed": 57,
+          "unavailable": 0
+        },
+        "pose_accepted": {
+          "failed": 27,
+          "passed": 32,
+          "unavailable": 0
+        },
+        "pose_center14_pass": {
+          "failed": 5,
+          "passed": 54,
+          "unavailable": 0
+        },
+        "pose_margin_pass": {
+          "failed": 22,
+          "passed": 32,
+          "unavailable": 5
+        },
+        "pose_score_pass": {
+          "failed": 0,
+          "passed": 54,
+          "unavailable": 5
+        },
+        "pose_search_interior_pass": {
+          "failed": 4,
+          "passed": 50,
+          "unavailable": 5
+        }
+      },
+      "metrics_are_PC_diagnostics_not_board_acceptance": true,
+      "error_bins_are_descriptive_not_user_accuracy_target": true
+    },
+    "reference_direction_keep_model_gates": {
+      "images": 59,
+      "eligible_images": 50,
+      "eligible_gauges": 50,
+      "valid_readings": 20,
+      "fixed_all_gauge_denominator": 56,
+      "coverage_all56": 0.35714285714285715,
+      "coverage_eligible": 0.4,
+      "mae_psi": 0.13888191603591454,
+      "max_abs_error_psi": 0.35931243496866294,
+      "error_distribution_psi": {
+        "0.25": 17,
+        "0.5": 20,
+        "1.0": 20
+      },
+      "error_over05psi": 0,
+      "eligible_negative_count": 0,
+      "negative_outputs": 0,
+      "rejection_first_reasons": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 10,
+        "ROI128_RING_AMBIGUOUS": 12
+      },
+      "nonexclusive_conditions": {
+        "calibration_angle_pass": {
+          "failed": 10,
+          "passed": 37,
+          "unavailable": 3
+        },
+        "calibration_psi_pass": {
+          "failed": 2,
+          "passed": 45,
+          "unavailable": 3
+        },
+        "finite_angle_pass": {
+          "failed": 0,
+          "passed": 50,
+          "unavailable": 0
+        },
+        "hub_center20_pass": {
+          "failed": 1,
+          "passed": 49,
+          "unavailable": 0
+        },
+        "hub_margin_pass": {
+          "failed": 2,
+          "passed": 48,
+          "unavailable": 0
+        },
+        "hub_peak_pass": {
+          "failed": 8,
+          "passed": 42,
+          "unavailable": 0
+        },
+        "needle_margin_pass": {
+          "failed": 0,
+          "passed": 50,
+          "unavailable": 0
+        },
+        "needle_peak_pass": {
+          "failed": 1,
+          "passed": 49,
+          "unavailable": 0
+        },
+        "polar_inside_pass": {
+          "failed": 1,
+          "passed": 49,
+          "unavailable": 0
+        },
+        "pose_accepted": {
+          "failed": 21,
+          "passed": 29,
+          "unavailable": 0
+        },
+        "pose_center14_pass": {
+          "failed": 3,
+          "passed": 47,
+          "unavailable": 0
+        },
+        "pose_margin_pass": {
+          "failed": 18,
+          "passed": 29,
+          "unavailable": 3
+        },
+        "pose_score_pass": {
+          "failed": 0,
+          "passed": 47,
+          "unavailable": 3
+        },
+        "pose_search_interior_pass": {
+          "failed": 2,
+          "passed": 45,
+          "unavailable": 3
+        }
+      },
+      "metrics_are_PC_diagnostics_not_board_acceptance": true,
+      "error_bins_are_descriptive_not_user_accuracy_target": true,
+      "baseline_same_reference_subset": {
+        "images": 50,
+        "eligible_images": 50,
+        "eligible_gauges": 50,
+        "valid_readings": 21,
+        "fixed_all_gauge_denominator": 56,
+        "coverage_all56": 0.375,
+        "coverage_eligible": 0.42,
+        "mae_psi": 0.15740682142050108,
+        "max_abs_error_psi": 0.45787038715820216,
+        "error_distribution_psi": {
+          "0.25": 16,
+          "0.5": 21,
+          "1.0": 21
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 6,
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 10,
+          "ROI128_RING_AMBIGUOUS": 12
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 10,
+            "passed": 37,
+            "unavailable": 3
+          },
+          "calibration_psi_pass": {
+            "failed": 6,
+            "passed": 41,
+            "unavailable": 3
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 2,
+            "passed": 48,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 8,
+            "passed": 42,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 21,
+            "passed": 29,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 3,
+            "passed": 47,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 18,
+            "passed": 29,
+            "unavailable": 3
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 47,
+            "unavailable": 3
+          },
+          "pose_search_interior_pass": {
+            "failed": 2,
+            "passed": 45,
+            "unavailable": 3
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "gained_output_ids": [],
+      "lost_output_ids": [
+        "G_045"
+      ]
+    },
+    "reference_direction_supplies_model_evidence": {
+      "images": 59,
+      "eligible_images": 50,
+      "eligible_gauges": 50,
+      "valid_readings": 22,
+      "fixed_all_gauge_denominator": 56,
+      "coverage_all56": 0.39285714285714285,
+      "coverage_eligible": 0.44,
+      "mae_psi": 0.14029279582050036,
+      "max_abs_error_psi": 0.35931243496866294,
+      "error_distribution_psi": {
+        "0.25": 19,
+        "0.5": 22,
+        "1.0": 22
+      },
+      "error_over05psi": 0,
+      "eligible_negative_count": 0,
+      "negative_outputs": 0,
+      "rejection_first_reasons": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 3,
+        "ROI128_RING_AMBIGUOUS": 18
+      },
+      "nonexclusive_conditions": {
+        "calibration_angle_pass": {
+          "failed": 10,
+          "passed": 37,
+          "unavailable": 3
+        },
+        "calibration_psi_pass": {
+          "failed": 2,
+          "passed": 45,
+          "unavailable": 3
+        },
+        "finite_angle_pass": {
+          "failed": 0,
+          "passed": 50,
+          "unavailable": 0
+        },
+        "hub_center20_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "hub_margin_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "hub_peak_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "needle_margin_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "needle_peak_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "polar_inside_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "pose_accepted": {
+          "failed": 21,
+          "passed": 29,
+          "unavailable": 0
+        },
+        "pose_center14_pass": {
+          "failed": 3,
+          "passed": 47,
+          "unavailable": 0
+        },
+        "pose_margin_pass": {
+          "failed": 18,
+          "passed": 29,
+          "unavailable": 3
+        },
+        "pose_score_pass": {
+          "failed": 0,
+          "passed": 47,
+          "unavailable": 3
+        },
+        "pose_search_interior_pass": {
+          "failed": 2,
+          "passed": 45,
+          "unavailable": 3
+        }
+      },
+      "metrics_are_PC_diagnostics_not_board_acceptance": true,
+      "error_bins_are_descriptive_not_user_accuracy_target": true,
+      "baseline_same_reference_subset": {
+        "images": 50,
+        "eligible_images": 50,
+        "eligible_gauges": 50,
+        "valid_readings": 21,
+        "fixed_all_gauge_denominator": 56,
+        "coverage_all56": 0.375,
+        "coverage_eligible": 0.42,
+        "mae_psi": 0.15740682142050108,
+        "max_abs_error_psi": 0.45787038715820216,
+        "error_distribution_psi": {
+          "0.25": 16,
+          "0.5": 21,
+          "1.0": 21
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 6,
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 10,
+          "ROI128_RING_AMBIGUOUS": 12
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 10,
+            "passed": 37,
+            "unavailable": 3
+          },
+          "calibration_psi_pass": {
+            "failed": 6,
+            "passed": 41,
+            "unavailable": 3
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 2,
+            "passed": 48,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 8,
+            "passed": 42,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 21,
+            "passed": 29,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 3,
+            "passed": 47,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 18,
+            "passed": 29,
+            "unavailable": 3
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 47,
+            "unavailable": 3
+          },
+          "pose_search_interior_pass": {
+            "failed": 2,
+            "passed": 45,
+            "unavailable": 3
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "gained_output_ids": [
+        "G_007",
+        "G_010"
+      ],
+      "lost_output_ids": [
+        "G_045"
+      ]
+    },
+    "reference_hub_resampled": {
+      "images": 59,
+      "eligible_images": 52,
+      "eligible_gauges": 52,
+      "valid_readings": 26,
+      "fixed_all_gauge_denominator": 56,
+      "coverage_all56": 0.4642857142857143,
+      "coverage_eligible": 0.5,
+      "mae_psi": 0.18261312957544765,
+      "max_abs_error_psi": 0.3784727302058126,
+      "error_distribution_psi": {
+        "0.25": 21,
+        "0.5": 26,
+        "1.0": 26
+      },
+      "error_over05psi": 0,
+      "eligible_negative_count": 0,
+      "negative_outputs": 0,
+      "rejection_first_reasons": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTION_NOT_PERMITTED": 3,
+        "ROI128_RING_AMBIGUOUS": 16
+      },
+      "nonexclusive_conditions": {
+        "calibration_angle_pass": {
+          "failed": 15,
+          "passed": 37,
+          "unavailable": 0
+        },
+        "calibration_psi_pass": {
+          "failed": 8,
+          "passed": 44,
+          "unavailable": 0
+        },
+        "finite_angle_pass": {
+          "failed": 0,
+          "passed": 52,
+          "unavailable": 0
+        },
+        "hub_center20_pass": {
+          "failed": 0,
+          "passed": 52,
+          "unavailable": 0
+        },
+        "hub_margin_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 52
+        },
+        "hub_peak_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 52
+        },
+        "needle_margin_pass": {
+          "failed": 0,
+          "passed": 52,
+          "unavailable": 0
+        },
+        "needle_peak_pass": {
+          "failed": 3,
+          "passed": 49,
+          "unavailable": 0
+        },
+        "polar_inside_pass": {
+          "failed": 0,
+          "passed": 52,
+          "unavailable": 0
+        },
+        "pose_accepted": {
+          "failed": 18,
+          "passed": 34,
+          "unavailable": 0
+        },
+        "pose_center14_pass": {
+          "failed": 0,
+          "passed": 52,
+          "unavailable": 0
+        },
+        "pose_margin_pass": {
+          "failed": 18,
+          "passed": 34,
+          "unavailable": 0
+        },
+        "pose_score_pass": {
+          "failed": 0,
+          "passed": 52,
+          "unavailable": 0
+        },
+        "pose_search_interior_pass": {
+          "failed": 1,
+          "passed": 51,
+          "unavailable": 0
+        }
+      },
+      "metrics_are_PC_diagnostics_not_board_acceptance": true,
+      "error_bins_are_descriptive_not_user_accuracy_target": true,
+      "baseline_same_reference_subset": {
+        "images": 52,
+        "eligible_images": 52,
+        "eligible_gauges": 52,
+        "valid_readings": 21,
+        "fixed_all_gauge_denominator": 56,
+        "coverage_all56": 0.375,
+        "coverage_eligible": 0.40384615384615385,
+        "mae_psi": 0.15740682142050108,
+        "max_abs_error_psi": 0.45787038715820216,
+        "error_distribution_psi": {
+          "0.25": 16,
+          "0.5": 21,
+          "1.0": 21
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 11,
+          "ROI128_RING_AMBIGUOUS": 12
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 12,
+            "passed": 37,
+            "unavailable": 3
+          },
+          "calibration_psi_pass": {
+            "failed": 7,
+            "passed": 42,
+            "unavailable": 3
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 52,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 1,
+            "passed": 51,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 2,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 9,
+            "passed": 43,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 52,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 2,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 1,
+            "passed": 51,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 21,
+            "passed": 31,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 3,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 18,
+            "passed": 31,
+            "unavailable": 3
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 49,
+            "unavailable": 3
+          },
+          "pose_search_interior_pass": {
+            "failed": 2,
+            "passed": 47,
+            "unavailable": 3
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "gained_output_ids": [
+        "G_007",
+        "G_010",
+        "G_020",
+        "G_027",
+        "G_032",
+        "G_033",
+        "G_034",
+        "G_042",
+        "G_046"
+      ],
+      "lost_output_ids": [
+        "G_011",
+        "G_018",
+        "G_029",
+        "G_045"
+      ]
+    },
+    "reference_hub_and_direction": {
+      "images": 59,
+      "eligible_images": 50,
+      "eligible_gauges": 50,
+      "valid_readings": 26,
+      "fixed_all_gauge_denominator": 56,
+      "coverage_all56": 0.4642857142857143,
+      "coverage_eligible": 0.52,
+      "mae_psi": 0.17960779697945753,
+      "max_abs_error_psi": 0.3798933324344187,
+      "error_distribution_psi": {
+        "0.25": 20,
+        "0.5": 26,
+        "1.0": 26
+      },
+      "error_over05psi": 0,
+      "eligible_negative_count": 0,
+      "negative_outputs": 0,
+      "rejection_first_reasons": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 6,
+        "ROI128_RING_AMBIGUOUS": 18
+      },
+      "nonexclusive_conditions": {
+        "calibration_angle_pass": {
+          "failed": 13,
+          "passed": 37,
+          "unavailable": 0
+        },
+        "calibration_psi_pass": {
+          "failed": 8,
+          "passed": 42,
+          "unavailable": 0
+        },
+        "finite_angle_pass": {
+          "failed": 0,
+          "passed": 50,
+          "unavailable": 0
+        },
+        "hub_center20_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "hub_margin_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "hub_peak_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "needle_margin_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "needle_peak_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "polar_inside_pass": {
+          "failed": 0,
+          "passed": 0,
+          "unavailable": 50
+        },
+        "pose_accepted": {
+          "failed": 18,
+          "passed": 32,
+          "unavailable": 0
+        },
+        "pose_center14_pass": {
+          "failed": 0,
+          "passed": 50,
+          "unavailable": 0
+        },
+        "pose_margin_pass": {
+          "failed": 18,
+          "passed": 32,
+          "unavailable": 0
+        },
+        "pose_score_pass": {
+          "failed": 0,
+          "passed": 50,
+          "unavailable": 0
+        },
+        "pose_search_interior_pass": {
+          "failed": 1,
+          "passed": 49,
+          "unavailable": 0
+        }
+      },
+      "metrics_are_PC_diagnostics_not_board_acceptance": true,
+      "error_bins_are_descriptive_not_user_accuracy_target": true,
+      "baseline_same_reference_subset": {
+        "images": 50,
+        "eligible_images": 50,
+        "eligible_gauges": 50,
+        "valid_readings": 21,
+        "fixed_all_gauge_denominator": 56,
+        "coverage_all56": 0.375,
+        "coverage_eligible": 0.42,
+        "mae_psi": 0.15740682142050108,
+        "max_abs_error_psi": 0.45787038715820216,
+        "error_distribution_psi": {
+          "0.25": 16,
+          "0.5": 21,
+          "1.0": 21
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 6,
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 10,
+          "ROI128_RING_AMBIGUOUS": 12
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 10,
+            "passed": 37,
+            "unavailable": 3
+          },
+          "calibration_psi_pass": {
+            "failed": 6,
+            "passed": 41,
+            "unavailable": 3
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 2,
+            "passed": 48,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 8,
+            "passed": 42,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 50,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 1,
+            "passed": 49,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 21,
+            "passed": 29,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 3,
+            "passed": 47,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 18,
+            "passed": 29,
+            "unavailable": 3
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 47,
+            "unavailable": 3
+          },
+          "pose_search_interior_pass": {
+            "failed": 2,
+            "passed": 45,
+            "unavailable": 3
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "gained_output_ids": [
+        "G_007",
+        "G_010",
+        "G_020",
+        "G_027",
+        "G_032",
+        "G_033",
+        "G_034",
+        "G_042",
+        "G_046"
+      ],
+      "lost_output_ids": [
+        "G_011",
+        "G_018",
+        "G_029",
+        "G_045"
+      ]
+    }
+  },
+  "by_scene": {
+    "backlight_or_local_reflection": {
+      "baseline": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 4,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.5,
+        "coverage_eligible": 0.5,
+        "mae_psi": 0.12824288324251265,
+        "max_abs_error_psi": 0.23396582138386357,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 4,
+          "1.0": 4
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTION_NOT_PERMITTED": 2,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 4,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.5,
+        "coverage_eligible": 0.5,
+        "mae_psi": 0.12729738962138937,
+        "max_abs_error_psi": 0.19552335415312783,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 4,
+          "1.0": 4
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTION_NOT_PERMITTED": 2,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 5,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.625,
+        "coverage_eligible": 0.625,
+        "mae_psi": 0.1255776315761917,
+        "max_abs_error_psi": 0.19552335415312783,
+        "error_distribution_psi": {
+          "0.25": 5,
+          "0.5": 5,
+          "1.0": 5
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 7,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.875,
+        "coverage_eligible": 0.875,
+        "mae_psi": 0.19747559677193674,
+        "max_abs_error_psi": 0.3784727302058126,
+        "error_distribution_psi": {
+          "0.25": 6,
+          "0.5": 7,
+          "1.0": 7
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 7,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.875,
+        "coverage_eligible": 0.875,
+        "mae_psi": 0.20070035600098102,
+        "max_abs_error_psi": 0.3798933324344187,
+        "error_distribution_psi": {
+          "0.25": 6,
+          "0.5": 7,
+          "1.0": 7
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "challenge_with_gauge": {
+      "baseline": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.0,
+        "coverage_eligible": 0.0,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTION_NOT_PERMITTED": 6,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 5,
+            "passed": 2,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 4,
+            "passed": 3,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 4,
+            "passed": 3,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 8,
+        "eligible_images": 2,
+        "eligible_gauges": 2,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.0,
+        "coverage_eligible": 0.0,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTION_NOT_PERMITTED": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 8,
+        "eligible_images": 2,
+        "eligible_gauges": 2,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.0,
+        "coverage_eligible": 0.0,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 8,
+        "eligible_images": 4,
+        "eligible_gauges": 4,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.0,
+        "coverage_eligible": 0.0,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTION_NOT_PERMITTED": 3
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 4,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 2,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 4,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 4,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 4
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 4
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 4,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 3,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 4,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 4,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 2,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 4,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 1,
+            "passed": 3,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 8,
+        "eligible_images": 2,
+        "eligible_gauges": 2,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.0,
+        "coverage_eligible": 0.0,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "ROI128_RING_AMBIGUOUS": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 2
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "empty_background": {
+      "baseline": {
+        "images": 1,
+        "eligible_images": 1,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 1,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTION_NOT_PERMITTED": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 1,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 1,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 1,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 1,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "front_dim": {
+      "baseline": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 5,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.625,
+        "coverage_eligible": 0.625,
+        "mae_psi": 0.17749913952188337,
+        "max_abs_error_psi": 0.45787038715820216,
+        "error_distribution_psi": {
+          "0.25": 3,
+          "0.5": 5,
+          "1.0": 5
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTION_NOT_PERMITTED": 1,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 4,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.5,
+        "coverage_eligible": 0.5,
+        "mae_psi": 0.08262131972361697,
+        "max_abs_error_psi": 0.1707603222444689,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 4,
+          "1.0": 4
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2,
+          "PREDICTION_NOT_PERMITTED": 1,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 4,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.5,
+        "coverage_eligible": 0.5,
+        "mae_psi": 0.08262131972361697,
+        "max_abs_error_psi": 0.1707603222444689,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 4,
+          "1.0": 4
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2,
+          "ROI128_RING_AMBIGUOUS": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 6,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.75,
+        "coverage_eligible": 0.75,
+        "mae_psi": 0.1351323151775302,
+        "max_abs_error_psi": 0.294000553081867,
+        "error_distribution_psi": {
+          "0.25": 5,
+          "0.5": 6,
+          "1.0": 6
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 6,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.75,
+        "coverage_eligible": 0.75,
+        "mae_psi": 0.1403386902307918,
+        "max_abs_error_psi": 0.2770733159424932,
+        "error_distribution_psi": {
+          "0.25": 5,
+          "0.5": 6,
+          "1.0": 6
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "front_large_soft_light": {
+      "baseline": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 4,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.5,
+        "coverage_eligible": 0.5,
+        "mae_psi": 0.08903251073978113,
+        "max_abs_error_psi": 0.15045232750556892,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 4,
+          "1.0": 4
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "ROI128_RING_AMBIGUOUS": 3
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 4,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.5,
+        "coverage_eligible": 0.5,
+        "mae_psi": 0.15717897520381863,
+        "max_abs_error_psi": 0.2650727908227424,
+        "error_distribution_psi": {
+          "0.25": 3,
+          "0.5": 4,
+          "1.0": 4
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "ROI128_RING_AMBIGUOUS": 3
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 4,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.5,
+        "coverage_eligible": 0.5,
+        "mae_psi": 0.15717897520381863,
+        "max_abs_error_psi": 0.2650727908227424,
+        "error_distribution_psi": {
+          "0.25": 3,
+          "0.5": 4,
+          "1.0": 4
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "ROI128_RING_AMBIGUOUS": 3
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 6,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.75,
+        "coverage_eligible": 0.75,
+        "mae_psi": 0.21075920473354012,
+        "max_abs_error_psi": 0.3742796995189579,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 6,
+          "1.0": 6
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 6,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.75,
+        "coverage_eligible": 0.75,
+        "mae_psi": 0.2012811628354374,
+        "max_abs_error_psi": 0.33293463757080666,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 6,
+          "1.0": 6
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "ROI128_RING_AMBIGUOUS": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "front_medium_soft_light": {
+      "baseline": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 5,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.625,
+        "coverage_eligible": 0.625,
+        "mae_psi": 0.1785852678270114,
+        "max_abs_error_psi": 0.2998855626241248,
+        "error_distribution_psi": {
+          "0.25": 3,
+          "0.5": 5,
+          "1.0": 5
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2,
+          "PREDICTION_NOT_PERMITTED": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 5,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.625,
+        "coverage_eligible": 0.625,
+        "mae_psi": 0.1885986153301868,
+        "max_abs_error_psi": 0.35931243496866294,
+        "error_distribution_psi": {
+          "0.25": 3,
+          "0.5": 5,
+          "1.0": 5
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2,
+          "PREDICTION_NOT_PERMITTED": 1
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 6,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.75,
+        "coverage_eligible": 0.75,
+        "mae_psi": 0.1888496107647084,
+        "max_abs_error_psi": 0.35931243496866294,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 6,
+          "1.0": 6
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 6,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.75,
+        "coverage_eligible": 0.75,
+        "mae_psi": 0.1733929083266569,
+        "max_abs_error_psi": 0.27306755600348254,
+        "error_distribution_psi": {
+          "0.25": 5,
+          "0.5": 6,
+          "1.0": 6
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 6,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.75,
+        "coverage_eligible": 0.75,
+        "mae_psi": 0.1637989145444528,
+        "max_abs_error_psi": 0.2854700574157025,
+        "error_distribution_psi": {
+          "0.25": 4,
+          "0.5": 6,
+          "1.0": 6
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "mild_left_view": {
+      "baseline": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 2,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.25,
+        "coverage_eligible": 0.25,
+        "mae_psi": 0.26150612383640315,
+        "max_abs_error_psi": 0.2757919798538069,
+        "error_distribution_psi": {
+          "0.25": 1,
+          "0.5": 2,
+          "1.0": 2
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTION_NOT_PERMITTED": 2,
+          "ROI128_RING_AMBIGUOUS": 3
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 2,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.25,
+        "coverage_eligible": 0.25,
+        "mae_psi": 0.14719751550989635,
+        "max_abs_error_psi": 0.17155190289543754,
+        "error_distribution_psi": {
+          "0.25": 2,
+          "0.5": 2,
+          "1.0": 2
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "PREDICTION_NOT_PERMITTED": 2,
+          "ROI128_RING_AMBIGUOUS": 3
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 2,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.25,
+        "coverage_eligible": 0.25,
+        "mae_psi": 0.14719751550989635,
+        "max_abs_error_psi": 0.17155190289543754,
+        "error_distribution_psi": {
+          "0.25": 2,
+          "0.5": 2,
+          "1.0": 2
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+          "ROI128_RING_AMBIGUOUS": 5
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 5,
+            "passed": 3,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.0,
+        "coverage_eligible": 0.0,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "ROI128_RING_AMBIGUOUS": 8
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 8,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 8,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.0,
+        "coverage_eligible": 0.0,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "ROI128_RING_AMBIGUOUS": 8
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 3,
+            "passed": 5,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 8,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 8,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "mild_right_view": {
+      "baseline": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 1,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.125,
+        "coverage_eligible": 0.125,
+        "mae_psi": 0.13300738948406732,
+        "max_abs_error_psi": 0.13300738948406732,
+        "error_distribution_psi": {
+          "0.25": 1,
+          "0.5": 1,
+          "1.0": 1
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 2,
+          "ROI128_RING_AMBIGUOUS": 4
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 5,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 6,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 7,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 6,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 2,
+            "passed": 5,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 1,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.125,
+        "coverage_eligible": 0.125,
+        "mae_psi": 0.07185947485226407,
+        "max_abs_error_psi": 0.07185947485226407,
+        "error_distribution_psi": {
+          "0.25": 1,
+          "0.5": 1,
+          "1.0": 1
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 2,
+          "ROI128_RING_AMBIGUOUS": 4
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 5,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 2,
+            "passed": 6,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 7,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 6,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 2,
+            "passed": 5,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 1,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.125,
+        "coverage_eligible": 0.125,
+        "mae_psi": 0.07185947485226407,
+        "max_abs_error_psi": 0.07185947485226407,
+        "error_distribution_psi": {
+          "0.25": 1,
+          "0.5": 1,
+          "1.0": 1
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "ROI128_RING_AMBIGUOUS": 6
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 2,
+            "passed": 5,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 7,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 6,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 7,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 2,
+            "passed": 5,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 1,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.125,
+        "coverage_eligible": 0.125,
+        "mae_psi": 0.24990562213171863,
+        "max_abs_error_psi": 0.24990562213171863,
+        "error_distribution_psi": {
+          "0.25": 1,
+          "0.5": 1,
+          "1.0": 1
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "ROI128_RING_AMBIGUOUS": 7
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 7,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 7,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 8,
+        "eligible_images": 8,
+        "eligible_gauges": 8,
+        "valid_readings": 1,
+        "fixed_all_gauge_denominator": 8,
+        "coverage_all56": 0.125,
+        "coverage_eligible": 0.125,
+        "mae_psi": 0.23238762379493672,
+        "max_abs_error_psi": 0.23238762379493672,
+        "error_distribution_psi": {
+          "0.25": 1,
+          "0.5": 1,
+          "1.0": 1
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "ROI128_RING_AMBIGUOUS": 7
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 1,
+            "passed": 7,
+            "unavailable": 0
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "hub_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "needle_peak_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 0,
+            "unavailable": 8
+          },
+          "pose_accepted": {
+            "failed": 7,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 7,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          },
+          "pose_search_interior_pass": {
+            "failed": 0,
+            "passed": 8,
+            "unavailable": 0
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    },
+    "non_gauge_circular_or_reflective_object": {
+      "baseline": {
+        "images": 2,
+        "eligible_images": 2,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 2,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {
+          "PREDICTION_NOT_PERMITTED": 2
+        },
+        "nonexclusive_conditions": {
+          "calibration_angle_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "calibration_psi_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "finite_angle_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "hub_center20_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "hub_margin_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "hub_peak_pass": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "needle_margin_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "needle_peak_pass": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "polar_inside_pass": {
+            "failed": 0,
+            "passed": 2,
+            "unavailable": 0
+          },
+          "pose_accepted": {
+            "failed": 2,
+            "passed": 0,
+            "unavailable": 0
+          },
+          "pose_center14_pass": {
+            "failed": 1,
+            "passed": 1,
+            "unavailable": 0
+          },
+          "pose_margin_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 1
+          },
+          "pose_score_pass": {
+            "failed": 0,
+            "passed": 1,
+            "unavailable": 1
+          },
+          "pose_search_interior_pass": {
+            "failed": 1,
+            "passed": 0,
+            "unavailable": 1
+          }
+        },
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_keep_model_gates": {
+        "images": 2,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_direction_supplies_model_evidence": {
+        "images": 2,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_resampled": {
+        "images": 2,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      },
+      "reference_hub_and_direction": {
+        "images": 2,
+        "eligible_images": 0,
+        "eligible_gauges": 0,
+        "valid_readings": 0,
+        "fixed_all_gauge_denominator": 0,
+        "coverage_all56": null,
+        "coverage_eligible": null,
+        "mae_psi": null,
+        "max_abs_error_psi": null,
+        "error_distribution_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        },
+        "error_over05psi": 0,
+        "eligible_negative_count": 0,
+        "negative_outputs": 0,
+        "rejection_first_reasons": {},
+        "nonexclusive_conditions": {},
+        "metrics_are_PC_diagnostics_not_board_acceptance": true,
+        "error_bins_are_descriptive_not_user_accuracy_target": true
+      }
+    }
+  },
+  "elapsed_s": 5.5460000000020955,
+  "training": false,
+  "ABC_or_H_opened": false,
+  "device_actions": false
+}

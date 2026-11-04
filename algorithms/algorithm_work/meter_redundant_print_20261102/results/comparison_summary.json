@@ -1,0 +1,1072 @@
+{
+  "status": "OFFLINE_REDUNDANT_PRINT_EXPERIMENT_COMPLETE_NOT_BOARD_OR_GENERALIZATION_ACCEPTANCE",
+  "unit": "psi",
+  "reports": {
+    "old_ring": {
+      "summary": {
+        "unit": "psi",
+        "images": 59,
+        "gauge_images": 56,
+        "negative_images": 3,
+        "valid_readings": 21,
+        "coverage_gauge": 0.375,
+        "valid_reads_with_bounded_both_points": 21,
+        "bounded_both_point_images": 50,
+        "reading_mae_psi": 0.15740682142050108,
+        "reading_median_abs_error_psi": 0.12991795921179872,
+        "reading_max_abs_error_psi": 0.45787038715820216,
+        "accurate_accepted_within_tolerance": 21,
+        "wrong_accepted_over_tolerance": 0,
+        "negative_false_accepts": 0,
+        "legacy_comparison_tolerance_psi": 0.7251886888086433,
+        "output_error_distribution_psi": {
+          "within_0_25_psi": 16,
+          "within_0_5_psi": 21,
+          "within_1_0_psi": 21,
+          "bins": {
+            "up_to_0_25": 16,
+            "over_0_25_to_0_5": 5,
+            "over_0_5_to_1_0": 0,
+            "over_1_0": 0
+          },
+          "changes_output_permission": false,
+          "is_user_confirmed_final_accuracy_target": false
+        },
+        "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+        "rejections": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 17,
+          "ROI128_RING_AMBIGUOUS": 13
+        },
+        "by_scene": {
+          "backlight_or_local_reflection": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 4,
+            "MAE_psi": 0.12824288324251265,
+            "within_bands_psi": {
+              "0.25": 4,
+              "0.5": 4,
+              "1.0": 4
+            }
+          },
+          "challenge_with_gauge": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "empty_background": {
+            "images": 1,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "front_dim": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.17749913952188337,
+            "within_bands_psi": {
+              "0.25": 3,
+              "0.5": 5,
+              "1.0": 5
+            }
+          },
+          "front_large_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 4,
+            "MAE_psi": 0.08903251073978113,
+            "within_bands_psi": {
+              "0.25": 4,
+              "0.5": 4,
+              "1.0": 4
+            }
+          },
+          "front_medium_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.1785852678270114,
+            "within_bands_psi": {
+              "0.25": 3,
+              "0.5": 5,
+              "1.0": 5
+            }
+          },
+          "mild_left_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 2,
+            "MAE_psi": 0.26150612383640315,
+            "within_bands_psi": {
+              "0.25": 1,
+              "0.5": 2,
+              "1.0": 2
+            }
+          },
+          "mild_right_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 1,
+            "MAE_psi": 0.13300738948406732,
+            "within_bands_psi": {
+              "0.25": 1,
+              "0.5": 1,
+              "1.0": 1
+            }
+          },
+          "non_gauge_circular_or_reflective_object": {
+            "images": 2,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          }
+        },
+        "descriptive_correct_output_coverage": {
+          "0.25": {
+            "correct_outputs": 16,
+            "wrong_numeric_outputs": 5,
+            "denominator": 56
+          },
+          "0.5": {
+            "correct_outputs": 21,
+            "wrong_numeric_outputs": 0,
+            "denominator": 56
+          },
+          "1.0": {
+            "correct_outputs": 21,
+            "wrong_numeric_outputs": 0,
+            "denominator": 56
+          }
+        }
+      },
+      "changes": {
+        "new_output_ids": [],
+        "withdrawn_output_ids": [],
+        "bands": {
+          "0.25": {
+            "gained_correct_ids": [],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          },
+          "0.5": {
+            "gained_correct_ids": [],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          },
+          "1.0": {
+            "gained_correct_ids": [],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          }
+        }
+      },
+      "old_valid_ids_changed": [],
+      "new_reference_supported_negative_ids": [],
+      "frontal": {
+        "images": 16,
+        "outputs": 9,
+        "correct_bands": {
+          "0.25": 7,
+          "0.5": 9,
+          "1.0": 9
+        }
+      },
+      "incremental": {
+        "images": 0,
+        "MAE_psi": null,
+        "max_abs_error_psi": null,
+        "correct_bands": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        }
+      }
+    },
+    "visual_old_first": {
+      "summary": {
+        "unit": "psi",
+        "images": 59,
+        "gauge_images": 56,
+        "negative_images": 3,
+        "valid_readings": 31,
+        "coverage_gauge": 0.5535714285714286,
+        "valid_reads_with_bounded_both_points": 31,
+        "bounded_both_point_images": 50,
+        "reading_mae_psi": 0.21083075311803776,
+        "reading_median_abs_error_psi": 0.15045232750556892,
+        "reading_max_abs_error_psi": 0.6085834234222283,
+        "accurate_accepted_within_tolerance": 31,
+        "wrong_accepted_over_tolerance": 0,
+        "negative_false_accepts": 0,
+        "legacy_comparison_tolerance_psi": 0.7251886888086433,
+        "output_error_distribution_psi": {
+          "within_0_25_psi": 21,
+          "within_0_5_psi": 29,
+          "within_1_0_psi": 31,
+          "bins": {
+            "up_to_0_25": 21,
+            "over_0_25_to_0_5": 8,
+            "over_0_5_to_1_0": 2,
+            "over_1_0": 0
+          },
+          "changes_output_permission": false,
+          "is_user_confirmed_final_accuracy_target": false
+        },
+        "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+        "rejections": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 8,
+          "PREDICTION_NOT_PERMITTED": 17,
+          "ROI128_RING_AMBIGUOUS": 3
+        },
+        "by_scene": {
+          "backlight_or_local_reflection": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.1230331853979468,
+            "within_bands_psi": {
+              "0.25": 5,
+              "0.5": 5,
+              "1.0": 5
+            }
+          },
+          "challenge_with_gauge": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "empty_background": {
+            "images": 1,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "front_dim": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 6,
+            "MAE_psi": 0.1715266385988,
+            "within_bands_psi": {
+              "0.25": 4,
+              "0.5": 6,
+              "1.0": 6
+            }
+          },
+          "front_large_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 6,
+            "MAE_psi": 0.19214202876929765,
+            "within_bands_psi": {
+              "0.25": 5,
+              "0.5": 5,
+              "1.0": 6
+            }
+          },
+          "front_medium_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.1785852678270114,
+            "within_bands_psi": {
+              "0.25": 3,
+              "0.5": 5,
+              "1.0": 5
+            }
+          },
+          "mild_left_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 4,
+            "MAE_psi": 0.2936160287084517,
+            "within_bands_psi": {
+              "0.25": 2,
+              "0.5": 4,
+              "1.0": 4
+            }
+          },
+          "mild_right_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.3342369922983973,
+            "within_bands_psi": {
+              "0.25": 2,
+              "0.5": 4,
+              "1.0": 5
+            }
+          },
+          "non_gauge_circular_or_reflective_object": {
+            "images": 2,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          }
+        },
+        "descriptive_correct_output_coverage": {
+          "0.25": {
+            "correct_outputs": 21,
+            "wrong_numeric_outputs": 10,
+            "denominator": 56
+          },
+          "0.5": {
+            "correct_outputs": 29,
+            "wrong_numeric_outputs": 2,
+            "denominator": 56
+          },
+          "1.0": {
+            "correct_outputs": 31,
+            "wrong_numeric_outputs": 0,
+            "denominator": 56
+          }
+        }
+      },
+      "changes": {
+        "new_output_ids": [
+          "G_012",
+          "G_017",
+          "G_020",
+          "G_024",
+          "G_027",
+          "G_034",
+          "G_036",
+          "G_041",
+          "G_042",
+          "G_044"
+        ],
+        "withdrawn_output_ids": [],
+        "bands": {
+          "0.25": {
+            "gained_correct_ids": [
+              "G_017",
+              "G_020",
+              "G_027",
+              "G_034",
+              "G_036"
+            ],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [
+              "G_012",
+              "G_024",
+              "G_041",
+              "G_042",
+              "G_044"
+            ],
+            "recovered_wrong_ids": []
+          },
+          "0.5": {
+            "gained_correct_ids": [
+              "G_017",
+              "G_020",
+              "G_024",
+              "G_027",
+              "G_034",
+              "G_036",
+              "G_041",
+              "G_042"
+            ],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [
+              "G_012",
+              "G_044"
+            ],
+            "recovered_wrong_ids": []
+          },
+          "1.0": {
+            "gained_correct_ids": [
+              "G_012",
+              "G_017",
+              "G_020",
+              "G_024",
+              "G_027",
+              "G_034",
+              "G_036",
+              "G_041",
+              "G_042",
+              "G_044"
+            ],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          }
+        }
+      },
+      "old_valid_ids_changed": [],
+      "new_reference_supported_negative_ids": [],
+      "frontal": {
+        "images": 16,
+        "outputs": 11,
+        "correct_bands": {
+          "0.25": 8,
+          "0.5": 10,
+          "1.0": 11
+        }
+      },
+      "incremental": {
+        "images": 10,
+        "MAE_psi": 0.3230210096828648,
+        "max_abs_error_psi": 0.6085834234222283,
+        "correct_bands": {
+          "0.25": 5,
+          "0.5": 8,
+          "1.0": 10
+        }
+      }
+    },
+    "automatic_old_first": {
+      "summary": {
+        "unit": "psi",
+        "images": 59,
+        "gauge_images": 56,
+        "negative_images": 3,
+        "valid_readings": 22,
+        "coverage_gauge": 0.39285714285714285,
+        "valid_reads_with_bounded_both_points": 22,
+        "bounded_both_point_images": 50,
+        "reading_mae_psi": 0.15163546243261122,
+        "reading_median_abs_error_psi": 0.1254231754027071,
+        "reading_max_abs_error_psi": 0.45787038715820216,
+        "accurate_accepted_within_tolerance": 22,
+        "wrong_accepted_over_tolerance": 0,
+        "negative_false_accepts": 0,
+        "legacy_comparison_tolerance_psi": 0.7251886888086433,
+        "output_error_distribution_psi": {
+          "within_0_25_psi": 17,
+          "within_0_5_psi": 22,
+          "within_1_0_psi": 22,
+          "bins": {
+            "up_to_0_25": 17,
+            "over_0_25_to_0_5": 5,
+            "over_0_5_to_1_0": 0,
+            "over_1_0": 0
+          },
+          "changes_output_permission": false,
+          "is_user_confirmed_final_accuracy_target": false
+        },
+        "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+        "rejections": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+          "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+          "PREDICTION_NOT_PERMITTED": 17,
+          "ROI128_RING_AMBIGUOUS": 12
+        },
+        "by_scene": {
+          "backlight_or_local_reflection": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 4,
+            "MAE_psi": 0.12824288324251265,
+            "within_bands_psi": {
+              "0.25": 4,
+              "0.5": 4,
+              "1.0": 4
+            }
+          },
+          "challenge_with_gauge": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "empty_background": {
+            "images": 1,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "front_dim": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.17749913952188337,
+            "within_bands_psi": {
+              "0.25": 3,
+              "0.5": 5,
+              "1.0": 5
+            }
+          },
+          "front_large_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 4,
+            "MAE_psi": 0.08903251073978113,
+            "within_bands_psi": {
+              "0.25": 4,
+              "0.5": 4,
+              "1.0": 4
+            }
+          },
+          "front_medium_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.1785852678270114,
+            "within_bands_psi": {
+              "0.25": 3,
+              "0.5": 5,
+              "1.0": 5
+            }
+          },
+          "mild_left_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 3,
+            "MAE_psi": 0.18448305711991017,
+            "within_bands_psi": {
+              "0.25": 2,
+              "0.5": 3,
+              "1.0": 3
+            }
+          },
+          "mild_right_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 1,
+            "MAE_psi": 0.13300738948406732,
+            "within_bands_psi": {
+              "0.25": 1,
+              "0.5": 1,
+              "1.0": 1
+            }
+          },
+          "non_gauge_circular_or_reflective_object": {
+            "images": 2,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          }
+        },
+        "descriptive_correct_output_coverage": {
+          "0.25": {
+            "correct_outputs": 17,
+            "wrong_numeric_outputs": 5,
+            "denominator": 56
+          },
+          "0.5": {
+            "correct_outputs": 22,
+            "wrong_numeric_outputs": 0,
+            "denominator": 56
+          },
+          "1.0": {
+            "correct_outputs": 22,
+            "wrong_numeric_outputs": 0,
+            "denominator": 56
+          }
+        }
+      },
+      "changes": {
+        "new_output_ids": [
+          "G_041"
+        ],
+        "withdrawn_output_ids": [],
+        "bands": {
+          "0.25": {
+            "gained_correct_ids": [
+              "G_041"
+            ],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          },
+          "0.5": {
+            "gained_correct_ids": [
+              "G_041"
+            ],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          },
+          "1.0": {
+            "gained_correct_ids": [
+              "G_041"
+            ],
+            "lost_correct_ids": [],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          }
+        }
+      },
+      "old_valid_ids_changed": [],
+      "new_reference_supported_negative_ids": [],
+      "frontal": {
+        "images": 16,
+        "outputs": 9,
+        "correct_bands": {
+          "0.25": 7,
+          "0.5": 9,
+          "1.0": 9
+        }
+      },
+      "incremental": {
+        "images": 1,
+        "MAE_psi": 0.03043692368692419,
+        "max_abs_error_psi": 0.03043692368692419,
+        "correct_bands": {
+          "0.25": 1,
+          "0.5": 1,
+          "1.0": 1
+        }
+      }
+    },
+    "previous_forced_two_point": {
+      "summary": {
+        "unit": "psi",
+        "images": 59,
+        "gauge_images": 56,
+        "negative_images": 3,
+        "valid_readings": 27,
+        "coverage_gauge": 0.48214285714285715,
+        "valid_reads_with_bounded_both_points": 27,
+        "bounded_both_point_images": 50,
+        "reading_mae_psi": 0.225113880261288,
+        "reading_median_abs_error_psi": 0.1404255679572195,
+        "reading_max_abs_error_psi": 0.7997682606949272,
+        "accurate_accepted_within_tolerance": 26,
+        "wrong_accepted_over_tolerance": 1,
+        "negative_false_accepts": 0,
+        "legacy_comparison_tolerance_psi": 0.7251886888086433,
+        "output_error_distribution_psi": {
+          "within_0_25_psi": 17,
+          "within_0_5_psi": 24,
+          "within_1_0_psi": 27,
+          "bins": {
+            "up_to_0_25": 17,
+            "over_0_25_to_0_5": 7,
+            "over_0_5_to_1_0": 3,
+            "over_1_0": 0
+          },
+          "changes_output_permission": false,
+          "is_user_confirmed_final_accuracy_target": false
+        },
+        "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+        "rejections": {
+          "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 8,
+          "PREDICTION_NOT_PERMITTED": 17,
+          "VISUAL_PRINT_REFERENCE_UNAVAILABLE": 7
+        },
+        "by_scene": {
+          "backlight_or_local_reflection": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 4,
+            "MAE_psi": 0.08639591999949126,
+            "within_bands_psi": {
+              "0.25": 4,
+              "0.5": 4,
+              "1.0": 4
+            }
+          },
+          "challenge_with_gauge": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "empty_background": {
+            "images": 1,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          },
+          "front_dim": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.20309711708542794,
+            "within_bands_psi": {
+              "0.25": 4,
+              "0.5": 4,
+              "1.0": 5
+            }
+          },
+          "front_large_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 6,
+            "MAE_psi": 0.18579854115241132,
+            "within_bands_psi": {
+              "0.25": 5,
+              "0.5": 5,
+              "1.0": 6
+            }
+          },
+          "front_medium_soft_light": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 4,
+            "MAE_psi": 0.2722923016127523,
+            "within_bands_psi": {
+              "0.25": 1,
+              "0.5": 4,
+              "1.0": 4
+            }
+          },
+          "mild_left_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 3,
+            "MAE_psi": 0.16693282640022153,
+            "within_bands_psi": {
+              "0.25": 2,
+              "0.5": 3,
+              "1.0": 3
+            }
+          },
+          "mild_right_view": {
+            "images": 8,
+            "gauges": 8,
+            "valid": 5,
+            "MAE_psi": 0.402449313812706,
+            "within_bands_psi": {
+              "0.25": 1,
+              "0.5": 4,
+              "1.0": 5
+            }
+          },
+          "non_gauge_circular_or_reflective_object": {
+            "images": 2,
+            "gauges": 0,
+            "valid": 0,
+            "MAE_psi": null,
+            "within_bands_psi": {
+              "0.25": 0,
+              "0.5": 0,
+              "1.0": 0
+            }
+          }
+        },
+        "descriptive_correct_output_coverage": {
+          "0.25": {
+            "correct_outputs": 17,
+            "wrong_numeric_outputs": 10,
+            "denominator": 56
+          },
+          "0.5": {
+            "correct_outputs": 24,
+            "wrong_numeric_outputs": 3,
+            "denominator": 56
+          },
+          "1.0": {
+            "correct_outputs": 27,
+            "wrong_numeric_outputs": 0,
+            "denominator": 56
+          }
+        }
+      },
+      "changes": {
+        "new_output_ids": [
+          "G_012",
+          "G_020",
+          "G_024",
+          "G_027",
+          "G_032",
+          "G_034",
+          "G_036",
+          "G_041",
+          "G_042",
+          "G_044",
+          "G_048"
+        ],
+        "withdrawn_output_ids": [
+          "G_013",
+          "G_014",
+          "G_015",
+          "G_016",
+          "G_018"
+        ],
+        "bands": {
+          "0.25": {
+            "gained_correct_ids": [
+              "G_020",
+              "G_027",
+              "G_029",
+              "G_032",
+              "G_034",
+              "G_036",
+              "G_039"
+            ],
+            "lost_correct_ids": [
+              "G_013",
+              "G_014",
+              "G_015",
+              "G_016",
+              "G_018",
+              "G_025"
+            ],
+            "new_wrong_ids": [
+              "G_012",
+              "G_024",
+              "G_025",
+              "G_041",
+              "G_042",
+              "G_044",
+              "G_048"
+            ],
+            "recovered_wrong_ids": [
+              "G_029",
+              "G_039"
+            ]
+          },
+          "0.5": {
+            "gained_correct_ids": [
+              "G_012",
+              "G_020",
+              "G_024",
+              "G_027",
+              "G_032",
+              "G_034",
+              "G_036",
+              "G_041",
+              "G_048"
+            ],
+            "lost_correct_ids": [
+              "G_013",
+              "G_014",
+              "G_015",
+              "G_016",
+              "G_018",
+              "G_045"
+            ],
+            "new_wrong_ids": [
+              "G_042",
+              "G_044",
+              "G_045"
+            ],
+            "recovered_wrong_ids": []
+          },
+          "1.0": {
+            "gained_correct_ids": [
+              "G_012",
+              "G_020",
+              "G_024",
+              "G_027",
+              "G_032",
+              "G_034",
+              "G_036",
+              "G_041",
+              "G_042",
+              "G_044",
+              "G_048"
+            ],
+            "lost_correct_ids": [
+              "G_013",
+              "G_014",
+              "G_015",
+              "G_016",
+              "G_018"
+            ],
+            "new_wrong_ids": [],
+            "recovered_wrong_ids": []
+          }
+        }
+      },
+      "old_valid_ids_changed": null,
+      "new_reference_supported_negative_ids": null,
+      "frontal": {
+        "images": 16,
+        "outputs": 10,
+        "correct_bands": {
+          "0.25": 6,
+          "0.5": 9,
+          "1.0": 10
+        }
+      },
+      "incremental": null
+    }
+  },
+  "point_evaluation": {
+    "outer_psi_5_text_centroid": {
+      "automatic_accepted": 2,
+      "visually_localizable_labels": 51,
+      "automatic_accepted_on_visible": 1,
+      "localization_error_normalized": {
+        "mean": 26.256967530594952,
+        "max": 26.256967530594952,
+        "within3px": 0
+      },
+      "localization_hit_rate_within3px_over_visible": 0.0,
+      "accepted_on_visual_unknown_ids": [
+        "G_053"
+      ],
+      "accepted_on_negative_ids": [],
+      "unknown_label_does_not_prove_absence": true
+    },
+    "outer_psi_10_text_centroid": {
+      "automatic_accepted": 3,
+      "visually_localizable_labels": 52,
+      "automatic_accepted_on_visible": 3,
+      "localization_error_normalized": {
+        "mean": 7.164189538302825,
+        "max": 17.107782114566856,
+        "within3px": 1
+      },
+      "localization_hit_rate_within3px_over_visible": 0.019230769230769232,
+      "accepted_on_visual_unknown_ids": [],
+      "accepted_on_negative_ids": [],
+      "unknown_label_does_not_prove_absence": true
+    },
+    "outer_psi_15_text_centroid": {
+      "automatic_accepted": 14,
+      "visually_localizable_labels": 49,
+      "automatic_accepted_on_visible": 13,
+      "localization_error_normalized": {
+        "mean": 2.214643133196713,
+        "max": 4.32063082660244,
+        "within3px": 9
+      },
+      "localization_hit_rate_within3px_over_visible": 0.1836734693877551,
+      "accepted_on_visual_unknown_ids": [
+        "G_053"
+      ],
+      "accepted_on_negative_ids": [],
+      "unknown_label_does_not_prove_absence": true
+    },
+    "upper_basketball_logo_centroid": {
+      "automatic_accepted": 40,
+      "visually_localizable_labels": 54,
+      "automatic_accepted_on_visible": 39,
+      "localization_error_normalized": {
+        "mean": 1.041548832155558,
+        "max": 9.869603529403632,
+        "within3px": 37
+      },
+      "localization_hit_rate_within3px_over_visible": 0.6851851851851852,
+      "accepted_on_visual_unknown_ids": [
+        "G_053"
+      ],
+      "accepted_on_negative_ids": [],
+      "unknown_label_does_not_prove_absence": true
+    },
+    "middle_soccer_logo_centroid": {
+      "automatic_accepted": 13,
+      "visually_localizable_labels": 45,
+      "automatic_accepted_on_visible": 9,
+      "localization_error_normalized": {
+        "mean": 15.391802751165178,
+        "max": 20.44427486789252,
+        "within3px": 0
+      },
+      "localization_hit_rate_within3px_over_visible": 0.0,
+      "accepted_on_visual_unknown_ids": [
+        "G_014",
+        "G_015",
+        "G_056",
+        "G_057"
+      ],
+      "accepted_on_negative_ids": [],
+      "unknown_label_does_not_prove_absence": true
+    },
+    "lower_striped_ball_print_centroid": {
+      "automatic_accepted": 41,
+      "visually_localizable_labels": 47,
+      "automatic_accepted_on_visible": 37,
+      "localization_error_normalized": {
+        "mean": 1.4757572402832686,
+        "max": 10.604821907795131,
+        "within3px": 33
+      },
+      "localization_hit_rate_within3px_over_visible": 0.7021276595744681,
+      "accepted_on_visual_unknown_ids": [
+        "G_014",
+        "G_017",
+        "G_053",
+        "G_055"
+      ],
+      "accepted_on_negative_ids": [],
+      "unknown_label_does_not_prove_absence": true
+    }
+  },
+  "old_neural_and_calibration_unchanged": true,
+  "routing_old_accepted_is_immutable": true,
+  "automatic_did_not_use_query_point_labels": true,
+  "new_reference_role": "Only supplement old rejected reference; never revoke old accepted reference",
+  "visual_is_AI_reference_diagnostic": true,
+  "automatic_only_uses_available_ROI_input": true,
+  "error_bands_psi": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "bands_are_user_final_tolerance": false,
+  "H_ABC_opened": false,
+  "new_training": false,
+  "hardware_actions": false,
+  "source_sha256": {
+    "algorithm_work\\meter_redundant_print_20261102\\task_contract.json": "a08dcfab7a31b3b9a1798c094e5efa04c6a3aaa6382094146fc4ea5fb4256eaa",
+    "algorithm_work\\meter_redundant_print_20261102\\landmark_geometry.py": "841fb7b8ba7136c479890d04877c698d3ba979514e9029f66e3767e208505fb2",
+    "algorithm_work\\meter_redundant_print_20261102\\fusion.py": "5c3c5a1f61b2e29bb0a78bfbc9dbc3d59a2e8980c4bee29d3b6844d2b73019d6",
+    "algorithm_work\\meter_redundant_print_20261102\\evaluate_redundant.py": "2dbce5001fca5012b298ab1f4bb644346ab5cf3f7495f5a29907e1b35b179383",
+    "algorithm_work\\meter_redundant_print_20261102\\annotations\\print_annotations.jsonl": "0e8c3c8c82c8d2ab38fc7f96a087c2c4fb405e431a894063153fc899b2bd073e",
+    "algorithm_work\\meter_redundant_print_20261102\\annotations\\reference_D002.json": "3bf46f1100b22e198c30e06191aab719654fdb00116466abbfc695cd313d278a",
+    "algorithm_work\\meter_redundant_print_20261102\\annotations\\reference_D025.json": "365d6f001090a1bc20de34b23c57ea81758c688619cb4addfd203e5f083a2d64",
+    "algorithm_work\\meter_redundant_print_20261102\\automatic\\config_frozen_before_G.json": "22c3d7344534d2bcb4d29e41a04b3bbfdf8dde717ac471d1c2245a4a4af3621b",
+    "algorithm_work\\meter_redundant_print_20261102\\automatic\\setup.json": "85262ec3378a79e482670e6def3e42076775b5b3f6188be7cbb815270a07599f",
+    "algorithm_work\\meter_redundant_print_20261102\\automatic\\predictions.jsonl": "5560a8495c801d29c56d4c538322a1cd94b08105fbf2ed2ec92a6bf07d9472c3",
+    "algorithm_work\\meter_pointer_readout_20261102\\polar_angle\\run_001\\validation_predictions.jsonl": "3cc05038cb7dc8360c0c480b4a723589b64c44ee976ebea9e579c6e399082818",
+    "algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_B_pose.jsonl": "6581235488bfd4953d9690f7464aa612b619c8c46454db4b3a65bb750246dff0",
+    "algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_B_calibration_psi.json": "890d5ceb5cdf1ca87a6fcb7456cbf4b67123491f0ca60fac84fed5893c937491"
+  }
+}

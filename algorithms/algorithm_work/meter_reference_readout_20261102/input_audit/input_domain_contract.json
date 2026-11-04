@@ -1,0 +1,34 @@
+{
+  "status": "SOURCE_STAGE_AND_SAMPLING_IDENTIFIED_ACTUAL_PAIRED_CAMERA_DOMAIN_PENDING",
+  "actual_pipeline": "Demosaic -> AWB -> nativebridge/filter originalRGB andexactgray -> ownedblockmeanROI -> AHBMCU; displaymode/OSD downstream separate",
+  "gray_is_raw_sensor": false,
+  "gray_is_AWB_after_RGB_luma": true,
+  "gray_formula": "(77R+150G+29B+128)>>8",
+  "gray4_unaffected_by_20_mode_and_SAT": true,
+  "gray4_before_MODE_motion_meter_OSD": true,
+  "screenshot_mode0_background": "SameAWBafterRGB beforedisplayoverlay; not theoreticallya whollydifferentrawsensor domain",
+  "known_proxy_differences": [
+    "Annotatedfacebbox vsactualautolocatorwindow",
+    "OriginalHDMI PNGcontainsOSD boxes/text/logos, actualROIanalysisgraydoesnot",
+    "HDMI/readoutphase/sourceframe correspondence absent",
+    "CapturecardRGB/YUVrange/gamma/compression effects notmeasured"
+  ],
+  "sampling": "Capture acceptsstride1..4,parentchooses2/3/4;128squareblockmeans, xorigin4aligned,s3(*7282)>>16",
+  "coordinate_mapping": "ROI=(native-origin-(stride-1)/2)/stride",
+  "current_dataset_paired_actual_boardROI_available": false,
+  "known_board_dumps": "Seven16KiB allzero failedsnapshots; notvalidcameraROIs, notproofcameraimageblack",
+  "simulator_exports": "ExistingAHBexports supportlogicalsamplearithmetic only, notphysicalcapturecardpixeldomain",
+  "old_images_or_zero_dumps_used_for_training": false,
+  "next_minimum": "Ifboardvalidationlaterauthorized, exportoneownedROI+sameTsource/descriptor+correspondingmode0screenshot first; no immediatenewsample request inthisaudit",
+  "source_sha256": {
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\isp\\isp_top.v": "2a480632897bdb4b4838b111a0f05f222eb20e120099587eec17f46593bf2348",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\t06\\t06_native_bridge.v": "a8fea1968e8ec7246efd27bc8ae5809a5a7eaa04df91b12159bd5bb729ecd3a5",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\t06\\t06_video_filter.v": "1fb95c6b6cae562364eebd3a03acac64ef72fcd807df2157c4caa33b46ee8bb5",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\t06\\t06_gray4_exact_dsp.v": "59b48caa3dd9ffbaadfd8ec4259d16fd6c9ae7a7ab1d0e34f6eb00cd025fa305",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\design_top_wrapper.v": "b1179a44ba86532e670ceca42a5c88425ea27af1bad7d196f6158d164930a223",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_capture_mcu.v": "846c5d743c3563ccf20fc645987d78288ce20c002123bb04f8398dcc7884851c",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\meter_pair\\meter_roi_window_policy.v": "eed0a594bcba9176f98fade5f3af892d7b7603d0c70d1bb707fcd604eaf86682"
+  },
+  "H_or_ABC_opened": false,
+  "hardware_actions": false
+}

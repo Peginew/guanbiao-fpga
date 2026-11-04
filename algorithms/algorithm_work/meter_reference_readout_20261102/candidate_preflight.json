@@ -1,0 +1,89 @@
+{
+  "status": "PASS_PRE_TRAINING_MATH_AND_INPUT_BINDINGS_ONLY",
+  "checks": [
+    {
+      "test": "opencv_rotation_sign",
+      "augmentation": -90.0,
+      "image_angle_delta": 89.99999999999999,
+      "error": 0.0
+    },
+    {
+      "test": "opencv_rotation_sign",
+      "augmentation": -24.0,
+      "image_angle_delta": 24.000000000000014,
+      "error": 0.0
+    },
+    {
+      "test": "opencv_rotation_sign",
+      "augmentation": -8.0,
+      "image_angle_delta": 8.0,
+      "error": 0.0
+    },
+    {
+      "test": "opencv_rotation_sign",
+      "augmentation": 0.0,
+      "image_angle_delta": 0.0,
+      "error": 0.0
+    },
+    {
+      "test": "opencv_rotation_sign",
+      "augmentation": 8.0,
+      "image_angle_delta": -8.0,
+      "error": 0.0
+    },
+    {
+      "test": "opencv_rotation_sign",
+      "augmentation": 24.0,
+      "image_angle_delta": -24.000000000000014,
+      "error": 0.0
+    },
+    {
+      "test": "opencv_rotation_sign",
+      "augmentation": 90.0,
+      "image_angle_delta": -90.0,
+      "error": 0.0
+    },
+    {
+      "test": "silver_target_rotation",
+      "augmentation": -12.0,
+      "expected": 19.0,
+      "actual": 19.000001907348633
+    },
+    {
+      "test": "silver_target_rotation",
+      "augmentation": 0.0,
+      "expected": 7.0,
+      "actual": 7.0
+    },
+    {
+      "test": "silver_target_rotation",
+      "augmentation": 12.0,
+      "expected": -5.0,
+      "actual": -5.000000476837158
+    }
+  ],
+  "training_source_counts": {
+    "D": {
+      "registered_silver": 28,
+      "true_negative": 3,
+      "ignored_positive": 24
+    },
+    "E": {
+      "registered_silver": 46,
+      "true_negative": 3,
+      "ignored_positive": 6
+    },
+    "F": {
+      "registered_silver": 18,
+      "true_negative": 3,
+      "ignored_positive": 33
+    }
+  },
+  "input_records": 164,
+  "model_parameters": 6226,
+  "source_code_sha256": "7f99338774091a7c8d2e69d344bd976102b9e089e801e80ff816b448235900f1",
+  "no_G_inference": true,
+  "no_H_opened": true,
+  "no_training": true,
+  "hardware_actions": false
+}

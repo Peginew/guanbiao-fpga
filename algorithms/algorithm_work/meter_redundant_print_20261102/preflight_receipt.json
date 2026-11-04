@@ -1,0 +1,72 @@
+{
+  "status": "PASS_OCCLUSION_GEOMETRY_AND_OLD_REFERENCE_ROUTING",
+  "config": {
+    "minimum_consensus": 3,
+    "baseline_min": 30.0,
+    "point_separation_min": 8.0,
+    "inlier_residual_max": 2.5,
+    "RMS_max": 2.0,
+    "scale_min": 0.85,
+    "scale_max": 1.15,
+    "center_displacement_max": 20.0,
+    "absolute_roll_D002_max_exclusive": 24.0,
+    "competing_angle_difference": 5.0,
+    "competing_RMS_gap": 0.5,
+    "center": [
+      64.0,
+      64.0
+    ]
+  },
+  "cases": [
+    {
+      "hidden": [],
+      "accepted": true,
+      "support": 6,
+      "relative_roll_deg": 14.0
+    },
+    {
+      "hidden": [
+        "outer_psi_10_text_centroid"
+      ],
+      "accepted": true,
+      "support": 5,
+      "relative_roll_deg": 14.0
+    },
+    {
+      "hidden": [
+        "lower_striped_ball_print_centroid"
+      ],
+      "accepted": true,
+      "support": 5,
+      "relative_roll_deg": 14.0
+    },
+    {
+      "hidden": [
+        "outer_psi_10_text_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "accepted": true,
+      "support": 4,
+      "relative_roll_deg": 14.0
+    },
+    {
+      "test": "one_wrong_match",
+      "support": 5,
+      "ignored": [
+        "lower_striped_ball_print_centroid"
+      ]
+    },
+    {
+      "test": "two_points_not_redundant",
+      "accepted": false
+    }
+  ],
+  "routing": {
+    "status": "PASS_OLD_REFERENCE_ROUTING_INVARIANT",
+    "cases": 5,
+    "hardware_actions": false
+  },
+  "real_G_images_opened": false,
+  "training": false,
+  "hardware_actions": false
+}

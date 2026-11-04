@@ -1,0 +1,40 @@
+{
+  "source_sha256": {
+    "algorithm_work/meter_cnn_training_20261102/prepared_train.jsonl": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "algorithm_work/meter_cnn_training_20261102/prepared_validation.jsonl": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79",
+    "algorithm_work/meter_cnn_training_20261102/roi_cache_train.npz": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708",
+    "algorithm_work/meter_cnn_training_20261102/roi_cache_validation.npz": "3657a5a2a13ec5fb00275ffe71289aec6a13c3ac8e5fc31ab160c94b343c6527",
+    "algorithm_work/meter_cnn_training_20261102/run_002/best_weights.pt": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+    "algorithm_work/meter_cnn_training_20261102/run_002/validation_evaluation.json": "fceaf01298736ff5e421a8b2aeefdb5eed7c3b169cd3ed0a9ddd65e536cdd4a2",
+    "algorithm_work/meter_pointer_readout_20261102/polar_angle/run_001/best_weights.pt": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "algorithm_work/meter_pointer_readout_20261102/polar_angle/run_001/train_predictions.jsonl": "fc99cce9bd112c84956c0a152f5bbf77af30d510f58825be655657bbfecdcb0f",
+    "algorithm_work/meter_pointer_readout_20261102/polar_angle/run_001/validation_predictions.jsonl": "3cc05038cb7dc8360c0c480b4a723589b64c44ee976ebea9e579c6e399082818",
+    "algorithm_work/meter_pointer_readout_20261102/polar_angle/train_polar.py": "bb8da52efadee791ddbda9d6800fc46fcfab145f16b1f44590f0d920e21b0991",
+    "algorithm_work/meter_robust_readout_20261102/pose/roi_pose_candidates.py": "ea9db1a8886158181b7916d619cf6371bf6d1d836423397f21515fe22e7c1166",
+    "algorithm_work/meter_robust_readout_20261102/pose/candidate_config.json": "2b12f64af23a9de1852a03f0885b143776d58402126b93111102b60b195d5b37",
+    "algorithm_work/meter_robust_readout_20261102/pose/template_setup.json": "4983c1f85d307268ba48c51c9874ea2517387e0ac2279ac72a537d70fb53f83d",
+    "algorithm_work/meter_robust_readout_20261102/pose/candidate_B_pose.jsonl": "6581235488bfd4953d9690f7464aa612b619c8c46454db4b3a65bb750246dff0",
+    "algorithm_work/meter_robust_readout_20261102/pose/candidate_B_calibration_psi.json": "890d5ceb5cdf1ca87a6fcb7456cbf4b67123491f0ca60fac84fed5893c937491",
+    "algorithm_work/meter_robust_readout_20261102/pose/candidate_B_with_old_B_readout_psi.json": "170a2eff32047fb13d3e6c24ac831e1d31da9dfa76c24c7c127cf689091db237"
+  },
+  "driver_sha256": "5dafca0ab16cec5fbfcaa29a3ae6f0b5db407a9779fc37587dcd97d1295a8da1",
+  "outputs_sha256": {
+    "baseline.jsonl": "d3833f469d9437f35deeccbe97a2a1eb3649ecfd769da67791a4592d3c2d99b4",
+    "frozen_contract.json": "c68e082ffbc42f85c18e3fe9d00e4e355716da64abcbf1a19736676eccd2420a",
+    "joint_failure_decomposition.json": "7aeea6b7d26ee2db204dadec7d9989fd504fbe55a1cf72d65055b36e680f5782",
+    "reference_direction_keep_model_gates.jsonl": "7143920c53066701986f2e4ef6dc2c4f9e38b91a66f927e939fd6a70eac765ff",
+    "reference_direction_supplies_model_evidence.jsonl": "e78fed47a1dd2ad7c90cadd4bc3eba04671af97dd6af7029cace086b756428da",
+    "reference_hub_and_direction.jsonl": "7f939df8943a652e47ec9b62f900d07e8f3234539666f4ea7554ff01276ca125",
+    "reference_hub_resampled.jsonl": "0ce99dfd447ff6d4387efae389f939e54aa59bd5f3c6201abc86c1826ecdeaf7",
+    "summary.json": "f35ee91892a3be76bb68a8472de6cd56049ce6ed8353f289bbbb8831dcacf122",
+    "逐图联合失败分解.csv": "adc5ebccf0802e21a8a5b371c40cc1528818986d7539c9bbe8caae09b9c4a4a9"
+  },
+  "original_inputs_written": false,
+  "model_training_performed": false,
+  "forbidden_groups_not_loaded": [
+    "A",
+    "B",
+    "C",
+    "H"
+  ]
+}

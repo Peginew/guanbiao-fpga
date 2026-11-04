@@ -1,0 +1,45 @@
+{
+  "initiated_date_local": "2026-11-02",
+  "request": "Redundant printed landmarks with per-landmark visibility; preserve existing reliable reference when individual marks are occluded",
+  "scope": "Offline identified-landmark geometry, source-selection logic, visual diagnostic and one automatic ROI128 patch candidate; no training or hardware action",
+  "fixed_landmarks": ["outer_psi_5_text_centroid", "outer_psi_10_text_centroid", "outer_psi_15_text_centroid", "upper_basketball_logo_centroid", "middle_soccer_logo_centroid", "lower_striped_ball_print_centroid"],
+  "visibility": "Per point: visibly localizable/partial/unknown/occluded. Missing individual mark never implies every static reference is missing.",
+  "fixed_baseline": {
+    "hub_parameters": 1202,
+    "needle_parameters": 1009,
+    "calibration": "Frozen multi-ringB train-only PSI calibration",
+    "original_neural_permission": "UNCHANGED",
+    "old_reference_policy": "If old ring accepted, use its exact original pose/calibration/output; new missing or conflicting points do not withdraw it",
+    "new_reference_policy": "Only consider new pose when old ring rejected. Never select by true PSI, final output error or GT visibility in automatic mode.",
+    "baseline_G": "21/56 gauge outputs on G59; preserving these does not alone establish improved overall reliability"
+  },
+  "template_setup": {
+    "source": "Fixed D025 train image has clear static logos; D002 logos are needle-contaminated and not patch templates",
+    "canonical_template_image": "D_025",
+    "angle_zero": "D_002, train-only alignment using shared visible static identities",
+    "input": "Automatic query only U8 ROI128 plus unchanged predicted hub and locator radius",
+    "G_visibility": "Evaluation/diagnostic only, never used to prune automatic detections or enable inference"
+  },
+  "geometry": {
+    "type": "Orientation-preserving similarity, translation and scale; NOT full perspective rectification",
+    "normalized_center": [64,64], "normalized_radius": 48,
+    "minimum_consensus_identities": 3,
+    "minimum_max_pair_baseline_pixels": 30,
+    "minimum_between_inlier_points_pixels": 8,
+    "inlier_residual_pixels_max": 2.5,
+    "refit_RMS_pixels_max": 2.0,
+    "scale_interval": [0.85,1.15],
+    "translation_from_normalized_center_pixels_max": 20,
+    "absolute_roll_relative_D002_degrees_max_exclusive": 24,
+    "ambiguous_competing_fit": "Reject if another valid fit differs by>5deg, has at least the same inlier count, and RMS<=winnerRMS+0.5pixel",
+    "labels_or_thresholds_tuned_on_G": false
+  },
+  "data": {"train_reference_images": ["D_002","D_025"], "development_images": "All59G including56gauges/3negatives", "H_ABC": "Not opened", "canonical": "Unchanged independent sidecar"},
+  "comparisons": ["Frozen old ring", "Previous forced two-point diagnostic", "Old-first plus redundant visual landmarks", "Old-first plus automatic patch landmarks"],
+  "metrics": ["Per-ID old21 output preservation", "Per-point visible/unknown, localisation errors where labels exist", "Reference support and ambiguity by scene", "PSI coverage/MAE/max", "Correct outputs, new errors and lost correct outputs at0.25/0.5/1psi descriptive bands", "Frontal subset and original rejection subset", "Actual candidate memory/operation cost, without claiming MCU fit"],
+  "user_final_PSI_tolerance_set": false,
+  "success": "Keep all old accepted observations unchanged and quantify any correct new reading recovery with new-error risks; diagnostic landmarks are not automatic detections",
+  "stop": "No useful new correct outputs or added unsafe errors: preserve old reader and failed evidence, no G threshold/identity changes",
+  "no_actions": ["No new neural training", "No MCU/RTL/OSD/REF/Flash/vehicle changes", "No H test or ABC reserve use"],
+  "roles": {"root":"Consensus and old-first fusion/evaluation", "training_adapter":"One automatic static-patch locator and measured cost", "roi_adapter":"Six-identity point visibility annotations", "training_review":"Independent supervision and replay"}
+}

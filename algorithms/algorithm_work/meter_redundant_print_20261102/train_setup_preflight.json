@@ -1,0 +1,201 @@
+{
+  "canonical_image": "D_025",
+  "angle_zero": "D_002",
+  "reference_points_normalized": {
+    "outer_psi_5_text_centroid": [
+      30.91181058090249,
+      60.040337663020416
+    ],
+    "outer_psi_10_text_centroid": [
+      57.80612876272067,
+      30.804841548796674
+    ],
+    "outer_psi_15_text_centroid": [
+      93.86010603544794,
+      45.81239622076485
+    ],
+    "upper_basketball_logo_centroid": [
+      63.262946944538854,
+      53.998335132747506
+    ],
+    "middle_soccer_logo_centroid": [
+      66.57601512635704,
+      74.65808572013229
+    ],
+    "lower_striped_ball_print_centroid": [
+      67.74533330817522,
+      84.40325109154021
+    ]
+  },
+  "canonical_roll_relative_D002": -2.3834504963646026,
+  "alignment_direction": "D002 -> D025; add this offset to query(D025->query) rotation",
+  "alignment_identities": [
+    "outer_psi_5_text_centroid",
+    "outer_psi_10_text_centroid",
+    "outer_psi_15_text_centroid",
+    "lower_striped_ball_print_centroid"
+  ],
+  "alignment_RMS": 0.5479226731770861,
+  "alignment_scale": 0.9830121781615062,
+  "alignment_matrix": [
+    [
+      0.9821617585225213,
+      0.04088058842259129,
+      -1.8100783865063548
+    ],
+    [
+      -0.04088058842259129,
+      0.9821617585225213,
+      4.563111110537257
+    ]
+  ],
+  "reference_source_sha256": {
+    "D002": "3bf46f1100b22e198c30e06191aab719654fdb00116466abbfc695cd313d278a",
+    "D025": "365d6f001090a1bc20de34b23c57ea81758c688619cb4addfd203e5f083a2d64"
+  },
+  "clean_D002_points": {
+    "outer_psi_5_text_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        21.2109375,
+        55.74823943661972
+      ],
+      "normalized_xy": [
+        31.211556059251258,
+        57.45357081662159
+      ],
+      "uncertainty_native_px": 4
+    },
+    "outer_psi_10_text_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        56.7578125,
+        19.676810865191147
+      ],
+      "normalized_xy": [
+        58.73171734957384,
+        29.527303535515593
+      ],
+      "uncertainty_native_px": 4
+    },
+    "outer_psi_15_text_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        105.0,
+        41.01483903420523
+      ],
+      "normalized_xy": [
+        96.08050767215448,
+        46.04706727926843
+      ],
+      "uncertainty_native_px": 4
+    },
+    "upper_basketball_logo_centroid": {
+      "available": false,
+      "visibility": "partial",
+      "reason": "Visible printed circular contour supports an uncertain center, but needle/counterweight occludes part and contaminates a template patch; excluded from template and D025-toD002 alignment."
+    },
+    "middle_soccer_logo_centroid": {
+      "available": false,
+      "visibility": "partial",
+      "reason": "Visible printed circular contour supports an uncertain center, but needle/counterweight occludes part and contaminates a template patch; excluded from template and D025-toD002 alignment."
+    },
+    "lower_striped_ball_print_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        67.67578125,
+        90.04149899396378
+      ],
+      "normalized_xy": [
+        67.18433831731578,
+        84.00319111908152
+      ],
+      "uncertainty_native_px": 4
+    }
+  },
+  "canonical_D025_points": {
+    "outer_psi_5_text_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        26.424479166666668,
+        57.46852220013253
+      ],
+      "normalized_xy": [
+        30.91181058090249,
+        60.040337663020416
+      ],
+      "uncertainty_native_px": 3
+    },
+    "outer_psi_10_text_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        57.240885416666664,
+        23.969516235917826
+      ],
+      "normalized_xy": [
+        57.80612876272067,
+        30.804841548796674
+      ],
+      "uncertainty_native_px": 3
+    },
+    "outer_psi_15_text_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        98.552734375,
+        41.165672630881375
+      ],
+      "normalized_xy": [
+        93.86010603544794,
+        45.81239622076485
+      ],
+      "uncertainty_native_px": 3
+    },
+    "upper_basketball_logo_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        63.493489583333336,
+        50.545394300861496
+      ],
+      "normalized_xy": [
+        63.262946944538854,
+        53.998335132747506
+      ],
+      "uncertainty_native_px": 3
+    },
+    "middle_soccer_logo_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        67.28971354166667,
+        74.2180251822399
+      ],
+      "normalized_xy": [
+        66.57601512635704,
+        74.65808572013229
+      ],
+      "uncertainty_native_px": 3
+    },
+    "lower_striped_ball_print_centroid": {
+      "available": true,
+      "visibility": "visible",
+      "roi_xy": [
+        68.62955729166667,
+        85.3843605036448
+      ],
+      "normalized_xy": [
+        67.74533330817522,
+        84.40325109154021
+      ],
+      "uncertainty_native_px": 3
+    }
+  },
+  "query_GT_or_PSI_used": false
+}

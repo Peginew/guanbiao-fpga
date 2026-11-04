@@ -1,0 +1,7 @@
+{
+  "status": "INFERENCE_AND_JOINT_CSV_COMPLETED_SUMMARY_FAILED",
+  "error": "ZeroDivisionError in scene summary with zero gauge denominator (negative-only scenes)",
+  "driver_sha256": "e7f2842d8595c864342313bdad26fb3d1e77f5824ad54ae35ce5ccbfc3d0dc29",
+  "models_thresholds_or_inputs_changed": false,
+  "next_action": "Fix display denominator handling only and reproduce in run_002"
+}

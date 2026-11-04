@@ -1,0 +1,222 @@
+{
+  "status": "FROZEN_TRAIN_ONLY_TEMPLATE_SETUP_BEFORE_G",
+  "config": {
+    "candidate": "ONE_D025_STATIC_PRINT_LOCAL_NCC",
+    "template_id": "D_025",
+    "zero_id": "D_002",
+    "query_inputs": [
+      "U8ROI128",
+      "frozen_original_predicted_hub",
+      "locator_radius"
+    ],
+    "normalizing_center": [
+      64.0,
+      64.0
+    ],
+    "normalizing_radius": 48.0,
+    "local_contrast": {
+      "width": 9,
+      "gain": 3,
+      "border": "replicate",
+      "before_canonical_warp": true
+    },
+    "text_patch_width": 17,
+    "logo_patch_width": 13,
+    "patch_warp": "bilinear around source anchor, border128",
+    "rotations": "[-24-offset,+24-offset], outward multiplesof4degrees, offset=D002->D025 TRAINfit",
+    "rotation_step_deg": 4,
+    "translation_radius_per_rotation": 20,
+    "expected_position_rotates_about_C64_together_with_patch": true,
+    "NCC_method": "Masked zero-mean NCC via 3 OpenCV TM_CCORR sums, score is NOT calibrated probability",
+    "logo_mask": "Fixed circle radius5 in13x13 patch excludes TRAINadjacent needle corner",
+    "text_mask": "All17x17 pixels",
+    "minimum_query_variance_per_mask_pixel": 0.01,
+    "minimum_NCC": 0.68,
+    "minimum_spatial_margin": 0.06,
+    "second_peak_exclusion_radius": 6.0,
+    "minimum_train_patch_stddev": 8.0,
+    "subpixel_refinement": "bounded 3pointparabola +/-0.5pixel when finite neighbours",
+    "query_known_needle_required": false,
+    "query_manual_visibility_used": false,
+    "query_native_frame_used": false,
+    "query_pressure_or_GTpoints_used": false,
+    "template_selection": "Single fixed D025 observed clean TRAINimage; D002 known contaminated logos are NEVERpatches",
+    "threshold_selection": "Fixed before anyGprediction, no adaptation fromG labels/errors",
+    "geometry_or_READ_permission": "ROOT consensus; these outputs are perpoint evidence only",
+    "full_integer_or_MCU_implementation": false,
+    "rotation_bank_deg": [
+      -24,
+      -20,
+      -16,
+      -12,
+      -8,
+      -4,
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "rotation_bank_count": 14,
+    "canonical_roll_relative_D002": -2.3834504963646026
+  },
+  "canonical_points_normalized": {
+    "outer_psi_5_text_centroid": [
+      30.91181058090249,
+      60.040337663020416
+    ],
+    "outer_psi_10_text_centroid": [
+      57.80612876272067,
+      30.804841548796674
+    ],
+    "outer_psi_15_text_centroid": [
+      93.86010603544794,
+      45.81239622076485
+    ],
+    "upper_basketball_logo_centroid": [
+      63.262946944538854,
+      53.998335132747506
+    ],
+    "middle_soccer_logo_centroid": [
+      66.57601512635704,
+      74.65808572013229
+    ],
+    "lower_striped_ball_print_centroid": [
+      67.74533330817522,
+      84.40325109154021
+    ]
+  },
+  "canonical_roll_relative_D002": -2.3834504963646026,
+  "reference_D002_points_normalized": {
+    "outer_psi_5_text_centroid": [
+      31.211556059251258,
+      57.45357081662159
+    ],
+    "outer_psi_10_text_centroid": [
+      58.73171734957384,
+      29.527303535515593
+    ],
+    "outer_psi_15_text_centroid": [
+      96.08050767215448,
+      46.04706727926843
+    ],
+    "upper_basketball_logo_centroid": [
+      62.663168962477066,
+      52.93030217249879
+    ],
+    "middle_soccer_logo_centroid": [
+      66.59462057538029,
+      74.9566538308359
+    ],
+    "lower_striped_ball_print_centroid": [
+      67.18433831731578,
+      84.00319111908152
+    ]
+  },
+  "common_alignment_identities": [
+    "outer_psi_5_text_centroid",
+    "outer_psi_10_text_centroid",
+    "outer_psi_15_text_centroid",
+    "lower_striped_ball_print_centroid"
+  ],
+  "D002_to_D025_train_similarity": {
+    "matrix": [
+      [
+        0.9821617585225213,
+        0.04088058842259129,
+        -1.8100783865063548
+      ],
+      [
+        -0.04088058842259129,
+        0.9821617585225213,
+        4.563111110537257
+      ]
+    ],
+    "scale": 0.9830121781615062,
+    "rotation_deg": -2.3834504963646026,
+    "center_displacement": 0.8721625329076879,
+    "residuals": [
+      0.42965796157636466,
+      0.8085748981387911,
+      0.5808801048249914,
+      0.1582908623341513
+    ],
+    "RMS": 0.5479226731770861
+  },
+  "per_identity_templates": {
+    "outer_psi_5_text_centroid": {
+      "width": 17,
+      "center_normalized": [
+        30.91181058090249,
+        60.040337663020416
+      ],
+      "TRAIN_masked_patch_stddev": 73.62450939734155,
+      "mask_pixels": 289
+    },
+    "outer_psi_10_text_centroid": {
+      "width": 17,
+      "center_normalized": [
+        57.80612876272067,
+        30.804841548796674
+      ],
+      "TRAIN_masked_patch_stddev": 68.9088198265422,
+      "mask_pixels": 289
+    },
+    "outer_psi_15_text_centroid": {
+      "width": 17,
+      "center_normalized": [
+        93.86010603544794,
+        45.81239622076485
+      ],
+      "TRAIN_masked_patch_stddev": 76.38882302966027,
+      "mask_pixels": 289
+    },
+    "upper_basketball_logo_centroid": {
+      "width": 13,
+      "center_normalized": [
+        63.262946944538854,
+        53.998335132747506
+      ],
+      "TRAIN_masked_patch_stddev": 84.23048665345442,
+      "mask_pixels": 81
+    },
+    "middle_soccer_logo_centroid": {
+      "width": 13,
+      "center_normalized": [
+        66.57601512635704,
+        74.65808572013229
+      ],
+      "TRAIN_masked_patch_stddev": 60.92679274403071,
+      "mask_pixels": 81
+    },
+    "lower_striped_ball_print_centroid": {
+      "width": 13,
+      "center_normalized": [
+        67.74533330817522,
+        84.40325109154021
+      ],
+      "TRAIN_masked_patch_stddev": 74.95002450192732,
+      "mask_pixels": 81
+    }
+  },
+  "source_sha256": {
+    "reference_D002": "3bf46f1100b22e198c30e06191aab719654fdb00116466abbfc695cd313d278a",
+    "reference_D025": "365d6f001090a1bc20de34b23c57ea81758c688619cb4addfd203e5f083a2d64",
+    "prepared_train": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "train_cache": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708",
+    "train_original_hub_predictions": "fc99cce9bd112c84956c0a152f5bbf77af30d510f58825be655657bbfecdcb0f",
+    "original_hub_weights": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+    "original_polar_weights": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "geometry_code": "841fb7b8ba7136c479890d04877c698d3ba979514e9029f66e3767e208505fb2",
+    "code": "0f3c3865d59b9bcb82ff3192d5c1ca9307226de8395de9e8c23d996ae85f2eb8",
+    "templates": "e5a1a366b84f837b365f5979dda9b30b40fb6a05fc017e0f4d206fd87e7fe3e0"
+  },
+  "native_annotations_only_define_TRAIN_setup": true,
+  "query_GT_points_or_pressure_used": false,
+  "H_ABC_opened": false,
+  "model_training": false,
+  "hardware_actions": false
+}

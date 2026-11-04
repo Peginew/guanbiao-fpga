@@ -1,0 +1,1132 @@
+{
+  "status": "SYNTHETIC_LAYER_ACCOUNTING_COMPLETE_WHOLE_MCU_LINK_FIT_PENDING",
+  "candidate_code_sha256": "7f99338774091a7c8d2e69d344bd976102b9e089e801e80ff816b448235900f1",
+  "driver_sha256": "12151f5dec1da033c5da26b2f2faea998e627e128c6192f3c60965e8a8469f16",
+  "synthetic_forward_only": true,
+  "training": false,
+  "train_G_H_ABC_pixels_opened": false,
+  "compile_or_device_actions": false,
+  "StaticRoll": {
+    "layers": [
+      {
+        "name": "first",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          1,
+          128,
+          128
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "parameters": 104,
+        "weight_elements": 100,
+        "bias_elements": 4,
+        "nominal_MAC": 409600,
+        "nonpadding_MAC": 401956,
+        "output_elements": 16384,
+        "output_FP32_bytes": 65536,
+        "planned_output_INT8_bytes": 16384,
+        "planned_weights_INT8_bias_S32_bytes": 116
+      },
+      {
+        "name": "down.0.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "parameters": 104,
+        "weight_elements": 100,
+        "bias_elements": 4,
+        "nominal_MAC": 102400,
+        "nonpadding_MAC": 98596,
+        "output_elements": 4096,
+        "output_FP32_bytes": 16384,
+        "planned_output_INT8_bytes": 4096,
+        "planned_weights_INT8_bias_S32_bytes": 116
+      },
+      {
+        "name": "down.0.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 4096,
+        "output_FP32_bytes": 16384,
+        "planned_output_INT8_bytes": 4096,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "down.0.2",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "parameters": 40,
+        "weight_elements": 32,
+        "bias_elements": 8,
+        "nominal_MAC": 32768,
+        "nonpadding_MAC": 32768,
+        "output_elements": 8192,
+        "output_FP32_bytes": 32768,
+        "planned_output_INT8_bytes": 8192,
+        "planned_weights_INT8_bias_S32_bytes": 64
+      },
+      {
+        "name": "down.0.3",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 8192,
+        "output_FP32_bytes": 32768,
+        "planned_output_INT8_bytes": 8192,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "down.1.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 208,
+        "weight_elements": 200,
+        "bias_elements": 8,
+        "nominal_MAC": 51200,
+        "nonpadding_MAC": 47432,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 232
+      },
+      {
+        "name": "down.1.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "down.1.2",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 72,
+        "weight_elements": 64,
+        "bias_elements": 8,
+        "nominal_MAC": 16384,
+        "nonpadding_MAC": 16384,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 96
+      },
+      {
+        "name": "down.1.3",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "down.2.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 208,
+        "weight_elements": 200,
+        "bias_elements": 8,
+        "nominal_MAC": 12800,
+        "nonpadding_MAC": 10952,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 232
+      },
+      {
+        "name": "down.2.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "down.2.2",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 72,
+        "weight_elements": 64,
+        "bias_elements": 8,
+        "nominal_MAC": 4096,
+        "nonpadding_MAC": 4096,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 96
+      },
+      {
+        "name": "down.2.3",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "head",
+        "kind": "Linear",
+        "input_shape": [
+          1,
+          128
+        ],
+        "output_shape": [
+          1,
+          42
+        ],
+        "parameters": 5418,
+        "weight_elements": 5376,
+        "bias_elements": 42,
+        "nominal_MAC": 5376,
+        "nonpadding_MAC": 5376,
+        "output_elements": 42,
+        "output_FP32_bytes": 168,
+        "planned_output_INT8_bytes": 42,
+        "planned_weights_INT8_bias_S32_bytes": 5544
+      }
+    ],
+    "output_shape": [
+      1,
+      42
+    ],
+    "parameters": 6226,
+    "nominal_MAC": 634624,
+    "nonpadding_MAC": 617560,
+    "FP32_weight_and_bias_bytes": 24904,
+    "planned_weights_INT8_bias_S32_bytes": 6496,
+    "largest_layer_output_INT8_bytes": 16384,
+    "largest_layer_output_FP32_bytes": 65536,
+    "MAC_definition": "One multiply-accumulate; excludes bias/activation/normalization/pooling/preprocessing/decode; not CPU cycles"
+  },
+  "existing_hub": {
+    "layers": [
+      {
+        "name": "first",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          1,
+          128,
+          128
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "parameters": 104,
+        "weight_elements": 100,
+        "bias_elements": 4,
+        "nominal_MAC": 409600,
+        "nonpadding_MAC": 401956,
+        "output_elements": 16384,
+        "output_FP32_bytes": 65536,
+        "planned_output_INT8_bytes": 16384,
+        "planned_weights_INT8_bias_S32_bytes": 116
+      },
+      {
+        "name": "local.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "parameters": 104,
+        "weight_elements": 100,
+        "bias_elements": 4,
+        "nominal_MAC": 409600,
+        "nonpadding_MAC": 394384,
+        "output_elements": 16384,
+        "output_FP32_bytes": 65536,
+        "planned_output_INT8_bytes": 16384,
+        "planned_weights_INT8_bias_S32_bytes": 116
+      },
+      {
+        "name": "local.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 16384,
+        "output_FP32_bytes": 65536,
+        "planned_output_INT8_bytes": 16384,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "local.2",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "parameters": 20,
+        "weight_elements": 16,
+        "bias_elements": 4,
+        "nominal_MAC": 65536,
+        "nonpadding_MAC": 65536,
+        "output_elements": 16384,
+        "output_FP32_bytes": 65536,
+        "planned_output_INT8_bytes": 16384,
+        "planned_weights_INT8_bias_S32_bytes": 32
+      },
+      {
+        "name": "local.3",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 16384,
+        "output_FP32_bytes": 65536,
+        "planned_output_INT8_bytes": 16384,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "downs.0.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "parameters": 104,
+        "weight_elements": 100,
+        "bias_elements": 4,
+        "nominal_MAC": 102400,
+        "nonpadding_MAC": 98596,
+        "output_elements": 4096,
+        "output_FP32_bytes": 16384,
+        "planned_output_INT8_bytes": 4096,
+        "planned_weights_INT8_bias_S32_bytes": 116
+      },
+      {
+        "name": "downs.0.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 4096,
+        "output_FP32_bytes": 16384,
+        "planned_output_INT8_bytes": 4096,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "downs.0.2",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "parameters": 40,
+        "weight_elements": 32,
+        "bias_elements": 8,
+        "nominal_MAC": 32768,
+        "nonpadding_MAC": 32768,
+        "output_elements": 8192,
+        "output_FP32_bytes": 32768,
+        "planned_output_INT8_bytes": 8192,
+        "planned_weights_INT8_bias_S32_bytes": 64
+      },
+      {
+        "name": "downs.0.3",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 8192,
+        "output_FP32_bytes": 32768,
+        "planned_output_INT8_bytes": 8192,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "downs.1.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 208,
+        "weight_elements": 200,
+        "bias_elements": 8,
+        "nominal_MAC": 51200,
+        "nonpadding_MAC": 47432,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 232
+      },
+      {
+        "name": "downs.1.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "downs.1.2",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 72,
+        "weight_elements": 64,
+        "bias_elements": 8,
+        "nominal_MAC": 16384,
+        "nonpadding_MAC": 16384,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 96
+      },
+      {
+        "name": "downs.1.3",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 2048,
+        "output_FP32_bytes": 8192,
+        "planned_output_INT8_bytes": 2048,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "downs.2.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 208,
+        "weight_elements": 200,
+        "bias_elements": 8,
+        "nominal_MAC": 12800,
+        "nonpadding_MAC": 10952,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 232
+      },
+      {
+        "name": "downs.2.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "downs.2.2",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 72,
+        "weight_elements": 64,
+        "bias_elements": 8,
+        "nominal_MAC": 4096,
+        "nonpadding_MAC": 4096,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 96
+      },
+      {
+        "name": "downs.2.3",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "context.0",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 208,
+        "weight_elements": 200,
+        "bias_elements": 8,
+        "nominal_MAC": 12800,
+        "nonpadding_MAC": 9248,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 232
+      },
+      {
+        "name": "context.1",
+        "kind": "ReLU",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "parameters": 0,
+        "weight_elements": 0,
+        "bias_elements": 0,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 512,
+        "output_FP32_bytes": 2048,
+        "planned_output_INT8_bytes": 512,
+        "planned_weights_INT8_bias_S32_bytes": 0
+      },
+      {
+        "name": "fuse",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "parameters": 52,
+        "weight_elements": 48,
+        "bias_elements": 4,
+        "nominal_MAC": 196608,
+        "nonpadding_MAC": 196608,
+        "output_elements": 16384,
+        "output_FP32_bytes": 65536,
+        "planned_output_INT8_bytes": 16384,
+        "planned_weights_INT8_bias_S32_bytes": 64
+      },
+      {
+        "name": "head",
+        "kind": "Conv2d",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          2,
+          64,
+          64
+        ],
+        "parameters": 10,
+        "weight_elements": 8,
+        "bias_elements": 2,
+        "nominal_MAC": 32768,
+        "nonpadding_MAC": 32768,
+        "output_elements": 8192,
+        "output_FP32_bytes": 32768,
+        "planned_output_INT8_bytes": 8192,
+        "planned_weights_INT8_bias_S32_bytes": 16
+      }
+    ],
+    "output_shape": [
+      1,
+      2,
+      64,
+      64
+    ],
+    "parameters": 1202,
+    "nominal_MAC": 1346560,
+    "nonpadding_MAC": 1310728,
+    "FP32_weight_and_bias_bytes": 4808,
+    "planned_weights_INT8_bias_S32_bytes": 1412,
+    "largest_layer_output_INT8_bytes": 16384,
+    "largest_layer_output_FP32_bytes": 65536,
+    "MAC_definition": "One multiply-accumulate; excludes bias/activation/normalization/pooling/preprocessing/decode; not CPU cycles"
+  },
+  "existing_polar": {
+    "layers": [
+      {
+        "name": "first",
+        "kind": "Conv1d",
+        "input_shape": [
+          1,
+          16,
+          366
+        ],
+        "output_shape": [
+          1,
+          8,
+          360
+        ],
+        "parameters": 904,
+        "weight_elements": 896,
+        "bias_elements": 8,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 2880,
+        "output_FP32_bytes": 11520,
+        "planned_output_INT8_bytes": 2880,
+        "planned_weights_INT8_bias_S32_bytes": 928
+      },
+      {
+        "name": "depthwise",
+        "kind": "Conv1d",
+        "input_shape": [
+          1,
+          8,
+          366
+        ],
+        "output_shape": [
+          1,
+          8,
+          360
+        ],
+        "parameters": 64,
+        "weight_elements": 56,
+        "bias_elements": 8,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 2880,
+        "output_FP32_bytes": 11520,
+        "planned_output_INT8_bytes": 2880,
+        "planned_weights_INT8_bias_S32_bytes": 88
+      },
+      {
+        "name": "mix",
+        "kind": "Conv1d",
+        "input_shape": [
+          1,
+          8,
+          360
+        ],
+        "output_shape": [
+          1,
+          4,
+          360
+        ],
+        "parameters": 36,
+        "weight_elements": 32,
+        "bias_elements": 4,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 1440,
+        "output_FP32_bytes": 5760,
+        "planned_output_INT8_bytes": 1440,
+        "planned_weights_INT8_bias_S32_bytes": 48
+      },
+      {
+        "name": "head",
+        "kind": "Conv1d",
+        "input_shape": [
+          1,
+          4,
+          360
+        ],
+        "output_shape": [
+          1,
+          1,
+          360
+        ],
+        "parameters": 5,
+        "weight_elements": 4,
+        "bias_elements": 1,
+        "nominal_MAC": 0,
+        "nonpadding_MAC": 0,
+        "output_elements": 360,
+        "output_FP32_bytes": 1440,
+        "planned_output_INT8_bytes": 360,
+        "planned_weights_INT8_bias_S32_bytes": 8
+      }
+    ],
+    "output_shape": [
+      1,
+      360
+    ],
+    "parameters": 1009,
+    "nominal_MAC": 355680,
+    "nonpadding_MAC": 0,
+    "FP32_weight_and_bias_bytes": 4036,
+    "planned_weights_INT8_bias_S32_bytes": 1072,
+    "largest_layer_output_INT8_bytes": 2880,
+    "largest_layer_output_FP32_bytes": 11520,
+    "MAC_definition": "One multiply-accumulate; excludes bias/activation/normalization/pooling/preprocessing/decode; not CPU cycles",
+    "MAC_source": "Frozen previous train_polar.py config cost_estimate, not Conv2d hooks"
+  },
+  "preprocessing": {
+    "status": "SYNTHETIC_INTEGER_MEAN_STORAGE_PROTOTYPE_ONLY_NOT_INTEGRATED",
+    "input_pixels": 16384,
+    "local_box": [
+      9,
+      9
+    ],
+    "border": "replicate",
+    "maximum_vertical_9pixel_sum": 2295,
+    "maximum_window_81pixel_sum": 20655,
+    "mean_rounding": "(nonnegative_sum+40)//81 equals CV16S rounding for odd divisor81",
+    "synthetic_cv2_mean_bitexact_pixels": 49152,
+    "proposed_source_rowring_U8_bytes": 1152,
+    "proposed_vertical_columns_U16_bytes": 256,
+    "proposed_normalizer_buffers_bytes": 1408,
+    "first_5line_INT8_convolution_cache_bytes": 640,
+    "source_rows_plus_normalizer_plus_first_conv_cache_bytes": 2048,
+    "proposed_summed_add_sub_ops": 67328,
+    "per_image_constant_divisions_by81": 16384,
+    "annulus_and_contrast_pixels": 16384,
+    "full_normalized_U8_buffer_if_not_streamed": 16384,
+    "preprocessing_output_INT8_exact_scale_and_annulus_fixedpoint": "PENDING",
+    "pool2x2": {
+      "output_elements": 128,
+      "additions": 384,
+      "division_by4": 128
+    },
+    "existing_scratch_reuse": "Potential sequential lifetime reuse of two16KiB arrays; not newly allocated32KiB pernetwork. Must preserve owned ROI readability and retain model result metadata.",
+    "preserved_source_dependency": "ExistingMCU feeds rows from owned ROI without16KiB raw snapshot; new sequential pose/needle must either reread same owned ROI or explicitly budget snapshot. Lifecycle/C code not changed."
+  },
+  "current_actual_TCM_baseline": {
+    "ELF_path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_flash_final_20261031\\mcu_boot\\flash_tcm20e_candidate_20261101_040529_172170\\mroi_flash_tcm20e.elf",
+    "ELF_sha256": "fea81904b304dce91ba6b868a86be1d1ad38f1b19cda78edf866ebc29ba52661",
+    "map_sha256": "8dd6e54ce0d033d98de8766bd07b316f6d383b35353fb490a776ccc14936ba10",
+    "TCM_bytes": 49152,
+    "TCM_origin": "0x08000000",
+    "TCM_end_exclusive": "0x0800c000",
+    "runtime_image_VMA": "0x08000040",
+    "runtime_code_rodata_bytes": 11688,
+    "BSS_bytes": 33948,
+    "a_address": "0x800714c",
+    "b_address": "0x800314c",
+    "scratch_a_bytes": 16384,
+    "scratch_b_bytes": 16384,
+    "row_cache_address": "0x8002ecc",
+    "row_cache_bytes": 640,
+    "BSS_end": "0x800b284",
+    "stack_start": "0x800b800",
+    "stack_top": "0x800c000",
+    "fixed_stack_bytes": 2048,
+    "static_to_stack_gap_bytes": 1404,
+    "raw_flash_payload_bytes": 12264,
+    "Flash_LMA_copied_to_TCM": true,
+    "baseline_network_note": "ExistingFEA819 older1202-point/geometry app, not new1009polar orStaticRoll; current rodata is copied toTCM.",
+    "new_static_weights_only_append_shortfall_bytes": 5092,
+    "new_static_plus_polar_weights_only_append_shortfall_bytes": 6164,
+    "cannot_claim_fit": "EvenINT8StaticRollweights alone exceed existingTCM gap; code/quantization tables/polar activations/stack are additional. Savings from replacement, Flash-resident weights or scratch reuse require actualC link and lifecycle proof."
+  },
+  "combined_network_parameters": 8437,
+  "combined_nominal_learned_MAC": 2336864,
+  "combined_planned_INT8_weights_S32bias_bytes": 8980,
+  "replaced_multiring_cost": {
+    "center_hypotheses": 9,
+    "radius_hypotheses": 3,
+    "profile_builds_per_ROI": 27,
+    "profile_samples_per_build": 4320,
+    "total_bilinear_samples": 116640,
+    "source_reads_for_bilinear_without_normalization": 466560,
+    "reference_count": 2,
+    "selected_reference_elements": {
+      "D_002": 1634,
+      "E_002": 1600
+    },
+    "template_query_comparison_count": 4278582,
+    "query_profile_INT8_bytes": 4320,
+    "full_reference_profiles_INT8_bytes": 8640,
+    "compressed_selected_template_INT8_values_bytes": 3234,
+    "compressed_selected_template_U16_indices_bytes": 6468,
+    "sin_cos_S16_LUT_bytes": 1440,
+    "rotation_scores_S32_bytes": 196,
+    "full_normalized_image_U8_bytes": 16384,
+    "normalization_9line_U8_streaming_alternative_bytes": 1152,
+    "trim_selection_working_storage_not_implemented_inC": true
+  },
+  "replaced_cost_note": "Different operation types; no runtime/speedup ratio or MCU cycle claim fromMAC versusabs-difference counts.",
+  "tools": {
+    "RISC_V_GCC": {
+      "path": "C:/Anlogic/FD_2026.2/toolchain/gcc/riscv/ph1p35/bin/riscv64-unknown-elf-gcc.exe",
+      "exists": true
+    },
+    "RISC_V_NM": {
+      "path": "C:/Anlogic/FD_2026.2/toolchain/gcc/riscv/ph1p35/bin/riscv64-unknown-elf-nm.exe",
+      "exists": true
+    },
+    "RISC_V_SIZE": {
+      "path": "C:/Anlogic/FD_2026.2/toolchain/gcc/riscv/ph1p35/bin/riscv64-unknown-elf-size.exe",
+      "exists": true
+    },
+    "HOST_GCC": {
+      "path": "C:/Users/Edward/Desktop/mingw64/bin/gcc.exe",
+      "exists": true
+    }
+  },
+  "pending": [
+    "Quantize all new operators and reproduce floating behavior with fixed arithmetic.",
+    "Plan owned-ROI rereads and actual sequential buffer lifetime, preserving original capture ownership.",
+    "Replace oldC branches or placeweights appropriately, then actuallylink fullhub+polar+pose+preprocessing+PSI app within48KiB.",
+    "Measure actual stack watermark, cycles and video concurrency after link; no static fit/latency acceptance here."
+  ]
+}

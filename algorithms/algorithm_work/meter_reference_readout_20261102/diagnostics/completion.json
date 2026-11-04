@@ -1,0 +1,70 @@
+{
+  "status": "FROZEN_JOINT_FAILURE_DIAGNOSTICS_COMPLETED",
+  "authoritative_run": "run_003",
+  "primary_unit": "psi",
+  "source_driver_sha256": "c6036ab0adafdbeaa9e6df2bc6c51f6e97e998a6014533e17903f8f40e57d3d7",
+  "summary_driver_sha256": "ba26310782375750bc7ce966287723184baa9bb0d80b02d88689da108eae5b7d",
+  "source_contract": {
+    "input": "Frozen proxy ROI128 U8 from existing cache, not nativeSIFT/actualCSI proof",
+    "hub_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+    "polar_checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "thresholds": {
+      "hub_peak": 0.3,
+      "hub_margin": 0.02,
+      "hub_center20": 20,
+      "needle_peak": 0.3,
+      "needle_margin": 0.02,
+      "polar_outside_max": 0.05,
+      "pose_center14": 14,
+      "pose_peak": 0.64,
+      "pose_margin": 0.018,
+      "pose_roll_strict_interior": 24
+    },
+    "visual_reference_rule": "Existing visible in-ROI loss_mask1 heads; declared native uncertainty<=8px; no pressure inversion",
+    "calibration": "Frozen existing candidateB train-only fit, no refitting or extrapolation",
+    "uncertainty": "AI annotations bounded by declaration, not certified gold; PSI reference accuracy unknown",
+    "diagnosis_limits": [
+      "Manual source replacing model evidence is not model recognition.",
+      "Hub reference changes frozen polar feature distribution; not a strict oracle upper bound.",
+      "Ring pose remains estimated and is not ground truth.",
+      "0.25/0.5/1psi distributions are not final accuracy targets.",
+      "Reference-only negatives are ineligible, not successful negative rejection."
+    ],
+    "training": false,
+    "native_SIFT_used": false,
+    "ABC_or_H_opened": false,
+    "device_actions": false,
+    "reference_controls": {
+      "reference_needle_preserve_hub_permission": "Replace needle peak/margin/polar sampling-domain evidence only; retain original hub peak/margin/center20.",
+      "reference_hub_permission_only": "Skip original hub peak/margin only; original center, polar samples, polar permission and pose unchanged.",
+      "reference_hub_resampled_keep_old_confidence": "New reference center resamples polar+pose, but retain original hub peak/margin as diagnostic control; these scores are not new-center confidence.",
+      "reference_direction_supplies_model_evidence": "Manual double-point direction replaces ENTIRE model permission, not needle-only; existing pose remains estimated."
+    }
+  },
+  "artifacts_sha256": {
+    "run_003/baseline.jsonl": "d3833f469d9437f35deeccbe97a2a1eb3649ecfd769da67791a4592d3c2d99b4",
+    "run_003/findings.json": "4761b792b3133165fc6768cdb24ea35b18795501a99b90e16c4aac20deb5ad53",
+    "run_003/frozen_contract.json": "79f5bfb8b4a44253cdd154a70171f64236e01ec21dfc48e85be62ce067e75447",
+    "run_003/joint_failure_decomposition.json": "b0d7223b3e86830c3d6ec3cfc2252e18a4e57b2ed323da45104e37d4ded831ed",
+    "run_003/manifest.json": "5dae542b84f9486d77e571a89e684cec6b12afcf505570c79877936ad7023891",
+    "run_003/reference_direction_keep_model_gates.jsonl": "7143920c53066701986f2e4ef6dc2c4f9e38b91a66f927e939fd6a70eac765ff",
+    "run_003/reference_direction_supplies_model_evidence.jsonl": "e78fed47a1dd2ad7c90cadd4bc3eba04671af97dd6af7029cace086b756428da",
+    "run_003/reference_hub_and_direction.jsonl": "7f939df8943a652e47ec9b62f900d07e8f3234539666f4ea7554ff01276ca125",
+    "run_003/reference_hub_permission_only.jsonl": "7e2654c7fe2e0cf2e6f3731bdce4f445e93043ffaeb8253a5ab17a4bae57401e",
+    "run_003/reference_hub_resampled.jsonl": "0ce99dfd447ff6d4387efae389f939e54aa59bd5f3c6201abc86c1826ecdeaf7",
+    "run_003/reference_hub_resampled_keep_old_confidence.jsonl": "92c19bbaecd11521b930a5279d6aafd53ea9349086c1367c5550df67040dff57",
+    "run_003/reference_needle_preserve_hub_permission.jsonl": "045a557792d45175f0663daac7c9491e7b45ade9bb9cfbb436c53f4339216491",
+    "run_003/summary.json": "28d955c0a3f38513261b089add775d25bf4225a801d7965c0a3ba9a394b6e379",
+    "run_003/姿态支路重点复核.csv": "f21487c657b7da3c5c04808282abe6aa9acbcb0834e1d97286bab6f7ecd7c435",
+    "run_003/逐图联合失败分解.csv": "962cde9c4b043beb1a7e39ffb4ef18e22f5043a0ee72de05be472f690f4e7ecd",
+    "run_003_stdout.log": "8dadeac52ea9923785a1eb3c158e44929c530b4db7c8dcc9c33b65f6b4b5e302",
+    "run_003_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "prior_failure_preserved": "run_001 summary ZeroDivisionError for negative-only scene; infer/CSV preserved. run_002 basic diagnosis completed; run_003 adds only stage-factor controls. No data/model/policy changes.",
+  "training_performed": false,
+  "original_sources_changed": false,
+  "ABC_or_H_opened": false,
+  "device_actions": false,
+  "main_recommendation": "Develop exactly one whole-ROI static-print reference-direction candidate; keep original hub+polar and calibration frozen for controlled comparison.",
+  "documentation_sha256": "6738f28c499c4476fb929739f15639d9820f3ba14e6a8017190ca90246601301"
+}

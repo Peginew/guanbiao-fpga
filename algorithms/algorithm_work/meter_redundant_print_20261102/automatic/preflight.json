@@ -1,0 +1,481 @@
+{
+  "status": "TRAIN_SELF_AND_SYNTHETIC_POSITION_ROTATION_PREFLIGHT_ONLY",
+  "train_id": "D_025",
+  "train_self_predictions": {
+    "points": {
+      "outer_psi_5_text_centroid": {
+        "accepted": true,
+        "normalized_xy": [
+          30.962717504062258,
+          59.990809136535425
+        ],
+        "roi_xy": [
+          26.482810016120567,
+          57.41177076353515
+        ],
+        "candidate_normalized_xy": [
+          30.962717504062258,
+          59.990809136535425
+        ],
+        "candidate_roi_xy": [
+          26.482810016120567,
+          57.41177076353515
+        ],
+        "score": 0.9972253441810608,
+        "second_peak_score": 0.7466434836387634,
+        "margin": 0.25058186054229736,
+        "evidence": "sufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": 0
+      },
+      "outer_psi_10_text_centroid": {
+        "accepted": true,
+        "normalized_xy": [
+          57.82991771627846,
+          30.840080513016687
+        ],
+        "roi_xy": [
+          57.2681435926183,
+          24.009894215753263
+        ],
+        "candidate_normalized_xy": [
+          57.82991771627846,
+          30.840080513016687
+        ],
+        "candidate_roi_xy": [
+          57.2681435926183,
+          24.009894215753263
+        ],
+        "score": 0.9808390736579895,
+        "second_peak_score": 0.701797366142273,
+        "margin": 0.27904170751571655,
+        "evidence": "sufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": 0
+      },
+      "outer_psi_15_text_centroid": {
+        "accepted": true,
+        "normalized_xy": [
+          93.98829806681354,
+          45.960135287049994
+        ],
+        "roi_xy": [
+          98.69962107760642,
+          41.33495697766642
+        ],
+        "candidate_normalized_xy": [
+          93.98829806681354,
+          45.960135287049994
+        ],
+        "candidate_roi_xy": [
+          98.69962107760642,
+          41.33495697766642
+        ],
+        "score": 0.9925442337989807,
+        "second_peak_score": 0.8354129791259766,
+        "margin": 0.15713125467300415,
+        "evidence": "sufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": 0
+      },
+      "upper_basketball_logo_centroid": {
+        "accepted": true,
+        "normalized_xy": [
+          63.19340992954776,
+          53.93809785972195
+        ],
+        "roi_xy": [
+          63.41381175365605,
+          50.47637242551971
+        ],
+        "candidate_normalized_xy": [
+          63.19340992954776,
+          53.93809785972195
+        ],
+        "candidate_roi_xy": [
+          63.41381175365605,
+          50.47637242551971
+        ],
+        "score": 0.9751608967781067,
+        "second_peak_score": 0.6667283177375793,
+        "margin": 0.30843257904052734,
+        "evidence": "sufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": 0
+      },
+      "middle_soccer_logo_centroid": {
+        "accepted": true,
+        "normalized_xy": [
+          66.77444797643882,
+          74.78019245163406
+        ],
+        "roi_xy": [
+          67.51708451571872,
+          74.35793914541901
+        ],
+        "candidate_normalized_xy": [
+          66.77444797643882,
+          74.78019245163406
+        ],
+        "candidate_roi_xy": [
+          67.51708451571872,
+          74.35793914541901
+        ],
+        "score": 0.8688259720802307,
+        "second_peak_score": 0.7763738632202148,
+        "margin": 0.09245210886001587,
+        "evidence": "sufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": 4
+      },
+      "lower_striped_ball_print_centroid": {
+        "accepted": true,
+        "normalized_xy": [
+          67.79637375332652,
+          84.36736575886485
+        ],
+        "roi_xy": [
+          68.6880411350692,
+          85.34324189328761
+        ],
+        "candidate_normalized_xy": [
+          67.79637375332652,
+          84.36736575886485
+        ],
+        "candidate_roi_xy": [
+          68.6880411350692,
+          85.34324189328761
+        ],
+        "score": 0.9078238010406494,
+        "second_peak_score": 0.6248586177825928,
+        "margin": 0.28296518325805664,
+        "evidence": "sufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": 0
+      }
+    },
+    "cost": {
+      "candidate_centers_evaluated": 141204,
+      "nominal_patch_pixel_products": 32335716
+    }
+  },
+  "rotation_checks": [
+    {
+      "delta": -24.0,
+      "expected_point": [
+        106.02309105155965,
+        45.29011441851319
+      ],
+      "same_CV_patch_rotation": true
+    },
+    {
+      "delta": 24.0,
+      "expected_point": [
+        106.02309105155965,
+        82.70988558148682
+      ],
+      "same_CV_patch_rotation": true
+    }
+  ],
+  "masked_NCC_direct_window_oracle": [
+    {
+      "width": 17,
+      "mask_pixels": 289,
+      "windows": 30,
+      "max_error": 2.737890934800813e-08,
+      "template_zero_sum": -3.751665644813329e-12
+    },
+    {
+      "width": 13,
+      "mask_pixels": 81,
+      "windows": 30,
+      "max_error": 1.7370582444664606e-08,
+      "template_zero_sum": -2.8421709430404007e-13
+    }
+  ],
+  "constant_unknown_input": {
+    "points": {
+      "outer_psi_5_text_centroid": {
+        "accepted": false,
+        "normalized_xy": null,
+        "roi_xy": null,
+        "candidate_normalized_xy": null,
+        "candidate_roi_xy": null,
+        "score": null,
+        "second_peak_score": null,
+        "margin": null,
+        "evidence": "insufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": null
+      },
+      "outer_psi_10_text_centroid": {
+        "accepted": false,
+        "normalized_xy": null,
+        "roi_xy": null,
+        "candidate_normalized_xy": null,
+        "candidate_roi_xy": null,
+        "score": null,
+        "second_peak_score": null,
+        "margin": null,
+        "evidence": "insufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": null
+      },
+      "outer_psi_15_text_centroid": {
+        "accepted": false,
+        "normalized_xy": null,
+        "roi_xy": null,
+        "candidate_normalized_xy": null,
+        "candidate_roi_xy": null,
+        "score": null,
+        "second_peak_score": null,
+        "margin": null,
+        "evidence": "insufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": null
+      },
+      "upper_basketball_logo_centroid": {
+        "accepted": false,
+        "normalized_xy": null,
+        "roi_xy": null,
+        "candidate_normalized_xy": null,
+        "candidate_roi_xy": null,
+        "score": null,
+        "second_peak_score": null,
+        "margin": null,
+        "evidence": "insufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": null
+      },
+      "middle_soccer_logo_centroid": {
+        "accepted": false,
+        "normalized_xy": null,
+        "roi_xy": null,
+        "candidate_normalized_xy": null,
+        "candidate_roi_xy": null,
+        "score": null,
+        "second_peak_score": null,
+        "margin": null,
+        "evidence": "insufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": null
+      },
+      "lower_striped_ball_print_centroid": {
+        "accepted": false,
+        "normalized_xy": null,
+        "roi_xy": null,
+        "candidate_normalized_xy": null,
+        "candidate_roi_xy": null,
+        "score": null,
+        "second_peak_score": null,
+        "margin": null,
+        "evidence": "insufficient",
+        "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+        "score_is_probability": false,
+        "physical_occlusion_diagnosed": false,
+        "winning_template_rotation_deg": null
+      }
+    },
+    "cost": {
+      "candidate_centers_evaluated": 141204,
+      "nominal_patch_pixel_products": 32335716
+    }
+  },
+  "artificial_train_occluder": {
+    "identity": "middle_soccer_logo_centroid",
+    "ROI_center": [
+      67.28971354166667,
+      74.2180251822399
+    ],
+    "halfwidth": 11,
+    "predictions": {
+      "points": {
+        "outer_psi_5_text_centroid": {
+          "accepted": true,
+          "normalized_xy": [
+            30.962717595136567,
+            59.990809560688824
+          ],
+          "roi_xy": [
+            26.48281012047655,
+            57.41177124954425
+          ],
+          "candidate_normalized_xy": [
+            30.962717595136567,
+            59.990809560688824
+          ],
+          "candidate_roi_xy": [
+            26.48281012047655,
+            57.41177124954425
+          ],
+          "score": 0.9972249269485474,
+          "second_peak_score": 0.7466434836387634,
+          "margin": 0.25058144330978394,
+          "evidence": "sufficient",
+          "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+          "score_is_probability": false,
+          "physical_occlusion_diagnosed": false,
+          "winning_template_rotation_deg": 0
+        },
+        "outer_psi_10_text_centroid": {
+          "accepted": true,
+          "normalized_xy": [
+            57.82991771627846,
+            30.840080513016687
+          ],
+          "roi_xy": [
+            57.2681435926183,
+            24.009894215753263
+          ],
+          "candidate_normalized_xy": [
+            57.82991771627846,
+            30.840080513016687
+          ],
+          "candidate_roi_xy": [
+            57.2681435926183,
+            24.009894215753263
+          ],
+          "score": 0.9808390736579895,
+          "second_peak_score": 0.701797366142273,
+          "margin": 0.27904170751571655,
+          "evidence": "sufficient",
+          "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+          "score_is_probability": false,
+          "physical_occlusion_diagnosed": false,
+          "winning_template_rotation_deg": 0
+        },
+        "outer_psi_15_text_centroid": {
+          "accepted": true,
+          "normalized_xy": [
+            93.98829854108072,
+            45.96013550560949
+          ],
+          "roi_xy": [
+            98.69962162103756,
+            41.334957228099185
+          ],
+          "candidate_normalized_xy": [
+            93.98829854108072,
+            45.96013550560949
+          ],
+          "candidate_roi_xy": [
+            98.69962162103756,
+            41.334957228099185
+          ],
+          "score": 0.9925441145896912,
+          "second_peak_score": 0.8354133367538452,
+          "margin": 0.15713077783584595,
+          "evidence": "sufficient",
+          "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+          "score_is_probability": false,
+          "physical_occlusion_diagnosed": false,
+          "winning_template_rotation_deg": 0
+        },
+        "upper_basketball_logo_centroid": {
+          "accepted": true,
+          "normalized_xy": [
+            63.19340968796843,
+            53.93809758198018
+          ],
+          "roi_xy": [
+            63.4138114768464,
+            50.47637210727393
+          ],
+          "candidate_normalized_xy": [
+            63.19340968796843,
+            53.93809758198018
+          ],
+          "candidate_roi_xy": [
+            63.4138114768464,
+            50.47637210727393
+          ],
+          "score": 0.9751610159873962,
+          "second_peak_score": 0.6826367974281311,
+          "margin": 0.29252421855926514,
+          "evidence": "sufficient",
+          "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_SUFFICIENT",
+          "score_is_probability": false,
+          "physical_occlusion_diagnosed": false,
+          "winning_template_rotation_deg": 0
+        },
+        "middle_soccer_logo_centroid": {
+          "accepted": false,
+          "normalized_xy": null,
+          "roi_xy": null,
+          "candidate_normalized_xy": [
+            80.37106672570563,
+            71.6020665821313
+          ],
+          "candidate_roi_xy": [
+            83.0965434992536,
+            70.71633658661375
+          ],
+          "score": 0.7441001534461975,
+          "second_peak_score": 0.7092878818511963,
+          "margin": 0.03481227159500122,
+          "evidence": "insufficient",
+          "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+          "score_is_probability": false,
+          "physical_occlusion_diagnosed": false,
+          "winning_template_rotation_deg": 28
+        },
+        "lower_striped_ball_print_centroid": {
+          "accepted": false,
+          "normalized_xy": null,
+          "roi_xy": null,
+          "candidate_normalized_xy": [
+            67.82324149457179,
+            84.82158787043794
+          ],
+          "candidate_roi_xy": [
+            68.71882708857942,
+            85.86370472946511
+          ],
+          "score": 0.7053666114807129,
+          "second_peak_score": 0.6605527997016907,
+          "margin": 0.04481381177902222,
+          "evidence": "insufficient",
+          "reason": "LOCAL_NCC_IDENTITY_EVIDENCE_INSUFFICIENT",
+          "score_is_probability": false,
+          "physical_occlusion_diagnosed": false,
+          "winning_template_rotation_deg": -8
+        }
+      },
+      "cost": {
+        "candidate_centers_evaluated": 141204,
+        "nominal_patch_pixel_products": 32335716
+      }
+    },
+    "visibility_is_not_inference_input": true,
+    "caution": "A surviving point candidate underocclusion is potentiallywrong, not physicalvisibilityproof; ROOTconsensus remainsrequired"
+  },
+  "source_sha256": {
+    "setup": "85262ec3378a79e482670e6def3e42076775b5b3f6188be7cbb815270a07599f",
+    "code": "0f3c3865d59b9bcb82ff3192d5c1ca9307226de8395de9e8c23d996ae85f2eb8"
+  },
+  "not_an_independent_accuracy_test": true,
+  "G_opened": false,
+  "training": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "INPUT_DOMAIN_AND24_SAMPLE_STATIC_REFERENCE_AUDIT_COMPLETE_NO_TRAINING",
+  "images_reviewed": 24,
+  "manual_axis_sidecar_records": 8,
+  "manual_train_records": 5,
+  "manual_G_dev_records": 3,
+  "actual_board_pixel_domain_equivalence_proven": false,
+  "current_static_direction_network_pass_claim": false,
+  "files_sha256": {
+    "selected_records.jsonl": "e5f4f87de706156a157c572da8b03b4b732e7e26c0d58d0a1490dafa68622764",
+    "view_build_receipt.json": "bed34c51b765c63561d977b26b380105b5133df53be6e15d761ce711fff3e987",
+    "existing_board_dump_inventory.json": "b0de37feb0a683a7d9799e5f678e0732f4cde504e8f8fa33e890a083d95e7226",
+    "visual_review_24.json": "06ea9bf9a0b5617bd1e84b7fae35da5ecf266d44d52734428a940f4b316f794f",
+    "static_print_direction_sidecar.jsonl": "ee31ead34e6285919d6ae47ff1622738a264d2fceeef7c72bec57844fa7b1b08",
+    "input_domain_contract.json": "6a1ddc9feafd5d2130846f515faa3483949f33dbbabd1490e0a650fcd7f38d73",
+    "manual_static_axis_contact.png": "600d25783ec1ed255a4521a4e28ee31f328fbf059b7e0e01453e8f7ba95fa4fc",
+    "build_audit_views.py": "f4e74838d1c0671fcd7dde4f1b1d85f6176a611d16325342d56b2dcf1c008f9a",
+    "finish_audit.py": "ff647860363ec67c9c0b7ab89f57337990b98f0938a806b7925f40f638fd03dd"
+  },
+  "canonical_changed": false,
+  "H_or_ABC_opened": false,
+  "hardware_actions": false
+}

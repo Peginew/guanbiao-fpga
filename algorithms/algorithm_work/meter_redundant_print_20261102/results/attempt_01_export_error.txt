@@ -1,0 +1,6 @@
+First evaluation attempt stopped at JSON export before PSI comparison:
+TypeError: Object of type int64 is not JSON serializable.
+Cause: consensus keeps np.flatnonzero integer identity indices in its trace.
+Repair: evaluator JSON writer converts NumPy scalar/array types to native JSON.
+No geometry, template, threshold, point prediction, PSI/calibration or neural changes.
+The one frozen automatic prediction artifact is reused; no automatic inference rerun.

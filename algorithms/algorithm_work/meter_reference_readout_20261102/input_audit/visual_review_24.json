@@ -1,0 +1,405 @@
+{
+  "status": "24_NATIVE_AND_ROI_VISUAL_REVIEW_COMPLETE_NOT_GOLD_CERTIFICATION",
+  "records": [
+    {
+      "id": "D_002",
+      "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+      "scene": "front_large_soft_light",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "D_004",
+      "source_sha256": "9f20391f04da6db93269ee858ee8f6b4b950617ce5bf7bb40aba4a6d95a0f36c",
+      "scene": "backlight_or_local_reflection",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "D_015",
+      "source_sha256": "5cecd36635e798ed3c3daf4f4d258d2e9b1a845086c2b40e4769391854878564",
+      "scene": "front_dim",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "WEAK_OR_PARTIAL_STATIC_PRINT",
+      "comment": "Darkness/local glare reducesprecise anchorvisibility; broaderstaticprint mayremain useful, no precise newpointforced.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "D_022",
+      "source_sha256": "6bc273523da16225298a9185991ada5c17b55664f5cbd1e5a6cfb77b684d839a",
+      "scene": "backlight_or_local_reflection",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "D_041",
+      "source_sha256": "1e2eecaa14eacda5058384e5f32299b40ea0a5f606f6a70a5e5f4c68f52621b6",
+      "scene": "mild_left_view",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "D_056",
+      "source_sha256": "65004546415bd196d1dab2cd31273704b03fd93ea96be5354017541157546e39",
+      "scene": "challenge_with_gauge",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "PARTIAL_PRINT_WITH_EXTERNAL_OCCLUDER",
+      "comment": "Screwdriver maskscentralshaft/printaxis. Otherouterdigits remain; no forcedpair axislabel.",
+      "original_keypoint_loss_mask": [
+        0,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "occluded",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "E_002",
+      "source_sha256": "f9d1d9c6a5f5a9972c10ce558e0476d09e873ce97c04f7925839428d2f0e124d",
+      "scene": "front_large_soft_light",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "E_009",
+      "source_sha256": "e5e3281f52037d8144b5e9af3490a7dd5aff120ee8a802cbb0e1dac526796a69",
+      "scene": "front_dim",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal. Lowerstripedlogo partlycovered bycounterweight; twoanchorvisibility isnotCNNstartup condition.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "E_018",
+      "source_sha256": "10c18ced7950c5e8e9e34900f365992b69dbd103eb416b4b5226315dbe2c28ba",
+      "scene": "mild_right_view",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal. Lowerstripedlogo partlycovered bycounterweight; twoanchorvisibility isnotCNNstartup condition.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "E_028",
+      "source_sha256": "232ac9a861d44976f4c995e71f7dc7f99bbcc2ad6c0959d25aa48d0ff5cf99e1",
+      "scene": "mild_left_view",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "E_040",
+      "source_sha256": "1feb32cea42d06534e3791a61051e0727aeb42e9e6c9d06e61ca6965076e735f",
+      "scene": "mild_left_view",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "E_053",
+      "source_sha256": "c4f165af59e2d076195c3f79b0c10470e1dbd78d1ecd4ef910e0324ced834870",
+      "scene": "challenge_with_gauge",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "INSUFFICIENT_STATIC_PRINT_OVEREXPOSED",
+      "comment": "Largearea saturation removesprintedstructure; no staticaxis fabricated.",
+      "original_keypoint_loss_mask": [
+        0,
+        0
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "unknown_overexposure",
+      "thin_terminal_visual_state": "unknown",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "F_003",
+      "source_sha256": "b03c13e672ed4a7560d7837aba31f3e7882840f7c0d9e002de52db23c47a90f9",
+      "scene": "front_dim",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "WEAK_OR_PARTIAL_STATIC_PRINT",
+      "comment": "Darkness/local glare reducesprecise anchorvisibility; broaderstaticprint mayremain useful, no precise newpointforced.",
+      "original_keypoint_loss_mask": [
+        1,
+        0
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "unknown",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "F_010",
+      "source_sha256": "13a920940a96807ea1557432e7eae11430e8b33c242314ab282a94f6cbe87019",
+      "scene": "backlight_or_local_reflection",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "WEAK_OR_PARTIAL_STATIC_PRINT",
+      "comment": "Darkness/local glare reducesprecise anchorvisibility; broaderstaticprint mayremain useful, no precise newpointforced.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "F_025",
+      "source_sha256": "2ecc4e16800b28063af664563d16208a214ed04731d7eaeab57630e1c04b18f3",
+      "scene": "front_medium_soft_light",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "F_033",
+      "source_sha256": "c46af4c6a18a07a200a3d7721a92cd4756087580ee79030462c9ab901d3cf212",
+      "scene": "front_dim",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "WEAK_OR_PARTIAL_STATIC_PRINT",
+      "comment": "Darkness/local glare reducesprecise anchorvisibility; broaderstaticprint mayremain useful, no precise newpointforced.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "F_045",
+      "source_sha256": "9a88709b06cf6e921effce71070b0577e9e45546502ce91948f9b4dfb0eb9bf8",
+      "scene": "front_dim",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "WEAK_OR_PARTIAL_STATIC_PRINT",
+      "comment": "Darkness/local glare reducesprecise anchorvisibility; broaderstaticprint mayremain useful, no precise newpointforced.",
+      "original_keypoint_loss_mask": [
+        1,
+        0
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "unknown",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "F_056",
+      "source_sha256": "621d068aa37de377a6a4491632c3362fe5c09298d968dc4bbad3f7a9a53affff",
+      "scene": "challenge_with_gauge",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "PARTIAL_PRINT_WITH_EXTERNAL_OCCLUDER",
+      "comment": "Screwdriver maskscentralshaft/printaxis. Otherouterdigits remain; no forcedpair axislabel.",
+      "original_keypoint_loss_mask": [
+        0,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "occluded",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "G_001",
+      "source_sha256": "19ab126049051dd7df875c1d14ce77035523b6033c19a306cfcef61428a8fcc6",
+      "scene": "front_medium_soft_light",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "G_004",
+      "source_sha256": "234f6b198f176bfcf7361913765cf0f0f14700bb816bb18429431d23038ed8ca",
+      "scene": "backlight_or_local_reflection",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "G_015",
+      "source_sha256": "70ae0253a62d46ca75b3d24010e112aaa07f9b41160ae81736340f9c59bf2d6b",
+      "scene": "front_dim",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "G_018",
+      "source_sha256": "3725e6a4907b86fb17547ed1f7aa0809367eb9abaa23f1d019d580e50424213f",
+      "scene": "mild_right_view",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    },
+    {
+      "id": "G_040",
+      "source_sha256": "efde643e1c09a9b55e255a34b2b5c229811c2be24929332a45249d8a387fe755",
+      "scene": "backlight_or_local_reflection",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "VISIBLE_STATIC_PRINT_REFERENCE",
+      "comment": "Native andROI staticnumerals/ticklayout recognizable; no observed staticdirection sign reversal.",
+      "original_keypoint_loss_mask": [
+        1,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "visible_or_lowcontrast",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": true
+    },
+    {
+      "id": "G_056",
+      "source_sha256": "fc7fa78212cff0754f9e74a0b5cba2b6c83e4ca5947c56a36a0e7a5951eb3f3b",
+      "scene": "challenge_with_gauge",
+      "native_and_ROI_images_actually_viewed": true,
+      "static_reference_visibility": "PARTIAL_PRINT_WITH_EXTERNAL_OCCLUDER",
+      "comment": "Screwdriver maskscentralshaft/printaxis. Otherouterdigits remain; no forcedpair axislabel.",
+      "original_keypoint_loss_mask": [
+        0,
+        1
+      ],
+      "mapping_visual_check": "No mapping displacement foundinthis24sample; thisdoesnotcertify canonicalpointprecision",
+      "hub_visual_state": "occluded",
+      "thin_terminal_visual_state": "visible",
+      "manual_static_direction_sidecar_available": false
+    }
+  ],
+  "manual_axis_labels": 8,
+  "train_manual_axis_labels": 5,
+  "G_development_axis_labels": 3,
+  "no_fundamental_static_direction_sign_problem_seen": true,
+  "anchors_are_not_required_network_inputs": true,
+  "main_caveats": [
+    "Staticprint reference isapparent imageorientation, notabsolutegravity/yaw/pitch.",
+    "Highpressure counterweight canhide lowerprint anchor; do notforceuniformtwoanchorlabels.",
+    "Silver homography/orientation isnotposegroundtruth; thisvisualcheck wasnotblinded.",
+    "Manual uncertainty isestimated, notindependentinstrumentmeasurement.",
+    "Model quality remainsdetermined byheldout direction/psioutputs; thisaudit doesnotupgrade failedCNN."
+  ],
+  "canonical_changed": false,
+  "H_or_ABC_opened": false,
+  "training_executed": false,
+  "hardware_actions": false
+}

@@ -1,0 +1,249 @@
+{
+  "status": "FROZEN_DIAGNOSTIC_FINDINGS_NOT_MODEL_IMPROVEMENT",
+  "unit": "psi",
+  "primary_recommendation": "Develop exactly one whole-ROI static-print reference-direction candidate; keep original hub+polar and calibration frozen for controlled comparison.",
+  "evidence": {
+    "component_comparisons": {
+      "baseline": {
+        "eligible_gauges": 56,
+        "readings": 21,
+        "mae_psi": 0.15740682142050108,
+        "output_error_over05psi": 0,
+        "gained_ids": [],
+        "lost_ids": []
+      },
+      "reference_direction_keep_model_gates": {
+        "eligible_gauges": 50,
+        "readings": 20,
+        "mae_psi": 0.13888191603591454,
+        "output_error_over05psi": 0,
+        "gained_ids": [],
+        "lost_ids": [
+          "G_045"
+        ]
+      },
+      "reference_direction_supplies_model_evidence": {
+        "eligible_gauges": 50,
+        "readings": 22,
+        "mae_psi": 0.14029279582050036,
+        "output_error_over05psi": 0,
+        "gained_ids": [
+          "G_007",
+          "G_010"
+        ],
+        "lost_ids": [
+          "G_045"
+        ]
+      },
+      "reference_hub_resampled": {
+        "eligible_gauges": 52,
+        "readings": 26,
+        "mae_psi": 0.18261312957544765,
+        "output_error_over05psi": 0,
+        "gained_ids": [
+          "G_007",
+          "G_010",
+          "G_020",
+          "G_027",
+          "G_032",
+          "G_033",
+          "G_034",
+          "G_042",
+          "G_046"
+        ],
+        "lost_ids": [
+          "G_011",
+          "G_018",
+          "G_029",
+          "G_045"
+        ]
+      },
+      "reference_hub_and_direction": {
+        "eligible_gauges": 50,
+        "readings": 26,
+        "mae_psi": 0.17960779697945753,
+        "output_error_over05psi": 0,
+        "gained_ids": [
+          "G_007",
+          "G_010",
+          "G_020",
+          "G_027",
+          "G_032",
+          "G_033",
+          "G_034",
+          "G_042",
+          "G_046"
+        ],
+        "lost_ids": [
+          "G_011",
+          "G_018",
+          "G_029",
+          "G_045"
+        ]
+      },
+      "reference_needle_preserve_hub_permission": {
+        "eligible_gauges": 50,
+        "readings": 20,
+        "mae_psi": 0.13888191603591454,
+        "output_error_over05psi": 0,
+        "gained_ids": [],
+        "lost_ids": [
+          "G_045"
+        ]
+      },
+      "reference_hub_permission_only": {
+        "eligible_gauges": 52,
+        "readings": 23,
+        "mae_psi": 0.15210428580702237,
+        "output_error_over05psi": 0,
+        "gained_ids": [
+          "G_007",
+          "G_010"
+        ],
+        "lost_ids": []
+      },
+      "reference_hub_resampled_keep_old_confidence": {
+        "eligible_gauges": 52,
+        "readings": 23,
+        "mae_psi": 0.17980774755095713,
+        "output_error_over05psi": 0,
+        "gained_ids": [
+          "G_020",
+          "G_027",
+          "G_032",
+          "G_034",
+          "G_042",
+          "G_046"
+        ],
+        "lost_ids": [
+          "G_011",
+          "G_018",
+          "G_029",
+          "G_045"
+        ]
+      }
+    },
+    "positives_nonexclusive_failures": {
+      "calibration_angle_pass": {
+        "failed": 14,
+        "passed": 39,
+        "unavailable": 3
+      },
+      "calibration_psi_pass": {
+        "failed": 9,
+        "passed": 44,
+        "unavailable": 3
+      },
+      "finite_angle_pass": {
+        "failed": 0,
+        "passed": 56,
+        "unavailable": 0
+      },
+      "hub_center20_pass": {
+        "failed": 1,
+        "passed": 55,
+        "unavailable": 0
+      },
+      "hub_margin_pass": {
+        "failed": 3,
+        "passed": 53,
+        "unavailable": 0
+      },
+      "hub_peak_pass": {
+        "failed": 10,
+        "passed": 46,
+        "unavailable": 0
+      },
+      "needle_margin_pass": {
+        "failed": 1,
+        "passed": 55,
+        "unavailable": 0
+      },
+      "needle_peak_pass": {
+        "failed": 5,
+        "passed": 51,
+        "unavailable": 0
+      },
+      "polar_inside_pass": {
+        "failed": 1,
+        "passed": 55,
+        "unavailable": 0
+      },
+      "pose_accepted": {
+        "failed": 24,
+        "passed": 32,
+        "unavailable": 0
+      },
+      "pose_center14_pass": {
+        "failed": 3,
+        "passed": 53,
+        "unavailable": 0
+      },
+      "pose_margin_pass": {
+        "failed": 21,
+        "passed": 32,
+        "unavailable": 3
+      },
+      "pose_score_pass": {
+        "failed": 0,
+        "passed": 53,
+        "unavailable": 3
+      },
+      "pose_search_interior_pass": {
+        "failed": 3,
+        "passed": 50,
+        "unavailable": 3
+      }
+    },
+    "only_pose_blocks_after_all_model_conditions": 14,
+    "only_pose_blocks_and_rejected_candidate_is_in_calibration_range": 11,
+    "those_in_range_ids": [
+      "G_012",
+      "G_017",
+      "G_020",
+      "G_027",
+      "G_032",
+      "G_034",
+      "G_036",
+      "G_041",
+      "G_042",
+      "G_044",
+      "G_052"
+    ],
+    "first_rejection_calibration_boundary_ids": [
+      "G_001",
+      "G_002",
+      "G_003",
+      "G_043",
+      "G_046",
+      "G_047",
+      "G_058"
+    ]
+  },
+  "interpretation": [
+    "A perfect provided needle direction does not restore coverage under existing hub+pose+calibration conditions; the strict needle-only control gives20 versus21 baseline.",
+    "External reliable hub evidence alone gives23; moving the center while preserving old confidence also gives23, with six gains and four losses; combined gives26, not an isolated hub-accuracy effect.",
+    "Estimated pose fails24 of56 gauge images, mostly ring-margin ambiguity; original needle score fails5. Failures overlap and are not a causal ranking by count alone.",
+    "Rejected ring candidates such asG042/G044 can produce large PSI errors. They must remain rejected; these results do not authorize lowering the ring margin.",
+    "No query pose ground truth is available. Neither nativeSIFT nor ring candidates are treated as verified pose truth.",
+    "The frozen empirical angle range rejects some endpoint observations even with visual needle references. Do not expand range or adjust thresholds usingG.",
+    "Visual reference points carry declared annotation uncertainty. This diagnostic is not an independent gold-label accuracy evaluation.",
+    "0.25/0.5/1psi are descriptive distributions, not a frozen user acceptance epsilon; no formal false-acceptance claim."
+  ],
+  "contract_checks": [
+    "All 16 frozen input/module/weight hashes unchanged after inference",
+    "Strict needle-reference diagnostic preserves original three hub conditions",
+    "Hub-permission-only diagnostic preserves original center, angle, needle scores and estimated pose",
+    "Reference-hub resampling with old confidence preserves both original hub-confidence conditions",
+    "Reference-hub predictor and pose use identical visual-reference center"
+  ],
+  "no_new_training": true,
+  "ABC_H_opened": false,
+  "hardware_actions": false,
+  "source_sha256": {
+    "joint": "b0d7223b3e86830c3d6ec3cfc2252e18a4e57b2ed323da45104e37d4ded831ed",
+    "summary": "28d955c0a3f38513261b089add775d25bf4225a801d7965c0a3ba9a394b6e379",
+    "run_manifest": "5dae542b84f9486d77e571a89e684cec6b12afcf505570c79877936ad7023891",
+    "summary_driver": "ba26310782375750bc7ce966287723184baa9bb0d80b02d88689da108eae5b7d"
+  }
+}
