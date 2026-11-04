@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "run": "C:\\Users\\Edward\\AppData\\Local\\Temp\\gb_ui_capture_syn_blalzx7a",
+  "DB_sha256": "af562aa2aa9ebef69311291a4e20fddb4158b87cfcf14e9e49ebc78be9375be4",
+  "source_manifest_sha256": "5ecab63bb53c12293449e41ab8dc2dbce81f7f53aaf1b6f7f481024cfabdc397",
+  "steps": [
+    {
+      "command": [
+        "C:\\modeltech64_10.1c\\win64\\vlib.exe",
+        "work"
+      ],
+      "exit": 0,
+      "seconds": 0.06300000000192085,
+      "log": {
+        "path": "C:\\Users\\Edward\\AppData\\Local\\Temp\\gb_ui_capture_syn_blalzx7a\\vlib.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "command": [
+        "C:\\modeltech64_10.1c\\win64\\vlog.exe",
+        "-sv",
+        "-timescale",
+        "1ns/1ps",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_phy_glbl.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_adder.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_alu2b.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_basic.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_lut.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_mult.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_mux4.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_seq.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\ph1p\\ph1p_phy_gsr.v",
+        "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\ph1p\\ph1p_phy_lslice.v",
+        "cone.sv"
+      ],
+      "exit": 0,
+      "seconds": 0.8279999999940628,
+      "log": {
+        "path": "C:\\Users\\Edward\\AppData\\Local\\Temp\\gb_ui_capture_syn_blalzx7a\\vlog.log",
+        "sha256": "024d8b21ab9e0e5dc0745709c36b213d8efa725ef3ef8e094bb81bdc7384807e"
+      }
+    },
+    {
+      "command": [
+        "C:\\modeltech64_10.1c\\win64\\vsim.exe",
+        "-c",
+        "-modelsimini",
+        "modelsim.ini",
+        "-novopt",
+        "-t",
+        "1ps",
+        "work.tb_new_gate_cone",
+        "work.glbl",
+        "work.PH1P_PHY_GSR",
+        "-do",
+        "run -all;quit -f"
+      ],
+      "exit": 0,
+      "seconds": 5.203000000001339,
+      "log": {
+        "path": "C:\\Users\\Edward\\AppData\\Local\\Temp\\gb_ui_capture_syn_blalzx7a\\vsim.log",
+        "sha256": "213c88b7bb9e8b5538507ce8ae48336de8f3918ae46efa35ccf4635ca803658a"
+      }
+    }
+  ],
+  "config": {
+    "path": "C:\\Users\\Edward\\AppData\\Local\\Temp\\gb_ui_capture_syn_blalzx7a\\config.json",
+    "sha256": "7a4afec11a7b9a3a8dab4fac983208925f452cd7e24fad873adcdaf4ed3c99dc"
+  },
+  "TB": {
+    "path": "C:\\Users\\Edward\\AppData\\Local\\Temp\\gb_ui_capture_syn_blalzx7a\\cone.sv",
+    "sha256": "376e1a58d5c389a2e466ab5e2df873eeac32771d5ae62915b1864593615d7ce2"
+  },
+  "official_models": {
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_phy_glbl.v": "c194f5335b54a6d707a8b633b8f4d3a171e52006337600f7433379b11fb3b2ff",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_adder.v": "02dfbc0864687bcba96cbed80c69dada2c511e24c89b0e4e308fed3ccc8ccf84",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_alu2b.v": "98ddbb673a9550e5fc923dc22cd48d83cd5b5dc038f33a304b3228cc346f4135",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_basic.v": "ac0aa7f986fdfba39fb7b361b26ace4ba1049807d6feccde09b2fa21eb0903da",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_lut.v": "a8af44de361088c0bb66a58d5af9b8eb5aa6e9b8ca56992d6164a9f689c488f0",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_mult.v": "588d8be94d67d00539bfe6b5ebab9e44d85d050cf7df7229a18682d67ec29465",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_mux4.v": "f4877909a80ac5fea5ef29cafca28443448d695f35ea3d0ac713676340b66a3c",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\common\\al_map_seq.v": "484d26a861f1243ab949873529c45dc2d545571af47a348249fa7b01b1500c50",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\ph1p\\ph1p_phy_gsr.v": "787312a19b4007bef3b76986bce267966b2d04c1871290ce29905629e38f1524",
+    "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\sim_release\\ph1p\\ph1p_phy_lslice.v": "bf1b01f9b22304fead0f4e75a777d27b7465019fe522f6c6ef0258d9fb358af2"
+  },
+  "events": [
+    "# NEW_GATE_D st=1 g=32 expectedbad=0 actualD=0",
+    "# NEW_GATE_Q st=1 g=32 bad=0 diag7=0",
+    "# NEW_GATE_D st=1 g=31 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=1 g=31 bad=1 diag7=1",
+    "# NEW_GATE_D st=1 g=33 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=1 g=33 bad=1 diag7=1",
+    "# NEW_GATE_D st=2 g=64 expectedbad=0 actualD=0",
+    "# NEW_GATE_Q st=2 g=64 bad=0 diag7=0",
+    "# NEW_GATE_D st=2 g=63 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=2 g=63 bad=1 diag7=1",
+    "# NEW_GATE_D st=2 g=65 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=2 g=65 bad=1 diag7=1",
+    "# NEW_GATE_D st=3 g=96 expectedbad=0 actualD=0",
+    "# NEW_GATE_Q st=3 g=96 bad=0 diag7=0",
+    "# NEW_GATE_D st=3 g=95 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=3 g=95 bad=1 diag7=1",
+    "# NEW_GATE_D st=3 g=97 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=3 g=97 bad=1 diag7=1",
+    "# NEW_GATE_D st=4 g=128 expectedbad=0 actualD=0",
+    "# NEW_GATE_Q st=4 g=128 bad=0 diag7=0",
+    "# NEW_GATE_D st=4 g=127 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=4 g=127 bad=1 diag7=1",
+    "# NEW_GATE_D st=4 g=129 expectedbad=1 actualD=1",
+    "# NEW_GATE_Q st=4 g=129 bad=1 diag7=1",
+    "# NEW_GATE_CONE_END strides=4 terminal=4 under=4 over=4 checks=36 failures=0"
+  ],
+  "scope": "Native synthesis mapped guard only; final routed cone remains required",
+  "device": false
+}

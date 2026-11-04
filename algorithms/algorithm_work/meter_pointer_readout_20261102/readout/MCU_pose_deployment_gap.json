@@ -1,0 +1,44 @@
+{
+  "status": "MCU_INPUT_AND_DEPLOYMENT_GAP_EXPLICIT",
+  "available_to_current_MCU": [
+    "Owned128x128U8ROI16KiB viaexistingAHBbridge",
+    "Source/target/stride/radius descriptor",
+    "FrozenCNN predictedhub inROIcoordinates"
+  ],
+  "unavailable_without_new_transfer_path": [
+    "Native1280x720frame forSIFT256printingregistration"
+  ],
+  "existing_PC_readout_requires_native_print_SIFT": true,
+  "existing_PC_readout_not_directly_deployable": true,
+  "bounded_new_probe": {
+    "file": "roi128_pose_probe_summary.json",
+    "SIFT_effect_not_inherited": true,
+    "current_verdict": "Not accepted production replacement; narrow acceptance and train discrepancies remain."
+  },
+  "estimated_incremental_RAM": {
+    "query_profile_INT8_bytes": 4320,
+    "reference_profile_INT8_bytes": 4320,
+    "sin_cos_LUT_S16_bytes": 1440,
+    "compressed_reference_selected_elements_INT8_bytes": 1026,
+    "selection_work_buffer_or_streaming_implementation_extra_not_yet_measured": true
+  },
+  "memory_notes": [
+    "These buffers are algorithm estimates, not actual TCM linker results.",
+    "Current firmware history has little freeTCM; do not add these as simultaneously live arrays by default.",
+    "Reference profile/LUT can potentially reside inrodataFlash or be compressed toselected mask positions; access mechanism andlinkmap still required.",
+    "Could reuseB radial-feature staging orNNactivation memory afterinference; reuse lifetime mustbe checked, not claimed as realized savings."
+  ],
+  "minimal_next_steps": [
+    "Freeze one128ROIposecandidate withnoqueryGT; reviewtrain outliers ratherthanacceptSIFTscoreastruth.",
+    "Implement integerQ-coordinate bilinear gather andprofile normalization/trimming againstthisPCreference.",
+    "LinkB+hub+pose inactualMCUfirmware, reportTCM/code/stack andAHBreads.",
+    "Run sameROI bytes throughC/MCU path, then comparebar coverage/error andwrongaccepts beforedeployment."
+  ],
+  "calibration_or_signed_PC_results_modified": false,
+  "H_opened": false,
+  "hardware_actions": false,
+  "source_sha256": {
+    "roi128_pose_probe.py": "db95f1a33adf32e6b93e7c410464d6727099f2a4870a672a0ce97ff26e63542e",
+    "roi128_pose_probe_summary.json": "4e581b22c1b65bda0e916dc3057214d8e471af999d6c688320251325f131d47c"
+  }
+}

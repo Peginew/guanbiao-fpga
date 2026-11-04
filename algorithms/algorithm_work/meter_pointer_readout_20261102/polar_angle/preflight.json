@@ -1,0 +1,16 @@
+{
+  "status": "PASS_POLAR_TRAINING_PREFLIGHT",
+  "parameters": 1009,
+  "circular_equivariance_max_error": 0.0,
+  "unknown_tip_excluded_not_negative": true,
+  "known_negative_zero_target": true,
+  "train_images": 164,
+  "train_angle_supervised_or_negative": 149,
+  "validation_images": 59,
+  "features_finite": true,
+  "labels_not_features": true,
+  "pressure_not_features": true,
+  "test_H_opened": false,
+  "training_optimizer_steps": 0,
+  "source_sha256": "6cf086fecddb19f3c728ff09801797111236080beea814804272a165ecd16af5"
+}

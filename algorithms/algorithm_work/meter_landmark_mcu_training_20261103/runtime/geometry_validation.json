@@ -1,0 +1,314 @@
+{
+  "status": "PASS_INTEGER_C_GEOMETRY_NOT_FIRMWARE_OR_BOARD",
+  "checks": 2359,
+  "synthetic_cases": 500,
+  "atan_cases": 1800,
+  "synthetic_acceptance_mismatch": [],
+  "max_synthetic_roll_error_deg": 0.007397420731450666,
+  "original_visual59": [
+    {
+      "id": "G_001",
+      "accepted": true,
+      "angle_error_degrees": 0.0004613384998606307
+    },
+    {
+      "id": "G_002",
+      "accepted": true,
+      "angle_error_degrees": 0.0008653820673032442
+    },
+    {
+      "id": "G_003",
+      "accepted": true,
+      "angle_error_degrees": 0.0006981480018168895
+    },
+    {
+      "id": "G_004",
+      "accepted": true,
+      "angle_error_degrees": 0.0007134283774234973
+    },
+    {
+      "id": "G_005",
+      "accepted": true,
+      "angle_error_degrees": 0.0004318754736800656
+    },
+    {
+      "id": "G_006",
+      "accepted": true,
+      "angle_error_degrees": 0.0016856424456648256
+    },
+    {
+      "id": "G_007",
+      "accepted": true,
+      "angle_error_degrees": 8.700674112560591e-05
+    },
+    {
+      "id": "G_008",
+      "accepted": true,
+      "angle_error_degrees": 0.0008195730752902364
+    },
+    {
+      "id": "G_009",
+      "accepted": true,
+      "angle_error_degrees": 0.0011503217665165266
+    },
+    {
+      "id": "G_010",
+      "accepted": true,
+      "angle_error_degrees": 0.0011492813586926331
+    },
+    {
+      "id": "G_011",
+      "accepted": true,
+      "angle_error_degrees": 1.5842554688560995e-05
+    },
+    {
+      "id": "G_012",
+      "accepted": true,
+      "angle_error_degrees": 0.0008530221094815715
+    },
+    {
+      "id": "G_013",
+      "accepted": true,
+      "angle_error_degrees": 0.0018315530890617993
+    },
+    {
+      "id": "G_014",
+      "accepted": true,
+      "angle_error_degrees": 0.0015502132349922704
+    },
+    {
+      "id": "G_015",
+      "accepted": true,
+      "angle_error_degrees": 0.0008377799043728373
+    },
+    {
+      "id": "G_016",
+      "accepted": true,
+      "angle_error_degrees": 0.0007023145377047513
+    },
+    {
+      "id": "G_017",
+      "accepted": true,
+      "angle_error_degrees": 0.003817524045786058
+    },
+    {
+      "id": "G_018",
+      "accepted": true,
+      "angle_error_degrees": 0.003556068751947805
+    },
+    {
+      "id": "G_019",
+      "accepted": true,
+      "angle_error_degrees": 0.0005434828442218986
+    },
+    {
+      "id": "G_020",
+      "accepted": true,
+      "angle_error_degrees": 0.00024004057624438246
+    },
+    {
+      "id": "G_021",
+      "accepted": true,
+      "angle_error_degrees": 0.0005353362505218229
+    },
+    {
+      "id": "G_022",
+      "accepted": true,
+      "angle_error_degrees": 0.00017621696432001954
+    },
+    {
+      "id": "G_023",
+      "accepted": true,
+      "angle_error_degrees": 0.0003901650594571038
+    },
+    {
+      "id": "G_024",
+      "accepted": true,
+      "angle_error_degrees": 0.00039503383987948837
+    },
+    {
+      "id": "G_025",
+      "accepted": true,
+      "angle_error_degrees": 0.0011743692172103692
+    },
+    {
+      "id": "G_026",
+      "accepted": true,
+      "angle_error_degrees": 0.0002917707993219665
+    },
+    {
+      "id": "G_027",
+      "accepted": true,
+      "angle_error_degrees": 0.0003642092385689466
+    },
+    {
+      "id": "G_028",
+      "accepted": true,
+      "angle_error_degrees": 0.00255624739318705
+    },
+    {
+      "id": "G_029",
+      "accepted": true,
+      "angle_error_degrees": 0.0007494378093610976
+    },
+    {
+      "id": "G_030",
+      "accepted": true,
+      "angle_error_degrees": 0.0004047355769216665
+    },
+    {
+      "id": "G_031",
+      "accepted": true,
+      "angle_error_degrees": 6.037332278197027e-05
+    },
+    {
+      "id": "G_032",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_033",
+      "accepted": true,
+      "angle_error_degrees": 0.0007959802038044472
+    },
+    {
+      "id": "G_034",
+      "accepted": true,
+      "angle_error_degrees": 0.0008041987394165062
+    },
+    {
+      "id": "G_035",
+      "accepted": true,
+      "angle_error_degrees": 0.00212016644383084
+    },
+    {
+      "id": "G_036",
+      "accepted": true,
+      "angle_error_degrees": 0.0006910362810117476
+    },
+    {
+      "id": "G_037",
+      "accepted": true,
+      "angle_error_degrees": 8.285550237019379e-05
+    },
+    {
+      "id": "G_038",
+      "accepted": true,
+      "angle_error_degrees": 0.0012028915725181832
+    },
+    {
+      "id": "G_039",
+      "accepted": true,
+      "angle_error_degrees": 0.0007913072751932759
+    },
+    {
+      "id": "G_040",
+      "accepted": true,
+      "angle_error_degrees": 0.0011890542910180102
+    },
+    {
+      "id": "G_041",
+      "accepted": true,
+      "angle_error_degrees": 0.0006675810460023968
+    },
+    {
+      "id": "G_042",
+      "accepted": true,
+      "angle_error_degrees": 0.000605237881757148
+    },
+    {
+      "id": "G_043",
+      "accepted": true,
+      "angle_error_degrees": 0.0009170193227987511
+    },
+    {
+      "id": "G_044",
+      "accepted": true,
+      "angle_error_degrees": 0.0009568955289580572
+    },
+    {
+      "id": "G_045",
+      "accepted": true,
+      "angle_error_degrees": 0.0009304835051011651
+    },
+    {
+      "id": "G_046",
+      "accepted": true,
+      "angle_error_degrees": 0.00037952403241092725
+    },
+    {
+      "id": "G_047",
+      "accepted": true,
+      "angle_error_degrees": 0.0005537837248255073
+    },
+    {
+      "id": "G_048",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_049",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_050",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_051",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_052",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_053",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_054",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_055",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_056",
+      "accepted": true,
+      "angle_error_degrees": 0.002866629407748178
+    },
+    {
+      "id": "G_057",
+      "accepted": false,
+      "angle_error_degrees": null
+    },
+    {
+      "id": "G_058",
+      "accepted": true,
+      "angle_error_degrees": 0.003871582694813469
+    },
+    {
+      "id": "G_059",
+      "accepted": true,
+      "angle_error_degrees": 5.714983785765071e-06
+    }
+  ],
+  "quantization": "pointsQ8,coefficientsQ16,angleQ16; not arbitrary-input bit equivalence to float",
+  "training": false,
+  "hardware_actions": false,
+  "sources": {
+    "landmark_geometry.c": "2ac19a61ae212135c7c727432eb28dc4eb840fe7fa84cb7283bc30e05793dd79",
+    "landmark_geometry.h": "f8b381f081987c91bac78f72436adbc42d18dccc06f47a9dabdedad76d5109c0",
+    "verify_geometry.py": "b0fc86a57e7c09f9d1497ed4c5add1099e6e7647e51c89937a6bb90cef480bb2",
+    "landmark_reference.h": "36b6685c7cef84f5b5b6884d12ea405b1b4bad4126f961b7a0e872c07d2eb829"
+  }
+}

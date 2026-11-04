@@ -1,0 +1,110 @@
+{
+  "layers": [
+    {
+      "name": "first",
+      "depthwise": false,
+      "shift": 10,
+      "relu": true,
+      "input_scale": 0.015625,
+      "weight_scale": 0.0078125,
+      "output_scale": 0.125,
+      "weight_shape": [
+        8,
+        16,
+        7
+      ],
+      "worst_case_accumulator_abs_bound": 322113
+    },
+    {
+      "name": "depthwise",
+      "depthwise": true,
+      "shift": 7,
+      "relu": true,
+      "input_scale": 0.125,
+      "weight_scale": 0.015625,
+      "output_scale": 0.25,
+      "weight_shape": [
+        8,
+        1,
+        7
+      ],
+      "worst_case_accumulator_abs_bound": 37109
+    },
+    {
+      "name": "mix",
+      "depthwise": false,
+      "shift": 7,
+      "relu": true,
+      "input_scale": 0.25,
+      "weight_scale": 0.015625,
+      "output_scale": 0.5,
+      "weight_shape": [
+        4,
+        8,
+        1
+      ],
+      "worst_case_accumulator_abs_bound": 43366
+    },
+    {
+      "name": "head",
+      "depthwise": false,
+      "shift": 6,
+      "relu": false,
+      "input_scale": 0.5,
+      "weight_scale": 0.001953125,
+      "output_scale": 0.0625,
+      "weight_shape": [
+        1,
+        4,
+        1
+      ],
+      "worst_case_accumulator_abs_bound": 55101
+    }
+  ],
+  "source_checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+  "input": "Q6 signed8, saturate [-128,127]",
+  "hidden": "U7, train-only power-of-two scales",
+  "output": "I8 logits scale1/16",
+  "rounding": "nearest ties to even",
+  "weights_and_S32_bias_bytes": 1072,
+  "train_only_calibration_images": 164,
+  "validation_images": 59,
+  "Q6_input_clip_low_high": [
+    0,
+    19
+  ],
+  "Q6_input_elements": 339840,
+  "validation_activation_stats": [
+    {
+      "accumulator_min": -69389,
+      "accumulator_max": 77313,
+      "upper_saturation": 0,
+      "lower_saturation": 91559,
+      "elements": 169920
+    },
+    {
+      "accumulator_min": -3492,
+      "accumulator_max": 9183,
+      "upper_saturation": 0,
+      "lower_saturation": 61989,
+      "elements": 169920
+    },
+    {
+      "accumulator_min": -1613,
+      "accumulator_max": 6532,
+      "upper_saturation": 0,
+      "lower_saturation": 3931,
+      "elements": 84960
+    },
+    {
+      "accumulator_min": -7920,
+      "accumulator_max": 2933,
+      "upper_saturation": 0,
+      "lower_saturation": 0,
+      "elements": 21240
+    }
+  ],
+  "RNE_exact_oracle_checks": 14343,
+  "test_H_opened": false,
+  "scope": "ONLY polar convolution integer reference; hub, bilinear polar sampling and sigmoid/centroid decode remain floating PC; no complete MCU deployment claim"
+}

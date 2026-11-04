@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "status": "PASS_EXACT_ACCEPTED_DB_BITGEN_IDENTITY",
+  "bitgen_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_bitgen.json",
+    "sha256": "d8ad6fd0e9ff929d7d801c89beab6cbcce7c2b29bfdf82b843d20c41bff78daa"
+  },
+  "auditor": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\audit_bitgen_identity.py",
+    "sha256": "7b8666dfafacd142108bdd8bda094c2397e578820707999b54460d858a3c2fa6"
+  },
+  "accepted_route_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\guided_ui_macros\\accepted_route_receipt.json",
+    "sha256": "4b6a1d7e1b4c694d15576eb8734930c716ad0fb92758305857340d3801834075"
+  },
+  "physical_independent_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\guided_final_physical_review.json",
+    "sha256": "b3f5f04fa51ec9c73c321d5aa8e42dc4ed04a32ab0612266ceffbac37e10e0e4"
+  },
+  "source_freeze": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\source_freeze_v2.json",
+    "sha256": "5ecab63bb53c12293449e41ab8dc2dbce81f7f53aaf1b6f7f481024cfabdc397"
+  },
+  "accepted_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186\\reader_landmark_pr.db",
+    "sha256": "def86a7b478657109e6a55cd17f1d6fb079dc2814d7d9b52949b2ac1a8b1a4a5"
+  },
+  "actual_copied_input_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\bitgen_20261103_130229_485636\\reader_landmark_pr.db",
+    "sha256": "def86a7b478657109e6a55cd17f1d6fb079dc2814d7d9b52949b2ac1a8b1a4a5"
+  },
+  "bit": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\bitgen_20261103_130229_485636\\reader_landmark.bit",
+    "sha256": "d88297760b8b41be1466bf4a5ddeb18e4391c3601f2f529b788712b1de5469bd"
+  },
+  "bit_bytes": 1789539,
+  "architecture": "ph1_35p",
+  "package": "PH1P35MDG324",
+  "actual_native_bitgen_count": 1,
+  "actual_commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "open_project reader_landmark.prj -noanalyze",
+    "import_db reader_landmark_pr.db",
+    "commit_param -step bitgen",
+    "bitgen -bit reader_landmark.bit",
+    "export_bid reader_landmark_inst.bid",
+    "setup_debugger",
+    "export_bitgen_param -file .bitgen_param.f",
+    "export_flow_status -s bitgen -e bitgen",
+    "flow_profiling"
+  ],
+  "no_resynthesis_replacement_or_reroute": true,
+  "all_frozen_sources_and_tools_unchanged": true,
+  "matched_MCU_ABI": {
+    "contract": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\mcu\\evidence\\abi_contract.json",
+      "sha256": "05c19ba2496dfff727603fed88b3ea3c4f208f21dbe9c6821cd9a8174de4d10d"
+    },
+    "RTL": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v",
+      "sha256": "91b2fea1e66cffa2ef558532ec64ee1070e10a8ebef4da02c4a5da9e82f7a40b"
+    },
+    "feature_offset": "0x064",
+    "feature_bit0": true,
+    "psi_return_offset": "0x124",
+    "selected_firmware_completion": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\mcu\\evidence\\selected_firmware_completion.json",
+      "sha256": "ad7a7eac35854c3c91cce18c9a16ce34d6f93e1b3c650b32b1d8a64b09e54337"
+    },
+    "ELF": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.elf",
+      "sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc"
+    },
+    "raw": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.bin",
+      "bytes": 47480,
+      "sha256": "fb31905ac395832ae5bba6a3cfb603339cc02df5d654bd3f18edb3ee8cdce135",
+      "crc32": "8cd49fe9"
+    },
+    "coldboot_payload": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\U33_E00000_E0FFFF_reader_payload.bin",
+      "flash_offset": 14680064,
+      "bytes": 65536,
+      "sha256": "24025d127c2ed12b41ee338d6a2d426308a2689bc0987141e121f8563f6385f1",
+      "policy": "Dedicated sector224 replacement, requires matchedPSIfeaturebit. No device write by builder."
+    }
+  },
+  "final_delivery_package_not_yet_present_or_reviewed": true,
+  "bit_alone_does_not_load_new_MCU_app": true,
+  "hardware_actions": false,
+  "board_Flash_download_admission": false
+}

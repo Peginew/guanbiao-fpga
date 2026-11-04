@@ -1,0 +1,23 @@
+{
+  "status": "NATIVE_SDC_EFFECTIVENESS_CORRECTION_OLD_FACTS_RETAINED",
+  "previous_place_scope_review_sha256": "730fae3835d0b27f0977c9f5c1a223ff8a47b54ccd55f03a055c45f84a24d315",
+  "unchanged_facts": [
+    "actual81pads/18clock/26macrostructure",
+    "freshphysical12FFand6ASRpinmapping",
+    "literalintendedresetonlyscope"
+  ],
+  "not_proven_by_old_source_overlay": [
+    "actualconstraintregistration",
+    "effectiveFP6row",
+    "PSI17MCPbudget"
+  ],
+  "actual_finding": "InteractiveTCLsource setter logged empty collections and didnotcreateintendedSDCrules; marker/count cannot establish effectiveness.",
+  "proof_of_repair": {
+    "path": "algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\literal_contract_effective_review.json",
+    "sha256": "8567e300ac9e5964433c0ff22d0e10e315179f4760d4977717ef168537d344b4"
+  },
+  "correct_method": "read_sdc pureliteralASRandPSIfiles beforefirsttimer, verifyFP6andSMD17actualsummary",
+  "old_normal_route_is_original_contract_only": true,
+  "oldreceiptsnotrewritten": true,
+  "no_RTL_or_source_SDC_DB_or_device_changes": true
+}

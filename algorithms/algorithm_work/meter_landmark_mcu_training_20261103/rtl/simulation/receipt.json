@@ -1,0 +1,18 @@
+{
+  "status": "FAIL_PRESERVED",
+  "exit_code": 0,
+  "checks": {
+    "PSI_RUNTIME": "9734"
+  },
+  "scratch": "C:\\Users\\Edward\\AppData\\Local\\Temp\\gb_psi_ro2kvcmi",
+  "same_source_commit": null,
+  "sources": {
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v": "91b2fea1e66cffa2ef558532ec64ee1070e10a8ebef4da02c4a5da9e82f7a40b",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_psi_return_runtime.v": "cc27433981b85154dbfdfe93a9649038e31ac991e235c56ed9949592354a9b5e",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\user_source\\hdl_source\\ui\\t06_ui_barq16_psi100.v": "437ad9d42394d0e75e7ce247cb9742b15c4875bcec0c481b5bbe267680c81b0c",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\rtl\\tb_psi_runtime.sv": "68c2e2291ddc357622dde64ebefcb1098bb244c71325f8c4573d26cc3f967ab7",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\rtl\\tb_psi_ahb.sv": "41926d67a8b777fb759db64919f23aede13aeb89fa1bdb3485754b12d08cfa55"
+  },
+  "scope": "Actual bridge and unit converter; not complete ROI/reader integration or board acceptance",
+  "hardware_actions": false
+}

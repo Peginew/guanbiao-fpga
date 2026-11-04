@@ -1,0 +1,89 @@
+{
+  "status": "READ_SDC_LITERAL_REGISTRATION_REAL_PROBE",
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_literal_contract_20261103_103755_294946",
+  "code": 0,
+  "elapsed_s": 15.015999999995984,
+  "source_place": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\place_20261103_071950_366369\\reader_landmark_place.db",
+    "sha256": "51d4ac45de14852e85570a57bfb92299723ca265a19f1a325028d63c93850a39"
+  },
+  "literal_ASR": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_literal_contract_20261103_103755_294946\\asr_literal.sdc",
+    "sha256": "26ed6d584ba73b8e8c7c03ddff7fc56606830ec2c66bb9620c3f4d35c105b07a"
+  },
+  "literal_PSI": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_literal_contract_20261103_103755_294946\\psi_literal.sdc",
+    "sha256": "799e8df18f8dbe7298a65f5840d93eac128e298e7510f2d9bf6437402fa7ef6c"
+  },
+  "script": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\readonly_literal_contract_probe.py",
+    "sha256": "0c7d140a1d238726ab5a41c066043934a197cdf291229abbd83cb9b9f1cff121"
+  },
+  "TCL": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_literal_contract_20261103_103755_294946\\execute.tcl",
+    "sha256": "1cabf3380b08ee7e63ec199a8efed82d5b40deb2a632f2e219fd8a465b6d5e21"
+  },
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_literal_contract_20261103_103755_294946\\console.log",
+    "sha256": "7cfea0ca8005132709113dc4e310b35ba40ab925070a377913421f30fba7e84b"
+  },
+  "exception": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_literal_contract_20261103_103755_294946\\actual_exception.timing",
+    "sha256": "b15704c1fbcf07178464eaf97de431c951a8a5bb2c3519dd8167b4dbeb6e69f6"
+  },
+  "actual_rules": [
+    {
+      "Total": 17,
+      "Dominated": 17,
+      "Shadowed": 0,
+      "Ignored": 0,
+      "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/return_psi_q8[*] u_meter_pair/pipeline/reader/live/return_psi_valid}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+    }
+  ],
+  "actual_timing": {
+    "SWNS": 0.486,
+    "STNS": 0.0,
+    "HWNS": -0.815,
+    "HTNS": -107.712
+  },
+  "both_registered_before_first_timer": true,
+  "no_physical_mutation_or_export": true,
+  "commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "import_db input_place.db",
+    "read_sdc asr_literal.sdc",
+    "read_sdc psi_literal.sdc",
+    "report_clock_summary -file initial_clocks.txt",
+    "update_timing",
+    "start_timer",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*]",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "get_clocks HDMI_PIXEL_CLK",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_status -file actual.ts",
+    "report_timing_summary -ep_num 16 -path_num 1 -file actual.timing",
+    "report_timing_exception -file actual_exception.timing",
+    "report_timing_ignored -ep_num 32 -path_num 1 -file ignored.timing",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*] u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_valid -to  -ep_num 1 -path_num 1 -file psi_00.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[15] -to  -ep_num 1 -path_num 1 -file psi_01.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[14] -to  -ep_num 1 -path_num 1 -file psi_02.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[13] -to  -ep_num 1 -path_num 1 -file psi_03.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[12] -to  -ep_num 1 -path_num 1 -file psi_04.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[11] -to  -ep_num 1 -path_num 1 -file psi_05.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[10] -to  -ep_num 1 -path_num 1 -file psi_06.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[9] -to  -ep_num 1 -path_num 1 -file psi_07.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[8] -to  -ep_num 1 -path_num 1 -file psi_08.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[7] -to  -ep_num 1 -path_num 1 -file psi_09.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[6] -to  -ep_num 1 -path_num 1 -file psi_10.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[5] -to  -ep_num 1 -path_num 1 -file psi_11.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[4] -to  -ep_num 1 -path_num 1 -file psi_12.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[3] -to  -ep_num 1 -path_num 1 -file psi_13.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[2] -to  -ep_num 1 -path_num 1 -file psi_14.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[1] -to  -ep_num 1 -path_num 1 -file psi_15.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[0] -to  -ep_num 1 -path_num 1 -file psi_16.timing"
+  ],
+  "device": false,
+  "passed": false
+}

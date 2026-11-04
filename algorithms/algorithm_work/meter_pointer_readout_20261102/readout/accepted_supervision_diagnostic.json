@@ -1,0 +1,37 @@
+{
+  "status": "INDEPENDENT_DIAGNOSTIC_COUNTS_ONLY_NO_PERMIT_CHANGE",
+  "models": {
+    "baseline_run002_readout.json": {
+      "source_sha256": "11d0f89433e67845ff08169f4f958c3523198e69ed10711b412bfb7375cf412f",
+      "accepted": 16,
+      "accepted_without_bounded_both_points": 0,
+      "ids": [],
+      "accepted_is_PC_only_not_runtime_read_acceptance": true
+    },
+    "candidate_A_readout.json": {
+      "source_sha256": "2a182c80d17d064363ca329eee6d694b633cacf1cf42711daeb07afd952f9bc2",
+      "accepted": 13,
+      "accepted_without_bounded_both_points": 0,
+      "ids": [],
+      "accepted_is_PC_only_not_runtime_read_acceptance": true
+    },
+    "polar_readout.json": {
+      "source_sha256": "7f62c09e7e8764064f16bced6ac26be5cb42fdda5212062a32e863c66f10ee03",
+      "accepted": 32,
+      "accepted_without_bounded_both_points": 0,
+      "ids": [],
+      "accepted_is_PC_only_not_runtime_read_acceptance": true
+    },
+    "oracle_visual_angle_diagnostic_readout.json": {
+      "source_sha256": "a47a6ec4be1f40e4358f1267c7f2338b210a6b8380f2c8e8feda4b908c805700",
+      "accepted": 39,
+      "accepted_without_bounded_both_points": 0,
+      "ids": [],
+      "accepted_is_PC_only_not_runtime_read_acceptance": true
+    }
+  },
+  "keypoint_GT_used_only_after_output_for_diagnostic_count": true,
+  "actual_output_permissions_changed": false,
+  "canonical_changed": false,
+  "H_opened": false
+}

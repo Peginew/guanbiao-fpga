@@ -1,0 +1,8 @@
+{
+  "previous_diagnostic_sha256": "fe82d28ee1318f8426c7ba2ce7c08c055cc1224ba6d66cfaa723994c9e03b7f6",
+  "previous_run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292",
+  "status": "WITHDRAWN_NO_EFFECTIVE_PSI_RULE",
+  "reason": "concat native register collection lost MCP source selection; after retained6.666ns and no PSI MCP rule. Globalbefore/aftersamenesswasnotvalidconstraintcounterfactual.",
+  "old_reports_and_DB_preserved": true,
+  "repair": "Directjoint get_regs selector; inline setters; effective_rule now mandatory. NoRTLorDBexport."
+}

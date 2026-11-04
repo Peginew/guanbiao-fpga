@@ -1,0 +1,256 @@
+{
+  "passed": true,
+  "status": "PASS_ACTUAL_PREROUTE_LITERAL_REGISTRATION_ONLY",
+  "route_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_literal_route.json",
+    "sha256": "895d5114be7e679bf3e1412e4c4dfd81a1f178be955c3c5ec32d195cb71b79be"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372",
+  "auditor": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\audit_literal_contract.py",
+    "sha256": "2d07e09bb2f29feaa8163bbc63a769b32166b4f75d8d9e935bd250f70863aae8"
+  },
+  "qualification": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\literal_contract_effective_review.json",
+    "sha256": "8567e300ac9e5964433c0ff22d0e10e315179f4760d4977717ef168537d344b4"
+  },
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372\\asr_literal.sdc",
+      "sha256": "26ed6d584ba73b8e8c7c03ddff7fc56606830ec2c66bb9620c3f4d35c105b07a"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372\\execute.tcl",
+      "sha256": "8ed76fa8e8143735573da820bd5dce3d96c27a4be0b7220976184633ca66984b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372\\input.db",
+      "sha256": "51d4ac45de14852e85570a57bfb92299723ca265a19f1a325028d63c93850a39"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372\\psi_literal.sdc",
+      "sha256": "799e8df18f8dbe7298a65f5840d93eac128e298e7510f2d9bf6437402fa7ef6c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372\\reader_landmark.prj",
+      "sha256": "de6a7311f81daec69e502f117981abfcb3367cd73051567458799fab26af3550"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\run_literal_contract.py",
+      "sha256": "fb6e8d7e20e587285c9046e6eabebd18fa18354686726259df1f42935de17329"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\readonly_literal_contract_probe.json",
+      "sha256": "ca034b78f13fef35377947264d76efc632d92684cfe097fe86205a58db13c1ba"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\literal_contract_effective_review.json",
+      "sha256": "8567e300ac9e5964433c0ff22d0e10e315179f4760d4977717ef168537d344b4"
+    }
+  ],
+  "reports": {
+    "PSI_SMD": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372\\pre_contract_exception.timing",
+      "sha256": "bad91fcba0f9bfc3f21ec588dc1400f40bbd2deb1874492552b4bd583f227dc3"
+    },
+    "ASR_FP": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372\\pre_contract_ignored.timing",
+      "sha256": "6227cd9f7bdfab785a1d2d88734d173f1636f31dfc38fd9b96ca4231bc1f2006"
+    }
+  },
+  "PSI_summary": [
+    {
+      "total": 17,
+      "active": 17,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/return_psi_q8[*] u_meter_pair/pipeline/reader/live/return_psi_valid}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+    }
+  ],
+  "ASR_summary": [
+    {
+      "total": 6,
+      "active": 6,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+    },
+    {
+      "total": 6,
+      "active": 6,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+    }
+  ],
+  "PSI_endpoint_paths": [
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[12]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.396
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[1]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.407
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[14]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.407
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[4]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.431
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[11]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[11]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.448
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[6]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.459
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[15]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.459
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[8]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.47
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[13]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.476
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[5]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.5
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[2]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.505
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[0]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.511
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[10]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.511
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[3]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.528
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[9]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.528
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_q8[7]",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqb",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.563
+    },
+    {
+      "identity": "u_meter_pair/pipeline/reader/live/return_psi_valid",
+      "source": "u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+      "launch_output": "u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqa",
+      "endpoint": "u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+      "budget_ns": 7.2,
+      "slack_ns": 6.574
+    }
+  ],
+  "PSI_distinct_endpoints": 17,
+  "PSI_worst_path_source_identities": [
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[0]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[10]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[11]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[12]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[13]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[14]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[15]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[1]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[2]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[3]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[4]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[5]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[6]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[7]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[8]",
+    "u_meter_pair/pipeline/reader/live/return_psi_q8[9]",
+    "u_meter_pair/pipeline/reader/live/return_psi_valid"
+  ],
+  "PSI_all17_logical_sources_proven_by_unique_launch_outputs": true,
+  "PSI_source_launch_mapping": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\psi17_endpoint_precheck.json",
+    "sha256": "e2f77ba3694afc0957126abca1ba9046fbb74e44043c5a4ba1dfaa9d339b06c9"
+  },
+  "actual_SDC_registered_before_first_timer": true,
+  "actual_contract_proven_before_route": true,
+  "effective_reset_scope_requires_independent_fresh_mapping": true,
+  "final_routed_timing": false,
+  "bitgen_admission": false,
+  "device_actions": false,
+  "boundary": "Only effective SDC and individual PSI17 SMD path evidence. Pin/clock/capture/INIT audit and parent delivery gate remain separate."
+}

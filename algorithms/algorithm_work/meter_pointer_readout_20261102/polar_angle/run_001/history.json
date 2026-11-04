@@ -1,0 +1,266 @@
+[
+  {
+    "step": 200,
+    "loss": 0.5143593549728394,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.7901841493753287,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.820400602674792,
+        "median": 1.8818360397009997,
+        "p90": 5.444272898027498
+      },
+      "within5": 44,
+      "within10": 48,
+      "full": 50,
+      "accepted": 40,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 1.0
+  },
+  {
+    "step": 400,
+    "loss": 0.1538371592760086,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.88551599245805,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.831908526601041,
+        "median": 1.6304911658404677,
+        "p90": 5.380871759672243
+      },
+      "within5": 43,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 2.063000000009197
+  },
+  {
+    "step": 600,
+    "loss": 0.14231909811496735,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.0951982919986432,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 9.256134654195177,
+        "median": 1.6490806728889424,
+        "p90": 5.409676178658552
+      },
+      "within5": 43,
+      "within10": 47,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 3.125
+  },
+  {
+    "step": 800,
+    "loss": 0.19629895687103271,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.170087218284607,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 9.220999389351245,
+        "median": 1.5599552848386793,
+        "p90": 5.395045441376882
+      },
+      "within5": 43,
+      "within10": 47,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 4.110000000000582
+  },
+  {
+    "step": 1000,
+    "loss": 0.08684365451335907,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.3149941150958722,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.776357796608434,
+        "median": 1.6198312553510306,
+        "p90": 5.356884253046218
+      },
+      "within5": 43,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 5.188000000009197
+  },
+  {
+    "step": 1200,
+    "loss": 0.1970328390598297,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.4223287472358117,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.738444503242635,
+        "median": 1.6767771384935628,
+        "p90": 5.338642244645562
+      },
+      "within5": 43,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 6.219000000011874
+  },
+  {
+    "step": 1400,
+    "loss": 0.1135990172624588,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.5195350280174842,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.716394507015127,
+        "median": 1.7269676490335684,
+        "p90": 5.330507454965417
+      },
+      "within5": 44,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 7.282000000006519
+  },
+  {
+    "step": 1600,
+    "loss": 0.11783085763454437,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.609222650527954,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.7095675354509385,
+        "median": 1.7471409887742908,
+        "p90": 4.987072117782453
+      },
+      "within5": 45,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 8.328000000008615
+  },
+  {
+    "step": 1800,
+    "loss": 0.10920539498329163,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.6944710107950063,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.689149608679957,
+        "median": 1.743233637162092,
+        "p90": 4.948296086571873
+      },
+      "within5": 45,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 9.328000000008615
+  },
+  {
+    "step": 2000,
+    "loss": 0.016553489491343498,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.7117304801940918,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.672651663501649,
+        "median": 1.7488459743514966,
+        "p90": 4.952636439328047
+      },
+      "within5": 45,
+      "within10": 48,
+      "full": 50,
+      "accepted": 40,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 10.5
+  },
+  {
+    "step": 2200,
+    "loss": 0.025526154786348343,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.7483179019047663,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.679301302259473,
+        "median": 1.7622299565310016,
+        "p90": 4.954810600605066
+      },
+      "within5": 45,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 11.563000000009197
+  },
+  {
+    "step": 2400,
+    "loss": 0.03874367102980614,
+    "validation": {
+      "images": 59,
+      "selection_loss": 1.7771815886864295,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 5.670408548743833,
+        "median": 1.7611307223012602,
+        "p90": 4.934972540379392
+      },
+      "within5": 45,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 12.625
+  }
+]

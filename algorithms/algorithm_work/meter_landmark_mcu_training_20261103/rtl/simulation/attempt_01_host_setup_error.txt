@@ -1,0 +1,4 @@
+First host setup failed before ModelSim invocation: UnicodeEncodeError while
+writing an ASCII Tcl containing the Chinese workspace path. No RTL simulated.
+Runner corrected to copy frozen sources into an ASCII temporary directory and
+record its location; no algorithm or RTL changed for this host-path repair.

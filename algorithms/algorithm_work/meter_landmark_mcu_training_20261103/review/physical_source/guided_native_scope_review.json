@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "status": "PASS_ACTUAL_GUIDED_FINAL_ALL18_CLOCKS_AND_ORDINARY_DATA",
+  "route": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_guided_route.json",
+    "sha256": "86daba2cb82e92951eadf4e386bcdc17c39013aa2b05bed0d31f594dbcf11908"
+  },
+  "routed_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186\\reader_landmark_pr.db",
+    "sha256": "def86a7b478657109e6a55cd17f1d6fb079dc2814d7d9b52949b2ac1a8b1a4a5"
+  },
+  "auditor": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\readonly_guided_scope.py",
+    "sha256": "2694f0374446dff0f5f4733524b9053d18c6bb825f32cb0c4e0738fa5c0770d4"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583",
+  "actual_readonly_elapsed_s": null,
+  "host_only_analysis_of_existing_native_reports": true,
+  "unsupported_get_clocks_from_query_preserved": true,
+  "DDR_evidence_from_existing_same_DB_global_FINAL": true,
+  "clock_count": 18,
+  "clock_identities": [
+    "HDMI_PIXEL_CLK",
+    "HDMI_SERIAL_CLK",
+    "MCU_ROI_50",
+    "MCU_TIMER_25",
+    "MIPI_RX_BYTE_CLK",
+    "mipi_rx_ck_pad",
+    "pll_clk_100m",
+    "pll_clk_24m",
+    "sys_clk_50m",
+    "u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst.core_clk",
+    "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.io_clk_pad_p",
+    "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.tif_c16_in",
+    "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.tif_c20_in",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ctl_clk",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ddr_clk",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/mcu_clk",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ref_clk",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk"
+  ],
+  "clock_identity_reference_only": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_hdmi_ui_ref_fix_20261103\\project\\td_project\\hdmi_ui_ref_fix_Runs\\final_scope_readonly_20261103_021053_104599\\clocks_all.txt",
+    "sha256": "77c69bb5af0a2e79bb82658c061b2901e9820b3ea0b0f5d295b36f7b711c7c8c"
+  },
+  "ordinary_data_and_consumers": {
+    "serial_stage01_DATA.timing": {
+      "actual_paths": 8,
+      "minimum_slack_ns": 0.104,
+      "report": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\serial_stage01_DATA.timing",
+        "sha256": "088503bdb31f04e434339c75f28b031fdf02b17858cf612e9285d93fbe9bf591"
+      }
+    },
+    "serial_stage12_DATA.timing": {
+      "actual_paths": 8,
+      "minimum_slack_ns": 0.087,
+      "report": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\serial_stage12_DATA.timing",
+        "sha256": "d1d3ca1bf2a99753a9ed6932abcaafdaa0401de4f48de912fe69a808b9e4cf67"
+      }
+    },
+    "serial_release_consumers.timing": {
+      "actual_paths": 48,
+      "minimum_slack_ns": 0.127,
+      "report": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\serial_release_consumers.timing",
+        "sha256": "fdda79f6b1683fe3b6a56cf31d3aa55808388651f1497ab5efb571afbf463eb2"
+      }
+    },
+    "serial_odd_even.timing": {
+      "actual_paths": 8,
+      "minimum_slack_ns": 0.093,
+      "report": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\serial_odd_even.timing",
+        "sha256": "bc496ebcc522c481f0c061869cfc3a0a0a86ae188253ff9d941825ea4d881dd0"
+      }
+    },
+    "REF_stage01_DATA.timing": {
+      "actual_paths": 4,
+      "minimum_slack_ns": 0.104,
+      "report": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\REF_stage01_DATA.timing",
+        "sha256": "ae968eac4f144546c235f65e17a4ea454af7f487fe205b7601a642eaaf3efb3c"
+      }
+    },
+    "REF_consumers.timing": {
+      "actual_paths": 54,
+      "minimum_slack_ns": 0.104,
+      "report": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\REF_consumers.timing",
+        "sha256": "40d806f20bb1d7be295b23d4944cebad3f23f7f4a37b906261ae9a06fa513068"
+      }
+    },
+    "DDR_ordinary_actual_FINAL": {
+      "actual_paths": 288,
+      "minimum_slack_ns": 0.02,
+      "report": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186\\reader_landmark_pr.timing",
+        "sha256": "e2bab0bdd92a1ae843b58bc9738cc0a9e939846546fffff444a7a7b9ce0a99b1"
+      },
+      "scope": "Normal (not SMD) same usr_clk 7.5ns clock paths from complete native FINAL report"
+    }
+  },
+  "FINAL": {
+    "SWNS": 0.102,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "DRC_passed": true,
+  "execute": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\execute.tcl",
+    "sha256": "e5fd28319e5c171a7f0bbed67f67125267a5898d9f08ae2aa4baa3712dd4c1e5"
+  },
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_final_scope_readonly_20261103_124838_652583\\console.log",
+    "sha256": "a5482000b597231d174eef678e03e3cec17c7fd6a311e2842a058e07cce4b4fe"
+  },
+  "no_constraint_or_DB_modification": true,
+  "no_route_or_device_actions": true
+}

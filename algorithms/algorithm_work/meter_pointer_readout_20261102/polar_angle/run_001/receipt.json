@@ -1,0 +1,44 @@
+{
+  "status": "FLOAT_POLAR_CANDIDATE_TRAINED_NO_DEPLOYMENT",
+  "completed_steps": 2400,
+  "best_step": 200,
+  "elapsed_s": 12.969000000011874,
+  "checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+  "config_sha256": "a372b2f5136a72587bf3eb14b0aa6091805b86ceda8475a743c54adf6101a6d8",
+  "validation": {
+    "images": 59,
+    "selection_loss": 0.7901841493753287,
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 5.820400602674792,
+      "median": 1.8818360397009997,
+      "p90": 5.444272898027498
+    },
+    "within5": 44,
+    "within10": 48,
+    "full": 50,
+    "accepted": 40,
+    "accepted_over10": 1,
+    "negative_count": 3,
+    "negative_accepted": 0
+  },
+  "train": {
+    "images": 164,
+    "selection_loss": 0.3177497489111764,
+    "angle_error_deg": {
+      "n": 134,
+      "mean": 6.86113613307533,
+      "median": 1.6658075331218924,
+      "p90": 4.576948080215184
+    },
+    "within5": 124,
+    "within10": 129,
+    "full": 134,
+    "accepted": 125,
+    "accepted_over10": 0,
+    "negative_count": 9,
+    "negative_accepted": 0
+  },
+  "test_H_opened": false,
+  "hardware_actions": false
+}

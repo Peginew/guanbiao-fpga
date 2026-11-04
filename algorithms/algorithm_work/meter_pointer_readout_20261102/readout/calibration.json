@@ -1,0 +1,931 @@
+{
+  "schema": "pc_meter_train_pressure_angle_calibration_v1",
+  "fit_status": "FIT_COMPLETE_TRAIN_ONLY",
+  "reference_id": "D_002",
+  "reference_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+  "calibration_kind": "EMPIRICAL_LINEAR_PRESSURE_ANGLE_FIT_NOT_DIRECT_PRINTED_DIGIT_READING",
+  "direction": "native image +x0deg,+y clockwise; corrected image angle minus static-print relative roll",
+  "formula": "bar=slope_bar_per_degree*unwrap(angle_image-print_roll,branch_center)+intercept_bar",
+  "slope_bar_per_degree": 0.005019222203317465,
+  "intercept_bar": -0.6250605302201702,
+  "branch_center_deg": 220.03048129421308,
+  "supported_angle_interval_deg": [
+    163.26816859472416,
+    288.9066352569008
+  ],
+  "supported_pressure_interval_psi": [
+    2.5,
+    12.0
+  ],
+  "supported_bar_interval": [
+    0.17236893229175002,
+    0.8273708750004001
+  ],
+  "anchors": [
+    {
+      "pressure_psi": 2.5,
+      "bar": 0.17236893229175002,
+      "angle_deg": 163.26816859472416,
+      "samples": 10
+    },
+    {
+      "pressure_psi": 3.5,
+      "bar": 0.24131650520845002,
+      "angle_deg": 172.5339974826096,
+      "samples": 8
+    },
+    {
+      "pressure_psi": 4,
+      "bar": 0.2757902916668,
+      "angle_deg": 180.97576994216655,
+      "samples": 4
+    },
+    {
+      "pressure_psi": 5,
+      "bar": 0.34473786458350003,
+      "angle_deg": 190.7836229473338,
+      "samples": 6
+    },
+    {
+      "pressure_psi": 5.5,
+      "bar": 0.37921165104185006,
+      "angle_deg": 193.91334108550916,
+      "samples": 3
+    },
+    {
+      "pressure_psi": 6.5,
+      "bar": 0.44815922395855,
+      "angle_deg": 213.4718576946134,
+      "samples": 7
+    },
+    {
+      "pressure_psi": 7,
+      "bar": 0.48263301041690004,
+      "angle_deg": 220.4210932423144,
+      "samples": 1
+    },
+    {
+      "pressure_psi": 8,
+      "bar": 0.5515805833336,
+      "angle_deg": 234.71178955168125,
+      "samples": 6
+    },
+    {
+      "pressure_psi": 8.5,
+      "bar": 0.58605436979195,
+      "angle_deg": 244.3728216854393,
+      "samples": 2
+    },
+    {
+      "pressure_psi": 9.5,
+      "bar": 0.6550019427086501,
+      "angle_deg": 254.61654098397022,
+      "samples": 7
+    },
+    {
+      "pressure_psi": 10,
+      "bar": 0.6894757291670001,
+      "angle_deg": 264.76360600692857,
+      "samples": 1
+    },
+    {
+      "pressure_psi": 11,
+      "bar": 0.7584233020837001,
+      "angle_deg": 272.72592633822666,
+      "samples": 8
+    },
+    {
+      "pressure_psi": 11.5,
+      "bar": 0.7928970885420501,
+      "angle_deg": 283.48729364143145,
+      "samples": 1
+    },
+    {
+      "pressure_psi": 12,
+      "bar": 0.8273708750004001,
+      "angle_deg": 288.9066352569008,
+      "samples": 8
+    }
+  ],
+  "fit_measurements": [
+    {
+      "id": "D_001",
+      "group": "D",
+      "native_angle_deg": 289.98776736786,
+      "print_relative_roll_deg": 5.75317225123782,
+      "reference_angle_deg": 284.2345951166222,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "dd07d871c18745d409486f194d343e7b651a458f2d93ec287c0de49bb7278644",
+      "reference_angle_unwrapped_deg": 284.2345951166222
+    },
+    {
+      "id": "D_002",
+      "group": "D",
+      "native_angle_deg": 287.4776801638209,
+      "print_relative_roll_deg": 0.0,
+      "reference_angle_deg": 287.4776801638209,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+      "reference_angle_unwrapped_deg": 287.4776801638209
+    },
+    {
+      "id": "D_003",
+      "group": "D",
+      "native_angle_deg": 286.1874999590581,
+      "print_relative_roll_deg": -0.748309439516525,
+      "reference_angle_deg": 286.9358093985746,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "8d1fcaebee037f6a4c82dfec9ab7f1dc12bb7130d03b67254586b7628b1c493d",
+      "reference_angle_unwrapped_deg": 286.9358093985746
+    },
+    {
+      "id": "D_004",
+      "group": "D",
+      "native_angle_deg": 286.1051420841489,
+      "print_relative_roll_deg": -1.4061099687193115,
+      "reference_angle_deg": 287.5112520528682,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "9f20391f04da6db93269ee858ee8f6b4b950617ce5bf7bb40aba4a6d95a0f36c",
+      "reference_angle_unwrapped_deg": 287.5112520528682
+    },
+    {
+      "id": "D_007",
+      "group": "D",
+      "native_angle_deg": 271.40351779423213,
+      "print_relative_roll_deg": -1.1160107461549784,
+      "reference_angle_deg": 272.5195285403871,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "106fc28259ce33b0a5e12ee5a3134624c1fa1b146d53c4a1880a7c5fcd2514b3",
+      "reference_angle_unwrapped_deg": 272.5195285403871
+    },
+    {
+      "id": "D_008",
+      "group": "D",
+      "native_angle_deg": 275.9654747551783,
+      "print_relative_roll_deg": 2.1214017749969756,
+      "reference_angle_deg": 273.84407298018135,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "534a5596bac89f7e8eaa0935a7589f08fcf2c807035120f59156d5c4e042b047",
+      "reference_angle_unwrapped_deg": 273.84407298018135
+    },
+    {
+      "id": "D_009",
+      "group": "D",
+      "native_angle_deg": 274.02335231903334,
+      "print_relative_roll_deg": -1.4049348594864886,
+      "reference_angle_deg": 275.42828717851984,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "b9c44a2d0494d8378b4fd2792296f230f5a45a3950cf9f3ad312d7756fce6928",
+      "reference_angle_unwrapped_deg": 275.42828717851984
+    },
+    {
+      "id": "D_010",
+      "group": "D",
+      "native_angle_deg": 275.70529631034333,
+      "print_relative_roll_deg": -0.10176816177709623,
+      "reference_angle_deg": 275.80706447212043,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "087b968dba3bb6e5161b0240b934d6a116bc77d654624f0fb8d38e5203676ada",
+      "reference_angle_unwrapped_deg": 275.80706447212043
+    },
+    {
+      "id": "D_013",
+      "group": "D",
+      "native_angle_deg": 253.53883251772226,
+      "print_relative_roll_deg": -0.747229329607697,
+      "reference_angle_deg": 254.28606184732996,
+      "pressure_psi": 9.5,
+      "bar_reference": 0.6550019427086501,
+      "source_sha256": "e4faf9de936f4300e9173573bd0fdb22fdd2953815644aaca5b76f46a2fe076b",
+      "reference_angle_unwrapped_deg": 254.28606184732996
+    },
+    {
+      "id": "D_014",
+      "group": "D",
+      "native_angle_deg": 257.20376935756997,
+      "print_relative_roll_deg": 2.866984781908004,
+      "reference_angle_deg": 254.33678457566197,
+      "pressure_psi": 9.5,
+      "bar_reference": 0.6550019427086501,
+      "source_sha256": "998d46999232b8309f14e5ef33bd5729b9c0dda79d05c2852aa1f2c1817316af",
+      "reference_angle_unwrapped_deg": 254.33678457566197
+    },
+    {
+      "id": "D_016",
+      "group": "D",
+      "native_angle_deg": 256.5162397577546,
+      "print_relative_roll_deg": 0.917010842248025,
+      "reference_angle_deg": 255.59922891550656,
+      "pressure_psi": 9.5,
+      "bar_reference": 0.6550019427086501,
+      "source_sha256": "8c9db58d5ea7dc1f0541adac79e1f6e8fca47c1597045396778693ba18ea8a57",
+      "reference_angle_unwrapped_deg": 255.59922891550656
+    },
+    {
+      "id": "D_019",
+      "group": "D",
+      "native_angle_deg": 231.34893785781162,
+      "print_relative_roll_deg": -2.2662755748783643,
+      "reference_angle_deg": 233.61521343268998,
+      "pressure_psi": 8,
+      "bar_reference": 0.5515805833336,
+      "source_sha256": "57ffedecd06d33c99d8e1b137325dec7cd49469983a59ebd83f2b17727e1c2dd",
+      "reference_angle_unwrapped_deg": 233.61521343268998
+    },
+    {
+      "id": "D_020",
+      "group": "D",
+      "native_angle_deg": 234.59109463795323,
+      "print_relative_roll_deg": -0.13825852393292937,
+      "reference_angle_deg": 234.72935316188617,
+      "pressure_psi": 8,
+      "bar_reference": 0.5515805833336,
+      "source_sha256": "5e163d2b9983baf9ca5942710eee66a119b35a4e71c755b7f0e43383bcc37cd7",
+      "reference_angle_unwrapped_deg": 234.72935316188617
+    },
+    {
+      "id": "D_025",
+      "group": "D",
+      "native_angle_deg": 212.44803936396494,
+      "print_relative_roll_deg": -2.022343739871826,
+      "reference_angle_deg": 214.47038310383675,
+      "pressure_psi": 6.5,
+      "bar_reference": 0.44815922395855,
+      "source_sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+      "reference_angle_unwrapped_deg": 214.47038310383675
+    },
+    {
+      "id": "D_026",
+      "group": "D",
+      "native_angle_deg": 211.93149860858455,
+      "print_relative_roll_deg": -1.540359086028852,
+      "reference_angle_deg": 213.4718576946134,
+      "pressure_psi": 6.5,
+      "bar_reference": 0.44815922395855,
+      "source_sha256": "7af1be8a47b9e80fafac495f10d5f882662ad4de2bf97b789f5df2ac917f866d",
+      "reference_angle_unwrapped_deg": 213.4718576946134
+    },
+    {
+      "id": "D_027",
+      "group": "D",
+      "native_angle_deg": 215.5304698690645,
+      "print_relative_roll_deg": -0.7199874550866432,
+      "reference_angle_deg": 216.25045732415114,
+      "pressure_psi": 6.5,
+      "bar_reference": 0.44815922395855,
+      "source_sha256": "bd1feb6663a3afe90fdbc3b9dffccb2785cb9bf2dd227feda70debe827a2aa14",
+      "reference_angle_unwrapped_deg": 216.25045732415114
+    },
+    {
+      "id": "D_031",
+      "group": "D",
+      "native_angle_deg": 195.23562702852035,
+      "print_relative_roll_deg": 2.705051156809517,
+      "reference_angle_deg": 192.53057587171085,
+      "pressure_psi": 5,
+      "bar_reference": 0.34473786458350003,
+      "source_sha256": "289e4a80569fc0c74cc27a7e1b9d40de64050d37b644ba5ac41136346464e755",
+      "reference_angle_unwrapped_deg": 192.53057587171085
+    },
+    {
+      "id": "D_032",
+      "group": "D",
+      "native_angle_deg": 197.35600062534567,
+      "print_relative_roll_deg": 4.796417720717518,
+      "reference_angle_deg": 192.55958290462814,
+      "pressure_psi": 5,
+      "bar_reference": 0.34473786458350003,
+      "source_sha256": "41740742d5933ebec6f6ca62f4016c7245b6b0b600338f3685bcef49f0cfca4c",
+      "reference_angle_unwrapped_deg": 192.55958290462814
+    },
+    {
+      "id": "D_037",
+      "group": "D",
+      "native_angle_deg": 173.85410169337416,
+      "print_relative_roll_deg": 1.813721510911745,
+      "reference_angle_deg": 172.04038018246243,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "b20bf438e3cecee76dd92aca29b80cae6418b694ed8cb87d54e2c00b92f70a7e",
+      "reference_angle_unwrapped_deg": 172.04038018246243
+    },
+    {
+      "id": "D_038",
+      "group": "D",
+      "native_angle_deg": 173.311547737593,
+      "print_relative_roll_deg": 1.4348927852755982,
+      "reference_angle_deg": 171.8766549523174,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "f51d8d4996b6019e34c2ec5136f2a918147db82369c378ac955b9a6e8436e6aa",
+      "reference_angle_unwrapped_deg": 171.8766549523174
+    },
+    {
+      "id": "D_039",
+      "group": "D",
+      "native_angle_deg": 172.60718727011604,
+      "print_relative_roll_deg": -0.42042751264070305,
+      "reference_angle_deg": 173.02761478275676,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "50dadd281b8f858302c0fef210dedc3e9af620e1f9774e5958d0e91384d40cce",
+      "reference_angle_unwrapped_deg": 173.02761478275676
+    },
+    {
+      "id": "D_040",
+      "group": "D",
+      "native_angle_deg": 171.79625272558695,
+      "print_relative_roll_deg": -1.3970009970553028,
+      "reference_angle_deg": 173.19325372264225,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "59e89eade2eaac8071569aef51a3ed3c3378733e1aa9a449befe58091aee5f54",
+      "reference_angle_unwrapped_deg": 173.19325372264225
+    },
+    {
+      "id": "D_043",
+      "group": "D",
+      "native_angle_deg": 166.97992219086757,
+      "print_relative_roll_deg": 2.2014237449425362,
+      "reference_angle_deg": 164.77849844592504,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "fc855c474b55ee876bbddee6d5d832075ac81429cf2762f9fc9fbf1748f4aef6",
+      "reference_angle_unwrapped_deg": 164.77849844592504
+    },
+    {
+      "id": "D_044",
+      "group": "D",
+      "native_angle_deg": 169.5674514109414,
+      "print_relative_roll_deg": 5.246118215387037,
+      "reference_angle_deg": 164.32133319555436,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "b1b4715326af622c3cf64964655e9b72819eb9f7aaccedbc8026ee76dc06821c",
+      "reference_angle_unwrapped_deg": 164.32133319555436
+    },
+    {
+      "id": "D_045",
+      "group": "D",
+      "native_angle_deg": 167.0251417353067,
+      "print_relative_roll_deg": 2.7101505382822353,
+      "reference_angle_deg": 164.31499119702448,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "c8060cd7f9248d865cb2a34aa3141eb97ad3765867daca11656054c409a7289e",
+      "reference_angle_unwrapped_deg": 164.31499119702448
+    },
+    {
+      "id": "D_046",
+      "group": "D",
+      "native_angle_deg": 164.85789057744287,
+      "print_relative_roll_deg": 0.8014771478212149,
+      "reference_angle_deg": 164.05641342962167,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "4d186d110a76679fb9263b9ef93a590271ca17c56eea4d327a0fe0d98dc80e59",
+      "reference_angle_unwrapped_deg": 164.05641342962167
+    },
+    {
+      "id": "E_001",
+      "group": "E",
+      "native_angle_deg": 287.8559071217383,
+      "print_relative_roll_deg": -2.446111339195181,
+      "reference_angle_deg": 290.3020184609335,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "7a080d113408403cbd9859ad7625e9c17636b26141f3498c313999f690c23d02",
+      "reference_angle_unwrapped_deg": 290.3020184609335
+    },
+    {
+      "id": "E_002",
+      "group": "E",
+      "native_angle_deg": 289.8337160242812,
+      "print_relative_roll_deg": -1.3343314394717016,
+      "reference_angle_deg": 291.16804746375294,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "f9d1d9c6a5f5a9972c10ce558e0476d09e873ce97c04f7925839428d2f0e124d",
+      "reference_angle_unwrapped_deg": 291.16804746375294
+    },
+    {
+      "id": "E_003",
+      "group": "E",
+      "native_angle_deg": 288.56719504973285,
+      "print_relative_roll_deg": -2.33412166954347,
+      "reference_angle_deg": 290.90131671927634,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "393afa9ff698ed6dfe3d9b5c68db4d8978117af7e095fc20bd98cde40687f8d3",
+      "reference_angle_unwrapped_deg": 290.90131671927634
+    },
+    {
+      "id": "E_007",
+      "group": "E",
+      "native_angle_deg": 272.8397250572763,
+      "print_relative_roll_deg": 1.011982655832108,
+      "reference_angle_deg": 271.8277424014442,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "faa7ca7bb7c7f7c53d81cc20ff6faf9a9c019d7dd7a4527fa707cb368a38e58f",
+      "reference_angle_unwrapped_deg": 271.8277424014442
+    },
+    {
+      "id": "E_008",
+      "group": "E",
+      "native_angle_deg": 273.258741295424,
+      "print_relative_roll_deg": 1.3429808859718093,
+      "reference_angle_deg": 271.91576040945216,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "4cf0b6b0c0414d8a598d4e7981816d48d350455516a0b4affd691257eb2a19f9",
+      "reference_angle_unwrapped_deg": 271.91576040945216
+    },
+    {
+      "id": "E_009",
+      "group": "E",
+      "native_angle_deg": 272.5217596524536,
+      "print_relative_roll_deg": -0.41056448361257514,
+      "reference_angle_deg": 272.9323241360662,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "e5e3281f52037d8144b5e9af3490a7dd5aff120ee8a802cbb0e1dac526796a69",
+      "reference_angle_unwrapped_deg": 272.9323241360662
+    },
+    {
+      "id": "E_010",
+      "group": "E",
+      "native_angle_deg": 271.04943063218883,
+      "print_relative_roll_deg": -1.4292867806115892,
+      "reference_angle_deg": 272.4787174128004,
+      "pressure_psi": 11,
+      "bar_reference": 0.7584233020837001,
+      "source_sha256": "369233f6cdb6cec55acbc15ad4cfe830e296a774a17bfe7834f038bda0f1b11b",
+      "reference_angle_unwrapped_deg": 272.4787174128004
+    },
+    {
+      "id": "E_013",
+      "group": "E",
+      "native_angle_deg": 255.4570332013787,
+      "print_relative_roll_deg": 2.1880655944382754,
+      "reference_angle_deg": 253.2689676069404,
+      "pressure_psi": 9.5,
+      "bar_reference": 0.6550019427086501,
+      "source_sha256": "0735b3b0f6f8c3a626a922ebf4a52c2496786eda05072709fe6838423cd5e1ec",
+      "reference_angle_unwrapped_deg": 253.2689676069404
+    },
+    {
+      "id": "E_014",
+      "group": "E",
+      "native_angle_deg": 255.52674380618123,
+      "print_relative_roll_deg": 0.4007509475433235,
+      "reference_angle_deg": 255.12599285863791,
+      "pressure_psi": 9.5,
+      "bar_reference": 0.6550019427086501,
+      "source_sha256": "53b0397abeb75d6d73967d25de4841cc49da0a7badf750e68faf06698f8209e7",
+      "reference_angle_unwrapped_deg": 255.12599285863791
+    },
+    {
+      "id": "E_015",
+      "group": "E",
+      "native_angle_deg": 255.76711799218828,
+      "print_relative_roll_deg": 0.6768550600491734,
+      "reference_angle_deg": 255.0902629321391,
+      "pressure_psi": 9.5,
+      "bar_reference": 0.6550019427086501,
+      "source_sha256": "21f7494f0c6d1ef85f2a891beed2e353138b014938ca0993c52da10611c02f15",
+      "reference_angle_unwrapped_deg": 255.0902629321391
+    },
+    {
+      "id": "E_016",
+      "group": "E",
+      "native_angle_deg": 252.97744765415084,
+      "print_relative_roll_deg": -1.6390933298193957,
+      "reference_angle_deg": 254.61654098397022,
+      "pressure_psi": 9.5,
+      "bar_reference": 0.6550019427086501,
+      "source_sha256": "8d1362f7bf6c64d49f106fd4e1bad3bed4e250d2d956ff5b3f752d2e7ac2747b",
+      "reference_angle_unwrapped_deg": 254.61654098397022
+    },
+    {
+      "id": "E_019",
+      "group": "E",
+      "native_angle_deg": 231.0675596110673,
+      "print_relative_roll_deg": -3.6035358873677388,
+      "reference_angle_deg": 234.67109549843505,
+      "pressure_psi": 8,
+      "bar_reference": 0.5515805833336,
+      "source_sha256": "c0f10b3fb2a7aaac94572e94b219a080c7779c4604238565e43ce3437766ef65",
+      "reference_angle_unwrapped_deg": 234.67109549843505
+    },
+    {
+      "id": "E_020",
+      "group": "E",
+      "native_angle_deg": 230.83307015783325,
+      "print_relative_roll_deg": -3.8611557836431274,
+      "reference_angle_deg": 234.69422594147636,
+      "pressure_psi": 8,
+      "bar_reference": 0.5515805833336,
+      "source_sha256": "d8a65a50a2886f0e6c026504523f76f7e9b1a5a45f48afffefc51f27f0ea36a7",
+      "reference_angle_unwrapped_deg": 234.69422594147636
+    },
+    {
+      "id": "E_021",
+      "group": "E",
+      "native_angle_deg": 230.49594679153657,
+      "print_relative_roll_deg": -4.4407515205614425,
+      "reference_angle_deg": 234.936698312098,
+      "pressure_psi": 8,
+      "bar_reference": 0.5515805833336,
+      "source_sha256": "45b32f67da200d89efc1bf2c6d36f35752062b16ed50eba7e78bab5ebf5ba67c",
+      "reference_angle_unwrapped_deg": 234.936698312098
+    },
+    {
+      "id": "E_022",
+      "group": "E",
+      "native_angle_deg": 230.13811857744898,
+      "print_relative_roll_deg": -5.205807108831623,
+      "reference_angle_deg": 235.3439256862806,
+      "pressure_psi": 8,
+      "bar_reference": 0.5515805833336,
+      "source_sha256": "9cf6730e3ddb1ae72e385a8e27fcf7c51bca62512aa558811aaef7beffbd9e1c",
+      "reference_angle_unwrapped_deg": 235.3439256862806
+    },
+    {
+      "id": "E_024",
+      "group": "E",
+      "native_angle_deg": 210.09874948440526,
+      "print_relative_roll_deg": -2.410199894976466,
+      "reference_angle_deg": 212.50894937938173,
+      "pressure_psi": 6.5,
+      "bar_reference": 0.44815922395855,
+      "source_sha256": "56054d17030c9cdf182b0ceaebf3ce6c62ec5f6d7a806f6a27b2c0c7a9d6862c",
+      "reference_angle_unwrapped_deg": 212.50894937938173
+    },
+    {
+      "id": "E_025",
+      "group": "E",
+      "native_angle_deg": 209.98461119302306,
+      "print_relative_roll_deg": -1.1428654367185456,
+      "reference_angle_deg": 211.1274766297416,
+      "pressure_psi": 6.5,
+      "bar_reference": 0.44815922395855,
+      "source_sha256": "af7f11d60461ad3f3c565003d2e71d001ab3a5c32e6d795bcf739e42eb283626",
+      "reference_angle_unwrapped_deg": 211.1274766297416
+    },
+    {
+      "id": "E_026",
+      "group": "E",
+      "native_angle_deg": 211.38722761281988,
+      "print_relative_roll_deg": -2.127603026840306,
+      "reference_angle_deg": 213.5148306396602,
+      "pressure_psi": 6.5,
+      "bar_reference": 0.44815922395855,
+      "source_sha256": "13fd3d9a8e976e73acbecf125120864b4c3d93c993d0ee52309b9899e7660bf8",
+      "reference_angle_unwrapped_deg": 213.5148306396602
+    },
+    {
+      "id": "E_027",
+      "group": "E",
+      "native_angle_deg": 212.07400087529405,
+      "print_relative_roll_deg": -1.3503663746653958,
+      "reference_angle_deg": 213.42436724995943,
+      "pressure_psi": 6.5,
+      "bar_reference": 0.44815922395855,
+      "source_sha256": "3724b4d90ff50fb987992bbe6411a43e0a259b100109bd054eda01730a79b819",
+      "reference_angle_unwrapped_deg": 213.42436724995943
+    },
+    {
+      "id": "E_030",
+      "group": "E",
+      "native_angle_deg": 187.22818990997783,
+      "print_relative_roll_deg": -3.653300683028649,
+      "reference_angle_deg": 190.88149059300648,
+      "pressure_psi": 5,
+      "bar_reference": 0.34473786458350003,
+      "source_sha256": "e180103693c7d7df96091073c285b3a9b97d45d8a62298f203bad9fa5ee4e31c",
+      "reference_angle_unwrapped_deg": 190.88149059300648
+    },
+    {
+      "id": "E_031",
+      "group": "E",
+      "native_angle_deg": 189.92279675837807,
+      "print_relative_roll_deg": 0.13675247158649623,
+      "reference_angle_deg": 189.78604428679157,
+      "pressure_psi": 5,
+      "bar_reference": 0.34473786458350003,
+      "source_sha256": "04c6ba19d7c8ef6b36fec6d9705e840761cae2bc74e3f0e1264ba2f676ef43a2",
+      "reference_angle_unwrapped_deg": 189.78604428679157
+    },
+    {
+      "id": "E_032",
+      "group": "E",
+      "native_angle_deg": 188.05441444638177,
+      "print_relative_roll_deg": -1.6930677630645585,
+      "reference_angle_deg": 189.74748220944633,
+      "pressure_psi": 5,
+      "bar_reference": 0.34473786458350003,
+      "source_sha256": "97746d4568ea0400e0988cd124370ebde650b0701bd73b8d8a7d743c9334e98f",
+      "reference_angle_unwrapped_deg": 189.74748220944633
+    },
+    {
+      "id": "E_033",
+      "group": "E",
+      "native_angle_deg": 188.21675890497124,
+      "print_relative_roll_deg": -2.46899639668993,
+      "reference_angle_deg": 190.68575530166117,
+      "pressure_psi": 5,
+      "bar_reference": 0.34473786458350003,
+      "source_sha256": "375d9ba009ccb7ccba88b5f881fdd8ba453bbf05740687316fbf135d64a6e2e7",
+      "reference_angle_unwrapped_deg": 190.68575530166117
+    },
+    {
+      "id": "E_036",
+      "group": "E",
+      "native_angle_deg": 173.3082449037654,
+      "print_relative_roll_deg": 1.353550129566383,
+      "reference_angle_deg": 171.95469477419903,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "b4778ea6ab65a0ac9b57c27107547bced6b15b5e425a60a42308e8d637e5f80f",
+      "reference_angle_unwrapped_deg": 171.95469477419903
+    },
+    {
+      "id": "E_037",
+      "group": "E",
+      "native_angle_deg": 172.70228830486886,
+      "print_relative_roll_deg": 0.7039813891112062,
+      "reference_angle_deg": 171.99830691575764,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "6d9db2f7dd17f47670fce83a6f8ad7b1d2882aadf2eb01f5446a5790289a1eb9",
+      "reference_angle_unwrapped_deg": 171.99830691575764
+    },
+    {
+      "id": "E_038",
+      "group": "E",
+      "native_angle_deg": 177.42840719840382,
+      "print_relative_roll_deg": 2.6683942397336504,
+      "reference_angle_deg": 174.76001295867016,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "343ed5ae72d7c476ef24c915310684206ebdfb21bf6189fc647282b1d1efc00e",
+      "reference_angle_unwrapped_deg": 174.76001295867016
+    },
+    {
+      "id": "E_039",
+      "group": "E",
+      "native_angle_deg": 175.38429665787294,
+      "print_relative_roll_deg": 1.4280313571628251,
+      "reference_angle_deg": 173.9562653007101,
+      "pressure_psi": 3.5,
+      "bar_reference": 0.24131650520845002,
+      "source_sha256": "b08d89c8a69fd2ac1de61ded269d10d2727043876bde87957e81d76ab865f8ee",
+      "reference_angle_unwrapped_deg": 173.9562653007101
+    },
+    {
+      "id": "E_042",
+      "group": "E",
+      "native_angle_deg": 160.8522466186636,
+      "print_relative_roll_deg": -1.1314585015283367,
+      "reference_angle_deg": 161.98370512019193,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "f1c7788a53a27a491738e76cc9b11030f42257bd20e6d5fb6c60fc551b9b45e4",
+      "reference_angle_unwrapped_deg": 161.98370512019193
+    },
+    {
+      "id": "E_044",
+      "group": "E",
+      "native_angle_deg": 166.2497325925782,
+      "print_relative_roll_deg": 0.8870532866099979,
+      "reference_angle_deg": 165.3626793059682,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "070199953e897eac3ce52802ec95309ff2608edb10d44d1083618be747a98dbf",
+      "reference_angle_unwrapped_deg": 165.3626793059682
+    },
+    {
+      "id": "E_059",
+      "group": "E",
+      "native_angle_deg": 163.50486707216658,
+      "print_relative_roll_deg": 1.0249433123399065,
+      "reference_angle_deg": 162.47992375982668,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "597f928e0234e6691706cbb03221db404feb7c4483c3da3e0183848af621b18c",
+      "reference_angle_unwrapped_deg": 162.47992375982668
+    },
+    {
+      "id": "F_002",
+      "group": "F",
+      "native_angle_deg": 302.52753030564463,
+      "print_relative_roll_deg": 7.317516484794092,
+      "reference_angle_deg": 295.2100138208505,
+      "pressure_psi": 12,
+      "bar_reference": 0.8273708750004001,
+      "source_sha256": "f2749c4aa4e2904024d1b195b2bd863e11daea07721c3a9f1179237f51157b9f",
+      "reference_angle_unwrapped_deg": 295.2100138208505
+    },
+    {
+      "id": "F_008",
+      "group": "F",
+      "native_angle_deg": 288.814385524341,
+      "print_relative_roll_deg": 5.3270918829095635,
+      "reference_angle_deg": 283.48729364143145,
+      "pressure_psi": 11.5,
+      "bar_reference": 0.7928970885420501,
+      "source_sha256": "9c3973a7a68cfdde2874eb26d7914d48274c524fc4df7f2dc92c5bc8c3376c32",
+      "reference_angle_unwrapped_deg": 283.48729364143145
+    },
+    {
+      "id": "F_014",
+      "group": "F",
+      "native_angle_deg": 273.7380702733951,
+      "print_relative_roll_deg": 8.974464266466565,
+      "reference_angle_deg": 264.76360600692857,
+      "pressure_psi": 10,
+      "bar_reference": 0.6894757291670001,
+      "source_sha256": "a87397bbe76f4c1caf05be9504411a005f8a23e469e9b608d9347359f209a030",
+      "reference_angle_unwrapped_deg": 264.76360600692857
+    },
+    {
+      "id": "F_019",
+      "group": "F",
+      "native_angle_deg": 249.86369657175186,
+      "print_relative_roll_deg": 7.059219621713654,
+      "reference_angle_deg": 242.8044769500382,
+      "pressure_psi": 8.5,
+      "bar_reference": 0.58605436979195,
+      "source_sha256": "16644ccd5e969677734ec247c2530673b95b97ea6bdefdbdf214e9370ed73fdd",
+      "reference_angle_unwrapped_deg": 242.8044769500382
+    },
+    {
+      "id": "F_020",
+      "group": "F",
+      "native_angle_deg": 252.7309467968396,
+      "print_relative_roll_deg": 6.789780375999167,
+      "reference_angle_deg": 245.94116642084043,
+      "pressure_psi": 8.5,
+      "bar_reference": 0.58605436979195,
+      "source_sha256": "00667f3cc5837a12923cc8427058fba8db7ab5ae34e7890c0493e9ace4939c6a",
+      "reference_angle_unwrapped_deg": 245.94116642084043
+    },
+    {
+      "id": "F_028",
+      "group": "F",
+      "native_angle_deg": 222.75353607009134,
+      "print_relative_roll_deg": 2.332442827776921,
+      "reference_angle_deg": 220.4210932423144,
+      "pressure_psi": 7,
+      "bar_reference": 0.48263301041690004,
+      "source_sha256": "ebe3534710362161066ea6a5282892f451f7518c3f617c2db92623eeb6c16728",
+      "reference_angle_unwrapped_deg": 220.4210932423144
+    },
+    {
+      "id": "F_031",
+      "group": "F",
+      "native_angle_deg": 192.22984855556336,
+      "print_relative_roll_deg": -1.356013869906758,
+      "reference_angle_deg": 193.5858624254701,
+      "pressure_psi": 5.5,
+      "bar_reference": 0.37921165104185006,
+      "source_sha256": "efc8d002e417f533f831e9e56d076967cfde8a4a96c7c94ad234c8687f62258e",
+      "reference_angle_unwrapped_deg": 193.5858624254701
+    },
+    {
+      "id": "F_033",
+      "group": "F",
+      "native_angle_deg": 194.62927112769336,
+      "print_relative_roll_deg": 0.7159300421841978,
+      "reference_angle_deg": 193.91334108550916,
+      "pressure_psi": 5.5,
+      "bar_reference": 0.37921165104185006,
+      "source_sha256": "c46af4c6a18a07a200a3d7721a92cd4756087580ee79030462c9ab901d3cf212",
+      "reference_angle_unwrapped_deg": 193.91334108550916
+    },
+    {
+      "id": "F_034",
+      "group": "F",
+      "native_angle_deg": 193.87460215768547,
+      "print_relative_roll_deg": -1.8766533178254825,
+      "reference_angle_deg": 195.75125547551096,
+      "pressure_psi": 5.5,
+      "bar_reference": 0.37921165104185006,
+      "source_sha256": "664aebee50fb70c08ba34db50b9fbc4d65515ef5ce71cdb7a523ce32eb695b92",
+      "reference_angle_unwrapped_deg": 195.75125547551096
+    },
+    {
+      "id": "F_037",
+      "group": "F",
+      "native_angle_deg": 184.58203250097398,
+      "print_relative_roll_deg": 5.392065598048908,
+      "reference_angle_deg": 179.18996690292508,
+      "pressure_psi": 4,
+      "bar_reference": 0.2757902916668,
+      "source_sha256": "e135034a76816aec1dacfe1daff2ebe5b7e6abe369ef9599be6118fb843707c1",
+      "reference_angle_unwrapped_deg": 179.18996690292508
+    },
+    {
+      "id": "F_038",
+      "group": "F",
+      "native_angle_deg": 185.49631386569524,
+      "print_relative_roll_deg": 4.57384990748234,
+      "reference_angle_deg": 180.92246395821292,
+      "pressure_psi": 4,
+      "bar_reference": 0.2757902916668,
+      "source_sha256": "c19b3dea76117aa4cffe0e3117328e0e06ae4b1bfc6b77483c0545f7a587715f",
+      "reference_angle_unwrapped_deg": 180.92246395821292
+    },
+    {
+      "id": "F_039",
+      "group": "F",
+      "native_angle_deg": 186.9754193532993,
+      "print_relative_roll_deg": 5.946343427179078,
+      "reference_angle_deg": 181.0290759261202,
+      "pressure_psi": 4,
+      "bar_reference": 0.2757902916668,
+      "source_sha256": "e7a88d40da3108b0c6a2b2fc5f52c59bd6e6fea58226bb07ad4143392a9bd18e",
+      "reference_angle_unwrapped_deg": 181.0290759261202
+    },
+    {
+      "id": "F_040",
+      "group": "F",
+      "native_angle_deg": 187.3921968037628,
+      "print_relative_roll_deg": 5.093159614329338,
+      "reference_angle_deg": 182.29903718943348,
+      "pressure_psi": 4,
+      "bar_reference": 0.2757902916668,
+      "source_sha256": "896ce7d7adcbad0bdc3ed63bfeb064c7ad41bc6cc48c7d2f8def2706b8131c52",
+      "reference_angle_unwrapped_deg": 182.29903718943348
+    },
+    {
+      "id": "F_043",
+      "group": "F",
+      "native_angle_deg": 172.2552894535771,
+      "print_relative_roll_deg": 12.681897628171887,
+      "reference_angle_deg": 159.5733918254052,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "2d3e89c978e1ce8effb5229d384f194f955639e23e3837ac19f3d33e03abd2af",
+      "reference_angle_unwrapped_deg": 159.5733918254052
+    },
+    {
+      "id": "F_044",
+      "group": "F",
+      "native_angle_deg": 170.41353901150433,
+      "print_relative_roll_deg": 10.469813053926543,
+      "reference_angle_deg": 159.94372595757778,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "07fbdc2db49b87e0dca05840d2bd40d18b839b4231c51995b66cbee75c4c9bed",
+      "reference_angle_unwrapped_deg": 159.94372595757778
+    },
+    {
+      "id": "F_046",
+      "group": "F",
+      "native_angle_deg": 167.20861035509273,
+      "print_relative_roll_deg": 6.6568752072564,
+      "reference_angle_deg": 160.55173514783633,
+      "pressure_psi": 2.5,
+      "bar_reference": 0.17236893229175002,
+      "source_sha256": "311c8772ff9437b2dd0c0322c568bbb4ffc1310f587d72aa4b6fd74fcd1e62be",
+      "reference_angle_unwrapped_deg": 160.55173514783633
+    }
+  ],
+  "train_calibration_mae_bar": 0.010303567436628846,
+  "train_calibration_max_abs_error_bar": 0.03262172232774052,
+  "runtime_thresholds": {
+    "error_acceptance_target_bar": 0.05,
+    "max_pose_anisotropy": 1.15,
+    "min_static_print_inliers": 10,
+    "extrapolation_allowed": false,
+    "unknown_pose_assumed_zero": false
+  },
+  "training_groups": [
+    "D",
+    "E",
+    "F"
+  ],
+  "validation_used_for_fitting": false,
+  "keypoint_label_inversion_from_pressure": false,
+  "query_GT_points_used_for_pose": false,
+  "pressure_reference": "USER descending psi list; stability basically unchanged, gauge/instrument precision unknown",
+  "static_scale_evidence": "Current face visually has inner bar ticks and outer psi ticks; this fit uses user psi values and direct visual needle angles, not an OCR-certified printed scale calibration.",
+  "scope": "PC offline manual-bbox/HDMI proxy only; does not expand board0..0.51bar TEST calibration",
+  "original_label_or_image_changes": false,
+  "H_opened": false,
+  "source_files": {
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\prepared_train.jsonl": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\readout\\print_pose.py": "ca768d2f711324006ee9104f260087ad84723417ac506687c1c1b945782f174d",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\readout\\readout_adapter.py": "94cd3f241451e239d04d4e71106e539b501bdcc51b1f58af45c3cb9ed8dea92f"
+  }
+}

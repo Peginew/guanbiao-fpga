@@ -1,0 +1,997 @@
+{
+  "status": "COMPLETED_MANHATTAN_ONLY_NOT_ROUTED_PROOF",
+  "returncode": 0,
+  "elapsed_s": 20.890999999995984,
+  "source_place": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\place_20261103_071950_366369\\reader_landmark_place.db",
+    "sha256": "51d4ac45de14852e85570a57bfb92299723ca265a19f1a325028d63c93850a39"
+  },
+  "source_place_netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\place_20261103_071950_366369\\actual_netlist.v",
+    "sha256": "093585577d9d9f37068dcc807895ae540f2447b77391e4d17989cb9da2783dd5"
+  },
+  "source_freeze": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\source_freeze_v2.json",
+    "sha256": "5ecab63bb53c12293449e41ab8dc2dbce81f7f53aaf1b6f7f481024cfabdc397"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292",
+  "script": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\readonly_psi_place_diagnostic.py",
+    "sha256": "82158834274cfdfd2fbbc246eee3f31bcc4f063096d5a65cf9921d4d323ac916"
+  },
+  "executed_TCL": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\execute.tcl",
+    "sha256": "cf48f3e1506e7277e5f3878f10ae0af25b81a69f0b04417eb402f964fb5ff535"
+  },
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\console.log",
+    "sha256": "c866c60be2a6e2aeeb434e7700af5bf2cde9be1d7b4414f2b481d25c0e8067b9"
+  },
+  "no_physical_or_source_or_DB_mutation_commands": true,
+  "commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "import_db input_place.db",
+    "report_clock_summary -file initial_clocks.txt",
+    "update_timing",
+    "start_timer",
+    "get_nets u_hdmi_reset/release_ff[2]",
+    "get_regs u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[*] u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[*] u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[*] u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[*]",
+    "get_pins u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr",
+    "set_false_path -through  -to ",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*]",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "get_clocks HDMI_PIXEL_CLK",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*] u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_status -file before.ts",
+    "report_timing_summary -ep_num 16 -path_num 1 -file before.timing",
+    "report_timing_exception -file before_exception.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_valid -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_00.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[15] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_01.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[14] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_02.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[13] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_03.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[12] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_04.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[11] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_05.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[10] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_06.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[9] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_07.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[8] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_08.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[7] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_09.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[6] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_10.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[5] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_11.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[4] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_12.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[3] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_13.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[2] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_14.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[1] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_15.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[0] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file before_psi_16.timing",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*] u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "get_clocks HDMI_PIXEL_CLK",
+    "set_max_delay -from  -to  -datapath_only 7.200",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_status -file after.ts",
+    "report_timing_summary -ep_num 16 -path_num 1 -file after.timing",
+    "report_timing_exception -file after_exception.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_valid -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_00.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[15] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_01.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[14] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_02.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[13] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_03.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[12] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_04.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[11] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_05.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[10] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_06.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[9] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_07.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[8] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_08.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[7] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_09.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[6] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_10.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[5] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_11.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[4] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_12.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[3] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_13.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[2] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_14.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[1] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_15.timing",
+    "report_timing_path -from u_meter_pair/pipeline/reader/live/return_psi_q8[0] -to HDMI_PIXEL_CLK -ep_num 1 -path_num 1 -file after_psi_16.timing"
+  ],
+  "before": {
+    "SWNS": 0.486,
+    "STNS": 0.0,
+    "HWNS": -0.815,
+    "HTNS": -107.712
+  },
+  "after": {
+    "SWNS": 0.486,
+    "STNS": 0.0,
+    "HWNS": -0.815,
+    "HTNS": -107.712
+  },
+  "before_psi": [
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_00.timing",
+        "sha256": "ee3caf1dfe74b70e10bd362aabdbbb1a30e0ec77734ec851a528473bbf2b5f80"
+      },
+      "slacks": [
+        5.867,
+        0.109
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.562ns (cell 0.280ns (49%), net 0.282ns (51%))",
+        "Data Path Delay     : 0.181ns (cell 0.106ns (58%), net 0.075ns (42%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_01.timing",
+        "sha256": "098cb340f4e45453399510438bd50df3c9d03a7ae74757acf055a12706f1cda9"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_02.timing",
+        "sha256": "098cb340f4e45453399510438bd50df3c9d03a7ae74757acf055a12706f1cda9"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_03.timing",
+        "sha256": "04f44c3057ddc1a7ceb1c7df337e65985c69b8b88acbc9f4dbea65f03c0df5da"
+      },
+      "slacks": [
+        5.769,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.660ns (cell 0.343ns (51%), net 0.317ns (49%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_04.timing",
+        "sha256": "a21c7cf78516944f4604ba8e539a2c035d0a30d89df01e03453e7fa2d9420a11"
+      },
+      "slacks": [
+        5.689,
+        0.131
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.740ns (cell 0.343ns (46%), net 0.397ns (54%))",
+        "Data Path Delay     : 0.203ns (cell 0.128ns (63%), net 0.075ns (37%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_05.timing",
+        "sha256": "22e6d42da686beef3d26ac71c8a26613dfec3c08aebe4d2b3784b180cb0b0f40"
+      },
+      "slacks": [
+        5.741,
+        0.128
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[11]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.688ns (cell 0.291ns (42%), net 0.397ns (58%))",
+        "Data Path Delay     : 0.200ns (cell 0.125ns (62%), net 0.075ns (38%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_06.timing",
+        "sha256": "22e6d42da686beef3d26ac71c8a26613dfec3c08aebe4d2b3784b180cb0b0f40"
+      },
+      "slacks": [
+        5.741,
+        0.128
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[11]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.688ns (cell 0.291ns (42%), net 0.397ns (58%))",
+        "Data Path Delay     : 0.200ns (cell 0.125ns (62%), net 0.075ns (38%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_07.timing",
+        "sha256": "8e8a4b4ad19d2e843892398a0be99f9926f8e7c844f332c5d06126721300a131"
+      },
+      "slacks": [
+        5.763,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.666ns (cell 0.280ns (42%), net 0.386ns (58%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_08.timing",
+        "sha256": "8e8a4b4ad19d2e843892398a0be99f9926f8e7c844f332c5d06126721300a131"
+      },
+      "slacks": [
+        5.763,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.666ns (cell 0.280ns (42%), net 0.386ns (58%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_09.timing",
+        "sha256": "cd7f41fa911aa2d22abd2ff344eb8a3eb5e86e90c76cecc224e94b47158b36db"
+      },
+      "slacks": [
+        5.804,
+        0.112
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.625ns (cell 0.343ns (54%), net 0.282ns (46%))",
+        "Data Path Delay     : 0.184ns (cell 0.109ns (59%), net 0.075ns (41%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_10.timing",
+        "sha256": "00cb2e4230e128ea3d091dc38929546e5841bd120f182b825f772c40772f78b9"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_11.timing",
+        "sha256": "a21c7cf78516944f4604ba8e539a2c035d0a30d89df01e03453e7fa2d9420a11"
+      },
+      "slacks": [
+        5.689,
+        0.131
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.740ns (cell 0.343ns (46%), net 0.397ns (54%))",
+        "Data Path Delay     : 0.203ns (cell 0.128ns (63%), net 0.075ns (37%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_12.timing",
+        "sha256": "3ccf9aa11ea4725f22872224c20c42cfebd5cde4b26f6475bab10aa7149578d6"
+      },
+      "slacks": [
+        5.724,
+        0.119
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.705ns (cell 0.354ns (50%), net 0.351ns (50%))",
+        "Data Path Delay     : 0.191ns (cell 0.106ns (55%), net 0.085ns (45%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_13.timing",
+        "sha256": "04f44c3057ddc1a7ceb1c7df337e65985c69b8b88acbc9f4dbea65f03c0df5da"
+      },
+      "slacks": [
+        5.769,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.660ns (cell 0.343ns (51%), net 0.317ns (49%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_14.timing",
+        "sha256": "3ccf9aa11ea4725f22872224c20c42cfebd5cde4b26f6475bab10aa7149578d6"
+      },
+      "slacks": [
+        5.724,
+        0.119
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.705ns (cell 0.354ns (50%), net 0.351ns (50%))",
+        "Data Path Delay     : 0.191ns (cell 0.106ns (55%), net 0.085ns (45%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_15.timing",
+        "sha256": "00cb2e4230e128ea3d091dc38929546e5841bd120f182b825f772c40772f78b9"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\before_psi_16.timing",
+        "sha256": "cd7f41fa911aa2d22abd2ff344eb8a3eb5e86e90c76cecc224e94b47158b36db"
+      },
+      "slacks": [
+        5.804,
+        0.112
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.625ns (cell 0.343ns (54%), net 0.282ns (46%))",
+        "Data Path Delay     : 0.184ns (cell 0.109ns (59%), net 0.075ns (41%))"
+      ]
+    }
+  ],
+  "after_psi": [
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_00.timing",
+        "sha256": "dead0300edc0444edf6d6a604aaa46ac63d55adc0627fb952111cf72c8132a15"
+      },
+      "slacks": [
+        5.867,
+        0.109
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.562ns (cell 0.280ns (49%), net 0.282ns (51%))",
+        "Data Path Delay     : 0.181ns (cell 0.106ns (58%), net 0.075ns (42%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_01.timing",
+        "sha256": "1693eb534a837d34d07a320a25dabcb8db2a835b57c7f298b4d99e79be62c7f3"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_02.timing",
+        "sha256": "1693eb534a837d34d07a320a25dabcb8db2a835b57c7f298b4d99e79be62c7f3"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_03.timing",
+        "sha256": "21cb2105d54bb13c7ee0d5ad6a2a37d103e30eeb657f291f37a5055b2d10c4a0"
+      },
+      "slacks": [
+        5.769,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.660ns (cell 0.343ns (51%), net 0.317ns (49%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_04.timing",
+        "sha256": "c760cc548cb96f3f6af3db049ee53a23a08729fdf80f02dcbdb5f3f67f2d0aa4"
+      },
+      "slacks": [
+        5.689,
+        0.131
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.740ns (cell 0.343ns (46%), net 0.397ns (54%))",
+        "Data Path Delay     : 0.203ns (cell 0.128ns (63%), net 0.075ns (37%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_05.timing",
+        "sha256": "a8570593d3a36518c3d04febafebe29749a054e15b79e439935c6c1eeb893278"
+      },
+      "slacks": [
+        5.741,
+        0.128
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[11]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.688ns (cell 0.291ns (42%), net 0.397ns (58%))",
+        "Data Path Delay     : 0.200ns (cell 0.125ns (62%), net 0.075ns (38%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_06.timing",
+        "sha256": "a8570593d3a36518c3d04febafebe29749a054e15b79e439935c6c1eeb893278"
+      },
+      "slacks": [
+        5.741,
+        0.128
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[11]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[11]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.688ns (cell 0.291ns (42%), net 0.397ns (58%))",
+        "Data Path Delay     : 0.200ns (cell 0.125ns (62%), net 0.075ns (38%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_07.timing",
+        "sha256": "bf52ef37e0bf15316d138e6e7100954caf21f3307288f50d54363d4896770a7f"
+      },
+      "slacks": [
+        5.763,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.666ns (cell 0.280ns (42%), net 0.386ns (58%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_08.timing",
+        "sha256": "bf52ef37e0bf15316d138e6e7100954caf21f3307288f50d54363d4896770a7f"
+      },
+      "slacks": [
+        5.763,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.666ns (cell 0.280ns (42%), net 0.386ns (58%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_09.timing",
+        "sha256": "4347acaf30dd240c66ff591f120f327cff97426e561ecfe822c89bb49b331349"
+      },
+      "slacks": [
+        5.804,
+        0.112
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.625ns (cell 0.343ns (54%), net 0.282ns (46%))",
+        "Data Path Delay     : 0.184ns (cell 0.109ns (59%), net 0.075ns (41%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_10.timing",
+        "sha256": "450af058cc41a2f13c9d96fc6c09fc4e0b96be3dccd83d208ca1d3ceaab5e6d9"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_11.timing",
+        "sha256": "c760cc548cb96f3f6af3db049ee53a23a08729fdf80f02dcbdb5f3f67f2d0aa4"
+      },
+      "slacks": [
+        5.689,
+        0.131
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.740ns (cell 0.343ns (46%), net 0.397ns (54%))",
+        "Data Path Delay     : 0.203ns (cell 0.128ns (63%), net 0.075ns (37%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_12.timing",
+        "sha256": "d70585f9031a84d8f11af211142358c1d260f3ccfcd0469d2b99a4c8fceec7b4"
+      },
+      "slacks": [
+        5.724,
+        0.119
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.705ns (cell 0.354ns (50%), net 0.351ns (50%))",
+        "Data Path Delay     : 0.191ns (cell 0.106ns (55%), net 0.085ns (45%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_13.timing",
+        "sha256": "21cb2105d54bb13c7ee0d5ad6a2a37d103e30eeb657f291f37a5055b2d10c4a0"
+      },
+      "slacks": [
+        5.769,
+        0.117
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[3]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.660ns (cell 0.343ns (51%), net 0.317ns (49%))",
+        "Data Path Delay     : 0.189ns (cell 0.109ns (57%), net 0.080ns (43%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_14.timing",
+        "sha256": "d70585f9031a84d8f11af211142358c1d260f3ccfcd0469d2b99a4c8fceec7b4"
+      },
+      "slacks": [
+        5.724,
+        0.119
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[8]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.705ns (cell 0.354ns (50%), net 0.351ns (50%))",
+        "Data Path Delay     : 0.191ns (cell 0.106ns (55%), net 0.085ns (45%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_15.timing",
+        "sha256": "450af058cc41a2f13c9d96fc6c09fc4e0b96be3dccd83d208ca1d3ceaab5e6d9"
+      },
+      "slacks": [
+        5.7,
+        0.165
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.729ns (cell 0.343ns (47%), net 0.386ns (53%))",
+        "Data Path Delay     : 0.237ns (cell 0.109ns (45%), net 0.128ns (55%))"
+      ]
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\readonly_psi_place_20261103_102834_684292\\after_psi_16.timing",
+        "sha256": "4347acaf30dd240c66ff591f120f327cff97426e561ecfe822c89bb49b331349"
+      },
+      "slacks": [
+        5.804,
+        0.112
+      ],
+      "begin": [
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })",
+        "Begin Point         : u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.clk (rising edge triggered by clock MCU_ROI_50  { rise@0.000000ns  fall@10.000000ns  period=20.000000 })"
+      ],
+      "end": [
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3.imf (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })",
+        "End Point           : u_meter_pair/pipeline/reader/live/result_psi_q8_reg[7]_syn_2.ie (rising edge triggered by clock HDMI_PIXEL_CLK  { rise@0.000000ns  fall@6.666000ns  period=13.333000 })"
+      ],
+      "budget": [
+        "Budget              : 6.666ns { HDMI_PIXEL_CLK rising@26.666ns - MCU_ROI_50 rising@20.000ns }",
+        "Budget              : 0.000ns { MCU_ROI_50 rising@0.000ns - HDMI_PIXEL_CLK rising@0.000ns }"
+      ],
+      "data_path": [
+        "Data Path Delay     : 0.625ns (cell 0.343ns (54%), net 0.282ns (46%))",
+        "Data Path Delay     : 0.184ns (cell 0.109ns (59%), net 0.075ns (41%))"
+      ]
+    }
+  ],
+  "actual_routed9critical_endpoints_identified": false,
+  "device": false,
+  "new_effective_PSI_rule_present": false,
+  "passed": false
+}

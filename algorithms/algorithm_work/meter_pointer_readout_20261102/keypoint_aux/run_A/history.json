@@ -1,0 +1,854 @@
+[
+  {
+    "step": 200,
+    "mean_loss_components": [
+      2.114601606726646,
+      1.2837567985057832,
+      1.5912723904848098,
+      0.17604298919439315
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.9332977074843187,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 2.819899702636936,
+        "median": 1.819016196331502,
+        "p90": 6.027959384419012
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 32.18269466970723,
+        "median": 23.090953244745158,
+        "p90": 67.83658860992193
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 8.7650152102712,
+        "median": 5.423541951811762,
+        "p90": 18.96233765229461
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 96.99956174276521,
+        "median": 69.27285973423548,
+        "p90": 190.88722101667784
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 45.531435507187396,
+        "median": 23.517714883184496,
+        "p90": 114.61192815706762
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 6,
+      "within_5deg": 11,
+      "within_10deg": 15,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 20,
+      "evidence_coverage": 0.4,
+      "accepted_angle_error_deg": {
+        "n": 20,
+        "mean": 54.14302195396541,
+        "median": 41.01692843871386,
+        "p90": 129.8248899222924
+      },
+      "accepted_over_10deg": 13,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 5.280999999988126
+  },
+  {
+    "step": 400,
+    "mean_loss_components": [
+      2.015005947351456,
+      1.2844224733114242,
+      1.3916812658309936,
+      0.1737141913920641
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.9444736333993764,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 2.7975534057791576,
+        "median": 1.8164628405050336,
+        "p90": 4.56426608803496
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 33.65563888793805,
+        "median": 28.067987917470962,
+        "p90": 67.87448518248385
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 8.706947832460191,
+        "median": 5.362136797209491,
+        "p90": 13.910800933503486
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 101.73610343745582,
+        "median": 85.41632471748736,
+        "p90": 191.0808816507905
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 49.55678275213652,
+        "median": 34.78917331367924,
+        "p90": 117.72206357632007
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 10,
+      "within_10deg": 14,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 18,
+      "evidence_coverage": 0.36,
+      "accepted_angle_error_deg": {
+        "n": 18,
+        "mean": 53.70289082311453,
+        "median": 41.15513354772136,
+        "p90": 130.806062698636
+      },
+      "accepted_over_10deg": 12,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 10.562999999994645
+  },
+  {
+    "step": 600,
+    "mean_loss_components": [
+      1.9526287341117858,
+      1.2369256657361984,
+      1.36092908680439,
+      0.17619265824556352
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.9118114801553578,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 3.3598447841070627,
+        "median": 1.7909884041142878,
+        "p90": 4.755997907210042
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 32.05257101935125,
+        "median": 22.530454058567933,
+        "p90": 67.8551456904179
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 10.389568705280267,
+        "median": 5.314710612791034,
+        "p90": 17.82419034644121
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 96.5160811248144,
+        "median": 67.5913621757038,
+        "p90": 190.88036814658855
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 42.951719256730115,
+        "median": 15.431426103921666,
+        "p90": 114.64503695651484
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 11,
+      "within_10deg": 17,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 20,
+      "evidence_coverage": 0.4,
+      "accepted_angle_error_deg": {
+        "n": 20,
+        "mean": 50.62799699275469,
+        "median": 24.692122988109105,
+        "p90": 129.82322073356775
+      },
+      "accepted_over_10deg": 13,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 15.843999999997322
+  },
+  {
+    "step": 800,
+    "mean_loss_components": [
+      1.9990638422966003,
+      1.2676425874233246,
+      1.3912322801351547,
+      0.17902557119727136
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.8458580603966346,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 3.381507548615332,
+        "median": 1.8038310245282316,
+        "p90": 4.783228046332736
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 30.328550721014985,
+        "median": 19.12175857581926,
+        "p90": 67.84296580509769
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 10.461835865001932,
+        "median": 5.438069420260673,
+        "p90": 17.915296380931032
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 90.80693687296845,
+        "median": 57.365275727457785,
+        "p90": 190.93255512252816
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 39.2289875989264,
+        "median": 13.621475260895267,
+        "p90": 114.69367415478088
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 12,
+      "within_10deg": 18,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 20,
+      "evidence_coverage": 0.4,
+      "accepted_angle_error_deg": {
+        "n": 20,
+        "mean": 46.53927596671779,
+        "median": 21.59300108376921,
+        "p90": 129.8340524638427
+      },
+      "accepted_over_10deg": 11,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 21.312999999994645
+  },
+  {
+    "step": 1000,
+    "mean_loss_components": [
+      1.9695921862125396,
+      1.2544168299436569,
+      1.359511860013008,
+      0.17709712855517865
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.8278536796569824,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 3.775505803552271,
+        "median": 1.8159073663324068,
+        "p90": 5.981025121792449
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 29.62545710971902,
+        "median": 18.919478647895822,
+        "p90": 67.28914747835125
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 11.641345579930732,
+        "median": 5.496083343020553,
+        "p90": 19.054576740901748
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 89.75916577577624,
+        "median": 57.31341592351193,
+        "p90": 191.9414242806778
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 40.15033619631548,
+        "median": 14.122298818624245,
+        "p90": 117.56997249444916
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 4,
+      "within_5deg": 11,
+      "within_10deg": 17,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 23,
+      "evidence_coverage": 0.46,
+      "accepted_angle_error_deg": {
+        "n": 23,
+        "mean": 41.09143630282973,
+        "median": 12.80622390407467,
+        "p90": 120.98689436219281
+      },
+      "accepted_over_10deg": 13,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 26.655999999988126
+  },
+  {
+    "step": 1200,
+    "mean_loss_components": [
+      1.9469576489925384,
+      1.225162309706211,
+      1.3723999375104905,
+      0.17797685630619525
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.8193195416377141,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 3.16701177038189,
+        "median": 1.7781608065101442,
+        "p90": 3.066509666022286
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 31.020777502853658,
+        "median": 21.046944898499355,
+        "p90": 67.21615211029687
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 9.803663895395857,
+        "median": 5.373389790106888,
+        "p90": 11.168515139759455
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 93.75653396537058,
+        "median": 66.40735379320766,
+        "p90": 190.78710998416517
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 41.747601407865865,
+        "median": 17.206585637369315,
+        "p90": 114.63230526819903
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 15,
+      "within_10deg": 18,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 22,
+      "evidence_coverage": 0.44,
+      "accepted_angle_error_deg": {
+        "n": 22,
+        "mean": 41.00856072646573,
+        "median": 8.885805907636623,
+        "p90": 125.78318786342994
+      },
+      "accepted_over_10deg": 11,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 32.187999999994645
+  },
+  {
+    "step": 1400,
+    "mean_loss_components": [
+      1.9598852562904359,
+      1.2400286146998405,
+      1.3685452783107757,
+      0.17792006351053716
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.8118761135981634,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 3.1449761129704092,
+        "median": 1.7894953943072611,
+        "p90": 2.9070518145150634
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 30.916502958572565,
+        "median": 21.97195355993698,
+        "p90": 67.18825488221374
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 9.73717130881046,
+        "median": 5.388990961994686,
+        "p90": 11.230703601217064
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 93.45478508501076,
+        "median": 66.803962361762,
+        "p90": 190.73831587578158
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 40.80378019053171,
+        "median": 15.385607663473948,
+        "p90": 114.70093797717556
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 14,
+      "within_10deg": 19,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 20,
+      "evidence_coverage": 0.4,
+      "accepted_angle_error_deg": {
+        "n": 20,
+        "mean": 39.38517340866535,
+        "median": 18.997856441266777,
+        "p90": 96.99712752249707
+      },
+      "accepted_over_10deg": 11,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 38.60899999999674
+  },
+  {
+    "step": 1600,
+    "mean_loss_components": [
+      1.9566536402702333,
+      1.245719132423401,
+      1.350820015668869,
+      0.17762248493731023
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.7838708804203913,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 2.843459081722265,
+        "median": 1.7608076823476173,
+        "p90": 2.838656991816882
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 30.203795505803722,
+        "median": 21.02032937249919,
+        "p90": 67.19239534496569
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 8.83449620215936,
+        "median": 5.1857038494251055,
+        "p90": 10.956137700060594
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 91.16475944056664,
+        "median": 63.06098811749757,
+        "p90": 190.7209987662929
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 39.56823166954614,
+        "median": 13.42017370364195,
+        "p90": 114.69534943490461
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 14,
+      "within_10deg": 19,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 18,
+      "evidence_coverage": 0.36,
+      "accepted_angle_error_deg": {
+        "n": 18,
+        "mean": 33.4742114956044,
+        "median": 8.843951914427905,
+        "p90": 104.19287725900539
+      },
+      "accepted_over_10deg": 9,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 44.921999999991385
+  },
+  {
+    "step": 1800,
+    "mean_loss_components": [
+      1.9520642513036728,
+      1.2448307344317435,
+      1.342837198972702,
+      0.17907459661364555
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.7903536099653978,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 2.8470899648250168,
+        "median": 1.7509496909592959,
+        "p90": 2.840223406937683
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 30.98738717917822,
+        "median": 22.1421285527012,
+        "p90": 67.16912171336666
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 8.854005751264213,
+        "median": 5.117710566547345,
+        "p90": 11.260959446796466
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 93.65479871749979,
+        "median": 67.61181594490617,
+        "p90": 190.68484439892492
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 42.65354359005544,
+        "median": 20.87320057857697,
+        "p90": 117.24846559423584
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 15,
+      "within_10deg": 18,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 21,
+      "evidence_coverage": 0.42,
+      "accepted_angle_error_deg": {
+        "n": 21,
+        "mean": 33.33372741499384,
+        "median": 5.177975042386294,
+        "p90": 91.47131220512557
+      },
+      "accepted_over_10deg": 10,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 50.89099999998871
+  },
+  {
+    "step": 2000,
+    "mean_loss_components": [
+      1.9519284111261368,
+      1.2435593855381013,
+      1.3457991337776185,
+      0.17734728924930096
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.8313351044288049,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 2.756421592569336,
+        "median": 1.7130811224382465,
+        "p90": 2.8303546525798966
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 30.13167731143627,
+        "median": 21.028051491583504,
+        "p90": 67.18765199069213
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 8.581566245328878,
+        "median": 4.919543150147581,
+        "p90": 10.874649916034107
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 91.13760272040946,
+        "median": 63.084154474750505,
+        "p90": 190.68438017822035
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 40.98551340203192,
+        "median": 13.436216629958295,
+        "p90": 117.24945571732684
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 5,
+      "within_5deg": 13,
+      "within_10deg": 20,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 19,
+      "evidence_coverage": 0.38,
+      "accepted_angle_error_deg": {
+        "n": 19,
+        "mean": 36.139050943990306,
+        "median": 12.505212194736885,
+        "p90": 104.00124568736092
+      },
+      "accepted_over_10deg": 10,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 56.75
+  },
+  {
+    "step": 2200,
+    "mean_loss_components": [
+      1.9601795816421508,
+      1.2406685218214988,
+      1.3676075744628906,
+      0.17853633083403112
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.8020425943227916,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 2.8562164662618232,
+        "median": 1.76222187510034,
+        "p90": 2.8358078324040563
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 29.4379196044647,
+        "median": 21.020277993645532,
+        "p90": 67.20073553395355
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 8.882248645175842,
+        "median": 5.168419023828166,
+        "p90": 11.319661656432515
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 89.0065114619383,
+        "median": 65.87479192701582,
+        "p90": 190.71539953260742
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 38.878114707924986,
+        "median": 13.424838034383711,
+        "p90": 114.71107058833336
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 6,
+      "within_5deg": 14,
+      "within_10deg": 21,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 21,
+      "evidence_coverage": 0.42,
+      "accepted_angle_error_deg": {
+        "n": 21,
+        "mean": 33.8323925186496,
+        "median": 12.624687503622397,
+        "p90": 91.51191391515806
+      },
+      "accepted_over_10deg": 11,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 62.64099999998871
+  },
+  {
+    "step": 2400,
+    "mean_loss_components": [
+      1.948287515938282,
+      1.2387317571043968,
+      1.347914638519287,
+      0.17799222245812416
+    ],
+    "validation": {
+      "images": 59,
+      "validation_or_training_loss": 1.7847931935237005,
+      "hub_error_roi": {
+        "n": 52,
+        "mean": 2.8266432875099192,
+        "median": 1.747257032381788,
+        "p90": 2.794966137045771
+      },
+      "thin_terminal_error_roi": {
+        "n": 52,
+        "mean": 29.733783438110677,
+        "median": 21.957776894219567,
+        "p90": 67.17668730116003
+      },
+      "hub_error_native": {
+        "n": 52,
+        "mean": 8.78338121508201,
+        "median": 5.127829664434589,
+        "p90": 10.995049408553246
+      },
+      "thin_terminal_error_native": {
+        "n": 52,
+        "mean": 89.75448849111393,
+        "median": 65.87333068265869,
+        "p90": 190.71133138394893
+      },
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 40.22337692642341,
+        "median": 14.203466545050034,
+        "p90": 114.70307324654233
+      },
+      "bounded_full_point_count": 50,
+      "both_points_within_4roi": 6,
+      "within_5deg": 15,
+      "within_10deg": 19,
+      "approximately_180deg_wrong_direction": 0,
+      "evidence_accepted_full_points": 21,
+      "evidence_coverage": 0.42,
+      "accepted_angle_error_deg": {
+        "n": 21,
+        "mean": 32.678199152263474,
+        "median": 5.1967126427394135,
+        "p90": 91.50348716377306
+      },
+      "accepted_over_10deg": 10,
+      "negative_count": 3,
+      "negative_evidence_false_accepts": 0,
+      "fixed_evidence_policy": {
+        "min_sigmoid_peak": 0.3,
+        "min_peak_margin": 0.02,
+        "endpoint_length_roi": [
+          18,
+          65
+        ],
+        "max_hub_center_distance_roi": 20
+      },
+      "pressure_error_computed": false,
+      "end_to_end_READ_or_FAR_claim": false
+    },
+    "elapsed_s": 68.45299999999406
+  }
+]

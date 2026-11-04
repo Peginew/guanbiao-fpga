@@ -1,0 +1,32 @@
+{
+  "route_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_guided_route.json",
+    "sha256": "86daba2cb82e92951eadf4e386bcdc17c39013aa2b05bed0d31f594dbcf11908"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186",
+  "observed_UTC": "2026-11-03T04:46:42.410864+00:00",
+  "latest_state": "ACTUAL_GUIDED_FINAL_PASS_INDEPENDENT_REVIEW_PENDING",
+  "completion_observed": true,
+  "no_process_actions": true,
+  "stage": "2.5.12.4",
+  "best_over": 0,
+  "best_iteration": 1,
+  "last_iteration": {
+    "iteration": 1,
+    "over": 0,
+    "iteration_seconds": 2.45
+  },
+  "complete_iterations_without_new_low": 0,
+  "completed_iteration_seconds_since_best": 0,
+  "best_first_observed_UTC": "2026-11-03T04:45:12.212409+00:00",
+  "elapsed_since_best_conservative_lower_bound_s": 90.198455,
+  "notify_root_for_stall_decision": false,
+  "rule": "At least3completeiterationsand540swithoutstrictnewbest; rootdecides, noautotermination",
+  "iterations": [
+    {
+      "iteration": 1,
+      "over": 0,
+      "iteration_seconds": 2.45
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "status": "PC_POINTER_CONFUSION_REDUCED_PSI_READOUT_IMPROVED_MCU_DEPLOYMENT_PENDING",
+  "completed_utc": "2026-11-02T03:06:18.541471+00:00",
+  "task": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102",
+  "primary_pressure_unit": "psi",
+  "selected_development_route": "B_all_angle_radial_evidence_small_CNN",
+  "model": {
+    "frozen_hub_parameters": 1202,
+    "needle_angle_parameters": 1009,
+    "total_runtime_parameters": 2211,
+    "hub_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+    "needle_checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "needle_best_step": 200,
+    "actual_needle_training_steps": 2400
+  },
+  "common_validation": {
+    "group": "G",
+    "all_images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "prospective_test_H_opened": false,
+    "G_is_development_not_independent_test": true
+  },
+  "baseline": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 16,
+    "coverage_gauge": 0.2857142857142857,
+    "valid_reads_with_bounded_both_points": 16,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 2.2673530392018804,
+    "reading_median_abs_error_psi": 0.4634298949529714,
+    "reading_max_abs_error_psi": 8.14336144221657,
+    "accurate_accepted_within_tolerance": 8,
+    "wrong_accepted_over_tolerance": 8,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 8,
+      "within_0_5_psi": 8,
+      "within_1_0_psi": 9,
+      "bins": {
+        "up_to_0_25": 8,
+        "over_0_25_to_0_5": 0,
+        "over_0_5_to_1_0": 1,
+        "over_1_0": 7
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "NO_STATIC_PRINT_POSE": 5,
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 3,
+      "PREDICTION_NOT_PERMITTED": 35
+    },
+    "static_pose_supported": 42
+  },
+  "candidate_A": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 13,
+    "coverage_gauge": 0.23214285714285715,
+    "valid_reads_with_bounded_both_points": 13,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 1.1547309395944767,
+    "reading_median_abs_error_psi": 0.13280086939016122,
+    "reading_max_abs_error_psi": 6.722019598237152,
+    "accurate_accepted_within_tolerance": 9,
+    "wrong_accepted_over_tolerance": 4,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 9,
+      "within_0_5_psi": 9,
+      "within_1_0_psi": 9,
+      "bins": {
+        "up_to_0_25": 9,
+        "over_0_25_to_0_5": 0,
+        "over_0_5_to_1_0": 0,
+        "over_1_0": 4
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "NO_STATIC_PRINT_POSE": 4,
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 2,
+      "PREDICTION_NOT_PERMITTED": 40
+    },
+    "static_pose_supported": 42
+  },
+  "candidate_B": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 32,
+    "coverage_gauge": 0.5714285714285714,
+    "valid_reads_with_bounded_both_points": 32,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 0.19320860199827483,
+    "reading_median_abs_error_psi": 0.12606090635956635,
+    "reading_max_abs_error_psi": 0.8730675157995584,
+    "accurate_accepted_within_tolerance": 31,
+    "wrong_accepted_over_tolerance": 1,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 23,
+      "within_0_5_psi": 29,
+      "within_1_0_psi": 32,
+      "bins": {
+        "up_to_0_25": 23,
+        "over_0_25_to_0_5": 6,
+        "over_0_5_to_1_0": 3,
+        "over_1_0": 0
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "NO_STATIC_PRINT_POSE": 6,
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 4,
+      "PREDICTION_NOT_PERMITTED": 17
+    },
+    "static_pose_supported": 42
+  },
+  "integer_convolution_reference": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 32,
+    "coverage_gauge": 0.5714285714285714,
+    "valid_reads_with_bounded_both_points": 32,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 0.1945065194464215,
+    "reading_median_abs_error_psi": 0.12628492758488763,
+    "reading_max_abs_error_psi": 0.8728753517427865,
+    "accurate_accepted_within_tolerance": 31,
+    "wrong_accepted_over_tolerance": 1,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 23,
+      "within_0_5_psi": 29,
+      "within_1_0_psi": 32,
+      "bins": {
+        "up_to_0_25": 23,
+        "over_0_25_to_0_5": 6,
+        "over_0_5_to_1_0": 3,
+        "over_1_0": 0
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "NO_STATIC_PRINT_POSE": 7,
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 4,
+      "PREDICTION_NOT_PERMITTED": 16
+    },
+    "static_pose_supported": 42
+  },
+  "integer_scope": "ONLY needle-angle convolution W8/U7/S32; hub, feature sampling, decode and PC static-print pose remain floating reference",
+  "selected_model_approved_for_board_download": false,
+  "remaining_gaps": [
+    "Reliable static-print pose using only available128U8ROI; current native-image SIFT is PC-only",
+    "Joint integer hub/features/needle/decode/psi reference and firmware link/TCM/stack/cycle check",
+    "Frozen independent H evaluation and real same-ROI board reading checks"
+  ],
+  "no_board_or_MCU_or_Flash_or_car_changes": true,
+  "original_images_annotations_splits_unchanged": true,
+  "unit_correction": {
+    "user_requested_psi": true,
+    "no_model_retraining_for_unit_correction": true,
+    "all_output_valid_IDs_preserved": true,
+    "old_bar_reports_retained_historical": true,
+    "error_bins_psi": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "bins_are_not_user_confirmed_final_accuracy_target": true
+  },
+  "files_sha256": {
+    "task_contract.json": "5962afdbe3e403bb472f51d155e3eaa29167b3018e7df3b00f8a258932653680",
+    "polar_angle/train_polar.py": "bb8da52efadee791ddbda9d6800fc46fcfab145f16b1f44590f0d920e21b0991",
+    "polar_angle/run_001/config.json": "a372b2f5136a72587bf3eb14b0aa6091805b86ceda8475a743c54adf6101a6d8",
+    "polar_angle/run_001/receipt.json": "9f69e9eaa766fdf030bc602650e172624d3191d73d97b35585cd17bd973199bb",
+    "polar_angle/run_001/best_weights.pt": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "polar_angle/quantize_polar.py": "643a9433414e90f415399fd780fc5639892609fec2bc8ad9d039b4385afdce0e",
+    "polar_angle/integer_reference/quantization.json": "46a5e56c5a136e8892c7c0e90efae3af8523c625a282d186b0df027d9cdf64ba",
+    "polar_angle/integer_reference/integer_weights.npz": "5d54385bdf89430b7a460198b7f93b5d93feb08c30c81b32762501f8647e9f50",
+    "polar_angle/integer_reference/polar_weights_q8.h": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d",
+    "keypoint_aux/train_aux.py": "334a349195940b94a251229379fc92fc195d4c99baa663fc3f1daa1f192e8ce8",
+    "keypoint_aux/run_A/best_weights.pt": "bf78cfd1db473fa2bf5584884662d5f03dbbbbdef38830fb6efeb81d0469b01d",
+    "readout_psi/readout_contract.json": "2b8965dc12269ab4c516aef617aac1db2c26ba6d4114be3a32f71f7e51179380",
+    "readout_psi/calibration.json": "6e87ba0c5345bdf0e55fac1a574049ad840bd26607bb6f8d2355bc3df95edbb1",
+    "readout_psi/readout_adapter.py": "c1ccb03e56a13abfb39fe6007f448272857564ada5fd70e6c018dcf568e851e6",
+    "readout_psi/polar_readout.json": "741f41b4e752c68d40d34b40f36d1a82420524ffef66bfe10202a57a226d8eb6",
+    "readout_psi/polar_integer_conv_readout.json": "db9055b2dc91dd95d83b1ae160cb67ff2c28a01cebe9899b82290b7d18905aca",
+    "readout_psi/psi_formula_equivalence.json": "f25836ac047a60cd4a1e21d29cbd42da71d915c704692674df48accbd329102c",
+    "readout/MCU_pose_deployment_gap.json": "b4b2e93ea44c201d4d4953dde284909acaaeaa1117b7f22d8d5c9e9a80e97930",
+    "comparison/index.html": "2ac9cdaf689c6ddc7cb61c3bdb603c9becdd187137e91d21a54c4103ced33054",
+    "comparison/summary.json": "48f849277947464f8d50e073b73f86b7344cb7cbde9d55849f1b627f7cea8d84",
+    "comparison/comparison_manifest.json": "ee208bdfe452d7829528cf1eee387d378772b0b3a9e82c6e76630dfbfc0ab959",
+    "comparison/psi_display_correction_receipt.json": "ba4e9926e3fd42fc9b651bddcc01e494773ec5d9659191ad42b28286c0fe53a6",
+    "review/candidate_results_review.json": "8e7419b410c6b288f18ad946cea5da556199378eaa7899cadf52756469b331d5",
+    "review/readout_calibration_review.json": "14bcebc8224acedef891145c5c553bf23b43b45616e64555d663d4376b73e286",
+    "review/polar_integer_reference_review.json": "6a1f8240bfb38602a8e7264465c3c84419eb891e1de231f716ffef8088aded42",
+    "review/psi_unit_correction_review.json": "726e9ab6ca9f52728b6d2c41388019f2ae7bdb0274120410ddf851352ae603ff"
+  }
+}

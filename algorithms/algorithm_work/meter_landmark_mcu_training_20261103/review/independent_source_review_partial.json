@@ -1,0 +1,29 @@
+{
+  "status": "PARTIAL_INDEPENDENT_SOURCE_REVIEW_REQUIRED_CDC_AMENDMENT_IDENTIFIED",
+  "data_author_not_reviewing_own_label_gold": true,
+  "checked": [
+    "AHB0x064FEATURES/0x124stagedPSIQ8 and unchangedARM0x060",
+    "peroffer/perclaim/commit-attempt PSIvalid clearing",
+    "same token/target/config validated before committed result",
+    "held HCLK return bundle stable H_RETURN/H_ACK until synchronizedack; CORE2sync+settle",
+    "reader clears heldPSI atreset/newjob/kill; CRC/identity/association gates numericcandidate",
+    "PSIQ8 640..3072 explicit conversion to oldbarU0.16; oldTEST angle mapper instance removed",
+    "actual simulationreceipt3suites9734+104+6 with explicitlyforced completedROI frontier",
+    "training config/log actual4800steps best4400 with DEF-onlygradient/Gdevselection stated"
+  ],
+  "finding": {
+    "severity": "MUST_RESOLVE_BEFORE_BITGEN",
+    "source": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\base_auto_quality.sdc",
+    "observed_baseSDC_sha256": "a8382c43630c3b7ccbd3a0f1337f1636ac136210e7e0968252a93f978386b740",
+    "description": "Explicit7.2ns held-return bundle list omits new return_psi_q816+return_psi_valid1; ordinary timing may still cover them, but their held-data contract is not explicit.",
+    "agreed_remedy": "Root constraint-only amendment onroutedDB: exact17logicalbits/effective consumers toactualHDMI clock,7.2ns datapathonly; reissueallFINAL/DRC/IO/clocks,saveamendedDB and bindrebuild runner; rerouteonlyifneeded."
+  },
+  "not_yet_independently_signed": [
+    "Final amendedDB capture/FINAL",
+    "Entire finalELF source/maps/weights numerical consistency",
+    "H performance acceptance",
+    "FPGA bit/board Flash deployment"
+  ],
+  "performance_decision": "U7 experimental firmware retained; U8shadow and Hfailedtest kept historical; no extraQAT orscale rescue recommended. NewAB-expandeddata is separate authorizedcandidate.",
+  "no_code_weight_label_device_changes": true
+}

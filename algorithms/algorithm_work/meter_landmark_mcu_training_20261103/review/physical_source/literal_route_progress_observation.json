@@ -1,0 +1,162 @@
+{
+  "route_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_literal_route.json",
+    "sha256": "895d5114be7e679bf3e1412e4c4dfd81a1f178be955c3c5ec32d195cb71b79be"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\literal_route_20261103_104925_284372",
+  "observed_UTC": "2026-11-03T03:42:05.400792+00:00",
+  "latest_state": "RUNNING",
+  "completion_observed": false,
+  "no_process_actions": true,
+  "stage": "2.5.1.4",
+  "best_over": 702,
+  "best_iteration": 24,
+  "last_iteration": {
+    "iteration": 27,
+    "over": 711,
+    "iteration_seconds": 220.15
+  },
+  "complete_iterations_without_new_low": 3,
+  "completed_iteration_seconds_since_best": 705.4300000000001,
+  "best_first_observed_UTC": "2026-11-03T03:42:05.400792+00:00",
+  "elapsed_since_best_conservative_lower_bound_s": 705.4300000000001,
+  "notify_root_for_stall_decision": true,
+  "rule": "At least3completeiterationsand540swithoutstrictnewbest; rootdecides, noautotermination",
+  "iterations": [
+    {
+      "iteration": 1,
+      "over": 19747,
+      "iteration_seconds": 58.27
+    },
+    {
+      "iteration": 2,
+      "over": 14453,
+      "iteration_seconds": 26.88
+    },
+    {
+      "iteration": 3,
+      "over": 12209,
+      "iteration_seconds": 22.39
+    },
+    {
+      "iteration": 4,
+      "over": 8583,
+      "iteration_seconds": 56.26
+    },
+    {
+      "iteration": 5,
+      "over": 7312,
+      "iteration_seconds": 42.6
+    },
+    {
+      "iteration": 6,
+      "over": 6590,
+      "iteration_seconds": 37.65
+    },
+    {
+      "iteration": 7,
+      "over": 5673,
+      "iteration_seconds": 53.27
+    },
+    {
+      "iteration": 8,
+      "over": 4109,
+      "iteration_seconds": 141.68
+    },
+    {
+      "iteration": 9,
+      "over": 3401,
+      "iteration_seconds": 62.8
+    },
+    {
+      "iteration": 10,
+      "over": 3091,
+      "iteration_seconds": 59.51
+    },
+    {
+      "iteration": 11,
+      "over": 2852,
+      "iteration_seconds": 63.14
+    },
+    {
+      "iteration": 12,
+      "over": 2291,
+      "iteration_seconds": 169.91
+    },
+    {
+      "iteration": 13,
+      "over": 2132,
+      "iteration_seconds": 109.45
+    },
+    {
+      "iteration": 14,
+      "over": 1951,
+      "iteration_seconds": 130.73
+    },
+    {
+      "iteration": 15,
+      "over": 1699,
+      "iteration_seconds": 40.98
+    },
+    {
+      "iteration": 16,
+      "over": 1118,
+      "iteration_seconds": 107.19
+    },
+    {
+      "iteration": 17,
+      "over": 1113,
+      "iteration_seconds": 80.93
+    },
+    {
+      "iteration": 18,
+      "over": 1046,
+      "iteration_seconds": 98.14
+    },
+    {
+      "iteration": 19,
+      "over": 1039,
+      "iteration_seconds": 91.19
+    },
+    {
+      "iteration": 20,
+      "over": 861,
+      "iteration_seconds": 206.22
+    },
+    {
+      "iteration": 21,
+      "over": 717,
+      "iteration_seconds": 111.41
+    },
+    {
+      "iteration": 22,
+      "over": 738,
+      "iteration_seconds": 147.22
+    },
+    {
+      "iteration": 23,
+      "over": 778,
+      "iteration_seconds": 133.9
+    },
+    {
+      "iteration": 24,
+      "over": 702,
+      "iteration_seconds": 256.53
+    },
+    {
+      "iteration": 25,
+      "over": 732,
+      "iteration_seconds": 247.21
+    },
+    {
+      "iteration": 26,
+      "over": 779,
+      "iteration_seconds": 238.07
+    },
+    {
+      "iteration": 27,
+      "over": 711,
+      "iteration_seconds": 220.15
+    }
+  ]
+}

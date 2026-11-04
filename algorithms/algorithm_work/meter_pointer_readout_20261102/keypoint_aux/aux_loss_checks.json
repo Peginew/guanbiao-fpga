@@ -1,0 +1,39 @@
+{
+  "status": "PASS_LOSS_MASK_AND_HARD_NEGATIVE_EXCLUSION",
+  "trainer_sha256": "334a349195940b94a251229379fc92fc195d4c99baa663fc3f1daa1f192e8ce8",
+  "actual_train_augmented_records_checked": 492,
+  "noneligible_aux_masks_zero": 351,
+  "unknown_tip_hard_negative_masks_zero": 45,
+  "true_negative_hard_masks_full": 27,
+  "protected_tip_region_hard_negative_overlap": 0,
+  "ignored_head_gradient_nonzero_count": 0,
+  "absent_aux_gradient_nonzero_count": 0,
+  "true_negative_gradient_nonzero_count": 8192,
+  "real_optimizer_steps": 0,
+  "H_opened": false,
+  "PLAN": {
+    "steps": 2400,
+    "batch": 12,
+    "seed": 1102,
+    "threads": 4,
+    "learning_rate": 0.0008,
+    "final_learning_rate": 8e-05,
+    "evaluate_every": 200,
+    "weak_line_weight": 0.5,
+    "hard_negative_weight": 0.2,
+    "hard_negative_k": 16,
+    "weak_line_t": [
+      0.2,
+      0.95
+    ],
+    "weak_line_supervision_t": [
+      0.15,
+      1.0
+    ],
+    "weak_line_sigma_heat": 1.0,
+    "hard_negative_exclusion": "max(3 heat pixels,3*sigma_heat,uncertainty_native/(2*stride)+1); target<.05",
+    "selection": "minimum unchanged G masked focal loss",
+    "inference_parameters": 1202,
+    "training_only_aux_parameters": 5
+  }
+}

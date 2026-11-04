@@ -1,0 +1,396 @@
+{
+  "passed": true,
+  "status": "PASS_LIMITED_ACTUAL_SYN_SOURCE_PIN_CLOCK_MCU_RAM_INIT",
+  "checks": 2903,
+  "new_manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\source_freeze_v2.json",
+    "sha256": "5ecab63bb53c12293449e41ab8dc2dbce81f7f53aaf1b6f7f481024cfabdc397"
+  },
+  "new_synth": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_synth.json",
+    "sha256": "818cfec4a212e68f87f0322b66d3b11cdb9954e4038627cabc99846ef073d712"
+  },
+  "actual_netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\synth_20261103_063022_809832\\actual_netlist.v",
+    "sha256": "70b698613a9bd6237924932515f69801afbcd0b207b2daac51080df0b05e18bc"
+  },
+  "actual_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\synth_20261103_063022_809832\\reader_landmark_gate.db",
+    "sha256": "af562aa2aa9ebef69311291a4e20fddb4158b87cfcf14e9e49ebc78be9375be4"
+  },
+  "previous_actual_netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_hdmi_ui_ref_fix_20261103\\project\\td_project\\hdmi_ui_ref_fix_Runs\\synth_20261103_010042_622527\\actual_netlist.v",
+    "sha256": "5bf57a6a493682f9c1aeb7fdfd96cf5ba2d64193ddcb3e06430d17fffa97c620"
+  },
+  "audit_source": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\audit_synth.py",
+    "sha256": "14e0f832652fdeeb479bacbd25c48f93618399bb7af370f9b02190fdda0917f8"
+  },
+  "parser_source": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\mapping_helpers.py",
+    "sha256": "870ee775f666713a06332474e9c1b2c2b1f8977303c4da38d47574a878050df8"
+  },
+  "source_changes": {
+    "functional_modified": [
+      "user_source/hdl_source/meter_pair/meter_mcu_live_roi.v",
+      "user_source/hdl_source/meter_pair/meter_mcu_roi_ahb_live.v",
+      "user_source/hdl_source/meter_pair/t06_meter_pair_link.v",
+      "user_source/hdl_source/meter_pair/t06_meter_roi_reader.v"
+    ],
+    "absolute_path_only_modified": [
+      "user_source/hdl_source/design_top_wrapper.v",
+      "user_source/hdl_source/hdmi_mixer.v",
+      "user_source/hdl_source/ui/t06_hdmi_dashboard.v",
+      "user_source/hdl_source/ui/t06_ui_logo_rom.v"
+    ],
+    "added": [
+      "user_source/hdl_source/meter_pair/t06_meter_psi_return_runtime.v"
+    ],
+    "removed": []
+  },
+  "IO": {
+    "actual_SYN_top_logical_port_bits": 87,
+    "direction_and_names_equal_previous": true,
+    "pin_ADC": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\user_source\\constraints_source\\pin.adc",
+      "sha256": "6a7222ceec1cdd1334e79c82ae942bb14de34cf112098d4a23ecc500170aba1e"
+    },
+    "ADC_bytes_equal_previous": true,
+    "native_expected_physical_pad_count": 81,
+    "dedicated_MIPI_omitted_from_pad_report": [
+      "IO_rx_clk_pad_n",
+      "IO_rx_clk_pad_p",
+      "IO_rx_data_pad_n[0]",
+      "IO_rx_data_pad_n[1]",
+      "IO_rx_data_pad_n[2]",
+      "IO_rx_data_pad_n[3]",
+      "IO_rx_data_pad_p[0]",
+      "IO_rx_data_pad_p[1]",
+      "IO_rx_data_pad_p[2]",
+      "IO_rx_data_pad_p[3]"
+    ],
+    "implicit_TMDS_N_pad_count": 4,
+    "physical_LOC_and_standard_readback": "PENDING actual place/route IO report"
+  },
+  "clocks": {
+    "actual_PLLs": 4,
+    "PLL_params_and_ports_equal_previous": true,
+    "timing_enumerated": {
+      "HDMI_PIXEL_CLK": 75.002,
+      "MIPI_RX_BYTE_CLK": 103.52,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk": 133.333,
+      "MCU_ROI_50": 50.0,
+      "pll_clk_24m": 23.81,
+      "pll_clk_100m": 100.0,
+      "HDMI_SERIAL_CLK": 375.094,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/mcu_clk": 50.795,
+      "sys_clk_50m": 50.0,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/ctl_clk": 133.333,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/ddr_clk": 533.333,
+      "MCU_TIMER_25": 25.0,
+      "mipi_rx_ck_pad": 414.079,
+      "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.tif_c16_in": 103.52,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/ref_clk": 133.333,
+      "u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst.core_clk": 50.0,
+      "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.io_clk_pad_p": 414.079
+    },
+    "timing_enumerated_count": 17,
+    "all_clock_object_count_from_native_summary": 18,
+    "summary": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\synth_20261103_063022_809832\\clocks.txt",
+      "sha256": "dacc6e0f8c1065a899bab57720b797703e8bf9d4479974ccba0b22b1e5adcc08"
+    },
+    "limitation": "18 total native clock objects; regular SYN timing table prints17, not allclock18-query proof"
+  },
+  "MCU": {
+    "name": "\\u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst",
+    "all_params_and_canonical_ports_equal_previous": true,
+    "reset_vector": "0x20E00000 physical31bit",
+    "AHB_MHz": 50,
+    "dbg_stops_zero": true
+  },
+  "ERAM": {
+    "UI_Logo_boot_count": 9,
+    "UI_Logo_boot_INIT": 720,
+    "ROI_capture_count": 12,
+    "ROI_capture_INIT": 960,
+    "exact_current_macros": [
+      {
+        "name": "\\u_dashboard/ramread0_syn_23",
+        "parameters": 107,
+        "ports": 9,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "a8d8e90715bb75b47eb3af87511695c8d046f7576ccb3a40838b473469e9a353",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk",
+          "clkb": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_dashboard/ramread0_syn_29",
+        "parameters": 107,
+        "ports": 9,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "501329e11e41937945aa3a6fca53e76c9d545a6cf16f0641cbfe9af0e871999b",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk",
+          "clkb": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_dashboard/ramread1_syn_23",
+        "parameters": 107,
+        "ports": 8,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "c9a52f310e6230548fee2a6bc85840d208c41ffa78a1bd5ffbf99c0abee3cae1",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk",
+          "clkb": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_dashboard/ramread1_syn_29",
+        "parameters": 107,
+        "ports": 8,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "54245f451849a97619ad8aa714ea6377e9e3814cc89c04ce19c7a66ccb1bea6e",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk",
+          "clkb": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_dashboard/ramread1_syn_35",
+        "parameters": 107,
+        "ports": 5,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "09206230678cb3f2f3f360b41ae6e4604c6dc57be16fb75f4a206835d1cb2d6e",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk",
+          "clkb": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+        "parameters": 111,
+        "ports": 6,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "0c15cf39829af950bde8810b6c8ca594d63f4955cad57555f012b4214626079d",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+        "parameters": 111,
+        "ports": 6,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "acc59661df3678acc816834072288a4e3df40cd30c3e3563c33cacf69cdc3773",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+        "parameters": 111,
+        "ports": 12,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "75ea43d2ec56c7282323a21d776a8a84e5b49c2649446f88d130658884f8329b",
+        "canonical_clocks": {
+          "clka": "\\u_dashboard/clk",
+          "clkb": "\\u_dashboard/clk"
+        }
+      },
+      {
+        "name": "\\u_mcu_bootrom/ramread0_syn_23",
+        "parameters": 107,
+        "ports": 9,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "ebf7f561be2bc929abd94892d7bc2d3e49a467494478ffbfc8106128ecaed177",
+        "canonical_clocks": {
+          "clka": "\\u_meter_pair/pipeline/reader/live/bridge/clk",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread0_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "71b7393cbb0748a41eddb3e7929375f7c2d820b67f10cbe5d5415770a316b324",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread1_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "71b7393cbb0748a41eddb3e7929375f7c2d820b67f10cbe5d5415770a316b324",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread2_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "71b7393cbb0748a41eddb3e7929375f7c2d820b67f10cbe5d5415770a316b324",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread3_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "71b7393cbb0748a41eddb3e7929375f7c2d820b67f10cbe5d5415770a316b324",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_30",
+        "parameters": 106,
+        "ports": 9,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_30",
+        "parameters": 106,
+        "ports": 9,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_30",
+        "parameters": 106,
+        "ports": 9,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_24",
+        "parameters": 106,
+        "ports": 11,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      },
+      {
+        "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_30",
+        "parameters": 106,
+        "ports": 9,
+        "INIT_literals": 80,
+        "all_parameters_and_normalized_ports_equal_previous_actual_SYN": true,
+        "params_sha256": "5d686cb2b08e412a985b07c483366c52649269abd523811625a3c8e32f2cf98f",
+        "canonical_clocks": {
+          "clka": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/clkb",
+          "clkb": "\\u_meter_pair/pipeline/reader/live/bridge/clk"
+        }
+      }
+    ],
+    "old_PASS_reused_as_current": false
+  },
+  "DSP": {
+    "current": 38,
+    "previous": 39,
+    "removed": [
+      "\\u_meter_pair/pipeline/reader/scale/mult0_syn_62"
+    ],
+    "new": []
+  },
+  "current_SYN_estimate": {
+    "Slice": 22135,
+    "Slice_is_SYN_estimate": true,
+    "FF": 23556,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "place_route_FINAL_passed": false,
+  "device_or_bitgen_actions": false,
+  "pending": [
+    "freshly-derived placed_ASR scope",
+    "actual81IO LOC/standard readback",
+    "finalSTA/ordinaryDDR",
+    "routedcapture/INIT checks"
+  ]
+}

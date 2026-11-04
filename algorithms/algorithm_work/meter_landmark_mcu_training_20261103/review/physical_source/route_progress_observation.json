@@ -1,0 +1,11 @@
+{
+  "route_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_guided_route.json",
+    "sha256": "964d9609489390404b78f1a9cb8c39009dc5ff17e89a2580ebf41362a2212ac8"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186",
+  "observed_UTC": "2026-11-03T04:42:40.186690+00:00",
+  "latest_state": "RUNNING",
+  "completion_observed": false,
+  "no_process_actions": true
+}

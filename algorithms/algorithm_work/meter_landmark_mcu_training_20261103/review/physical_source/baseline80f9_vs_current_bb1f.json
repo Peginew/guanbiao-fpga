@@ -1,0 +1,29 @@
+{
+  "status": "BASELINE_BOUNDARY_EXPLICIT_NO_AUTOMERGE",
+  "candidate_baseline": "80f9 recovery perrootselectedsignedbaseline",
+  "current_board_other_thread": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_hdmi_ui_ref_stable3s_20261103\\Meter_HDMI_UI_REF_Stable3s_20261103.bit",
+    "sha256": "bb1f843fb29c66f798be37520472cfaac3be728b6d439130fa38c3efa081d697",
+    "bytes": 1789539,
+    "native_bitgen": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_hdmi_ui_ref_stable3s_20261103\\project\\td_project\\hdmi_ui_ref_s3_Runs\\bitgen_20261103_051210_710656\\hdmi_ui_ref_s3.bit"
+  },
+  "current_candidate_helper_equal_recovery": true,
+  "current_candidate_helper_equal_stable3s": false,
+  "stable3s_only_helper_function": [
+    "REFonly stability3001ms boundarysafe",
+    "centeranchor tolerance4pixels",
+    "freshpublicationgap200ms",
+    "rawlocationlock required plusnewsource confirmationafterSEARCH"
+  ],
+  "future_merge_scope": [
+    "meter_ref_display_control.v fullnewhelper",
+    "t06_meter_pair_link.v addlocation_lock,center_x,center_y,now_msports"
+  ],
+  "does_not_implicitly_change_realREAD": true,
+  "this_task_actions": "NoRTLchange,noSYN,nootherbranchorboardwrites; latermergewouldrequiresimandactualnewPNR",
+  "source_sha256": {
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_hdmi_ui_ref_fix_20261103\\project\\user_source\\hdl_source\\meter_pair\\meter_ref_display_control.v": "2ccc53027e6d2cbb5cd70eabb2e8b8f43cebd09a939bf2e0741cf68f67fc005b",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_hdmi_ui_ref_stable3s_20261103\\project\\user_source\\hdl_source\\meter_pair\\meter_ref_display_control.v": "0a2cc864b68152c7ab17fe8a5cc4241a1583d01bd12f16d515c0d62cba7b7e2c",
+    "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\user_source\\hdl_source\\meter_pair\\meter_ref_display_control.v": "2ccc53027e6d2cbb5cd70eabb2e8b8f43cebd09a939bf2e0741cf68f67fc005b"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-11-03",
+  "request": "Train the identified-print-landmark model and deliver a complete MCU-flashable reader with substantially improved successful PSI readout; parallel technical implementation and independent review.",
+  "unit": "psi",
+  "phase": "PC training through integer C and actual MCU firmware link; no physical programming requested this turn",
+  "data": {"train": "D/E/F177 existing images", "development": "G59 existing diagnostic six-point labels,56gauges/3negative", "H_ABC": "untouched", "visibility": "coordinate supervision only where visually localizable; uncertainty/unknown and physical occlusion distinguished; no fabricated hidden points"},
+  "model": "One compact shared-backbone six-identity heatmap and per-point evidence model, fixed128ROI input; original1202hub and1009polar frozen. No global scalar-roll regressor, NCC sweep or arbitrary large detector.",
+  "runtime": "Reuse MCU compute and workspace sequentially. Existing NCC prototype is not deployed and cannot be counted as reclaimed board memory. Exact48KiBTCM and flash boot LOAD/CRC must fit, otherwise report failure honestly.",
+  "reference": "Preserve same-image accepted old reference exactly; consider new geometrically consistent identified points only when old reference rejected. Never select output using true pressure or query point labels.",
+  "comparison": ["same-architecture seeded random initialization", "frozen trained old hub+polar+ringB21outputs", "prior automatic NCC22outputs as historical nondeployment control", "new trained model plus old-first fusion", "final integerC and linked firmware mathematics"],
+  "target_not_user_accuracy_spec": "Aim for at least32 correct outputs among56gauges within descriptive0.5psi, at least12 of16frontal, preserving all old21outputs. This is a predeclared engineering goal, not a promise or user-approved final tolerance.",
+  "release": "Only describe a performance improvement actually measured on the same inputs. Count additional correct outputs, new wrong outputs and original outputs withdrawn; report all failures. Weak gains must not be described as far stronger. No test labels used to tune acceptance thresholds after results.",
+  "firmware": "Complete actual RV32 ELF/bin, trained fixed-point weights, linker map, source-matched host replay, coldboot payload and exact board/OSD compatibility. Components or PC checkpoints alone are not a flashable working reader.",
+  "preserve": ["existing successful flash and immutable prior artifacts", "ROI ownership/frame identity/timeouts and late-result isolation", "video20 AE/AWB LF/MOT/AQ and display inputs", "current UI/REF distinction and realREAD semantics"],
+  "roles": {"root":"architecture, source integration, PSI evaluation, scheduling and final evidence review", "roi_adapter":"DEF landmark/visibility supervision then independent model/runtime review", "training_adapter":"single compact model training, export and operator reference", "training_review":"MCU memory/runtime/actual complete link and boot compatibility"},
+  "hardware_actions": false,
+  "training_authorized": true,
+  "automatic_board_or_Flash_download": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_STATIC_CONTRACT_ONLY_NOT_EXECUTION",
+  "admitted_to_execute_after_completed_route": true,
+  "script": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\amend_psi_timing.py",
+    "sha256": "a8787ef99858e45e589398c09f23f26340bf97e79b14c87cd2c9269cb7cb9434"
+  },
+  "existing_final_report_runner": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\run_td.py",
+    "sha256": "16a44ec7aaedcadda4c6eb76c8d63a6873fb2bb8633017813ffd9a3b86fa610c"
+  },
+  "strict16q8plus1valid": true,
+  "only_new_constraint": "7.200ns datapath_only PSI17 to HDMI_PIXEL_CLK",
+  "no_falsepath_multicycle_or_clockcut_in_new_SDC": true,
+  "GLOBAL_FINAL_order_TNSzero_DRC_17paths_effectiveSMD_forced": true,
+  "actual_endpoint_precheck": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\psi17_endpoint_precheck.json",
+    "sha256": "e2f77ba3694afc0957126abca1ba9046fbb74e44043c5a4ba1dfaa9d339b06c9"
+  },
+  "limitations": [
+    "TD actual report grammar and SMD coverage must match actual output; empty/missing/different format is FAIL, not proof",
+    "Actual17 origins, effective7.2ns and zero ignored/shadowed require independent postrun inspection",
+    "No RTL/source SDC/TD/device action by reviewer"
+  ],
+  "actual_psi_budget_verified": false,
+  "bitgen_admitted": false
+}

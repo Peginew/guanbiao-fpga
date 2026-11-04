@@ -1,0 +1,21 @@
+{
+  "objective": "Reduce needle/printed-tick/rim confusion and obtain calibrated reading outputs, not keypoint scores alone",
+  "scope": "Offline PC development on current native HDMI images and manual-bbox ROI proxies; no board, MCU, Flash or car changes",
+  "train_groups": ["D", "E", "F"],
+  "development_validation_group": "G",
+  "prospective_test_H": "Not opened, trained on, or evaluated",
+  "reserve_ABC": "Not used",
+  "baseline": "Previous run_002, checkpoint c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "maximum_learning_routes": 2,
+  "candidate_A": "Existing 1202-parameter inference network, training-only weak shaft head and train-only hard false-peak suppression",
+  "candidate_B": "1009-parameter circular angular CNN, all-angle radial gray/contrast evidence around frozen CNN predicted hub; no prerequisite geometric tip",
+  "candidate_training_limit": "One fixed 2400-step run per route; no automatic hyperparameter search",
+  "supervision": "Direct visual hub/thin-terminal coordinates with per-head masks; weak shaft supervision explicitly limited, not manual pixel segmentation",
+  "pressure_truth_policy": "Train pressure may fit angle-to-bar calibration; never reverse-infer point labels, select an angle, form inference features or fit on G pressure",
+  "roll": "Image/point synchronous enhancement; runtime static-print pose from query pixels plus bbox only, no query true hub/tip/pressure; unknown pose is not zero",
+  "readout_metric": "0.05bar engineering error band; pressure setting precision is unknown",
+  "comparison": "All candidates share frozen train-only calibration and G static-print pose; report all positive denominators, accepted coverage, accepted bar MAE and wrong accepted counts together",
+  "selection": "Development choice only: compare correct accepted reads and wrong accepts jointly; do not optimize accepted MAE by concealing rejections, use G truth to choose a candidate needle, or call G an independent test",
+  "outputs": ["Candidate code and real training results", "Common bar output records with source image identity", "Baseline/A/B reading and rejection comparison", "Independent checks and inference cost estimates"],
+  "limits": ["Not actual automatic-locator ROI recall", "HDMI gray is not proven identical to CSI MCU input", "No expansion of existing board 0..0.51bar TEST calibration", "No integer or board acceptance from floating PC results"]
+}

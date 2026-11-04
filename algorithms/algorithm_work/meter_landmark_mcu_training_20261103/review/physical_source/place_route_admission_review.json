@@ -1,0 +1,1013 @@
+{
+  "passed": true,
+  "status": "PASS_PLACE_NARROW_ROUTE_ADMISSION",
+  "scope": "Actual new place; source pin/clock/MCU/ERAM verified, fresh ASR endpoints independently derived. Not FINAL timing or board acceptance.",
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\latest_place.json",
+    "sha256": "aeecef7e0133c5e74135fe6f6ab83d15f5d2c33e32f8dce2c53629e94f963666"
+  },
+  "source_freeze": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\source_freeze_v2.json",
+    "sha256": "5ecab63bb53c12293449e41ab8dc2dbce81f7f53aaf1b6f7f481024cfabdc397"
+  },
+  "actual_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\place_20261103_071950_366369\\reader_landmark_place.db",
+    "sha256": "51d4ac45de14852e85570a57bfb92299723ca265a19f1a325028d63c93850a39"
+  },
+  "actual_netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\place_20261103_071950_366369\\actual_netlist.v",
+    "sha256": "093585577d9d9f37068dcc807895ae540f2447b77391e4d17989cb9da2783dd5"
+  },
+  "audit_source": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\audit_place.py",
+    "sha256": "b4cccbba33aeb5dc14343a19021f5dd693636e2d6310dfe7dd3ba792d0b2b723"
+  },
+  "physical_IO_count": 81,
+  "all81_locations_standards_directions_equal_previous_actual": true,
+  "IO_rows": {
+    "I_hdmi_hpd_en_sense": [
+      "INPUT",
+      "B17",
+      "LVCMOS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_mode_key_n": [
+      "INPUT",
+      "C7",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_preset_sw[1]": [
+      "INPUT",
+      "D11",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_preset_sw[0]": [
+      "INPUT",
+      "E11",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_rst_n": [
+      "INPUT",
+      "B9",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_saturation_sw[1]": [
+      "INPUT",
+      "B4",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_saturation_sw[0]": [
+      "INPUT",
+      "A4",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_sys_clk": [
+      "INPUT",
+      "C4",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_cam_24m": [
+      "OUTPUT",
+      "L3",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_cam_rst": [
+      "OUTPUT",
+      "L2",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_cam_scl": [
+      "OUTPUT",
+      "K3",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_meter_digit_n[7]": [
+      "OUTPUT",
+      "A14",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[6]": [
+      "OUTPUT",
+      "B15",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[5]": [
+      "OUTPUT",
+      "A15",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[4]": [
+      "OUTPUT",
+      "B16",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[3]": [
+      "OUTPUT",
+      "A18",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[2]": [
+      "OUTPUT",
+      "A17",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[1]": [
+      "OUTPUT",
+      "G14",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[0]": [
+      "OUTPUT",
+      "G15",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[7]": [
+      "OUTPUT",
+      "E5",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[6]": [
+      "OUTPUT",
+      "B7",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[5]": [
+      "OUTPUT",
+      "B6",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[4]": [
+      "OUTPUT",
+      "E6",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[3]": [
+      "OUTPUT",
+      "E7",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[2]": [
+      "OUTPUT",
+      "B11",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[1]": [
+      "OUTPUT",
+      "C11",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[0]": [
+      "OUTPUT",
+      "C9",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_ch0_p": [
+      "OUTPUT",
+      "G16",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_ch0_p(n)": [
+      "OUTPUT",
+      "H16",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_ch1_p": [
+      "OUTPUT",
+      "F17",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_ch1_p(n)": [
+      "OUTPUT",
+      "E18",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_ch2_p": [
+      "OUTPUT",
+      "H14",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_ch2_p(n)": [
+      "OUTPUT",
+      "H13",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_clk_p": [
+      "OUTPUT",
+      "C17",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_clk_p(n)": [
+      "OUTPUT",
+      "D18",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "ddr_addr[12]": [
+      "OUTPUT",
+      "S82_5",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[11]": [
+      "OUTPUT",
+      "S82_47",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[10]": [
+      "OUTPUT",
+      "S82_11",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[9]": [
+      "OUTPUT",
+      "S82_6",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[8]": [
+      "OUTPUT",
+      "S82_48",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[7]": [
+      "OUTPUT",
+      "S82_7",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[6]": [
+      "OUTPUT",
+      "S82_49",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[5]": [
+      "OUTPUT",
+      "S82_8",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[4]": [
+      "OUTPUT",
+      "S82_50",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[3]": [
+      "OUTPUT",
+      "S82_9",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[2]": [
+      "OUTPUT",
+      "S82_51",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[1]": [
+      "OUTPUT",
+      "S82_10",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[0]": [
+      "OUTPUT",
+      "S82_52",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ba[1]": [
+      "OUTPUT",
+      "S82_12",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ba[0]": [
+      "OUTPUT",
+      "S82_13",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_cas_n": [
+      "OUTPUT",
+      "S82_53",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ck_n[0]": [
+      "OUTPUT",
+      "S82_57",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ck_p[0]": [
+      "OUTPUT",
+      "S82_58",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_cke[0]": [
+      "OUTPUT",
+      "S82_15",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_cs_n[0]": [
+      "OUTPUT",
+      "S82_54",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_odt[0]": [
+      "OUTPUT",
+      "S82_55",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ras_n": [
+      "OUTPUT",
+      "S82_56",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_we_n": [
+      "OUTPUT",
+      "S82_14",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "IO_cam_sda": [
+      "INOUT",
+      "J3",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "ddr_dm[1]": [
+      "INOUT",
+      "S82_37",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dm[0]": [
+      "INOUT",
+      "S82_28",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[15]": [
+      "INOUT",
+      "S82_76",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[14]": [
+      "INOUT",
+      "S82_35",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[13]": [
+      "INOUT",
+      "S82_72",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[12]": [
+      "INOUT",
+      "S82_31",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[11]": [
+      "INOUT",
+      "S82_32",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[10]": [
+      "INOUT",
+      "S82_73",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[9]": [
+      "INOUT",
+      "S82_34",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[8]": [
+      "INOUT",
+      "S82_75",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[7]": [
+      "INOUT",
+      "S82_67",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[6]": [
+      "INOUT",
+      "S82_26",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[5]": [
+      "INOUT",
+      "S82_64",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[4]": [
+      "INOUT",
+      "S82_23",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[3]": [
+      "INOUT",
+      "S82_22",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[2]": [
+      "INOUT",
+      "S82_63",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[1]": [
+      "INOUT",
+      "S82_25",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[0]": [
+      "INOUT",
+      "S82_66",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_n[1]": [
+      "INOUT",
+      "S82_79",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_n[0]": [
+      "INOUT",
+      "S82_70",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_p[1]": [
+      "INOUT",
+      "S82_78",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_p[0]": [
+      "INOUT",
+      "S82_69",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ]
+  },
+  "clock_summary_total": 18,
+  "regular_timing_enumerated_clock_frequencies": {
+    "HDMI_PIXEL_CLK": 75.002,
+    "MIPI_RX_BYTE_CLK": 103.52,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk": 133.333,
+    "MCU_ROI_50": 50.0,
+    "pll_clk_24m": 23.81,
+    "pll_clk_100m": 100.0,
+    "HDMI_SERIAL_CLK": 375.094,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/mcu_clk": 50.795,
+    "sys_clk_50m": 50.0,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ctl_clk": 133.333,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ddr_clk": 533.333,
+    "MCU_TIMER_25": 25.0,
+    "mipi_rx_ck_pad": 414.079,
+    "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.tif_c16_in": 103.52,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ref_clk": 133.333,
+    "u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst.core_clk": 50.0,
+    "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.io_clk_pad_p": 414.079
+  },
+  "regular_table_enumerated": 17,
+  "source_clock_root": [
+    "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+    4
+  ],
+  "serial_clock_root": [
+    "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+    5
+  ],
+  "independent_FF_records": [
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "lane": 0,
+      "stage": 0,
+      "D": "1'b1",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "lane": 0,
+      "stage": 1,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "B",
+      "lane": 0,
+      "stage": 2,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "lane": 1,
+      "stage": 0,
+      "D": "1'b1",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "lane": 1,
+      "stage": 1,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "B",
+      "lane": 1,
+      "stage": 2,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "lane": 2,
+      "stage": 0,
+      "D": "1'b1",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "lane": 2,
+      "stage": 1,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "A",
+      "lane": 2,
+      "stage": 2,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "lane": 3,
+      "stage": 0,
+      "D": "1'b1",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "lane": 3,
+      "stage": 1,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "A",
+      "lane": 3,
+      "stage": 2,
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    }
+  ],
+  "logical_serial_FFs": 12,
+  "physical_ASR_count": 6,
+  "physical_ASR_pins": [
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr"
+  ],
+  "no_foreign_registered_ASR_half": true,
+  "only_exception": "reset-source net through6 exact ASR pins; ordinary DATA, consumer and DDR untouched",
+  "overlay": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\serial_reset_exact_overlay.tcl",
+    "sha256": "57c17f9c1ad396b81af32bbda31df5f165a34a335ff7d7b3fe532ad61b0c491c"
+  },
+  "mapping": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\physical\\placed_asr_mapping.json",
+    "sha256": "23a82789abffa176e55b199e20c87f2e2edf49c4e1c4039d8472b190bd3731c7"
+  },
+  "macro26_all_params_and_canonical_ports_equal_actual_SYN": true,
+  "macro_names": [
+    "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+    "\\u_dashboard/ramread0_syn_23",
+    "\\u_dashboard/ramread0_syn_29",
+    "\\u_dashboard/ramread1_syn_23",
+    "\\u_dashboard/ramread1_syn_29",
+    "\\u_dashboard/ramread1_syn_35",
+    "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+    "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+    "\\u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+    "\\u_mcu_bootrom/ramread0_syn_23",
+    "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+    "\\u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread0_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread1_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread2_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread3_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_30",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_30",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_30",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_30",
+    "\\u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll0/u_pll_inst",
+    "\\u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll1/u_pll_inst"
+  ],
+  "UI_Logo_boot_INIT_preserved": 720,
+  "ROI_capture_ERAMs": 12,
+  "capture_SYN_actual36": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\capture_LANDMARK_SYN_gate.json",
+    "sha256": "ac5167133d773b3010b9b7ad7aa80756e41f819c94c4e3ffc3cd3ff7eccac1e3"
+  },
+  "actual_resources": {
+    "Slice": 20036,
+    "Slice_is_SYN_estimate": false,
+    "FF": 22927,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "rover_reserve": {
+    "wantedSlice": 1200,
+    "availableSlice": 1180,
+    "shortfallSlice": 20,
+    "FF_after2400": 17105,
+    "ERAM_after2": 4
+  },
+  "route_may_proceed": true,
+  "whole_project_safety_or_bitgen_admission": false,
+  "pending": [
+    "native route1/12/6 overlay entry counts",
+    "FINAL STA",
+    "routedcapture and macro preservation",
+    "final18clock query"
+  ],
+  "hardware_actions": false
+}

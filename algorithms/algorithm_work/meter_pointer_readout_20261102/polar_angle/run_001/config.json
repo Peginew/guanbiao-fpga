@@ -1,0 +1,57 @@
+{
+  "model": "polar_angle_v1",
+  "parameters": 1009,
+  "frozen_hub_parameters": 1202,
+  "optimizer_steps": 2400,
+  "train_images": 164,
+  "angular_supervised_or_negative": 149,
+  "validation_images": 59,
+  "seed": 1103,
+  "input": "16 radial gray/contrast features x360 angles; predicted hub only",
+  "radial_bands": [
+    0.20000000298023224,
+    0.2914285659790039,
+    0.38285714387893677,
+    0.47428572177886963,
+    0.5657142996788025,
+    0.6571428775787354,
+    0.7485714554786682,
+    0.8399999737739563
+  ],
+  "label": "Direction to directly visible thin terminal from frozen predicted hub; never pressure-derived",
+  "auxiliary_true_hub": "Evaluation reference only, never input",
+  "selection": "G angular focal loss only",
+  "frozen_hub_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "source_code_sha256": "bb8da52efadee791ddbda9d6800fc46fcfab145f16b1f44590f0d920e21b0991",
+  "prepared_train_sha256": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+  "prepared_validation_sha256": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79",
+  "source_cache_and_hub_outputs_sha256": {
+    "roi_cache_train.npz": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708",
+    "roi_cache_validation.npz": "3657a5a2a13ec5fb00275ffe71289aec6a13c3ac8e5fc31ab160c94b343c6527",
+    "run_002/train_evaluation.json": "a0814bb32df8c1b0158b05b0b7cf130d2606a558faaa7add71fd903acdd5f21d",
+    "run_002/validation_evaluation.json": "fceaf01298736ff5e421a8b2aeefdb5eed7c3b169cd3ed0a9ddd65e536cdd4a2"
+  },
+  "fixed_acceptance": {
+    "peak": 0.3,
+    "margin": 0.02,
+    "hub_peak": 0.3,
+    "hub_margin": 0.02,
+    "hub_center_distance_max": 20,
+    "outside_fraction_max": 0.05
+  },
+  "predeclared_metrics": "Full points all physical angle errors; readout adapter frozen train-only calibration, 0.05bar engineering tolerance",
+  "preprocessing": "OpenCV bilinear remap PC reference; integer remap and MCU still pending",
+  "cost_estimate": {
+    "needle_conv_MAC": 355680,
+    "int8_needle_weights_S32_bias_bytes": 1072,
+    "input_feature_bytes_INT8": 5760,
+    "max_activation_bytes_INT8": 2880,
+    "gray_samples_per_ROI": 8640,
+    "bilinear_source_reads": 34560,
+    "sin_cos_S16_lut_bytes": 1440,
+    "incremental_FPGA_Slice_measured": false
+  },
+  "test_H_opened": false,
+  "pressure_used_as_network_input": false,
+  "hardware_actions": false
+}
