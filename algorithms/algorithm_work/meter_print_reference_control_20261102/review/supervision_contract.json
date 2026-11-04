@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_OFFLINE_REFERENCE_CONTROL_REVIEW_CRITERIA",
+  "scope": "Visual static-print reference replacement and calibration controls only; no training, deployment or board action",
+  "primary_unit": "psi",
+  "immutable_baseline": "Original1202hub +1009polar, all model permissions, old ring pose, old calibration and original canonical/splits remain unchanged",
+  "label_admission": [
+    "Fixed identities: outer-scale printed10 text and lower striped-ball logo; bottom-to-top direction in x-right/y-down coordinates",
+    "Coordinates must come from visible source print evidence, never reference pressure, needle predictions/angles or old pose values; missing/occluded anchors stay unavailable",
+    "Original-source SHA, native-to-ROI mapping, per-anchor visibility and visual uncertainty retained",
+    "Relative D002 direction uses exactly the same two anchor identities; this is not absolute upright, yaw/pitch or perspective truth",
+    "AI visual references are diagnostic and not blind or independently certified human gold; prior project exposure is disclosed",
+    "G reference labels may only evaluate controls, never fit calibration/templates, choose points by PSI error or tune output thresholds"
+  ],
+  "comparison_admission": [
+    "Primary2x2: oldpose/oldcal, visualpose/oldcal, oldpose/newcal, visualpose/newcal",
+    "Newcal only preselected48DEF first-two-frontal-slot candidates; same original equal-pressure-median linear fitting, no clamping or extrapolation",
+    "Additional old/new reference calibrations use the same admissible DEF intersection to isolate calibration-sample changes",
+    "All59G and56gauge denominators remain fixed; missing visual reference rejects, any old-pose fallback is separately reported",
+    "Fair common subset includes all visual-reference-available observations, with old reader restricted to that same subset; a both-accepted subset may additionally report numerical error but cannot hide recovered outputs",
+    "Per-ID gains/losses, final PSI errors and0.25/0.5/1psi distributions recorded, including newly accepted large errors; bins are not user-confirmed tolerances"
+  ],
+  "success_and_stop": [
+    "A useful visual-reference/control benefit only supports studying future automatic reference extraction; it does not establish automatic128ROI robustness or MCU effect",
+    "Unreliable static evidence or no correct-output benefit retains the old reader; no G-driven label/threshold/range changes to manufacture improvement",
+    "No claims of industrial false-acceptance rate without specified tolerance and appropriate independent data",
+    "H/ABC remain sealed; canonical, old weights/candidates, UI/REF and hardware remain untouched"
+  ],
+  "final_review": "Pending exact labels, script,2x2 outputs and matched-subset controls"
+}

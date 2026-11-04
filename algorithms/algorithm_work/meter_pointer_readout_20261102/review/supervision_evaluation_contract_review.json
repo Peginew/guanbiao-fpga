@@ -1,0 +1,32 @@
+{
+  "status": "SUPERVISION_AND_EVALUATION_CONTRACT_REVIEW_IMPLEMENTATION_PENDING",
+  "candidate_limit": 2,
+  "candidates": {
+    "A": "Warm-start fixed1202 main network; training-only weak direction auxiliary head plus train-only hard endpoint negatives",
+    "B": "Full-angle polar/ray image evidence from predicted hub; no geometric tip as prerequisite"
+  },
+  "allowed_weight_updates": "D/E/F only; known visible bounded head supervision or true no-gauge negatives; noneligible aux heads ignored",
+  "weak_line_semantics": "Derived geometric direction tube from two visible train keypoints is weak support, not pixel-certified needle segmentation. Clear-front qualification only.",
+  "hard_negative_semantics": "Mine only train predictions outside uncertainty and target tail; never use G pressure/errors to generate target negatives",
+  "calibration": "Fit pressure/angle only from D/E/F, with documented reference orientation and no GT-needle runtime pose mask; G pressure read only after outputs are generated for evaluation",
+  "roll": "Existing GT needle exclusion in pose audit is diagnostic only. Production readout needs static print registration independent of true needle or an explicit oracle label on diagnostic output.",
+  "same_inputs": "Baseline, A and B use identical prepared native-HDMI proxy ROIs; predicted hub in production path, manual hub only separate oracle diagnostic",
+  "frozen_metrics": [
+    "All G image count and true negatives separately",
+    "Pressure available count and accepted count/coverage",
+    "Accepted bar MAE/median/p90/max and per-sample errors",
+    "Predeclared error-band coverage and errors accepted beyond band",
+    "Unknown pressure vs negative null distinguished",
+    "Pointer direction errors and 180degree failures with full visible labels only"
+  ],
+  "threshold_policy": "Freeze loss weights, hard-negative radius, candidate scoring and train-only calibration selection before G final readout scoring. No G ground-truth pressure chooses a candidate angle.",
+  "scope_limits": [
+    "G is repeatedly exposed development validation, not final unseen test",
+    "0/3 false acceptance insufficient to prove industrial FAR",
+    "New offline pressure fit does not change existing board0..0.51bar TEST range",
+    "Annotated bbox and reconstructed HDMI grayscale are proxies, not actual detector/CSI equivalence",
+    "No H/ABC, no device actions"
+  ],
+  "training_or_evaluation_run_by_reviewer": false,
+  "implementation_admission": "PENDING exact code/data/SHA and preflight"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASS_POLAR_CONVOLUTION_INTEGER_REFERENCE_ONLY",
+  "checks": 2656,
+  "failures": [],
+  "artifacts_sha256": {
+    "polar_angle\\quantize_polar.py": "643a9433414e90f415399fd780fc5639892609fec2bc8ad9d039b4385afdce0e",
+    "polar_angle\\integer_reference\\integer_weights.npz": "5d54385bdf89430b7a460198b7f93b5d93feb08c30c81b32762501f8647e9f50",
+    "polar_angle\\integer_reference\\quantization.json": "46a5e56c5a136e8892c7c0e90efae3af8523c625a282d186b0df027d9cdf64ba",
+    "polar_angle\\integer_reference\\polar_weights_q8.h": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d",
+    "polar_angle\\integer_reference\\validation_evaluation.json": "3bc744acebabc7a8ddaf43a22e5f2c018d1a6d3a723c41336f3f35ffa91c5fb7",
+    "polar_angle\\integer_reference\\validation_predictions.jsonl": "f553d3720677aa82daec0f56424820d0c17f8c307220a239e1faeafa944d7648"
+  },
+  "independent_scalar_convolution_outputs": 22680,
+  "independent_scalar_MAC": 1067040,
+  "signed_RNE_edge_tie_cases": 2556,
+  "train_only_scale_calibration_images": 164,
+  "G_summary": {
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 5.8510402211786365,
+      "median": 1.8782013803939321,
+      "p90": 5.4185195665379355
+    },
+    "within5": 43,
+    "within10": 48,
+    "full": 50,
+    "accepted": 40,
+    "accepted_over10": 1,
+    "negative_accepted": 0
+  },
+  "Q6_input_clip_counts": [
+    0,
+    19
+  ],
+  "Q6_input_elements": 339840,
+  "weights_bias_bytes": 1072,
+  "scope": "Only selected needle convolution is integer. Frozen run002 hub, native-HDMI ROI/polar bilinear frontend, sigmoid/centroid decoding and native256SIFT readout pose remain floating PC.",
+  "missing_before_MCU": [
+    "Joint integer hub and needle with actual ROI",
+    "Fixed-point polar sampling/contrast and U8 sigmoid/centroid equivalence",
+    "128ROI-compatible static reference orientation, no native720p256SIFT assumption",
+    "Actual firmware link memory, execution timing and resource effects"
+  ],
+  "test_H_or_ABC_opened": false,
+  "optimizer_steps": 0,
+  "hardware_actions": false
+}

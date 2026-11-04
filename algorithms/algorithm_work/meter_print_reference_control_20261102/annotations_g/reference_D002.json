@@ -1,0 +1,82 @@
+{
+  "id": "D_002",
+  "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+  "roi_request": {
+    "x0": 216,
+    "y0": 31,
+    "stride": 4,
+    "radius": 62,
+    "span": 512,
+    "proxy_diameter": 504,
+    "hardware_policy_available": true,
+    "hardware_policy_analysis_only": true,
+    "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+  },
+  "anchors": {
+    "outer_psi_10_text_centroid": {
+      "native_xy": [
+        444.53125,
+        111.20724346076459
+      ],
+      "roi_xy": [
+        56.7578125,
+        19.676810865191147
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 4,
+      "within_roi_pixel_center_bounds": true
+    },
+    "lower_striped_ball_print_centroid": {
+      "native_xy": [
+        488.203125,
+        392.66599597585514
+      ],
+      "roi_xy": [
+        67.67578125,
+        90.04149899396378
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 4,
+      "within_roi_pixel_center_bounds": true
+    }
+  },
+  "accepted": true,
+  "public_zero_reference": "annotations_train final D_002 row; no pressure-based selection",
+  "anchor_semantics": [
+    "outer_psi_10_text_centroid",
+    "lower_striped_ball_print_centroid"
+  ],
+  "top_native_xy": [
+    444.53125,
+    111.20724346076459
+  ],
+  "bottom_native_xy": [
+    488.203125,
+    392.66599597585514
+  ],
+  "absolute_image_print_axis_angle_deg": 261.1801688874533,
+  "independent_check_view_xy": {
+    "top": [
+      228,
+      84
+    ],
+    "bottom": [
+      270,
+      359
+    ]
+  },
+  "public_reference_view_xy": {
+    "top": [
+      226,
+      82
+    ],
+    "bottom": [
+      269,
+      359
+    ]
+  },
+  "independent_check_max_native_difference_px": 2.873288290060416,
+  "uncertainty_native_px_each": 4,
+  "reference_is_absolute_upright_or_camera_yaw": false,
+  "non_blind_ai_diagnostic_not_human_gold": true
+}

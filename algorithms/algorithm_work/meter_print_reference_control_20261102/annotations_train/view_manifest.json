@@ -1,0 +1,1309 @@
+{
+  "status": "48_ID_ONLY_NATIVE_FACE_VIEWS_FOR_VISUAL_PRINT_REFERENCE_ANNOTATION",
+  "selection": "D/E/F target_present condition_slot1or2,16pergroup; no pressure/image model score selection",
+  "source_prepared_sha256": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+  "code_sha256": "5627c71384ba374d6d4b22848a99215ef5c6e65f2f80527268f4bc5d7b5ca19c",
+  "records": [
+    {
+      "id": "D_001",
+      "source_group": "D",
+      "source_sha256": "dd07d871c18745d409486f194d343e7b651a458f2d93ec287c0de49bb7278644",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00011842_1793538173127938700_e56c3d.png",
+      "native_crop_xyxy": [
+        337,
+        97,
+        651,
+        411
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        512
+      ],
+      "display_offset": [
+        0,
+        0
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_001.png",
+      "view_sha256": "b73cc920d336e73ed353cee688735cd33ed1d680b8ff4c42f2d822b3185de2d7"
+    },
+    {
+      "id": "D_002",
+      "source_group": "D",
+      "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00012957_1793538210295979300_b95e38.png",
+      "native_crop_xyxy": [
+        215,
+        35,
+        735,
+        540
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        497
+      ],
+      "display_offset": [
+        0,
+        7
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_002.png",
+      "view_sha256": "a6d3fec77f234840a5baf72838d0ab19072b0070c5578339fe217f40ccaf87f2"
+    },
+    {
+      "id": "D_007",
+      "source_group": "D",
+      "source_sha256": "106fc28259ce33b0a5e12ee5a3134624c1fa1b146d53c4a1880a7c5fcd2514b3",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00014715_1793538268895889700_a63765.png",
+      "native_crop_xyxy": [
+        319,
+        90,
+        656,
+        423
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        506
+      ],
+      "display_offset": [
+        0,
+        3
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_007.png",
+      "view_sha256": "17496eef480c6119b0f3bb230c63de950eb42c8ccbb2ea3755d53239c9871c92"
+    },
+    {
+      "id": "D_008",
+      "source_group": "D",
+      "source_sha256": "534a5596bac89f7e8eaa0935a7589f08fcf2c807035120f59156d5c4e042b047",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00014824_1793538272530547900_a30932.png",
+      "native_crop_xyxy": [
+        226,
+        29,
+        742,
+        534
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_008.png",
+      "view_sha256": "96c7b1829f5f3ac197334d1535e31c800c7b75a3bbbc43ea736faa283e4d17a1"
+    },
+    {
+      "id": "D_013",
+      "source_group": "D",
+      "source_sha256": "e4faf9de936f4300e9173573bd0fdb22fdd2953815644aaca5b76f46a2fe076b",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00016458_1793538326996490600_d5a04e.png",
+      "native_crop_xyxy": [
+        264,
+        100,
+        596,
+        425
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_013.png",
+      "view_sha256": "dfcfde9aac8e54745565c185b41a881e3a700d62064ffd39d2279c0155359dd2"
+    },
+    {
+      "id": "D_014",
+      "source_group": "D",
+      "source_sha256": "998d46999232b8309f14e5ef33bd5729b9c0dda79d05c2852aa1f2c1817316af",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00016597_1793538331629489600_c46aa9.png",
+      "native_crop_xyxy": [
+        257,
+        49,
+        736,
+        513
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        496
+      ],
+      "display_offset": [
+        0,
+        8
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_014.png",
+      "view_sha256": "be435cd9fb8b99e9dde680c78b573be7bc6ae0c048dd9fc551362f40485255bd"
+    },
+    {
+      "id": "D_019",
+      "source_group": "D",
+      "source_sha256": "57ffedecd06d33c99d8e1b137325dec7cd49469983a59ebd83f2b17727e1c2dd",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00017874_1793538374196203400_1d990e.png",
+      "native_crop_xyxy": [
+        322,
+        104,
+        636,
+        411
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_019.png",
+      "view_sha256": "f7f51cbc3b9f6ba7a9f504845936ae2a26864e95a7a2a3d82061633a81ab06e9"
+    },
+    {
+      "id": "D_020",
+      "source_group": "D",
+      "source_sha256": "5e163d2b9983baf9ca5942710eee66a119b35a4e71c755b7f0e43383bcc37cd7",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00018009_1793538378697293300_63fee3.png",
+      "native_crop_xyxy": [
+        220,
+        45,
+        714,
+        526
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        499
+      ],
+      "display_offset": [
+        0,
+        6
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_020.png",
+      "view_sha256": "b27ee0cd7e3176a6ea816d7b598a70c7fe9ceee4fd24f93f72592fd987fedc4f"
+    },
+    {
+      "id": "D_025",
+      "source_group": "D",
+      "source_sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00019280_1793538421065586200_f1f821.png",
+      "native_crop_xyxy": [
+        336,
+        91,
+        679,
+        428
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        503
+      ],
+      "display_offset": [
+        0,
+        4
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_025.png",
+      "view_sha256": "e727e922cec04a20b13baa8c3a96643bd259e4989de1ceb117f6b0ed5b535cf5"
+    },
+    {
+      "id": "D_026",
+      "source_group": "D",
+      "source_sha256": "7af1be8a47b9e80fafac495f10d5f882662ad4de2bf97b789f5df2ac917f866d",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00019366_1793538423931243500_21a5dc.png",
+      "native_crop_xyxy": [
+        266,
+        33,
+        773,
+        529
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_026.png",
+      "view_sha256": "844e3a0c0ea67b5b0dc8782c17a00c7a941b3ba774996f28fcf64a45bb2250b5"
+    },
+    {
+      "id": "D_031",
+      "source_group": "D",
+      "source_sha256": "289e4a80569fc0c74cc27a7e1b9d40de64050d37b644ba5ac41136346464e755",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00020724_1793538469198257700_51fb96.png",
+      "native_crop_xyxy": [
+        379,
+        100,
+        687,
+        401
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        500
+      ],
+      "display_offset": [
+        0,
+        6
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_031.png",
+      "view_sha256": "f7895d458234d73254c72c248b900326dbe074caaa5381b9b56b7cc7b3a8545d"
+    },
+    {
+      "id": "D_032",
+      "source_group": "D",
+      "source_sha256": "41740742d5933ebec6f6ca62f4016c7245b6b0b600338f3685bcef49f0cfca4c",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00020892_1793538474798166500_8397a9.png",
+      "native_crop_xyxy": [
+        281,
+        42,
+        784,
+        531
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        498
+      ],
+      "display_offset": [
+        0,
+        7
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_032.png",
+      "view_sha256": "46b6a922f4a7fd5f53240296f2040a2e3e59a822134e0ecff29ad18f34e84ebc"
+    },
+    {
+      "id": "D_037",
+      "source_group": "D",
+      "source_sha256": "b20bf438e3cecee76dd92aca29b80cae6418b694ed8cb87d54e2c00b92f70a7e",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00022793_1793538538165757800_6037c8.png",
+      "native_crop_xyxy": [
+        356,
+        92,
+        710,
+        438
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        500
+      ],
+      "display_offset": [
+        0,
+        6
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_037.png",
+      "view_sha256": "97ca62cbeabad9410db256c2c372436867560c4003c89973c9ea267ddaa968f2"
+    },
+    {
+      "id": "D_038",
+      "source_group": "D",
+      "source_sha256": "f51d8d4996b6019e34c2ec5136f2a918147db82369c378ac955b9a6e8436e6aa",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00023466_1793538560600962600_fd2911.png",
+      "native_crop_xyxy": [
+        227,
+        32,
+        809,
+        596
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        496
+      ],
+      "display_offset": [
+        0,
+        8
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_038.png",
+      "view_sha256": "1ae719d496229ddaee7f0bd66fd0c4a786e5ce484cea98cb4e93aa3e70d97901"
+    },
+    {
+      "id": "D_043",
+      "source_group": "D",
+      "source_sha256": "fc855c474b55ee876bbddee6d5d832075ac81429cf2762f9fc9fbf1748f4aef6",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00024670_1793538600734393000_a590b1.png",
+      "native_crop_xyxy": [
+        365,
+        132,
+        669,
+        430
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        502
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_043.png",
+      "view_sha256": "878d8963515fb5552284c2d80920a51302ea44078d1b5d98c45bb4bfe02c8cbc"
+    },
+    {
+      "id": "D_044",
+      "source_group": "D",
+      "source_sha256": "b1b4715326af622c3cf64964655e9b72819eb9f7aaccedbc8026ee76dc06821c",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00024815_1793538605567705800_65fc46.png",
+      "native_crop_xyxy": [
+        189,
+        87,
+        712,
+        599
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/D_044.png",
+      "view_sha256": "1564d91545aa130ff4388a43ee924e0b1203a3b33de847d45df34e0836e8a498"
+    },
+    {
+      "id": "E_001",
+      "source_group": "E",
+      "source_sha256": "7a080d113408403cbd9859ad7625e9c17636b26141f3498c313999f690c23d02",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00009998_1793539135788384700_737da2.png",
+      "native_crop_xyxy": [
+        330,
+        82,
+        682,
+        427
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        502
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_001.png",
+      "view_sha256": "114abb43f78c75f7fac182176e6ce84f996f1af8676df52be79520f96bb7476c"
+    },
+    {
+      "id": "E_002",
+      "source_group": "E",
+      "source_sha256": "f9d1d9c6a5f5a9972c10ce558e0476d09e873ce97c04f7925839428d2f0e124d",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00010124_1793539139987814100_714814.png",
+      "native_crop_xyxy": [
+        205,
+        36,
+        704,
+        524
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_002.png",
+      "view_sha256": "e517852643b6ef6d746211a85d181ec5f2c2655f6f192988fba641eaf8513b9c"
+    },
+    {
+      "id": "E_007",
+      "source_group": "E",
+      "source_sha256": "faa7ca7bb7c7f7c53d81cc20ff6faf9a9c019d7dd7a4527fa707cb368a38e58f",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00013866_1793539264722714600_f84008.png",
+      "native_crop_xyxy": [
+        311,
+        100,
+        622,
+        405
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        502
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_007.png",
+      "view_sha256": "a64ba850ee0c20b402f814d49b948f267b5e9c76f2db42f94a09091b4b67e291"
+    },
+    {
+      "id": "E_008",
+      "source_group": "E",
+      "source_sha256": "4cf0b6b0c0414d8a598d4e7981816d48d350455516a0b4affd691257eb2a19f9",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00013939_1793539267155557300_55e12e.png",
+      "native_crop_xyxy": [
+        232,
+        48,
+        691,
+        498
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        502
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_008.png",
+      "view_sha256": "a58553040601181b24aba3dd3225c5f535d7d6ba7b635a0fac2f399941b880b5"
+    },
+    {
+      "id": "E_013",
+      "source_group": "E",
+      "source_sha256": "0735b3b0f6f8c3a626a922ebf4a52c2496786eda05072709fe6838423cd5e1ec",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00015133_1793539306956457400_5cff66.png",
+      "native_crop_xyxy": [
+        307,
+        84,
+        675,
+        444
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_013.png",
+      "view_sha256": "fe73c7a23bee751229604114f90e02336b23a08170e41d87fc704f78e178157f"
+    },
+    {
+      "id": "E_014",
+      "source_group": "E",
+      "source_sha256": "53b0397abeb75d6d73967d25de4841cc49da0a7badf750e68faf06698f8209e7",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00015243_1793539310623578900_8888e5.png",
+      "native_crop_xyxy": [
+        211,
+        30,
+        753,
+        556
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        497
+      ],
+      "display_offset": [
+        0,
+        7
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_014.png",
+      "view_sha256": "51db62d8133719acd2c3189de0204a7236daff605033b1dde67365873a3a7389"
+    },
+    {
+      "id": "E_019",
+      "source_group": "E",
+      "source_sha256": "c0f10b3fb2a7aaac94572e94b219a080c7779c4604238565e43ce3437766ef65",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00016532_1793539353589647200_c65877.png",
+      "native_crop_xyxy": [
+        315,
+        105,
+        637,
+        420
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_019.png",
+      "view_sha256": "2c5f88c27cb0da01c62ce92963de548ae3b0c015199dfa62c2247914e72192a0"
+    },
+    {
+      "id": "E_020",
+      "source_group": "E",
+      "source_sha256": "d8a65a50a2886f0e6c026504523f76f7e9b1a5a45f48afffefc51f27f0ea36a7",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00016669_1793539358156747200_e82517.png",
+      "native_crop_xyxy": [
+        186,
+        45,
+        696,
+        545
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        502
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_020.png",
+      "view_sha256": "3d50f1eac451311772f92199faf418d1feed60f8c26671a9ad43cdc72509cadb"
+    },
+    {
+      "id": "E_024",
+      "source_group": "E",
+      "source_sha256": "56054d17030c9cdf182b0ceaebf3ce6c62ec5f6d7a806f6a27b2c0c7a9d6862c",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00018151_1793539407557494800_8fd27d.png",
+      "native_crop_xyxy": [
+        345,
+        95,
+        681,
+        424
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_024.png",
+      "view_sha256": "eb8fdda20c92fe026c90a52446c39843de2cdcc7a2d079af1f1c9949c36b3c56"
+    },
+    {
+      "id": "E_025",
+      "source_group": "E",
+      "source_sha256": "af7f11d60461ad3f3c565003d2e71d001ab3a5c32e6d795bcf739e42eb283626",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00018278_1793539411790852700_f068bd.png",
+      "native_crop_xyxy": [
+        212,
+        40,
+        771,
+        579
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        494
+      ],
+      "display_offset": [
+        0,
+        9
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_025.png",
+      "view_sha256": "cfad5feb2b1bd66dc4a206395b7114079f9c5c2377119c47825683d20c6d9678"
+    },
+    {
+      "id": "E_030",
+      "source_group": "E",
+      "source_sha256": "e180103693c7d7df96091073c285b3a9b97d45d8a62298f203bad9fa5ee4e31c",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00019727_1793539460095336600_9bea53.png",
+      "native_crop_xyxy": [
+        353,
+        108,
+        659,
+        408
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        502
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_030.png",
+      "view_sha256": "f9dbbc6276a4c962d06aebebd449f22a7a7d96553bb2864ee836a9591afe041e"
+    },
+    {
+      "id": "E_031",
+      "source_group": "E",
+      "source_sha256": "04c6ba19d7c8ef6b36fec6d9705e840761cae2bc74e3f0e1264ba2f676ef43a2",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00019960_1793539467857522200_dee8ae.png",
+      "native_crop_xyxy": [
+        267,
+        52,
+        746,
+        521
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_031.png",
+      "view_sha256": "a60144c715f1ae8cb0cee0f0edfdf2883900b5edbbbc9ba4ebfca4b38269a88d"
+    },
+    {
+      "id": "E_036",
+      "source_group": "E",
+      "source_sha256": "b4778ea6ab65a0ac9b57c27107547bced6b15b5e425a60a42308e8d637e5f80f",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00023832_1793539596926745400_ddb57a.png",
+      "native_crop_xyxy": [
+        318,
+        86,
+        698,
+        457
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        500
+      ],
+      "display_offset": [
+        0,
+        6
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_036.png",
+      "view_sha256": "a807af0b4e0050c4bbc426ec714c8fd184ed6b64620cc3a9c25937cb9f8050fc"
+    },
+    {
+      "id": "E_037",
+      "source_group": "E",
+      "source_sha256": "6d9db2f7dd17f47670fce83a6f8ad7b1d2882aadf2eb01f5446a5790289a1eb9",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00023984_1793539601992954900_f770a2.png",
+      "native_crop_xyxy": [
+        214,
+        49,
+        734,
+        554
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        497
+      ],
+      "display_offset": [
+        0,
+        7
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_037.png",
+      "view_sha256": "35f1326459b6fd2fdaa8eb32e3ac1a71a4731d337848e024a71fb64854c5fa0d"
+    },
+    {
+      "id": "E_042",
+      "source_group": "E",
+      "source_sha256": "f1c7788a53a27a491738e76cc9b11030f42257bd20e6d5fb6c60fc551b9b45e4",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\snapshot_00025097_1793539639093679000_2d443f.png",
+      "native_crop_xyxy": [
+        228,
+        68,
+        786,
+        618
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        505
+      ],
+      "display_offset": [
+        0,
+        3
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_042.png",
+      "view_sha256": "8aebe1f9f71b612a3a97e5192519dfda2da7d61348579487efa134c4ba300407"
+    },
+    {
+      "id": "E_059",
+      "source_group": "E",
+      "source_sha256": "597f928e0234e6691706cbb03221db404feb7c4483c3da3e0183848af621b18c",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\E\\补拍2.5psi第一张.png",
+      "native_crop_xyxy": [
+        397,
+        116,
+        722,
+        433
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        499
+      ],
+      "display_offset": [
+        0,
+        6
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/E_059.png",
+      "view_sha256": "0512be3cd4a2f6340553fa56e5b11f304ef85c77067ecb21473f1680054f1b8f"
+    },
+    {
+      "id": "F_001",
+      "source_group": "F",
+      "source_sha256": "a9486ff997f176f20db398d3c14bf5f1bbc4d0f071ddd72535c612d059204b3c",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00012897_1793547140139696200_de0aea.png",
+      "native_crop_xyxy": [
+        338,
+        273,
+        619,
+        542
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        490
+      ],
+      "display_offset": [
+        0,
+        11
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_001.png",
+      "view_sha256": "4a0b0f74c5606029214a6c1617f14c8ed7fa7c662f05c5ff192502618d4fc02d"
+    },
+    {
+      "id": "F_002",
+      "source_group": "F",
+      "source_sha256": "f2749c4aa4e2904024d1b195b2bd863e11daea07721c3a9f1179237f51157b9f",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00012983_1793547143005874300_145ff1.png",
+      "native_crop_xyxy": [
+        194,
+        311,
+        600,
+        695
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        484
+      ],
+      "display_offset": [
+        0,
+        14
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_002.png",
+      "view_sha256": "c31839da09e377f2892db700bc567d56fceef17135c069f2ed6077690c67b50a"
+    },
+    {
+      "id": "F_007",
+      "source_group": "F",
+      "source_sha256": "972a8c14d030708f6309628d883dbf8724db9cab36f0bc7795150e50f5f89bc8",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00017143_1793547281674140200_f27515.png",
+      "native_crop_xyxy": [
+        321,
+        273,
+        602,
+        545
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        496
+      ],
+      "display_offset": [
+        0,
+        8
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_007.png",
+      "view_sha256": "01c9694a169118789f2775bb54e5c47b0d894fa63c37b9901fe61977c2a6c931"
+    },
+    {
+      "id": "F_008",
+      "source_group": "F",
+      "source_sha256": "9c3973a7a68cfdde2874eb26d7914d48274c524fc4df7f2dc92c5bc8c3376c32",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00017230_1793547284574735600_fa7e83.png",
+      "native_crop_xyxy": [
+        127,
+        329,
+        575,
+        720
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        447
+      ],
+      "display_offset": [
+        0,
+        32
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_008.png",
+      "view_sha256": "1169de5088565edc9cc2b818aa0e217641304ae88584f4dabdc6bdac0c5c335e"
+    },
+    {
+      "id": "F_013",
+      "source_group": "F",
+      "source_sha256": "5ae28dc41b193e13c78951c33614455532da9cab3ccc1cf6716a7542e927e5bc",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00019055_1793547345409752900_ce19e5.png",
+      "native_crop_xyxy": [
+        314,
+        280,
+        608,
+        565
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        496
+      ],
+      "display_offset": [
+        0,
+        8
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_013.png",
+      "view_sha256": "ebc1dcd18cfbc98f48d707fb946ddc2b4e057d6fac6910fe0ed1725de28a2612"
+    },
+    {
+      "id": "F_014",
+      "source_group": "F",
+      "source_sha256": "a87397bbe76f4c1caf05be9504411a005f8a23e469e9b608d9347359f209a030",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00019190_1793547349909631100_818629.png",
+      "native_crop_xyxy": [
+        263,
+        318,
+        665,
+        708
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        497
+      ],
+      "display_offset": [
+        0,
+        7
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_014.png",
+      "view_sha256": "989b98050ad83fe859b57f3f7d1fee0d6f29b8b9094f7749a35460af0e3bb1c1"
+    },
+    {
+      "id": "F_019",
+      "source_group": "F",
+      "source_sha256": "16644ccd5e969677734ec247c2530673b95b97ea6bdefdbdf214e9370ed73fdd",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00021293_1793547420013287500_54a133.png",
+      "native_crop_xyxy": [
+        307,
+        288,
+        614,
+        580
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        487
+      ],
+      "display_offset": [
+        0,
+        12
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_019.png",
+      "view_sha256": "7bd30c8c70974821a8d62adf27691835fc61988924b8888a0bd303b387c491b4"
+    },
+    {
+      "id": "F_020",
+      "source_group": "F",
+      "source_sha256": "00667f3cc5837a12923cc8427058fba8db7ab5ae34e7890c0493e9ace4939c6a",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00021441_1793547424946794600_ef7b7e.png",
+      "native_crop_xyxy": [
+        293,
+        321,
+        711,
+        720
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        489
+      ],
+      "display_offset": [
+        0,
+        11
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_020.png",
+      "view_sha256": "0c515f2b217b11e29054c4c09f226c0b793f0258c5ebb2e31bbdd4ac41f22f8b"
+    },
+    {
+      "id": "F_025",
+      "source_group": "F",
+      "source_sha256": "2ecc4e16800b28063af664563d16208a214ed04731d7eaeab57630e1c04b18f3",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00024102_1793547513644988100_dd64eb.png",
+      "native_crop_xyxy": [
+        290,
+        284,
+        592,
+        576
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        495
+      ],
+      "display_offset": [
+        0,
+        8
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_025.png",
+      "view_sha256": "f344b563f27748a2abe515fc740ed5691e35b721384fcb2569b7a59546845909"
+    },
+    {
+      "id": "F_026",
+      "source_group": "F",
+      "source_sha256": "c9aa65c1f7221e553efb11fa10c88becb6510984159b1d4e9b75ae13417f11ad",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00024216_1793547517445768600_02dcbb.png",
+      "native_crop_xyxy": [
+        227,
+        350,
+        703,
+        720
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        398
+      ],
+      "display_offset": [
+        0,
+        57
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_026.png",
+      "view_sha256": "23386cd2ad842b1646d94b5ad05d63b771e8f1ebd2dc0b9aceddb8e2b79f7dbd"
+    },
+    {
+      "id": "F_031",
+      "source_group": "F",
+      "source_sha256": "efc8d002e417f533f831e9e56d076967cfde8a4a96c7c94ad234c8687f62258e",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030345_1793547721747717900_754db3.png",
+      "native_crop_xyxy": [
+        212,
+        305,
+        561,
+        640
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        491
+      ],
+      "display_offset": [
+        0,
+        10
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_031.png",
+      "view_sha256": "556c50dd7af0ccab424fa96b0180377d1c69cc5d17c2833e1a4acbbc69884934"
+    },
+    {
+      "id": "F_032",
+      "source_group": "F",
+      "source_sha256": "70b31963640a36e62d2bbc4bddebcefbc251145650d5e417473a5e2c988b036b",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00030425_1793547724414307900_dafa1b.png",
+      "native_crop_xyxy": [
+        210,
+        138,
+        733,
+        636
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        488
+      ],
+      "display_offset": [
+        0,
+        12
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_032.png",
+      "view_sha256": "f9ed06943446d88a3eee7f33e49370b975359f5b094a9a60f5fe88b1e475bfd3"
+    },
+    {
+      "id": "F_037",
+      "source_group": "F",
+      "source_sha256": "e135034a76816aec1dacfe1daff2ebe5b7e6abe369ef9599be6118fb843707c1",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00031814_1793547770714921200_4c12da.png",
+      "native_crop_xyxy": [
+        298,
+        281,
+        627,
+        596
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        490
+      ],
+      "display_offset": [
+        0,
+        11
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_037.png",
+      "view_sha256": "b6d46c831b6c267ad533c6bf4bc2e3245cebf94509b620011e2110c2dd52558f"
+    },
+    {
+      "id": "F_038",
+      "source_group": "F",
+      "source_sha256": "c19b3dea76117aa4cffe0e3117328e0e06ae4b1bfc6b77483c0545f7a587715f",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00031936_1793547774781841100_408468.png",
+      "native_crop_xyxy": [
+        243,
+        154,
+        720,
+        609
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        488
+      ],
+      "display_offset": [
+        0,
+        12
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_038.png",
+      "view_sha256": "19e537dded85b7aeef1db0d4396b10773899f1c2dcd68fa61564ac8aebcf3d9e"
+    },
+    {
+      "id": "F_043",
+      "source_group": "F",
+      "source_sha256": "2d3e89c978e1ce8effb5229d384f194f955639e23e3837ac19f3d33e03abd2af",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00033557_1793547828814243100_36a34f.png",
+      "native_crop_xyxy": [
+        327,
+        200,
+        656,
+        522
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        501
+      ],
+      "display_offset": [
+        0,
+        5
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_043.png",
+      "view_sha256": "3272b32d6472f80dc44f9ae8d33b6b75b8153bdab6fdf3e0472e45aaa75e4666"
+    },
+    {
+      "id": "F_044",
+      "source_group": "F",
+      "source_sha256": "07fbdc2db49b87e0dca05840d2bd40d18b839b4231c51995b66cbee75c4c9bed",
+      "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\F\\snapshot_00033644_1793547831714417700_83b1d8.png",
+      "native_crop_xyxy": [
+        252,
+        126,
+        736,
+        597
+      ],
+      "display_shape": [
+        512,
+        512
+      ],
+      "resized_native_crop_size": [
+        512,
+        498
+      ],
+      "display_offset": [
+        0,
+        7
+      ],
+      "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+      "view_file": "views/F_044.png",
+      "view_sha256": "2da9afe6165c11919e7dd7dded7e57c2e90a5ab23c7af3fb8dc076352e54c4f5"
+    }
+  ],
+  "no_existing_axis_needle_registration_or_pressure_displayed": true,
+  "ABC_H_opened": false,
+  "original_images_modified": false,
+  "execution_code_sha256_before_documentation_correction": "f751ce4e27699b962fa3e74fd589ae5352f14a001bc311eef71f4f709b269f5d",
+  "documentation_only_adjustment": "Generator docstring blinded replaced by metadata-masked; image-generation operations and all48 view pixels unchanged, not genuinely blind"
+}

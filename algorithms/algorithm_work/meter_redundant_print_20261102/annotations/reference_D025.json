@@ -1,0 +1,184 @@
+{
+  "id": "D_025",
+  "source_sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+  "anchors": {
+    "outer_psi_5_text_centroid": {
+      "native_xy": [
+        392.2734375,
+        240.4055666003976
+      ],
+      "roi_xy": [
+        26.424479166666668,
+        57.46852220013253
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 3,
+      "uncertainty_is_certified_bound": false,
+      "reason": "Point center is visible in static printed structure; template context still requires finite crop review.",
+      "template_usable": true,
+      "within_roi_pixel_center_bounds": true,
+      "manually_read_view_xy": [
+        84,
+        227
+      ]
+    },
+    "outer_psi_10_text_centroid": {
+      "native_xy": [
+        484.72265625,
+        139.90854870775348
+      ],
+      "roi_xy": [
+        57.240885416666664,
+        23.969516235917826
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 3,
+      "uncertainty_is_certified_bound": false,
+      "reason": "Point center is visible in static printed structure; template context still requires finite crop review.",
+      "template_usable": true,
+      "within_roi_pixel_center_bounds": true,
+      "manually_read_view_xy": [
+        222,
+        77
+      ]
+    },
+    "outer_psi_15_text_centroid": {
+      "native_xy": [
+        608.658203125,
+        191.49701789264412
+      ],
+      "roi_xy": [
+        98.552734375,
+        41.165672630881375
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 3,
+      "uncertainty_is_certified_bound": false,
+      "reason": "Point center is visible in static printed structure; template context still requires finite crop review.",
+      "template_usable": true,
+      "within_roi_pixel_center_bounds": true,
+      "manually_read_view_xy": [
+        407,
+        154
+      ]
+    },
+    "upper_basketball_logo_centroid": {
+      "native_xy": [
+        503.48046875,
+        219.6361829025845
+      ],
+      "roi_xy": [
+        63.493489583333336,
+        50.545394300861496
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 3,
+      "uncertainty_is_certified_bound": false,
+      "reason": "Point center is visible in static printed structure; template context still requires finite crop review.",
+      "template_usable": true,
+      "within_roi_pixel_center_bounds": true,
+      "manually_read_view_xy": [
+        250,
+        196
+      ]
+    },
+    "middle_soccer_logo_centroid": {
+      "native_xy": [
+        514.869140625,
+        290.6540755467197
+      ],
+      "roi_xy": [
+        67.28971354166667,
+        74.2180251822399
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 3,
+      "uncertainty_is_certified_bound": false,
+      "reason": "Point center is visible in static printed structure; template context still requires finite crop review.",
+      "template_usable": true,
+      "within_roi_pixel_center_bounds": true,
+      "manually_read_view_xy": [
+        267,
+        302
+      ]
+    },
+    "lower_striped_ball_print_centroid": {
+      "native_xy": [
+        518.888671875,
+        324.1530815109344
+      ],
+      "roi_xy": [
+        68.62955729166667,
+        85.3843605036448
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 3,
+      "uncertainty_is_certified_bound": false,
+      "reason": "Point center is visible in static printed structure; template context still requires finite crop review.",
+      "template_usable": true,
+      "within_roi_pixel_center_bounds": true,
+      "manually_read_view_xy": [
+        273,
+        352
+      ]
+    }
+  },
+  "roi_request": {
+    "x0": 312,
+    "y0": 67,
+    "stride": 3,
+    "radius": 55,
+    "span": 384,
+    "proxy_diameter": 327,
+    "hardware_policy_available": true,
+    "hardware_policy_analysis_only": false,
+    "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+  },
+  "semantic_names_frozen": [
+    "outer_psi_5_text_centroid",
+    "outer_psi_10_text_centroid",
+    "outer_psi_15_text_centroid",
+    "upper_basketball_logo_centroid",
+    "middle_soccer_logo_centroid",
+    "lower_striped_ball_print_centroid"
+  ],
+  "annotation_kind": "AI visual diagnostic, not blind human gold or automatic runtime output",
+  "point_selection_used_pressure_or_predictions": false,
+  "prior_results_seen": true,
+  "view_provenance": {
+    "id": "D_025",
+    "source_group": "D",
+    "source_sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+    "native_image_path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\D\\snapshot_00019280_1793538421065586200_f1f821.png",
+    "native_crop_xyxy": [
+      336,
+      91,
+      679,
+      428
+    ],
+    "display_shape": [
+      512,
+      512
+    ],
+    "resized_native_crop_size": [
+      512,
+      503
+    ],
+    "display_offset": [
+      0,
+      4
+    ],
+    "display_to_native": "native=crop_origin+(display-offset)*native_crop_size/resized_size",
+    "view_file": "views/D_025.png",
+    "view_sha256": "e727e922cec04a20b13baa8c3a96643bd259e4989de1ceb117f6b0ed5b535cf5"
+  },
+  "reference_role": "SOLE_TRAIN_TEMPLATE_SOURCE",
+  "D025_to_D002_alignment_names": [
+    "outer_psi_5_text_centroid",
+    "outer_psi_10_text_centroid",
+    "outer_psi_15_text_centroid",
+    "lower_striped_ball_print_centroid"
+  ],
+  "original_or_canonical_modified": false,
+  "ready_as_training_label": false
+}

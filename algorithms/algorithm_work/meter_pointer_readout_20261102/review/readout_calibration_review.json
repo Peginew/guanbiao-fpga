@@ -1,0 +1,70 @@
+{
+  "status": "PASS_TRAIN_ONLY_CALIBRATION_AND_G_SCORING_PROXY_ONLY",
+  "checks": 675,
+  "failures": [],
+  "calibration_sha256": "d8843a34faa96d20059641a51b94a0edea18be862256d5333e0a2676b37ed3c4",
+  "print_pose_sha256": "ca768d2f711324006ee9104f260087ad84723417ac506687c1c1b945782f174d",
+  "adapter_sha256": "94cd3f241451e239d04d4e71106e539b501bdcc51b1f58af45c3cb9ed8dea92f",
+  "reports": {
+    "baseline_run002_readout.json": {
+      "sha256": "11d0f89433e67845ff08169f4f958c3523198e69ed10711b412bfb7375cf412f",
+      "accepted": 16,
+      "positive_count": 56,
+      "coverage": 0.2857142857142857,
+      "mean_absolute_error_bar": 0.156328488998273,
+      "wrong_over005bar": 8,
+      "negative_false_accepts": 0,
+      "oracle": false
+    },
+    "oracle_visual_angle_diagnostic_readout.json": {
+      "sha256": "a47a6ec4be1f40e4358f1267c7f2338b210a6b8380f2c8e8feda4b908c805700",
+      "accepted": 39,
+      "positive_count": 56,
+      "coverage": 0.6964285714285714,
+      "mean_absolute_error_bar": 0.013630061400945689,
+      "wrong_over005bar": 1,
+      "negative_false_accepts": 0,
+      "oracle": true
+    },
+    "polar_readout.json": {
+      "sha256": "7f62c09e7e8764064f16bced6ac26be5cb42fdda5212062a32e863c66f10ee03",
+      "accepted": 32,
+      "positive_count": 56,
+      "coverage": 0.5714285714285714,
+      "mean_absolute_error_bar": 0.013321264174409717,
+      "wrong_over005bar": 1,
+      "negative_false_accepts": 0,
+      "oracle": false
+    },
+    "polar_integer_conv_readout.json": {
+      "sha256": "425acc9a65f547694ccee0ce646a165d9cf2c30e19e4f4df768317b20eacf280",
+      "accepted": 32,
+      "positive_count": 56,
+      "coverage": 0.5714285714285714,
+      "mean_absolute_error_bar": 0.013410752432305677,
+      "wrong_over005bar": 1,
+      "negative_false_accepts": 0,
+      "oracle": false
+    },
+    "candidate_A_readout.json": {
+      "sha256": "2a182c80d17d064363ca329eee6d694b633cacf1cf42711daeb07afd952f9bc2",
+      "accepted": 13,
+      "positive_count": 56,
+      "coverage": 0.23214285714285715,
+      "mean_absolute_error_bar": 0.07961589565685968,
+      "wrong_over005bar": 4,
+      "negative_false_accepts": 0,
+      "oracle": false
+    }
+  },
+  "guarantees": "Train pressure never inverted to needle labels; G pressure not used by prediction/pose/acceptance; oracle outputs explicitly separated; same calibration across candidates",
+  "limitations": [
+    "Offline PC annotated-bbox and HDMI gray proxies only; no actual MCU/Slice implementation claim",
+    "D002 reference mask is fixed setup; query needs no true hub/needle, but physical pose remains uncalibrated",
+    "G repeatedly used development validation; H unopened; negative sample count3 cannot certify FAR",
+    "Empirical psi-to-bar fit does not change board existing0..0.51TEST calibration; pressure instrument precision unknown"
+  ],
+  "H_or_ABC_opened": false,
+  "optimizer_steps": 0,
+  "hardware_actions": false
+}

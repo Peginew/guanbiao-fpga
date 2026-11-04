@@ -1,0 +1,61 @@
+{
+  "status": "PC_READOUT_ADAPTER_COMPLETE_AWAIT_COMMON_CANDIDATE_EVALUATION",
+  "calibration_fit_groups": [
+    "D",
+    "E",
+    "F"
+  ],
+  "development_eval_groups": [
+    "G"
+  ],
+  "forbidden_groups_opened": [],
+  "input_schema": {
+    "required": [
+      "id",
+      "angle_deg_image OR angle_deg OR predicted_points_roi",
+      "valid OR evidence_accepted"
+    ],
+    "optional": [
+      "model_name",
+      "score"
+    ],
+    "metadata_only_never_input": [
+      "pressure",
+      "target_points_roi",
+      "keypoints"
+    ]
+  },
+  "output": [
+    "id",
+    "source_sha256",
+    "valid",
+    "bar_estimate",
+    "reason",
+    "angle_deg_image",
+    "print_relative_roll_deg",
+    "reference_angle_deg"
+  ],
+  "pose_query_dependencies": [
+    "native HDMI PNG pixels",
+    "annotated face bbox proxy OR negative false-locator window"
+  ],
+  "pose_query_GT_dependencies": false,
+  "reference": [
+    "D002 train image",
+    "fixed manual reference print mask; needle and counterweight sectors excluded at setup"
+  ],
+  "training_calibration_dependencies": [
+    "train direct bounded visual points",
+    "train static print pose inferred without GT",
+    "user declared psi"
+  ],
+  "pressure_threshold_bar": 0.05,
+  "threshold_is_engineering_goal_not_sensor_precision": true,
+  "production_scope": "Offline PC candidate only; manual-bbox proxy, no hardware/MCU update, no expansion of board0..0.51barTEST",
+  "source_sha256": {
+    "print_pose.py": "ca768d2f711324006ee9104f260087ad84723417ac506687c1c1b945782f174d",
+    "readout_adapter.py": "94cd3f241451e239d04d4e71106e539b501bdcc51b1f58af45c3cb9ed8dea92f",
+    "calibration.json": "d8843a34faa96d20059641a51b94a0edea18be862256d5333e0a2676b37ed3c4",
+    "dependency_checks.json": "25a4b7aae13c1a38cb83260c1bfea82e83250c358871c5a299670e5756cac7ad"
+  }
+}

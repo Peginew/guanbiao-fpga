@@ -1,0 +1,42 @@
+{
+  "date_local": "2026-11-02",
+  "user_request": "Reliable printed reference + existing hub/needle network + independent calibration controls; establish correct reading recovery before model/deployment selection",
+  "scope": "Offline visual-reference replacement experiment, no training or hardware changes",
+  "stage": "P2_EFFECT_DIAGNOSIS_NOT_AUTOMATIC_READER_DEPLOYMENT",
+  "primary_unit": "psi",
+  "frozen_networks": {
+    "hub_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+    "needle_checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "parameters_total": 2211,
+    "all_model_permissions": "UNCHANGED, visual print does not replace hub or needle evidence"
+  },
+  "reference_definition": {
+    "top": "Centroid of outer-scale printed10 text",
+    "bottom": "Centroid of lower striped-ball printed logo",
+    "vector": "Bottom to top, image x-right/y-down, clockwise positive",
+    "zero_reference": "D_002, exactly the same physical anchor definition",
+    "unavailable": "Explicit missing/occluded/ambiguous, never pressure- or needle-derived",
+    "source": "AI visual annotation from original face pixels; no algorithmic pose readouts or pressure used to choose points",
+    "evidence_grade": "Visual diagnostic reference with uncertainty, NOT certified pose ground truth or automatic128ROI inference",
+    "view_limit": "Two-point image direction is not perspective correction or calibrated yaw/pitch"
+  },
+  "data": {
+    "calibration_candidates": "D/E/F, first two planned frontal slots per each6-image pressure block;48images selected before scores",
+    "evaluation": "All59G development images,56gauges and3negatives",
+    "H_and_ABC": "Not used",
+    "canonical_and_originals": "Unchanged; new visual references stored as separate sidecars"
+  },
+  "controls": {
+    "primary_four_cells": ["Old ring + frozen old calibration", "Visual print reference + frozen old calibration", "Old ring + new train-only calibration", "Visual print reference + new train-only calibration"],
+    "matched_calibration_control": "Additionally fit old/new reference calibration on the same admissible DEF observations to separate training-subset changes",
+    "common_evaluation_subset": "Report paired-reference-available subset in addition to all59; never drop missing references from main denominator",
+    "calibration_rule": "Original linear fit of equal-pressure median visual needle-minus-reference angles; PSI support2.5..12 only, no clamping/extrapolation or G fitting",
+    "missing_visual_reference": "Reject, no hidden old-ring fallback in primary four cells"
+  },
+  "metrics": ["Valid and rejected counts by scene", "Correct output coverage at predeclared descriptive0.25/0.5/1psi bands", "PSI MAE/median/max on outputs", "New outputs and withdrawn outputs byID", "New wrong outputs and lost correct outputs at each band", "Reference-label uncertainty and missingness"],
+  "final_user_error_tolerance_set": false,
+  "success_interpretation": "A useful visual-reference substitution may justify future automatic landmark work; it is never itself evidence of automatic128ROI robustness or deployment fit",
+  "stop": "No reliable print evidence or no correct-output benefit: retain old reader, do not change G thresholds/labels by PSI to manufacture gains",
+  "no_actions": ["No new model training", "No integer/RTL deployment work", "No MCU/Flash/download/vehicle action", "No change to concurrent UI/REF projects"],
+  "roles": {"root": "Calibration controls, evaluation, integration", "training_adapter": "48train visual print references", "roi_adapter": "59G visual print references", "training_review": "Independent supervision and replay"}
+}

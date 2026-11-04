@@ -1,0 +1,55 @@
+{
+  "status": "AI_VISUAL_TRAIN_PRINT_SIDECAR_COMPLETE_NOT_GOLD_OR_AUTOMATIC_RESULT",
+  "images": 48,
+  "accepted": 44,
+  "rejected": 4,
+  "groups": {
+    "D": {
+      "images": 16,
+      "accepted": 16
+    },
+    "E": {
+      "images": 16,
+      "accepted": 16
+    },
+    "F": {
+      "images": 16,
+      "accepted": 12
+    }
+  },
+  "source_sha256": {
+    "view_manifest": "42c200aee1714794807bc7f0af3e6c67676f30394f8f84983ba84b4b6aae76e4",
+    "picks": "c98166f4aad85ca0c633e0b05babd77d50fde6b21a4dcde16cf0ac912fe90a62",
+    "exporter": "544dafdef944c5e119eb285883ac03c572604b296bc9cc89e8e1403884f956c0",
+    "annotations": "5c4fc51b636dd8e96de8934d2103ee6a00b5f79f310d197c90efc2c1eb6abfa2",
+    "reference": "394f8afd1ffa6111266fa1171612f665d8a595d52408ab032154cf4cfa693b11"
+  },
+  "reference_id": "D_002",
+  "pressure_or_prediction_metadata_displayed": false,
+  "history_exposure_not_blind": true,
+  "original_images_or_canonical_modified": false,
+  "ABC_H_opened": false,
+  "model_training": false,
+  "calibration_fit_performed": false,
+  "coordinate_transform": "Native crop/resize mapping, no angle/pressure inversion",
+  "actual_visual_review": {
+    "original_ID_only_face_images_viewed": 48,
+    "clean_contact_pages_viewed": 12,
+    "manual_point_QA_contact_pages_viewed": 12,
+    "extra_D002_top_bottom_zoom": true,
+    "QA_coordinate_correction": [
+      "F014 top[258,73]->[261,77],bottom[254,351]->[258,352] from visual crosshair alignment only; no pressure/model score consulted"
+    ],
+    "reference_D002_final_view_points": {
+      "top": [
+        226,
+        82
+      ],
+      "bottom": [
+        269,
+        359
+      ]
+    },
+    "not_a_blinded_or_human_gold_audit": true
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "status": "PASS_COMPLETED_CANDIDATE_RESULTS_REPRODUCED_PC_ONLY",
+  "checks": 134,
+  "failures": [],
+  "candidates": {
+    "A": {
+      "checkpoint_sha256": "bf78cfd1db473fa2bf5584884662d5f03dbbbbdef38830fb6efeb81d0469b01d",
+      "best_step": 1600,
+      "parameters": 1202,
+      "replayed_prediction_max_difference_roi": 0.0,
+      "summary": {
+        "images": 59,
+        "validation_or_training_loss": 1.7838708804203913,
+        "hub_error_roi": {
+          "n": 52,
+          "mean": 2.843459081722265,
+          "median": 1.7608076823476173,
+          "p90": 2.838656991816882
+        },
+        "thin_terminal_error_roi": {
+          "n": 52,
+          "mean": 30.203795505803722,
+          "median": 21.02032937249919,
+          "p90": 67.19239534496569
+        },
+        "hub_error_native": {
+          "n": 52,
+          "mean": 8.83449620215936,
+          "median": 5.1857038494251055,
+          "p90": 10.956137700060594
+        },
+        "thin_terminal_error_native": {
+          "n": 52,
+          "mean": 91.16475944056664,
+          "median": 63.06098811749757,
+          "p90": 190.7209987662929
+        },
+        "angle_error_deg": {
+          "n": 50,
+          "mean": 39.56823166954614,
+          "median": 13.42017370364195,
+          "p90": 114.69534943490461
+        },
+        "bounded_full_point_count": 50,
+        "both_points_within_4roi": 5,
+        "within_5deg": 14,
+        "within_10deg": 19,
+        "approximately_180deg_wrong_direction": 0,
+        "evidence_accepted_full_points": 18,
+        "evidence_coverage": 0.36,
+        "accepted_angle_error_deg": {
+          "n": 18,
+          "mean": 33.4742114956044,
+          "median": 8.843951914427905,
+          "p90": 104.19287725900539
+        },
+        "accepted_over_10deg": 9,
+        "negative_count": 3,
+        "negative_evidence_false_accepts": 0,
+        "fixed_evidence_policy": {
+          "min_sigmoid_peak": 0.3,
+          "min_peak_margin": 0.02,
+          "endpoint_length_roi": [
+            18,
+            65
+          ],
+          "max_hub_center_distance_roi": 20
+        },
+        "pressure_error_computed": false,
+        "end_to_end_READ_or_FAR_claim": false
+      }
+    },
+    "B": {
+      "checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+      "best_step": 200,
+      "needle_parameters": 1009,
+      "frozen_hub_parameters": 1202,
+      "total_runtime_parameter_count": 2211,
+      "replayed_prediction_max_difference_deg": 0.0,
+      "summary": {
+        "images": 59,
+        "selection_loss": 0.7901841493753287,
+        "angle_error_deg": {
+          "n": 50,
+          "mean": 5.820400602674792,
+          "median": 1.8818360397009997,
+          "p90": 5.444272898027498
+        },
+        "within5": 44,
+        "within10": 48,
+        "full": 50,
+        "accepted": 40,
+        "accepted_over10": 1,
+        "negative_count": 3,
+        "negative_accepted": 0
+      },
+      "endpoint": "Direction reference .70R; no true terminal localization claim"
+    }
+  },
+  "selector": "G development focal losses within each fixed candidate, no G bar chooses angles and no H access",
+  "scope": "Candidate B is promising float needle evidence, not accepted deployed MCU reading system",
+  "implementation_gaps": [
+    "New polar bilinear sampling, quantization, integer kernels and MCU memory/timing not yet validated",
+    "Common PC static-print SIFT pose uses native720p crop→256; existing MCU only receives128x128U8ROI, so current pose cannot be assumed directly deployable",
+    "Keep physical angle and pressure/reference calibration separate; no board0..0.51TEST expansion"
+  ],
+  "optimizer_steps_by_reviewer": 0,
+  "H_or_ABC_opened": false,
+  "hardware_actions": false
+}

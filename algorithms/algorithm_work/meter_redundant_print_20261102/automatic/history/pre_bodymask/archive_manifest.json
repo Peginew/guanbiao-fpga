@@ -1,0 +1,13 @@
+{
+  "status": "PRE_G_PROTOTYPE_ARCHIVE_NOT_G_FAILURE",
+  "reason": "TRAIN D025 basketball corner contains adjacent needle context; approved fixed r5 bodymask mathematical correction before any G inference",
+  "G_evaluated": false,
+  "files_sha256": {
+    "static_point_locator.py": "3331de1008a2e95c6172b1ad4caa1a494fa8aeb933b04c970e23589ecb2f0fa2",
+    "setup.json": "03f5bfc30772f5cfcc05c921f4dab92f057e3da7425409ac795b9e99a7574b9f",
+    "config_frozen_before_G.json": "1b70167fc5d3687f9f672f649b534536482c41c833b33a361c7f7020d3e07fda",
+    "train_templates.npz": "71e3e0bbe2825789b52efbaebbeb707f71e89a9add8dbc8cebf5e5487effaf77",
+    "preflight.json": "0f3b3c15cfcdd186172af55250b9cf7ede44b09696b58a20bb229c017da18ad2",
+    "train_patch_contact.png": "a1deca0082b38c1371c7b06a34788ef44bd6faf6a4f541dc8fb4813d243d4b92"
+  }
+}

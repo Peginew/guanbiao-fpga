@@ -1,0 +1,46 @@
+{
+  "id": "D_002",
+  "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+  "anchors": {
+    "outer_psi_10_text_centroid": {
+      "native_xy": [
+        444.53125,
+        111.20724346076459
+      ],
+      "view_xy": [
+        226,
+        82
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 4,
+      "reason": "Center supported by visible printed glyph/contour; larger uncertainty for partial visibility"
+    },
+    "lower_striped_ball_print_centroid": {
+      "native_xy": [
+        488.203125,
+        392.66599597585514
+      ],
+      "view_xy": [
+        269,
+        359
+      ],
+      "visibility": "visible",
+      "uncertainty_native_px": 4,
+      "reason": "Center supported by visible printed glyph/contour; larger uncertainty for partial visibility"
+    }
+  },
+  "accepted": true,
+  "reason": "Two visually supported named static print centers",
+  "reference_id": "D_002",
+  "axis_semantics": "bottom striped-ball center TO top outer10text center",
+  "angle_convention": "Image xright/ydown; atan2(top_y-bottom_y,top_x-bottom_x), clockwise positive",
+  "method": "AI_VISUAL_NATIVE_CROP_METADATA_MASKED_NOT_GENUINELY_BLIND",
+  "point_selection_used_pressure_or_predictions": false,
+  "uncertainty_is_certified_error_bound": false,
+  "human_certified_gold": false,
+  "use": "Visual-reference substitution diagnostic only; not deployed inference/training gold",
+  "view_file": "views/D_002.png",
+  "view_sha256": "a6d3fec77f234840a5baf72838d0ab19072b0070c5578339fe217f40ccaf87f2",
+  "absolute_image_print_axis_angle_deg": 261.1801688874533,
+  "relative_print_roll_deg": 0.0
+}

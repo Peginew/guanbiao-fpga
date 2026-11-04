@@ -1,0 +1,30 @@
+{
+  "status": "PASS_NO_QUERY_GT_METAMORPHIC_CHECKS",
+  "checks": [
+    {
+      "id": "G_001",
+      "query_GT_points_and_pressure_mutation_leaves_pose_unchanged": true,
+      "pose_accepted": true
+    },
+    {
+      "id": "G_018",
+      "query_GT_points_and_pressure_mutation_leaves_pose_unchanged": true,
+      "pose_accepted": true
+    },
+    {
+      "id": "G_050",
+      "query_GT_points_and_pressure_mutation_leaves_pose_unchanged": true,
+      "pose_accepted": false
+    },
+    {
+      "prediction_extra_GT_pressure_or_points_do_not_affect_output": true
+    }
+  ],
+  "source_files": {
+    "print_pose.py": "ca768d2f711324006ee9104f260087ad84723417ac506687c1c1b945782f174d",
+    "readout_adapter.py": "94cd3f241451e239d04d4e71106e539b501bdcc51b1f58af45c3cb9ed8dea92f",
+    "calibration.json": "d8843a34faa96d20059641a51b94a0edea18be862256d5333e0a2676b37ed3c4"
+  },
+  "canonical_changed": false,
+  "H_opened": false
+}

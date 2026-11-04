@@ -1,0 +1,721 @@
+{
+  "status": "COMPLETED_CONDITIONAL_PRINT_REFERENCE_DIAGNOSTIC_NO_AUTOMATIC_READER_ADOPTION",
+  "date_local": "2026-11-02",
+  "primary_unit": "psi",
+  "request": "Reliable printed reference + existing hub/needle + independent calibration controls",
+  "roles": {
+    "root": "Frozen controls and calibration",
+    "training_adapter": "Train48 visual annotations",
+    "roi_adapter": "G59 visual annotations and comparison view",
+    "training_review": "Independent supervision"
+  },
+  "annotations": {
+    "train_images": 48,
+    "train_reference_available": 44,
+    "G_images": 59,
+    "G_reference_available": 46,
+    "certified_gold": false
+  },
+  "calibration": {
+    "new_train_measurements": 43,
+    "matched_train_measurements": 31,
+    "source_groups": [
+      "D",
+      "E",
+      "F"
+    ],
+    "G_fitted": false
+  },
+  "primary_four_cells": {
+    "oldref_oldcal": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 21,
+      "coverage_gauge": 0.375,
+      "valid_reads_with_bounded_both_points": 21,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.15740682142050108,
+      "reading_median_abs_error_psi": 0.12991795921179872,
+      "reading_max_abs_error_psi": 0.45787038715820216,
+      "accurate_accepted_within_tolerance": 21,
+      "wrong_accepted_over_tolerance": 0,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 16,
+        "within_0_5_psi": 21,
+        "within_1_0_psi": 21,
+        "bins": {
+          "up_to_0_25": 16,
+          "over_0_25_to_0_5": 5,
+          "over_0_5_to_1_0": 0,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "ROI128_RING_AMBIGUOUS": 13
+      },
+      "by_scene": {
+        "backlight_or_local_reflection": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 4,
+          "MAE_psi": 0.12824288324251265,
+          "within_bands_psi": {
+            "0.25": 4,
+            "0.5": 4,
+            "1.0": 4
+          }
+        },
+        "challenge_with_gauge": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "empty_background": {
+          "images": 1,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "front_dim": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.17749913952188337,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 5,
+            "1.0": 5
+          }
+        },
+        "front_large_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 4,
+          "MAE_psi": 0.08903251073978113,
+          "within_bands_psi": {
+            "0.25": 4,
+            "0.5": 4,
+            "1.0": 4
+          }
+        },
+        "front_medium_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.1785852678270114,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 5,
+            "1.0": 5
+          }
+        },
+        "mild_left_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 2,
+          "MAE_psi": 0.26150612383640315,
+          "within_bands_psi": {
+            "0.25": 1,
+            "0.5": 2,
+            "1.0": 2
+          }
+        },
+        "mild_right_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 1,
+          "MAE_psi": 0.13300738948406732,
+          "within_bands_psi": {
+            "0.25": 1,
+            "0.5": 1,
+            "1.0": 1
+          }
+        },
+        "non_gauge_circular_or_reflective_object": {
+          "images": 2,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        }
+      },
+      "descriptive_correct_output_coverage": {
+        "0.25": {
+          "correct_outputs": 16,
+          "wrong_numeric_outputs": 5,
+          "denominator": 56
+        },
+        "0.5": {
+          "correct_outputs": 21,
+          "wrong_numeric_outputs": 0,
+          "denominator": 56
+        },
+        "1.0": {
+          "correct_outputs": 21,
+          "wrong_numeric_outputs": 0,
+          "denominator": 56
+        }
+      }
+    },
+    "visualref_oldcal": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 27,
+      "coverage_gauge": 0.48214285714285715,
+      "valid_reads_with_bounded_both_points": 27,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.225113880261288,
+      "reading_median_abs_error_psi": 0.1404255679572195,
+      "reading_max_abs_error_psi": 0.7997682606949272,
+      "accurate_accepted_within_tolerance": 26,
+      "wrong_accepted_over_tolerance": 1,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 17,
+        "within_0_5_psi": 24,
+        "within_1_0_psi": 27,
+        "bins": {
+          "up_to_0_25": 17,
+          "over_0_25_to_0_5": 7,
+          "over_0_5_to_1_0": 3,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 8,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "VISUAL_PRINT_REFERENCE_UNAVAILABLE": 7
+      },
+      "by_scene": {
+        "backlight_or_local_reflection": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 4,
+          "MAE_psi": 0.08639591999949126,
+          "within_bands_psi": {
+            "0.25": 4,
+            "0.5": 4,
+            "1.0": 4
+          }
+        },
+        "challenge_with_gauge": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "empty_background": {
+          "images": 1,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "front_dim": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.20309711708542794,
+          "within_bands_psi": {
+            "0.25": 4,
+            "0.5": 4,
+            "1.0": 5
+          }
+        },
+        "front_large_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 6,
+          "MAE_psi": 0.18579854115241132,
+          "within_bands_psi": {
+            "0.25": 5,
+            "0.5": 5,
+            "1.0": 6
+          }
+        },
+        "front_medium_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 4,
+          "MAE_psi": 0.2722923016127523,
+          "within_bands_psi": {
+            "0.25": 1,
+            "0.5": 4,
+            "1.0": 4
+          }
+        },
+        "mild_left_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 3,
+          "MAE_psi": 0.16693282640022153,
+          "within_bands_psi": {
+            "0.25": 2,
+            "0.5": 3,
+            "1.0": 3
+          }
+        },
+        "mild_right_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.402449313812706,
+          "within_bands_psi": {
+            "0.25": 1,
+            "0.5": 4,
+            "1.0": 5
+          }
+        },
+        "non_gauge_circular_or_reflective_object": {
+          "images": 2,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        }
+      },
+      "descriptive_correct_output_coverage": {
+        "0.25": {
+          "correct_outputs": 17,
+          "wrong_numeric_outputs": 10,
+          "denominator": 56
+        },
+        "0.5": {
+          "correct_outputs": 24,
+          "wrong_numeric_outputs": 3,
+          "denominator": 56
+        },
+        "1.0": {
+          "correct_outputs": 27,
+          "wrong_numeric_outputs": 0,
+          "denominator": 56
+        }
+      }
+    },
+    "oldref_newcal": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 23,
+      "coverage_gauge": 0.4107142857142857,
+      "valid_reads_with_bounded_both_points": 23,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.21548398907815117,
+      "reading_median_abs_error_psi": 0.15647946257290712,
+      "reading_max_abs_error_psi": 0.7274630401378808,
+      "accurate_accepted_within_tolerance": 22,
+      "wrong_accepted_over_tolerance": 1,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 16,
+        "within_0_5_psi": 19,
+        "within_1_0_psi": 23,
+        "bins": {
+          "up_to_0_25": 16,
+          "over_0_25_to_0_5": 3,
+          "over_0_5_to_1_0": 4,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 5,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "ROI128_RING_AMBIGUOUS": 13
+      },
+      "by_scene": {
+        "backlight_or_local_reflection": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.21487935279589188,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 4,
+            "1.0": 5
+          }
+        },
+        "challenge_with_gauge": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "empty_background": {
+          "images": 1,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "front_dim": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.2683669985043394,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 3,
+            "1.0": 5
+          }
+        },
+        "front_large_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 4,
+          "MAE_psi": 0.1512268363788971,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 4,
+            "1.0": 4
+          }
+        },
+        "front_medium_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 6,
+          "MAE_psi": 0.18242672208586055,
+          "within_bands_psi": {
+            "0.25": 5,
+            "0.5": 5,
+            "1.0": 6
+          }
+        },
+        "mild_left_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 2,
+          "MAE_psi": 0.32935436225848846,
+          "within_bands_psi": {
+            "0.25": 1,
+            "0.5": 2,
+            "1.0": 2
+          }
+        },
+        "mild_right_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 1,
+          "MAE_psi": 0.18172358974859115,
+          "within_bands_psi": {
+            "0.25": 1,
+            "0.5": 1,
+            "1.0": 1
+          }
+        },
+        "non_gauge_circular_or_reflective_object": {
+          "images": 2,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        }
+      },
+      "descriptive_correct_output_coverage": {
+        "0.25": {
+          "correct_outputs": 16,
+          "wrong_numeric_outputs": 7,
+          "denominator": 56
+        },
+        "0.5": {
+          "correct_outputs": 19,
+          "wrong_numeric_outputs": 4,
+          "denominator": 56
+        },
+        "1.0": {
+          "correct_outputs": 23,
+          "wrong_numeric_outputs": 0,
+          "denominator": 56
+        }
+      }
+    },
+    "visualref_newcal": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 29,
+      "coverage_gauge": 0.5178571428571429,
+      "valid_reads_with_bounded_both_points": 29,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.2866375743243127,
+      "reading_median_abs_error_psi": 0.18513883248972896,
+      "reading_max_abs_error_psi": 1.0126606906072961,
+      "accurate_accepted_within_tolerance": 26,
+      "wrong_accepted_over_tolerance": 3,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 19,
+        "within_0_5_psi": 23,
+        "within_1_0_psi": 28,
+        "bins": {
+          "up_to_0_25": 19,
+          "over_0_25_to_0_5": 4,
+          "over_0_5_to_1_0": 5,
+          "over_1_0": 1
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 5,
+        "PREDICTED_VALUE_OUTSIDE_TRAIN_PRESSURE_SUPPORT": 1,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "VISUAL_PRINT_REFERENCE_UNAVAILABLE": 7
+      },
+      "by_scene": {
+        "backlight_or_local_reflection": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.2345090793795695,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 4,
+            "1.0": 5
+          }
+        },
+        "challenge_with_gauge": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "empty_background": {
+          "images": 1,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        },
+        "front_dim": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.35124154057752044,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 4,
+            "1.0": 5
+          }
+        },
+        "front_large_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 6,
+          "MAE_psi": 0.21420104638003887,
+          "within_bands_psi": {
+            "0.25": 5,
+            "0.5": 5,
+            "1.0": 6
+          }
+        },
+        "front_medium_soft_light": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.21126980254603184,
+          "within_bands_psi": {
+            "0.25": 4,
+            "0.5": 5,
+            "1.0": 5
+          }
+        },
+        "mild_left_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 3,
+          "MAE_psi": 0.09566386843679038,
+          "within_bands_psi": {
+            "0.25": 3,
+            "0.5": 3,
+            "1.0": 3
+          }
+        },
+        "mild_right_view": {
+          "images": 8,
+          "gauges": 8,
+          "valid": 5,
+          "MAE_psi": 0.551037931859771,
+          "within_bands_psi": {
+            "0.25": 1,
+            "0.5": 2,
+            "1.0": 4
+          }
+        },
+        "non_gauge_circular_or_reflective_object": {
+          "images": 2,
+          "gauges": 0,
+          "valid": 0,
+          "MAE_psi": null,
+          "within_bands_psi": {
+            "0.25": 0,
+            "0.5": 0,
+            "1.0": 0
+          }
+        }
+      },
+      "descriptive_correct_output_coverage": {
+        "0.25": {
+          "correct_outputs": 19,
+          "wrong_numeric_outputs": 10,
+          "denominator": 56
+        },
+        "0.5": {
+          "correct_outputs": 23,
+          "wrong_numeric_outputs": 6,
+          "denominator": 56
+        },
+        "1.0": {
+          "correct_outputs": 28,
+          "wrong_numeric_outputs": 1,
+          "denominator": 56
+        }
+      }
+    }
+  },
+  "old_neural_and_calibration_unchanged": true,
+  "conclusions": [
+    "Visible static-print reference recovers some correct outputs, but fixed two-point visibility loses prior correct outputs.",
+    "New calibration does not show robust net advantage; maintain old calibration.",
+    "In descriptive0.5psi band frontal correct count remains9/16; basic frontal robustness is unresolved.",
+    "These are native-image AI visual reference diagnostics, not automated128ROI inference or board results."
+  ],
+  "main_error_bands_psi": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "user_final_error_tolerance_set": false,
+  "network_architecture_frozen": false,
+  "new_weights": false,
+  "new_deployment_cost_claim": false,
+  "evidence": {
+    "offline_execution": "PASS",
+    "independent_replay_checks": 2861,
+    "automatic_reader_replacement": "NOT_ADMITTED",
+    "new_model_training": "NOT_PERFORMED",
+    "integer_or_RTL_port": "OUT_OF_SCOPE",
+    "board_or_MCU_or_Flash": "NOT_PERFORMED"
+  },
+  "H_or_ABC_used": false,
+  "originals_or_canonical_modified": false,
+  "concurrent_UI_or_REF_modified": false,
+  "next": "Effect first: redundant identified printed landmarks with visibility, retain already reliable old reference, and establish frontal correct-reading gain before freezing a network or deployment budget.",
+  "frozen_baseline_sha256": {
+    "algorithm_work/meter_cnn_training_20261102/run_002/best_weights.pt": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+    "algorithm_work/meter_pointer_readout_20261102/polar_angle/run_001/best_weights.pt": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "algorithm_work/meter_dataset_annotation_20261102/annotations.json": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e"
+  },
+  "files_sha256": {
+    "task_contract.json": "b4de541e296067412a13374653c35406ad6cc76d3f8180ffa5e0ec46c6669e6a",
+    "run_controls.py": "654e0002ccd5dba33a266eee0a70479b3bb2c409a4770391e1ccb18ca1daa5ab",
+    "analyze_findings.py": "8c7f1191e832f482f43455c2e0024512aa9632fd07f275b321291298d80b59c2",
+    "freeze_results.py": "1c09a9ee6e58d6e253d0c79a0739a7c730d79849822b3f28d3e822f316ce45e2",
+    "结果说明.txt": "74bb1cb133352b45d37eebc69d7e7e8f22a3ad53f9923c7864945ef8e45fb3d4",
+    "annotations_train/print_annotations.jsonl": "5c4fc51b636dd8e96de8934d2103ee6a00b5f79f310d197c90efc2c1eb6abfa2",
+    "annotations_train/completion.json": "654f7e3e153441636ce7c3929d3f07b8d30a87ba2019ea32ffd4f39f639660b7",
+    "annotations_train/reference_D002.json": "394f8afd1ffa6111266fa1171612f665d8a595d52408ab032154cf4cfa693b11",
+    "annotations_train/export_annotations.py": "544dafdef944c5e119eb285883ac03c572604b296bc9cc89e8e1403884f956c0",
+    "annotations_train/view_manifest.json": "42c200aee1714794807bc7f0af3e6c67676f30394f8f84983ba84b4b6aae76e4",
+    "annotations_g/print_annotations.jsonl": "6b2c61987ca9f5247f12ee4236c109d3bd11822e715fc24fcfc8b28fdd8ca18e",
+    "annotations_g/completion.json": "32e860de6f0a92574501336c7793007cab1b05c9bf1356f869a4078c21166f1b",
+    "annotations_g/reference_D002.json": "66b16f4881f93c7f7fdae5ac05a6d017adae88c49a81a58810a4984d0b6f0ba4",
+    "results/comparison_summary.json": "d73a2498b79534c8395990721ffc49ddcbfe1d9326e51b8eca678ab4d2c8349b",
+    "results/findings.json": "5c91f04221c167259dbb9f19cd462d804287131935de7be3670080489c7f4d2b",
+    "results/reference_D002.json": "e22635d2e5f00852b76bab57767bf244a7ee0056f6eee4a1de3d40a46cd4591f",
+    "results/visual_print_poses.jsonl": "805d42ad607bea427e335e5b0c5148265e1c7b36afef925671705fb4ecfa26eb",
+    "results/new_calibration_psi.json": "668048a2f9acb36c3835624c3a4c15689975abfa0e255500179ad73209a8e767",
+    "results/matched_old_calibration_psi.json": "0266610328cceea21f09b8add4a0a7e2c1fb503e5c0c8462784f77dc39e64bb2",
+    "results/matched_visual_calibration_psi.json": "a86c50c64d179cf8b21bc98f0c5c09d3d06860016ba937e8e6972dab6962ab4e",
+    "results/逐图四格与共同标定对照.csv": "c526916a58582ba8def01dcc93c18fde5a7e7188b43dec4cc3dadc5cd4e1854a",
+    "review/supervision_review.json": "be2457e1f32093b212aa2b8fabbd0aa80a59ac07503c4ed63548915347d79647",
+    "review/independent_controls.py": "83c5e0bf539ef852e28fa5c766c2596151730a5d2e791723bad1986b40f51962",
+    "build_comparison.py": "8c864cb57f86fe5e6fb3df416060b19edeb0c367910d1b8f54c47888876a7267",
+    "comparison/index.html": "f5a3ddd521a148c7b4ab8488731a13950202af51218063b0a327f2cf56d954a6",
+    "comparison/build_receipt.json": "6c431d6163ba2dd4e60ef8a67ae0b26ef779c77da31292dc51246d1ed591401f",
+    "comparison/per_image_psi_controls.csv": "652aea18016aad147e56fd9f97f5b0bf68dc39d9cbf42cde9ce61f95689e813c",
+    "comparison/summary_psi_controls.csv": "cbe13cd155a3504a79b8dee8b26938d30288d4a904fe85b82747156ed13e044d",
+    "results/oldref_oldcal.json": "68b7eedc5532ef3c75494ee4bb31e0565ce8eaebf48d4031f5762612805b2102",
+    "results/visualref_oldcal.json": "35dc71b8015218c4d8a904dc23538aab0585b2322973cfd3727d33d154003d56",
+    "results/oldref_newcal.json": "c7cd959319cf090c48706971c5b031b1842483fd90cb1dc1f8f959f84baf0ecf",
+    "results/visualref_newcal.json": "c55ec9cb1faa867b967e4f553f04652cbf6c50e7fe5137395abb530c7fc5d2f2",
+    "results/matched_oldref_oldcal.json": "b82a8ab00cf43da64b35b2c952212ebf83a94db0e6507408454f600b30e78ad3",
+    "results/matched_visualref_oldcal.json": "288782e56936f8f25cd4b6685c105a9498aeb66b86b90805c659978799b26e9f",
+    "results/matched_oldref_newcal.json": "3f1a690670eebed43b2b522b1e3cd73c9a1a3d8aa971777e185029a0c9f7753b",
+    "results/matched_visualref_newcal.json": "7cdf4e2b71b4a441e083ad809bb4b3d931ad0f48ab22d2fe244307c45d7846f5"
+  }
+}

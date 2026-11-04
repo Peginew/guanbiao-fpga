@@ -1,0 +1,79 @@
+{
+  "status": "PASS_PSI_PRIMARY_UNIT_CORRECTION_ONLY",
+  "checks": 1069,
+  "failures": [],
+  "primary_unit": "psi",
+  "correction": "Authoritative truth directly uses user PSI. Frozen calibration coefficients and numerical outputs converted exactly; no new fit, model or output-permission change.",
+  "legacy_equivalent_comparison_tolerance_psi": 0.7251886888086433,
+  "legacy_tolerance_is_005psi": false,
+  "legacy_tolerance_is_user_final_accuracy_requirement": false,
+  "report_only_distribution_psi": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "distribution_changes_model_permission": false,
+  "results": {
+    "baseline_run002_readout.json": {
+      "valid": 16,
+      "mae_psi": 2.2673530392018804,
+      "within025_05_1psi": [
+        8,
+        8,
+        9
+      ],
+      "legacy_tolerance_within": 8,
+      "legacy_over": 8,
+      "sha256": "83a230e862a588a7d22811722177a9576dadd7fc589a45923f7e5e45aff97428"
+    },
+    "candidate_A_readout.json": {
+      "valid": 13,
+      "mae_psi": 1.1547309395944767,
+      "within025_05_1psi": [
+        9,
+        9,
+        9
+      ],
+      "legacy_tolerance_within": 9,
+      "legacy_over": 4,
+      "sha256": "aa6d154d7d7f2652e927cd55f19b32bf4232ba231ffd88d1aea764785142993a"
+    },
+    "polar_readout.json": {
+      "valid": 32,
+      "mae_psi": 0.19320860199827483,
+      "within025_05_1psi": [
+        23,
+        29,
+        32
+      ],
+      "legacy_tolerance_within": 31,
+      "legacy_over": 1,
+      "sha256": "741f41b4e752c68d40d34b40f36d1a82420524ffef66bfe10202a57a226d8eb6"
+    },
+    "polar_integer_conv_readout.json": {
+      "valid": 32,
+      "mae_psi": 0.1945065194464215,
+      "within025_05_1psi": [
+        23,
+        29,
+        32
+      ],
+      "legacy_tolerance_within": 31,
+      "legacy_over": 1,
+      "sha256": "db9055b2dc91dd95d83b1ae160cb67ff2c28a01cebe9899b82290b7d18905aca"
+    }
+  },
+  "new_artifact_sha256": {
+    "readout_psi\\calibration.json": "6e87ba0c5345bdf0e55fac1a574049ad840bd26607bb6f8d2355bc3df95edbb1",
+    "readout_psi\\readout_adapter.py": "c1ccb03e56a13abfb39fe6007f448272857564ada5fd70e6c018dcf568e851e6",
+    "readout_psi\\unit_conversion_receipt.json": "0f5389ba82b1922c751870e58cb7b7117b162319667f8431c1066482cbdc1751",
+    "comparison\\index.html": "2ac9cdaf689c6ddc7cb61c3bdb603c9becdd187137e91d21a54c4103ced33054",
+    "comparison\\summary.json": "48f849277947464f8d50e073b73f86b7344cb7cbde9d55849f1b627f7cea8d84",
+    "comparison\\逐图对照.csv": "8c16f4736e93953e2f39a8c3be7f93e2cfbbd60d0e577c787f2a8db147079dc4",
+    "comparison\\comparison_manifest.json": "ee208bdfe452d7829528cf1eee387d378772b0b3a9e82c6e76630dfbfc0ab959"
+  },
+  "old_bar_evidence_and_review_preserved": true,
+  "no_new_model_training": true,
+  "test_H_or_ABC_opened": false,
+  "hardware_actions": false
+}

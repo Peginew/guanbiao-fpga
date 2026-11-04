@@ -1,0 +1,43 @@
+{
+  "status": "PSI_AUTHORITATIVE_OFFLINE_READOUT_UNIT_CORRECTION_COMPLETE",
+  "primary_unit": "psi",
+  "truth_source": "Original USER PSI in immutable prepared records, not derived bar truth",
+  "formula": "psi=slope_psi_per_degree*unwrap(angle_image-print_roll,branch_center)+intercept_psi",
+  "slope_psi_per_degree": 0.07279766336926043,
+  "intercept_psi": -9.06573652672801,
+  "fit_method": "Exact unit conversion of alreadyfrozen D/E/F training-only fit; no refit, no train/validation selection change",
+  "new_outputs": [
+    "baseline_run002_readout.json",
+    "candidate_A_readout.json",
+    "polar_readout.json",
+    "polar_integer_conv_readout.json"
+  ],
+  "old_bar_directory": "../readout (immutable historical evidence only)",
+  "predicted_reading_permissions_unchanged": true,
+  "query_pose_GT_dependencies": false,
+  "legacy_comparison_tolerance_psi": 0.7251886888086433,
+  "legacy_tolerance_is_final_acceptance": false,
+  "display_only_error_bins_psi": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "bins_change_output_permission": false,
+  "user_confirmed_final_accuracy_target_psi": null,
+  "existing_board_display_unit_or_firmware_changed": false,
+  "models_retrained": false,
+  "new_images_opened": false,
+  "H_opened": false,
+  "hardware_actions": false,
+  "files_sha256": {
+    "readout_adapter.py": "c1ccb03e56a13abfb39fe6007f448272857564ada5fd70e6c018dcf568e851e6",
+    "print_pose.py": "ca768d2f711324006ee9104f260087ad84723417ac506687c1c1b945782f174d",
+    "calibration.json": "6e87ba0c5345bdf0e55fac1a574049ad840bd26607bb6f8d2355bc3df95edbb1",
+    "unit_conversion_receipt.json": "0f5389ba82b1922c751870e58cb7b7117b162319667f8431c1066482cbdc1751",
+    "psi_formula_equivalence.json": "f25836ac047a60cd4a1e21d29cbd42da71d915c704692674df48accbd329102c",
+    "baseline_run002_readout.json": "83a230e862a588a7d22811722177a9576dadd7fc589a45923f7e5e45aff97428",
+    "candidate_A_readout.json": "aa6d154d7d7f2652e927cd55f19b32bf4232ba231ffd88d1aea764785142993a",
+    "polar_readout.json": "741f41b4e752c68d40d34b40f36d1a82420524ffef66bfe10202a57a226d8eb6",
+    "polar_integer_conv_readout.json": "db9055b2dc91dd95d83b1ae160cb67ff2c28a01cebe9899b82290b7d18905aca"
+  }
+}

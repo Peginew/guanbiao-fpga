@@ -1,0 +1,73 @@
+{
+  "status": "BOUNDED_ROI128_POSE_FEASIBILITY_PROBE_NOT_ACCEPTED_PRODUCTION_REPLACEMENT",
+  "reference_id": "D_002",
+  "search_degrees": [
+    -24,
+    24
+  ],
+  "radial_bands": 12,
+  "angular_bins": 360,
+  "source_inputs": "Only128x128U8 ROI + predicted hub + locator box radius; no native image/GT/pressure",
+  "thresholds_fixed_before_probe": {
+    "min_score": 0.6,
+    "min_margin": 0.015,
+    "max_outside_fraction": 0.05
+  },
+  "train": {
+    "images": 164,
+    "accepted": 69,
+    "accepted_also_SIFT_supported": 56,
+    "mean_difference_to_PC_SIFT_deg": 1.6264040602414747,
+    "median_difference_to_PC_SIFT_deg": 1.08908144535404,
+    "max_difference_to_PC_SIFT_deg": 25.946343427179073,
+    "disagreement_over3deg": 3
+  },
+  "validation": {
+    "images": 59,
+    "accepted": 16,
+    "accepted_also_SIFT_supported": 15,
+    "mean_difference_to_PC_SIFT_deg": 0.7851764239847493,
+    "median_difference_to_PC_SIFT_deg": 0.6889168459353812,
+    "max_difference_to_PC_SIFT_deg": 2.3950841565579424,
+    "disagreement_over3deg": 0
+  },
+  "excluded_without_model_hub": [
+    "D_052",
+    "D_053",
+    "D_054",
+    "D_055",
+    "E_050",
+    "E_051",
+    "E_052",
+    "E_053",
+    "F_026",
+    "F_052",
+    "F_053",
+    "F_054",
+    "F_055"
+  ],
+  "cost_estimate": {
+    "radial_samples": 4320,
+    "bilinear_source_reads": 17280,
+    "angular_search_candidates": 49,
+    "comparison_absolute_differences": 50274,
+    "reference_profile_INT8_bytes": 4320,
+    "query_profile_INT8_bytes": 4320,
+    "selected_template_elements": 1026,
+    "sin_cos_LUT_S16_bytes": 1440,
+    "possible_B_feature_reuse": true,
+    "peak_additional_memory_not_linked": true,
+    "MCU_cycles_not_measured": true,
+    "int8_fixed_point_kernel_implemented": false
+  },
+  "deployment_note": "ROI exists in bridge; hub comes fromfrozenCNN, radius fromdescriptor. SIFT native256 path is not available tocurrentMCU. Must validate integer gather/profile andactualTCM linkmap beforeclaimingfit.",
+  "calibration_or_signed_PC_results_modified": false,
+  "H_opened": false,
+  "source_sha256": {
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\readout\\roi128_pose_probe.py": "db95f1a33adf32e6b93e7c410464d6727099f2a4870a672a0ce97ff26e63542e",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\polar_angle\\run_001\\train_predictions.jsonl": "fc99cce9bd112c84956c0a152f5bbf77af30d510f58825be655657bbfecdcb0f",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\polar_angle\\run_001\\validation_predictions.jsonl": "3cc05038cb7dc8360c0c480b4a723589b64c44ee976ebea9e579c6e399082818",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\roi_cache_train.npz": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\roi_cache_validation.npz": "3657a5a2a13ec5fb00275ffe71289aec6a13c3ac8e5fc31ab160c94b343c6527"
+  }
+}

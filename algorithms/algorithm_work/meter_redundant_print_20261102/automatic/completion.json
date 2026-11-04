@@ -1,0 +1,43 @@
+{
+  "status": "ONE_FROZEN_LOCAL_NCC_PASS_NOT_PSI_OR_MCU_ACCEPTANCE",
+  "rows": 223,
+  "G_rows": 59,
+  "supported_points_G": 113,
+  "cost": {
+    "template_bank_elements": 19236,
+    "FP32template_bytes": 76944,
+    "hypothetical_INT8_bank_bytes_NOT_IMPLEMENTED": 19236,
+    "canonical_U8_image_bytes": 16384,
+    "actual_query_FP32_image_bytes": 65536,
+    "single_identity_score_FP32_map_bytes": 65536,
+    "single_identity_winner_S16_map_bytes": 32768,
+    "maximum_candidate_centers": 141204,
+    "maximum_nominal_patch_pixel_products": 32335716,
+    "nominal_three_correlation_direct_products": 97007148,
+    "correlation_calls_per_bank": 3,
+    "FP32mask_bytes": 5496,
+    "per_identity_mgrid_two_I64_arrays_bytes": 262144,
+    "per_identity_far_FP32_copy_bytes": 65536,
+    "maximum_query_region_squared_FP32_bytes": 12996,
+    "maximum_five_masked_NCC_FP64_result_arrays_bytes": 67240,
+    "minimum_explicit_PC_image_score_winner_far_mgrid_bytes": 491520,
+    "actual_PC_peak_RAM_unmeasured": true,
+    "operation_count_note": "Patchproducts field is one direct-correlation equivalent; actual maskedNCC computes3correlations plusvariance/divide/sqrt. OpenCV internal algorithm/MCUcycles are not measured.",
+    "PC_mean_ms": 8.921441703908473,
+    "PC_max_ms": 10.778099996969104,
+    "OpenCV_internal_buffers_not_measured": true,
+    "MCU_cycles_or_link_fit_not_proven": true
+  },
+  "source_sha256": {
+    "setup": "85262ec3378a79e482670e6def3e42076775b5b3f6188be7cbb815270a07599f",
+    "config": "22c3d7344534d2bcb4d29e41a04b3bbfdf8dde717ac471d1c2245a4a4af3621b",
+    "code": "0f3c3865d59b9bcb82ff3192d5c1ca9307226de8395de9e8c23d996ae85f2eb8",
+    "predictions": "5560a8495c801d29c56d4c538322a1cd94b08105fbf2ed2ec92a6bf07d9472c3",
+    "templates": "e5a1a366b84f837b365f5979dda9b30b40fb6a05fc017e0f4d206fd87e7fe3e0"
+  },
+  "no_G_threshold_or_template_changes": true,
+  "training": false,
+  "H_ABC_opened": false,
+  "hardware_actions": false,
+  "old_models_old_ring_old_calibration_changed": false
+}

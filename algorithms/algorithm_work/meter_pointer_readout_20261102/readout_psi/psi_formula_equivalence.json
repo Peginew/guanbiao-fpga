@@ -1,0 +1,45 @@
+{
+  "status": "PASS_FRESH_PSI_FORMULA_EQUIVALENCE",
+  "checks": [
+    {
+      "file": "baseline_run002_readout.json",
+      "old_converted_and_fresh_PSI_permit_IDs_equal": true,
+      "fresh_formula_max_difference_psi": 3.552713678800501e-15,
+      "fixed_tolerance_classification_unchanged": true,
+      "PSI_distribution_equal": true,
+      "fresh_file_sha256": "b039801f225b794469c91bc2a29085661ed4876e63835c3aa6a0192db94870a4"
+    },
+    {
+      "file": "candidate_A_readout.json",
+      "old_converted_and_fresh_PSI_permit_IDs_equal": true,
+      "fresh_formula_max_difference_psi": 2.6645352591003757e-15,
+      "fixed_tolerance_classification_unchanged": true,
+      "PSI_distribution_equal": true,
+      "fresh_file_sha256": "bc34a35d3dfca0a14696f8475df440a7bb8b9c32c0b7721f2d4cd3713ea8ff65"
+    },
+    {
+      "file": "polar_readout.json",
+      "old_converted_and_fresh_PSI_permit_IDs_equal": true,
+      "fresh_formula_max_difference_psi": 3.552713678800501e-15,
+      "fixed_tolerance_classification_unchanged": true,
+      "PSI_distribution_equal": true,
+      "fresh_file_sha256": "8d8e8c7b0046f439e8d8b313b1974d5e147b4d71484b971b8a62d1c19966ac14"
+    },
+    {
+      "file": "polar_integer_conv_readout.json",
+      "old_converted_and_fresh_PSI_permit_IDs_equal": true,
+      "fresh_formula_max_difference_psi": 3.552713678800501e-15,
+      "fixed_tolerance_classification_unchanged": true,
+      "PSI_distribution_equal": true,
+      "fresh_file_sha256": "58a0905a03c011bde16f20b169e976b933abf351d5082aafb7275af3cca19f15"
+    }
+  ],
+  "historical_files_unchanged": true,
+  "main_unit": "psi",
+  "training": false,
+  "new_images_opened": false,
+  "H_opened": false,
+  "hardware_actions": false,
+  "calibration_sha256": "6e87ba0c5345bdf0e55fac1a574049ad840bd26607bb6f8d2355bc3df95edbb1",
+  "adapter_sha256": "c1ccb03e56a13abfb39fe6007f448272857564ada5fd70e6c018dcf568e851e6"
+}

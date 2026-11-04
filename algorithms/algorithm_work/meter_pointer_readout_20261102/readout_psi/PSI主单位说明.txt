@@ -1,0 +1,33 @@
+观表 · PSI主单位读数分支
+
+本目录readout_psi是本轮PC读数的新权威分支，主输出和真值统一为psi。
+旧readout目录中的bar证据保留原字节，仅作历史；没有覆盖旧文件，也没有重训、改许可或调整模型。
+
+标定
+psi = 0.0727976633692604 × theta_ref + (-9.06573652672801)
+theta_ref为图像预测针角减去静态印刷相对转角，再使用训练确定的角度分支。
+系数是此前冻结的D/E/F训练标定的严格单位换算，并未利用G重拟合。
+评分直接读取用户原始psi档位，例如12、11、9.5等，不拿派生bar值作为主真值。
+
+精度表述
+此前0.05bar工程对照门的严格等价值为0.725188688809psi。
+这个数不是0.05psi，也不是用户确认的最终验收精度；只为保持本轮历史对照结论可比。
+summary另列0.25、0.5、1.0psi的纯展示累计分布，不改变预测许可，不把这些数擅自定义为用户合格标准。
+
+四份同源结果
+baseline_run002_readout.json：16张输出，MAE2.26735psi，8张误差≤0.5psi。
+candidate_A_readout.json：13张输出，MAE1.15473psi，9张误差≤0.5psi。
+polar_readout.json：32张输出，MAE0.19321psi，29张误差≤0.5psi。
+polar_integer_conv_readout.json：32张输出，MAE0.19451psi，29张误差≤0.5psi。
+分母均为G组56张有表照片；G为开发验证集，并非独立测试。3张无表图均无输出。
+B两版0.25/0.5/1.0psi累计分别23/29/32张；这些是描述分布，不是最终验收。
+
+来源与边界
+unit_conversion_receipt.json验证旧文件SHA保持、输出许可ID完全一致、旧门下统计不变。
+psi_formula_equivalence.json还实际运行了新psi公式，四份结果与等价转换最大差约3.55e-15psi。
+查询图姿态仍只用像素与盘面框，不读该图真实轴针坐标或psi。
+PC SIFT仍使用原生图像，当前MCU仅有128ROI，不能将本PC结果冒称直接上板成功。
+本次没有改板卡固件、位流、板上显示单位或现有硬件标定，没有读取H或打开新图像。
+
+调用
+python readout_adapter.py --predictions ../polar_angle/run_001/validation_predictions.jsonl --out any_new_psi_evaluation.json

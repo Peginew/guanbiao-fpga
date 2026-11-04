@@ -1,0 +1,17 @@
+{
+  "status": "PASS_CANDIDATE_B_TRAINING_ADMISSION",
+  "checks": 710,
+  "failures": [],
+  "source_sha256": "bb8da52efadee791ddbda9d6800fc46fcfab145f16b1f44590f0d920e21b0991",
+  "train_count": 164,
+  "angular_supervised_or_negative": 149,
+  "validation_count": 59,
+  "parameters": 1009,
+  "contract": "All360angle evidence from actual frozen CNN hub, no geometric tip or pressure prerequisite. Unknown tip excluded, true negatives zero.",
+  "cost": "1009 parameters,355680MAC reference; integer radial sampling and actual MCU execution pending",
+  "decision": "One frozen2400step candidate may run; fixed score gates and actual bar evaluation still required",
+  "optimizer_steps_by_reviewer": 0,
+  "test_H_or_ABC_opened": false,
+  "hardware_actions": false,
+  "endpoint_semantics": "0.70R displayed endpoint is a direction reference, not actual detected tip"
+}

@@ -1,0 +1,373 @@
+{
+  "schema": "TRAIN_ONLY_PRINT_REFERENCE_LINEAR_PSI_FIT",
+  "name": "MATCHED_TRAIN_OLD_REFERENCE",
+  "primary_unit": "psi",
+  "slope_psi_per_degree": 0.07352902679725506,
+  "intercept_psi": -9.271702193914773,
+  "branch_center_deg": 233.43062148876993,
+  "supported_angle_interval_deg": [
+    164.5674514109414,
+    289.65569809405105
+  ],
+  "supported_pressure_interval_psi": [
+    2.5,
+    12.0
+  ],
+  "fit_measurements": [
+    {
+      "id": "D_001",
+      "source_sha256": "dd07d871c18745d409486f194d343e7b651a458f2d93ec287c0de49bb7278644",
+      "reference_psi": 12,
+      "visual_needle_image_angle_deg": 289.98776736786,
+      "print_relative_roll_deg": 5.0,
+      "relative_angle_deg": 284.98776736786,
+      "unwrapped_angle_deg": 284.98776736786
+    },
+    {
+      "id": "D_002",
+      "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+      "reference_psi": 12,
+      "visual_needle_image_angle_deg": 287.4776801638209,
+      "print_relative_roll_deg": 0.0,
+      "relative_angle_deg": 287.4776801638209,
+      "unwrapped_angle_deg": 287.4776801638209
+    },
+    {
+      "id": "D_007",
+      "source_sha256": "106fc28259ce33b0a5e12ee5a3134624c1fa1b146d53c4a1880a7c5fcd2514b3",
+      "reference_psi": 11,
+      "visual_needle_image_angle_deg": 271.40351779423213,
+      "print_relative_roll_deg": 0.0,
+      "relative_angle_deg": 271.40351779423213,
+      "unwrapped_angle_deg": 271.40351779423213
+    },
+    {
+      "id": "D_008",
+      "source_sha256": "534a5596bac89f7e8eaa0935a7589f08fcf2c807035120f59156d5c4e042b047",
+      "reference_psi": 11,
+      "visual_needle_image_angle_deg": 275.9654747551783,
+      "print_relative_roll_deg": 1.0,
+      "relative_angle_deg": 274.9654747551783,
+      "unwrapped_angle_deg": 274.9654747551783
+    },
+    {
+      "id": "D_013",
+      "source_sha256": "e4faf9de936f4300e9173573bd0fdb22fdd2953815644aaca5b76f46a2fe076b",
+      "reference_psi": 9.5,
+      "visual_needle_image_angle_deg": 253.53883251772226,
+      "print_relative_roll_deg": -2.0,
+      "relative_angle_deg": 255.53883251772226,
+      "unwrapped_angle_deg": 255.53883251772226
+    },
+    {
+      "id": "D_014",
+      "source_sha256": "998d46999232b8309f14e5ef33bd5729b9c0dda79d05c2852aa1f2c1817316af",
+      "reference_psi": 9.5,
+      "visual_needle_image_angle_deg": 257.20376935756997,
+      "print_relative_roll_deg": 2.0,
+      "relative_angle_deg": 255.20376935756997,
+      "unwrapped_angle_deg": 255.20376935756997
+    },
+    {
+      "id": "D_020",
+      "source_sha256": "5e163d2b9983baf9ca5942710eee66a119b35a4e71c755b7f0e43383bcc37cd7",
+      "reference_psi": 8,
+      "visual_needle_image_angle_deg": 234.59109463795323,
+      "print_relative_roll_deg": 0.0,
+      "relative_angle_deg": 234.59109463795323,
+      "unwrapped_angle_deg": 234.59109463795323
+    },
+    {
+      "id": "D_025",
+      "source_sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+      "reference_psi": 6.5,
+      "visual_needle_image_angle_deg": 212.44803936396494,
+      "print_relative_roll_deg": -3.0,
+      "relative_angle_deg": 215.44803936396494,
+      "unwrapped_angle_deg": 215.44803936396494
+    },
+    {
+      "id": "D_026",
+      "source_sha256": "7af1be8a47b9e80fafac495f10d5f882662ad4de2bf97b789f5df2ac917f866d",
+      "reference_psi": 6.5,
+      "visual_needle_image_angle_deg": 211.93149860858455,
+      "print_relative_roll_deg": -2.0,
+      "relative_angle_deg": 213.93149860858455,
+      "unwrapped_angle_deg": 213.93149860858455
+    },
+    {
+      "id": "D_031",
+      "source_sha256": "289e4a80569fc0c74cc27a7e1b9d40de64050d37b644ba5ac41136346464e755",
+      "reference_psi": 5,
+      "visual_needle_image_angle_deg": 195.23562702852035,
+      "print_relative_roll_deg": 2.0,
+      "relative_angle_deg": 193.23562702852035,
+      "unwrapped_angle_deg": 193.23562702852035
+    },
+    {
+      "id": "D_032",
+      "source_sha256": "41740742d5933ebec6f6ca62f4016c7245b6b0b600338f3685bcef49f0cfca4c",
+      "reference_psi": 5,
+      "visual_needle_image_angle_deg": 197.35600062534567,
+      "print_relative_roll_deg": 4.0,
+      "relative_angle_deg": 193.35600062534567,
+      "unwrapped_angle_deg": 193.35600062534567
+    },
+    {
+      "id": "D_037",
+      "source_sha256": "b20bf438e3cecee76dd92aca29b80cae6418b694ed8cb87d54e2c00b92f70a7e",
+      "reference_psi": 3.5,
+      "visual_needle_image_angle_deg": 173.85410169337416,
+      "print_relative_roll_deg": 2.0,
+      "relative_angle_deg": 171.85410169337416,
+      "unwrapped_angle_deg": 171.85410169337416
+    },
+    {
+      "id": "D_043",
+      "source_sha256": "fc855c474b55ee876bbddee6d5d832075ac81429cf2762f9fc9fbf1748f4aef6",
+      "reference_psi": 2.5,
+      "visual_needle_image_angle_deg": 166.97992219086757,
+      "print_relative_roll_deg": 2.0,
+      "relative_angle_deg": 164.97992219086757,
+      "unwrapped_angle_deg": 164.97992219086757
+    },
+    {
+      "id": "D_044",
+      "source_sha256": "b1b4715326af622c3cf64964655e9b72819eb9f7aaccedbc8026ee76dc06821c",
+      "reference_psi": 2.5,
+      "visual_needle_image_angle_deg": 169.5674514109414,
+      "print_relative_roll_deg": 5.0,
+      "relative_angle_deg": 164.5674514109414,
+      "unwrapped_angle_deg": 164.5674514109414
+    },
+    {
+      "id": "E_002",
+      "source_sha256": "f9d1d9c6a5f5a9972c10ce558e0476d09e873ce97c04f7925839428d2f0e124d",
+      "reference_psi": 12,
+      "visual_needle_image_angle_deg": 289.8337160242812,
+      "print_relative_roll_deg": -2.0,
+      "relative_angle_deg": 291.8337160242812,
+      "unwrapped_angle_deg": 291.8337160242812
+    },
+    {
+      "id": "E_007",
+      "source_sha256": "faa7ca7bb7c7f7c53d81cc20ff6faf9a9c019d7dd7a4527fa707cb368a38e58f",
+      "reference_psi": 11,
+      "visual_needle_image_angle_deg": 272.8397250572763,
+      "print_relative_roll_deg": 1.0,
+      "relative_angle_deg": 271.8397250572763,
+      "unwrapped_angle_deg": 271.8397250572763
+    },
+    {
+      "id": "E_008",
+      "source_sha256": "4cf0b6b0c0414d8a598d4e7981816d48d350455516a0b4affd691257eb2a19f9",
+      "reference_psi": 11,
+      "visual_needle_image_angle_deg": 273.258741295424,
+      "print_relative_roll_deg": 1.0,
+      "relative_angle_deg": 272.258741295424,
+      "unwrapped_angle_deg": 272.258741295424
+    },
+    {
+      "id": "E_013",
+      "source_sha256": "0735b3b0f6f8c3a626a922ebf4a52c2496786eda05072709fe6838423cd5e1ec",
+      "reference_psi": 9.5,
+      "visual_needle_image_angle_deg": 255.4570332013787,
+      "print_relative_roll_deg": 1.0,
+      "relative_angle_deg": 254.4570332013787,
+      "unwrapped_angle_deg": 254.4570332013787
+    },
+    {
+      "id": "E_014",
+      "source_sha256": "53b0397abeb75d6d73967d25de4841cc49da0a7badf750e68faf06698f8209e7",
+      "reference_psi": 9.5,
+      "visual_needle_image_angle_deg": 255.52674380618123,
+      "print_relative_roll_deg": 0.0,
+      "relative_angle_deg": 255.52674380618123,
+      "unwrapped_angle_deg": 255.52674380618123
+    },
+    {
+      "id": "E_019",
+      "source_sha256": "c0f10b3fb2a7aaac94572e94b219a080c7779c4604238565e43ce3437766ef65",
+      "reference_psi": 8,
+      "visual_needle_image_angle_deg": 231.0675596110673,
+      "print_relative_roll_deg": -4.0,
+      "relative_angle_deg": 235.0675596110673,
+      "unwrapped_angle_deg": 235.0675596110673
+    },
+    {
+      "id": "E_020",
+      "source_sha256": "d8a65a50a2886f0e6c026504523f76f7e9b1a5a45f48afffefc51f27f0ea36a7",
+      "reference_psi": 8,
+      "visual_needle_image_angle_deg": 230.83307015783325,
+      "print_relative_roll_deg": -5.0,
+      "relative_angle_deg": 235.83307015783325,
+      "unwrapped_angle_deg": 235.83307015783325
+    },
+    {
+      "id": "E_031",
+      "source_sha256": "04c6ba19d7c8ef6b36fec6d9705e840761cae2bc74e3f0e1264ba2f676ef43a2",
+      "reference_psi": 5,
+      "visual_needle_image_angle_deg": 189.92279675837807,
+      "print_relative_roll_deg": 0.0,
+      "relative_angle_deg": 189.92279675837807,
+      "unwrapped_angle_deg": 189.92279675837807
+    },
+    {
+      "id": "E_036",
+      "source_sha256": "b4778ea6ab65a0ac9b57c27107547bced6b15b5e425a60a42308e8d637e5f80f",
+      "reference_psi": 3.5,
+      "visual_needle_image_angle_deg": 173.3082449037654,
+      "print_relative_roll_deg": 0.0,
+      "relative_angle_deg": 173.3082449037654,
+      "unwrapped_angle_deg": 173.3082449037654
+    },
+    {
+      "id": "E_037",
+      "source_sha256": "6d9db2f7dd17f47670fce83a6f8ad7b1d2882aadf2eb01f5446a5790289a1eb9",
+      "reference_psi": 3.5,
+      "visual_needle_image_angle_deg": 172.70228830486886,
+      "print_relative_roll_deg": -1.0,
+      "relative_angle_deg": 173.70228830486886,
+      "unwrapped_angle_deg": 173.70228830486886
+    },
+    {
+      "id": "E_059",
+      "source_sha256": "597f928e0234e6691706cbb03221db404feb7c4483c3da3e0183848af621b18c",
+      "reference_psi": 2.5,
+      "visual_needle_image_angle_deg": 163.50486707216658,
+      "print_relative_roll_deg": 1.0,
+      "relative_angle_deg": 162.50486707216658,
+      "unwrapped_angle_deg": 162.50486707216658
+    },
+    {
+      "id": "F_001",
+      "source_sha256": "a9486ff997f176f20db398d3c14bf5f1bbc4d0f071ddd72535c612d059204b3c",
+      "reference_psi": 12,
+      "visual_needle_image_angle_deg": 300.36204715201865,
+      "print_relative_roll_deg": 6.0,
+      "relative_angle_deg": 294.36204715201865,
+      "unwrapped_angle_deg": 294.36204715201865
+    },
+    {
+      "id": "F_007",
+      "source_sha256": "972a8c14d030708f6309628d883dbf8724db9cab36f0bc7795150e50f5f89bc8",
+      "reference_psi": 11.5,
+      "visual_needle_image_angle_deg": 286.18132350554424,
+      "print_relative_roll_deg": 2.0,
+      "relative_angle_deg": 284.18132350554424,
+      "unwrapped_angle_deg": 284.18132350554424
+    },
+    {
+      "id": "F_014",
+      "source_sha256": "a87397bbe76f4c1caf05be9504411a005f8a23e469e9b608d9347359f209a030",
+      "reference_psi": 10,
+      "visual_needle_image_angle_deg": 273.7380702733951,
+      "print_relative_roll_deg": 9.0,
+      "relative_angle_deg": 264.7380702733951,
+      "unwrapped_angle_deg": 264.7380702733951
+    },
+    {
+      "id": "F_019",
+      "source_sha256": "16644ccd5e969677734ec247c2530673b95b97ea6bdefdbdf214e9370ed73fdd",
+      "reference_psi": 8.5,
+      "visual_needle_image_angle_deg": 249.86369657175186,
+      "print_relative_roll_deg": 6.0,
+      "relative_angle_deg": 243.86369657175186,
+      "unwrapped_angle_deg": 243.86369657175186
+    },
+    {
+      "id": "F_025",
+      "source_sha256": "2ecc4e16800b28063af664563d16208a214ed04731d7eaeab57630e1c04b18f3",
+      "reference_psi": 7,
+      "visual_needle_image_angle_deg": 220.10090754621223,
+      "print_relative_roll_deg": 2.0,
+      "relative_angle_deg": 218.10090754621223,
+      "unwrapped_angle_deg": 218.10090754621223
+    },
+    {
+      "id": "F_031",
+      "source_sha256": "efc8d002e417f533f831e9e56d076967cfde8a4a96c7c94ad234c8687f62258e",
+      "reference_psi": 5.5,
+      "visual_needle_image_angle_deg": 192.22984855556336,
+      "print_relative_roll_deg": -5.0,
+      "relative_angle_deg": 197.22984855556336,
+      "unwrapped_angle_deg": 197.22984855556336
+    }
+  ],
+  "anchors": [
+    {
+      "reference_psi": 2.5,
+      "median_reference_angle_deg": 164.5674514109414,
+      "images": 3
+    },
+    {
+      "reference_psi": 3.5,
+      "median_reference_angle_deg": 173.3082449037654,
+      "images": 3
+    },
+    {
+      "reference_psi": 5,
+      "median_reference_angle_deg": 193.23562702852035,
+      "images": 3
+    },
+    {
+      "reference_psi": 5.5,
+      "median_reference_angle_deg": 197.22984855556336,
+      "images": 1
+    },
+    {
+      "reference_psi": 6.5,
+      "median_reference_angle_deg": 214.68976898627474,
+      "images": 2
+    },
+    {
+      "reference_psi": 7,
+      "median_reference_angle_deg": 218.10090754621223,
+      "images": 1
+    },
+    {
+      "reference_psi": 8,
+      "median_reference_angle_deg": 235.0675596110673,
+      "images": 3
+    },
+    {
+      "reference_psi": 8.5,
+      "median_reference_angle_deg": 243.86369657175186,
+      "images": 1
+    },
+    {
+      "reference_psi": 9.5,
+      "median_reference_angle_deg": 255.3652565818756,
+      "images": 4
+    },
+    {
+      "reference_psi": 10,
+      "median_reference_angle_deg": 264.7380702733951,
+      "images": 1
+    },
+    {
+      "reference_psi": 11,
+      "median_reference_angle_deg": 272.0492331763502,
+      "images": 4
+    },
+    {
+      "reference_psi": 11.5,
+      "median_reference_angle_deg": 284.18132350554424,
+      "images": 1
+    },
+    {
+      "reference_psi": 12,
+      "median_reference_angle_deg": 289.65569809405105,
+      "images": 4
+    }
+  ],
+  "train_fit_MAE_psi": 0.15064752528069258,
+  "train_fit_max_abs_error_psi": 0.37245265922086546,
+  "original_fit_rule": "Linear fit on equal-pressure median visual needle-minus-print angles",
+  "query_pressure_used": false,
+  "G_used_for_fitting": false,
+  "pressure_inversion_to_points": false,
+  "clamping_or_extrapolation": false,
+  "reference_is_visual_diagnostic": true,
+  "measurement_uncertainties": "User pressure and visual needle uncertainty retained; fit not certified metrology"
+}

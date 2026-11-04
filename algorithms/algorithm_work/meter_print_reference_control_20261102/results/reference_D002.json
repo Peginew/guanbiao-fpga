@@ -1,0 +1,45 @@
+{
+  "accepted": true,
+  "reason": "VISUALLY_SUPPORTED_STATIC_PRINT_REFERENCE",
+  "id": "D_002",
+  "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+  "split": "train",
+  "automatic_reference_inference": false,
+  "query_needle_or_pressure_used": false,
+  "reference_source": "AI_VISUAL_NATIVE_STATIC_PRINT_WITH_UNCERTAINTY_NOT_GOLD",
+  "two_points_are_not_perspective_correction": true,
+  "annotation_reason": "Two visually supported named static print centers",
+  "absolute_print_axis_deg": -98.81983111254667,
+  "anchor_baseline_native_px": 284.82672282173,
+  "declared_query_axis_sensitivity_deg": 1.6094926768465327,
+  "anchors_native": [
+    [
+      444.53125,
+      111.20724346076459
+    ],
+    [
+      488.203125,
+      392.66599597585514
+    ]
+  ],
+  "anchors_roi": [
+    [
+      56.7578125,
+      19.676810865191147
+    ],
+    [
+      67.67578125,
+      90.04149899396378
+    ]
+  ],
+  "declared_anchor_uncertainty_native_px": [
+    4.0,
+    4.0
+  ],
+  "anchor_visibilities": [
+    "visible",
+    "visible"
+  ],
+  "has_partially_visible_anchor": false,
+  "original_native_reference_available": true
+}

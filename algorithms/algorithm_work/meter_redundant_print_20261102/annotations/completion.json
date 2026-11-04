@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE_SIX_IDENTITY_AI_VISUAL_DIAGNOSTIC_NOT_GOLD",
+  "G_images": 59,
+  "point_identity_count": 6,
+  "G_point_denominator": 354,
+  "per_identity_visibility": {
+    "outer_psi_5_text_centroid": {
+      "visible": 48,
+      "partial": 4,
+      "unknown": 6,
+      "occluded": 1
+    },
+    "outer_psi_10_text_centroid": {
+      "visible": 40,
+      "partial": 12,
+      "unknown": 7,
+      "occluded": 0
+    },
+    "outer_psi_15_text_centroid": {
+      "visible": 48,
+      "partial": 1,
+      "unknown": 6,
+      "occluded": 4
+    },
+    "upper_basketball_logo_centroid": {
+      "visible": 24,
+      "partial": 30,
+      "unknown": 4,
+      "occluded": 1
+    },
+    "middle_soccer_logo_centroid": {
+      "visible": 18,
+      "partial": 27,
+      "unknown": 6,
+      "occluded": 8
+    },
+    "lower_striped_ball_print_centroid": {
+      "visible": 40,
+      "partial": 7,
+      "unknown": 6,
+      "occluded": 6
+    }
+  },
+  "points_native_available": 299,
+  "points_ROI_available": 298,
+  "G_with_at_least_3_points": 53,
+  "label_pressure_NN_pose_results_used": false,
+  "G_used_as_template_or_training": false,
+  "canonical_originals_old_annotations_modified": false,
+  "H_or_ABC_accessed": false,
+  "prior_result_exposure_disclosed": true,
+  "annotation_sha256": "0e8c3c8c82c8d2ab38fc7f96a087c2c4fb405e431a894063153fc899b2bd073e",
+  "reference_sha256": {
+    "reference_D002.json": "3bf46f1100b22e198c30e06191aab719654fdb00116466abbfc695cd313d278a",
+    "reference_D025.json": "365d6f001090a1bc20de34b23c57ea81758c688619cb4addfd203e5f083a2d64"
+  },
+  "limitations": [
+    "AI visual diagnostic sidecars, not blind human gold or calibrated uncertainty.",
+    "Partial points only estimate visible printed contours, never wholly hidden centers.",
+    "Outer5/10/15 mean complete distinct text identities; external football is never printed soccer.",
+    "Original peripheral/burned-in OSD is retained and can obscure an identity.",
+    "No full pose, automatic detection, pressure prediction, or board validation implied."
+  ]
+}

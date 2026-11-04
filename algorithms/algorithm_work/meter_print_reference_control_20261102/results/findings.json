@@ -1,0 +1,226 @@
+{
+  "status": "CONDITIONAL_VISUAL_REFERENCE_BENEFIT_NO_AUTOMATIC_REPLACEMENT_ADMISSION",
+  "unit": "psi",
+  "primary_decision": "Keep frozen original neural models and calibration; do not adopt this two-anchor reference as an automatic reader",
+  "observed_reference_value": {
+    "full56": {
+      "baseline_outputs": 21,
+      "visual_reference_outputs": 27,
+      "baseline_correct_in_descriptive_half_psi_band": 21,
+      "visual_correct_in_descriptive_half_psi_band": 24
+    },
+    "same_visual_available_subset": {
+      "gauge_denominator": 46,
+      "old_outputs": 16,
+      "visual_outputs": 27,
+      "old_MAE_psi": 0.18441882595395998,
+      "visual_MAE_psi": 0.225113880261288
+    },
+    "newly_output_ids": [
+      "G_012",
+      "G_020",
+      "G_024",
+      "G_027",
+      "G_032",
+      "G_034",
+      "G_036",
+      "G_041",
+      "G_042",
+      "G_044",
+      "G_048"
+    ],
+    "withdrawn_old_output_ids": [
+      "G_013",
+      "G_014",
+      "G_015",
+      "G_016",
+      "G_018"
+    ],
+    "band_changes": {
+      "0.25": {
+        "gained_correct_ids": [
+          "G_020",
+          "G_027",
+          "G_029",
+          "G_032",
+          "G_034",
+          "G_036",
+          "G_039"
+        ],
+        "lost_correct_ids": [
+          "G_013",
+          "G_014",
+          "G_015",
+          "G_016",
+          "G_018",
+          "G_025"
+        ],
+        "new_wrong_ids": [
+          "G_012",
+          "G_024",
+          "G_025",
+          "G_041",
+          "G_042",
+          "G_044",
+          "G_048"
+        ],
+        "recovered_wrong_ids": [
+          "G_029",
+          "G_039"
+        ]
+      },
+      "0.5": {
+        "gained_correct_ids": [
+          "G_012",
+          "G_020",
+          "G_024",
+          "G_027",
+          "G_032",
+          "G_034",
+          "G_036",
+          "G_041",
+          "G_048"
+        ],
+        "lost_correct_ids": [
+          "G_013",
+          "G_014",
+          "G_015",
+          "G_016",
+          "G_018",
+          "G_045"
+        ],
+        "new_wrong_ids": [
+          "G_042",
+          "G_044",
+          "G_045"
+        ],
+        "recovered_wrong_ids": []
+      },
+      "1.0": {
+        "gained_correct_ids": [
+          "G_012",
+          "G_020",
+          "G_024",
+          "G_027",
+          "G_032",
+          "G_034",
+          "G_036",
+          "G_041",
+          "G_042",
+          "G_044",
+          "G_048"
+        ],
+        "lost_correct_ids": [
+          "G_013",
+          "G_014",
+          "G_015",
+          "G_016",
+          "G_018"
+        ],
+        "new_wrong_ids": [],
+        "recovered_wrong_ids": []
+      }
+    }
+  },
+  "frontal_baseline": {
+    "images": 16,
+    "outputs": 9,
+    "descriptive_correct_outputs": {
+      "0.25": 7,
+      "0.5": 9,
+      "1.0": 9
+    }
+  },
+  "frontal_visual_with_old_calibration": {
+    "images": 16,
+    "outputs": 10,
+    "descriptive_correct_outputs": {
+      "0.25": 6,
+      "0.5": 9,
+      "1.0": 10
+    }
+  },
+  "new_calibration_not_recommended": true,
+  "new_calibration_evidence": {
+    "old_reference_frozen_calibration": 0.15740682142050108,
+    "old_reference_new_calibration": 0.21548398907815117,
+    "visual_reference_frozen_calibration": 0.225113880261288,
+    "visual_reference_new_calibration": 0.2866375743243127,
+    "matched_train_observations": 31,
+    "matched_visual_with_oldcal_correct_half_psi": 24,
+    "matched_visual_with_newcal_correct_half_psi": 22
+  },
+  "fixed_anchor_missingness": [
+    {
+      "id": "G_013",
+      "reason": "Counterweight covers nearly all lower striped-ball print; thin needle and/or glare also confounds the tiny top 10. No static fallback substituted."
+    },
+    {
+      "id": "G_014",
+      "reason": "Counterweight covers nearly all lower striped-ball print; thin needle and/or glare also confounds the tiny top 10. No static fallback substituted."
+    },
+    {
+      "id": "G_015",
+      "reason": "Counterweight covers nearly all lower striped-ball print; thin needle and/or glare also confounds the tiny top 10. No static fallback substituted."
+    },
+    {
+      "id": "G_016",
+      "reason": "Counterweight covers nearly all lower striped-ball print; thin needle and/or glare also confounds the tiny top 10. No static fallback substituted."
+    },
+    {
+      "id": "G_017",
+      "reason": "Counterweight covers nearly all lower striped-ball print; thin needle and/or glare also confounds the tiny top 10. No static fallback substituted."
+    },
+    {
+      "id": "G_018",
+      "reason": "Counterweight covers nearly all lower striped-ball print; thin needle and/or glare also confounds the tiny top 10. No static fallback substituted."
+    },
+    {
+      "id": "G_049",
+      "reason": "No specified printed gauge face: empty background / football / reverse metal face respectively."
+    },
+    {
+      "id": "G_050",
+      "reason": "No specified printed gauge face: empty background / football / reverse metal face respectively."
+    },
+    {
+      "id": "G_051",
+      "reason": "No specified printed gauge face: empty background / football / reverse metal face respectively."
+    },
+    {
+      "id": "G_052",
+      "reason": "Top 10 lies beyond cropped native image; lower print alone cannot define fixed two-anchor direction."
+    },
+    {
+      "id": "G_053",
+      "reason": "Severe defocus: neither fixed print centroid can be reliably distinguished."
+    },
+    {
+      "id": "G_054",
+      "reason": "Severe overexposure washes out the fixed printed anchors."
+    },
+    {
+      "id": "G_055",
+      "reason": "Severe overexposure washes out the fixed printed anchors."
+    }
+  ],
+  "conclusions": [
+    "Reliable static reference evidence can recover some correct readings; this is an annotation-assisted diagnostic, not an automatic model gain.",
+    "Using only these two fixed structures loses observations when the pointer/counterweight covers one; that does not imply no other static structure is visible.",
+    "New calibration has no demonstrated robust net advantage in MAE and larger-error outputs, including common-training-observation controls; some finer-band counts improve, so not every metric uniformly worsens.",
+    "Frontal correct output count in the descriptive0.5psi band remains9/16, so the basic frontal goal is not solved.",
+    "Reference replacement changes both pose value and pose availability; old ring-specific gates are not silently claimed preserved.",
+    "Remaining PSI errors may involve hub/needle geometry, projection, labels and reference uncertainty; this experiment does not identify a unique cause."
+  ],
+  "next_scope": "Before model/deployment selection: design a redundant identified-print landmark observation and uncertainty contract, preserving old reference when new evidence is absent; verify its effect separately. Do not train the failed scalar-roll classifier again.",
+  "not_authorized_by_this_receipt": [
+    "New training",
+    "New hardware/MCU/Flash changes",
+    "H test evaluation"
+  ],
+  "no_threshold_or_label_optimization": true,
+  "new_neural_architecture_frozen": false,
+  "model_deployment_cost_claim": false,
+  "hardware_actions": false,
+  "descriptive_half_psi_band_is_user_final_target": false
+}

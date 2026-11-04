@@ -1,0 +1,40 @@
+{
+  "status": "PASS_CANDIDATE_A_TRAINING_ADMISSION",
+  "checks": 684,
+  "failures": [],
+  "source_sha256": "334a349195940b94a251229379fc92fc195d4c99baa663fc3f1daa1f192e8ce8",
+  "plan": {
+    "steps": 2400,
+    "batch": 12,
+    "seed": 1102,
+    "threads": 4,
+    "learning_rate": 0.0008,
+    "final_learning_rate": 8e-05,
+    "evaluate_every": 200,
+    "weak_line_weight": 0.5,
+    "hard_negative_weight": 0.2,
+    "hard_negative_k": 16,
+    "weak_line_t": [
+      0.2,
+      0.95
+    ],
+    "weak_line_supervision_t": [
+      0.15,
+      1.0
+    ],
+    "weak_line_sigma_heat": 1.0,
+    "hard_negative_exclusion": "max(3 heat pixels,3*sigma_heat,uncertainty_native/(2*stride)+1); target<.05",
+    "selection": "minimum unchanged G masked focal loss",
+    "inference_parameters": 1202,
+    "training_only_aux_parameters": 5
+  },
+  "warm_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "prepared_train_sha256": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+  "prepared_validation_sha256": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79",
+  "supervision": "47 bounded visible clear-front training images only; weak direction tubes not true segmentation; noneligible mask0",
+  "visual_review": "aux_labels_01.png first16 qualified examples: line support follows thin end, no obvious body occlusion",
+  "optimizer_steps_by_reviewer": 0,
+  "integer_or_MCU_deployment_accepted": false,
+  "test_H_or_ABC_opened": false,
+  "decision": "One predeclared2400step candidate may run; inference aux removal and final G/bar results must still be reviewed"
+}

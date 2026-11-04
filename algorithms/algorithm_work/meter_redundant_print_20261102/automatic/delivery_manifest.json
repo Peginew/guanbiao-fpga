@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_ONE_PASS_STATIC_POINT_LOCATOR_DELIVERED_FOR_ROOT_CONSENSUS",
+  "source_sha256": {
+    "static_point_locator.py": "0f3c3865d59b9bcb82ff3192d5c1ca9307226de8395de9e8c23d996ae85f2eb8",
+    "config_frozen_before_G.json": "22c3d7344534d2bcb4d29e41a04b3bbfdf8dde717ac471d1c2245a4a4af3621b",
+    "setup.json": "85262ec3378a79e482670e6def3e42076775b5b3f6188be7cbb815270a07599f",
+    "train_templates.npz": "e5a1a366b84f837b365f5979dda9b30b40fb6a05fc017e0f4d206fd87e7fe3e0",
+    "preflight.json": "e15d5f5786bf99e12aebe1559fe5cc74b7679118f01307b3d01b81e6cc9d5065",
+    "predictions.jsonl": "5560a8495c801d29c56d4c538322a1cd94b08105fbf2ed2ec92a6bf07d9472c3",
+    "completion.json": "07dbecba3e3dc859e7b93d690bb583e0b0902cded888cd1af98744a8954b0c69",
+    "README.md": "dcd4a387e50393bfca10456a9b6559a5af53fdd8803cb2c0fb2ba82c848f7de3",
+    "predict_stdout.log": "07dbecba3e3dc859e7b93d690bb583e0b0902cded888cd1af98744a8954b0c69",
+    "predict_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rows": 223,
+  "G_rows": 59,
+  "G_passes": 1,
+  "model_training": false,
+  "H_ABC_opened": false,
+  "hardware_actions": false,
+  "point_evidence_not_probability_or_PSI_acceptance": true,
+  "history_prototype_G_evaluated": false
+}

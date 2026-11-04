@@ -1,0 +1,60 @@
+{
+  "candidate": "ONE_D025_STATIC_PRINT_LOCAL_NCC",
+  "template_id": "D_025",
+  "zero_id": "D_002",
+  "query_inputs": [
+    "U8ROI128",
+    "frozen_original_predicted_hub",
+    "locator_radius"
+  ],
+  "normalizing_center": [
+    64.0,
+    64.0
+  ],
+  "normalizing_radius": 48.0,
+  "local_contrast": {
+    "width": 9,
+    "gain": 3,
+    "border": "replicate",
+    "before_canonical_warp": true
+  },
+  "text_patch_width": 17,
+  "logo_patch_width": 13,
+  "patch_warp": "bilinear around source anchor, border128",
+  "rotations": "[-24-offset,+24-offset], outward multiplesof4degrees, offset=D002->D025 TRAINfit",
+  "rotation_step_deg": 4,
+  "translation_radius_per_rotation": 20,
+  "expected_position_rotates_about_C64_together_with_patch": true,
+  "NCC_method": "OpenCV TM_CCOEFF_NORMED, score is NOT calibrated probability",
+  "minimum_NCC": 0.68,
+  "minimum_spatial_margin": 0.06,
+  "second_peak_exclusion_radius": 6.0,
+  "minimum_train_patch_stddev": 8.0,
+  "subpixel_refinement": "bounded 3pointparabola +/-0.5pixel when finite neighbours",
+  "query_known_needle_required": false,
+  "query_manual_visibility_used": false,
+  "query_native_frame_used": false,
+  "query_pressure_or_GTpoints_used": false,
+  "template_selection": "Single fixed D025 observed clean TRAINimage; D002 known contaminated logos are NEVERpatches",
+  "threshold_selection": "Fixed before anyGprediction, no adaptation fromG labels/errors",
+  "geometry_or_READ_permission": "ROOT consensus; these outputs are perpoint evidence only",
+  "full_integer_or_MCU_implementation": false,
+  "rotation_bank_deg": [
+    -24,
+    -20,
+    -16,
+    -12,
+    -8,
+    -4,
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "rotation_bank_count": 14,
+  "canonical_roll_relative_D002": -2.3834504963646026
+}
