@@ -1,0 +1,51 @@
+第五部分 参考文献
+
+[1] 上海安路信息科技股份有限公司. 2026年全国大学生嵌入式芯片与系统设计竞赛FPGA赛道选题指南（安路）[EB/OL]. (2026-08-26)[2026-11-04]. https://www.anlogic.com/support/university/competitions/eda/news1/42.html.
+
+[2] BAILEY D G. Design for Embedded Image Processing on FPGAs[M]. Singapore: John Wiley & Sons, 2011. DOI:10.1002/9780470828519.
+
+[3] SZELISKI R. Computer Vision: Algorithms and Applications[M]. 2nd ed. Cham: Springer, 2022. DOI:10.1007/978-3-030-34372-9.
+
+[4] MALVAR H S, HE L W, CUTLER R. High-quality linear interpolation for demosaicing of Bayer-patterned color images[C]//Proceedings of ICASSP 2004. IEEE, 2004, 3: III-485-III-488. DOI:10.1109/ICASSP.2004.1326587.
+
+[5] CANNY J. A computational approach to edge detection[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 1986, PAMI-8(6): 679-698. DOI:10.1109/TPAMI.1986.4767851.
+
+[6] OTSU N. A threshold selection method from gray-level histograms[J]. IEEE Transactions on Systems, Man, and Cybernetics, 1979, 9(1): 62-66. DOI:10.1109/TSMC.1979.4310076.
+
+[7] LECUN Y, BOTTOU L, BENGIO Y, et al. Gradient-based learning applied to document recognition[J]. Proceedings of the IEEE, 1998, 86(11): 2278-2324. DOI:10.1109/5.726791.
+
+[8] JACOB B, KLIGYS S, CHEN B, et al. Quantization and training of neural networks for efficient integer-arithmetic-only inference[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2018: 2704-2713. DOI:10.1109/CVPR.2018.00286.
+
+[9] SHORTEN C, KHOSHGOFTAAR T M. A survey on image data augmentation for deep learning[J]. Journal of Big Data, 2019, 6: 60. DOI:10.1186/s40537-019-0197-0.
+
+[10] LEON-ALCAZAR J, ALNUMAY Y, ZHENG C, et al. Learning to read analog gauges from synthetic data[C]//2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). IEEE, 2024: 8601-8610. DOI:10.1109/WACV57701.2024.00842.
+
+[11] ZHANG C, LI P, SUN G, et al. Optimizing FPGA-based accelerator design for deep convolutional neural networks[C]//Proceedings of the 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays. New York: ACM, 2015: 161-170. DOI:10.1145/2684746.2689060.
+
+[12] QIU J, WANG J, YAO S, et al. Going deeper with embedded FPGA platform for convolutional neural network[C]//Proceedings of the 2016 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays. New York: ACM, 2016: 26-35. DOI:10.1145/2847263.2847265.
+
+[13] SANDLER M, HOWARD A, ZHU M, et al. MobileNetV2: Inverted residuals and linear bottlenecks[C]//2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE, 2018: 4510-4520. DOI:10.1109/CVPR.2018.00474.
+
+[14] HOWARD A, SANDLER M, CHU G, et al. Searching for MobileNetV3[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019: 1314-1324. https://openaccess.thecvf.com/content_ICCV_2019/html/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.html.
+
+[15] MA N, ZHANG X, ZHENG H T, et al. ShuffleNet V2: Practical guidelines for efficient CNN architecture design[C]//Computer Vision – ECCV 2018. Cham: Springer, 2018: 122-138. DOI:10.1007/978-3-030-01264-9_8.
+
+[16] LIN J, CHEN W M, LIN Y, et al. MCUNet: Tiny deep learning on IoT devices[C]//Advances in Neural Information Processing Systems. Curran Associates, Inc., 2020, 33: 11711-11722. https://proceedings.neurips.cc/paper/2020/hash/86c51678350f656dcc7f490a43946ee5-Abstract.html.
+
+[17] LIN J, CHEN W M, CAI H, et al. Memory-efficient patch-based inference for tiny deep learning[C]//Advances in Neural Information Processing Systems. Curran Associates, Inc., 2021, 34: 2346-2358. https://proceedings.neurips.cc/paper/2021/hash/1371bccec2447b5aa6d96d2a540fb401-Abstract.html.
+
+[18] FISCHLER M A, BOLLES R C. Random sample consensus: A paradigm for model fitting with applications to image analysis and automated cartography[J]. Communications of the ACM, 1981, 24(6): 381-395. DOI:10.1145/358669.358692.
+
+[19] LOWE D G. Distinctive image features from scale-invariant keypoints[J]. International Journal of Computer Vision, 2004, 60(2): 91-110. DOI:10.1023/B:VISI.0000029664.99615.94.
+
+[20] RUBLEE E, RABAUD V, KONOLIGE K, et al. ORB: An efficient alternative to SIFT or SURF[C]//2011 International Conference on Computer Vision. IEEE, 2011: 2564-2571. DOI:10.1109/ICCV.2011.6126544.
+
+[21] XIAO B, WU H, WEI Y. Simple baselines for human pose estimation and tracking[C]//Computer Vision – ECCV 2018. Cham: Springer, 2018: 472-487. DOI:10.1007/978-3-030-01231-1_29.
+
+[22] REITSMA M, KELLER J, BLOMQVIST K, et al. Under pressure: Learning-based analog gauge reading in the wild[C]//2024 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2024: 14-20. DOI:10.1109/ICRA57147.2024.10610793.
+
+[23] LI Y, LI X, ZHANG C. Pointer meter reading recognition by joint detection and segmentation[J]. Applied Sciences, 2024, 14(4): 1443. DOI:10.3390/app14041443.
+
+[24] BAJCSY R. Active perception[J]. Proceedings of the IEEE, 1988, 76(8): 996-1005. DOI:10.1109/5.5968.
+
+[25] CHAUMETTE F, HUTCHINSON S. Visual servo control. I. Basic approaches[J]. IEEE Robotics & Automation Magazine, 2006, 13(4): 82-90. DOI:10.1109/MRA.2006.250573.

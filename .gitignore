@@ -1,0 +1,15 @@
+.git/
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*_Runs/
+*.wlf
+*.vcd
+*.logw
+.cooperation/
