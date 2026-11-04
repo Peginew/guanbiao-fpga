@@ -1,0 +1,5336 @@
+{
+  "summary": {
+    "images": 164,
+    "hub_error_roi": {
+      "n": 149,
+      "mean": 2.3754729572024447,
+      "median": 1.4214814668916158,
+      "p90": 3.8442284236520874
+    },
+    "hub_error_native": {
+      "n": 149,
+      "mean": 7.38416125629406,
+      "median": 4.362684032578425,
+      "p90": 11.532685270956263
+    },
+    "hub_masked_focal": 0.6512842462366859,
+    "visible_bounded_hubs": 149,
+    "permitted_known_hubs": 136,
+    "permitted_known_hubs_over4roi": 8,
+    "hub_thresholds_unchanged": true,
+    "tip_accuracy_not_claimed": true,
+    "by_scene": {
+      "backlight_or_local_reflection": {
+        "hub_error_roi": {
+          "n": 24,
+          "mean": 2.761242068569313,
+          "median": 1.0649263769284691,
+          "p90": 10.185308278805802
+        },
+        "known": 24,
+        "permitted": 22
+      },
+      "challenge_with_gauge": {
+        "hub_error_roi": {
+          "n": 6,
+          "mean": 1.409593859156418,
+          "median": 0.8551370084795745,
+          "p90": 2.7552026099193485
+        },
+        "known": 6,
+        "permitted": 6
+      },
+      "empty_background": {
+        "hub_error_roi": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p90": null
+        },
+        "known": 0,
+        "permitted": 0
+      },
+      "front_dim": {
+        "hub_error_roi": {
+          "n": 24,
+          "mean": 3.092305059912056,
+          "median": 1.5390364748486585,
+          "p90": 5.755694480048206
+        },
+        "known": 24,
+        "permitted": 15
+      },
+      "front_large_soft_light": {
+        "hub_error_roi": {
+          "n": 23,
+          "mean": 1.5740189208110975,
+          "median": 1.3257689785777635,
+          "p90": 2.574783580864125
+        },
+        "known": 23,
+        "permitted": 22
+      },
+      "front_medium_soft_light": {
+        "hub_error_roi": {
+          "n": 24,
+          "mean": 1.5557199499217462,
+          "median": 1.0835897305475644,
+          "p90": 3.1108583652661284
+        },
+        "known": 24,
+        "permitted": 24
+      },
+      "mild_left_view": {
+        "hub_error_roi": {
+          "n": 24,
+          "mean": 2.7603314214034733,
+          "median": 1.7252288786267405,
+          "p90": 2.438834298224465
+        },
+        "known": 24,
+        "permitted": 24
+      },
+      "mild_right_view": {
+        "hub_error_roi": {
+          "n": 24,
+          "mean": 2.7172961789255177,
+          "median": 1.2566169271744965,
+          "p90": 5.633789018585171
+        },
+        "known": 24,
+        "permitted": 23
+      },
+      "non_gauge_circular_or_reflective_object": {
+        "hub_error_roi": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p90": null
+        },
+        "known": 0,
+        "permitted": 0
+      }
+    },
+    "named_diagnostics": {}
+  },
+  "rows": [
+    {
+      "id": "D_001",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        62.28958146856865,
+        62.222317918295566
+      ],
+      "predicted_points_roi": [
+        [
+          62.28958146856865,
+          62.222317918295566
+        ],
+        null
+      ],
+      "peaks": [
+        0.7711777091026306,
+        null
+      ],
+      "margins": [
+        0.3039795756340027,
+        null
+      ],
+      "hub_center_distance_roi": 1.759995603159566,
+      "hub_evidence_permitted": true,
+      "source_sha256": "dd07d871c18745d409486f194d343e7b651a458f2d93ec287c0de49bb7278644",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0533204213368406,
+      "hub_error_native": 3.159961264010522
+    },
+    {
+      "id": "D_002",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.38105344729303,
+        64.22902814325059
+      ],
+      "predicted_points_roi": [
+        [
+          63.38105344729303,
+          64.22902814325059
+        ],
+        null
+      ],
+      "peaks": [
+        0.7114765048027039,
+        null
+      ],
+      "margins": [
+        0.299066960811615,
+        null
+      ],
+      "hub_center_distance_roi": 0.7386679335481352,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.3067703772784235,
+      "hub_error_native": 1.227081509113694
+    },
+    {
+      "id": "D_003",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        64.50464778783247,
+        63.6957107674933
+      ],
+      "predicted_points_roi": [
+        [
+          64.50464778783247,
+          63.6957107674933
+        ],
+        null
+      ],
+      "peaks": [
+        0.47880473732948303,
+        null
+      ],
+      "margins": [
+        0.2606808543205261,
+        null
+      ],
+      "hub_center_distance_roi": 1.0235330390903312,
+      "hub_evidence_permitted": true,
+      "source_sha256": "8d1fcaebee037f6a4c82dfec9ab7f1dc12bb7130d03b67254586b7628b1c493d",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.1680438762880752,
+      "hub_error_native": 3.5041316288642257
+    },
+    {
+      "id": "D_004",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        63.515999795732746,
+        63.20657639030765
+      ],
+      "predicted_points_roi": [
+        [
+          63.515999795732746,
+          63.20657639030765
+        ],
+        null
+      ],
+      "peaks": [
+        0.49279576539993286,
+        null
+      ],
+      "margins": [
+        0.21618950366973877,
+        null
+      ],
+      "hub_center_distance_roi": 0.2938595041654709,
+      "hub_evidence_permitted": true,
+      "source_sha256": "9f20391f04da6db93269ee858ee8f6b4b950617ce5bf7bb40aba4a6d95a0f36c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.5541936597471399,
+      "hub_error_native": 1.6625809792414197
+    },
+    {
+      "id": "D_005",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.75408378407398,
+        60.59074119929772
+      ],
+      "predicted_points_roi": [
+        [
+          67.75408378407398,
+          60.59074119929772
+        ],
+        null
+      ],
+      "peaks": [
+        0.7425305843353271,
+        null
+      ],
+      "margins": [
+        0.33246779441833496,
+        null
+      ],
+      "hub_center_distance_roi": 5.153738023161917,
+      "hub_evidence_permitted": true,
+      "source_sha256": "f74a2cc2a8ee13c5173ac914c3c86a435b55f88387e68f5707f2a9545ca7b885",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.1552273225725553,
+      "hub_error_native": 6.465681967717666
+    },
+    {
+      "id": "D_006",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.28776426086407,
+        63.3422599773484
+      ],
+      "predicted_points_roi": [
+        [
+          61.28776426086407,
+          63.3422599773484
+        ],
+        null
+      ],
+      "peaks": [
+        0.6893302202224731,
+        null
+      ],
+      "margins": [
+        0.4901835322380066,
+        null
+      ],
+      "hub_center_distance_roi": 2.217852312543919,
+      "hub_evidence_permitted": true,
+      "source_sha256": "fc24fbc4589c70ed869c371057302333bcc1a4f0f93b2d5e1259c88c8316ac03",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.2578845779461312,
+      "hub_error_native": 3.7736537338383935
+    },
+    {
+      "id": "D_007",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.29660210640607,
+        63.54032824286398
+      ],
+      "predicted_points_roi": [
+        [
+          64.29660210640607,
+          63.54032824286398
+        ],
+        null
+      ],
+      "peaks": [
+        0.7691907286643982,
+        null
+      ],
+      "margins": [
+        0.6702665686607361,
+        null
+      ],
+      "hub_center_distance_roi": 0.7976222684348045,
+      "hub_evidence_permitted": true,
+      "source_sha256": "106fc28259ce33b0a5e12ee5a3134624c1fa1b146d53c4a1880a7c5fcd2514b3",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9899134089110457,
+      "hub_error_native": 2.969740226733137
+    },
+    {
+      "id": "D_008",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        62.93837566806756,
+        64.20189475118895
+      ],
+      "predicted_points_roi": [
+        [
+          62.93837566806756,
+          64.20189475118895
+        ],
+        null
+      ],
+      "peaks": [
+        0.7477794885635376,
+        null
+      ],
+      "margins": [
+        0.502101480960846,
+        null
+      ],
+      "hub_center_distance_roi": 0.898931661454392,
+      "hub_evidence_permitted": true,
+      "source_sha256": "534a5596bac89f7e8eaa0935a7589f08fcf2c807035120f59156d5c4e042b047",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.209834298403618,
+      "hub_error_native": 4.839337193614472
+    },
+    {
+      "id": "D_009",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        64.11391597368356,
+        64.08185666798306
+      ],
+      "predicted_points_roi": [
+        [
+          64.11391597368356,
+          64.08185666798306
+        ],
+        null
+      ],
+      "peaks": [
+        0.5111207365989685,
+        null
+      ],
+      "margins": [
+        0.3424200415611267,
+        null
+      ],
+      "hub_center_distance_roi": 0.8458427778376929,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b9c44a2d0494d8378b4fd2792296f230f5a45a3950cf9f3ad312d7756fce6928",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.5551796718739668,
+      "hub_error_native": 4.6655390156219
+    },
+    {
+      "id": "D_010",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.44883031547381,
+        62.387831774225766
+      ],
+      "predicted_points_roi": [
+        [
+          64.44883031547381,
+          62.387831774225766
+        ],
+        null
+      ],
+      "peaks": [
+        0.6925340294837952,
+        null
+      ],
+      "margins": [
+        0.6227723360061646,
+        null
+      ],
+      "hub_center_distance_roi": 1.461915568691962,
+      "hub_evidence_permitted": true,
+      "source_sha256": "087b968dba3bb6e5161b0240b934d6a116bc77d654624f0fb8d38e5203676ada",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.5574502653691682,
+      "hub_error_native": 1.6723507961075046
+    },
+    {
+      "id": "D_011",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.34163439051338,
+        63.54692603826055
+      ],
+      "predicted_points_roi": [
+        [
+          67.34163439051338,
+          63.54692603826055
+        ],
+        null
+      ],
+      "peaks": [
+        0.7159316539764404,
+        null
+      ],
+      "margins": [
+        0.2303975224494934,
+        null
+      ],
+      "hub_center_distance_roi": 3.841920983497958,
+      "hub_evidence_permitted": true,
+      "source_sha256": "a8a01929420338231bae568f96ae5c07d6cc0f69b0771bb652365dbf22ba3ad9",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.5907728046634753,
+      "hub_error_native": 4.772318413990426
+    },
+    {
+      "id": "D_012",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        60.75586225921454,
+        62.45253169952362
+      ],
+      "predicted_points_roi": [
+        [
+          60.75586225921454,
+          62.45253169952362
+        ],
+        null
+      ],
+      "peaks": [
+        0.7273622751235962,
+        null
+      ],
+      "margins": [
+        0.559765100479126,
+        null
+      ],
+      "hub_center_distance_roi": 2.9372575271681605,
+      "hub_evidence_permitted": true,
+      "source_sha256": "0bf43da443b68d43995b571a2e2b81ee4b24bcdca45a2b32ecbd57e5ea34c967",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.7835773212289916,
+      "hub_error_native": 5.350731963686975
+    },
+    {
+      "id": "D_013",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.512480859063196,
+        62.22751697862848
+      ],
+      "predicted_points_roi": [
+        [
+          63.512480859063196,
+          62.22751697862848
+        ],
+        null
+      ],
+      "peaks": [
+        0.7851927280426025,
+        null
+      ],
+      "margins": [
+        0.6158576011657715,
+        null
+      ],
+      "hub_center_distance_roi": 1.272544227727174,
+      "hub_evidence_permitted": true,
+      "source_sha256": "e4faf9de936f4300e9173573bd0fdb22fdd2953815644aaca5b76f46a2fe076b",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9707879619856195,
+      "hub_error_native": 2.912363885956858
+    },
+    {
+      "id": "D_014",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.97568059976097,
+        63.99378842505422
+      ],
+      "predicted_points_roi": [
+        [
+          63.97568059976097,
+          63.99378842505422
+        ],
+        null
+      ],
+      "peaks": [
+        0.8009275794029236,
+        null
+      ],
+      "margins": [
+        0.7638859152793884,
+        null
+      ],
+      "hub_center_distance_roi": 0.6856376898234834,
+      "hub_evidence_permitted": true,
+      "source_sha256": "998d46999232b8309f14e5ef33bd5729b9c0dda79d05c2852aa1f2c1817316af",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.361384129952585,
+      "hub_error_native": 5.44553651981034
+    },
+    {
+      "id": "D_015",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        63.97404689823568,
+        62.76785707404631
+      ],
+      "predicted_points_roi": [
+        [
+          63.97404689823568,
+          62.76785707404631
+        ],
+        null
+      ],
+      "peaks": [
+        0.41539227962493896,
+        null
+      ],
+      "margins": [
+        0.19645562767982483,
+        null
+      ],
+      "hub_center_distance_roi": 0.8722119729463101,
+      "hub_evidence_permitted": true,
+      "source_sha256": "5cecd36635e798ed3c3daf4f4d258d2e9b1a845086c2b40e4769391854878564",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6174803806248905,
+      "hub_error_native": 4.852441141874672
+    },
+    {
+      "id": "D_016",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.32622834338727,
+        60.49512908594688
+      ],
+      "predicted_points_roi": [
+        [
+          64.32622834338727,
+          60.49512908594688
+        ],
+        null
+      ],
+      "peaks": [
+        0.7394430041313171,
+        null
+      ],
+      "margins": [
+        0.4721570611000061,
+        null
+      ],
+      "hub_center_distance_roi": 3.1163925435572004,
+      "hub_evidence_permitted": true,
+      "source_sha256": "8c9db58d5ea7dc1f0541adac79e1f6e8fca47c1597045396778693ba18ea8a57",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.7859239772734359,
+      "hub_error_native": 5.357771931820308
+    },
+    {
+      "id": "D_017",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.81134119283477,
+        77.14824777614714
+      ],
+      "predicted_points_roi": [
+        [
+          68.81134119283477,
+          77.14824777614714
+        ],
+        null
+      ],
+      "peaks": [
+        0.758351743221283,
+        null
+      ],
+      "margins": [
+        0.14111310243606567,
+        null
+      ],
+      "hub_center_distance_roi": 14.645306846420425,
+      "hub_evidence_permitted": true,
+      "source_sha256": "dbf98e17d7d76c3346ec51fb3c8f44a89ef33ed0a153342aeebdc9a90952c686",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 15.155787665773918,
+      "hub_error_native": 45.46736299732176
+    },
+    {
+      "id": "D_018",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.703688550213585,
+        63.97822410982941
+      ],
+      "predicted_points_roi": [
+        [
+          61.703688550213585,
+          63.97822410982941
+        ],
+        null
+      ],
+      "peaks": [
+        0.7058998942375183,
+        null
+      ],
+      "margins": [
+        0.40853750705718994,
+        null
+      ],
+      "hub_center_distance_roi": 1.8588795345196276,
+      "hub_evidence_permitted": true,
+      "source_sha256": "2ece195c107d688e02389cbecc9d44a9dba1acf28c05693d8e4df5f85dd03c55",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.2553492764028615,
+      "hub_error_native": 3.766047829208585
+    },
+    {
+      "id": "D_019",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.5783431588034,
+        60.178823672883524
+      ],
+      "predicted_points_roi": [
+        [
+          63.5783431588034,
+          60.178823672883524
+        ],
+        null
+      ],
+      "peaks": [
+        0.6971992254257202,
+        null
+      ],
+      "margins": [
+        0.3887249827384949,
+        null
+      ],
+      "hub_center_distance_roi": 3.3221002161780397,
+      "hub_evidence_permitted": true,
+      "source_sha256": "57ffedecd06d33c99d8e1b137325dec7cd49469983a59ebd83f2b17727e1c2dd",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.854533037480858,
+      "hub_error_native": 8.563599112442574
+    },
+    {
+      "id": "D_020",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.038378515312296,
+        63.56220765161295
+      ],
+      "predicted_points_roi": [
+        [
+          63.038378515312296,
+          63.56220765161295
+        ],
+        null
+      ],
+      "peaks": [
+        0.7384206056594849,
+        null
+      ],
+      "margins": [
+        0.46305733919143677,
+        null
+      ],
+      "hub_center_distance_roi": 0.4657941466404217,
+      "hub_evidence_permitted": true,
+      "source_sha256": "5e163d2b9983baf9ca5942710eee66a119b35a4e71c755b7f0e43383bcc37cd7",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.5129717913436751,
+      "hub_error_native": 2.0518871653747004
+    },
+    {
+      "id": "D_021",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        65.42668529183824,
+        62.3866397056406
+      ],
+      "predicted_points_roi": [
+        [
+          65.42668529183824,
+          62.3866397056406
+        ],
+        null
+      ],
+      "peaks": [
+        0.5124300718307495,
+        null
+      ],
+      "margins": [
+        0.12727543711662292,
+        null
+      ],
+      "hub_center_distance_roi": 2.225238719517944,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c650223f3617d379fcf0b428b19130acfad0a988c2bce7395779fee4bb21233a",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4764350931109438,
+      "hub_error_native": 4.429305279332832
+    },
+    {
+      "id": "D_022",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.34667830271233,
+        62.018389413880726
+      ],
+      "predicted_points_roi": [
+        [
+          64.34667830271233,
+          62.018389413880726
+        ],
+        null
+      ],
+      "peaks": [
+        0.733836829662323,
+        null
+      ],
+      "margins": [
+        0.4039739966392517,
+        null
+      ],
+      "hub_center_distance_roi": 1.706468305355988,
+      "hub_evidence_permitted": true,
+      "source_sha256": "6bc273523da16225298a9185991ada5c17b55664f5cbd1e5a6cfb77b684d839a",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4214814668916158,
+      "hub_error_native": 4.264444400674847
+    },
+    {
+      "id": "D_023",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.3587749759005,
+        61.61742279841898
+      ],
+      "predicted_points_roi": [
+        [
+          67.3587749759005,
+          61.61742279841898
+        ],
+        null
+      ],
+      "peaks": [
+        0.6342836022377014,
+        null
+      ],
+      "margins": [
+        0.21330779790878296,
+        null
+      ],
+      "hub_center_distance_roi": 4.293511527240675,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b359b70d01b407afff43b3dec44366661c52cddc968052f774ab8b902b41c743",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.362695614460569,
+      "hub_error_native": 4.088086843381707
+    },
+    {
+      "id": "D_024",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        62.148240255135164,
+        62.63360819559987
+      ],
+      "predicted_points_roi": [
+        [
+          62.148240255135164,
+          62.63360819559987
+        ],
+        null
+      ],
+      "peaks": [
+        0.6783599853515625,
+        null
+      ],
+      "margins": [
+        0.19182148575782776,
+        null
+      ],
+      "hub_center_distance_roi": 1.6055806322227362,
+      "hub_evidence_permitted": true,
+      "source_sha256": "52e3a0d9dc33a93e03224d90eac2b892f4e8d0762fb5b08ce1ac0aa5e7b90ab0",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9798770987061353,
+      "hub_error_native": 2.9396312961184057
+    },
+    {
+      "id": "D_025",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.3625767513961,
+        62.11316865940812
+      ],
+      "predicted_points_roi": [
+        [
+          64.3625767513961,
+          62.11316865940812
+        ],
+        null
+      ],
+      "peaks": [
+        0.8051168918609619,
+        null
+      ],
+      "margins": [
+        0.5963453650474548,
+        null
+      ],
+      "hub_center_distance_roi": 1.6331992589077846,
+      "hub_evidence_permitted": true,
+      "source_sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.7918566090900516,
+      "hub_error_native": 2.375569827270155
+    },
+    {
+      "id": "D_026",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.02698893193724,
+        63.526602007747655
+      ],
+      "predicted_points_roi": [
+        [
+          64.02698893193724,
+          63.526602007747655
+        ],
+        null
+      ],
+      "peaks": [
+        0.5263991951942444,
+        null
+      ],
+      "margins": [
+        0.18464985489845276,
+        null
+      ],
+      "hub_center_distance_roi": 0.5276599295005817,
+      "hub_evidence_permitted": true,
+      "source_sha256": "7af1be8a47b9e80fafac495f10d5f882662ad4de2bf97b789f5df2ac917f866d",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.4451026580465376,
+      "hub_error_native": 1.7804106321861504
+    },
+    {
+      "id": "D_027",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        65.86852192019761,
+        66.29027426044335
+      ],
+      "predicted_points_roi": [
+        [
+          65.86852192019761,
+          66.29027426044335
+        ],
+        null
+      ],
+      "peaks": [
+        0.4768826365470886,
+        null
+      ],
+      "margins": [
+        0.16433554887771606,
+        null
+      ],
+      "hub_center_distance_roi": 3.659989963777124,
+      "hub_evidence_permitted": true,
+      "source_sha256": "bd1feb6663a3afe90fdbc3b9dffccb2785cb9bf2dd227feda70debe827a2aa14",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 3.674488724399033,
+      "hub_error_native": 11.023466173197098
+    },
+    {
+      "id": "D_028",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.5311581194614,
+        62.00218772091819
+      ],
+      "predicted_points_roi": [
+        [
+          64.5311581194614,
+          62.00218772091819
+        ],
+        null
+      ],
+      "peaks": [
+        0.7304670810699463,
+        null
+      ],
+      "margins": [
+        0.5221324563026428,
+        null
+      ],
+      "hub_center_distance_roi": 1.8184412805200547,
+      "hub_evidence_permitted": true,
+      "source_sha256": "bd764a393c02504137c0af8680a9bc540ea93e2dbc34bca2b5175843c69cf311",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.458034974929258,
+      "hub_error_native": 4.374104924787774
+    },
+    {
+      "id": "D_029",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.13806862484506,
+        62.03033386726648
+      ],
+      "predicted_points_roi": [
+        [
+          67.13806862484506,
+          62.03033386726648
+        ],
+        null
+      ],
+      "peaks": [
+        0.7299079298973083,
+        null
+      ],
+      "margins": [
+        0.4979321360588074,
+        null
+      ],
+      "hub_center_distance_roi": 3.923705118989696,
+      "hub_evidence_permitted": true,
+      "source_sha256": "e56687799f2d028e3950b6543878fb506efe0ec2d232840203a3deff96cfeac2",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.7681821449352537,
+      "hub_error_native": 5.304546434805761
+    },
+    {
+      "id": "D_030",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        60.740679428840075,
+        63.73147415556323
+      ],
+      "predicted_points_roi": [
+        [
+          60.740679428840075,
+          63.73147415556323
+        ],
+        null
+      ],
+      "peaks": [
+        0.7978128790855408,
+        null
+      ],
+      "margins": [
+        0.672784686088562,
+        null
+      ],
+      "hub_center_distance_roi": 2.769012513355627,
+      "hub_evidence_permitted": true,
+      "source_sha256": "7a62969e1514f0be4ad397f02e65b2823136838ff014fbdf18ef83297a06eb36",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.8620718247530215,
+      "hub_error_native": 5.586215474259064
+    },
+    {
+      "id": "D_031",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.40146141157518,
+        62.39693255284838
+      ],
+      "predicted_points_roi": [
+        [
+          64.40146141157518,
+          62.39693255284838
+        ],
+        null
+      ],
+      "peaks": [
+        0.826956570148468,
+        null
+      ],
+      "margins": [
+        0.5818676352500916,
+        null
+      ],
+      "hub_center_distance_roi": 1.4245667655553118,
+      "hub_evidence_permitted": true,
+      "source_sha256": "289e4a80569fc0c74cc27a7e1b9d40de64050d37b644ba5ac41136346464e755",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.2054932328093102,
+      "hub_error_native": 3.6164796984279306
+    },
+    {
+      "id": "D_032",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.34906775897234,
+        63.69072006258989
+      ],
+      "predicted_points_roi": [
+        [
+          64.34906775897234,
+          63.69072006258989
+        ],
+        null
+      ],
+      "peaks": [
+        0.5371859073638916,
+        null
+      ],
+      "margins": [
+        0.20474234223365784,
+        null
+      ],
+      "hub_center_distance_roi": 0.8702242248987334,
+      "hub_evidence_permitted": true,
+      "source_sha256": "41740742d5933ebec6f6ca62f4016c7245b6b0b600338f3685bcef49f0cfca4c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9684072786241377,
+      "hub_error_native": 3.8736291144965507
+    },
+    {
+      "id": "D_033",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        64.53900074416391,
+        64.05248332023213
+      ],
+      "predicted_points_roi": [
+        [
+          64.53900074416391,
+          64.05248332023213
+        ],
+        null
+      ],
+      "peaks": [
+        0.4682612419128418,
+        null
+      ],
+      "margins": [
+        0.16327819228172302,
+        null
+      ],
+      "hub_center_distance_roi": 1.1767584142498762,
+      "hub_evidence_permitted": true,
+      "source_sha256": "3f2897a05c47a873003a761bf765962e64597d95872b2481d11ef74f00e0dbb3",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4921111193068055,
+      "hub_error_native": 4.476333357920416
+    },
+    {
+      "id": "D_034",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        65.46513115296732,
+        61.59479794993876
+      ],
+      "predicted_points_roi": [
+        [
+          65.46513115296732,
+          61.59479794993876
+        ],
+        null
+      ],
+      "peaks": [
+        0.3548820912837982,
+        null
+      ],
+      "margins": [
+        0.2624623775482178,
+        null
+      ],
+      "hub_center_distance_roi": 2.737066915499183,
+      "hub_evidence_permitted": true,
+      "source_sha256": "6832b54c65c14ab42030a6513d47cbf1293e9f1b6a5ab30eff037c36fb24ad08",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.5925264499665588,
+      "hub_error_native": 1.7775793498996764
+    },
+    {
+      "id": "D_035",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.47723879424606,
+        62.00360397452631
+      ],
+      "predicted_points_roi": [
+        [
+          67.47723879424606,
+          62.00360397452631
+        ],
+        null
+      ],
+      "peaks": [
+        0.8469996452331543,
+        null
+      ],
+      "margins": [
+        0.7021868228912354,
+        null
+      ],
+      "hub_center_distance_roi": 4.249426960368814,
+      "hub_evidence_permitted": true,
+      "source_sha256": "d9ade81df3e18dfa506c8bd743d461e87dbdcbbe50691a72813f297517383d58",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.1066327202910444,
+      "hub_error_native": 6.319898160873134
+    },
+    {
+      "id": "D_036",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        62.403791602400894,
+        64.01427352014312
+      ],
+      "predicted_points_roi": [
+        [
+          62.403791602400894,
+          64.01427352014312
+        ],
+        null
+      ],
+      "peaks": [
+        0.6463505029678345,
+        null
+      ],
+      "margins": [
+        0.3213070034980774,
+        null
+      ],
+      "hub_center_distance_roi": 1.210846854266549,
+      "hub_evidence_permitted": true,
+      "source_sha256": "da0d595b5c9a98555dd2f10eebe0bf18343c8f2c1d2be47b35dff3c7e483ea96",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.8978725350923329,
+      "hub_error_native": 2.693617605276999
+    },
+    {
+      "id": "D_037",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.1462293358566,
+        61.93511162286353
+      ],
+      "predicted_points_roi": [
+        [
+          64.1462293358566,
+          61.93511162286353
+        ],
+        null
+      ],
+      "peaks": [
+        0.7372451424598694,
+        null
+      ],
+      "margins": [
+        0.5563360452651978,
+        null
+      ],
+      "hub_center_distance_roi": 1.6930705795738341,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b20bf438e3cecee76dd92aca29b80cae6418b694ed8cb87d54e2c00b92f70a7e",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.8627607057512992,
+      "hub_error_native": 2.5882821172538977
+    },
+    {
+      "id": "D_038",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.38295039842993,
+        65.52989718804498
+      ],
+      "predicted_points_roi": [
+        [
+          64.38295039842993,
+          65.52989718804498
+        ],
+        null
+      ],
+      "peaks": [
+        0.57231205701828,
+        null
+      ],
+      "margins": [
+        0.00816434621810913,
+        null
+      ],
+      "hub_center_distance_roi": 2.2136133357297294,
+      "hub_evidence_permitted": false,
+      "source_sha256": "f51d8d4996b6019e34c2ec5136f2a918147db82369c378ac955b9a6e8436e6aa",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6309256488069774,
+      "hub_error_native": 6.52370259522791
+    },
+    {
+      "id": "D_039",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        66.0259546210897,
+        65.62641207715181
+      ],
+      "predicted_points_roi": [
+        [
+          66.0259546210897,
+          65.62641207715181
+        ],
+        null
+      ],
+      "peaks": [
+        0.413813054561615,
+        null
+      ],
+      "margins": [
+        0.15368545055389404,
+        null
+      ],
+      "hub_center_distance_roi": 3.301829049127388,
+      "hub_evidence_permitted": true,
+      "source_sha256": "50dadd281b8f858302c0fef210dedc3e9af620e1f9774e5958d0e91384d40cce",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 3.338185013442081,
+      "hub_error_native": 10.014555040326243
+    },
+    {
+      "id": "D_040",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.2766995739508,
+        62.47883704203854
+      ],
+      "predicted_points_roi": [
+        [
+          64.2766995739508,
+          62.47883704203854
+        ],
+        null
+      ],
+      "peaks": [
+        0.7005175352096558,
+        null
+      ],
+      "margins": [
+        0.5263519287109375,
+        null
+      ],
+      "hub_center_distance_roi": 1.2829793509203251,
+      "hub_evidence_permitted": true,
+      "source_sha256": "59e89eade2eaac8071569aef51a3ed3c3378733e1aa9a449befe58091aee5f54",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9945369540053253,
+      "hub_error_native": 2.9836108620159756
+    },
+    {
+      "id": "D_041",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.97341548522898,
+        62.68340788266911
+      ],
+      "predicted_points_roi": [
+        [
+          67.97341548522898,
+          62.68340788266911
+        ],
+        null
+      ],
+      "peaks": [
+        0.7982340455055237,
+        null
+      ],
+      "margins": [
+        0.6442897319793701,
+        null
+      ],
+      "hub_center_distance_roi": 4.547336450008225,
+      "hub_evidence_permitted": true,
+      "source_sha256": "1e2eecaa14eacda5058384e5f32299b40ea0a5f606f6a70a5e5f4c68f52621b6",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.2525197296308077,
+      "hub_error_native": 6.757559188892423
+    },
+    {
+      "id": "D_042",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.63247179675641,
+        63.94853724402835
+      ],
+      "predicted_points_roi": [
+        [
+          61.63247179675641,
+          63.94853724402835
+        ],
+        null
+      ],
+      "peaks": [
+        0.8548654913902283,
+        null
+      ],
+      "margins": [
+        0.4152087867259979,
+        null
+      ],
+      "hub_center_distance_roi": 1.9206371987418056,
+      "hub_evidence_permitted": true,
+      "source_sha256": "a905b3339caa677339c3236eaf9938ac5cf0b5b530d36fb83dc2e83baa104397",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.923015474678866,
+      "hub_error_native": 2.769046424036598
+    },
+    {
+      "id": "D_043",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        62.595967523095574,
+        62.361118283469935
+      ],
+      "predicted_points_roi": [
+        [
+          62.595967523095574,
+          62.361118283469935
+        ],
+        null
+      ],
+      "peaks": [
+        0.794610857963562,
+        null
+      ],
+      "margins": [
+        0.6112300157546997,
+        null
+      ],
+      "hub_center_distance_roi": 1.4540723102873596,
+      "hub_evidence_permitted": true,
+      "source_sha256": "fc855c474b55ee876bbddee6d5d832075ac81429cf2762f9fc9fbf1748f4aef6",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0505049479477455,
+      "hub_error_native": 3.1515148438432368
+    },
+    {
+      "id": "D_044",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.08788173993082,
+        63.650346233705264
+      ],
+      "predicted_points_roi": [
+        [
+          64.08788173993082,
+          63.650346233705264
+        ],
+        null
+      ],
+      "peaks": [
+        0.7349569201469421,
+        null
+      ],
+      "margins": [
+        0.5289782881736755,
+        null
+      ],
+      "hub_center_distance_roi": 0.6068022166517261,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b1b4715326af622c3cf64964655e9b72819eb9f7aaccedbc8026ee76dc06821c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.3257689785777635,
+      "hub_error_native": 5.303075914311054
+    },
+    {
+      "id": "D_045",
+      "source_group": "D",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        64.1660675578246,
+        64.62130800003389
+      ],
+      "predicted_points_roi": [
+        [
+          64.1660675578246,
+          64.62130800003389
+        ],
+        null
+      ],
+      "peaks": [
+        0.4992575943470001,
+        null
+      ],
+      "margins": [
+        0.28801053762435913,
+        null
+      ],
+      "hub_center_distance_roi": 1.3042153282822737,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c8060cd7f9248d865cb2a34aa3141eb97ad3765867daca11656054c409a7289e",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.093225276329325,
+      "hub_error_native": 3.2796758289879753
+    },
+    {
+      "id": "D_046",
+      "source_group": "D",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.52538589813489,
+        62.33191048664292
+      ],
+      "predicted_points_roi": [
+        [
+          64.52538589813489,
+          62.33191048664292
+        ],
+        null
+      ],
+      "peaks": [
+        0.6887298226356506,
+        null
+      ],
+      "margins": [
+        0.5107293128967285,
+        null
+      ],
+      "hub_center_distance_roi": 1.5543002770728278,
+      "hub_evidence_permitted": true,
+      "source_sha256": "4d186d110a76679fb9263b9ef93a590271ca17c56eea4d327a0fe0d98dc80e59",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9681765966106066,
+      "hub_error_native": 2.9045297898318196
+    },
+    {
+      "id": "D_047",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.01064303276844,
+        63.60436971201627
+      ],
+      "predicted_points_roi": [
+        [
+          68.01064303276844,
+          63.60436971201627
+        ],
+        null
+      ],
+      "peaks": [
+        0.7618247270584106,
+        null
+      ],
+      "margins": [
+        0.5079197883605957,
+        null
+      ],
+      "hub_center_distance_roi": 4.511850352776436,
+      "hub_evidence_permitted": true,
+      "source_sha256": "f101955eff799d86461bed6b6a1bce87a5b3062ef2880536a154bc4b965a963d",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.454228010859475,
+      "hub_error_native": 4.362684032578425
+    },
+    {
+      "id": "D_048",
+      "source_group": "D",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        67.59937295197503,
+        60.1850367336809
+      ],
+      "predicted_points_roi": [
+        [
+          67.59937295197503,
+          60.1850367336809
+        ],
+        null
+      ],
+      "peaks": [
+        0.6659148931503296,
+        null
+      ],
+      "margins": [
+        0.010251760482788086,
+        null
+      ],
+      "hub_center_distance_roi": 5.271986348277984,
+      "hub_evidence_permitted": false,
+      "source_sha256": "bdcae35ae35b5629dfa0084aa4aa8e6b385418881f8ee8b2823d8689abe0f96c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 7.206414020226145,
+      "hub_error_native": 21.619242060678435
+    },
+    {
+      "id": "D_049",
+      "source_group": "D",
+      "split": "train",
+      "condition": "empty_background",
+      "target_present": false,
+      "hub_roi": [
+        73.87367417659321,
+        77.79462039003417
+      ],
+      "predicted_points_roi": [
+        [
+          73.87367417659321,
+          77.79462039003417
+        ],
+        null
+      ],
+      "peaks": [
+        0.11177218705415726,
+        null
+      ],
+      "margins": [
+        0.05359965190291405,
+        null
+      ],
+      "hub_center_distance_roi": 17.662086173985717,
+      "hub_evidence_permitted": false,
+      "source_sha256": "50cf31db4772dc40885cd6fb88e9edd719b921bde4df7e7688292d7e9423002a",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "D_050",
+      "source_group": "D",
+      "split": "train",
+      "condition": "non_gauge_circular_or_reflective_object",
+      "target_present": false,
+      "hub_roi": [
+        73.78083297069126,
+        77.67358923170652
+      ],
+      "predicted_points_roi": [
+        [
+          73.78083297069126,
+          77.67358923170652
+        ],
+        null
+      ],
+      "peaks": [
+        0.11235835403203964,
+        null
+      ],
+      "margins": [
+        0.043583862483501434,
+        null
+      ],
+      "hub_center_distance_roi": 17.5096018881184,
+      "hub_evidence_permitted": false,
+      "source_sha256": "069ad253deebadfd36955a7607769daf2c4bcef64a5c16ed0ac57671553098ce",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "D_051",
+      "source_group": "D",
+      "split": "train",
+      "condition": "non_gauge_circular_or_reflective_object",
+      "target_present": false,
+      "hub_roi": [
+        74.39717771845682,
+        77.46420313724312
+      ],
+      "predicted_points_roi": [
+        [
+          74.39717771845682,
+          77.46420313724312
+        ],
+        null
+      ],
+      "peaks": [
+        0.226848304271698,
+        null
+      ],
+      "margins": [
+        0.18723827600479126,
+        null
+      ],
+      "hub_center_distance_roi": 17.712917644640655,
+      "hub_evidence_permitted": false,
+      "source_sha256": "13a484a3a0e646a2335c8467dbdf525391c30a6692c681a8f8aab81fcd903529",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "D_056",
+      "source_group": "D",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        73.34948492536486,
+        57.596741383888904
+      ],
+      "predicted_points_roi": [
+        [
+          73.34948492536486,
+          57.596741383888904
+        ],
+        null
+      ],
+      "peaks": [
+        0.39468854665756226,
+        null
+      ],
+      "margins": [
+        0.18692141771316528,
+        null
+      ],
+      "hub_center_distance_roi": 11.483066471273235,
+      "hub_evidence_permitted": true,
+      "source_sha256": "65004546415bd196d1dab2cd31273704b03fd93ea96be5354017541157546e39",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "D_057",
+      "source_group": "D",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        70.62444125615026,
+        59.48203227899126
+      ],
+      "predicted_points_roi": [
+        [
+          70.62444125615026,
+          59.48203227899126
+        ],
+        null
+      ],
+      "peaks": [
+        0.5573486685752869,
+        null
+      ],
+      "margins": [
+        0.32329028844833374,
+        null
+      ],
+      "hub_center_distance_roi": 8.179347640209706,
+      "hub_evidence_permitted": true,
+      "source_sha256": "76093c8814ec5ccbe736c30e9f1a76bedd695bae2f886300d464f00a35203804",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "D_058",
+      "source_group": "D",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        65.21085633955002,
+        61.85106857315733
+      ],
+      "predicted_points_roi": [
+        [
+          65.21085633955002,
+          61.85106857315733
+        ],
+        null
+      ],
+      "peaks": [
+        0.7745975255966187,
+        null
+      ],
+      "margins": [
+        0.4038730263710022,
+        null
+      ],
+      "hub_center_distance_roi": 2.3761322069716373,
+      "hub_evidence_permitted": true,
+      "source_sha256": "6f11854241129c7a2e532df9b33db57a3ae11bd208fe87435c06b758f79eab8f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.8990129829531692,
+      "hub_error_native": 2.6970389488595075
+    },
+    {
+      "id": "D_059",
+      "source_group": "D",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        64.71262435088828,
+        62.17449861963326
+      ],
+      "predicted_points_roi": [
+        [
+          64.71262435088828,
+          62.17449861963326
+        ],
+        null
+      ],
+      "peaks": [
+        0.7363746762275696,
+        null
+      ],
+      "margins": [
+        0.6296695470809937,
+        null
+      ],
+      "hub_center_distance_roi": 1.7964998540833068,
+      "hub_evidence_permitted": true,
+      "source_sha256": "30c21a6be1bc6a03452cf7b7e1acbf1b8c3a8aa70ceb7d5324b2748576030230",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.8112610340059798,
+      "hub_error_native": 2.4337831020179395
+    },
+    {
+      "id": "E_001",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        62.960889635618415,
+        63.4837853261752
+      ],
+      "predicted_points_roi": [
+        [
+          62.960889635618415,
+          63.4837853261752
+        ],
+        null
+      ],
+      "peaks": [
+        0.7107920050621033,
+        null
+      ],
+      "margins": [
+        0.24603790044784546,
+        null
+      ],
+      "hub_center_distance_roi": 0.5393541513985873,
+      "hub_evidence_permitted": true,
+      "source_sha256": "7a080d113408403cbd9859ad7625e9c17636b26141f3498c313999f690c23d02",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.3710900288873879,
+      "hub_error_native": 1.1132700866621636
+    },
+    {
+      "id": "E_002",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.09666207571988,
+        63.83152068786456
+      ],
+      "predicted_points_roi": [
+        [
+          63.09666207571988,
+          63.83152068786456
+        ],
+        null
+      ],
+      "peaks": [
+        0.6412546038627625,
+        null
+      ],
+      "margins": [
+        0.16341739892959595,
+        null
+      ],
+      "hub_center_distance_roi": 0.522099078379564,
+      "hub_evidence_permitted": true,
+      "source_sha256": "f9d1d9c6a5f5a9972c10ce558e0476d09e873ce97c04f7925839428d2f0e124d",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.7790871414019498,
+      "hub_error_native": 3.116348565607799
+    },
+    {
+      "id": "E_003",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        62.256322494447865,
+        63.49131594458456
+      ],
+      "predicted_points_roi": [
+        [
+          62.256322494447865,
+          63.49131594458456
+        ],
+        null
+      ],
+      "peaks": [
+        0.3250134289264679,
+        null
+      ],
+      "margins": [
+        0.03093963861465454,
+        null
+      ],
+      "hub_center_distance_roi": 1.243707823660702,
+      "hub_evidence_permitted": true,
+      "source_sha256": "393afa9ff698ed6dfe3d9b5c68db4d8978117af7e095fc20bd98cde40687f8d3",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.105576934314522,
+      "hub_error_native": 3.3167308029435665
+    },
+    {
+      "id": "E_004",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        63.084200323842865,
+        63.947150711802706
+      ],
+      "predicted_points_roi": [
+        [
+          63.084200323842865,
+          63.947150711802706
+        ],
+        null
+      ],
+      "peaks": [
+        0.4518545866012573,
+        null
+      ],
+      "margins": [
+        0.011297762393951416,
+        null
+      ],
+      "hub_center_distance_roi": 0.6106006303288964,
+      "hub_evidence_permitted": false,
+      "source_sha256": "450584ffa849e8d70720d7ed09c36742cf850e4790e0b320bafdabe86f83a180",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6212099658600736,
+      "hub_error_native": 1.8636298975802208
+    },
+    {
+      "id": "E_005",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.20515554466425,
+        63.627018361757095
+      ],
+      "predicted_points_roi": [
+        [
+          67.20515554466425,
+          63.627018361757095
+        ],
+        null
+      ],
+      "peaks": [
+        0.6544132232666016,
+        null
+      ],
+      "margins": [
+        0.2061743438243866,
+        null
+      ],
+      "hub_center_distance_roi": 3.707332096586398,
+      "hub_evidence_permitted": true,
+      "source_sha256": "2093d0f9a450e3c1d2dac8b1e2a28de712914e463d13d5a2bdb0df6df201ec21",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.4905372447412724,
+      "hub_error_native": 7.471611734223817
+    },
+    {
+      "id": "E_006",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        52.34002271136441,
+        76.06335268805412
+      ],
+      "predicted_points_roi": [
+        [
+          52.34002271136441,
+          76.06335268805412
+        ],
+        null
+      ],
+      "peaks": [
+        0.49658283591270447,
+        null
+      ],
+      "margins": [
+        0.15639013051986694,
+        null
+      ],
+      "hub_center_distance_roi": 16.80425314756056,
+      "hub_evidence_permitted": true,
+      "source_sha256": "614a57ff0ca44e17a7f922f97c449c8b2c5a791c9b0b8641c7bfdac3fa00cd7c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 15.977469429935194,
+      "hub_error_native": 47.93240828980558
+    },
+    {
+      "id": "E_007",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.04276535914681,
+        63.47711167904992
+      ],
+      "predicted_points_roi": [
+        [
+          64.04276535914681,
+          63.47711167904992
+        ],
+        null
+      ],
+      "peaks": [
+        0.7691013216972351,
+        null
+      ],
+      "margins": [
+        0.6228894591331482,
+        null
+      ],
+      "hub_center_distance_roi": 0.5432477430470215,
+      "hub_evidence_permitted": true,
+      "source_sha256": "faa7ca7bb7c7f7c53d81cc20ff6faf9a9c019d7dd7a4527fa707cb368a38e58f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6979663755737611,
+      "hub_error_native": 2.093899126721283
+    },
+    {
+      "id": "E_008",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.34029701142782,
+        64.11553328295714
+      ],
+      "predicted_points_roi": [
+        [
+          64.34029701142782,
+          64.11553328295714
+        ],
+        null
+      ],
+      "peaks": [
+        0.8279279470443726,
+        null
+      ],
+      "margins": [
+        0.6330621838569641,
+        null
+      ],
+      "hub_center_distance_roi": 1.041623871578666,
+      "hub_evidence_permitted": true,
+      "source_sha256": "4cf0b6b0c0414d8a598d4e7981816d48d350455516a0b4affd691257eb2a19f9",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.2799807191286594,
+      "hub_error_native": 5.119922876514638
+    },
+    {
+      "id": "E_009",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        64.31551486872908,
+        64.07107001785153
+      ],
+      "predicted_points_roi": [
+        [
+          64.31551486872908,
+          64.07107001785153
+        ],
+        null
+      ],
+      "peaks": [
+        0.43836963176727295,
+        null
+      ],
+      "margins": [
+        0.15564993023872375,
+        null
+      ],
+      "hub_center_distance_roi": 0.9955829781626206,
+      "hub_evidence_permitted": true,
+      "source_sha256": "e5e3281f52037d8144b5e9af3490a7dd5aff120ee8a802cbb0e1dac526796a69",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4463553572835528,
+      "hub_error_native": 4.339066071850659
+    },
+    {
+      "id": "E_010",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.89077682047163,
+        63.766627787537615
+      ],
+      "predicted_points_roi": [
+        [
+          64.89077682047163,
+          63.766627787537615
+        ],
+        null
+      ],
+      "peaks": [
+        0.5822654962539673,
+        null
+      ],
+      "margins": [
+        0.44858241081237793,
+        null
+      ],
+      "hub_center_distance_roi": 1.4161040009294437,
+      "hub_evidence_permitted": true,
+      "source_sha256": "369233f6cdb6cec55acbc15ad4cfe830e296a774a17bfe7834f038bda0f1b11b",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4882884771558684,
+      "hub_error_native": 4.464865431467605
+    },
+    {
+      "id": "E_011",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.24816969557101,
+        64.19327139514981
+      ],
+      "predicted_points_roi": [
+        [
+          67.24816969557101,
+          64.19327139514981
+        ],
+        null
+      ],
+      "peaks": [
+        0.7615899443626404,
+        null
+      ],
+      "margins": [
+        0.3532433807849884,
+        null
+      ],
+      "hub_center_distance_roi": 3.811745176966821,
+      "hub_evidence_permitted": true,
+      "source_sha256": "398f7891897f8dc3e68678e7adbd8dd09b638b4877b922a308fa7271b08c7332",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6129111143018642,
+      "hub_error_native": 4.838733342905592
+    },
+    {
+      "id": "E_012",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.13573496643982,
+        64.3170539888447
+      ],
+      "predicted_points_roi": [
+        [
+          61.13573496643982,
+          64.3170539888447
+        ],
+        null
+      ],
+      "peaks": [
+        0.8174376487731934,
+        null
+      ],
+      "margins": [
+        0.6844140887260437,
+        null
+      ],
+      "hub_center_distance_roi": 2.5014648447664345,
+      "hub_evidence_permitted": true,
+      "source_sha256": "1152c32b8f780e3cc8c3981d7fc16617ac4fb2948793f4855e48abeee65b4269",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9642962215262403,
+      "hub_error_native": 3.857184886104961
+    },
+    {
+      "id": "E_013",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.21574401258681,
+        63.592211433970874
+      ],
+      "predicted_points_roi": [
+        [
+          64.21574401258681,
+          63.592211433970874
+        ],
+        null
+      ],
+      "peaks": [
+        0.6764594316482544,
+        null
+      ],
+      "margins": [
+        0.5776729583740234,
+        null
+      ],
+      "hub_center_distance_roi": 0.7216595042738878,
+      "hub_evidence_permitted": true,
+      "source_sha256": "0735b3b0f6f8c3a626a922ebf4a52c2496786eda05072709fe6838423cd5e1ec",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.7168502132253908,
+      "hub_error_native": 2.1505506396761724
+    },
+    {
+      "id": "E_014",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.01846844282401,
+        64.0227790713375
+      ],
+      "predicted_points_roi": [
+        [
+          63.01846844282401,
+          64.0227790713375
+        ],
+        null
+      ],
+      "peaks": [
+        0.7854812145233154,
+        null
+      ],
+      "margins": [
+        0.5120972394943237,
+        null
+      ],
+      "hub_center_distance_roi": 0.7107535423653049,
+      "hub_evidence_permitted": true,
+      "source_sha256": "53b0397abeb75d6d73967d25de4841cc49da0a7badf750e68faf06698f8209e7",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6091977801720576,
+      "hub_error_native": 2.4367911206882304
+    },
+    {
+      "id": "E_015",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        63.89823494013666,
+        63.81520956777473
+      ],
+      "predicted_points_roi": [
+        [
+          63.89823494013666,
+          63.81520956777473
+        ],
+        null
+      ],
+      "peaks": [
+        0.3136484622955322,
+        null
+      ],
+      "margins": [
+        0.14047876000404358,
+        null
+      ],
+      "hub_center_distance_roi": 0.5078859509401511,
+      "hub_evidence_permitted": true,
+      "source_sha256": "21f7494f0c6d1ef85f2a891beed2e353138b014938ca0993c52da10611c02f15",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6863161772761794,
+      "hub_error_native": 5.0589485318285385
+    },
+    {
+      "id": "E_016",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        63.579135590213156,
+        60.323651109249525
+      ],
+      "predicted_points_roi": [
+        [
+          63.579135590213156,
+          60.323651109249525
+        ],
+        null
+      ],
+      "peaks": [
+        0.6589977145195007,
+        null
+      ],
+      "margins": [
+        0.47874853014945984,
+        null
+      ],
+      "hub_center_distance_roi": 3.17733453029582,
+      "hub_evidence_permitted": true,
+      "source_sha256": "8d1362f7bf6c64d49f106fd4e1bad3bed4e250d2d956ff5b3f752d2e7ac2747b",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.8097614603038137,
+      "hub_error_native": 8.42928438091144
+    },
+    {
+      "id": "E_017",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        66.72353115439344,
+        63.39750193206913
+      ],
+      "predicted_points_roi": [
+        [
+          66.72353115439344,
+          63.39750193206913
+        ],
+        null
+      ],
+      "peaks": [
+        0.5952024459838867,
+        null
+      ],
+      "margins": [
+        0.1986115574836731,
+        null
+      ],
+      "hub_center_distance_roi": 3.2251602994695743,
+      "hub_evidence_permitted": true,
+      "source_sha256": "160b27f33ea471a33c5ccca96842cda2d3cb50e78aebf92319e727e24322981c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4708810422163507,
+      "hub_error_native": 4.412643126649052
+    },
+    {
+      "id": "E_018",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        60.58690086868522,
+        63.98594114225491
+      ],
+      "predicted_points_roi": [
+        [
+          60.58690086868522,
+          63.98594114225491
+        ],
+        null
+      ],
+      "peaks": [
+        0.747372031211853,
+        null
+      ],
+      "margins": [
+        0.5297528505325317,
+        null
+      ],
+      "hub_center_distance_roi": 2.953351544026368,
+      "hub_evidence_permitted": true,
+      "source_sha256": "10c18ced7950c5e8e9e34900f365992b69dbd103eb416b4b5226315dbe2c28ba",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.3502726287135873,
+      "hub_error_native": 4.050817886140762
+    },
+    {
+      "id": "E_019",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.00625979393008,
+        61.52709127273285
+      ],
+      "predicted_points_roi": [
+        [
+          64.00625979393008,
+          61.52709127273285
+        ],
+        null
+      ],
+      "peaks": [
+        0.4756592810153961,
+        null
+      ],
+      "margins": [
+        0.07589581608772278,
+        null
+      ],
+      "hub_center_distance_roi": 2.0368278830271915,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c0f10b3fb2a7aaac94572e94b219a080c7779c4604238565e43ce3437766ef65",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0222213235768203,
+      "hub_error_native": 3.0666639707304606
+    },
+    {
+      "id": "E_020",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        62.84661315324607,
+        63.396449774259736
+      ],
+      "predicted_points_roi": [
+        [
+          62.84661315324607,
+          63.396449774259736
+        ],
+        null
+      ],
+      "peaks": [
+        0.7589755654335022,
+        null
+      ],
+      "margins": [
+        0.4454558193683624,
+        null
+      ],
+      "hub_center_distance_roi": 0.6615413976176442,
+      "hub_evidence_permitted": true,
+      "source_sha256": "d8a65a50a2886f0e6c026504523f76f7e9b1a5a45f48afffefc51f27f0ea36a7",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6720510855035532,
+      "hub_error_native": 2.6882043420142128
+    },
+    {
+      "id": "E_021",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        62.520228281539765,
+        62.24154810591354
+      ],
+      "predicted_points_roi": [
+        [
+          62.520228281539765,
+          62.24154810591354
+        ],
+        null
+      ],
+      "peaks": [
+        0.28424525260925293,
+        null
+      ],
+      "margins": [
+        0.04250168800354004,
+        null
+      ],
+      "hub_center_distance_roi": 1.5948836289912587,
+      "hub_evidence_permitted": false,
+      "source_sha256": "45b32f67da200d89efc1bf2c6d36f35752062b16ed50eba7e78bab5ebf5ba67c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6316002343846785,
+      "hub_error_native": 4.8948007031540355
+    },
+    {
+      "id": "E_022",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        63.12821775588193,
+        62.184927548975445
+      ],
+      "predicted_points_roi": [
+        [
+          63.12821775588193,
+          62.184927548975445
+        ],
+        null
+      ],
+      "peaks": [
+        0.5308061838150024,
+        null
+      ],
+      "margins": [
+        0.30495816469192505,
+        null
+      ],
+      "hub_center_distance_roi": 1.3666153769386622,
+      "hub_evidence_permitted": true,
+      "source_sha256": "9cf6730e3ddb1ae72e385a8e27fcf7c51bca62512aa558811aaef7beffbd9e1c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0502113519347107,
+      "hub_error_native": 3.150634055804132
+    },
+    {
+      "id": "E_023",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        62.14413458812646,
+        49.43340387556747
+      ],
+      "predicted_points_roi": [
+        [
+          62.14413458812646,
+          49.43340387556747
+        ],
+        null
+      ],
+      "peaks": [
+        0.5443337559700012,
+        null
+      ],
+      "margins": [
+        0.023865818977355957,
+        null
+      ],
+      "hub_center_distance_roi": 14.131790316269742,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b72417dc78f9e2fd2e85094a406696e32ffc7ebf2130111938b943d31e813ef0",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 14.477705388591415,
+      "hub_error_native": 43.433116165774244
+    },
+    {
+      "id": "E_024",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.849372478677815,
+        60.55270526274554
+      ],
+      "predicted_points_roi": [
+        [
+          63.849372478677815,
+          60.55270526274554
+        ],
+        null
+      ],
+      "peaks": [
+        0.6404584050178528,
+        null
+      ],
+      "margins": [
+        0.38830801844596863,
+        null
+      ],
+      "hub_center_distance_roi": 2.9679298167418504,
+      "hub_evidence_permitted": true,
+      "source_sha256": "56054d17030c9cdf182b0ceaebf3ce6c62ec5f6d7a806f6a27b2c0c7a9d6862c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.5477716580784424,
+      "hub_error_native": 7.643314974235327
+    },
+    {
+      "id": "E_025",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.06709772602723,
+        64.13683738567399
+      ],
+      "predicted_points_roi": [
+        [
+          63.06709772602723,
+          64.13683738567399
+        ],
+        null
+      ],
+      "peaks": [
+        0.6051484942436218,
+        null
+      ],
+      "margins": [
+        0.2039303481578827,
+        null
+      ],
+      "hub_center_distance_roi": 0.7700430082812731,
+      "hub_evidence_permitted": true,
+      "source_sha256": "af7f11d60461ad3f3c565003d2e71d001ab3a5c32e6d795bcf739e42eb283626",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4912795829041694,
+      "hub_error_native": 5.965118331616678
+    },
+    {
+      "id": "E_026",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        63.59783008977736,
+        62.28019351781186
+      ],
+      "predicted_points_roi": [
+        [
+          63.59783008977736,
+          62.28019351781186
+        ],
+        null
+      ],
+      "peaks": [
+        0.32741042971611023,
+        null
+      ],
+      "margins": [
+        0.11270999908447266,
+        null
+      ],
+      "hub_center_distance_roi": 1.223723245041154,
+      "hub_evidence_permitted": true,
+      "source_sha256": "13fd3d9a8e976e73acbecf125120864b4c3d93c993d0ee52309b9899e7660bf8",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.39181931402237147,
+      "hub_error_native": 1.1754579420671143
+    },
+    {
+      "id": "E_027",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.1267938273867,
+        62.02706959983875
+      ],
+      "predicted_points_roi": [
+        [
+          64.1267938273867,
+          62.02706959983875
+        ],
+        null
+      ],
+      "peaks": [
+        0.6961141228675842,
+        null
+      ],
+      "margins": [
+        0.49049365520477295,
+        null
+      ],
+      "hub_center_distance_roi": 1.60074809566317,
+      "hub_evidence_permitted": true,
+      "source_sha256": "3724b4d90ff50fb987992bbe6411a43e0a259b100109bd054eda01730a79b819",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.084811925625605,
+      "hub_error_native": 3.2544357768768153
+    },
+    {
+      "id": "E_028",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.42984690773805,
+        63.77591370600403
+      ],
+      "predicted_points_roi": [
+        [
+          67.42984690773805,
+          63.77591370600403
+        ],
+        null
+      ],
+      "peaks": [
+        0.6882344484329224,
+        null
+      ],
+      "margins": [
+        0.42763954401016235,
+        null
+      ],
+      "hub_center_distance_roi": 3.939520921561303,
+      "hub_evidence_permitted": true,
+      "source_sha256": "232ac9a861d44976f4c995e71f7dc7f99bbcc2ad6c0959d25aa48d0ff5cf99e1",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9100697524843953,
+      "hub_error_native": 2.7302092574531858
+    },
+    {
+      "id": "E_029",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.64289191822693,
+        63.90774593942098
+      ],
+      "predicted_points_roi": [
+        [
+          61.64289191822693,
+          63.90774593942098
+        ],
+        null
+      ],
+      "peaks": [
+        0.8270442485809326,
+        null
+      ],
+      "margins": [
+        0.7501951456069946,
+        null
+      ],
+      "hub_center_distance_roi": 1.9013435193307777,
+      "hub_evidence_permitted": true,
+      "source_sha256": "6069bee1864c934fbcb2e5c377bfb9b32845eefee53325ac68a419eac1c24bc8",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.1875385532381657,
+      "hub_error_native": 3.5626156597144973
+    },
+    {
+      "id": "E_030",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        66.04663127972589,
+        63.406992360089795
+      ],
+      "predicted_points_roi": [
+        [
+          66.04663127972589,
+          63.406992360089795
+        ],
+        null
+      ],
+      "peaks": [
+        0.4428245425224304,
+        null
+      ],
+      "margins": [
+        0.2759382724761963,
+        null
+      ],
+      "hub_center_distance_roi": 2.5483291184538888,
+      "hub_evidence_permitted": true,
+      "source_sha256": "e180103693c7d7df96091073c285b3a9b97d45d8a62298f203bad9fa5ee4e31c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.0515352949685823,
+      "hub_error_native": 6.154605884905747
+    },
+    {
+      "id": "E_031",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.9550216000817,
+        63.445880694150176
+      ],
+      "predicted_points_roi": [
+        [
+          63.9550216000817,
+          63.445880694150176
+        ],
+        null
+      ],
+      "peaks": [
+        0.6464419364929199,
+        null
+      ],
+      "margins": [
+        0.20988819003105164,
+        null
+      ],
+      "hub_center_distance_roi": 0.4582287156067126,
+      "hub_evidence_permitted": true,
+      "source_sha256": "04c6ba19d7c8ef6b36fec6d9705e840761cae2bc74e3f0e1264ba2f676ef43a2",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6736880875922471,
+      "hub_error_native": 2.6947523503689883
+    },
+    {
+      "id": "E_032",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        63.72499337937213,
+        62.76521702710282
+      ],
+      "predicted_points_roi": [
+        [
+          63.72499337937213,
+          62.76521702710282
+        ],
+        null
+      ],
+      "peaks": [
+        0.3340775966644287,
+        null
+      ],
+      "margins": [
+        0.201439768075943,
+        null
+      ],
+      "hub_center_distance_roi": 0.7684582213893657,
+      "hub_evidence_permitted": true,
+      "source_sha256": "97746d4568ea0400e0988cd124370ebde650b0701bd73b8d8a7d743c9334e98f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.34045759355326316,
+      "hub_error_native": 1.0213727806597894
+    },
+    {
+      "id": "E_033",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.35053131128926,
+        61.73946103944364
+      ],
+      "predicted_points_roi": [
+        [
+          64.35053131128926,
+          61.73946103944364
+        ],
+        null
+      ],
+      "peaks": [
+        0.5800771117210388,
+        null
+      ],
+      "margins": [
+        0.37910133600234985,
+        null
+      ],
+      "hub_center_distance_roi": 1.9552240135391894,
+      "hub_evidence_permitted": true,
+      "source_sha256": "375d9ba009ccb7ccba88b5f881fdd8ba453bbf05740687316fbf135d64a6e2e7",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6884507097260424,
+      "hub_error_native": 2.065352129178127
+    },
+    {
+      "id": "E_034",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.0368712910188,
+        63.48646838185315
+      ],
+      "predicted_points_roi": [
+        [
+          68.0368712910188,
+          63.48646838185315
+        ],
+        null
+      ],
+      "peaks": [
+        0.5565048456192017,
+        null
+      ],
+      "margins": [
+        0.2809598743915558,
+        null
+      ],
+      "hub_center_distance_roi": 4.536891470595285,
+      "hub_evidence_permitted": true,
+      "source_sha256": "91f133c67a03d38c3db34cc3f424fd71ee134522e15148d903521bb7b5f668d6",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0337851707437675,
+      "hub_error_native": 3.1013555122313026
+    },
+    {
+      "id": "E_035",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        60.08486543420451,
+        64.31909765391033
+      ],
+      "predicted_points_roi": [
+        [
+          60.08486543420451,
+          64.31909765391033
+        ],
+        null
+      ],
+      "peaks": [
+        0.638349175453186,
+        null
+      ],
+      "margins": [
+        0.2463703155517578,
+        null
+      ],
+      "hub_center_distance_roi": 3.5119887626717383,
+      "hub_evidence_permitted": true,
+      "source_sha256": "45140e403868f791c797d515514db40702d9083b9484a7e4d77e0ceb40862588",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.1061174940817526,
+      "hub_error_native": 3.318352482245258
+    },
+    {
+      "id": "E_036",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        63.94962973358894,
+        63.59480271986235
+      ],
+      "predicted_points_roi": [
+        [
+          63.94962973358894,
+          63.59480271986235
+        ],
+        null
+      ],
+      "peaks": [
+        0.5419703125953674,
+        null
+      ],
+      "margins": [
+        0.28068026900291443,
+        null
+      ],
+      "hub_center_distance_roi": 0.45951545460469834,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b4778ea6ab65a0ac9b57c27107547bced6b15b5e425a60a42308e8d637e5f80f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0708071126583814,
+      "hub_error_native": 3.212421337975144
+    },
+    {
+      "id": "E_037",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.30315311374136,
+        63.783699598968404
+      ],
+      "predicted_points_roi": [
+        [
+          64.30315311374136,
+          63.783699598968404
+        ],
+        null
+      ],
+      "peaks": [
+        0.6621888875961304,
+        null
+      ],
+      "margins": [
+        0.4438760280609131,
+        null
+      ],
+      "hub_center_distance_roi": 0.8517865851064305,
+      "hub_evidence_permitted": true,
+      "source_sha256": "6d9db2f7dd17f47670fce83a6f8ad7b1d2882aadf2eb01f5446a5790289a1eb9",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.5146667633130604,
+      "hub_error_native": 2.0586670532522415
+    },
+    {
+      "id": "E_038",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        64.37850313782545,
+        62.49906937046089
+      ],
+      "predicted_points_roi": [
+        [
+          64.37850313782545,
+          62.49906937046089
+        ],
+        null
+      ],
+      "peaks": [
+        0.3819202482700348,
+        null
+      ],
+      "margins": [
+        0.21101802587509155,
+        null
+      ],
+      "hub_center_distance_roi": 1.3317769664319627,
+      "hub_evidence_permitted": true,
+      "source_sha256": "343ed5ae72d7c476ef24c915310684206ebdfb21bf6189fc647282b1d1efc00e",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.4101275856819935,
+      "hub_error_native": 1.2303827570459804
+    },
+    {
+      "id": "E_039",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.09199871842141,
+        62.154538354071065
+      ],
+      "predicted_points_roi": [
+        [
+          64.09199871842141,
+          62.154538354071065
+        ],
+        null
+      ],
+      "peaks": [
+        0.5720462203025818,
+        null
+      ],
+      "margins": [
+        0.4204953908920288,
+        null
+      ],
+      "hub_center_distance_roi": 1.4699420135768586,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b08d89c8a69fd2ac1de61ded269d10d2727043876bde87957e81d76ab865f8ee",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.937874263424651,
+      "hub_error_native": 2.813622790273953
+    },
+    {
+      "id": "E_040",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.38929376968134,
+        63.39916520345324
+      ],
+      "predicted_points_roi": [
+        [
+          68.38929376968134,
+          63.39916520345324
+        ],
+        null
+      ],
+      "peaks": [
+        0.562699019908905,
+        null
+      ],
+      "margins": [
+        0.4594079554080963,
+        null
+      ],
+      "hub_center_distance_roi": 4.890333446958341,
+      "hub_evidence_permitted": true,
+      "source_sha256": "1feb32cea42d06534e3791a61051e0727aeb42e9e6c9d06e61ca6965076e735f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.9314178331740788,
+      "hub_error_native": 5.794253499522236
+    },
+    {
+      "id": "E_041",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.916220254785806,
+        63.30295752799417
+      ],
+      "predicted_points_roi": [
+        [
+          61.916220254785806,
+          63.30295752799417
+        ],
+        null
+      ],
+      "peaks": [
+        0.5312039852142334,
+        null
+      ],
+      "margins": [
+        0.26060935854911804,
+        null
+      ],
+      "hub_center_distance_roi": 1.5959899802708373,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c525891b1a192559b2338bc2b86ebf7b6aa087b8af334307936ec033a90a8d18",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9410803401210737,
+      "hub_error_native": 2.8232410203632208
+    },
+    {
+      "id": "E_042",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        65.55169660341168,
+        65.60292784124606
+      ],
+      "predicted_points_roi": [
+        [
+          65.55169660341168,
+          65.60292784124606
+        ],
+        null
+      ],
+      "peaks": [
+        0.6682182550430298,
+        null
+      ],
+      "margins": [
+        0.34729236364364624,
+        null
+      ],
+      "hub_center_distance_roi": 2.937986463198707,
+      "hub_evidence_permitted": true,
+      "source_sha256": "f1c7788a53a27a491738e76cc9b11030f42257bd20e6d5fb6c60fc551b9b45e4",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.1961271476088,
+      "hub_error_native": 8.7845085904352
+    },
+    {
+      "id": "E_043",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        62.397367868250555,
+        63.890655282019665
+      ],
+      "predicted_points_roi": [
+        [
+          62.397367868250555,
+          63.890655282019665
+        ],
+        null
+      ],
+      "peaks": [
+        0.286541610956192,
+        null
+      ],
+      "margins": [
+        0.14671851694583893,
+        null
+      ],
+      "hub_center_distance_roi": 1.1697902236453293,
+      "hub_evidence_permitted": false,
+      "source_sha256": "8e8bdeafac0f0e4ca186c0c0d43c3330fc57b8fede6aeb0e382c7b93d74678df",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.3369192287259557,
+      "hub_error_native": 4.010757686177867
+    },
+    {
+      "id": "E_044",
+      "source_group": "E",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        63.96993595487558,
+        61.98571610627122
+      ],
+      "predicted_points_roi": [
+        [
+          63.96993595487558,
+          61.98571610627122
+        ],
+        null
+      ],
+      "peaks": [
+        0.6506321430206299,
+        null
+      ],
+      "margins": [
+        0.5427663326263428,
+        null
+      ],
+      "hub_center_distance_roi": 1.5855268879748525,
+      "hub_evidence_permitted": true,
+      "source_sha256": "070199953e897eac3ce52802ec95309ff2608edb10d44d1083618be747a98dbf",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0796414019222276,
+      "hub_error_native": 3.2389242057666827
+    },
+    {
+      "id": "E_045",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.30253567980864,
+        62.420181732296015
+      ],
+      "predicted_points_roi": [
+        [
+          68.30253567980864,
+          62.420181732296015
+        ],
+        null
+      ],
+      "peaks": [
+        0.6740064024925232,
+        null
+      ],
+      "margins": [
+        0.580723226070404,
+        null
+      ],
+      "hub_center_distance_roi": 4.922433996215926,
+      "hub_evidence_permitted": true,
+      "source_sha256": "5e8cf0866758e5e257a96db7b0cb441a486567bf213c5bb71461496c3e480297",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.7028508684001828,
+      "hub_error_native": 2.1085526052005488
+    },
+    {
+      "id": "E_046",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        60.08764692088422,
+        63.82061308130617
+      ],
+      "predicted_points_roi": [
+        [
+          60.08764692088422,
+          63.82061308130617
+        ],
+        null
+      ],
+      "peaks": [
+        0.805322527885437,
+        null
+      ],
+      "margins": [
+        0.667077898979187,
+        null
+      ],
+      "hub_center_distance_roi": 3.4273818410640495,
+      "hub_evidence_permitted": true,
+      "source_sha256": "beea1bc710308370707737657950a277f94b833600e8fed36957a09a832faeed",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.8733272100899983,
+      "hub_error_native": 5.6199816302699945
+    },
+    {
+      "id": "E_047",
+      "source_group": "E",
+      "split": "train",
+      "condition": "empty_background",
+      "target_present": false,
+      "hub_roi": [
+        58.31045565807378,
+        48.80516246211623
+      ],
+      "predicted_points_roi": [
+        [
+          58.31045565807378,
+          48.80516246211623
+        ],
+        null
+      ],
+      "peaks": [
+        0.11443009972572327,
+        null
+      ],
+      "margins": [
+        0.02844826877117157,
+        null
+      ],
+      "hub_center_distance_roi": 15.584274790365333,
+      "hub_evidence_permitted": false,
+      "source_sha256": "a0dbb4e9d46753b9d9f2195c897a543dbd7fdce65cd5280bef32d7b4cfde5fcb",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "E_048",
+      "source_group": "E",
+      "split": "train",
+      "condition": "non_gauge_circular_or_reflective_object",
+      "target_present": false,
+      "hub_roi": [
+        58.37026001319054,
+        50.03017063680135
+      ],
+      "predicted_points_roi": [
+        [
+          58.37026001319054,
+          50.03017063680135
+        ],
+        null
+      ],
+      "peaks": [
+        0.10715877264738083,
+        null
+      ],
+      "margins": [
+        0.02848351001739502,
+        null
+      ],
+      "hub_center_distance_roi": 14.413553878414596,
+      "hub_evidence_permitted": false,
+      "source_sha256": "3c9073f2d47a848249eee09b95337482d36116570bb26085d560c96323d7221e",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "E_049",
+      "source_group": "E",
+      "split": "train",
+      "condition": "non_gauge_circular_or_reflective_object",
+      "target_present": false,
+      "hub_roi": [
+        72.23451082247635,
+        75.89230849239968
+      ],
+      "predicted_points_roi": [
+        [
+          72.23451082247635,
+          75.89230849239968
+        ],
+        null
+      ],
+      "peaks": [
+        0.3802296817302704,
+        null
+      ],
+      "margins": [
+        0.2925431430339813,
+        null
+      ],
+      "hub_center_distance_roi": 15.161167141046818,
+      "hub_evidence_permitted": true,
+      "source_sha256": "fcd2955d3b5a4ebefade28620d0ccd34deb7cc286d9471d476350c413764c0fd",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "E_054",
+      "source_group": "E",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        68.57749028458419,
+        56.54861465579903
+      ],
+      "predicted_points_roi": [
+        [
+          68.57749028458419,
+          56.54861465579903
+        ],
+        null
+      ],
+      "peaks": [
+        0.6207908987998962,
+        null
+      ],
+      "margins": [
+        0.34679749608039856,
+        null
+      ],
+      "hub_center_distance_roi": 8.608290526789792,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c61f36b803509675eda8785804e6b136ecbe838ad87be50337a085856fc61896",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "E_055",
+      "source_group": "E",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        67.44485336416875,
+        59.72526606442751
+      ],
+      "predicted_points_roi": [
+        [
+          67.44485336416875,
+          59.72526606442751
+        ],
+        null
+      ],
+      "peaks": [
+        0.6778836250305176,
+        null
+      ],
+      "margins": [
+        0.032673656940460205,
+        null
+      ],
+      "hub_center_distance_roi": 5.459897833215939,
+      "hub_evidence_permitted": true,
+      "source_sha256": "cee3d109ad89148ca181ec9ade18ac1ff934457e64488a417b2aff9409d717d5",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "E_056",
+      "source_group": "E",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        62.18852065050859,
+        63.57646965561035
+      ],
+      "predicted_points_roi": [
+        [
+          62.18852065050859,
+          63.57646965561035
+        ],
+        null
+      ],
+      "peaks": [
+        0.8417865037918091,
+        null
+      ],
+      "margins": [
+        0.5763258934020996,
+        null
+      ],
+      "hub_center_distance_roi": 1.3137068517639579,
+      "hub_evidence_permitted": true,
+      "source_sha256": "3688fc7bff02f131fe3c061e7943da40be099c5574806b092a9567829d9c695f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.5720344034586861,
+      "hub_error_native": 2.2881376138347442
+    },
+    {
+      "id": "E_057",
+      "source_group": "E",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        62.01210743041498,
+        63.1759836234004
+      ],
+      "predicted_points_roi": [
+        [
+          62.01210743041498,
+          63.1759836234004
+        ],
+        null
+      ],
+      "peaks": [
+        0.7993475794792175,
+        null
+      ],
+      "margins": [
+        0.3917735815048218,
+        null
+      ],
+      "hub_center_distance_roi": 1.5227642335342173,
+      "hub_evidence_permitted": true,
+      "source_sha256": "b1986e76d0ae50380ffcf7023cb31b08e7a4ebf965856c7dbadc5e9281c49aa6",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6648495146819761,
+      "hub_error_native": 2.6593980587279042
+    },
+    {
+      "id": "E_058",
+      "source_group": "E",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        56.93106746282227,
+        48.71434948667109
+      ],
+      "predicted_points_roi": [
+        [
+          56.93106746282227,
+          48.71434948667109
+        ],
+        null
+      ],
+      "peaks": [
+        0.525411069393158,
+        null
+      ],
+      "margins": [
+        0.03974050283432007,
+        null
+      ],
+      "hub_center_distance_roi": 16.179194534348603,
+      "hub_evidence_permitted": true,
+      "source_sha256": "f579538d646e2ea7e8c33d552423a1c5d763fdf496feaf2aaf959ecacf6cf725",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 14.807924906764198,
+      "hub_error_native": 44.42377472029259
+    },
+    {
+      "id": "E_059",
+      "source_group": "E",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        65.6431258919567,
+        62.89696448038178
+      ],
+      "predicted_points_roi": [
+        [
+          65.6431258919567,
+          62.89696448038178
+        ],
+        null
+      ],
+      "peaks": [
+        0.8732278347015381,
+        null
+      ],
+      "margins": [
+        0.7747103571891785,
+        null
+      ],
+      "hub_center_distance_roi": 2.2263513708973286,
+      "hub_evidence_permitted": true,
+      "source_sha256": "597f928e0234e6691706cbb03221db404feb7c4483c3da3e0183848af621b18c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4353623418305037,
+      "hub_error_native": 4.306087025491511
+    },
+    {
+      "id": "F_001",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        65.15115706354939,
+        64.63500600228689
+      ],
+      "predicted_points_roi": [
+        [
+          65.15115706354939,
+          64.63500600228689
+        ],
+        null
+      ],
+      "peaks": [
+        0.859618604183197,
+        null
+      ],
+      "margins": [
+        0.49471965432167053,
+        null
+      ],
+      "hub_center_distance_roi": 2.0036362628322304,
+      "hub_evidence_permitted": true,
+      "source_sha256": "a9486ff997f176f20db398d3c14bf5f1bbc4d0f071ddd72535c612d059204b3c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.445502945846331,
+      "hub_error_native": 4.336508837538993
+    },
+    {
+      "id": "F_002",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        66.94961556175801,
+        74.65602824036453
+      ],
+      "predicted_points_roi": [
+        [
+          66.94961556175801,
+          74.65602824036453
+        ],
+        null
+      ],
+      "peaks": [
+        0.7377469539642334,
+        null
+      ],
+      "margins": [
+        0.4735015630722046,
+        null
+      ],
+      "hub_center_distance_roi": 11.677192026499094,
+      "hub_evidence_permitted": true,
+      "source_sha256": "f2749c4aa4e2904024d1b195b2bd863e11daea07721c3a9f1179237f51157b9f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.5313680455871874,
+      "hub_error_native": 10.12547218234875
+    },
+    {
+      "id": "F_003",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        66.04883860232981,
+        62.17841039952946
+      ],
+      "predicted_points_roi": [
+        [
+          66.04883860232981,
+          62.17841039952946
+        ],
+        null
+      ],
+      "peaks": [
+        0.2959136962890625,
+        null
+      ],
+      "margins": [
+        0.03411218523979187,
+        null
+      ],
+      "hub_center_distance_roi": 2.8710933967390284,
+      "hub_evidence_permitted": false,
+      "source_sha256": "b03c13e672ed4a7560d7837aba31f3e7882840f7c0d9e002de52db23c47a90f9",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0639044526635884,
+      "hub_error_native": 3.191713357990765
+    },
+    {
+      "id": "F_004",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.20245985858479,
+        63.72934752543648
+      ],
+      "predicted_points_roi": [
+        [
+          64.20245985858479,
+          63.72934752543648
+        ],
+        null
+      ],
+      "peaks": [
+        0.8360161781311035,
+        null
+      ],
+      "margins": [
+        0.2422962784767151,
+        null
+      ],
+      "hub_center_distance_roi": 0.7389520555129392,
+      "hub_evidence_permitted": true,
+      "source_sha256": "72b99962df33075fa1b05ab931d7e9351e58949d0ac531387076d7d9d3b5aa47",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.284123901548916,
+      "hub_error_native": 3.8523717046467483
+    },
+    {
+      "id": "F_005",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.54566960791858,
+        63.59093626384737
+      ],
+      "predicted_points_roi": [
+        [
+          68.54566960791858,
+          63.59093626384737
+        ],
+        null
+      ],
+      "peaks": [
+        0.6197595000267029,
+        null
+      ],
+      "margins": [
+        0.31941384077072144,
+        null
+      ],
+      "hub_center_distance_roi": 5.04648899695182,
+      "hub_evidence_permitted": true,
+      "source_sha256": "938d4339e33c8218845f4ccdd3ce3963c0569d5558645fafde4de7215c9bb4d6",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4769687925819057,
+      "hub_error_native": 4.430906377745718
+    },
+    {
+      "id": "F_006",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.69031486592941,
+        64.5787039363311
+      ],
+      "predicted_points_roi": [
+        [
+          61.69031486592941,
+          64.5787039363311
+        ],
+        null
+      ],
+      "peaks": [
+        0.6411087512969971,
+        null
+      ],
+      "margins": [
+        0.34758925437927246,
+        null
+      ],
+      "hub_center_distance_roi": 2.1067896114069606,
+      "hub_evidence_permitted": true,
+      "source_sha256": "9a19a07bd414cc9976aa5fbf841aa209769f1686c305762668f3d94de6aa4e8c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4162395281834896,
+      "hub_error_native": 4.248718584550469
+    },
+    {
+      "id": "F_007",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.24326586805246,
+        63.92116129142876
+      ],
+      "predicted_points_roi": [
+        [
+          64.24326586805246,
+          63.92116129142876
+        ],
+        null
+      ],
+      "peaks": [
+        0.778530478477478,
+        null
+      ],
+      "margins": [
+        0.40694499015808105,
+        null
+      ],
+      "hub_center_distance_roi": 0.8542956069240433,
+      "hub_evidence_permitted": true,
+      "source_sha256": "972a8c14d030708f6309628d883dbf8724db9cab36f0bc7795150e50f5f89bc8",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0963723484367474,
+      "hub_error_native": 3.289117045310242
+    },
+    {
+      "id": "F_008",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        67.16303218494085,
+        82.58385035321186
+      ],
+      "predicted_points_roi": [
+        [
+          67.16303218494085,
+          82.58385035321186
+        ],
+        null
+      ],
+      "peaks": [
+        0.7388272285461426,
+        null
+      ],
+      "margins": [
+        0.4665498733520508,
+        null
+      ],
+      "hub_center_distance_roi": 19.432219355794047,
+      "hub_evidence_permitted": true,
+      "source_sha256": "9c3973a7a68cfdde2874eb26d7914d48274c524fc4df7f2dc92c5bc8c3376c32",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.156790298019623,
+      "hub_error_native": 8.627161192078493
+    },
+    {
+      "id": "F_009",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        76.01413342858774,
+        77.39016975775822
+      ],
+      "predicted_points_roi": [
+        [
+          76.01413342858774,
+          77.39016975775822
+        ],
+        null
+      ],
+      "peaks": [
+        0.21567592024803162,
+        null
+      ],
+      "margins": [
+        0.02897125482559204,
+        null
+      ],
+      "hub_center_distance_roi": 18.695998271497515,
+      "hub_evidence_permitted": false,
+      "source_sha256": "a3df9c98b9f0f64c58e4acfe7cce7fa157e16aaa5708a467db1bb8f432d202a4",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 19.68840876997987,
+      "hub_error_native": 59.065226309939604
+    },
+    {
+      "id": "F_010",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        65.7687714774643,
+        77.15151449203046
+      ],
+      "predicted_points_roi": [
+        [
+          65.7687714774643,
+          77.15151449203046
+        ],
+        null
+      ],
+      "peaks": [
+        0.2110980898141861,
+        null
+      ],
+      "margins": [
+        0.06747235357761383,
+        null
+      ],
+      "hub_center_distance_roi": 13.838756155922148,
+      "hub_evidence_permitted": false,
+      "source_sha256": "13a920940a96807ea1557432e7eae11430e8b33c242314ab282a94f6cbe87019",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 15.274906895921209,
+      "hub_error_native": 45.82472068776363
+    },
+    {
+      "id": "F_011",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.35547552743941,
+        64.45826675777012
+      ],
+      "predicted_points_roi": [
+        [
+          67.35547552743941,
+          64.45826675777012
+        ],
+        null
+      ],
+      "peaks": [
+        0.6011731624603271,
+        null
+      ],
+      "margins": [
+        0.21163228154182434,
+        null
+      ],
+      "hub_center_distance_roi": 3.9727782119986825,
+      "hub_evidence_permitted": true,
+      "source_sha256": "e6a2114fd1644c11b35f16ecea446af3cfa0b400ae11b74c1a2038e7cd171bd4",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.981802029807903,
+      "hub_error_native": 5.9454060894237095
+    },
+    {
+      "id": "F_012",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        62.386959726705584,
+        64.30160289945643
+      ],
+      "predicted_points_roi": [
+        [
+          62.386959726705584,
+          64.30160289945643
+        ],
+        null
+      ],
+      "peaks": [
+        0.7438535690307617,
+        null
+      ],
+      "margins": [
+        0.4574599862098694,
+        null
+      ],
+      "hub_center_distance_roi": 1.3716507785847893,
+      "hub_evidence_permitted": true,
+      "source_sha256": "bf2bb919fa1e2864c081bf21b63a2b47497b55dac22a025eb264192d3ac63e2f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.2351040005125873,
+      "hub_error_native": 3.705312001537762
+    },
+    {
+      "id": "F_013",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        65.21902987024336,
+        64.38356316231229
+      ],
+      "predicted_points_roi": [
+        [
+          65.21902987024336,
+          64.38356316231229
+        ],
+        null
+      ],
+      "peaks": [
+        0.8537117838859558,
+        null
+      ],
+      "margins": [
+        0.6233693361282349,
+        null
+      ],
+      "hub_center_distance_roi": 1.932808204810863,
+      "hub_evidence_permitted": true,
+      "source_sha256": "5ae28dc41b193e13c78951c33614455532da9cab3ccc1cf6716a7542e927e5bc",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.5451265224087412,
+      "hub_error_native": 4.635379567226224
+    },
+    {
+      "id": "F_014",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        65.67705578742316,
+        75.71175862369809
+      ],
+      "predicted_points_roi": [
+        [
+          65.67705578742316,
+          75.71175862369809
+        ],
+        null
+      ],
+      "peaks": [
+        0.7717500329017639,
+        null
+      ],
+      "margins": [
+        0.6559885740280151,
+        null
+      ],
+      "hub_center_distance_roi": 12.404298472103019,
+      "hub_evidence_permitted": true,
+      "source_sha256": "a87397bbe76f4c1caf05be9504411a005f8a23e469e9b608d9347359f209a030",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.3104677209314755,
+      "hub_error_native": 9.241870883725902
+    },
+    {
+      "id": "F_015",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        65.741806336,
+        64.107448352
+      ],
+      "predicted_points_roi": [
+        [
+          65.741806336,
+          64.107448352
+        ],
+        null
+      ],
+      "peaks": [
+        0.2784197926521301,
+        null
+      ],
+      "margins": [
+        0.08726438879966736,
+        null
+      ],
+      "hub_center_distance_roi": 2.322647013318479,
+      "hub_evidence_permitted": false,
+      "source_sha256": "d1d82466cab298b7b5301a05acfa1521b83a00a3de23524ab10dac9b79745d22",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.8942037133641203,
+      "hub_error_native": 5.6826111400923605
+    },
+    {
+      "id": "F_016",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        65.50519161475121,
+        62.40078717742408
+      ],
+      "predicted_points_roi": [
+        [
+          65.50519161475121,
+          62.40078717742408
+        ],
+        null
+      ],
+      "peaks": [
+        0.7010259032249451,
+        null
+      ],
+      "margins": [
+        0.5463346838951111,
+        null
+      ],
+      "hub_center_distance_roi": 2.2867142893645234,
+      "hub_evidence_permitted": true,
+      "source_sha256": "9f70829177a605748f275e554fb2613be3f0610c9d18acd4bdfa80cec975b8c1",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.8162884481589162,
+      "hub_error_native": 2.4488653444767485
+    },
+    {
+      "id": "F_017",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.0621467136117,
+        65.64325271266304
+      ],
+      "predicted_points_roi": [
+        [
+          68.0621467136117,
+          65.64325271266304
+        ],
+        null
+      ],
+      "peaks": [
+        0.584759533405304,
+        null
+      ],
+      "margins": [
+        0.3865914046764374,
+        null
+      ],
+      "hub_center_distance_roi": 5.040507397758234,
+      "hub_evidence_permitted": true,
+      "source_sha256": "44c76f00e954054a5dda250597842bfd9174a4ef66c42ff5678dfcfd7b2eb9d2",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6030119026913305,
+      "hub_error_native": 4.809035708073992
+    },
+    {
+      "id": "F_018",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        63.09072282356929,
+        63.622430579698346
+      ],
+      "predicted_points_roi": [
+        [
+          63.09072282356929,
+          63.622430579698346
+        ],
+        null
+      ],
+      "peaks": [
+        0.6872707605361938,
+        null
+      ],
+      "margins": [
+        0.5592702031135559,
+        null
+      ],
+      "hub_center_distance_roi": 0.42719673921083484,
+      "hub_evidence_permitted": true,
+      "source_sha256": "97e7c5a0a08a52e5cc5aa41858c0fe58fbd852868096175dbbdcc3c6973bc538",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.7150022561989882,
+      "hub_error_native": 2.1450067685969643
+    },
+    {
+      "id": "F_019",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        65.5352871841965,
+        64.223133621335
+      ],
+      "predicted_points_roi": [
+        [
+          65.5352871841965,
+          64.223133621335
+        ],
+        null
+      ],
+      "peaks": [
+        0.6396426558494568,
+        null
+      ],
+      "margins": [
+        0.40631523728370667,
+        null
+      ],
+      "hub_center_distance_roi": 2.1599342944774045,
+      "hub_evidence_permitted": true,
+      "source_sha256": "16644ccd5e969677734ec247c2530673b95b97ea6bdefdbdf214e9370ed73fdd",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.4963610488198544,
+      "hub_error_native": 4.4890831464595635
+    },
+    {
+      "id": "F_020",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        66.92755399375937,
+        78.07072562921849
+      ],
+      "predicted_points_roi": [
+        [
+          66.92755399375937,
+          78.07072562921849
+        ],
+        null
+      ],
+      "peaks": [
+        0.8337042331695557,
+        null
+      ],
+      "margins": [
+        0.5977911353111267,
+        null
+      ],
+      "hub_center_distance_roi": 14.968439188576085,
+      "hub_evidence_permitted": true,
+      "source_sha256": "00667f3cc5837a12923cc8427058fba8db7ab5ae34e7890c0493e9ace4939c6a",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.585637464683359,
+      "hub_error_native": 10.342549858733436
+    },
+    {
+      "id": "F_021",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        64.11227632776105,
+        64.26951382023849
+      ],
+      "predicted_points_roi": [
+        [
+          64.11227632776105,
+          64.26951382023849
+        ],
+        null
+      ],
+      "peaks": [
+        0.2484387755393982,
+        null
+      ],
+      "margins": [
+        0.01093679666519165,
+        null
+      ],
+      "hub_center_distance_roi": 0.9833787780273626,
+      "hub_evidence_permitted": false,
+      "source_sha256": "365148edcaf01e3f87f6daad5cc07b7cba68da04040ccedae23877d2dfb5e507",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.526388781582288,
+      "hub_error_native": 4.579166344746865
+    },
+    {
+      "id": "F_022",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        67.43072082043984,
+        77.56360999728386
+      ],
+      "predicted_points_roi": [
+        [
+          67.43072082043984,
+          77.56360999728386
+        ],
+        null
+      ],
+      "peaks": [
+        0.37021052837371826,
+        null
+      ],
+      "margins": [
+        0.11027088761329651,
+        null
+      ],
+      "hub_center_distance_roi": 14.602591972795167,
+      "hub_evidence_permitted": true,
+      "source_sha256": "dfe23d295dc76ef83278e773734792f6de1960dc6a95dee6d1dfdb411449c39f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 14.406426926886176,
+      "hub_error_native": 43.21928078065853
+    },
+    {
+      "id": "F_023",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.60852740138132,
+        62.753276635364166
+      ],
+      "predicted_points_roi": [
+        [
+          67.60852740138132,
+          62.753276635364166
+        ],
+        null
+      ],
+      "peaks": [
+        0.5253440141677856,
+        null
+      ],
+      "margins": [
+        0.18649911880493164,
+        null
+      ],
+      "hub_center_distance_roi": 4.175834430529331,
+      "hub_evidence_permitted": true,
+      "source_sha256": "d7e7b097e655e97b800d1d771ea200401bb81b4200ad6e24d2401ea8fb52946a",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.128211320252017,
+      "hub_error_native": 6.384633960756052
+    },
+    {
+      "id": "F_024",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.945064216475494,
+        65.2012368575331
+      ],
+      "predicted_points_roi": [
+        [
+          61.945064216475494,
+          65.2012368575331
+        ],
+        null
+      ],
+      "peaks": [
+        0.6407766938209534,
+        null
+      ],
+      "margins": [
+        0.3480842709541321,
+        null
+      ],
+      "hub_center_distance_roi": 2.3047846182049376,
+      "hub_evidence_permitted": true,
+      "source_sha256": "ce4e6d3a0e471a5d3332e5c5038f7ab32bb450e727b8105f07075daecd89f36f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6356808799387732,
+      "hub_error_native": 4.90704263981632
+    },
+    {
+      "id": "F_025",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        64.14841226692317,
+        63.8922480233791
+      ],
+      "predicted_points_roi": [
+        [
+          64.14841226692317,
+          63.8922480233791
+        ],
+        null
+      ],
+      "peaks": [
+        0.6859200596809387,
+        null
+      ],
+      "margins": [
+        0.3228309750556946,
+        null
+      ],
+      "hub_center_distance_roi": 0.7578238447959149,
+      "hub_evidence_permitted": true,
+      "source_sha256": "2ecc4e16800b28063af664563d16208a214ed04731d7eaeab57630e1c04b18f3",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.9244494045177838,
+      "hub_error_native": 2.7733482135533514
+    },
+    {
+      "id": "F_027",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        59.618641136494446,
+        72.20724360953226
+      ],
+      "predicted_points_roi": [
+        [
+          59.618641136494446,
+          72.20724360953226
+        ],
+        null
+      ],
+      "peaks": [
+        0.32606571912765503,
+        null
+      ],
+      "margins": [
+        0.05470201373100281,
+        null
+      ],
+      "hub_center_distance_roi": 9.533154666900849,
+      "hub_evidence_permitted": true,
+      "source_sha256": "771dc104d3953a617007409b96ef29bc6aeb70c4f1a23e7f23fde8ee797491a3",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.5516841681150289,
+      "hub_error_native": 4.655052504345086
+    },
+    {
+      "id": "F_028",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        58.12900175108105,
+        50.947327642675255
+      ],
+      "predicted_points_roi": [
+        [
+          58.12900175108105,
+          50.947327642675255
+        ],
+        null
+      ],
+      "peaks": [
+        0.3516061305999756,
+        null
+      ],
+      "margins": [
+        0.044864654541015625,
+        null
+      ],
+      "hub_center_distance_roi": 13.653468625233486,
+      "hub_evidence_permitted": true,
+      "source_sha256": "ebe3534710362161066ea6a5282892f451f7518c3f617c2db92623eeb6c16728",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 13.346256915306666,
+      "hub_error_native": 40.03877074592
+    },
+    {
+      "id": "F_029",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        68.06294608749867,
+        62.393150770105144
+      ],
+      "predicted_points_roi": [
+        [
+          68.06294608749867,
+          62.393150770105144
+        ],
+        null
+      ],
+      "peaks": [
+        0.5805695056915283,
+        null
+      ],
+      "margins": [
+        0.30937138199806213,
+        null
+      ],
+      "hub_center_distance_roi": 4.695273390883462,
+      "hub_evidence_permitted": true,
+      "source_sha256": "ce119c694874547e60accafb0956cf6576112fe59e4cac6fa0cbb869ac5736a7",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.318194089685248,
+      "hub_error_native": 6.954582269055745
+    },
+    {
+      "id": "F_030",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        62.04599294712596,
+        64.54457100003432
+      ],
+      "predicted_points_roi": [
+        [
+          62.04599294712596,
+          64.54457100003432
+        ],
+        null
+      ],
+      "peaks": [
+        0.7840266823768616,
+        null
+      ],
+      "margins": [
+        0.5948217511177063,
+        null
+      ],
+      "hub_center_distance_roi": 1.7903254128566013,
+      "hub_evidence_permitted": true,
+      "source_sha256": "5869631a5bc5e763cb94027ea18c5cf9ca5146bfab7f8d4b99530ed4b029b181",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.0612375274665649,
+      "hub_error_native": 3.1837125823996946
+    },
+    {
+      "id": "F_031",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        67.39595357695696,
+        65.74745395955317
+      ],
+      "predicted_points_roi": [
+        [
+          67.39595357695696,
+          65.74745395955317
+        ],
+        null
+      ],
+      "peaks": [
+        0.528639554977417,
+        null
+      ],
+      "margins": [
+        0.3985443115234375,
+        null
+      ],
+      "hub_center_distance_roi": 4.497722042780647,
+      "hub_evidence_permitted": true,
+      "source_sha256": "efc8d002e417f533f831e9e56d076967cfde8a4a96c7c94ad234c8687f62258e",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 3.8136346494059565,
+      "hub_error_native": 11.44090394821787
+    },
+    {
+      "id": "F_032",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        69.35779801014242,
+        64.87986822116414
+      ],
+      "predicted_points_roi": [
+        [
+          69.35779801014242,
+          64.87986822116414
+        ],
+        null
+      ],
+      "peaks": [
+        0.5350446701049805,
+        null
+      ],
+      "margins": [
+        0.3674646317958832,
+        null
+      ],
+      "hub_center_distance_roi": 6.0181254419800165,
+      "hub_evidence_permitted": true,
+      "source_sha256": "70b31963640a36e62d2bbc4bddebcefbc251145650d5e417473a5e2c988b036b",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 4.286576560687596,
+      "hub_error_native": 17.146306242750384
+    },
+    {
+      "id": "F_033",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        67.77549929347873,
+        68.25888115802806
+      ],
+      "predicted_points_roi": [
+        [
+          67.77549929347873,
+          68.25888115802806
+        ],
+        null
+      ],
+      "peaks": [
+        0.20066747069358826,
+        null
+      ],
+      "margins": [
+        0.014366880059242249,
+        null
+      ],
+      "hub_center_distance_roi": 6.397409169716411,
+      "hub_evidence_permitted": false,
+      "source_sha256": "c46af4c6a18a07a200a3d7721a92cd4756087580ee79030462c9ab901d3cf212",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 6.647639803897854,
+      "hub_error_native": 19.942919411693563
+    },
+    {
+      "id": "F_034",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        62.43255370494649,
+        64.30772422290485
+      ],
+      "predicted_points_roi": [
+        [
+          62.43255370494649,
+          64.30772422290485
+        ],
+        null
+      ],
+      "peaks": [
+        0.5127050876617432,
+        null
+      ],
+      "margins": [
+        0.3540998697280884,
+        null
+      ],
+      "hub_center_distance_roi": 1.338603755071196,
+      "hub_evidence_permitted": true,
+      "source_sha256": "664aebee50fb70c08ba34db50b9fbc4d65515ef5ce71cdb7a523ce32eb695b92",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.692683576720166,
+      "hub_error_native": 2.078050730160498
+    },
+    {
+      "id": "F_035",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.7759587685215,
+        62.7447648820189
+      ],
+      "predicted_points_roi": [
+        [
+          67.7759587685215,
+          62.7447648820189
+        ],
+        null
+      ],
+      "peaks": [
+        0.44334831833839417,
+        null
+      ],
+      "margins": [
+        0.36557823419570923,
+        null
+      ],
+      "hub_center_distance_roi": 4.34214272836901,
+      "hub_evidence_permitted": true,
+      "source_sha256": "ddb4696d16dacc4788337d201b319a69e902ae458d56ab15fbb84eb24f1a304a",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.5628217951430703,
+      "hub_error_native": 1.6884653854292109
+    },
+    {
+      "id": "F_036",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.91837573254086,
+        64.74417822469549
+      ],
+      "predicted_points_roi": [
+        [
+          61.91837573254086,
+          64.74417822469549
+        ],
+        null
+      ],
+      "peaks": [
+        0.7462881803512573,
+        null
+      ],
+      "margins": [
+        0.5708524584770203,
+        null
+      ],
+      "hub_center_distance_roi": 2.012340621818802,
+      "hub_evidence_permitted": true,
+      "source_sha256": "50fdf856c410e17334fc11c28e7d83240968d01db867c6e5e0ef4d74db940100",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.167043950744083,
+      "hub_error_native": 3.501131852232249
+    },
+    {
+      "id": "F_037",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        67.75418457006832,
+        64.99040150583271
+      ],
+      "predicted_points_roi": [
+        [
+          67.75418457006832,
+          64.99040150583271
+        ],
+        null
+      ],
+      "peaks": [
+        0.6576122045516968,
+        null
+      ],
+      "margins": [
+        0.576434314250946,
+        null
+      ],
+      "hub_center_distance_roi": 4.507702630475502,
+      "hub_evidence_permitted": true,
+      "source_sha256": "e135034a76816aec1dacfe1daff2ebe5b7e6abe369ef9599be6118fb843707c1",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 3.220712077174102,
+      "hub_error_native": 9.662136231522306
+    },
+    {
+      "id": "F_038",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        66.05589033059088,
+        64.91573070431295
+      ],
+      "predicted_points_roi": [
+        [
+          66.05589033059088,
+          64.91573070431295
+        ],
+        null
+      ],
+      "peaks": [
+        0.7290328145027161,
+        null
+      ],
+      "margins": [
+        0.6200687289237976,
+        null
+      ],
+      "hub_center_distance_roi": 2.921792054397852,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c19b3dea76117aa4cffe0e3117328e0e06ae4b1bfc6b77483c0545f7a587715f",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.3668805017996246,
+      "hub_error_native": 9.467522007198498
+    },
+    {
+      "id": "F_039",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        72.33609103143118,
+        50.041379099341135
+      ],
+      "predicted_points_roi": [
+        [
+          72.33609103143118,
+          50.041379099341135
+        ],
+        null
+      ],
+      "peaks": [
+        0.19472350180149078,
+        null
+      ],
+      "margins": [
+        0.0062631964683532715,
+        null
+      ],
+      "hub_center_distance_roi": 16.100030473989488,
+      "hub_evidence_permitted": false,
+      "source_sha256": "e7a88d40da3108b0c6a2b2fc5f52c59bd6e6fea58226bb07ad4143392a9bd18e",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 15.635217221692523,
+      "hub_error_native": 46.90565166507757
+    },
+    {
+      "id": "F_040",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        62.483639350031105,
+        64.38564587468704
+      ],
+      "predicted_points_roi": [
+        [
+          62.483639350031105,
+          64.38564587468704
+        ],
+        null
+      ],
+      "peaks": [
+        0.6216589212417603,
+        null
+      ],
+      "margins": [
+        0.5496152639389038,
+        null
+      ],
+      "hub_center_distance_roi": 1.348094056865237,
+      "hub_evidence_permitted": true,
+      "source_sha256": "896ce7d7adcbad0bdc3ed63bfeb064c7ad41bc6cc48c7d2f8def2706b8131c52",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 0.6378176137099665,
+      "hub_error_native": 1.9134528411298994
+    },
+    {
+      "id": "F_041",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.79033309655259,
+        64.41069708767863
+      ],
+      "predicted_points_roi": [
+        [
+          67.79033309655259,
+          64.41069708767863
+        ],
+        null
+      ],
+      "peaks": [
+        0.545386791229248,
+        null
+      ],
+      "margins": [
+        0.436794638633728,
+        null
+      ],
+      "hub_center_distance_roi": 4.385923764143746,
+      "hub_evidence_permitted": true,
+      "source_sha256": "50cb7d5493b259af5fd10af963f41cd463ae0f413bae188571c82dcdce30d0f3",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.0184641433632424,
+      "hub_error_native": 6.055392430089727
+    },
+    {
+      "id": "F_042",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        61.45955658506497,
+        65.48289216550835
+      ],
+      "predicted_points_roi": [
+        [
+          61.45955658506497,
+          65.48289216550835
+        ],
+        null
+      ],
+      "peaks": [
+        0.782628059387207,
+        null
+      ],
+      "margins": [
+        0.6504835486412048,
+        null
+      ],
+      "hub_center_distance_roi": 2.8452189141762174,
+      "hub_evidence_permitted": true,
+      "source_sha256": "159f7753ac42a8fc01574fa19a0f486bcd381d7e9d8da5df48f25403473f8d16",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.9643306814229096,
+      "hub_error_native": 5.892992044268729
+    },
+    {
+      "id": "F_043",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_medium_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        69.32898788429921,
+        64.37244416523545
+      ],
+      "predicted_points_roi": [
+        [
+          69.32898788429921,
+          64.37244416523545
+        ],
+        null
+      ],
+      "peaks": [
+        0.8059349060058594,
+        null
+      ],
+      "margins": [
+        0.4916148781776428,
+        null
+      ],
+      "hub_center_distance_roi": 5.893917082616649,
+      "hub_evidence_permitted": true,
+      "source_sha256": "2d3e89c978e1ce8effb5229d384f194f955639e23e3837ac19f3d33e03abd2af",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 4.102345127400351,
+      "hub_error_native": 12.307035382201054
+    },
+    {
+      "id": "F_044",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_large_soft_light",
+      "target_present": true,
+      "hub_roi": [
+        67.84808806553009,
+        63.958109420359456
+      ],
+      "predicted_points_roi": [
+        [
+          67.84808806553009,
+          63.958109420359456
+        ],
+        null
+      ],
+      "peaks": [
+        0.6979010701179504,
+        null
+      ],
+      "margins": [
+        0.4818028509616852,
+        null
+      ],
+      "hub_center_distance_roi": 4.372154396476329,
+      "hub_evidence_permitted": true,
+      "source_sha256": "07fbdc2db49b87e0dca05840d2bd40d18b839b4231c51995b66cbee75c4c9bed",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 3.9874711182881613,
+      "hub_error_native": 15.949884473152645
+    },
+    {
+      "id": "F_045",
+      "source_group": "F",
+      "split": "train",
+      "condition": "front_dim",
+      "target_present": true,
+      "hub_roi": [
+        65.72887034562356,
+        64.06016683319581
+      ],
+      "predicted_points_roi": [
+        [
+          65.72887034562356,
+          64.06016683319581
+        ],
+        null
+      ],
+      "peaks": [
+        0.2915891110897064,
+        null
+      ],
+      "margins": [
+        0.10385118424892426,
+        null
+      ],
+      "hub_center_distance_roi": 2.2981840436772507,
+      "hub_evidence_permitted": false,
+      "source_sha256": "9a88709b06cf6e921effce71070b0577e9e45546502ce91948f9b4dfb0eb9bf8",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 2.4435529459764367,
+      "hub_error_native": 7.33065883792931
+    },
+    {
+      "id": "F_046",
+      "source_group": "F",
+      "split": "train",
+      "condition": "backlight_or_local_reflection",
+      "target_present": true,
+      "hub_roi": [
+        64.08007512319168,
+        64.04974121254011
+      ],
+      "predicted_points_roi": [
+        [
+          64.08007512319168,
+          64.04974121254011
+        ],
+        null
+      ],
+      "peaks": [
+        0.3174932897090912,
+        null
+      ],
+      "margins": [
+        0.24081990122795105,
+        null
+      ],
+      "hub_center_distance_roi": 0.7991886819211792,
+      "hub_evidence_permitted": true,
+      "source_sha256": "311c8772ff9437b2dd0c0322c568bbb4ffc1310f587d72aa4b6fd74fcd1e62be",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.7187314666653954,
+      "hub_error_native": 5.156194399996187
+    },
+    {
+      "id": "F_047",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_left_view",
+      "target_present": true,
+      "hub_roi": [
+        67.97122620429214,
+        64.3206053151145
+      ],
+      "predicted_points_roi": [
+        [
+          67.97122620429214,
+          64.3206053151145
+        ],
+        null
+      ],
+      "peaks": [
+        0.41567930579185486,
+        null
+      ],
+      "margins": [
+        0.24754755198955536,
+        null
+      ],
+      "hub_center_distance_roi": 4.545905504202969,
+      "hub_evidence_permitted": true,
+      "source_sha256": "96f74318148441f267ec885389fc33ca7f469500bf10629d0843bcb437de4597",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.6822756123182272,
+      "hub_error_native": 5.046826836954682
+    },
+    {
+      "id": "F_048",
+      "source_group": "F",
+      "split": "train",
+      "condition": "mild_right_view",
+      "target_present": true,
+      "hub_roi": [
+        60.15473227523422,
+        63.74616305287568
+      ],
+      "predicted_points_roi": [
+        [
+          60.15473227523422,
+          63.74616305287568
+        ],
+        null
+      ],
+      "peaks": [
+        0.6742710471153259,
+        null
+      ],
+      "margins": [
+        0.5852885842323303,
+        null
+      ],
+      "hub_center_distance_roi": 3.354312507647538,
+      "hub_evidence_permitted": true,
+      "source_sha256": "1e280d4be378fa9b24b487040a8de3287d7eaf367f0ba9c19213653d593a7502",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.646380556240332,
+      "hub_error_native": 4.939141668720996
+    },
+    {
+      "id": "F_049",
+      "source_group": "F",
+      "split": "train",
+      "condition": "empty_background",
+      "target_present": false,
+      "hub_roi": [
+        64.1351726041315,
+        67.97668296471784
+      ],
+      "predicted_points_roi": [
+        [
+          64.1351726041315,
+          67.97668296471784
+        ],
+        null
+      ],
+      "peaks": [
+        0.1373341679573059,
+        null
+      ],
+      "margins": [
+        0.006327420473098755,
+        null
+      ],
+      "hub_center_distance_roi": 4.521519059302314,
+      "hub_evidence_permitted": false,
+      "source_sha256": "7aa38e158d586457a90bd6752690f1353fe4efebe33d95d92ed8cadf607c68f8",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "F_050",
+      "source_group": "F",
+      "split": "train",
+      "condition": "non_gauge_circular_or_reflective_object",
+      "target_present": false,
+      "hub_roi": [
+        66.22121512521724,
+        70.1738010196633
+      ],
+      "predicted_points_roi": [
+        [
+          66.22121512521724,
+          70.1738010196633
+        ],
+        null
+      ],
+      "peaks": [
+        0.16175447404384613,
+        null
+      ],
+      "margins": [
+        0.03439183533191681,
+        null
+      ],
+      "hub_center_distance_roi": 7.207262435056046,
+      "hub_evidence_permitted": false,
+      "source_sha256": "ff830ec70790b0a605e913033f95de58c312fdcce5a68319bb8eb5d595b52dcb",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "F_051",
+      "source_group": "F",
+      "split": "train",
+      "condition": "non_gauge_circular_or_reflective_object",
+      "target_present": false,
+      "hub_roi": [
+        64.08282749784698,
+        77.67233799713887
+      ],
+      "predicted_points_roi": [
+        [
+          64.08282749784698,
+          77.67233799713887
+        ],
+        null
+      ],
+      "peaks": [
+        0.17920683324337006,
+        null
+      ],
+      "margins": [
+        0.07230909913778305,
+        null
+      ],
+      "hub_center_distance_roi": 14.18431712129254,
+      "hub_evidence_permitted": false,
+      "source_sha256": "8ee86f9c500d9c792fc09d3ebb663406146ac20f7ad94734ead3443ee5f3e9a7",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "F_056",
+      "source_group": "F",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        76.92319734475322,
+        63.7050328652345
+      ],
+      "predicted_points_roi": [
+        [
+          76.92319734475322,
+          63.7050328652345
+        ],
+        null
+      ],
+      "peaks": [
+        0.5478271245956421,
+        null
+      ],
+      "margins": [
+        0.29238733649253845,
+        null
+      ],
+      "hub_center_distance_roi": 13.424763142492166,
+      "hub_evidence_permitted": true,
+      "source_sha256": "621d068aa37de377a6a4491632c3362fe5c09298d968dc4bbad3f7a9a53affff",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "F_057",
+      "source_group": "F",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        61.01818770067938,
+        70.45306764233428
+      ],
+      "predicted_points_roi": [
+        [
+          61.01818770067938,
+          70.45306764233428
+        ],
+        null
+      ],
+      "peaks": [
+        0.42584720253944397,
+        null
+      ],
+      "margins": [
+        0.12191197276115417,
+        null
+      ],
+      "hub_center_distance_roi": 7.382719141883635,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c43d2b301ab144fb604e377b7f27e3abd4edc9b6ff31acbf6618a6c89f18cb90",
+      "tip_head_not_used_as_new_locator": true
+    },
+    {
+      "id": "F_058",
+      "source_group": "F",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        67.99620505240817,
+        62.727992232985585
+      ],
+      "predicted_points_roi": [
+        [
+          67.99620505240817,
+          62.727992232985585
+        ],
+        null
+      ],
+      "peaks": [
+        0.5497159957885742,
+        null
+      ],
+      "margins": [
+        0.3867443799972534,
+        null
+      ],
+      "hub_center_distance_roi": 4.562001300485496,
+      "hub_evidence_permitted": true,
+      "source_sha256": "3d3da6dd51967bbfb6e55be0b5ba38a39943553090747d9d8f4246da91cde19a",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 3.966603520636599,
+      "hub_error_native": 11.899810561909796
+    },
+    {
+      "id": "F_059",
+      "source_group": "F",
+      "split": "train",
+      "condition": "challenge_with_gauge",
+      "target_present": true,
+      "hub_roi": [
+        65.7804313452279,
+        64.16160608870703
+      ],
+      "predicted_points_roi": [
+        [
+          65.7804313452279,
+          64.16160608870703
+        ],
+        null
+      ],
+      "peaks": [
+        0.3946729898452759,
+        null
+      ],
+      "margins": [
+        0.08552169799804688,
+        null
+      ],
+      "hub_center_distance_roi": 2.3744662004147643,
+      "hub_evidence_permitted": true,
+      "source_sha256": "c81eb4b146992174c6faea450ec64b69c2c6be15ef67fc14875d9f548a015b4c",
+      "tip_head_not_used_as_new_locator": true,
+      "hub_error_roi": 1.5438016992020984,
+      "hub_error_native": 4.6314050976062955
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "ROBUST_CHAIN_FLOAT_TRAINED_NO_MCU_OR_BOARD",
+  "completed_steps": 2400,
+  "best_step": 1200,
+  "elapsed_s": 10.031000000002678,
+  "train_original_sources": 164,
+  "augmented_train_views": 820,
+  "angular_supervised_views": 745,
+  "validation_images": 59,
+  "parameters": 1009,
+  "hub_parameters": 1202,
+  "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+  "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+  "train_features_sha256": "0e8cf1c61ea8a45fe4cfc5a0d553c5da906ce374f20cf6e7ca60456dacd79c4f",
+  "validation": {
+    "images": 59,
+    "selection_loss": 0.5610280999770532,
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 6.219050437567329,
+      "median": 2.208027268439224,
+      "p90": 6.212882385293264
+    },
+    "within5": 42,
+    "within10": 48,
+    "full": 50,
+    "accepted": 42,
+    "accepted_over10": 1,
+    "negative_count": 3,
+    "negative_accepted": 0
+  },
+  "H_or_ABC_opened": false,
+  "thresholds_changed": false,
+  "psi_pressure_is_model_input": false,
+  "integer_or_hardware_deployment": false
+}

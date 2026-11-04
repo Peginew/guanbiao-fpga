@@ -1,0 +1,16 @@
+{
+  "status": "HUB_FLOAT_TRAINED_NOT_BOARD_ACCEPTANCE",
+  "completed_steps": 2400,
+  "best_step": 200,
+  "best_mean_hub_roi": 2.7760188831843613,
+  "elapsed_s": 63.34399999999732,
+  "augmentation": {
+    "views": 28800,
+    "photo_accepted": 22995,
+    "photo_failed_attempts": 10
+  },
+  "parameters": 1202,
+  "tip_head_used": false,
+  "checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+  "H_or_ABC_opened": false
+}

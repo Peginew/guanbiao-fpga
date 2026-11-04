@@ -1,0 +1,57 @@
+{
+  "status": "PASS_ROBUST_CHAIN_EXECUTION_AND_REPRODUCED_G_RESULTS_NO_READOUT_ACCEPTANCE",
+  "checks": 141,
+  "failures": [],
+  "hub_checkpoint_sha256": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+  "polar_checkpoint_sha256": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d",
+  "trainer_sha256": "fa812fa91d3c1901f676dc433af764152485f70744a26e08098774c06ad69de9",
+  "hub_best_step": 200,
+  "polar_best_step": 1200,
+  "completed_steps_per_stage": 2400,
+  "hub_replayed_max_difference_roi": 0.0,
+  "polar_replayed_max_angle_difference_deg": 0.0,
+  "hub_G": {
+    "n": 52,
+    "mean": 2.7760188831843613,
+    "median": 1.8768286192176844,
+    "p90": 4.770045511863545
+  },
+  "new_polar_G": {
+    "images": 59,
+    "selection_loss": 0.5610280999770532,
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 6.219050437567329,
+      "median": 2.208027268439224,
+      "p90": 6.212882385293264
+    },
+    "within5": 42,
+    "within10": 48,
+    "full": 50,
+    "accepted": 42,
+    "accepted_over10": 1,
+    "negative_count": 3,
+    "negative_accepted": 0
+  },
+  "old_polar_G": {
+    "images": 59,
+    "selection_loss": 0.7901841493753287,
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 5.820400602674792,
+      "median": 1.8818360397009997,
+      "p90": 5.444272898027498
+    },
+    "within5": 44,
+    "within10": 48,
+    "full": 50,
+    "accepted": 40,
+    "accepted_over10": 1,
+    "negative_count": 3,
+    "negative_accepted": 0
+  },
+  "assessment": "Hub overall mean improved, but new polar mean/median direction errors slightly worse than old B and <=10deg unchanged48/50. Increased neural permission42vs40 alone is not robustness success; requires same PSI output/new-wrong-ID comparison.",
+  "optimizer_steps_by_reviewer": 0,
+  "H_or_ABC_opened": false,
+  "OSD_or_hardware_changed": false
+}

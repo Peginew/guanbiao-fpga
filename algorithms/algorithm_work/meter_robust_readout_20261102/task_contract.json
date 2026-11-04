@@ -1,0 +1,20 @@
+{
+  "goal": "Improve correct PSI readout coverage under dim, backlit/reflected, mild side-view and partially obstructed conditions",
+  "user_priority": "Predicted hub and needle direction remain displayable independently of numeric read permission; final outcome is a pressure reading or a stated adjustment/rejection reason",
+  "primary_unit": "psi",
+  "baseline_pointer": "hardware/current_meter_pointer_readout.json",
+  "baseline_needle_checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+  "baseline_reading_summary": {"gauge_images": 56, "valid_readings": 32, "MAE_psi_on_outputs": 0.19320860199827483, "within_0_5_psi": 29},
+  "scope": "Offline PC/ROI development and necessary integer-cost reasoning; no board/MCU/OSD/Flash changes",
+  "train_groups": ["D", "E", "F"],
+  "development_group": "G",
+  "test_H_and_reserve_ABC": "Not opened or used",
+  "learning_budget": "One fixed robust hub warm-training run, then one fixed polar run using that actual hub on the same augmented inputs; existing1202+1009 inference architecture retained",
+  "nonlearning_pose_budget": "At most two ROI128-only static-print pose candidates with train-only templates and fit; native-frame SIFT remains comparator only",
+  "augmentation": "Controlled gamma/shadow/highlight/blur with actual label evidence preserved or per-head supervision ignored; no forced labels behind opaque covers",
+  "calibration": "Train visual needle angles and user PSI only; no pressure-to-point inversion, no G fitting, no unknown pose treated as zero",
+  "comparison": "Separate model-only changes from ROI-only pose and combined readout; use all56 gauge images plus3 negatives, including failures",
+  "metrics": ["Hub error and needle direction by scene", "Valid read count and coverage", "PSI mean/median/max absolute error on outputs", "Output error distributions0.25/0.5/1.0psi", "Newly correct outputs and newly wrong outputs by ID", "Rejected and unassessable challenges"],
+  "error_bands_are_user_acceptance_targets": false,
+  "constraints": ["No threshold relaxation concealed as robustness", "No visible-only reporting without denominator", "No native image supplied to a claimed ROI-only runtime", "No synthetic/historical data called independent real test", "No model/MCU/board acceptance by PC results alone", "Preserve successful old candidates and simultaneous OSD work"]
+}

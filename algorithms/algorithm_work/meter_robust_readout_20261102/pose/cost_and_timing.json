@@ -1,0 +1,173 @@
+{
+  "status": "ROI128_INPUT_AVAILABLE_COMPUTE_AND_MEMORY_FIT_NOT_YET_PROVEN",
+  "benchmarks_train_only": [
+    {
+      "id": "D_001",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 8.421100006671622,
+      "B_PC_elapsed_ms": 108.91740000806749,
+      "A_accepted": true,
+      "B_accepted": true
+    },
+    {
+      "id": "D_002",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 7.066299993311986,
+      "B_PC_elapsed_ms": 96.66499999002554,
+      "A_accepted": true,
+      "B_accepted": true
+    },
+    {
+      "id": "D_003",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 5.992899998091161,
+      "B_PC_elapsed_ms": 95.03830000176094,
+      "A_accepted": true,
+      "B_accepted": true
+    },
+    {
+      "id": "D_004",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 8.641199994599447,
+      "B_PC_elapsed_ms": 91.46039999905042,
+      "A_accepted": true,
+      "B_accepted": true
+    },
+    {
+      "id": "D_005",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 12.538800001493655,
+      "B_PC_elapsed_ms": 92.08699999726377,
+      "A_accepted": false,
+      "B_accepted": false
+    },
+    {
+      "id": "D_006",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 7.312999994610436,
+      "B_PC_elapsed_ms": 89.67080000729766,
+      "A_accepted": true,
+      "B_accepted": false
+    },
+    {
+      "id": "E_002",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 7.086699988576584,
+      "B_PC_elapsed_ms": 94.60050000052433,
+      "A_accepted": true,
+      "B_accepted": true
+    },
+    {
+      "id": "E_004",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 6.270099998801015,
+      "B_PC_elapsed_ms": 104.76999999082182,
+      "A_accepted": true,
+      "B_accepted": true
+    },
+    {
+      "id": "F_002",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 9.569300003931858,
+      "B_PC_elapsed_ms": 113.77449998690281,
+      "A_accepted": false,
+      "B_accepted": false
+    },
+    {
+      "id": "F_004",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 8.68080000509508,
+      "B_PC_elapsed_ms": 107.13709999981802,
+      "A_accepted": true,
+      "B_accepted": true
+    },
+    {
+      "id": "F_009",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 15.75169998977799,
+      "B_PC_elapsed_ms": 0.01060000795405358,
+      "A_accepted": false,
+      "B_accepted": false
+    },
+    {
+      "id": "F_039",
+      "ROI_ORB_features": 400,
+      "ROI_ORB_descriptor_bytes": 12800,
+      "A_PC_elapsed_ms": 12.62549999228213,
+      "B_PC_elapsed_ms": 0.010799994925037026,
+      "A_accepted": false,
+      "B_accepted": false
+    }
+  ],
+  "reference_ORB": {
+    "D_002": {
+      "features": 400,
+      "descriptor_bytes": 12800,
+      "usable_pose_offset": true
+    },
+    "E_002": {
+      "features": 400,
+      "descriptor_bytes": 12800,
+      "usable_pose_offset": true
+    },
+    "F_002": {
+      "features": 400,
+      "descriptor_bytes": 12800,
+      "usable_pose_offset": false
+    }
+  },
+  "A_max400_query_descriptor_bytes": 12800,
+  "ORB_implementation_costs": [
+    "OpenCV ORB native128, four pyramid levels, WTA_K=2, binary32-byte descriptors.",
+    "Normalized128image16KiB plus keypoint/descriptor/pyramid/RANSAC working sets; MCUport/linkmap/stack not provided."
+  ],
+  "B_cost_estimate": {
+    "center_hypotheses": 9,
+    "radius_hypotheses": 3,
+    "profile_builds_per_ROI": 27,
+    "profile_samples_per_build": 4320,
+    "total_bilinear_samples": 116640,
+    "source_reads_for_bilinear_without_normalization": 466560,
+    "reference_count": 2,
+    "selected_reference_elements": {
+      "D_002": 1634,
+      "E_002": 1600
+    },
+    "template_query_comparison_count": 4278582,
+    "query_profile_INT8_bytes": 4320,
+    "full_reference_profiles_INT8_bytes": 8640,
+    "compressed_selected_template_INT8_values_bytes": 3234,
+    "compressed_selected_template_U16_indices_bytes": 6468,
+    "sin_cos_S16_LUT_bytes": 1440,
+    "rotation_scores_S32_bytes": 196,
+    "full_normalized_image_U8_bytes": 16384,
+    "normalization_9line_U8_streaming_alternative_bytes": 1152,
+    "trim_selection_working_storage_not_implemented_inC": true
+  },
+  "timing_PC_only": {
+    "A_mean_ms": 9.163116663936913,
+    "B_mean_ms": 82.84519999870099,
+    "not_MCU_cycles": true
+  },
+  "memory_fit": "PENDING/NOT_DIRECT_DROP_IN; currentPC normalizer uses fullimage/tempfloat orS16arrays. AdditionalTCM not established; streaming/reuse andactualELFmap necessary.",
+  "next_minimum": [
+    "ChooseA orB basedactualcoverage/errorandengineeringcost; noSIFT fallback.",
+    "B fixedpoint bilinear/meanabsolute normalization/trimSAD must reproduce sameROI bytes.",
+    "Reducecenter/scalehypothesis costs onlywithtrain-onlyevidence; noGthreshold tuning.",
+    "ReuseCNNscratch orB radialfeatures onlywithactual lifetimes/linkmap proof; do not assume newfreeERAM.",
+    "MeasureMCUcycles andsourceownership whileHDMIcontinues; no hard realtime claim."
+  ],
+  "source_code_sha256": "ea9db1a8886158181b7916d619cf6371bf6d1d836423397f21515fe22e7c1166",
+  "hardware_actions": false
+}

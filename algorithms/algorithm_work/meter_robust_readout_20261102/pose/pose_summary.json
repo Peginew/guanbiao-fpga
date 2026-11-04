@@ -1,0 +1,49 @@
+{
+  "status": "TWO_ROI128_POSE_CANDIDATES_PC_ONLY_NO_MCU_PORT",
+  "summary": {
+    "A": {
+      "train": {
+        "images": 164,
+        "accepted": 60,
+        "both_with_oracle": 56,
+        "oracle_angle_difference_MAE_deg": 0.6469061080921945,
+        "oracle_difference_max_deg": 2.63349472452677,
+        "oracle_difference_over3deg": 0
+      },
+      "validation": {
+        "images": 59,
+        "accepted": 18,
+        "both_with_oracle": 17,
+        "oracle_angle_difference_MAE_deg": 0.7302549229754902,
+        "oracle_difference_max_deg": 2.21598588002621,
+        "oracle_difference_over3deg": 0
+      }
+    },
+    "B": {
+      "train": {
+        "images": 164,
+        "accepted": 84,
+        "both_with_oracle": 66,
+        "oracle_angle_difference_MAE_deg": 0.8535453604962409,
+        "oracle_difference_max_deg": 3.8657608044368317,
+        "oracle_difference_over3deg": 2
+      },
+      "validation": {
+        "images": 59,
+        "accepted": 32,
+        "both_with_oracle": 26,
+        "oracle_angle_difference_MAE_deg": 0.6908010201173493,
+        "oracle_difference_max_deg": 1.941350287128131,
+        "oracle_difference_over3deg": 0
+      }
+    }
+  },
+  "template_setup_sha256": "4983c1f85d307268ba48c51c9874ea2517387e0ac2279ac72a537d70fb53f83d",
+  "config_sha256": "2b12f64af23a9de1852a03f0885b143776d58402126b93111102b60b195d5b37",
+  "code_sha256": "ea9db1a8886158181b7916d619cf6371bf6d1d836423397f21515fe22e7c1166",
+  "query_inputs": "OnlyU8ROI128+predictedhub+locatorscale",
+  "oracle_supplies_inference": false,
+  "H_opened": false,
+  "hardware_actions": false,
+  "A_H_metadata_added_no_new_inference": true
+}

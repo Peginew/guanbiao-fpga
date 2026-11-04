@@ -1,0 +1,65 @@
+{
+  "frozen_pose_config": {
+    "reference_ids": [
+      "D_002",
+      "E_002",
+      "F_002"
+    ],
+    "local_box_width": 9,
+    "A": {
+      "orb_features": 400,
+      "ratio": 0.75,
+      "min_inliers": 8,
+      "min_unique": 6,
+      "min_quadrants": 3,
+      "min_hull_fraction": 0.045,
+      "max_reprojection": 1.3,
+      "max_anisotropy": 1.15,
+      "min_inner_print_inliers": 3
+    },
+    "B": {
+      "radial_bands": 12,
+      "angular_bins": 360,
+      "radius_fractions": [
+        0.4,
+        0.88
+      ],
+      "search_degrees": [
+        -24,
+        24
+      ],
+      "center_offsets_roi": [
+        -1.5,
+        0,
+        1.5
+      ],
+      "scale_offsets": [
+        0.97,
+        1.0,
+        1.03
+      ],
+      "trim_outliers_fraction": 0.2,
+      "min_score": 0.64,
+      "min_margin": 0.018,
+      "max_center_distance": 14
+    },
+    "fixed_before_validation": true,
+    "thresholds_selected_from_G": false
+  },
+  "frozen_template_offsets": {
+    "D_002": 0.0,
+    "E_002": -1.7807410733477336
+  },
+  "oldmodel_role": "Fixed train template setup only; no oldhub runtime execution",
+  "newquery_role": "Every query uses actual same-new-model hub_roi and same-source ROI",
+  "source_sha256": {
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\training\\run_001\\polar\\train_predictions.jsonl": "08b3f44cbb3854218c18505d8951d263910b4d903bc369427f8c817b5e08c85b",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\training\\run_001\\polar\\validation_predictions.jsonl": "50e845d30fde69ea793264d907316b92fcadfdecd415388cad415e6fbc85a9ce",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_config.json": "2b12f64af23a9de1852a03f0885b143776d58402126b93111102b60b195d5b37",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\pose\\template_setup.json": "4983c1f85d307268ba48c51c9874ea2517387e0ac2279ac72a537d70fb53f83d",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\pose\\roi_pose_candidates.py": "ea9db1a8886158181b7916d619cf6371bf6d1d836423397f21515fe22e7c1166",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\pose\\run_joint_new_model.py": "4116a8028d0d12ee4cbdcf7564f35ac33243a26159e89d8e0e467e6bf4d161cd"
+  },
+  "thresholds_tuned_on_G": false,
+  "template_reselected_using_G": false
+}

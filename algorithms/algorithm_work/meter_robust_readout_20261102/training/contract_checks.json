@@ -1,0 +1,11 @@
+{
+  "status": "PASS_HUB_ONLY_AND_NO_OPAQUE_LABEL_CHECKS",
+  "trainer_sha256": "fa812fa91d3c1901f676dc433af764152485f70744a26e08098774c06ad69de9",
+  "opaque_black_rejected": true,
+  "opaque_white_rejected": true,
+  "tip_head_gradient_nonzero_count": 0,
+  "known_negative_hub_gradient_nonzero_count": 4096,
+  "native_polar_feature_and_predicted_hub_invariant_to_GT_hub_and_pressure": true,
+  "test_H_or_ABC_opened": false,
+  "real_optimizer_steps": 0
+}

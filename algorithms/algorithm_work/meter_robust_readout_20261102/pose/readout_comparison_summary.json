@@ -1,0 +1,89 @@
+{
+  "status": "TWO_FROZEN_ROI128_POSE_CANDIDATES_OLD_MODEL_PSI_COMPARISON",
+  "summary": {
+    "A": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 12,
+      "coverage_gauge": 0.21428571428571427,
+      "valid_reads_with_bounded_both_points": 12,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.1497173115054425,
+      "reading_median_abs_error_psi": 0.15725369265238953,
+      "reading_max_abs_error_psi": 0.26748873390810957,
+      "accurate_accepted_within_tolerance": 12,
+      "wrong_accepted_over_tolerance": 0,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 11,
+        "within_0_5_psi": 12,
+        "within_1_0_psi": 12,
+        "bins": {
+          "up_to_0_25": 11,
+          "over_0_25_to_0_5": 1,
+          "over_0_5_to_1_0": 0,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "NO_RELIABLE_ROI128_STATIC_PRINT_REGISTRATION": 27,
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 3,
+        "PREDICTION_NOT_PERMITTED": 17
+      },
+      "static_pose_supported": 18,
+      "train_fit_images": 49,
+      "train_fit_MAE_psi": 0.18289230438145934
+    },
+    "B": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 21,
+      "coverage_gauge": 0.375,
+      "valid_reads_with_bounded_both_points": 21,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.15740682142050108,
+      "reading_median_abs_error_psi": 0.12991795921179872,
+      "reading_max_abs_error_psi": 0.45787038715820216,
+      "accurate_accepted_within_tolerance": 21,
+      "wrong_accepted_over_tolerance": 0,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 16,
+        "within_0_5_psi": 21,
+        "within_1_0_psi": 21,
+        "bins": {
+          "up_to_0_25": 16,
+          "over_0_25_to_0_5": 5,
+          "over_0_5_to_1_0": 0,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "ROI128_RING_AMBIGUOUS": 13
+      },
+      "static_pose_supported": 32,
+      "train_fit_images": 65,
+      "train_fit_MAE_psi": 0.14706735622535927
+    }
+  },
+  "native_SIFT_inference_or_calibration_used": false,
+  "new_model_used": false,
+  "G_fitted": false,
+  "H_opened": false,
+  "hardware_actions": false
+}

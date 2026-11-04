@@ -1,0 +1,46 @@
+{
+  "reference_offsets": {
+    "D_002": 0.0,
+    "E_002": -1.7807410733477336
+  },
+  "reference_pair_registration": {
+    "E_002": {
+      "accepted": true,
+      "reason": "ROI128_ORB_STATIC_PRINT_REGISTERED",
+      "matches": 43,
+      "inliers": 31,
+      "unique_locations": 29,
+      "quadrants": 4,
+      "hull_fraction": 0.1259770517465073,
+      "median_reprojection_px": 0.40792664885520935,
+      "inner_print_inliers": 29,
+      "relative_roll_deg": -1.7807410733477336,
+      "local_anisotropy": 1.0025761127471924,
+      "H": [
+        [
+          0.9863996372768046,
+          0.06076731595369297,
+          -1.5258491549153963
+        ],
+        [
+          -0.046999030038131086,
+          1.0323619899327803,
+          1.6088009771455432
+        ],
+        [
+          -0.00022909946113047988,
+          0.00047955336403026467,
+          1.0
+        ]
+      ]
+    },
+    "F_002": {
+      "accepted": false,
+      "reason": "NO_RELIABLE_ROI128_STATIC_PRINT_REGISTRATION",
+      "matches": 7
+    }
+  },
+  "reference_selection": "Fixed clear train D002/E002/F002 only; noG template/threshold selection",
+  "reference_only_needle_sector_source": "Frozen train model predictions atsetup, fixed28deg exclusions; never queryGT/psi",
+  "operating_inputs": "ROI128U8 + predicted hub + locator radius; no native image, GTpoint, pressure orSIFT"
+}

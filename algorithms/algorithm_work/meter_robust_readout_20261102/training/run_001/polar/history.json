@@ -1,0 +1,266 @@
+[
+  {
+    "step": 200,
+    "train_loss": 0.6166879534721375,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.6993407194431012,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.244156847468264,
+        "median": 2.054089091987464,
+        "p90": 6.122553819971118
+      },
+      "within5": 42,
+      "within10": 47,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 2,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 0.8129999999946449
+  },
+  {
+    "step": 400,
+    "train_loss": 0.24578221142292023,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.6384973388451797,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.215918417727156,
+        "median": 2.182153943726391,
+        "p90": 6.556880986148215
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 2,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 1.6560000000026776
+  },
+  {
+    "step": 600,
+    "train_loss": 0.37456008791923523,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5996868702081534,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.195239303165456,
+        "median": 2.195532791099083,
+        "p90": 6.512404004079144
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 41,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "step": 800,
+    "train_loss": 0.17302583158016205,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5745348426011893,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.2028779226886055,
+        "median": 2.19490707225836,
+        "p90": 6.4923304623241425
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 3.2810000000026776
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.7836846113204956,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5707291135421166,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.217535589897097,
+        "median": 2.205278331070147,
+        "p90": 6.213374573276053
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 4.172000000005937
+  },
+  {
+    "step": 1200,
+    "train_loss": 0.3927956521511078,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5610280999770532,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.219050437567329,
+        "median": 2.208027268439224,
+        "p90": 6.212882385293264
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 5.0
+  },
+  {
+    "step": 1400,
+    "train_loss": 0.165938138961792,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5688937031305753,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.207907973872811,
+        "median": 2.214462068331642,
+        "p90": 6.182958436240941
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 5.827999999994063
+  },
+  {
+    "step": 1600,
+    "train_loss": 0.369436651468277,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5691607686189505,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.206276378840296,
+        "median": 2.2141205815031526,
+        "p90": 6.191072246690794
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 6.610000000000582
+  },
+  {
+    "step": 1800,
+    "train_loss": 0.5761110186576843,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5729940946285541,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.209916586561658,
+        "median": 2.2143640609449307,
+        "p90": 6.176136686126168
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 7.485000000000582
+  },
+  {
+    "step": 2000,
+    "train_loss": 0.12044472992420197,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5717949454600995,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.2053592782374345,
+        "median": 2.219555309386891,
+        "p90": 6.178047945127563
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 8.327999999994063
+  },
+  {
+    "step": 2200,
+    "train_loss": 0.5950577259063721,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5722745015070989,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.197000537407473,
+        "median": 2.2241983347222316,
+        "p90": 6.159014852219357
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 9.172000000005937
+  },
+  {
+    "step": 2400,
+    "train_loss": 0.20350708067417145,
+    "validation": {
+      "images": 59,
+      "selection_loss": 0.5714177260032067,
+      "angle_error_deg": {
+        "n": 50,
+        "mean": 6.204065173878125,
+        "median": 2.226378166012836,
+        "p90": 6.154438650382648
+      },
+      "within5": 42,
+      "within10": 48,
+      "full": 50,
+      "accepted": 42,
+      "accepted_over10": 1,
+      "negative_count": 3,
+      "negative_accepted": 0
+    },
+    "elapsed_s": 9.906000000002678
+  }
+]

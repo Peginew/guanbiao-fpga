@@ -1,0 +1,199 @@
+{
+  "status": "PASS_ROI128_POSE_AND_TRAIN_ONLY_PSI_COMPARISONS_PC_ONLY",
+  "checks": 723,
+  "failures": [],
+  "reports": {
+    "pose\\candidate_A_with_old_B_readout_psi.json": {
+      "valid": 12,
+      "MAE_psi": 0.1497173115054425,
+      "within025_05_1psi": [
+        11,
+        12,
+        12
+      ],
+      "accepted_IDs": [
+        "G_008",
+        "G_013",
+        "G_014",
+        "G_016",
+        "G_018",
+        "G_020",
+        "G_022",
+        "G_028",
+        "G_032",
+        "G_034",
+        "G_037",
+        "G_038"
+      ],
+      "source_sha256": "becf9a8be5a83650635c19538a7aa92fef43caa0b3ecec7ed6219a18db4e6ed5",
+      "calibration_sha256": "97a0d5317766e938fdb4bfaff5e8ecb0fbe2cc58197503c1fdfb9a1df213226e"
+    },
+    "pose\\joint_new_model\\candidate_A_readout_psi.json": {
+      "valid": 18,
+      "MAE_psi": 0.1460169899138453,
+      "within025_05_1psi": [
+        15,
+        18,
+        18
+      ],
+      "accepted_IDs": [
+        "G_007",
+        "G_008",
+        "G_010",
+        "G_013",
+        "G_014",
+        "G_016",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_028",
+        "G_032",
+        "G_034",
+        "G_038",
+        "G_040",
+        "G_044"
+      ],
+      "source_sha256": "8bef712abf181c3fd58c823f008a66917df8b3b494f35528a46917ed8ad15323",
+      "calibration_sha256": "9e639545547f208da9db8e92724d15c2ca2cc22d7b9a2e22d3dbfb320344c518"
+    },
+    "pose\\candidate_B_with_old_B_readout_psi.json": {
+      "valid": 21,
+      "MAE_psi": 0.15740682142050108,
+      "within025_05_1psi": [
+        16,
+        21,
+        21
+      ],
+      "accepted_IDs": [
+        "G_008",
+        "G_009",
+        "G_011",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_018",
+        "G_019",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_028",
+        "G_029",
+        "G_031",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_045"
+      ],
+      "source_sha256": "170a2eff32047fb13d3e6c24ac831e1d31da9dfa76c24c7c127cf689091db237",
+      "calibration_sha256": "890d5ceb5cdf1ca87a6fcb7456cbf4b67123491f0ca60fac84fed5893c937491"
+    },
+    "pose\\joint_new_model\\candidate_B_readout_psi.json": {
+      "valid": 21,
+      "MAE_psi": 0.15609589263388632,
+      "within025_05_1psi": [
+        18,
+        20,
+        21
+      ],
+      "accepted_IDs": [
+        "G_007",
+        "G_008",
+        "G_009",
+        "G_010",
+        "G_011",
+        "G_013",
+        "G_014",
+        "G_016",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_028",
+        "G_031",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_045"
+      ],
+      "source_sha256": "67b50bafcff4246ffa2b4a54325a73e020c579e61cc7fb4157a217cb38d6f7c4",
+      "calibration_sha256": "2f9136ddbd234ca7caaa69c78e3897a0b9cd51f1cbb9f58753edb9ed8f65c242"
+    },
+    "pose\\baseline_ROI128_old_B_readout_psi.json": {
+      "valid": 12,
+      "MAE_psi": 0.12971877779584373,
+      "within025_05_1psi": [
+        10,
+        12,
+        12
+      ],
+      "accepted_IDs": [
+        "G_003",
+        "G_008",
+        "G_009",
+        "G_014",
+        "G_015",
+        "G_019",
+        "G_025",
+        "G_029",
+        "G_031",
+        "G_037",
+        "G_038",
+        "G_043"
+      ],
+      "source_sha256": "dc87d985b84950cf6f6504eacb5d5069a2b759f2d27fa05ac92d4e7178d338c9",
+      "calibration_sha256": "a0f3825117f5bc009c0b6781d35bc09c8512390a26db503588f82424fcf805d0"
+    }
+  },
+  "code_sha256": {
+    "pose\\roi_pose_candidates.py": "ea9db1a8886158181b7916d619cf6371bf6d1d836423397f21515fe22e7c1166",
+    "pose\\calibrate_and_score.py": "1c9451bc7f873db878f6ef5eb017a77121a035bb137a2e437738a36cb6348bd5",
+    "pose\\run_joint_new_model.py": "4116a8028d0d12ee4cbdcf7564f35ac33243a26159e89d8e0e467e6bf4d161cd",
+    "geometry\\projective_readout.py": "d60797095e0e2fe38068d77258cd73558a629a115583da8342622e3ad88adc8c"
+  },
+  "inverse_projective_math_maxerror_deg": 5.684341886080802e-14,
+  "single_vs_multi_reference_delta": {
+    "before_count": 12,
+    "after_count": 21,
+    "net_gain": 9,
+    "newly_accepted_IDs": [
+      "G_011",
+      "G_013",
+      "G_016",
+      "G_018",
+      "G_021",
+      "G_022",
+      "G_026",
+      "G_028",
+      "G_039",
+      "G_040",
+      "G_045"
+    ],
+    "withdrawn_IDs": [
+      "G_003",
+      "G_043"
+    ],
+    "newly_accepted_within05psi": 11,
+    "all_after_within05psi": 21,
+    "scope": "Same prior neural pair and128ROI input, different pose methods/compute and separately fitted train-only calibration; not board or same-resource validation"
+  },
+  "conclusions": [
+    "Both ROI128 methods use predicted hub only; combined path correctly switches all query hubs to new same-source model",
+    "ROI-only methods are distinct input-scope comparisons, not nativeSIFT32-read performance improvement",
+    "New model alone has no PSI coverage gain; report new accepted/wrong IDs separately before considering replacement",
+    "A descriptors alone12.8KB plus image/pyramid/RANSAC; B116640bilinear samples and4.28million comparisons. MCU memory/cycles still unproven",
+    "NativeH inverse-line math is a PC diagnostic, not a third production pose candidate or MCU implementation"
+  ],
+  "baseline_ROI128_provenance": "Prior fixed single-template ROI128 PC feasibility probe; original signed script/result verified, not current board/nativeSIFT baseline",
+  "H_or_ABC_opened": false,
+  "optimizer_steps": 0,
+  "OSD_or_hardware_changed": false
+}

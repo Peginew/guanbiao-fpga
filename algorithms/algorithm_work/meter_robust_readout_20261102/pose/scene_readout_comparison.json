@@ -1,0 +1,170 @@
+{
+  "baseline_ROI128_old_B_readout_psi.json": {
+    "front_medium_soft_light": {
+      "images": 8,
+      "valid": 5,
+      "within_0_5_psi": 5,
+      "MAE_psi": 0.1836654984177141
+    },
+    "front_large_soft_light": {
+      "images": 8,
+      "valid": 3,
+      "within_0_5_psi": 3,
+      "MAE_psi": 0.11087393926576183
+    },
+    "front_dim": {
+      "images": 8,
+      "valid": 3,
+      "within_0_5_psi": 3,
+      "MAE_psi": 0.05354030089961803
+    },
+    "backlight_or_local_reflection": {
+      "images": 8,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "mild_left_view": {
+      "images": 8,
+      "valid": 1,
+      "within_0_5_psi": 1,
+      "MAE_psi": 0.14505512096541473
+    },
+    "mild_right_view": {
+      "images": 8,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "empty_background": {
+      "images": 1,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "non_gauge_circular_or_reflective_object": {
+      "images": 2,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "challenge_with_gauge": {
+      "images": 8,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    }
+  },
+  "candidate_A_with_old_B_readout_psi.json": {
+    "front_medium_soft_light": {
+      "images": 8,
+      "valid": 2,
+      "within_0_5_psi": 2,
+      "MAE_psi": 0.1619770237272009
+    },
+    "front_large_soft_light": {
+      "images": 8,
+      "valid": 5,
+      "within_0_5_psi": 5,
+      "MAE_psi": 0.13954606074695838
+    },
+    "front_dim": {
+      "images": 8,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "backlight_or_local_reflection": {
+      "images": 8,
+      "valid": 4,
+      "within_0_5_psi": 4,
+      "MAE_psi": 0.12685866324200168
+    },
+    "mild_left_view": {
+      "images": 8,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "mild_right_view": {
+      "images": 8,
+      "valid": 1,
+      "within_0_5_psi": 1,
+      "MAE_psi": 0.26748873390810957
+    },
+    "empty_background": {
+      "images": 1,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "non_gauge_circular_or_reflective_object": {
+      "images": 2,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "challenge_with_gauge": {
+      "images": 8,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    }
+  },
+  "candidate_B_with_old_B_readout_psi.json": {
+    "front_medium_soft_light": {
+      "images": 8,
+      "valid": 5,
+      "within_0_5_psi": 5,
+      "MAE_psi": 0.1785852678270114
+    },
+    "front_large_soft_light": {
+      "images": 8,
+      "valid": 4,
+      "within_0_5_psi": 4,
+      "MAE_psi": 0.08903251073978113
+    },
+    "front_dim": {
+      "images": 8,
+      "valid": 5,
+      "within_0_5_psi": 5,
+      "MAE_psi": 0.17749913952188337
+    },
+    "backlight_or_local_reflection": {
+      "images": 8,
+      "valid": 4,
+      "within_0_5_psi": 4,
+      "MAE_psi": 0.12824288324251265
+    },
+    "mild_left_view": {
+      "images": 8,
+      "valid": 2,
+      "within_0_5_psi": 2,
+      "MAE_psi": 0.26150612383640315
+    },
+    "mild_right_view": {
+      "images": 8,
+      "valid": 1,
+      "within_0_5_psi": 1,
+      "MAE_psi": 0.13300738948406732
+    },
+    "empty_background": {
+      "images": 1,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "non_gauge_circular_or_reflective_object": {
+      "images": 2,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    },
+    "challenge_with_gauge": {
+      "images": 8,
+      "valid": 0,
+      "within_0_5_psi": 0,
+      "MAE_psi": null
+    }
+  }
+}

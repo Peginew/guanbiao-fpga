@@ -1,0 +1,50 @@
+{
+  "status": "SUPERVISION_AND_REVIEW_PLAN_IMPLEMENTATION_PENDING",
+  "learning_candidate_limit": 1,
+  "training_chain": "One warm-start hub1202 stage, then one warm-start polar1009 stage with same new hub; no architecture search",
+  "pose_nonlearning_candidate_limit": 2,
+  "allowed_groups": {
+    "weight_updates": "D/E/F",
+    "model_selection_and_report": "G",
+    "forbidden": "H/A/B/C"
+  },
+  "augmentation_visibility": [
+    "Existing unknown/occluded head remains ignored; no pressure-derived point or visible flag",
+    "Photometric augmentation must retain actual visible needle/hub evidence; bounded soft highlight, no synthetic solid white occluder",
+    "If visible point neighbourhood loses contrast, fall back to the geometry-only view or mask that head out; never create a true-negative label",
+    "Affine image and original point labels share one matrix; no new point clamping"
+  ],
+  "same_observation": [
+    "Each synthetic view records original source SHA, view ID/seed, new hub checkpoint SHA",
+    "Polar features use the exact augmented ROI and its actual predicted new-hub center, not original/old-hub coordinates",
+    "128ROI orientation and needle angle/calibration must use the same source and coordinate convention",
+    "Any additional T-owned ROI metadata required in MCU must be identified, not assumed present from PC labels"
+  ],
+  "pose_and_pressure": [
+    "Only128ROI pixels and declared runtime ROI metadata are allowed as query inputs; no query true hub/tip/pressure",
+    "Static reference annotation is setup-only; no per-query ground-truth exclusion mask",
+    "Unknown orientation does not silently become zero; image roll does not certify yaw/pitch",
+    "Train-only PSI calibration; G PSI used only after output generation for scoring; old native256SIFT is a PC diagnostic, not production128 input"
+  ],
+  "effect_report": [
+    "All56 G gauge images remain coverage denominator;3 true negatives separate; partial/unknown visible keypoints excluded only from point-error metrics",
+    "Report readout permission changes and newly accepted errors per ID, not coverage alone",
+    "PSI errors and angular errors are distinct: G024 was13.46deg yet0.4003psi; prior large psi outlier wasG0420.8731psi",
+    "0.25/0.5/1.0psi are descriptive error bins, not user acceptance thresholds",
+    "Separate actual runtime pose+prediction from oracle diagnostics; no reference endpoint claim as actual needle tip"
+  ],
+  "out_of_scope": [
+    "Existing OSD modification",
+    "Download/Flash/MCU firmware",
+    "New real-data request",
+    "H evaluation"
+  ],
+  "review_sequence": [
+    "Freeze plan and source",
+    "Actual limited supervision/mask/source preflight",
+    "Single training-chain and pose runs",
+    "Reload exact selected weights and reproduce necessary G outputs",
+    "Same-unit calibration/coverage/PSI errors/new wrong-accept review"
+  ],
+  "deployment_boundary": "PC robustness does not establish integer preprocessing/TCM memory/timing/board readout or all-environment oil tolerance"
+}

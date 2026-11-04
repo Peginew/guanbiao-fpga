@@ -1,0 +1,24 @@
+{
+  "status": "LEGACY_RING_FAILURE_DECOMPOSED_NOT_ALL_POSE_ERRORS_ARE_READING_ERRORS",
+  "largest_legacy_false_pose": {
+    "id": "F_039",
+    "legacy_roll_deg": -20,
+    "difference_from_native_SIFT_comparator_deg": 25.946343427179073,
+    "predicted_hub_error_roi_diagnostic_only": 15.613689530026136,
+    "old_pointer_model_valid": false,
+    "therefore_was_actual_readout_wrong_accept": false,
+    "diagnostic_GT_error_not_runtime_input": true
+  },
+  "other_limits": [
+    "Single ring template has periodic tick/illumination ambiguity.",
+    "Center and radius errors move printed ridges between polarbands and can mimicrotation.",
+    "Current128ROI maylose fine tick structure after3x/4xblockmean; cannot recoverclipped oroccluded pixels."
+  ],
+  "candidate_changes": {
+    "A": "Local9boxcontrast, binary staticprint matching, multi-template geometric/RANSACspatialverification",
+    "B": "Localcontrast, two train templates, boundedcenter±1.5px/radius±3percent,20percenttrim robust residual, noGTneedle mask"
+  },
+  "new_candidates": 2,
+  "G_threshold_tuning": false,
+  "H_opened": false
+}

@@ -1,0 +1,86 @@
+{
+  "PLAN": {
+    "seed": 1104,
+    "threads": 4,
+    "hub_steps": 2400,
+    "hub_batch": 12,
+    "polar_steps": 2400,
+    "polar_batch": 24,
+    "lr": 0.0006,
+    "lr_end": 6e-05,
+    "evaluate_every": 200,
+    "fixed_augmented_views_per_train_source": 4,
+    "roll_opencv_deg": [
+      -8.0,
+      8.0
+    ],
+    "scale": [
+      0.96,
+      1.04
+    ],
+    "translation_roi_px": [
+      -2.0,
+      2.0
+    ],
+    "gamma": [
+      0.7,
+      1.5
+    ],
+    "low_frequency_shadow_slopes": [
+      -0.25,
+      0.25
+    ],
+    "shadow_gain": [
+      0.65,
+      1.0
+    ],
+    "gaussian_highlight_alpha": [
+      0.0,
+      0.3
+    ],
+    "highlight_sigma_roi": [
+      12.0,
+      28.0
+    ],
+    "light_blur_probability": 0.3,
+    "light_blur_kernel": 3,
+    "light_blur_sigma": [
+      0.2,
+      0.65
+    ],
+    "photo_probability": 0.8,
+    "photo_attempts": 4,
+    "point_patch_radius": 3,
+    "minimum_retained_point_contrast_fraction": 0.3,
+    "maximum_extra_point_patch_saturation": 0.2,
+    "hub_selection": "Minimum G visible bounded hub mean ROI error, including unchanged warm-start step0",
+    "polar_selection": "Minimum G angular focal loss, including warm-start with new hub at step0",
+    "output_thresholds_unchanged": {
+      "needle_score": 0.3,
+      "needle_margin": 0.02,
+      "hub_score": 0.3,
+      "hub_margin": 0.02,
+      "hub_center_distance_roi": 20,
+      "outside_fraction": 0.05
+    },
+    "parameters": {
+      "hub": 1202,
+      "polar": 1009
+    },
+    "pressure_unit": "psi",
+    "no_opaque_occlusion": true
+  },
+  "trainer_sha256": "fa812fa91d3c1901f676dc433af764152485f70744a26e08098774c06ad69de9",
+  "hub_warm_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "polar_warm_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+  "source_sha256": {
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\prepared_train.jsonl": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\prepared_validation.jsonl": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79"
+  },
+  "one_fixed_chain": true,
+  "G_development_only": true,
+  "H_or_ABC_opened": false,
+  "pressure_is_input": false,
+  "source_images_unchanged": true,
+  "no_threshold_relaxation": true
+}

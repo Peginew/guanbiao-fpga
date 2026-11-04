@@ -1,0 +1,146 @@
+{
+  "status": "PASS_FINITE_READOUT_DELTA_RECOMPUTATION_PC_ONLY",
+  "comparisons": [
+    {
+      "before": "prior_native_PC",
+      "after": "newNN_same_native",
+      "added": [
+        "G_010"
+      ],
+      "withdrawn": [
+        "G_029"
+      ],
+      "after_valid_over05": [
+        "G_042",
+        "G_044",
+        "G_045"
+      ]
+    },
+    {
+      "before": "prior_single_ROI128",
+      "after": "oldNN_multi_ROI128",
+      "added": [
+        "G_011",
+        "G_013",
+        "G_016",
+        "G_018",
+        "G_021",
+        "G_022",
+        "G_026",
+        "G_028",
+        "G_039",
+        "G_040",
+        "G_045"
+      ],
+      "withdrawn": [
+        "G_003",
+        "G_043"
+      ],
+      "after_valid_over05": []
+    },
+    {
+      "before": "oldNN_multi_ROI128",
+      "after": "newNN_multi_ROI128",
+      "added": [
+        "G_007",
+        "G_010",
+        "G_020"
+      ],
+      "withdrawn": [
+        "G_015",
+        "G_021",
+        "G_029"
+      ],
+      "after_valid_over05": [
+        "G_045"
+      ]
+    }
+  ],
+  "scene": {
+    "prior_single_ROI128": {
+      "front_medium_soft_light": {
+        "images": 8,
+        "valid": 5,
+        "within05psi": 5
+      },
+      "front_large_soft_light": {
+        "images": 8,
+        "valid": 3,
+        "within05psi": 3
+      },
+      "front_dim": {
+        "images": 8,
+        "valid": 3,
+        "within05psi": 3
+      },
+      "backlight_or_local_reflection": {
+        "images": 8,
+        "valid": 0,
+        "within05psi": 0
+      },
+      "mild_left_view": {
+        "images": 8,
+        "valid": 1,
+        "within05psi": 1
+      },
+      "mild_right_view": {
+        "images": 8,
+        "valid": 0,
+        "within05psi": 0
+      },
+      "challenge_with_gauge": {
+        "images": 8,
+        "valid": 0,
+        "within05psi": 0
+      }
+    },
+    "oldNN_multi_ROI128": {
+      "front_medium_soft_light": {
+        "images": 8,
+        "valid": 5,
+        "within05psi": 5
+      },
+      "front_large_soft_light": {
+        "images": 8,
+        "valid": 4,
+        "within05psi": 4
+      },
+      "front_dim": {
+        "images": 8,
+        "valid": 5,
+        "within05psi": 5
+      },
+      "backlight_or_local_reflection": {
+        "images": 8,
+        "valid": 4,
+        "within05psi": 4
+      },
+      "mild_left_view": {
+        "images": 8,
+        "valid": 2,
+        "within05psi": 2
+      },
+      "mild_right_view": {
+        "images": 8,
+        "valid": 1,
+        "within05psi": 1
+      },
+      "challenge_with_gauge": {
+        "images": 8,
+        "valid": 0,
+        "within05psi": 0
+      }
+    }
+  },
+  "source_sha256": {
+    "prior_native_PC": "741f41b4e752c68d40d34b40f36d1a82420524ffef66bfe10202a57a226d8eb6",
+    "newNN_same_native": "6584446880e4d88ba99ac0e038e5b868f32ac1f968395f213837fbbc3c3a26b4",
+    "prior_single_ROI128": "dc87d985b84950cf6f6504eacb5d5069a2b759f2d27fa05ac92d4e7178d338c9",
+    "oldNN_multi_ROI128": "170a2eff32047fb13d3e6c24ac831e1d31da9dfa76c24c7c127cf689091db237",
+    "newNN_multi_ROI128": "67b50bafcff4246ffa2b4a54325a73e020c579e61cc7fb4157a217cb38d6f7c4"
+  },
+  "decision": "Keep prior selected neural pair plus multi-reference ROI128 method as PC candidate; do not adopt new neural warm-training as global PSI improvement. No board or MCU acceptance.",
+  "limits": "Error bands descriptive only;G reused development;3negatives insufficient;manualbbox/HDMIproxy;memory/MCUcycles unresolved",
+  "H_or_ABC_opened": false,
+  "training_started": false
+}
