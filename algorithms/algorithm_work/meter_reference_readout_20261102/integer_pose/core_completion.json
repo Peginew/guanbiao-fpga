@@ -1,0 +1,25 @@
+{
+  "status": "MATCHER_CORE_HOST_AND_RV32_OBJECT_COMPLETE_NOT_FULL_MCU_LINK",
+  "artifacts_sha256": {
+    "meter_pose_matcher.c": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2",
+    "meter_pose_matcher.h": "89b125040d65d58433d034406f748e7e16d462e4521a49d01d614db862480921",
+    "meter_pose_matcher.dll": "2e00613b7d3b2b82ebeaddb090ccdf2ec6170507b718c0c2dfa7a8b4726a429c",
+    "host_tests.py": "0c52be8c28e7336118371a01321e961f4cec810ec16f2c46c36718848e6bbb79",
+    "host_test_receipt.json": "be2a68ec73242c83578f1f4ffc71dd3cf0b68311c276d52627bcf38478b22157",
+    "inspect_rv32_object.py": "c81eca6869bfceea1fd1e46fccbc70083a202c505240c6dab906f37bfefc961e",
+    "README_matcher.md": "a954c1d375b338ec30a0e7e498203ada821e18a107ece636f9b374b9fafebfb8",
+    "rv32_build/meter_pose_matcher.o": "835059c844d07b4c9b716fa922b11c3dae725ca8acbd8d68a6faa6c55331e575",
+    "rv32_build/meter_pose_matcher.su": "d4e4468aef870de36e30c5d15087e696037938a78f2c0c518df2ac5a3d222b59",
+    "rv32_build/rv32_object_receipt.json": "ee0e6b591867a4f7b3ef35d495be7011949ef4a2d8d5e91b5dfd3bb2f850d8f8"
+  },
+  "frozen_template_keeps": [
+    1307,
+    1280
+  ],
+  "generic_IEEE_margin_edge_documented": true,
+  "object_text_bytes": 1548,
+  "caller_context_bytes": 1104,
+  "new_training": false,
+  "board_actions": false,
+  "full_CNN_pose_PSI_MCU_application_linked": false
+}

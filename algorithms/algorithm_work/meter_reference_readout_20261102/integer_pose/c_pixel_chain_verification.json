@@ -1,0 +1,63 @@
+{
+  "status": "PASS_C_PIXEL_PROFILE_MATCHER_FROZEN_PSI_OUTPUTS",
+  "counts": {
+    "ROIs": 223,
+    "normalize_pixels": 3653632,
+    "profile_elements": 26010720,
+    "normalize_mismatches": 0,
+    "profile_mismatches": 0
+  },
+  "PSI": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 21,
+    "coverage_gauge": 0.375,
+    "valid_reads_with_bounded_both_points": 21,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 0.15740682142050108,
+    "reading_median_abs_error_psi": 0.12991795921179872,
+    "reading_max_abs_error_psi": 0.45787038715820216,
+    "accurate_accepted_within_tolerance": 21,
+    "wrong_accepted_over_tolerance": 0,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 16,
+      "within_0_5_psi": 21,
+      "within_1_0_psi": 21,
+      "bins": {
+        "up_to_0_25": 16,
+        "over_0_25_to_0_5": 5,
+        "over_0_5_to_1_0": 0,
+        "over_1_0": 0
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+      "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+      "PREDICTION_NOT_PERMITTED": 17,
+      "ROI128_RING_AMBIGUOUS": 13
+    }
+  },
+  "pressure_output_changes": [],
+  "normalize_workspace_bytes": 1408,
+  "profile_workspace_bytes": 360,
+  "source_frontend_C_sha256": "8379ac344fa7a8194e89a65155d4768113d857c572a2a26b714b67b9f96233cc",
+  "source_matcher_C_sha256": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2",
+  "frontend_dll_sha256": "62f0e6d99dddeebe002de12d4e69f7ede8e356dc60f8bcf1fb0002f235eaf096",
+  "matcher_dll_sha256": "2e00613b7d3b2b82ebeaddb090ccdf2ec6170507b718c0c2dfa7a8b4726a429c",
+  "geometry_q5_uses_float": true,
+  "pressure_geometry_and_neural_models_not_ported_in_this_test": true,
+  "actual_MCU_memory_behavior_measured": false,
+  "MCU_linked": false,
+  "MCU_cycles_measured": false,
+  "host_C_frontend_seconds": 0.5732935006089974,
+  "total_host_seconds": 11.539798999991035,
+  "H_opened": false,
+  "hardware_actions": false
+}
