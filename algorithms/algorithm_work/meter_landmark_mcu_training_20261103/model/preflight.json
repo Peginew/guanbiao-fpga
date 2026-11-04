@@ -1,0 +1,305 @@
+{
+  "status": "SYNTHETIC_MODEL_MASK_AND_COST_PREFLIGHT",
+  "plan": {
+    "candidate": "C4_SIX_IDENTIFIED_PRINT_HEATMAPS",
+    "seed": 1109,
+    "steps": 4800,
+    "batch_size": 12,
+    "optimizer": "Adam",
+    "learning_rate": 0.003,
+    "minimum_learning_rate": 0.00015,
+    "evaluation_interval": 400,
+    "threads": 4,
+    "initialization": "Random scratch Kaimingfan_in, fuse+.05, headstd.01 bias-4.59511985",
+    "input": "Whole128U8ROI normalized(pixel-128)/128; no predicted orGT pose/needle/psi/masks as input",
+    "heads": [
+      "outer_psi_5_text_centroid",
+      "outer_psi_10_text_centroid",
+      "outer_psi_15_text_centroid",
+      "upper_basketball_logo_centroid",
+      "middle_soccer_logo_centroid",
+      "lower_striped_ball_print_centroid"
+    ],
+    "output": "6x64heatmaps, ROIpoint=heatpoint*2",
+    "visibility": "visible/reliablepartial coords supervise peak; explicitlyoccluded/absent supervise no-visiblepeak; unknown ignored",
+    "visible_without_coordinate": "Ignore heatloss, never make positivevisible point a zero-map negative",
+    "augmentation": {
+      "rotation_deg": [
+        -15,
+        15
+      ],
+      "scale": [
+        0.92,
+        1.08
+      ],
+      "translation_ROIpx": [
+        -4,
+        4
+      ],
+      "gain": [
+        0.8,
+        1.2
+      ],
+      "bias": [
+        -12,
+        12
+      ],
+      "noise_probability": 0.25,
+      "noise_sigma": [
+        0,
+        2
+      ],
+      "synthetic_occlusion": false,
+      "out_of_bounds_supervision": "drop thathead mask, neverzero-mapnegative"
+    },
+    "heat_sigma": "max(1.25heatpixels, declared_uncertainty_ROI*scale/2)",
+    "fixed_point_evidence": {
+      "peak_min": 0.3,
+      "margin_min": 0.02,
+      "far_exclusion_heat_radius": 5
+    },
+    "selection": "G equal-identity unconditional pointMAE/3 + known-visible FNR +2*known-invisible FPR; noPSI selection",
+    "point_MAE_confidence_filtered": false,
+    "step0": "Random newlandmarkbranch; trained oldhub/polar remain frozen in system control",
+    "one_candidate_no_G_parameter_search": true,
+    "H_ABC_opened": false,
+    "hardware_actions": false
+  },
+  "cost": {
+    "parameters": 1222,
+    "nominal_MAC": 1412096,
+    "planned_W8_S32bias_bytes": 1444,
+    "layers": [
+      {
+        "name": "first",
+        "input_shape": [
+          1,
+          1,
+          128,
+          128
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "weights": 100,
+        "biases": 4,
+        "MAC": 409600
+      },
+      {
+        "name": "local.0",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "weights": 100,
+        "biases": 4,
+        "MAC": 409600
+      },
+      {
+        "name": "local.2",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "weights": 16,
+        "biases": 4,
+        "MAC": 65536
+      },
+      {
+        "name": "downs.0.0",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "weights": 100,
+        "biases": 4,
+        "MAC": 102400
+      },
+      {
+        "name": "downs.0.2",
+        "input_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "weights": 32,
+        "biases": 8,
+        "MAC": 32768
+      },
+      {
+        "name": "downs.1.0",
+        "input_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "weights": 200,
+        "biases": 8,
+        "MAC": 51200
+      },
+      {
+        "name": "downs.1.2",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "weights": 64,
+        "biases": 8,
+        "MAC": 16384
+      },
+      {
+        "name": "downs.2.0",
+        "input_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "weights": 200,
+        "biases": 8,
+        "MAC": 12800
+      },
+      {
+        "name": "downs.2.2",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "weights": 64,
+        "biases": 8,
+        "MAC": 4096
+      },
+      {
+        "name": "context.0",
+        "input_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "output_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "weights": 200,
+        "biases": 8,
+        "MAC": 12800
+      },
+      {
+        "name": "fuse",
+        "input_shape": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "weights": 48,
+        "biases": 4,
+        "MAC": 196608
+      },
+      {
+        "name": "head",
+        "input_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          6,
+          64,
+          64
+        ],
+        "weights": 24,
+        "biases": 6,
+        "MAC": 98304
+      }
+    ],
+    "largest_single_activation_U7_bytes": 16384,
+    "naive_six_head_maps_bytes": 24576,
+    "planned_one_head_decode_map_bytes": 4096,
+    "shared_two_arena_bytes": 32768,
+    "source_row_cache_bytes": 640,
+    "no_new_full_RAW_ROI_snapshot": true,
+    "all_arrays_and_code_link_fit_pending": true,
+    "quant_contract": "InputU8-128/Sin1/128, W8/S32bias, signedshiftRNE-even, U7ReLU, S8lastlogits1/16, fusedbranchscales foldedintoW"
+  },
+  "unknown_head_gradient_zero": true,
+  "known_invisible_negative_gradient_nonzero": true,
+  "all_unknown_loss_zero": true,
+  "data_or_G_opened": false,
+  "model_code_sha256": "c9d94657e48658b72fe2059ac4816486c28a69af523014d092c82fab96c3d801",
+  "trainer_sha256": "dc5030b0b951660a5133a3ec15f183965c922dfa6a8233d3f7e5ed9df159f9a0"
+}

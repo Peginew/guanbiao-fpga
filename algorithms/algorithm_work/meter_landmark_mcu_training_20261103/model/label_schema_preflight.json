@@ -1,0 +1,44 @@
+{
+  "train": {
+    "N": 177,
+    "active": 157,
+    "coordinate_counts": [
+      141,
+      145,
+      141,
+      144,
+      122,
+      142
+    ],
+    "masked_zero_peak_counts": [
+      15,
+      9,
+      10,
+      12,
+      34,
+      14
+    ],
+    "sha256": "91a95a3b04f3697a260ccc911243bdf68efbeffd27b8b05eab857d6fc7651f38"
+  },
+  "validation": {
+    "N": 59,
+    "active": 58,
+    "coordinate_counts": [
+      51,
+      52,
+      49,
+      54,
+      45,
+      47
+    ],
+    "masked_zero_peak_counts": [
+      4,
+      3,
+      7,
+      4,
+      11,
+      9
+    ],
+    "sha256": "0d015ff8e03c56b8bceab1c27d85240b07fe014cbb0fa1c5fd6c897aa6a5600b"
+  }
+}

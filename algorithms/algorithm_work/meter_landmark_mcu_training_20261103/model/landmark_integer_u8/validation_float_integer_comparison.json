@@ -1,0 +1,58 @@
+{
+  "images": 59,
+  "heads_per_image": 6,
+  "point_displacement_mean": 1.448394019979795,
+  "point_displacement_max": 34.14872889738498,
+  "float_accepted_heads": 209,
+  "integer_accepted_heads": 227,
+  "evidence_acceptance_flips": 34,
+  "peak_absdifference_max": 0.08845782416760439,
+  "margin_absdifference_max": 0.12156353716040151,
+  "by_head": {
+    "outer_psi_5_text_centroid": {
+      "flips": 4,
+      "float_accepted": 16,
+      "integer_accepted": 16,
+      "point_displacement_mean": 0.7339140496898109,
+      "point_displacement_max": 13.668483692836848
+    },
+    "outer_psi_10_text_centroid": {
+      "flips": 5,
+      "float_accepted": 40,
+      "integer_accepted": 45,
+      "point_displacement_mean": 2.57292239915194,
+      "point_displacement_max": 29.59102044316479
+    },
+    "outer_psi_15_text_centroid": {
+      "flips": 7,
+      "float_accepted": 43,
+      "integer_accepted": 42,
+      "point_displacement_mean": 2.4655906632811977,
+      "point_displacement_max": 29.92779922712931
+    },
+    "upper_basketball_logo_centroid": {
+      "flips": 3,
+      "float_accepted": 49,
+      "integer_accepted": 48,
+      "point_displacement_mean": 1.1660167216058506,
+      "point_displacement_max": 31.336579772916853
+    },
+    "middle_soccer_logo_centroid": {
+      "flips": 14,
+      "float_accepted": 16,
+      "integer_accepted": 30,
+      "point_displacement_mean": 0.6966728999716277,
+      "point_displacement_max": 15.412433781922674
+    },
+    "lower_striped_ball_print_centroid": {
+      "flips": 1,
+      "float_accepted": 45,
+      "integer_accepted": 46,
+      "point_displacement_mean": 1.0552473861783436,
+      "point_displacement_max": 34.14872889738498
+    }
+  },
+  "scale_or_threshold_selected_on_G": false,
+  "unit": "ROI pixels, not pressure",
+  "full_readout_evaluated": false
+}

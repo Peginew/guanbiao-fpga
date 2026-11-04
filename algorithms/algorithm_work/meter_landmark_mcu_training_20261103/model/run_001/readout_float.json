@@ -1,0 +1,5606 @@
+{
+  "status": "LEARNED_REFERENCE_PC_DEVELOPMENT_PSI_NOT_BOARD_ACCEPTANCE",
+  "name": "trained_float_landmark",
+  "summary": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 28,
+    "coverage_gauge": 0.5,
+    "valid_reads_with_bounded_both_points": 28,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 0.18458250349221997,
+    "reading_median_abs_error_psi": 0.14172985849481812,
+    "reading_max_abs_error_psi": 0.9338742957081596,
+    "accurate_accepted_within_tolerance": 27,
+    "wrong_accepted_over_tolerance": 1,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 21,
+      "within_0_5_psi": 27,
+      "within_1_0_psi": 28,
+      "bins": {
+        "up_to_0_25": 21,
+        "over_0_25_to_0_5": 6,
+        "over_0_5_to_1_0": 1,
+        "over_1_0": 0
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 8,
+      "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+      "PREDICTION_NOT_PERMITTED": 17,
+      "ROI128_RING_AMBIGUOUS": 5
+    },
+    "by_scene": {
+      "backlight_or_local_reflection": {
+        "images": 8,
+        "gauges": 8,
+        "valid": 5,
+        "MAE_psi": 0.11251823435636225,
+        "within_bands_psi": {
+          "0.25": 5,
+          "0.5": 5,
+          "1.0": 5
+        }
+      },
+      "challenge_with_gauge": {
+        "images": 8,
+        "gauges": 8,
+        "valid": 0,
+        "MAE_psi": null,
+        "within_bands_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        }
+      },
+      "empty_background": {
+        "images": 1,
+        "gauges": 0,
+        "valid": 0,
+        "MAE_psi": null,
+        "within_bands_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        }
+      },
+      "front_dim": {
+        "images": 8,
+        "gauges": 8,
+        "valid": 6,
+        "MAE_psi": 0.17886225152203808,
+        "within_bands_psi": {
+          "0.25": 4,
+          "0.5": 6,
+          "1.0": 6
+        }
+      },
+      "front_large_soft_light": {
+        "images": 8,
+        "gauges": 8,
+        "valid": 6,
+        "MAE_psi": 0.09658908077833346,
+        "within_bands_psi": {
+          "0.25": 6,
+          "0.5": 6,
+          "1.0": 6
+        }
+      },
+      "front_medium_soft_light": {
+        "images": 8,
+        "gauges": 8,
+        "valid": 5,
+        "MAE_psi": 0.1785852678270114,
+        "within_bands_psi": {
+          "0.25": 3,
+          "0.5": 5,
+          "1.0": 5
+        }
+      },
+      "mild_left_view": {
+        "images": 8,
+        "gauges": 8,
+        "valid": 4,
+        "MAE_psi": 0.24830072696770866,
+        "within_bands_psi": {
+          "0.25": 2,
+          "0.5": 4,
+          "1.0": 4
+        }
+      },
+      "mild_right_view": {
+        "images": 8,
+        "gauges": 8,
+        "valid": 2,
+        "MAE_psi": 0.5334408425961135,
+        "within_bands_psi": {
+          "0.25": 1,
+          "0.5": 1,
+          "1.0": 2
+        }
+      },
+      "non_gauge_circular_or_reflective_object": {
+        "images": 2,
+        "gauges": 0,
+        "valid": 0,
+        "MAE_psi": null,
+        "within_bands_psi": {
+          "0.25": 0,
+          "0.5": 0,
+          "1.0": 0
+        }
+      }
+    },
+    "descriptive_correct_output_coverage": {
+      "0.25": {
+        "correct_outputs": 21,
+        "wrong_numeric_outputs": 7,
+        "denominator": 56
+      },
+      "0.5": {
+        "correct_outputs": 27,
+        "wrong_numeric_outputs": 1,
+        "denominator": 56
+      },
+      "1.0": {
+        "correct_outputs": 28,
+        "wrong_numeric_outputs": 0,
+        "denominator": 56
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "G_001",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "19ab126049051dd7df875c1d14ce77035523b6033c19a306cfcef61428a8fcc6",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 296.8233041354189,
+      "print_relative_roll_deg": 6.0,
+      "reference_angle_deg": 290.8233041354189,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 12,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_002",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "7e4d72a183af33380bb8339045f3fbc602204298329be51b4e5245be1f4f7dd9",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 296.676402390115,
+      "print_relative_roll_deg": 3.0,
+      "reference_angle_deg": 293.676402390115,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "outer_psi_10_text_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 12,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_003",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "4056de662956bf9d25e2c415dd4e35fc930fc6af5988c76beaaf247a79ff732a",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 300.1957930419917,
+      "print_relative_roll_deg": 9.0,
+      "reference_angle_deg": 291.1957930419917,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 12,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_004",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "234f6b198f176bfcf7361913765cf0f0f14700bb816bb18429431d23038ed8ca",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 12,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_005",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "fd8b0f10c415a9274dbbed0ef260575a0db373e71835e693fd2c27e32c52b01c",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 303.04331552295656,
+      "print_relative_roll_deg": 10.013078975950691,
+      "reference_angle_deg": 293.03023654700587,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 12,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_006",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "7ae6f16c0f1926d77f16a284e7accd94b4b02538748d25d294d405fc42314c13",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 12,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_007",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "0f79206cf774a05fd5475c591982af3c57c7382618ceeb84a27c97bf6795501e",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 11.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_008",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 11.538430711757414,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "3586f8627ca5adab7449a1781fa5556859a9f75d5a002dad2dd3af9bc88106cd",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 289.977303196434,
+      "print_relative_roll_deg": 7.0,
+      "reference_angle_deg": 282.977303196434,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 11.5,
+      "absolute_error_psi": 0.03843071175741386,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_009",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 11.52088653701274,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "63e0cec605f16e5abd5103b017154b9eac1fb0df9602b764570aa446ea5561e1",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 293.7397136804126,
+      "print_relative_roll_deg": 11.0,
+      "reference_angle_deg": 282.7397136804126,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 11.5,
+      "absolute_error_psi": 0.020886537012739126,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_010",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "b13d4097e2e1ab2cbcae289c294e0f3270fe3337d027f1eac88bb0d2bb9afa8f",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": false,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 11.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_011",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 11.747220267819,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "27cb1eb00873e217db80cb3694192c16b8bf9f457bc92edfadb26aeb2d0f22de",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 294.8048063589891,
+      "print_relative_roll_deg": 9.0,
+      "reference_angle_deg": 285.8048063589891,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 11.5,
+      "absolute_error_psi": 0.24722026781899942,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_012",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "ROI128_RING_AMBIGUOUS",
+      "source_sha256": "dd3c3e49976f6c68286ebaed07370099aeb82419d63ace1a328190ec6d7db0bb",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 286.95368352333264,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 11.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_013",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 10.036098509964734,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "3ec790fdac4b3ad561eaadac0d8631388b9c9052219a9f90538d7597a27d88d5",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 271.63218090246136,
+      "print_relative_roll_deg": 9.0,
+      "reference_angle_deg": 262.63218090246136,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "middle_soccer_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 10,
+      "absolute_error_psi": 0.036098509964734404,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_014",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 10.150452327505569,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "b29d7303c150a154293e5625be7a97b4f16e1ceeb29b732906d89330ab259ca3",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 272.1808013739355,
+      "print_relative_roll_deg": 8.0,
+      "reference_angle_deg": 264.1808013739355,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 10,
+      "absolute_error_psi": 0.15045232750556892,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_015",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 10.002344597633329,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "70ae0253a62d46ca75b3d24010e112aaa07f9b41160ae81736340f9c59bf2d6b",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 274.1750732977232,
+      "print_relative_roll_deg": 12.0,
+      "reference_angle_deg": 262.1750732977232,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 10,
+      "absolute_error_psi": 0.0023445976333285046,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_016",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 9.967060790020536,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "5dc05e7fe30007a5457ac364875a3bb8fdf99fdd0c5261f3ae3bba7947c2e351",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 275.6972473015669,
+      "print_relative_roll_deg": 14.0,
+      "reference_angle_deg": 261.6972473015669,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 10,
+      "absolute_error_psi": 0.03293920997946387,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_017",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 10.293920799154652,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "f6826b9cd95b60c18a60770de9cdcb0af415dafe52c78e39943b8ec565557e15",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 278.2115085044359,
+      "print_relative_roll_deg": 12.087805555504673,
+      "reference_angle_deg": 266.1237029489313,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 10,
+      "absolute_error_psi": 0.29392079915465175,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_018",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 10.133007389484067,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "3725e6a4907b86fb17547ed1f7aa0809367eb9abaa23f1d019d580e50424213f",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 278.9445557572638,
+      "print_relative_roll_deg": 15.0,
+      "reference_angle_deg": 263.9445557572638,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 10,
+      "absolute_error_psi": 0.13300738948406732,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_019",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 8.214626442771795,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "2460f56ae339c42716317997b051e2eec89ebd4b834f68d21a3093be84278d2b",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 242.96515192053891,
+      "print_relative_roll_deg": 5.0,
+      "reference_angle_deg": 237.96515192053891,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "middle_soccer_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 8.5,
+      "absolute_error_psi": 0.2853735572282048,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_020",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 8.32543635864915,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "e2293754a97a916db350d8ec6bbbee4732b82d833f41b9503e63f91ee68cf954",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 242.99106664448135,
+      "print_relative_roll_deg": 3.525287041716439,
+      "reference_angle_deg": 239.4657796027649,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 8.5,
+      "absolute_error_psi": 0.17456364135085067,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_021",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 8.379071608406385,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "6621b34abf73f3bbde261d82b000ec33b50166b594ff49efc42ffb7833435bc3",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 250.19212742002966,
+      "print_relative_roll_deg": 10.0,
+      "reference_angle_deg": 240.19212742002966,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 8.5,
+      "absolute_error_psi": 0.12092839159361546,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_022",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 8.370082040788201,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "002625b00ba4a1d2ce309d8054cd07e5fdeb0b93376a8e1310d458ba665bbcdb",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 254.07038746641382,
+      "print_relative_roll_deg": 14.0,
+      "reference_angle_deg": 240.07038746641382,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 8.5,
+      "absolute_error_psi": 0.12991795921179872,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_023",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "e584988e273d0787952328d4f29613d0dbe054dd7e6b125cee028feb84ce445b",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": false,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 8.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_024",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE",
+      "source_sha256": "0e1d7c00c82f8dc22d780443b14dca23170965420aefa0991ec3f9b0b9123f13",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 258.08804589498493,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 8.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_025",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 6.812037698816571,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "da33a38966de8555098d93bbbc8434d657b87876be71b9998b5fe4e6464031c0",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 229.97079135909476,
+      "print_relative_roll_deg": 11.0,
+      "reference_angle_deg": 218.97079135909476,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 7,
+      "absolute_error_psi": 0.18796230118342905,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_026",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 6.905914089460563,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "705bd770456a402f2d57ee64290584e4e6d52950f56bf38c36957b05374049c7",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 232.24209916031856,
+      "print_relative_roll_deg": 12.0,
+      "reference_angle_deg": 220.24209916031856,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 7,
+      "absolute_error_psi": 0.09408591053943738,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_027",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 7.185677811522812,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "37f4589c0c84a3e4c794108283b701627aa7e11ac44e8afd43ddf3631438709d",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 235.19958625909356,
+      "print_relative_roll_deg": 11.16882628728365,
+      "reference_angle_deg": 224.0307599718099,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 7,
+      "absolute_error_psi": 0.1856778115228117,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_028",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 6.8838514576050756,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "78247233be816bef621d9c59f181c6b1d77d4038fd2e9de124553b97a93f0416",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 231.94331907513424,
+      "print_relative_roll_deg": 12.0,
+      "reference_angle_deg": 219.94331907513424,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 7,
+      "absolute_error_psi": 0.11614854239492445,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_029",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 7.275791979853807,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "9ab426007ded4e5b377405d83470efdbfb100193c0e502ea4bb57ec6644b0fee",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 230.251118407132,
+      "print_relative_roll_deg": 5.0,
+      "reference_angle_deg": 225.251118407132,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "middle_soccer_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 7,
+      "absolute_error_psi": 0.2757919798538069,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_030",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "1d8fd4fdd3ef8636a2b9c12aaafbe11b019cfc857a8908a672fda332f7f31211",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 7,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_031",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 5.200114437375875,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "0b12acb9e9335c2f89be350cd713e9a3ebe9be72e41f5ca87097a08ed978e974",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 205.1415475717505,
+      "print_relative_roll_deg": 8.0,
+      "reference_angle_deg": 197.1415475717505,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "middle_soccer_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 5.5,
+      "absolute_error_psi": 0.2998855626241248,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_032",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 5.451159199639974,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "2dcdedbc39e3e55f75ca2620a66af66123870b9b12bf477e1af9ff672c1da212",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 208.9000856920172,
+      "print_relative_roll_deg": 8.35879977782173,
+      "reference_angle_deg": 200.54128591419547,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 5.5,
+      "absolute_error_psi": 0.04884080036002558,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_033",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "296fd47e58b8a7aac21ab1d90ec76aaa7104fb6df103e8656603a0bf54cd4948",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 5.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_034",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 5.450380361188239,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "40210ddf1cbab63f9beafc74650d502ae2f5b512efb95be8315fa24406dc52fe",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 211.69674762470828,
+      "print_relative_roll_deg": 11.166009020574364,
+      "reference_angle_deg": 200.53073860413392,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 5.5,
+      "absolute_error_psi": 0.04961963881176068,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_035",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "bfda3139b88b394ae5b5145f921df8884bfdd2e389696b3cff58aa41aede866a",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 5.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_036",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "ROI128_RING_AMBIGUOUS",
+      "source_sha256": "a61d0c4d0c9405073264e6b99488c1d32e4b00da37a8ea23cc946ecb9281272a",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 212.83844692884887,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 5.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_037",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 3.916393591865436,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "2f10fbbd6615a1ce6f0d4304c3665fa4ea952f3a0587fd16b6dac031f279bd9d",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 185.75693878677822,
+      "print_relative_roll_deg": 6.0,
+      "reference_angle_deg": 179.75693878677822,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 4,
+      "absolute_error_psi": 0.08360640813456399,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_038",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 4.073161093156704,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "a0ba4d5558222f187a5e94ca715088d1f97a8d4a6dc89df68103e5ae5adf6af1",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 185.8799405980191,
+      "print_relative_roll_deg": 4.0,
+      "reference_angle_deg": 181.8799405980191,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 4,
+      "absolute_error_psi": 0.07316109315670438,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_039",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 4.285465784211532,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "6aac7274008a8af7ce6a1af76510756e4b3235040e8a98c10a5da95c347aa730",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 191.75504698124138,
+      "print_relative_roll_deg": 7.0,
+      "reference_angle_deg": 184.75504698124138,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 4,
+      "absolute_error_psi": 0.28546578421153157,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_040",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 4.233965821383864,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "efde643e1c09a9b55e255a34b2b5c229811c2be24929332a45249d8a387fe755",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 193.05761598654283,
+      "print_relative_roll_deg": 9.0,
+      "reference_angle_deg": 184.05761598654283,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 4,
+      "absolute_error_psi": 0.23396582138386357,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_041",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 3.8237301389566234,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "69d57539d7fa8bc482854cf5d5199be5e6f5867ca977cf5eb3b5b3652b0cb0c5",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 186.24016256216171,
+      "print_relative_roll_deg": 7.738105538126774,
+      "reference_angle_deg": 178.50205702403494,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 4,
+      "absolute_error_psi": 0.1762698610433766,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_042",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 4.93387429570816,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "0a3dadaa0f89120733b1d39397b45d06938d0a7d0e9ae0c3f29f09a258a7610f",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 199.93010549994838,
+      "print_relative_roll_deg": 6.394077556500292,
+      "reference_angle_deg": 193.5360279434481,
+      "reference_route": "NEW_REDUNDANT_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 4,
+      "absolute_error_psi": 0.9338742957081596,
+      "error_over_tolerance_psi": true
+    },
+    {
+      "id": "G_043",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "45e395b5255d28a4f3ed22ddf9110dfcd9d472a28a0cfad8163dbec806dad738",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 176.10592565604037,
+      "print_relative_roll_deg": 12.0,
+      "reference_angle_deg": 164.10592565604037,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "middle_soccer_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_044",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "ROI128_RING_AMBIGUOUS",
+      "source_sha256": "dea2b60677d522bd188e01c474c5818060b6f93039d43d2c7198b7aa85f85d4b",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 180.22948769314172,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_045",
+      "model_name": "polar_angle_v1",
+      "valid": true,
+      "unit": "psi",
+      "psi_estimate": 2.957870387158202,
+      "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+      "source_sha256": "2dbfd4645a2b79ccf02cb5eb3734e0a42303d7131e7e8f32c460282a0991a507",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 178.77627326013302,
+      "print_relative_roll_deg": 12.0,
+      "reference_angle_deg": 166.77627326013302,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": 0.45787038715820216,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_046",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "265a34dde22630c6885c38c078fd813b594514abfa82e48e8c088031ace51bde",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 170.01323859816588,
+      "print_relative_roll_deg": 6.0,
+      "reference_angle_deg": 164.01323859816588,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "middle_soccer_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_047",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "ef577babaffba508dcdcfa7a5d812c468db98603dd76564b51d35ff47b8ba5fe",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 165.77428901454635,
+      "print_relative_roll_deg": 5.0,
+      "reference_angle_deg": 160.77428901454635,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_10_text_centroid",
+        "outer_psi_15_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_048",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "ROI128_RING_AMBIGUOUS",
+      "source_sha256": "850cec5b89eee6fb2d7ec6b30585c61b3eddf894e5c78921bfe206dbc7f4cbfa",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 170.95236017539622,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_049",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "6a0e99006122dea3d89fe40bb54f052a187fd2f93d107018bae424f6482e7438",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": false,
+      "psi_reference_for_scoring": null,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_050",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "abdd5bea76cde9941a57b33d5b122a30f3bb1cfe2121bae92c8f2b6c024c987f",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": false,
+      "psi_reference_for_scoring": null,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_051",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "34846cbc306b4334882bce4cd821d97630faab291bcf9cd77be899fbb7cd0ff3",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": false,
+      "psi_reference_for_scoring": null,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_052",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "ROI128_RING_AMBIGUOUS",
+      "source_sha256": "9bdfb5492036ee8d11883dcc76ac8d04d0fa5c7d61bdcb7d8c873af1075791fa",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 191.0622303130679,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": true,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_053",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "a3628e60552adf773f21841e98dc265cba2fac01889b1d63bb2cd2ad41aec8bd",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_054",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "16659051de9332bd87066269098a9a37feba97b4d01d259d3d1f074c1199b800",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_055",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "5dee84169295c9f21d980bcfae47e7d8aa7273ee4f00f22e6717c42bcbbac577",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_056",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "fc7fa78212cff0754f9e74a0b5cba2b6c83e4ca5947c56a36a0e7a5951eb3f3b",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "NO_ACCEPTED_REFERENCE",
+      "old_reference_accepted": false,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_RING_AMBIGUOUS",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_057",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "9e9946afe09bfd0063cf0cde5a52c1ccf97808122d65a15f426eb2fe3d65ed33",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": false,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_058",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+      "source_sha256": "118de3907619ac1da493d4d6c0841c80f4112a00a822e464887d976dd3c3c88f",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "angle_deg_image": 173.8623576162019,
+      "print_relative_roll_deg": 13.0,
+      "reference_angle_deg": 160.8623576162019,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": true,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+      "old_model_permitted": true,
+      "new_reference_identities": [
+        "outer_psi_5_text_centroid",
+        "outer_psi_10_text_centroid",
+        "upper_basketball_logo_centroid",
+        "lower_striped_ball_print_centroid"
+      ],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    },
+    {
+      "id": "G_059",
+      "model_name": "polar_angle_v1",
+      "valid": false,
+      "unit": "psi",
+      "psi_estimate": null,
+      "reason": "PREDICTION_NOT_PERMITTED",
+      "source_sha256": "51176451fcf00b1f6e4930084da67cea8453f1d5a8dab56e13a07237f089ee7c",
+      "pose_source": "STATIC_PRINT_PIXELS_AND_BBOX_NO_QUERY_GT_POINTS",
+      "calibrated_pressure_is_PC_only": true,
+      "reference_route": "OLD_REFERENCE_PRESERVED",
+      "old_reference_accepted": true,
+      "new_reference_accepted": false,
+      "old_reference_reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+      "new_reference_reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+      "old_model_permitted": false,
+      "new_reference_identities": [],
+      "target_present_for_scoring": true,
+      "psi_reference_for_scoring": 2.5,
+      "absolute_error_psi": null,
+      "error_over_tolerance_psi": false
+    }
+  ],
+  "routing": [
+    {
+      "id": "G_001",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_001",
+        "split": "validation",
+        "source_sha256": "19ab126049051dd7df875c1d14ce77035523b6033c19a306cfcef61428a8fcc6",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 6.0,
+        "score": 0.8436603385615914,
+        "margin": 0.037442616679418506,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_001",
+        "source_sha256": "19ab126049051dd7df875c1d14ce77035523b6033c19a306cfcef61428a8fcc6",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 4,
+        "RMS": 1.3406750464084787,
+        "rotation_deg": 7.615463803440426,
+        "relative_roll_deg": 5.2320133070758175,
+        "scale": 1.0284327477455262,
+        "center_displacement": 0.5435067658448635,
+        "baseline": 56.39229437241208,
+        "matrix": [
+          [
+            1.0193617743836811,
+            -0.13629192771681692,
+            7.889952535721136
+          ],
+          [
+            0.13629192771681692,
+            1.0193617743836811,
+            -9.600976607940105
+          ]
+        ],
+        "residuals": [
+          1.3475645161041125,
+          0.210516798238425,
+          2.1548014282194026,
+          0.8283849816297127
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 1,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_002",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_002",
+        "split": "validation",
+        "source_sha256": "7e4d72a183af33380bb8339045f3fbc602204298329be51b4e5245be1f4f7dd9",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 3.0,
+        "score": 0.859674072265625,
+        "margin": 0.03600463867187498,
+        "reference_id": "E_002",
+        "dx": 0,
+        "dy": 1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_002",
+        "source_sha256": "7e4d72a183af33380bb8339045f3fbc602204298329be51b4e5245be1f4f7dd9",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          5
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.4011190484173987,
+        "rotation_deg": 5.8427955759742165,
+        "relative_roll_deg": 3.4593450796096192,
+        "scale": 1.03088670401434,
+        "center_displacement": 0.9859143242694763,
+        "baseline": 55.88548661991289,
+        "matrix": [
+          [
+            1.0255311960141065,
+            -0.10494361588694018,
+            5.743293792733752
+          ],
+          [
+            0.10494361588694018,
+            1.0255311960141065,
+            -9.081988721090752
+          ]
+        ],
+        "residuals": [
+          0.4697594954848028,
+          0.38056452544683983,
+          11.885562512683284,
+          3.077691071380293,
+          12.309152254254755,
+          0.3423245994419967
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_003",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_003",
+        "split": "validation",
+        "source_sha256": "4056de662956bf9d25e2c415dd4e35fc930fc6af5988c76beaaf247a79ff732a",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 9.0,
+        "score": 0.8331400631216527,
+        "margin": 0.041716478576893645,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_003",
+        "source_sha256": "4056de662956bf9d25e2c415dd4e35fc930fc6af5988c76beaaf247a79ff732a",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "upper_basketball_logo_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_004",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_004",
+        "split": "validation",
+        "source_sha256": "234f6b198f176bfcf7361913765cf0f0f14700bb816bb18429431d23038ed8ca",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE"
+      },
+      "new_pose": {
+        "id": "G_004",
+        "source_sha256": "234f6b198f176bfcf7361913765cf0f0f14700bb816bb18429431d23038ed8ca",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_005",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_005",
+        "split": "validation",
+        "source_sha256": "fd8b0f10c415a9274dbbed0ef260575a0db373e71835e693fd2c27e32c52b01c",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 11.0,
+        "score": 0.8160745026778883,
+        "margin": 0.013419473381013236,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_005",
+        "source_sha256": "fd8b0f10c415a9274dbbed0ef260575a0db373e71835e693fd2c27e32c52b01c",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 4,
+        "RMS": 0.9626327855006234,
+        "rotation_deg": 12.396529472315308,
+        "relative_roll_deg": 10.013078975950691,
+        "scale": 1.030807595637615,
+        "center_displacement": 2.3721303100161406,
+        "baseline": 56.94567058597716,
+        "matrix": [
+          [
+            1.0067746087995464,
+            -0.2212898242141312,
+            11.658356599665844
+          ],
+          [
+            0.2212898242141312,
+            1.0067746087995464,
+            -15.75351157921311
+          ]
+        ],
+        "residuals": [
+          1.0432910236697004,
+          1.3180916745977316,
+          0.5873689106937829,
+          0.7319996304094232
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 1,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_006",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_006",
+        "split": "validation",
+        "source_sha256": "7ae6f16c0f1926d77f16a284e7accd94b4b02538748d25d294d405fc42314c13",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 10.0,
+        "score": 0.80302734375,
+        "margin": 0.0048253544615530775,
+        "reference_id": "E_002",
+        "dx": 1.5,
+        "dy": -1.5,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_006",
+        "source_sha256": "7ae6f16c0f1926d77f16a284e7accd94b4b02538748d25d294d405fc42314c13",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_007",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_007",
+        "split": "validation",
+        "source_sha256": "0f79206cf774a05fd5475c591982af3c57c7382618ceeb84a27c97bf6795501e",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 8.0,
+        "score": 0.8331938599846977,
+        "margin": 0.03366993420344777,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_007",
+        "source_sha256": "0f79206cf774a05fd5475c591982af3c57c7382618ceeb84a27c97bf6795501e",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_008",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_008",
+        "split": "validation",
+        "source_sha256": "3586f8627ca5adab7449a1781fa5556859a9f75d5a002dad2dd3af9bc88106cd",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 7.0,
+        "score": 0.8561950076511095,
+        "margin": 0.03865603481254787,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_008",
+        "source_sha256": "3586f8627ca5adab7449a1781fa5556859a9f75d5a002dad2dd3af9bc88106cd",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 5,
+        "RMS": 0.4414407427154366,
+        "rotation_deg": 8.990048706019278,
+        "relative_roll_deg": 6.606598209654663,
+        "scale": 1.0333432862534278,
+        "center_displacement": 0.6854207165417073,
+        "baseline": 67.1085452804706,
+        "matrix": [
+          [
+            1.0206491761901728,
+            -0.16147323737187852,
+            9.659049382344762
+          ],
+          [
+            0.16147323737187852,
+            1.0206491761901728,
+            -11.884057236113193
+          ]
+        ],
+        "residuals": [
+          0.4862986925548239,
+          0.30440209130029433,
+          0.2774734410233362,
+          0.4875662732466303,
+          0.574882782657751
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_009",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_009",
+        "split": "validation",
+        "source_sha256": "63e0cec605f16e5abd5103b017154b9eac1fb0df9602b764570aa446ea5561e1",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 11.0,
+        "score": 0.8493687834736037,
+        "margin": 0.050240292654935015,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_009",
+        "source_sha256": "63e0cec605f16e5abd5103b017154b9eac1fb0df9602b764570aa446ea5561e1",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 3,
+        "RMS": 1.0177461884278742,
+        "rotation_deg": 13.059391931613161,
+        "relative_roll_deg": 10.675941435248546,
+        "scale": 1.0089697454858133,
+        "center_displacement": 0.7692908443215964,
+        "baseline": 54.99145161092001,
+        "matrix": [
+          [
+            0.9828741157313642,
+            -0.22798776267816606,
+            15.306077978930873
+          ],
+          [
+            0.22798776267816606,
+            0.9828741157313642,
+            -14.163365613735543
+          ]
+        ],
+        "residuals": [
+          0.8090727060157421,
+          1.4350546110713194,
+          0.627249178398591
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_010",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_010",
+        "split": "validation",
+        "source_sha256": "b13d4097e2e1ab2cbcae289c294e0f3270fe3337d027f1eac88bb0d2bb9afa8f",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 13.0,
+        "score": 0.837939453125,
+        "margin": 0.03610839843749991,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": 1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_010",
+        "source_sha256": "b13d4097e2e1ab2cbcae289c294e0f3270fe3337d027f1eac88bb0d2bb9afa8f",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 4,
+        "RMS": 0.4917051636033732,
+        "rotation_deg": 15.996454225665458,
+        "relative_roll_deg": 13.613003729300857,
+        "scale": 1.0203649322418564,
+        "center_displacement": 0.9019299069005119,
+        "baseline": 55.548263756914785,
+        "matrix": [
+          [
+            0.9808551286864555,
+            -0.2811899917820781,
+            18.331390982055467
+          ],
+          [
+            0.2811899917820781,
+            0.9808551286864555,
+            -16.916853115293087
+          ]
+        ],
+        "residuals": [
+          0.2465736986702304,
+          0.26001740658692324,
+          0.7931277702757457,
+          0.4578608643138187
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_011",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_011",
+        "split": "validation",
+        "source_sha256": "27cb1eb00873e217db80cb3694192c16b8bf9f457bc92edfadb26aeb2d0f22de",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 9.0,
+        "score": 0.82061767578125,
+        "margin": 0.02032470703125,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_011",
+        "source_sha256": "27cb1eb00873e217db80cb3694192c16b8bf9f457bc92edfadb26aeb2d0f22de",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_012",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_012",
+        "split": "validation",
+        "source_sha256": "dd3c3e49976f6c68286ebaed07370099aeb82419d63ace1a328190ec6d7db0bb",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 6.0,
+        "score": 0.808709716796875,
+        "margin": 0.006718037378359298,
+        "reference_id": "E_002",
+        "dx": 1.5,
+        "dy": -1.5,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_012",
+        "source_sha256": "dd3c3e49976f6c68286ebaed07370099aeb82419d63ace1a328190ec6d7db0bb",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_013",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_013",
+        "split": "validation",
+        "source_sha256": "3ec790fdac4b3ad561eaadac0d8631388b9c9052219a9f90538d7597a27d88d5",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 9.0,
+        "score": 0.834344482421875,
+        "margin": 0.028570556640625022,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_013",
+        "source_sha256": "3ec790fdac4b3ad561eaadac0d8631388b9c9052219a9f90538d7597a27d88d5",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 5,
+        "RMS": 0.4662378227086882,
+        "rotation_deg": 12.443340287394657,
+        "relative_roll_deg": 10.05988979103006,
+        "scale": 1.0103988140697981,
+        "center_displacement": 1.8926557253905776,
+        "baseline": 54.79164808424999,
+        "matrix": [
+          [
+            0.9866641079528237,
+            -0.21771472515958404,
+            14.27557887347924
+          ],
+          [
+            0.21771472515958404,
+            0.9866641079528237,
+            -14.902427828401308
+          ]
+        ],
+        "residuals": [
+          0.44410640627280884,
+          0.5448929739839957,
+          0.447716180935731,
+          0.43297315677154585,
+          0.4525860694659352
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_014",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_014",
+        "split": "validation",
+        "source_sha256": "b29d7303c150a154293e5625be7a97b4f16e1ceeb29b732906d89330ab259ca3",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 8.0,
+        "score": 0.8529052734375,
+        "margin": 0.035327148437499956,
+        "reference_id": "E_002",
+        "dx": 0,
+        "dy": 1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_014",
+        "source_sha256": "b29d7303c150a154293e5625be7a97b4f16e1ceeb29b732906d89330ab259ca3",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "middle_soccer_logo_centroid"
+        ],
+        "inlier_count": 5,
+        "RMS": 0.7239677529376098,
+        "rotation_deg": 10.623714947902377,
+        "relative_roll_deg": 8.240264451537769,
+        "scale": 1.0013610556813406,
+        "center_displacement": 1.245257203248626,
+        "baseline": 64.90381375920039,
+        "matrix": [
+          [
+            0.9841968527680462,
+            -0.18460909738342154,
+            14.057425965401698
+          ],
+          [
+            0.18460909738342154,
+            0.9841968527680462,
+            -10.991198328036305
+          ]
+        ],
+        "residuals": [
+          0.5786792304524071,
+          0.8588645149774491,
+          0.9795017599186799,
+          0.4635713422228986,
+          4.327057983474159,
+          0.6113972052676478
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_015",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_015",
+        "split": "validation",
+        "source_sha256": "70ae0253a62d46ca75b3d24010e112aaa07f9b41160ae81736340f9c59bf2d6b",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.8348854724560061,
+        "margin": 0.03782517214996173,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_015",
+        "source_sha256": "70ae0253a62d46ca75b3d24010e112aaa07f9b41160ae81736340f9c59bf2d6b",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_016",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_016",
+        "split": "validation",
+        "source_sha256": "5dc05e7fe30007a5457ac364875a3bb8fdf99fdd0c5261f3ae3bba7947c2e351",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 14.0,
+        "score": 0.8604449598316756,
+        "margin": 0.04756654186292553,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_016",
+        "source_sha256": "5dc05e7fe30007a5457ac364875a3bb8fdf99fdd0c5261f3ae3bba7947c2e351",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 3,
+        "RMS": 0.08233161892379633,
+        "rotation_deg": 15.885140447032034,
+        "relative_roll_deg": 13.50168995066744,
+        "scale": 0.9977864593029958,
+        "center_displacement": 2.217387753747325,
+        "baseline": 54.40366847849875,
+        "matrix": [
+          [
+            0.9596833172830211,
+            -0.27310391593139993,
+            19.168080766275907
+          ],
+          [
+            0.27310391593139993,
+            0.9596833172830211,
+            -16.928953514235225
+          ]
+        ],
+        "residuals": [
+          0.06545076412051942,
+          0.11609021062122482,
+          0.05074196387408989
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_017",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_017",
+        "split": "validation",
+        "source_sha256": "f6826b9cd95b60c18a60770de9cdcb0af415dafe52c78e39943b8ec565557e15",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 14.0,
+        "score": 0.8033007364192808,
+        "margin": 0.010270951263030792,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_017",
+        "source_sha256": "f6826b9cd95b60c18a60770de9cdcb0af415dafe52c78e39943b8ec565557e15",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid"
+        ],
+        "outlier_identities": [
+          "lower_striped_ball_print_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.8915847611251407,
+        "rotation_deg": 14.47125605186927,
+        "relative_roll_deg": 12.087805555504673,
+        "scale": 0.9787609914837924,
+        "center_displacement": 2.851270509035666,
+        "baseline": 37.7970487028626,
+        "matrix": [
+          [
+            0.9477079670960199,
+            -0.24458676896566917,
+            17.4562884214971
+          ],
+          [
+            0.24458676896566917,
+            0.9477079670960199,
+            -14.703933567518042
+          ]
+        ],
+        "residuals": [
+          0.8790503550103143,
+          0.6612810874143481,
+          1.0838579037844678,
+          11.62443544007812
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_018",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_018",
+        "split": "validation",
+        "source_sha256": "3725e6a4907b86fb17547ed1f7aa0809367eb9abaa23f1d019d580e50424213f",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 15.0,
+        "score": 0.8306056331293037,
+        "margin": 0.023060921958683922,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": 1.5,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_018",
+        "source_sha256": "3725e6a4907b86fb17547ed1f7aa0809367eb9abaa23f1d019d580e50424213f",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_019",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_019",
+        "split": "validation",
+        "source_sha256": "2460f56ae339c42716317997b051e2eec89ebd4b834f68d21a3093be84278d2b",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 5.0,
+        "score": 0.8486574693955624,
+        "margin": 0.034784178379937414,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_019",
+        "source_sha256": "2460f56ae339c42716317997b051e2eec89ebd4b834f68d21a3093be84278d2b",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 5,
+        "RMS": 0.7374547872385214,
+        "rotation_deg": 5.966651968273482,
+        "relative_roll_deg": 3.583201471908893,
+        "scale": 1.0191326354644181,
+        "center_displacement": 0.21215794490670892,
+        "baseline": 55.492438374719,
+        "matrix": [
+          [
+            1.0136115515947124,
+            -0.10593843090404165,
+            5.76200713758557
+          ],
+          [
+            0.10593843090404165,
+            1.0136115515947124,
+            -7.498138357877885
+          ]
+        ],
+        "residuals": [
+          0.6028407012030934,
+          0.1866642526680004,
+          1.2193460243424323,
+          0.6766010394235655,
+          0.6134685552048926
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_020",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_020",
+        "split": "validation",
+        "source_sha256": "e2293754a97a916db350d8ec6bbbee4732b82d833f41b9503e63f91ee68cf954",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 1.0,
+        "score": 0.8248912107880643,
+        "margin": 0.01203720688181431,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_020",
+        "source_sha256": "e2293754a97a916db350d8ec6bbbee4732b82d833f41b9503e63f91ee68cf954",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "middle_soccer_logo_centroid"
+        ],
+        "inlier_count": 4,
+        "RMS": 0.22059570673182485,
+        "rotation_deg": 5.908737538081055,
+        "relative_roll_deg": 3.525287041716439,
+        "scale": 1.0372026280851356,
+        "center_displacement": 3.4574711271462824,
+        "baseline": 67.146980211391,
+        "matrix": [
+          [
+            1.0316921051630026,
+            -0.10677402236051703,
+            3.443859826418411
+          ],
+          [
+            0.10677402236051703,
+            1.0316921051630026,
+            -12.039998813023672
+          ]
+        ],
+        "residuals": [
+          0.04938518768143083,
+          0.2626783113614978,
+          0.2849767826948257,
+          4.157856902965022,
+          0.2049373187511272
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_021",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_021",
+        "split": "validation",
+        "source_sha256": "6621b34abf73f3bbde261d82b000ec33b50166b594ff49efc42ffb7833435bc3",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 10.0,
+        "score": 0.8309164594491201,
+        "margin": 0.02584640397857685,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_021",
+        "source_sha256": "6621b34abf73f3bbde261d82b000ec33b50166b594ff49efc42ffb7833435bc3",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_022",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_022",
+        "split": "validation",
+        "source_sha256": "002625b00ba4a1d2ce309d8054cd07e5fdeb0b93376a8e1310d458ba665bbcdb",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 14.0,
+        "score": 0.852692234123948,
+        "margin": 0.046552097405198056,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_022",
+        "source_sha256": "002625b00ba4a1d2ce309d8054cd07e5fdeb0b93376a8e1310d458ba665bbcdb",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 4,
+        "RMS": 0.6094581280554663,
+        "rotation_deg": 16.50574199750908,
+        "relative_roll_deg": 14.122291501144474,
+        "scale": 1.0345736738619602,
+        "center_displacement": 2.6076139392739193,
+        "baseline": 56.278635821050415,
+        "matrix": [
+          [
+            0.9919402035204824,
+            -0.293934209114859,
+            17.726993031747085
+          ],
+          [
+            0.293934209114859,
+            0.9919402035204824,
+            -20.354519044662503
+          ]
+        ],
+        "residuals": [
+          0.3994585152340103,
+          0.20653038432435952,
+          1.012242718267115,
+          0.5088217897108647
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_023",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_023",
+        "split": "validation",
+        "source_sha256": "e584988e273d0787952328d4f29613d0dbe054dd7e6b125cee028feb84ce445b",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 7.0,
+        "score": 0.8081723412394797,
+        "margin": 0.01380786151491964,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_023",
+        "source_sha256": "e584988e273d0787952328d4f29613d0dbe054dd7e6b125cee028feb84ce445b",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 4,
+        "RMS": 0.46408672383288596,
+        "rotation_deg": 8.552004046382146,
+        "relative_roll_deg": 6.168553550017549,
+        "scale": 1.016880828454132,
+        "center_displacement": 2.6623548348562642,
+        "baseline": 55.6398844053744,
+        "matrix": [
+          [
+            1.005574433545916,
+            -0.1512173200277393,
+            7.495626007517714
+          ],
+          [
+            0.1512173200277393,
+            1.005574433545916,
+            -11.972613054149598
+          ]
+        ],
+        "residuals": [
+          0.5902243212997934,
+          0.5685599598699318,
+          0.1866045579327423,
+          0.3937759648447211
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_024",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_024",
+        "split": "validation",
+        "source_sha256": "0e1d7c00c82f8dc22d780443b14dca23170965420aefa0991ec3f9b0b9123f13",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE"
+      },
+      "new_pose": {
+        "id": "G_024",
+        "source_sha256": "0e1d7c00c82f8dc22d780443b14dca23170965420aefa0991ec3f9b0b9123f13",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_025",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_025",
+        "split": "validation",
+        "source_sha256": "da33a38966de8555098d93bbbc8434d657b87876be71b9998b5fe4e6464031c0",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 11.0,
+        "score": 0.8489204762815609,
+        "margin": 0.04485553487531091,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_025",
+        "source_sha256": "da33a38966de8555098d93bbbc8434d657b87876be71b9998b5fe4e6464031c0",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          2,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_15_text_centroid",
+          "middle_soccer_logo_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.5393630636416605,
+        "rotation_deg": 12.469479004410832,
+        "relative_roll_deg": 10.08602850804624,
+        "scale": 1.0254149401602786,
+        "center_displacement": 1.0667510473372146,
+        "baseline": 55.968291170656485,
+        "matrix": [
+          [
+            1.0012265955291448,
+            -0.22140709995170826,
+            13.778332808022519
+          ],
+          [
+            0.22140709995170826,
+            1.0012265955291448,
+            -15.268287532888891
+          ]
+        ],
+        "residuals": [
+          0.42877481476947393,
+          17.999932714763638,
+          0.7605191356365016,
+          3.022805975599873,
+          0.33241592292317435
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 1,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_026",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_026",
+        "split": "validation",
+        "source_sha256": "705bd770456a402f2d57ee64290584e4e6d52950f56bf38c36957b05374049c7",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.866986083984375,
+        "margin": 0.05387638620319679,
+        "reference_id": "E_002",
+        "dx": 0,
+        "dy": 1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_026",
+        "source_sha256": "705bd770456a402f2d57ee64290584e4e6d52950f56bf38c36957b05374049c7",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 3,
+        "RMS": 0.3054415563495021,
+        "rotation_deg": 13.701942947027279,
+        "relative_roll_deg": 11.318492450662688,
+        "scale": 1.0443419657962398,
+        "center_displacement": 1.2821539956179837,
+        "baseline": 56.97878619172172,
+        "matrix": [
+          [
+            1.014621129759141,
+            -0.24737442181729044,
+            16.087700318593193
+          ],
+          [
+            0.24737442181729044,
+            1.014621129759141,
+            -16.294142352406936
+          ]
+        ],
+        "residuals": [
+          0.2428153790554465,
+          0.43068234382605786,
+          0.18824729333053178
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_027",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_027",
+        "split": "validation",
+        "source_sha256": "37f4589c0c84a3e4c794108283b701627aa7e11ac44e8afd43ddf3631438709d",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 8.0,
+        "score": 0.8047711840091814,
+        "margin": 0.0056546480489670925,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_027",
+        "source_sha256": "37f4589c0c84a3e4c794108283b701627aa7e11ac44e8afd43ddf3631438709d",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "upper_basketball_logo_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.4833677964333315,
+        "rotation_deg": 13.552276783648251,
+        "relative_roll_deg": 11.16882628728365,
+        "scale": 1.0169935706711852,
+        "center_displacement": 4.393112230578159,
+        "baseline": 55.56722368152331,
+        "matrix": [
+          [
+            0.9886769301936056,
+            -0.23831460402055799,
+            15.241694305161182
+          ],
+          [
+            0.23831460402055799,
+            0.9886769301936056,
+            -18.85862873954121
+          ]
+        ],
+        "residuals": [
+          0.47774519259575254,
+          0.5589029244723805,
+          11.06661329664811,
+          0.40040021460322867
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_028",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_028",
+        "split": "validation",
+        "source_sha256": "78247233be816bef621d9c59f181c6b1d77d4038fd2e9de124553b97a93f0416",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.8566791794185157,
+        "margin": 0.06223101568477429,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": 1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_028",
+        "source_sha256": "78247233be816bef621d9c59f181c6b1d77d4038fd2e9de124553b97a93f0416",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 4,
+        "RMS": 0.43699021841367214,
+        "rotation_deg": 13.17390155524244,
+        "relative_roll_deg": 10.790451058877835,
+        "scale": 1.0206486708329505,
+        "center_displacement": 1.090681075097314,
+        "baseline": 55.46046875398524,
+        "matrix": [
+          [
+            0.9937880725303823,
+            -0.23261336197522323,
+            16.11230084820965
+          ],
+          [
+            0.23261336197522323,
+            0.9937880725303823,
+            -13.779158057243741
+          ]
+        ],
+        "residuals": [
+          0.5178669384515131,
+          0.2656676192264339,
+          0.5453663316508753,
+          0.3572840864242323
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_029",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_029",
+        "split": "validation",
+        "source_sha256": "9ab426007ded4e5b377405d83470efdbfb100193c0e502ea4bb57ec6644b0fee",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 5.0,
+        "score": 0.8217112184391737,
+        "margin": 0.02933722264728389,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_029",
+        "source_sha256": "9ab426007ded4e5b377405d83470efdbfb100193c0e502ea4bb57ec6644b0fee",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 5,
+        "RMS": 0.640655527673307,
+        "rotation_deg": 8.990580049908257,
+        "relative_roll_deg": 6.607129553543643,
+        "scale": 1.0369420974106063,
+        "center_displacement": 1.255321263542936,
+        "baseline": 56.754494433070974,
+        "matrix": [
+          [
+            1.0242022750225268,
+            -0.1620450962571457,
+            7.889821400053933
+          ],
+          [
+            0.1620450962571457,
+            1.0242022750225268,
+            -12.760655969566507
+          ]
+        ],
+        "residuals": [
+          0.5541064473585987,
+          0.8614837440278089,
+          0.4689142394655847,
+          0.8846757602796145,
+          0.021853252924399113
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_030",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_030",
+        "split": "validation",
+        "source_sha256": "1d8fd4fdd3ef8636a2b9c12aaafbe11b019cfc857a8908a672fda332f7f31211",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": -24.0,
+        "score": 0.795870791889824,
+        "margin": 2.8719679490141203e-06,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_030",
+        "source_sha256": "1d8fd4fdd3ef8636a2b9c12aaafbe11b019cfc857a8908a672fda332f7f31211",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_031",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_031",
+        "split": "validation",
+        "source_sha256": "0b12acb9e9335c2f89be350cd713e9a3ebe9be72e41f5ca87097a08ed978e974",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 8.0,
+        "score": 0.848221117061974,
+        "margin": 0.04532684583014546,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_031",
+        "source_sha256": "0b12acb9e9335c2f89be350cd713e9a3ebe9be72e41f5ca87097a08ed978e974",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 5,
+        "RMS": 0.33847777195613316,
+        "rotation_deg": 10.336841840737685,
+        "relative_roll_deg": 7.953391344373074,
+        "scale": 1.0212266188084462,
+        "center_displacement": 0.7409298641622335,
+        "baseline": 55.31515275392503,
+        "matrix": [
+          [
+            1.0046519705444827,
+            -0.18324362211007383,
+            11.444573966315325
+          ],
+          [
+            0.18324362211007383,
+            1.0046519705444827,
+            -12.766101792104678
+          ]
+        ],
+        "residuals": [
+          0.15224968469699202,
+          0.1351989626990448,
+          0.2548585877899461,
+          0.42627550944649933,
+          0.533585583400218
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_032",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_032",
+        "split": "validation",
+        "source_sha256": "2dcdedbc39e3e55f75ca2620a66af66123870b9b12bf477e1af9ff672c1da212",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 6.0,
+        "score": 0.8224763293802602,
+        "margin": 0.01566086457536342,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_032",
+        "source_sha256": "2dcdedbc39e3e55f75ca2620a66af66123870b9b12bf477e1af9ff672c1da212",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "middle_soccer_logo_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.45313449532768485,
+        "rotation_deg": 10.742250274186345,
+        "relative_roll_deg": 8.35879977782173,
+        "scale": 1.0138954081634586,
+        "center_displacement": 3.2578200311679564,
+        "baseline": 46.83952703646274,
+        "matrix": [
+          [
+            0.9961275173677185,
+            -0.188981130904045,
+            11.480665146004078
+          ],
+          [
+            0.188981130904045,
+            0.9961275173677185,
+            -14.988673681086937
+          ]
+        ],
+        "residuals": [
+          0.3758421198121753,
+          0.5698312601835259,
+          11.775000730419059,
+          0.38733402698494235
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_033",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_033",
+        "split": "validation",
+        "source_sha256": "296fd47e58b8a7aac21ab1d90ec76aaa7104fb6df103e8656603a0bf54cd4948",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": -14.0,
+        "score": 0.79019775390625,
+        "margin": 0.0021275071579714977,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_033",
+        "source_sha256": "296fd47e58b8a7aac21ab1d90ec76aaa7104fb6df103e8656603a0bf54cd4948",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_034",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_034",
+        "split": "validation",
+        "source_sha256": "40210ddf1cbab63f9beafc74650d502ae2f5b512efb95be8315fa24406dc52fe",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 10.0,
+        "score": 0.8205934391736802,
+        "margin": 0.010872943764345888,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_034",
+        "source_sha256": "40210ddf1cbab63f9beafc74650d502ae2f5b512efb95be8315fa24406dc52fe",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_5_text_centroid"
+        ],
+        "inlier_count": 4,
+        "RMS": 0.52427880102149,
+        "rotation_deg": 13.549459516938954,
+        "relative_roll_deg": 11.166009020574364,
+        "scale": 1.0354196628494714,
+        "center_displacement": 3.363162896848601,
+        "baseline": 56.78825980088899,
+        "matrix": [
+          [
+            1.0066019049975563,
+            -0.24258294060094882,
+            13.220437483447448
+          ],
+          [
+            0.24258294060094882,
+            1.0066019049975563,
+            -18.7348765269711
+          ]
+        ],
+        "residuals": [
+          16.954834033533164,
+          0.6089686657377357,
+          0.3504207279563858,
+          0.6241718808616407,
+          0.46502148930117754
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_035",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_035",
+        "split": "validation",
+        "source_sha256": "bfda3139b88b394ae5b5145f921df8884bfdd2e389696b3cff58aa41aede866a",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 20.0,
+        "score": 0.7906046767406274,
+        "margin": 0.009814938791124717,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.004398148148148148
+      },
+      "new_pose": {
+        "id": "G_035",
+        "source_sha256": "bfda3139b88b394ae5b5145f921df8884bfdd2e389696b3cff58aa41aede866a",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_036",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_036",
+        "split": "validation",
+        "source_sha256": "a61d0c4d0c9405073264e6b99488c1d32e4b00da37a8ea23cc946ecb9281272a",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 12.0,
+        "score": 0.800006103515625,
+        "margin": 0.010430908203124978,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": 1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_036",
+        "source_sha256": "a61d0c4d0c9405073264e6b99488c1d32e4b00da37a8ea23cc946ecb9281272a",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_037",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_037",
+        "split": "validation",
+        "source_sha256": "2f10fbbd6615a1ce6f0d4304c3665fa4ea952f3a0587fd16b6dac031f279bd9d",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 6.0,
+        "score": 0.8492372800306045,
+        "margin": 0.04657614721810455,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_037",
+        "source_sha256": "2f10fbbd6615a1ce6f0d4304c3665fa4ea952f3a0587fd16b6dac031f279bd9d",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_5_text_centroid",
+          "middle_soccer_logo_centroid"
+        ],
+        "inlier_count": 4,
+        "RMS": 0.36279305026756586,
+        "rotation_deg": 7.837885970585638,
+        "relative_roll_deg": 5.454435474221043,
+        "scale": 1.022829048588626,
+        "center_displacement": 0.8998605905638423,
+        "baseline": 55.29595150781645,
+        "matrix": [
+          [
+            1.013273660976938,
+            -0.13948387221147507,
+            8.953089458586504
+          ],
+          [
+            0.13948387221147507,
+            1.013273660976938,
+            -9.983872537946198
+          ]
+        ],
+        "residuals": [
+          5.509851749316338,
+          0.3430806844995042,
+          0.4441563896452691,
+          0.21367819691074022,
+          11.21097240195019,
+          0.40723158388733144
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_038",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_038",
+        "split": "validation",
+        "source_sha256": "a0ba4d5558222f187a5e94ca715088d1f97a8d4a6dc89df68103e5ae5adf6af1",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 4.0,
+        "score": 0.854620361328125,
+        "margin": 0.04172363281250002,
+        "reference_id": "E_002",
+        "dx": 0,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_038",
+        "source_sha256": "a0ba4d5558222f187a5e94ca715088d1f97a8d4a6dc89df68103e5ae5adf6af1",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "middle_soccer_logo_centroid"
+        ],
+        "inlier_count": 5,
+        "RMS": 0.5899715519253824,
+        "rotation_deg": 7.618923801915458,
+        "relative_roll_deg": 5.235473305550869,
+        "scale": 1.022104827256087,
+        "center_displacement": 0.7869121785008006,
+        "baseline": 66.19030820680105,
+        "matrix": [
+          [
+            1.0130814857099262,
+            -0.1355145055407882,
+            8.439028817834448
+          ],
+          [
+            0.1355145055407882,
+            1.0130814857099262,
+            -10.015357380291661
+          ]
+        ],
+        "residuals": [
+          0.18524327857108386,
+          0.6394999106993096,
+          0.7835478087506049,
+          0.2740955280104917,
+          11.827285409767489,
+          0.7797316367140729
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_039",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_039",
+        "split": "validation",
+        "source_sha256": "6aac7274008a8af7ce6a1af76510756e4b3235040e8a98c10a5da95c347aa730",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 7.0,
+        "score": 0.825763915455241,
+        "margin": 0.03134563886763575,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_039",
+        "source_sha256": "6aac7274008a8af7ce6a1af76510756e4b3235040e8a98c10a5da95c347aa730",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_040",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_040",
+        "split": "validation",
+        "source_sha256": "efde643e1c09a9b55e255a34b2b5c229811c2be24929332a45249d8a387fe755",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 9.0,
+        "score": 0.8381073068094873,
+        "margin": 0.03534241423136231,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_040",
+        "source_sha256": "efde643e1c09a9b55e255a34b2b5c229811c2be24929332a45249d8a387fe755",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2
+        ],
+        "inlier_identities": [
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 3,
+        "RMS": 0.38286543241244203,
+        "rotation_deg": 10.537619054675327,
+        "relative_roll_deg": 8.154168558310715,
+        "scale": 1.0342149124395075,
+        "center_displacement": 2.348181537685393,
+        "baseline": 48.612467785248135,
+        "matrix": [
+          [
+            1.016772923546611,
+            -0.189138327831076,
+            9.455447711884588
+          ],
+          [
+            0.189138327831076,
+            1.016772923546611,
+            -14.919117446415115
+          ]
+        ],
+        "residuals": [
+          0.3175590408685044,
+          0.48146564448712176,
+          0.3272688600376984
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_041",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_041",
+        "split": "validation",
+        "source_sha256": "69d57539d7fa8bc482854cf5d5199be5e6f5867ca977cf5eb3b5b3652b0cb0c5",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 8.0,
+        "score": 0.8125717291507268,
+        "margin": 0.010704053369476885,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_041",
+        "source_sha256": "69d57539d7fa8bc482854cf5d5199be5e6f5867ca977cf5eb3b5b3652b0cb0c5",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_15_text_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.13831357754145165,
+        "rotation_deg": 10.121556034491375,
+        "relative_roll_deg": 7.738105538126774,
+        "scale": 1.0333644237858182,
+        "center_displacement": 1.6278839567493832,
+        "baseline": 56.35147552497039,
+        "matrix": [
+          [
+            1.017282310870316,
+            -0.18160047449427522,
+            9.036847235671999
+          ],
+          [
+            0.18160047449427522,
+            1.017282310870316,
+            -13.407498147216316
+          ]
+        ],
+        "residuals": [
+          0.10995446775688408,
+          13.032412587197216,
+          0.19502655915738284,
+          0.08524431617696077
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_042",
+      "route": "NEW_REDUNDANT_REFERENCE",
+      "old_pose": {
+        "id": "G_042",
+        "split": "validation",
+        "source_sha256": "0a3dadaa0f89120733b1d39397b45d06938d0a7d0e9ae0c3f29f09a258a7610f",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": -24.0,
+        "score": 0.7866057765876052,
+        "margin": 0.0003631008063552654,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_042",
+        "source_sha256": "0a3dadaa0f89120733b1d39397b45d06938d0a7d0e9ae0c3f29f09a258a7610f",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_15_text_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.3942789425848645,
+        "rotation_deg": 8.777528052864893,
+        "relative_roll_deg": 6.394077556500292,
+        "scale": 1.0321002914389366,
+        "center_displacement": 5.5230034503515135,
+        "baseline": 56.32789181576436,
+        "matrix": [
+          [
+            1.0200126506398024,
+            -0.15749667972088302,
+            6.2906627803156
+          ],
+          [
+            0.15749667972088302,
+            1.0200126506398024,
+            -16.281158347627205
+          ]
+        ],
+        "residuals": [
+          0.31343800117287934,
+          6.490055466810606,
+          0.5559458940138648,
+          0.24299883960091506
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_043",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_043",
+        "split": "validation",
+        "source_sha256": "45e395b5255d28a4f3ed22ddf9110dfcd9d472a28a0cfad8163dbec806dad738",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.866204833984375,
+        "margin": 0.054912274688277085,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_043",
+        "source_sha256": "45e395b5255d28a4f3ed22ddf9110dfcd9d472a28a0cfad8163dbec806dad738",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_5_text_centroid"
+        ],
+        "inlier_count": 5,
+        "RMS": 0.48373583036959444,
+        "rotation_deg": 14.5578098634132,
+        "relative_roll_deg": 12.174359367048595,
+        "scale": 1.0413040371178048,
+        "center_displacement": 1.05104142051421,
+        "baseline": 56.62088903820319,
+        "matrix": [
+          [
+            1.00787247231914,
+            -0.26173875765568866,
+            15.62670527518106
+          ],
+          [
+            0.26173875765568866,
+            1.00787247231914,
+            -18.103277701954987
+          ]
+        ],
+        "residuals": [
+          14.728694608423417,
+          0.463522865863439,
+          0.2341125130681509,
+          0.29633402410892645,
+          0.6361986821364226,
+          0.638574220405705
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_044",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_044",
+        "split": "validation",
+        "source_sha256": "dea2b60677d522bd188e01c474c5818060b6f93039d43d2c7198b7aa85f85d4b",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": -15.0,
+        "score": 0.7854736328125,
+        "margin": 0.0034912109375000444,
+        "reference_id": "E_002",
+        "dx": 1.5,
+        "dy": -1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_044",
+        "source_sha256": "dea2b60677d522bd188e01c474c5818060b6f93039d43d2c7198b7aa85f85d4b",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_045",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_045",
+        "split": "validation",
+        "source_sha256": "2dbfd4645a2b79ccf02cb5eb3734e0a42303d7131e7e8f32c460282a0991a507",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.8371509181331294,
+        "margin": 0.045882746748278525,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_045",
+        "source_sha256": "2dbfd4645a2b79ccf02cb5eb3734e0a42303d7131e7e8f32c460282a0991a507",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "upper_basketball_logo_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_046",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_046",
+        "split": "validation",
+        "source_sha256": "265a34dde22630c6885c38c078fd813b594514abfa82e48e8c088031ace51bde",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 6.0,
+        "score": 0.8563324885233359,
+        "margin": 0.050418181882710855,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_046",
+        "source_sha256": "265a34dde22630c6885c38c078fd813b594514abfa82e48e8c088031ace51bde",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "middle_soccer_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 6,
+        "RMS": 0.48514548243425704,
+        "rotation_deg": 7.712532209711022,
+        "relative_roll_deg": 5.329081713346426,
+        "scale": 1.031634701405938,
+        "center_displacement": 1.2372670646544488,
+        "baseline": 66.0016356990757,
+        "matrix": [
+          [
+            1.0223023992028866,
+            -0.13844840818492937,
+            6.487478758178774
+          ],
+          [
+            0.13844840818492937,
+            1.0223023992028866,
+            -11.0856528551978
+          ]
+        ],
+        "residuals": [
+          0.5636377035792554,
+          0.6699160974119541,
+          0.027731271222594722,
+          0.5103957053423387,
+          0.5551909472753479,
+          0.2760652258406085
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_047",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_047",
+        "split": "validation",
+        "source_sha256": "ef577babaffba508dcdcfa7a5d812c468db98603dd76564b51d35ff47b8ba5fe",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 5.0,
+        "score": 0.806145992731446,
+        "margin": 0.01831029937207107,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_047",
+        "source_sha256": "ef577babaffba508dcdcfa7a5d812c468db98603dd76564b51d35ff47b8ba5fe",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_5_text_centroid"
+        ],
+        "inlier_count": 4,
+        "RMS": 0.680976753671512,
+        "rotation_deg": 7.673348045765021,
+        "relative_roll_deg": 5.289897549400422,
+        "scale": 1.0120036365761933,
+        "center_displacement": 2.7592881822009807,
+        "baseline": 56.05120437234124,
+        "matrix": [
+          [
+            1.0029415671258193,
+            -0.13512798886479999,
+            6.05570732562289
+          ],
+          [
+            0.13512798886479999,
+            1.0029415671258193,
+            -10.19047515699696
+          ]
+        ],
+        "residuals": [
+          11.480531779996635,
+          0.6806755004318789,
+          0.8919767307405863,
+          0.6381986832678938,
+          0.4343710070530005
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_048",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_048",
+        "split": "validation",
+        "source_sha256": "850cec5b89eee6fb2d7ec6b30585c61b3eddf894e5c78921bfe206dbc7f4cbfa",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 9.0,
+        "score": 0.80213623046875,
+        "margin": 0.005535888671875044,
+        "reference_id": "E_002",
+        "dx": 1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_048",
+        "source_sha256": "850cec5b89eee6fb2d7ec6b30585c61b3eddf894e5c78921bfe206dbc7f4cbfa",
+        "split": "validation",
+        "accepted": false,
+        "reason": "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_049",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_049",
+        "split": "validation",
+        "source_sha256": "6a0e99006122dea3d89fe40bb54f052a187fd2f93d107018bae424f6482e7438",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE"
+      },
+      "new_pose": {
+        "id": "G_049",
+        "source_sha256": "6a0e99006122dea3d89fe40bb54f052a187fd2f93d107018bae424f6482e7438",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_050",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_050",
+        "split": "validation",
+        "source_sha256": "abdd5bea76cde9941a57b33d5b122a30f3bb1cfe2121bae92c8f2b6c024c987f",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE"
+      },
+      "new_pose": {
+        "id": "G_050",
+        "source_sha256": "abdd5bea76cde9941a57b33d5b122a30f3bb1cfe2121bae92c8f2b6c024c987f",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_051",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_051",
+        "split": "validation",
+        "source_sha256": "34846cbc306b4334882bce4cd821d97630faab291bcf9cd77be899fbb7cd0ff3",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 24.0,
+        "score": 0.7718505859375,
+        "margin": 0.001371913404982772,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_051",
+        "source_sha256": "34846cbc306b4334882bce4cd821d97630faab291bcf9cd77be899fbb7cd0ff3",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_052",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_052",
+        "split": "validation",
+        "source_sha256": "9bdfb5492036ee8d11883dcc76ac8d04d0fa5c7d61bdcb7d8c873af1075791fa",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 24.0,
+        "score": 0.772857666015625,
+        "margin": 0.0017932054188384283,
+        "reference_id": "E_002",
+        "dx": 0,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_052",
+        "source_sha256": "9bdfb5492036ee8d11883dcc76ac8d04d0fa5c7d61bdcb7d8c873af1075791fa",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_053",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_053",
+        "split": "validation",
+        "source_sha256": "a3628e60552adf773f21841e98dc265cba2fac01889b1d63bb2cd2ad41aec8bd",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 5.0,
+        "score": 0.7853744261667942,
+        "margin": 0.0013748087222648087,
+        "reference_id": "D_002",
+        "dx": 0,
+        "dy": 1.5,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_053",
+        "source_sha256": "a3628e60552adf773f21841e98dc265cba2fac01889b1d63bb2cd2ad41aec8bd",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_15_text_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_054",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_054",
+        "split": "validation",
+        "source_sha256": "16659051de9332bd87066269098a9a37feba97b4d01d259d3d1f074c1199b800",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE"
+      },
+      "new_pose": {
+        "id": "G_054",
+        "source_sha256": "16659051de9332bd87066269098a9a37feba97b4d01d259d3d1f074c1199b800",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_15_text_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_055",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_055",
+        "split": "validation",
+        "source_sha256": "5dee84169295c9f21d980bcfae47e7d8aa7273ee4f00f22e6717c42bcbbac577",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 22.0,
+        "score": 0.7912024196633511,
+        "margin": 0.0032278117827084785,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_055",
+        "source_sha256": "5dee84169295c9f21d980bcfae47e7d8aa7273ee4f00f22e6717c42bcbbac577",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_15_text_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_056",
+      "route": "NO_ACCEPTED_REFERENCE",
+      "old_pose": {
+        "id": "G_056",
+        "split": "validation",
+        "source_sha256": "fc7fa78212cff0754f9e74a0b5cba2b6c83e4ca5947c56a36a0e7a5951eb3f3b",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": 19.0,
+        "score": 0.7838561591430757,
+        "margin": 0.0007412012241774235,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": -1.5,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_056",
+        "source_sha256": "fc7fa78212cff0754f9e74a0b5cba2b6c83e4ca5947c56a36a0e7a5951eb3f3b",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_057",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_057",
+        "split": "validation",
+        "source_sha256": "9e9946afe09bfd0063cf0cde5a52c1ccf97808122d65a15f426eb2fe3d65ed33",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.8266724846977812,
+        "margin": 0.03092721882172922,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_057",
+        "source_sha256": "9e9946afe09bfd0063cf0cde5a52c1ccf97808122d65a15f426eb2fe3d65ed33",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          3,
+          4
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [
+          "outer_psi_10_text_centroid",
+          "outer_psi_15_text_centroid"
+        ],
+        "inlier_count": 3,
+        "RMS": 0.8507337049884787,
+        "rotation_deg": 13.761554849718221,
+        "relative_roll_deg": 11.37810435335362,
+        "scale": 0.9929423460283904,
+        "center_displacement": 1.165391946958856,
+        "baseline": 42.84408810118759,
+        "matrix": [
+          [
+            0.9644390581313783,
+            -0.23620289093705787,
+            16.23687581946065
+          ],
+          [
+            0.23620289093705787,
+            0.9644390581313783,
+            -12.988666825840575
+          ]
+        ],
+        "residuals": [
+          0.7180245492891683,
+          6.302084637491097,
+          17.62214762284297,
+          1.031746267259047,
+          0.7688848398982657
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_058",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_058",
+        "split": "validation",
+        "source_sha256": "118de3907619ac1da493d4d6c0841c80f4112a00a822e464887d976dd3c3c88f",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 13.0,
+        "score": 0.8154050306044376,
+        "margin": 0.02543310677631261,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": 1.5,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_058",
+        "source_sha256": "118de3907619ac1da493d4d6c0841c80f4112a00a822e464887d976dd3c3c88f",
+        "split": "validation",
+        "accepted": true,
+        "reason": "REDUNDANT_IDENTIFIED_LANDMARK_CONSENSUS",
+        "available_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "inlier_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "inlier_identities": [
+          "outer_psi_5_text_centroid",
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid",
+          "lower_striped_ball_print_centroid"
+        ],
+        "outlier_identities": [],
+        "inlier_count": 4,
+        "RMS": 0.35189427147853347,
+        "rotation_deg": 15.41160052486726,
+        "relative_roll_deg": 13.028150028502665,
+        "scale": 0.9950456400257605,
+        "center_displacement": 1.6064856445826106,
+        "baseline": 53.84265183366564,
+        "matrix": [
+          [
+            0.9592654088235979,
+            -0.2644346822350858,
+            17.93628198039258
+          ],
+          [
+            0.2644346822350858,
+            0.9592654088235979,
+            -14.121353575589652
+          ]
+        ],
+        "residuals": [
+          0.4786368662088863,
+          0.4041537146038773,
+          0.14387574325575733,
+          0.2866785813029273
+        ],
+        "canonical_roll_relative_D002": -2.3834504963646026,
+        "alternative_hypotheses": 0,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    },
+    {
+      "id": "G_059",
+      "route": "OLD_REFERENCE_PRESERVED",
+      "old_pose": {
+        "id": "G_059",
+        "split": "validation",
+        "source_sha256": "51176451fcf00b1f6e4930084da67cea8453f1d5a8dab56e13a07237f089ee7c",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 11.0,
+        "score": 0.8120516928079572,
+        "margin": 0.01929046233920717,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": 1.5,
+        "radius_scale": 0.97,
+        "outside_fraction": 0.0
+      },
+      "new_pose": {
+        "id": "G_059",
+        "source_sha256": "51176451fcf00b1f6e4930084da67cea8453f1d5a8dab56e13a07237f089ee7c",
+        "split": "validation",
+        "accepted": false,
+        "reason": "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS",
+        "available_identities": [
+          "outer_psi_10_text_centroid",
+          "upper_basketball_logo_centroid"
+        ],
+        "required_identities": 3,
+        "full_perspective_rectification": false,
+        "reference_method": "LEARNED_SIX_IDENTITY_ROI128",
+        "query_pressure_used": false,
+        "query_visual_labels_used": false,
+        "automatic_reference_inference": true
+      }
+    }
+  ],
+  "changes": {
+    "new_output_ids": [
+      "G_017",
+      "G_020",
+      "G_027",
+      "G_032",
+      "G_034",
+      "G_041",
+      "G_042"
+    ],
+    "withdrawn_output_ids": [],
+    "bands": {
+      "0.25": {
+        "gained_correct_ids": [
+          "G_020",
+          "G_027",
+          "G_032",
+          "G_034",
+          "G_041"
+        ],
+        "lost_correct_ids": [],
+        "new_wrong_ids": [
+          "G_017",
+          "G_042"
+        ],
+        "recovered_wrong_ids": []
+      },
+      "0.5": {
+        "gained_correct_ids": [
+          "G_017",
+          "G_020",
+          "G_027",
+          "G_032",
+          "G_034",
+          "G_041"
+        ],
+        "lost_correct_ids": [],
+        "new_wrong_ids": [
+          "G_042"
+        ],
+        "recovered_wrong_ids": []
+      },
+      "1.0": {
+        "gained_correct_ids": [
+          "G_017",
+          "G_020",
+          "G_027",
+          "G_032",
+          "G_034",
+          "G_041",
+          "G_042"
+        ],
+        "lost_correct_ids": [],
+        "new_wrong_ids": [],
+        "recovered_wrong_ids": []
+      }
+    }
+  },
+  "original_valid_ids_preserved": [
+    "G_008",
+    "G_009",
+    "G_011",
+    "G_013",
+    "G_014",
+    "G_015",
+    "G_016",
+    "G_018",
+    "G_019",
+    "G_021",
+    "G_022",
+    "G_025",
+    "G_026",
+    "G_028",
+    "G_029",
+    "G_031",
+    "G_037",
+    "G_038",
+    "G_039",
+    "G_040",
+    "G_045"
+  ],
+  "original_valid_ids_changed": [],
+  "new_reference_supported_negative_ids": [],
+  "incremental_output_summary": {
+    "images": 7,
+    "MAE_psi": 0.26610954970737666,
+    "max_abs_error_psi": 0.9338742957081596,
+    "correct_bands": {
+      "0.25": 5,
+      "0.5": 6,
+      "1.0": 7
+    }
+  },
+  "labels_not_used_for_automatic_reference": true,
+  "calibration_changed": false,
+  "new_neural_weights": true,
+  "deployed_to_board": false,
+  "frontal": {
+    "images": 16,
+    "outputs": 11,
+    "correct_bands": {
+      "0.25": 9,
+      "0.5": 11,
+      "1.0": 11
+    }
+  },
+  "new_reference_pose_count": 32,
+  "pose_rejection_counts": {
+    "INSUFFICIENT_VISIBLE_IDENTIFIED_LANDMARKS": 17,
+    "NO_CONSISTENT_REDUNDANT_LANDMARK_GEOMETRY": 10
+  },
+  "predeclared_engineering_goal": {
+    "correct_within_descriptive_half_psi": 32,
+    "denominator": 56,
+    "frontal_correct": 12,
+    "frontal_denominator": 16,
+    "user_final_accuracy_tolerance": false
+  },
+  "predeclared_engineering_goal_met": false,
+  "sources": {
+    "algorithm_work\\meter_landmark_mcu_training_20261103\\model\\run_001\\validation_predictions.jsonl": "638bcca4df64929777cb1a14d27822e06522ce504695b3564ff4c5de22bc9f85",
+    "algorithm_work\\meter_landmark_mcu_training_20261103\\evaluate_readout.py": "9ad3063c98f8f0c6dfcb3f1c03f80bd746cf4efb3f20a3802a780dfa6d92c785",
+    "algorithm_work\\meter_redundant_print_20261102\\landmark_geometry.py": "841fb7b8ba7136c479890d04877c698d3ba979514e9029f66e3767e208505fb2",
+    "algorithm_work\\meter_redundant_print_20261102\\fusion.py": "5c3c5a1f61b2e29bb0a78bfbc9dbc3d59a2e8980c4bee29d3b6844d2b73019d6",
+    "algorithm_work\\meter_redundant_print_20261102\\results\\canonical_setup.json": "0c1553276373535d7c953c301e9fa78a9503f2cd5612a4abdc5a92ff981fda6e",
+    "algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_B_pose.jsonl": "6581235488bfd4953d9690f7464aa612b619c8c46454db4b3a65bb750246dff0",
+    "algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_B_calibration_psi.json": "890d5ceb5cdf1ca87a6fcb7456cbf4b67123491f0ca60fac84fed5893c937491",
+    "algorithm_work\\meter_pointer_readout_20261102\\polar_angle\\run_001\\validation_predictions.jsonl": "3cc05038cb7dc8360c0c480b4a723589b64c44ee976ebea9e579c6e399082818"
+  },
+  "limits": [
+    "Same-source offline proxy ROI, not real MCU dump",
+    "G is repeatedly used development data",
+    "Three negatives cannot prove general FAR",
+    "New point scores are not calibrated probabilities",
+    "Error bands are descriptive, not user final accuracy tolerance",
+    "H and ABC not used"
+  ]
+}
