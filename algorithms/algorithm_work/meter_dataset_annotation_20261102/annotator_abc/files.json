@@ -1,0 +1,887 @@
+[
+  {
+    "id": "A_001",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00043346_1793532678000083700_83b459.png"
+  },
+  {
+    "id": "A_002",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00043525_1793532683966540400_fd829c.png"
+  },
+  {
+    "id": "A_003",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00044244_1793532707933251600_eb51fe.png"
+  },
+  {
+    "id": "A_004",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00045697_1793532756365102400_208f86.png"
+  },
+  {
+    "id": "A_005",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00045923_1793532763900424100_f12ed8.png"
+  },
+  {
+    "id": "A_006",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00047519_1793532817099709100_cd8186.png"
+  },
+  {
+    "id": "A_007",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00047814_1793532826933000700_8053b7.png"
+  },
+  {
+    "id": "A_008",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00048295_1793532842968072200_88efd2.png"
+  },
+  {
+    "id": "A_009",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00048543_1793532851233294000_7e7ba3.png"
+  },
+  {
+    "id": "A_010",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00048959_1793532865101549600_478c89.png"
+  },
+  {
+    "id": "A_011",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00049084_1793532869265180300_da4173.png"
+  },
+  {
+    "id": "A_012",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00049870_1793532895466727700_3ed50a.png"
+  },
+  {
+    "id": "A_013",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00049983_1793532899233155000_2a1697.png"
+  },
+  {
+    "id": "A_014",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00050373_1793532912233796600_974fcb.png"
+  },
+  {
+    "id": "A_015",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00050601_1793532919832546900_0ad380.png"
+  },
+  {
+    "id": "A_016",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00050962_1793532931868582600_aff066.png"
+  },
+  {
+    "id": "A_017",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00051164_1793532938600554600_2743cb.png"
+  },
+  {
+    "id": "A_018",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052163_1793532971899363700_ed77aa.png"
+  },
+  {
+    "id": "A_019",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052288_1793532976066105500_5bbddb.png"
+  },
+  {
+    "id": "A_020",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052594_1793532986267265300_f56c9a.png"
+  },
+  {
+    "id": "A_021",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00052847_1793532994701300700_cffa0b.png"
+  },
+  {
+    "id": "A_022",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00053148_1793533004733312900_ef38c8.png"
+  },
+  {
+    "id": "A_023",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00053277_1793533009033383100_0ec7ed.png"
+  },
+  {
+    "id": "A_024",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054262_1793533041867070800_fa41d0.png"
+  },
+  {
+    "id": "A_025",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054390_1793533046133979000_65bd58.png"
+  },
+  {
+    "id": "A_026",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054595_1793533052968621300_2f30e4.png"
+  },
+  {
+    "id": "A_027",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00054910_1793533063467722300_06a5fc.png"
+  },
+  {
+    "id": "A_028",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00055247_1793533074700177200_1a521d.png"
+  },
+  {
+    "id": "A_029",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00055323_1793533077235141500_0c9056.png"
+  },
+  {
+    "id": "A_030",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00056699_1793533123100931800_21759d.png"
+  },
+  {
+    "id": "A_031",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00056815_1793533126967504500_633667.png"
+  },
+  {
+    "id": "A_032",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057071_1793533135501477500_1dc694.png"
+  },
+  {
+    "id": "A_033",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057376_1793533145667382900_9157b1.png"
+  },
+  {
+    "id": "A_034",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057836_1793533161000987700_cecb1d.png"
+  },
+  {
+    "id": "A_035",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00057902_1793533163201675100_8be981.png"
+  },
+  {
+    "id": "A_036",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00059531_1793533217502785800_f4dcf5.png"
+  },
+  {
+    "id": "A_037",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00059689_1793533222767744600_75298f.png"
+  },
+  {
+    "id": "A_038",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00059906_1793533230001907900_b420b5.png"
+  },
+  {
+    "id": "A_039",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00060161_1793533238501698500_001d89.png"
+  },
+  {
+    "id": "A_040",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00060570_1793533252135420800_9bacce.png"
+  },
+  {
+    "id": "A_041",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00060843_1793533261235309900_07afa1.png"
+  },
+  {
+    "id": "A_042",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062034_1793533300936135900_901d0b.png"
+  },
+  {
+    "id": "A_043",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062110_1793533303468553000_38bd99.png"
+  },
+  {
+    "id": "A_044",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062482_1793533315868005800_79c26d.png"
+  },
+  {
+    "id": "A_045",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062747_1793533324703590700_52bd02.png"
+  },
+  {
+    "id": "A_046",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00063307_1793533343369486800_1e2c40.png"
+  },
+  {
+    "id": "A_047",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00063433_1793533347569866800_153f11.png"
+  },
+  {
+    "id": "A_048",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00063837_1793533361037307500_6ff2a2.png"
+  },
+  {
+    "id": "A_049",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00064159_1793533371769800300_a1db1b.png"
+  },
+  {
+    "id": "A_050",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00067603_1793533486571420500_86ed12.png"
+  },
+  {
+    "id": "A_051",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00068842_1793533527871147400_1e9619.png"
+  },
+  {
+    "id": "A_052",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00069320_1793533543804316700_1fbbcc.png"
+  },
+  {
+    "id": "A_053",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00070582_1793533585870692800_6d70a8.png"
+  },
+  {
+    "id": "A_054",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00072149_1793533638104058700_a8cf22.png"
+  },
+  {
+    "id": "A_055",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00072920_1793533663803674300_93f14f.png"
+  },
+  {
+    "id": "A_056",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00073889_1793533696104216200_089cf1.png"
+  },
+  {
+    "id": "A_057",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00074276_1793533709005602000_cf76b8.png"
+  },
+  {
+    "id": "A_058",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00075987_1793533766039347800_d9180a.png"
+  },
+  {
+    "id": "A_059",
+    "group": "A",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\补拍12psi逆光.png"
+  },
+  {
+    "id": "B_001",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00004582_1793534447110211500_7632ad.png"
+  },
+  {
+    "id": "B_002",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00004763_1793534453144651000_8f99e9.png"
+  },
+  {
+    "id": "B_003",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00005225_1793534468545774400_8c04ad.png"
+  },
+  {
+    "id": "B_004",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00005644_1793534482512597600_dba575.png"
+  },
+  {
+    "id": "B_005",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00007008_1793534527978013100_ee6482.png"
+  },
+  {
+    "id": "B_006",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00007109_1793534531345921000_912d92.png"
+  },
+  {
+    "id": "B_007",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008332_1793534572112583900_23e410.png"
+  },
+  {
+    "id": "B_008",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008446_1793534575913621900_d769e3.png"
+  },
+  {
+    "id": "B_009",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008709_1793534584677753300_5589ae.png"
+  },
+  {
+    "id": "B_010",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008862_1793534589778515700_e6d26c.png"
+  },
+  {
+    "id": "B_011",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00008991_1793534594080376700_b8097e.png"
+  },
+  {
+    "id": "B_012",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00009117_1793534598277903500_d30487.png"
+  },
+  {
+    "id": "B_013",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00010260_1793534636378021800_081749.png"
+  },
+  {
+    "id": "B_014",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00010351_1793534639412403800_7d5385.png"
+  },
+  {
+    "id": "B_015",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00010641_1793534649078646200_843ab1.png"
+  },
+  {
+    "id": "B_016",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00011066_1793534663246781000_cfdaec.png"
+  },
+  {
+    "id": "B_017",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00011283_1793534670479110300_aa9c6a.png"
+  },
+  {
+    "id": "B_018",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00011428_1793534675312692400_48e3cc.png"
+  },
+  {
+    "id": "B_019",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00012214_1793534701513723600_acdd3e.png"
+  },
+  {
+    "id": "B_020",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00012597_1793534714278881600_5b5d34.png"
+  },
+  {
+    "id": "B_021",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00012886_1793534723912127200_8ed8a2.png"
+  },
+  {
+    "id": "B_022",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00013550_1793534746046113800_250807.png"
+  },
+  {
+    "id": "B_023",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00013712_1793534751445934400_fae1bd.png"
+  },
+  {
+    "id": "B_024",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00013925_1793534758545568600_d33c4c.png"
+  },
+  {
+    "id": "B_025",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015249_1793534802678956200_eb05c1.png"
+  },
+  {
+    "id": "B_026",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015387_1793534807279726900_b9c33d.png"
+  },
+  {
+    "id": "B_027",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015636_1793534815579601400_ddaed5.png"
+  },
+  {
+    "id": "B_028",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00015868_1793534823313973900_3b0f4c.png"
+  },
+  {
+    "id": "B_029",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00016007_1793534827946263400_6df2a9.png"
+  },
+  {
+    "id": "B_030",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00016084_1793534830514267100_280316.png"
+  },
+  {
+    "id": "B_031",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017012_1793534861445890200_7e009c.png"
+  },
+  {
+    "id": "B_032",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017121_1793534865080375900_7f6843.png"
+  },
+  {
+    "id": "B_033",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017373_1793534873479715900_73fa89.png"
+  },
+  {
+    "id": "B_034",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017567_1793534879946274700_31e9a4.png"
+  },
+  {
+    "id": "B_035",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017721_1793534885080128000_a6af5e.png"
+  },
+  {
+    "id": "B_036",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00017810_1793534888046801200_5af017.png"
+  },
+  {
+    "id": "B_037",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00018709_1793534918014497700_fbc528.png"
+  },
+  {
+    "id": "B_038",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00018855_1793534922880169900_d70ad2.png"
+  },
+  {
+    "id": "B_039",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019054_1793534929514079000_40df3c.png"
+  },
+  {
+    "id": "B_040",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019319_1793534938348086500_713ed6.png"
+  },
+  {
+    "id": "B_041",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019472_1793534943446955700_0a321e.png"
+  },
+  {
+    "id": "B_042",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00019553_1793534946147613100_794031.png"
+  },
+  {
+    "id": "B_043",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00020643_1793534982484168200_fe80fb.png"
+  },
+  {
+    "id": "B_044",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00020952_1793534992779357600_f44941.png"
+  },
+  {
+    "id": "B_045",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021481_1793535010414510400_2b124a.png"
+  },
+  {
+    "id": "B_046",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021647_1793535015949073800_06b9c5.png"
+  },
+  {
+    "id": "B_047",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021836_1793535022247274800_0a8d4d.png"
+  },
+  {
+    "id": "B_048",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00021906_1793535024581509400_18ce0f.png"
+  },
+  {
+    "id": "B_049",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00022101_1793535031083386700_7d85d3.png"
+  },
+  {
+    "id": "B_050",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00022357_1793535039614301200_1fdf6d.png"
+  },
+  {
+    "id": "B_051",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00022997_1793535060948895500_fd3ccb.png"
+  },
+  {
+    "id": "B_052",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00023465_1793535076548127800_18961c.png"
+  },
+  {
+    "id": "B_053",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00023633_1793535082150875800_e5373f.png"
+  },
+  {
+    "id": "B_054",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00024433_1793535108814033300_db5925.png"
+  },
+  {
+    "id": "B_055",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00024925_1793535125215950000_6dbf12.png"
+  },
+  {
+    "id": "B_056",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00026910_1793535191382115500_66fcd3.png"
+  },
+  {
+    "id": "B_057",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00028395_1793535240881942200_994de8.png"
+  },
+  {
+    "id": "B_058",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00028643_1793535249146940100_8d4693.png"
+  },
+  {
+    "id": "B_059",
+    "group": "B",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00028688_1793535250648646700_beae7b.png"
+  },
+  {
+    "id": "C_001",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00019092_1793536858410345000_77d412.png"
+  },
+  {
+    "id": "C_002",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00019320_1793536866008632600_4f0ed9.png"
+  },
+  {
+    "id": "C_003",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00019687_1793536878241230600_cfa4df.png"
+  },
+  {
+    "id": "C_004",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00021728_1793536946277288200_15b097.png"
+  },
+  {
+    "id": "C_005",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00021824_1793536949476715600_8b9e4a.png"
+  },
+  {
+    "id": "C_006",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00022215_1793536962510068400_3c4d87.png"
+  },
+  {
+    "id": "C_007",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00026541_1793537106712194200_fe9884.png"
+  },
+  {
+    "id": "C_008",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00026657_1793537110577518300_293c40.png"
+  },
+  {
+    "id": "C_009",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00026734_1793537113143336400_d11307.png"
+  },
+  {
+    "id": "C_010",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00028238_1793537163278119700_d92c0d.png"
+  },
+  {
+    "id": "C_011",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029282_1793537198078362600_be1310.png"
+  },
+  {
+    "id": "C_012",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029466_1793537204213048300_6f8be4.png"
+  },
+  {
+    "id": "C_013",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029739_1793537213310914100_a1db9e.png"
+  },
+  {
+    "id": "C_014",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029850_1793537217011971600_623dab.png"
+  },
+  {
+    "id": "C_015",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00029950_1793537220346707500_64738b.png"
+  },
+  {
+    "id": "C_016",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00030653_1793537243779138500_b72329.png"
+  },
+  {
+    "id": "C_017",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00030752_1793537247079881800_e8d419.png"
+  },
+  {
+    "id": "C_018",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00031071_1793537257713336500_d8803c.png"
+  },
+  {
+    "id": "C_019",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00031233_1793537263112313500_7c14c9.png"
+  },
+  {
+    "id": "C_020",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00032620_1793537309347799500_edd5a8.png"
+  },
+  {
+    "id": "C_021",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00032769_1793537314314356900_bdfc23.png"
+  },
+  {
+    "id": "C_022",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00033465_1793537337515102300_61ccdd.png"
+  },
+  {
+    "id": "C_023",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00033538_1793537339947811300_15dd63.png"
+  },
+  {
+    "id": "C_024",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00033722_1793537346081866200_40d575.png"
+  },
+  {
+    "id": "C_025",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00034082_1793537358081549800_371857.png"
+  },
+  {
+    "id": "C_026",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00034709_1793537378981441400_125248.png"
+  },
+  {
+    "id": "C_027",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00034807_1793537382247772300_dbce68.png"
+  },
+  {
+    "id": "C_028",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00035743_1793537413449211200_83e2ea.png"
+  },
+  {
+    "id": "C_029",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00035837_1793537416583330800_e16c73.png"
+  },
+  {
+    "id": "C_030",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036197_1793537428582147000_693013.png"
+  },
+  {
+    "id": "C_031",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036480_1793537438016353200_e0ac9b.png"
+  },
+  {
+    "id": "C_032",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036722_1793537446083541100_b54e2e.png"
+  },
+  {
+    "id": "C_033",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00036845_1793537450182753000_30c9c6.png"
+  },
+  {
+    "id": "C_034",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00037425_1793537469515539400_86519f.png"
+  },
+  {
+    "id": "C_035",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00037547_1793537473583041400_44adf7.png"
+  },
+  {
+    "id": "C_036",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038036_1793537489883359900_da773f.png"
+  },
+  {
+    "id": "C_037",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038209_1793537495649998300_6d64dd.png"
+  },
+  {
+    "id": "C_038",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038618_1793537509284243700_6e762d.png"
+  },
+  {
+    "id": "C_039",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00038959_1793537520651776200_53dfc3.png"
+  },
+  {
+    "id": "C_040",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00039283_1793537531451164300_e8c621.png"
+  },
+  {
+    "id": "C_041",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00039395_1793537535184744100_ecc48c.png"
+  },
+  {
+    "id": "C_042",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00039613_1793537542450864400_5382e4.png"
+  },
+  {
+    "id": "C_043",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040046_1793537556885205200_6d9aca.png"
+  },
+  {
+    "id": "C_044",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040171_1793537561051827000_5040dc.png"
+  },
+  {
+    "id": "C_045",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040294_1793537565151580100_811d78.png"
+  },
+  {
+    "id": "C_046",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00040516_1793537572551364700_13abe9.png"
+  },
+  {
+    "id": "C_047",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00041686_1793537611552281800_dd2999.png"
+  },
+  {
+    "id": "C_048",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00042157_1793537627252502800_716eb6.png"
+  },
+  {
+    "id": "C_049",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00042305_1793537632187001900_d71efc.png"
+  },
+  {
+    "id": "C_050",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00043103_1793537658787120100_11f42a.png"
+  },
+  {
+    "id": "C_051",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00043378_1793537667953217300_b0101d.png"
+  },
+  {
+    "id": "C_052",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00043963_1793537687453728900_dc7e68.png"
+  },
+  {
+    "id": "C_053",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00044701_1793537712053857100_12c944.png"
+  },
+  {
+    "id": "C_054",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00044916_1793537719220145100_5d9afe.png"
+  },
+  {
+    "id": "C_055",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00044991_1793537721720162600_46ab24.png"
+  },
+  {
+    "id": "C_056",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍12第一张.png"
+  },
+  {
+    "id": "C_057",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍12第三张.png"
+  },
+  {
+    "id": "C_058",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍12第二张.png"
+  },
+  {
+    "id": "C_059",
+    "group": "C",
+    "path": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\补拍杂物.png"
+  }
+]

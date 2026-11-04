@@ -1,0 +1,631 @@
+{
+  "source_annotation_sha256": "1a17020f4e5d5364f4582e7762e1c86dd1e74593424930f3857832cb49839a45",
+  "corrections": [
+    {
+      "id": "D_005",
+      "sha256": "f74a2cc2a8ee13c5173ac914c3c86a435b55f88387e68f5707f2a9545ca7b885",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          553.0,
+          244.0
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          562,
+          244
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "D_011",
+      "sha256": "a8a01929420338231bae568f96ae5c07d6cc0f69b0771bb652365dbf22ba3ad9",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          495.8,
+          249.9
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          507,
+          250
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "D_017",
+      "sha256": "dbf98e17d7d76c3346ec51fb3c8f44a89ef33ed0a153342aeebdc9a90952c686",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          452.0,
+          252.3
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          462,
+          252
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "D_023",
+      "sha256": "b359b70d01b407afff43b3dec44366661c52cddc968052f774ab8b902b41c743",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          544.9,
+          244.3
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          555,
+          244
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "D_029",
+      "sha256": "e56687799f2d028e3950b6543878fb506efe0ec2d232840203a3deff96cfeac2",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          588.5,
+          240.9
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          598,
+          242
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "D_035",
+      "sha256": "d9ade81df3e18dfa506c8bd743d461e87dbdcbbe50691a72813f297517383d58",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          471.5,
+          255.6
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          485,
+          257
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "D_041",
+      "sha256": "1e2eecaa14eacda5058384e5f32299b40ea0a5f606f6a70a5e5f4c68f52621b6",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          492.5,
+          260.7
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          507,
+          261
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "D_047",
+      "sha256": "f101955eff799d86461bed6b6a1bce87a5b3062ef2880536a154bc4b965a963d",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          516.2,
+          314.0
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          529,
+          315
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\D_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_005",
+      "sha256": "2093d0f9a450e3c1d2dac8b1e2a28de712914e463d13d5a2bdb0df6df201ec21",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          397.1,
+          265.3
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          409,
+          266
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_011",
+      "sha256": "398f7891897f8dc3e68678e7adbd8dd09b638b4877b922a308fa7271b08c7332",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          401.8,
+          270.0
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          414,
+          271
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_017",
+      "sha256": "160b27f33ea471a33c5ccca96842cda2d3cb50e78aebf92319e727e24322981c",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          393.8,
+          265.8
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          405,
+          266
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_023",
+      "sha256": "b72417dc78f9e2fd2e85094a406696e32ffc7ebf2130111938b943d31e813ef0",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          501.6,
+          258.6
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          513,
+          258
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_028",
+      "sha256": "232ac9a861d44976f4c995e71f7dc7f99bbcc2ad6c0959d25aa48d0ff5cf99e1",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          594.3,
+          261.3
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          606,
+          263
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_034",
+      "sha256": "91f133c67a03d38c3db34cc3f424fd71ee134522e15148d903521bb7b5f668d6",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          539.2,
+          258.3
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          551,
+          259
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_040",
+      "sha256": "1feb32cea42d06534e3791a61051e0727aeb42e9e6c9d06e61ca6965076e735f",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          442.7,
+          266.0
+        ],
+        "uncertainty_px": 4,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          455,
+          266
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "E_045",
+      "sha256": "5e8cf0866758e5e257a96db7b0cb441a486567bf213c5bb71461496c3e480297",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          555.3,
+          376.0
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          568,
+          375
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\E_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_005",
+      "sha256": "938d4339e33c8218845f4ccdd3ce3963c0569d5558645fafde4de7215c9bb4d6",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          339.0,
+          438.7
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          351,
+          440
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_011",
+      "sha256": "e6a2114fd1644c11b35f16ecea446af3cfa0b400ae11b74c1a2038e7cd171bd4",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          220.2,
+          449.1
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          233,
+          450
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_017",
+      "sha256": "44c76f00e954054a5dda250597842bfd9174a4ef66c42ff5678dfcfd7b2eb9d2",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          373.6,
+          428.2
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          385,
+          429
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_023",
+      "sha256": "d7e7b097e655e97b800d1d771ea200401bb81b4200ad6e24d2401ea8fb52946a",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          476.7,
+          425.8
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          489,
+          426
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_029",
+      "sha256": "ce119c694874547e60accafb0956cf6576112fe59e4cac6fa0cbb869ac5736a7",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          334.6,
+          479.0
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          347,
+          480
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_035",
+      "sha256": "ddb4696d16dacc4788337d201b319a69e902ae458d56ab15fbb84eb24f1a304a",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          342.2,
+          460.5
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          354,
+          460
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_041",
+      "sha256": "50cb7d5493b259af5fd10af963f41cd463ae0f413bae188571c82dcdce30d0f3",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          296.8,
+          454.9
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          310,
+          455
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    },
+    {
+      "id": "F_047",
+      "sha256": "96f74318148441f267ec885389fc33ca7f469500bf10629d0843bcb437de4597",
+      "keypoint": "hub",
+      "old_value": {
+        "visibility": "visible",
+        "xy": [
+          411.5,
+          410.3
+        ],
+        "uncertainty_px": 7,
+        "annotation_method": "AI_visual_review_of_print_registration_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          425,
+          411
+        ],
+        "uncertainty_px": 8,
+        "annotation_source": "AI_manual_native_visual_correction"
+      },
+      "reason": "Native-axis-cap grid visual review: printed-plane registration was left of the protruding mechanical axle cap center; corrected to the cap outline center, not a highlight or printed symbol.",
+      "evidence": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_review\\F_hub_grid.jpg",
+      "reviewer_claim": "AI visual estimate with explicit pixel uncertainty, not independent physical ground truth."
+    }
+  ],
+  "source_images_modified": false,
+  "trained": false
+}

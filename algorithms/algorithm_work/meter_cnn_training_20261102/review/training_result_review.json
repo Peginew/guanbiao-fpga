@@ -1,0 +1,106 @@
+{
+  "status": "PASS_EXECUTION_AND_REPORTING_MODEL_FAIL_NOT_DEPLOYABLE",
+  "checks": 293,
+  "failures": [],
+  "run": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\run_001",
+  "best_step": 1200,
+  "completed_steps": 2400,
+  "checkpoint_G_prediction_max_difference_roi": 0.0,
+  "best_checkpoint_sha256": "a4750a26dd380d435823ea58d9fc4ef2b2fdea1f26820cef31e52ffbdac87053",
+  "last_checkpoint_sha256": "1a87ff7bef575002fab89eb5b9fce58f398ecd83650cbcf5af8719d8b7e4f3ce",
+  "config_sha256": "d763670714283ecc6a7986d28d6763956ece38150062e9c3bd4a40133a73547e",
+  "validation_report_sha256": "475f06daa12228d0d773e80ce8aa39f6786d581b11b8dbb6694e5932cb0107d9",
+  "history_sha256": "dc7bd5f5f8291f0566ee92325f0760a0582225ef4dd406dabaab144067273668",
+  "training_receipt_sha256": "de510da124be8d43254370d9a36c4053cb3977b5c421d822b93649975add1d8d",
+  "validation_metrics_recomputed": {
+    "hub_n": 52,
+    "hub_mean_roi": 86.19917658900263,
+    "thin_n": 52,
+    "thin_mean_roi": 63.721655584917855,
+    "full_n": 50,
+    "angle_mean_deg": 121.87031821615022,
+    "within5": 0,
+    "evidence_accepted_full": 0,
+    "negatives": 3,
+    "negative_false_accepts": 0
+  },
+  "G001_convolution_activation_trace": {
+    "first": {
+      "min": -1.3915259838104248,
+      "max": 1.1508233547210693,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.4613032639026642
+    },
+    "local.0": {
+      "min": -0.6720978617668152,
+      "max": 0.44507843255996704,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.1985175609588623
+    },
+    "local.2": {
+      "min": -0.42764586210250854,
+      "max": 0.43656861782073975,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.04695509374141693
+    },
+    "downs.0.0": {
+      "min": -0.23861515522003174,
+      "max": 0.24111942946910858,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.0488615408539772
+    },
+    "downs.0.2": {
+      "min": -0.1433173269033432,
+      "max": 0.4858335554599762,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.014119462110102177
+    },
+    "downs.1.0": {
+      "min": -0.2805893123149872,
+      "max": 0.5593300461769104,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.09079509973526001
+    },
+    "downs.1.2": {
+      "min": -0.2511278986930847,
+      "max": 0.24384166300296783,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.02970249578356743
+    },
+    "downs.2.0": {
+      "min": -0.1974135935306549,
+      "max": 0.16573834419250488,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.03632917255163193
+    },
+    "downs.2.2": {
+      "min": -0.4050728678703308,
+      "max": 0.33089879155158997,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.004491216968744993
+    },
+    "context.0": {
+      "min": -0.2864583432674408,
+      "max": 0.5207917094230652,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.12402642518281937
+    },
+    "fuse": {
+      "min": -0.3800778388977051,
+      "max": -0.051115307956933975,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 0.023067472502589226
+    },
+    "head": {
+      "min": -3.067397356033325,
+      "max": -3.0659759044647217,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 4.76837158203125e-07
+    }
+  },
+  "deployment_decision": "FAIL: all 50 full-point G samples fail <=5deg, evidence coverage zero; training completion is not model success",
+  "diagnosis_scope": "Constant/near-constant heatmap evidence observed; activation trace helps diagnose dead path. Cause not proven solely by reporting audit.",
+  "test_H_pixels_or_labels_opened": false,
+  "optimizer_executed_by_reviewer": false,
+  "integer_or_board_READ_accepted": false
+}

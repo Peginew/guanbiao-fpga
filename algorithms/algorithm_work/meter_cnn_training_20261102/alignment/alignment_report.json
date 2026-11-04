@@ -1,0 +1,50 @@
+{
+  "status": "PASS_NUMERICAL_ALIGNMENT_VISUAL_REVIEW_PENDING",
+  "math_checks": {
+    "roundtrip_points": 1028,
+    "blockmean_pixel_checks": 65536,
+    "maximum_roundtrip_error_px": 1.4210854715202004e-14,
+    "status": "PASS",
+    "independent_algorithm": "explicit nested-pixel sum oracle, not reshape"
+  },
+  "partitions": {
+    "train": {
+      "records": 177,
+      "active_for_initial_weight_updates": 164,
+      "stride_counts": {
+        "3": 140,
+        "4": 32,
+        "2": 5
+      },
+      "available_proxy_policy": 175,
+      "analysis_only_proxy": 12,
+      "OSD_overlap_count": 91,
+      "outside_supervised_heads": [],
+      "maximum_native_roundtrip_error_px": 0.0,
+      "prepared_sha256": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+      "cache_sha256": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708"
+    },
+    "validation": {
+      "records": 59,
+      "active_for_initial_weight_updates": 0,
+      "stride_counts": {
+        "3": 46,
+        "4": 9,
+        "2": 4
+      },
+      "available_proxy_policy": 59,
+      "analysis_only_proxy": 2,
+      "OSD_overlap_count": 40,
+      "outside_supervised_heads": [],
+      "maximum_native_roundtrip_error_px": 0.0,
+      "prepared_sha256": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79",
+      "cache_sha256": "3657a5a2a13ec5fb00275ffe71289aec6a13c3ac8e5fc31ab160c94b343c6527"
+    }
+  },
+  "roi_adapter_sha256": "2f3bc1b8c640742f09a8ab2a7bed30707cd6064197c0da7430556e3338d45cc4",
+  "roi_contract_sha256": "20ca8fa2d0e9eebaabda541e0aaaa23c95b20da5bab4e2cdd840d9b6b899ecad",
+  "test_images_opened": 0,
+  "test_labels_opened": false,
+  "training_executed": false,
+  "caveat": "Numerical transform validation does not certify original manual annotation precision or actual automatic locator boxes"
+}

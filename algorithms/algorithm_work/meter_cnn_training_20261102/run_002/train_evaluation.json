@@ -1,0 +1,7682 @@
+{
+  "summary": {
+    "images": 164,
+    "validation_or_training_loss": 1.2301556447385504,
+    "hub_error_roi": {
+      "n": 149,
+      "mean": 2.546494310732101,
+      "median": 1.4540189142876017,
+      "p90": 3.952580198884843
+    },
+    "thin_terminal_error_roi": {
+      "n": 140,
+      "mean": 17.902311805406978,
+      "median": 9.841005908479115,
+      "p90": 51.92350664772993
+    },
+    "hub_error_native": {
+      "n": 149,
+      "mean": 7.9069445421039415,
+      "median": 4.561613375550249,
+      "p90": 12.001532937134968
+    },
+    "thin_terminal_error_native": {
+      "n": 140,
+      "mean": 56.041276228139644,
+      "median": 33.223080260773415,
+      "p90": 162.2313345784535
+    },
+    "angle_error_deg": {
+      "n": 134,
+      "mean": 25.77460482773514,
+      "median": 5.376194823201075,
+      "p90": 90.74480961460428
+    },
+    "bounded_full_point_count": 134,
+    "both_points_within_4roi": 45,
+    "within_5deg": 65,
+    "within_10deg": 80,
+    "approximately_180deg_wrong_direction": 0,
+    "evidence_accepted_full_points": 48,
+    "evidence_coverage": 0.3582089552238806,
+    "accepted_angle_error_deg": {
+      "n": 48,
+      "mean": 8.131127097285953,
+      "median": 1.8934555451929072,
+      "p90": 17.380230921963197
+    },
+    "accepted_over_10deg": 6,
+    "negative_count": 9,
+    "negative_evidence_false_accepts": 0,
+    "fixed_evidence_policy": {
+      "min_sigmoid_peak": 0.3,
+      "min_peak_margin": 0.02,
+      "endpoint_length_roi": [
+        18,
+        65
+      ],
+      "max_hub_center_distance_roi": 20
+    },
+    "pressure_error_computed": false,
+    "end_to_end_READ_or_FAR_claim": false
+  },
+  "rows": [
+    {
+      "id": "D_001",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.349941150680486,
+          62.1548525265991
+        ],
+        [
+          74.04797953738354,
+          29.622221098503115
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.0,
+          63.0
+        ],
+        [
+          74.96666717529297,
+          30.100000381469727
+        ]
+      ],
+      "peaks": [
+        0.6522930860519409,
+        0.4139474928379059
+      ],
+      "margins": [
+        0.26557737588882446,
+        0.24336634576320648
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 289.7774996605381,
+      "endpoint_length_roi": 34.571899134023816,
+      "hub_center_distance_roi": 1.7697618715790404,
+      "hub_error_roi": 1.0662320382423962,
+      "hub_error_native": 3.1986961147271886,
+      "thin_terminal_error_roi": 1.0354998885947286,
+      "thin_terminal_error_native": 3.106499665784186,
+      "reference_angle_deg": 289.98776836354875,
+      "angle_error_deg": 0.21026870301062672
+    },
+    {
+      "id": "D_002",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.56267759013379,
+          64.2040437984835
+        ],
+        [
+          74.03487629294892,
+          20.420679195554303
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.07500076293945,
+          64.25
+        ],
+        [
+          76.1500015258789,
+          22.725000381469727
+        ]
+      ],
+      "peaks": [
+        0.715709388256073,
+        0.5084583163261414
+      ],
+      "margins": [
+        0.31968122720718384,
+        0.24650153517723083
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 283.4514170951916,
+      "endpoint_length_roi": 45.01832917406283,
+      "hub_center_distance_roi": 0.7068282326619739,
+      "hub_error_roi": 0.48983738142383393,
+      "hub_error_native": 1.9593495256953357,
+      "thin_terminal_error_roi": 3.1278828109179186,
+      "thin_terminal_error_native": 12.511531243671675,
+      "reference_angle_deg": 287.47768127234565,
+      "angle_error_deg": 4.026264177154076
+    },
+    {
+      "id": "D_003",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.47962201302302,
+          63.533070210997515
+        ],
+        [
+          73.91654826138021,
+          28.06705971648072
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.0999984741211,
+          62.599998474121094
+        ],
+        [
+          73.76667022705078,
+          29.299999237060547
+        ]
+      ],
+      "peaks": [
+        0.41078782081604004,
+        0.2258365899324417
+      ],
+      "margins": [
+        0.16001954674720764,
+        0.016540229320526123
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 284.90022707244043,
+      "endpoint_length_roi": 36.700047376183434,
+      "hub_center_distance_roi": 0.9801800483863619,
+      "hub_error_roi": 1.0073414999125185,
+      "hub_error_native": 3.0220244997375554,
+      "thin_terminal_error_roi": 1.2420158157535945,
+      "thin_terminal_error_native": 3.7260474472607834,
+      "reference_angle_deg": 286.18750838175083,
+      "angle_error_deg": 1.2872813093104014
+    },
+    {
+      "id": "D_004",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.576460174896894,
+          62.142085124361344
+        ],
+        [
+          28.01774428104722,
+          55.982551257396054
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.96666717529297,
+          63.13333511352539
+        ],
+        [
+          72.53333282470703,
+          30.0
+        ]
+      ],
+      "peaks": [
+        0.3663502037525177,
+        0.12295305728912354
+      ],
+      "margins": [
+        0.16227756440639496,
+        0.00046859681606292725
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 189.8273427933658,
+      "endpoint_length_roi": 36.08825478570292,
+      "hub_center_distance_roi": 1.3600657954032995,
+      "hub_error_roi": 1.1637972518371382,
+      "hub_error_native": 3.4913917555114145,
+      "thin_terminal_error_roi": 51.54348254853983,
+      "thin_terminal_error_native": 154.63044764561948,
+      "reference_angle_deg": 286.10513963999404,
+      "angle_error_deg": 96.27779684662823
+    },
+    {
+      "id": "D_005",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.76093606890291,
+          60.63676869646998
+        ],
+        [
+          75.97026117470486,
+          29.88437852981365
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.33333587646484,
+          62.66666793823242
+        ],
+        [
+          76.9000015258789,
+          30.799999237060547
+        ]
+      ],
+      "peaks": [
+        0.6829375624656677,
+        0.45303890109062195
+      ],
+      "margins": [
+        0.3360745906829834,
+        0.17118346691131592
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 284.9465278889497,
+      "endpoint_length_roi": 31.829271428278265,
+      "hub_center_distance_roi": 5.133582538616866,
+      "hub_error_roi": 2.109059617792888,
+      "hub_error_native": 6.327178853378665,
+      "thin_terminal_error_roi": 1.3049055138746828,
+      "thin_terminal_error_native": 3.914716541624048,
+      "reference_angle_deg": 285.04699021614744,
+      "angle_error_deg": 0.10046232719776071
+    },
+    {
+      "id": "D_006",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.29089100033203,
+          63.24280303014738
+        ],
+        [
+          68.17600994369221,
+          28.36156434720134
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.53333282470703,
+          63.16666793823242
+        ],
+        [
+          68.03333282470703,
+          28.46666717529297
+        ]
+      ],
+      "peaks": [
+        0.5198354125022888,
+        0.3798116147518158
+      ],
+      "margins": [
+        0.344640851020813,
+        0.1838386058807373
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 281.16592986897786,
+      "endpoint_length_roi": 35.55426380788762,
+      "hub_center_distance_roi": 2.2240307672591633,
+      "hub_error_roi": 1.2447723644012894,
+      "hub_error_native": 3.734317093203868,
+      "thin_terminal_error_roi": 0.177209945417204,
+      "thin_terminal_error_native": 0.531629836251612,
+      "reference_angle_deg": 279.006539277663,
+      "angle_error_deg": 2.159390591314832
+    },
+    {
+      "id": "D_007",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.52643638323192,
+          60.30751986544312
+        ],
+        [
+          64.33990439387931,
+          25.592464032741628
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.900001525878906,
+          62.63333511352539
+        ],
+        [
+          64.80000305175781,
+          25.899999618530273
+        ]
+      ],
+      "peaks": [
+        0.7050330638885498,
+        0.4816736578941345
+      ],
+      "margins": [
+        0.5999079346656799,
+        0.32260990142822266
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 271.34235001855217,
+      "endpoint_length_roi": 34.72458540676805,
+      "hub_center_distance_roi": 3.1925895902697397,
+      "hub_error_roi": 2.3556246483709717,
+      "hub_error_native": 7.066873945112915,
+      "thin_terminal_error_roi": 0.553415676962594,
+      "thin_terminal_error_native": 1.660247030887782,
+      "reference_angle_deg": 271.4035200902734,
+      "angle_error_deg": 0.061170071721221575
+    },
+    {
+      "id": "D_008",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.93341973700196,
+          64.13949866780784
+        ],
+        [
+          66.33695246129263,
+          18.40450016954794
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.79999923706055,
+          63.0
+        ],
+        [
+          67.2750015258789,
+          20.174999237060547
+        ]
+      ],
+      "peaks": [
+        0.650597333908081,
+        0.575777530670166
+      ],
+      "margins": [
+        0.41185462474823,
+        0.21708804368972778
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 274.2560241743337,
+      "endpoint_length_roi": 45.86146664293623,
+      "hub_center_distance_roi": 0.8543838367776692,
+      "hub_error_roi": 1.147282983287238,
+      "hub_error_native": 4.589131933148952,
+      "thin_terminal_error_roi": 2.0036474229849435,
+      "thin_terminal_error_native": 8.014589691939774,
+      "reference_angle_deg": 275.96547767881356,
+      "angle_error_deg": 1.7094535044798818
+    },
+    {
+      "id": "D_009",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.08800547276176,
+          64.05760455878824
+        ],
+        [
+          23.948460541511473,
+          77.50860296032697
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.233333587646484,
+          62.79999923706055
+        ],
+        [
+          65.53333282470703,
+          30.100000381469727
+        ]
+      ],
+      "peaks": [
+        0.46495452523231506,
+        0.17020684480667114
+      ],
+      "margins": [
+        0.2799797058105469,
+        0.006708040833473206
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 161.4736952127425,
+      "endpoint_length_roi": 42.33334885508183,
+      "hub_center_distance_roi": 0.8103537992625297,
+      "hub_error_roi": 1.520537791850083,
+      "hub_error_native": 4.561613375550249,
+      "thin_terminal_error_roi": 63.06248648197845,
+      "thin_terminal_error_native": 189.18745944593536,
+      "reference_angle_deg": 274.02335112916245,
+      "angle_error_deg": 112.54965591641994
+    },
+    {
+      "id": "D_010",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.41027945837384,
+          62.32536690397578
+        ],
+        [
+          65.8066736422932,
+          38.15155686977676
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.93333435058594,
+          62.599998474121094
+        ],
+        [
+          67.5,
+          26.899999618530273
+        ]
+      ],
+      "peaks": [
+        0.5644366145133972,
+        0.1347092241048813
+      ],
+      "margins": [
+        0.49639490246772766,
+        0.006690859794616699
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 273.30600274088715,
+      "endpoint_length_roi": 24.21410762936402,
+      "hub_center_distance_roi": 1.486059084495908,
+      "hub_error_roi": 0.5503627305362275,
+      "hub_error_native": 1.6510881916086826,
+      "thin_terminal_error_roi": 11.37826413526167,
+      "thin_terminal_error_native": 34.13479240578501,
+      "reference_angle_deg": 275.705294875549,
+      "angle_error_deg": 2.3992921346618346
+    },
+    {
+      "id": "D_011",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.47605703321754,
+          60.61569777599107
+        ],
+        [
+          68.19372884998006,
+          28.206520224629937
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.66666412353516,
+          62.66666793823242
+        ],
+        [
+          69.36666870117188,
+          29.066667556762695
+        ]
+      ],
+      "peaks": [
+        0.6501144170761108,
+        0.41023167967796326
+      ],
+      "margins": [
+        0.21059435606002808,
+        0.1361948847770691
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 271.26855570297016,
+      "endpoint_length_roi": 32.41712267293669,
+      "hub_center_distance_roi": 4.912049353459464,
+      "hub_error_roi": 2.371502445691102,
+      "hub_error_native": 7.114507337073306,
+      "thin_terminal_error_roi": 1.4545244334451637,
+      "thin_terminal_error_native": 4.363573300335491,
+      "reference_angle_deg": 271.1934972129798,
+      "angle_error_deg": 0.07505848999034015
+    },
+    {
+      "id": "D_012",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.737816868616605,
+          62.415957086661024
+        ],
+        [
+          61.85238084417423,
+          28.014931537683765
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.53333282470703,
+          62.599998474121094
+        ],
+        [
+          60.400001525878906,
+          28.133333206176758
+        ]
+      ],
+      "peaks": [
+        0.6355872750282288,
+        0.21583721041679382
+      ],
+      "margins": [
+        0.5049722194671631,
+        0.05171051621437073
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 271.85568541019455,
+      "endpoint_length_roi": 34.41907627576598,
+      "hub_center_distance_roi": 2.9672891145386275,
+      "hub_error_roi": 1.804923483384696,
+      "hub_error_native": 5.414770450154088,
+      "thin_terminal_error_roi": 1.4571975292711374,
+      "thin_terminal_error_native": 4.371592587813412,
+      "reference_angle_deg": 266.4581677504737,
+      "angle_error_deg": 5.397517659720847
+    },
+    {
+      "id": "D_013",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.490988452774694,
+          62.204468482839395
+        ],
+        [
+          51.911505217237384,
+          27.91469911255962
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.266666412353516,
+          63.16666793823242
+        ],
+        [
+          53.03333282470703,
+          28.53333282470703
+        ]
+      ],
+      "peaks": [
+        0.6851490139961243,
+        0.27577391266822815
+      ],
+      "margins": [
+        0.5365867614746094,
+        0.0020797550678253174
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 251.34043230937448,
+      "endpoint_length_roi": 36.19216373013731,
+      "hub_center_distance_roi": 1.2955628583514778,
+      "hub_error_roi": 0.9880021102089598,
+      "hub_error_native": 2.964006330626879,
+      "thin_terminal_error_roi": 1.2810951762794045,
+      "thin_terminal_error_native": 3.8432855288382135,
+      "reference_angle_deg": 253.5388329311053,
+      "angle_error_deg": 2.1984006217308263
+    },
+    {
+      "id": "D_014",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.953493718752846,
+          63.94145881170948
+        ],
+        [
+          53.83521149070215,
+          24.054430674663045
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.20000076293945,
+          62.875
+        ],
+        [
+          54.45000076293945,
+          24.350000381469727
+        ]
+      ],
+      "peaks": [
+        0.7257676124572754,
+        0.5356228947639465
+      ],
+      "margins": [
+        0.6714729070663452,
+        0.13128742575645447
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 255.7658330289802,
+      "endpoint_length_roi": 41.15039062818263,
+      "hub_center_distance_roi": 0.6328842195727682,
+      "hub_error_roi": 1.3057894284811777,
+      "hub_error_native": 5.223157713924711,
+      "thin_terminal_error_roi": 0.6821490312533326,
+      "thin_terminal_error_native": 2.7285961250133304,
+      "reference_angle_deg": 257.20376923503477,
+      "angle_error_deg": 1.4379362060545589
+    },
+    {
+      "id": "D_015",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.05311799845094,
+          65.1816025116619
+        ],
+        [
+          39.745669663710316,
+          32.22976663348833
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.96666717529297,
+          64.03333282470703
+        ],
+        [
+          55.83333206176758,
+          33.20000076293945
+        ]
+      ],
+      "peaks": [
+        0.36183303594589233,
+        0.22566254436969757
+      ],
+      "margins": [
+        0.09530434012413025,
+        0.051434457302093506
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 233.58506621777542,
+      "endpoint_length_roi": 40.94722862768824,
+      "hub_center_distance_roi": 1.7702334669297055,
+      "hub_error_roi": 1.5807905190505342,
+      "hub_error_native": 4.7423715571516025,
+      "thin_terminal_error_roi": 16.11689286741763,
+      "thin_terminal_error_native": 48.350678602252884,
+      "reference_angle_deg": 256.97371692858684,
+      "angle_error_deg": 23.38865071081142
+    },
+    {
+      "id": "D_016",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.26717816591959,
+          60.48933435862742
+        ],
+        [
+          59.899887328317085,
+          44.19685116554243
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.0999984741211,
+          62.266666412353516
+        ],
+        [
+          56.86666488647461,
+          32.099998474121094
+        ]
+      ],
+      "peaks": [
+        0.6605409979820251,
+        0.23187221586704254
+      ],
+      "margins": [
+        0.4152299165725708,
+        0.027896568179130554
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 254.99431355528134,
+      "endpoint_length_roi": 16.86766841792794,
+      "hub_center_distance_roi": 3.1068746261162725,
+      "hub_error_roi": 1.785177380136795,
+      "hub_error_native": 5.355532140410385,
+      "thin_terminal_error_roi": 12.471338477470828,
+      "thin_terminal_error_native": 37.414015432412484,
+      "reference_angle_deg": 256.51623984860146,
+      "angle_error_deg": 1.5219262933201207
+    },
+    {
+      "id": "D_017",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.75673284755256,
+          77.15190147232411
+        ],
+        [
+          61.7794184596348,
+          41.82033612946372
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.33333587646484,
+          62.0
+        ],
+        [
+          59.79999923706055,
+          31.233333587646484
+        ]
+      ],
+      "peaks": [
+        0.6467519402503967,
+        0.2960536479949951
+      ],
+      "margins": [
+        0.09978348016738892,
+        0.08283555507659912
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 258.82890911076595,
+      "endpoint_length_roi": 36.01391988724163,
+      "hub_center_distance_roi": 14.629000445709996,
+      "hub_error_roi": 15.157815912002095,
+      "hub_error_native": 45.473447736006285,
+      "thin_terminal_error_roi": 10.770456038587271,
+      "thin_terminal_error_native": 32.311368115761816,
+      "reference_angle_deg": 254.49829684685477,
+      "angle_error_deg": 4.330612263911178
+    },
+    {
+      "id": "D_018",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.65231721651418,
+          63.961046816026965
+        ],
+        [
+          55.83567366548013,
+          42.050071860696484
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.79999923706055,
+          63.36666488647461
+        ],
+        [
+          54.0,
+          33.13333511352539
+        ]
+      ],
+      "peaks": [
+        0.6090875864028931,
+        0.1671743094921112
+      ],
+      "margins": [
+        0.406235933303833,
+        0.008839517831802368
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 255.132767680666,
+      "endpoint_length_roi": 22.669895581870364,
+      "hub_center_distance_roi": 1.9043360614551517,
+      "hub_error_roi": 1.2924642735734626,
+      "hub_error_native": 3.877392820720388,
+      "thin_terminal_error_roi": 9.103729566748378,
+      "thin_terminal_error_native": 27.311188700245133,
+      "reference_angle_deg": 253.77133466240736,
+      "angle_error_deg": 1.3614330182586514
+    },
+    {
+      "id": "D_019",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.59245567293502,
+          60.219211727539815
+        ],
+        [
+          43.838465684378576,
+          38.00614076687465
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.56666564941406,
+          63.03333282470703
+        ],
+        [
+          42.266666412353516,
+          36.400001525878906
+        ]
+      ],
+      "peaks": [
+        0.6510801911354065,
+        0.4736432135105133
+      ],
+      "margins": [
+        0.41643449664115906,
+        0.2390134334564209
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 228.35344048996038,
+      "endpoint_length_roi": 29.726093621119038,
+      "hub_center_distance_roi": 3.2820907574547897,
+      "hub_error_roi": 2.814239271070395,
+      "hub_error_native": 8.442717813211186,
+      "thin_terminal_error_roi": 2.247273061513642,
+      "thin_terminal_error_native": 6.741819184540926,
+      "reference_angle_deg": 231.34893672397308,
+      "angle_error_deg": 2.9954962340127054
+    },
+    {
+      "id": "D_020",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.01970408915611,
+          63.50996486245756
+        ],
+        [
+          41.86044855203593,
+          33.72703060846801
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.54999923706055,
+          63.525001525878906
+        ],
+        [
+          39.57500076293945,
+          29.799999237060547
+        ]
+      ],
+      "peaks": [
+        0.6534287929534912,
+        0.34342193603515625
+      ],
+      "margins": [
+        0.32760974764823914,
+        0.11236013472080231
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 234.6081484046465,
+      "endpoint_length_roi": 36.53405627168457,
+      "hub_center_distance_roi": 0.480399271915729,
+      "hub_error_roi": 0.53050828941482,
+      "hub_error_native": 2.12203315765928,
+      "thin_terminal_error_roi": 4.543660087275939,
+      "thin_terminal_error_native": 18.174640349103758,
+      "reference_angle_deg": 234.59109819630686,
+      "angle_error_deg": 0.017050208339639994
+    },
+    {
+      "id": "D_021",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.45189879725031,
+          62.45773785275703
+        ],
+        [
+          39.71300023922837,
+          32.07116079295719
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.26667022705078,
+          63.29999923706055
+        ],
+        [
+          45.400001525878906,
+          36.266666412353516
+        ]
+      ],
+      "peaks": [
+        0.40953513979911804,
+        0.2489519715309143
+      ],
+      "margins": [
+        0.09483656287193298,
+        0.05522102117538452
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 229.73378926732545,
+      "endpoint_length_roi": 39.82254341941631,
+      "hub_center_distance_roi": 2.212740223858809,
+      "hub_error_roi": 1.4540189142876017,
+      "hub_error_native": 4.362056742862805,
+      "thin_terminal_error_roi": 7.067124665431551,
+      "thin_terminal_error_native": 21.201373996294656,
+      "reference_angle_deg": 235.08866125400675,
+      "angle_error_deg": 5.354871986681303
+    },
+    {
+      "id": "D_022",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.31916793043388,
+          62.08379277893228
+        ],
+        [
+          45.50119140413458,
+          37.76662393321181
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.66666793823242,
+          63.266666412353516
+        ],
+        [
+          44.33333206176758,
+          35.63333511352539
+        ]
+      ],
+      "peaks": [
+        0.6747359037399292,
+        0.2648746371269226
+      ],
+      "margins": [
+        0.37391164898872375,
+        0.06743457913398743
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 232.26530432437357,
+      "endpoint_length_roi": 30.748023370871003,
+      "hub_center_distance_roi": 1.6360559254670002,
+      "hub_error_roi": 1.35090572301181,
+      "hub_error_native": 4.0527171690354304,
+      "thin_terminal_error_roi": 2.432039603245179,
+      "thin_terminal_error_native": 7.296118809735537,
+      "reference_angle_deg": 235.02189228270572,
+      "angle_error_deg": 2.7565879583321475
+    },
+    {
+      "id": "D_023",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.35325611945312,
+          61.58823098719415
+        ],
+        [
+          49.75854569912224,
+          35.97944660706132
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.66666412353516,
+          62.0
+        ],
+        [
+          49.56666564941406,
+          34.53333282470703
+        ]
+      ],
+      "peaks": [
+        0.5743438005447388,
+        0.3542659282684326
+      ],
+      "margins": [
+        0.2892336845397949,
+        0.06503239274024963
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 235.50869202924878,
+      "endpoint_length_roi": 31.07062394293741,
+      "hub_center_distance_roi": 4.301446672972661,
+      "hub_error_roi": 1.3764426268805605,
+      "hub_error_native": 4.129327880641681,
+      "thin_terminal_error_roi": 1.4587882042952767,
+      "thin_terminal_error_native": 4.37636461288583,
+      "reference_angle_deg": 235.18570121327397,
+      "angle_error_deg": 0.32299081597480495
+    },
+    {
+      "id": "D_024",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.39512052789646,
+          63.45724680272726
+        ],
+        [
+          45.3399611170788,
+          38.006333872029245
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.099998474121094,
+          62.86666488647461
+        ],
+        [
+          43.63333511352539,
+          36.5
+        ]
+      ],
+      "peaks": [
+        0.5820441842079163,
+        0.3336043059825897
+      ],
+      "margins": [
+        0.1744827926158905,
+        0.14512355625629425
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 236.17317961056418,
+      "endpoint_length_roi": 30.63702713277471,
+      "hub_center_distance_roi": 1.1057063279880603,
+      "hub_error_roi": 0.9195868196524534,
+      "hub_error_native": 2.75876045895736,
+      "thin_terminal_error_roi": 2.2763158941648016,
+      "thin_terminal_error_native": 6.828947682494405,
+      "reference_angle_deg": 233.5613305039427,
+      "angle_error_deg": 2.611849106621463
+    },
+    {
+      "id": "D_025",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.3380295427159,
+          62.00563529458831
+        ],
+        [
+          32.51841363898921,
+          42.27989071647423
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.03333282470703,
+          62.83333206176758
+        ],
+        [
+          32.0,
+          42.46666717529297
+        ]
+      ],
+      "peaks": [
+        0.7191024422645569,
+        0.28675755858421326
+      ],
+      "margins": [
+        0.5471823811531067,
+        0.0941687673330307
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 211.79576863823547,
+      "endpoint_length_roi": 37.43785457824331,
+      "hub_center_distance_roi": 1.7133065654589643,
+      "hub_error_roi": 0.8819988822920298,
+      "hub_error_native": 2.6459966468760894,
+      "thin_terminal_error_roi": 0.5510337073708855,
+      "thin_terminal_error_native": 1.6531011221126566,
+      "reference_angle_deg": 212.4480375083709,
+      "angle_error_deg": 0.6522688701354298
+    },
+    {
+      "id": "D_026",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.701625214642924,
+          62.40678749428118
+        ],
+        [
+          41.98129132994875,
+          33.95049018296857
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.900001525878906,
+          63.099998474121094
+        ],
+        [
+          27.274999618530273,
+          40.275001525878906
+        ]
+      ],
+      "peaks": [
+        0.4405944049358368,
+        0.3155670166015625
+      ],
+      "margins": [
+        0.11737453937530518,
+        0.02628311514854431
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 232.64596124565162,
+      "endpoint_length_roi": 35.79851618059624,
+      "hub_center_distance_roi": 1.111650264174763,
+      "hub_error_roi": 0.7210371858858633,
+      "hub_error_native": 2.884148743543453,
+      "thin_terminal_error_roi": 16.008574565773724,
+      "thin_terminal_error_native": 64.0342982630949,
+      "reference_angle_deg": 211.9314938306057,
+      "angle_error_deg": 20.71446741504593
+    },
+    {
+      "id": "D_027",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.85573278699304,
+          66.2835241220073
+        ],
+        [
+          35.963979621848246,
+          38.17517341220497
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.93333435058594,
+          63.16666793823242
+        ],
+        [
+          38.86666488647461,
+          45.266666412353516
+        ]
+      ],
+      "peaks": [
+        0.4468090832233429,
+        0.3384834825992584
+      ],
+      "margins": [
+        0.17877766489982605,
+        0.04971921443939209
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 223.23880919821283,
+      "endpoint_length_roi": 41.03164981951358,
+      "hub_center_distance_roi": 3.6465714721516824,
+      "hub_error_roi": 3.662022421918815,
+      "hub_error_native": 10.986067265756445,
+      "thin_terminal_error_roi": 7.662561889905676,
+      "thin_terminal_error_native": 22.98768566971703,
+      "reference_angle_deg": 215.53046915490765,
+      "angle_error_deg": 7.708340043305185
+    },
+    {
+      "id": "D_028",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.49383302060015,
+          62.01966829385365
+        ],
+        [
+          25.638032059856904,
+          75.78726168559326
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.86666488647461,
+          63.29999923706055
+        ],
+        [
+          37.599998474121094,
+          44.70000076293945
+        ]
+      ],
+      "peaks": [
+        0.6448981165885925,
+        0.2200557291507721
+      ],
+      "margins": [
+        0.4475235939025879,
+        0.002864435315132141
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 160.48947580489337,
+      "endpoint_length_roi": 41.22280795992879,
+      "hub_center_distance_roi": 1.782999167991221,
+      "hub_error_roi": 1.4256883223887253,
+      "hub_error_native": 4.277064967166176,
+      "thin_terminal_error_roi": 33.30925445231615,
+      "thin_terminal_error_native": 99.92776335694845,
+      "reference_angle_deg": 215.30314108805655,
+      "angle_error_deg": 54.813665283163175
+    },
+    {
+      "id": "D_029",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.17891539589546,
+          62.02725108349412
+        ],
+        [
+          45.62397160885841,
+          43.98309727900333
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.33333587646484,
+          63.33333206176758
+        ],
+        [
+          42.29999923706055,
+          41.86666488647461
+        ]
+      ],
+      "peaks": [
+        0.6547411680221558,
+        0.2787846624851227
+      ],
+      "margins": [
+        0.5025241374969482,
+        0.03274586796760559
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 219.9334987269455,
+      "endpoint_length_roi": 28.110622337160137,
+      "hub_center_distance_roi": 3.962752561191006,
+      "hub_error_roi": 1.7431391705098591,
+      "hub_error_native": 5.229417511529578,
+      "thin_terminal_error_roi": 3.9405682839687444,
+      "thin_terminal_error_native": 11.821704851906233,
+      "reference_angle_deg": 219.50843867774574,
+      "angle_error_deg": 0.42506004919974316
+    },
+    {
+      "id": "D_030",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.731782066491796,
+          63.76051868893776
+        ],
+        [
+          39.57026501996227,
+          44.08108867094118
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.56666564941406,
+          63.36666488647461
+        ],
+        [
+          37.233333587646484,
+          42.63333511352539
+        ]
+      ],
+      "peaks": [
+        0.6959758400917053,
+        0.2622174620628357
+      ],
+      "margins": [
+        0.5947263836860657,
+        0.041195765137672424
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 222.92169156210304,
+      "endpoint_length_roi": 28.897919813436133,
+      "hub_center_distance_roi": 2.7804496964847756,
+      "hub_error_roi": 1.8766775377225398,
+      "hub_error_native": 5.63003261316762,
+      "thin_terminal_error_roi": 2.7490432667303693,
+      "thin_terminal_error_native": 8.247129800191107,
+      "reference_angle_deg": 219.2976131902103,
+      "angle_error_deg": 3.624078371892722
+    },
+    {
+      "id": "D_031",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.36602492740947,
+          62.332666946795776
+        ],
+        [
+          42.12719505315491,
+          52.0547369344184
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.53333282470703,
+          63.233333587646484
+        ],
+        [
+          30.366666793823242,
+          54.20000076293945
+        ]
+      ],
+      "peaks": [
+        0.7917677164077759,
+        0.22861318290233612
+      ],
+      "margins": [
+        0.5791297554969788,
+        0.035079240798950195
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 204.804560201953,
+      "endpoint_length_roi": 24.49900813329725,
+      "hub_center_distance_roi": 1.4535011633974269,
+      "hub_error_roi": 1.2266118113911622,
+      "hub_error_native": 3.6798354341734862,
+      "thin_terminal_error_roi": 11.954588317148335,
+      "thin_terminal_error_native": 35.863764951445006,
+      "reference_angle_deg": 195.2356264890241,
+      "angle_error_deg": 9.568933712928896
+    },
+    {
+      "id": "D_032",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.02132532475831,
+          62.20652239394621
+        ],
+        [
+          36.280074317901665,
+          47.82612919739525
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.5,
+          63.224998474121094
+        ],
+        [
+          22.225000381469727,
+          50.32500076293945
+        ]
+      ],
+      "peaks": [
+        0.5219911336898804,
+        0.2667447030544281
+      ],
+      "margins": [
+        0.2223019003868103,
+        0.026947245001792908
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 206.58062660236757,
+      "endpoint_length_roi": 32.13806493749347,
+      "hub_center_distance_roi": 1.996876325943502,
+      "hub_error_roi": 1.8307714957469081,
+      "hub_error_native": 7.3230859829876325,
+      "thin_terminal_error_roi": 14.275484666366104,
+      "thin_terminal_error_native": 57.10193866546442,
+      "reference_angle_deg": 197.3559978816342,
+      "angle_error_deg": 9.224628720733364
+    },
+    {
+      "id": "D_033",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.52552600683879,
+          64.10817292012999
+        ],
+        [
+          36.06052475947838,
+          33.99275891975368
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.63333511352539,
+          62.86666488647461
+        ],
+        [
+          31.600000381469727,
+          56.53333282470703
+        ]
+      ],
+      "peaks": [
+        0.42185598611831665,
+        0.22802722454071045
+      ],
+      "margins": [
+        0.10070469975471497,
+        0.032407939434051514
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 226.6137932356101,
+      "endpoint_length_roi": 41.43904507136103,
+      "hub_center_distance_roi": 1.1922994135208436,
+      "hub_error_roi": 1.5288383785548436,
+      "hub_error_native": 4.586515135664531,
+      "thin_terminal_error_roi": 22.97767938003038,
+      "thin_terminal_error_native": 68.93303814009114,
+      "reference_angle_deg": 191.1837531213464,
+      "angle_error_deg": 35.430040114263704
+    },
+    {
+      "id": "D_034",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.45972965266346,
+          61.60688590556561
+        ],
+        [
+          39.9111968760193,
+          35.985728470244375
+        ]
+      ],
+      "target_points_roi": [
+        [
+          65.06666564941406,
+          62.03333282470703
+        ],
+        null
+      ],
+      "peaks": [
+        0.36632800102233887,
+        0.21773670613765717
+      ],
+      "margins": [
+        0.2616124451160431,
+        0.025006622076034546
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 225.0813193048371,
+      "endpoint_length_roi": 36.18247138276734,
+      "hub_center_distance_roi": 2.7247791261081256,
+      "hub_error_roi": 0.5799623138581047,
+      "hub_error_native": 1.7398869415743141
+    },
+    {
+      "id": "D_035",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.49279906662464,
+          61.992262184215406
+        ],
+        [
+          45.50478247622763,
+          53.91396424299441
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          63.0
+        ],
+        [
+          35.56666564941406,
+          52.93333435058594
+        ]
+      ],
+      "peaks": [
+        0.7251247763633728,
+        0.3091932237148285
+      ],
+      "margins": [
+        0.6027146577835083,
+        0.0696239024400711
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 200.17310397052887,
+      "endpoint_length_roi": 23.425024465445272,
+      "hub_center_distance_roi": 4.26798754773084,
+      "hub_error_roi": 2.0983591812983433,
+      "hub_error_native": 6.2950775438950295,
+      "thin_terminal_error_roi": 9.986380778304024,
+      "thin_terminal_error_native": 29.959142334912073,
+      "reference_angle_deg": 196.60059848521027,
+      "angle_error_deg": 3.572505485318601
+    },
+    {
+      "id": "D_036",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.377336443973874,
+          64.02724720933783
+        ],
+        [
+          29.56970558588132,
+          76.00341921287851
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.70000076293945,
+          63.16666793823242
+        ],
+        [
+          34.06666564941406,
+          55.599998474121094
+        ]
+      ],
+      "peaks": [
+        0.5468674302101135,
+        0.1596280336380005
+      ],
+      "margins": [
+        0.33807122707366943,
+        0.020055115222930908
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 159.94578077355058,
+      "endpoint_length_roi": 34.92519632556499,
+      "hub_center_distance_roi": 1.240307655295151,
+      "hub_error_roi": 0.9190804886351553,
+      "hub_error_native": 2.757241465905466,
+      "thin_terminal_error_roi": 20.89311435989773,
+      "thin_terminal_error_native": 62.67934307969319,
+      "reference_angle_deg": 194.80264851714546,
+      "angle_error_deg": 34.856867743594876
+    },
+    {
+      "id": "D_037",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.14195280148809,
+          61.979142796593216
+        ],
+        [
+          43.944578464960934,
+          53.607262672719806
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.46666717529297,
+          62.46666717529297
+        ],
+        [
+          23.53333282470703,
+          66.76667022705078
+        ]
+      ],
+      "peaks": [
+        0.612943708896637,
+        0.23207086324691772
+      ],
+      "margins": [
+        0.49180176854133606,
+        0.045668020844459534
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 202.5141725508596,
+      "endpoint_length_roi": 21.863721250013967,
+      "hub_center_distance_roi": 1.6507907294665516,
+      "hub_error_roi": 0.8328809619461324,
+      "hub_error_native": 2.498642885838397,
+      "thin_terminal_error_roi": 24.285570937652817,
+      "thin_terminal_error_native": 72.85671281295845,
+      "reference_angle_deg": 173.85409752030418,
+      "angle_error_deg": 28.66007503055542
+    },
+    {
+      "id": "D_038",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.41268372945159,
+          65.52538244453093
+        ],
+        [
+          35.91313149193986,
+          64.27353986672072
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.32499694824219,
+          63.900001525878906
+        ],
+        [
+          13.800000190734863,
+          69.82499694824219
+        ]
+      ],
+      "peaks": [
+        0.5328521132469177,
+        0.3476926386356354
+      ],
+      "margins": [
+        0.04926878213882446,
+        0.08427932858467102
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 182.51509988678964,
+      "endpoint_length_roi": 28.5270325757566,
+      "hub_center_distance_roi": 2.2215232694301803,
+      "hub_error_roi": 1.6277444831167367,
+      "hub_error_native": 6.510977932466947,
+      "thin_terminal_error_roi": 22.799325684596614,
+      "thin_terminal_error_native": 91.19730273838645,
+      "reference_angle_deg": 173.31155243290405,
+      "angle_error_deg": 9.20354745388559
+    },
+    {
+      "id": "D_039",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.00890425167283,
+          65.69080320495056
+        ],
+        [
+          19.84037702218635,
+          71.98371138254241
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.599998474121094,
+          63.33333206176758
+        ],
+        [
+          27.633333206176758,
+          68.0
+        ]
+      ],
+      "peaks": [
+        0.3589511513710022,
+        0.2307724505662918
+      ],
+      "margins": [
+        0.12494727969169617,
+        0.08444860577583313
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 172.23824551138355,
+      "endpoint_length_roi": 46.595424666714194,
+      "hub_center_distance_roi": 3.330798586958334,
+      "hub_error_roi": 3.3705336722932455,
+      "hub_error_native": 10.111601016879737,
+      "thin_terminal_error_roi": 8.752149591100023,
+      "thin_terminal_error_native": 26.25644877330007,
+      "reference_angle_deg": 172.60718499369585,
+      "angle_error_deg": 0.36893948231229956
+    },
+    {
+      "id": "D_040",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.30864658452298,
+          62.44691722673731
+        ],
+        [
+          25.925710968158906,
+          69.96966249788917
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.5,
+          63.099998474121094
+        ],
+        [
+          27.200000762939453,
+          68.33333587646484
+        ]
+      ],
+      "peaks": [
+        0.6413225531578064,
+        0.21536168456077576
+      ],
+      "margins": [
+        0.4923187494277954,
+        0.02396368980407715
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 168.91105025289605,
+      "endpoint_length_roi": 39.113187583532316,
+      "hub_center_distance_roi": 1.3277396680084943,
+      "hub_error_roi": 1.0394346609311378,
+      "hub_error_native": 3.1183039827934134,
+      "thin_terminal_error_roi": 2.073976685757054,
+      "thin_terminal_error_native": 6.2219300572711616,
+      "reference_angle_deg": 171.7962462637722,
+      "angle_error_deg": 2.885196010876143
+    },
+    {
+      "id": "D_041",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.93209049731202,
+          62.70245105959439
+        ],
+        [
+          34.19055579730491,
+          33.91301245883299
+        ]
+      ],
+      "target_points_roi": [
+        [
+          70.0,
+          63.66666793823242
+        ],
+        [
+          32.79999923706055,
+          66.69999694824219
+        ]
+      ],
+      "peaks": [
+        0.7119274735450745,
+        0.19990931451320648
+      ],
+      "margins": [
+        0.5784080028533936,
+        0.008297473192214966
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 220.47195182166948,
+      "endpoint_length_roi": 44.354514300787855,
+      "hub_center_distance_roi": 4.503277749451571,
+      "hub_error_roi": 2.281658147128472,
+      "hub_error_native": 6.844974441385416,
+      "thin_terminal_error_roi": 32.816459276649546,
+      "thin_terminal_error_native": 98.44937782994865,
+      "reference_angle_deg": 175.33835250398363,
+      "angle_error_deg": 45.13359931768585
+    },
+    {
+      "id": "D_042",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.65538165397422,
+          63.895684361158175
+        ],
+        [
+          61.71648943430276,
+          16.15438563946732
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.5,
+          63.63333511352539
+        ],
+        [
+          29.83333396911621,
+          65.4000015258789
+        ]
+      ],
+      "peaks": [
+        0.7750707864761353,
+        0.18197694420814514
+      ],
+      "margins": [
+        0.45838990807533264,
+        0.007972657680511475
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 270.073337259143,
+      "endpoint_length_roi": 47.74133782996176,
+      "hub_center_distance_roi": 1.8865796978023608,
+      "hub_error_roi": 0.8844248290142113,
+      "hub_error_native": 2.653274487042634,
+      "thin_terminal_error_roi": 58.66571644878504,
+      "thin_terminal_error_native": 175.99714934635512,
+      "reference_angle_deg": 176.90436679417627,
+      "angle_error_deg": 93.16897046496672
+    },
+    {
+      "id": "D_043",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.581000027461876,
+          62.414797682655994
+        ],
+        [
+          21.94153204750081,
+          75.83159694500459
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.900001525878906,
+          63.36666488647461
+        ],
+        [
+          30.03333282470703,
+          70.96666717529297
+        ]
+      ],
+      "peaks": [
+        0.6844601035118103,
+        0.2292308360338211
+      ],
+      "margins": [
+        0.5358437299728394,
+        0.04472208023071289
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 161.72976825029878,
+      "endpoint_length_roi": 42.796925825816494,
+      "hub_center_distance_roi": 1.4220495839083367,
+      "hub_error_roi": 1.0038989638891855,
+      "hub_error_native": 3.0116968916675564,
+      "thin_terminal_error_roi": 9.441651417110334,
+      "thin_terminal_error_native": 28.324954251331,
+      "reference_angle_deg": 166.9799191818446,
+      "angle_error_deg": 5.250150931545818
+    },
+    {
+      "id": "D_044",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.13545466835625,
+          63.7626373503377
+        ],
+        [
+          21.77967758311513,
+          48.788331812729574
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.525001525878906,
+          62.45000076293945
+        ],
+        [
+          19.125,
+          70.625
+        ]
+      ],
+      "peaks": [
+        0.669664740562439,
+        0.3308761715888977
+      ],
+      "margins": [
+        0.4931442439556122,
+        0.019415974617004395
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 199.47035120297417,
+      "endpoint_length_roi": 44.924844783574684,
+      "hub_center_distance_roi": 0.6875907309789403,
+      "hub_error_roi": 1.4476421690932362,
+      "hub_error_native": 5.790568676372945,
+      "thin_terminal_error_roi": 21.99744054637362,
+      "thin_terminal_error_native": 87.98976218549448,
+      "reference_angle_deg": 169.56745271385068,
+      "angle_error_deg": 29.902898489123487
+    },
+    {
+      "id": "D_045",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.33823925432141,
+          64.55713627773879
+        ],
+        [
+          21.61748301814087,
+          77.40108262952974
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.63333511352539,
+          63.66666793823242
+        ],
+        [
+          28.33333396911621,
+          71.80000305175781
+        ]
+      ],
+      "peaks": [
+        0.4066270887851715,
+        0.17440778017044067
+      ],
+      "margins": [
+        0.18795394897460938,
+        0.03631128370761871
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 163.26665495607688,
+      "endpoint_length_roi": 44.60975197508771,
+      "hub_center_distance_roi": 1.3491412665828357,
+      "hub_error_roi": 1.1357040597684784,
+      "hub_error_native": 3.407112179305435,
+      "thin_terminal_error_roi": 8.74498407272707,
+      "thin_terminal_error_native": 26.234952218181206,
+      "reference_angle_deg": 167.02513939792362,
+      "angle_error_deg": 3.758484441846747
+    },
+    {
+      "id": "D_046",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.5229511161414,
+          62.31236219273227
+        ],
+        [
+          29.632399094013365,
+          77.35399126540199
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.766666412353516,
+          62.93333435058594
+        ],
+        [
+          26.566667556762695,
+          73.0
+        ]
+      ],
+      "peaks": [
+        0.6530781984329224,
+        0.26644179224967957
+      ],
+      "margins": [
+        0.4638601839542389,
+        0.07018724083900452
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 156.6786937974599,
+      "endpoint_length_roi": 37.9947526057034,
+      "hub_center_distance_roi": 1.5674541611372979,
+      "hub_error_roi": 0.9785565768073728,
+      "hub_error_native": 2.9356697304221187,
+      "thin_terminal_error_roi": 5.325030497348362,
+      "thin_terminal_error_native": 15.975091492045088,
+      "reference_angle_deg": 164.8578915928808,
+      "angle_error_deg": 8.17919779542089
+    },
+    {
+      "id": "D_047",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.9276220011689,
+          63.65828451191936
+        ],
+        [
+          28.048864912141006,
+          53.99389544169294
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          63.0
+        ],
+        [
+          29.16666603088379,
+          76.30000305175781
+        ]
+      ],
+      "peaks": [
+        0.6914587020874023,
+        0.2284652590751648
+      ],
+      "margins": [
+        0.5089940428733826,
+        0.005982100963592529
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 193.62266811644272,
+      "endpoint_length_roi": 41.03310472126627,
+      "hub_center_distance_roi": 4.430450380260278,
+      "hub_error_roi": 1.5522145463280697,
+      "hub_error_native": 4.6566436389842085,
+      "thin_terminal_error_roi": 22.334097609996615,
+      "thin_terminal_error_native": 67.00229282998984,
+      "reference_angle_deg": 161.67924034337574,
+      "angle_error_deg": 31.943427773066986
+    },
+    {
+      "id": "D_048",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.6774213025612,
+          60.18098358173653
+        ],
+        [
+          20.01778669006899,
+          74.01863741671328
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.13333511352539,
+          63.36666488647461
+        ],
+        [
+          29.46666717529297,
+          72.56666564941406
+        ]
+      ],
+      "peaks": [
+        0.6048468351364136,
+        0.20763379335403442
+      ],
+      "margins": [
+        0.05559903383255005,
+        0.02328401803970337
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 163.8097008453213,
+      "endpoint_length_roi": 49.627829239781505,
+      "hub_center_distance_roi": 5.335421138372735,
+      "hub_error_roi": 7.278298525403239,
+      "hub_error_native": 21.834895576209718,
+      "thin_terminal_error_roi": 9.559788932663759,
+      "thin_terminal_error_native": 28.67936679799128,
+      "reference_angle_deg": 163.80002792470964,
+      "angle_error_deg": 0.00967292061164926
+    },
+    {
+      "id": "D_049",
+      "split": "train",
+      "source_group": "D",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          73.89257124321082,
+          77.82685178930826
+        ],
+        [
+          32.50908767768271,
+          43.81765546947888
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.06596274673938751,
+        0.096153125166893
+      ],
+      "margins": [
+        0.02807696908712387,
+        0.0006969273090362549
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 219.41357173814072,
+      "endpoint_length_roi": 53.565083275759335,
+      "hub_center_distance_roi": 17.699271714904487
+    },
+    {
+      "id": "D_050",
+      "split": "train",
+      "source_group": "D",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          73.8063101932519,
+          77.73867931705544
+        ],
+        [
+          32.47531894942696,
+          43.802059981728874
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.06460665911436081,
+        0.09674490988254547
+      ],
+      "margins": [
+        0.022093530744314194,
+        0.005223110318183899
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 219.38920460582142,
+      "endpoint_length_roi": 53.478453316340364,
+      "hub_center_distance_roi": 17.5772585602383
+    },
+    {
+      "id": "D_051",
+      "split": "train",
+      "source_group": "D",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          74.46370711812868,
+          77.49770988305443
+        ],
+        [
+          33.98813805914366,
+          42.09079195820129
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.16420316696166992,
+        0.08794773370027542
+      ],
+      "margins": [
+        0.13050857186317444,
+        0.0004732087254524231
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 221.1785443557621,
+      "endpoint_length_roi": 53.77658902892552,
+      "hub_center_distance_roi": 17.78029121646395
+    },
+    {
+      "id": "D_056",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        0.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          73.42096409794405,
+          57.637876071771736
+        ],
+        [
+          45.46578240877735,
+          54.30651095821645
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        [
+          27.766666412353516,
+          70.69999694824219
+        ]
+      ],
+      "peaks": [
+        0.29059430956840515,
+        0.33467617630958557
+      ],
+      "margins": [
+        0.10954679548740387,
+        0.0625925362110138
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 186.79577949989343,
+      "endpoint_length_roi": 28.15297811589627,
+      "hub_center_distance_roi": 11.523455453231083,
+      "thin_terminal_error_roi": 24.12478165621476,
+      "thin_terminal_error_native": 72.37434496864428
+    },
+    {
+      "id": "D_057",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        0.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          70.56772834769916,
+          59.4553339182489
+        ],
+        [
+          27.860466074261563,
+          68.05721601561692
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        [
+          28.200000762939453,
+          72.23332977294922
+        ]
+      ],
+      "peaks": [
+        0.46063271164894104,
+        0.32429105043411255
+      ],
+      "margins": [
+        0.2950076460838318,
+        0.03859823942184448
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 168.61213492704562,
+      "endpoint_length_roi": 43.564924268374504,
+      "hub_center_distance_roi": 8.143224650575355,
+      "thin_terminal_error_roi": 4.189893783736733,
+      "thin_terminal_error_native": 12.5696813512102
+    },
+    {
+      "id": "D_058",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.1630615300751,
+          60.663282705235446
+        ],
+        [
+          39.75288140280641,
+          41.54770247731569
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.66666412353516,
+          62.56666564941406
+        ],
+        null
+      ],
+      "peaks": [
+        0.6697316765785217,
+        0.34230566024780273
+      ],
+      "margins": [
+        0.3960843086242676,
+        0.04134783148765564
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 215.89686546891932,
+      "endpoint_length_roi": 32.60219351216747,
+      "hub_center_distance_roi": 3.8908690190473196,
+      "hub_error_roi": 2.4211715822075726,
+      "hub_error_native": 7.263514746622718
+    },
+    {
+      "id": "D_059",
+      "split": "train",
+      "source_group": "D",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.67267702042932,
+          62.20958402062432
+        ],
+        [
+          27.888526773074783,
+          72.05443048307203
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.93333435058594,
+          62.400001525878906
+        ],
+        null
+      ],
+      "peaks": [
+        0.6384161114692688,
+        0.26054301857948303
+      ],
+      "margins": [
+        0.5650152564048767,
+        0.010246872901916504
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 165.01662230222047,
+      "endpoint_length_roi": 38.07879608508023,
+      "hub_center_distance_roi": 1.7436584510938722,
+      "hub_error_roi": 0.7634699796053017,
+      "hub_error_native": 2.2904099388159054
+    },
+    {
+      "id": "E_001",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.63653445280119,
+          60.10178676794081
+        ],
+        [
+          74.21158195096663,
+          25.767163982405695
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.20000076293945,
+          63.20000076293945
+        ],
+        [
+          75.03333282470703,
+          26.46666717529297
+        ]
+      ],
+      "peaks": [
+        0.6041244268417358,
+        0.49990519881248474
+      ],
+      "margins": [
+        0.3756418228149414,
+        0.16544201970100403
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 287.11880746161535,
+      "endpoint_length_roi": 35.92628496537657,
+      "hub_center_distance_roi": 3.400954987550394,
+      "hub_error_roi": 3.128816329091525,
+      "hub_error_native": 9.386448987274576,
+      "thin_terminal_error_roi": 1.0791567149179957,
+      "thin_terminal_error_native": 3.237470144753987,
+      "reference_angle_deg": 287.85590520908215,
+      "angle_error_deg": 0.7370977474668052
+    },
+    {
+      "id": "E_002",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.075298239971346,
+          63.735667221770704
+        ],
+        [
+          76.0659321098815,
+          20.38980065844756
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.42499923706055,
+          63.125
+        ],
+        [
+          77.5999984741211,
+          23.825000762939453
+        ]
+      ],
+      "peaks": [
+        0.5369789004325867,
+        0.4730167090892792
+      ],
+      "margins": [
+        0.1061922013759613,
+        0.23995214700698853
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 286.68332506804757,
+      "endpoint_length_roi": 45.25064327131132,
+      "hub_center_distance_roi": 0.48570631495643407,
+      "hub_error_roi": 0.7037082087842459,
+      "hub_error_native": 2.8148328351369836,
+      "thin_terminal_error_roi": 3.7621748188770288,
+      "thin_terminal_error_native": 15.048699275508115,
+      "reference_angle_deg": 289.8337153950378,
+      "angle_error_deg": 3.150390326990248
+    },
+    {
+      "id": "E_003",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.439235930830236,
+          50.07734963149628
+        ],
+        [
+          18.07112287033929,
+          74.04613224010265
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.43333435058594,
+          62.400001525878906
+        ],
+        [
+          74.06666564941406,
+          27.766666412353516
+        ]
+      ],
+      "peaks": [
+        0.39698195457458496,
+        0.24637804925441742
+      ],
+      "margins": [
+        0.12274026870727539,
+        0.07762491703033447
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 152.15170801849874,
+      "endpoint_length_roi": 51.31050791415068,
+      "hub_center_distance_roi": 13.422787906660636,
+      "hub_error_roi": 12.363639743185242,
+      "hub_error_native": 37.09091922955572,
+      "thin_terminal_error_roi": 72.64495693731942,
+      "thin_terminal_error_native": 217.93487081195826,
+      "reference_angle_deg": 288.5671911362478,
+      "angle_error_deg": 136.41548311774906
+    },
+    {
+      "id": "E_004",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.659505437222045,
+          63.87829252686112
+        ],
+        [
+          76.10364452455005,
+          22.332157936029578
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.43333435058594,
+          63.43333435058594
+        ],
+        null
+      ],
+      "peaks": [
+        0.4403496980667114,
+        0.415457546710968
+      ],
+      "margins": [
+        0.02976691722869873,
+        0.19728729128837585
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 286.6743145467045,
+      "endpoint_length_roi": 43.36978092017821,
+      "hub_center_distance_roi": 0.41054502844677615,
+      "hub_error_roi": 0.49914040015239275,
+      "hub_error_native": 1.4974212004571783
+    },
+    {
+      "id": "E_005",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.2857410594398,
+          63.473629627126826
+        ],
+        [
+          78.26432638914353,
+          22.006644935746348
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          62.33333206176758
+        ],
+        [
+          80.33333587646484,
+          24.133333206176758
+        ]
+      ],
+      "peaks": [
+        0.6170479655265808,
+        0.33184733986854553
+      ],
+      "margins": [
+        0.2565682530403137,
+        0.06332674622535706
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 284.82910188498005,
+      "endpoint_length_roi": 42.89568923839281,
+      "hub_center_distance_roi": 3.7858329025055837,
+      "hub_error_roi": 2.343698588187493,
+      "hub_error_native": 7.03109576456248,
+      "thin_terminal_error_roi": 2.967086661729293,
+      "thin_terminal_error_native": 8.901259985187878,
+      "reference_angle_deg": 286.06418494910105,
+      "angle_error_deg": 1.2350830641209996
+    },
+    {
+      "id": "E_006",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          52.257079759302,
+          76.01219794482358
+        ],
+        [
+          71.96154726803681,
+          22.36719391721247
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.63333511352539,
+          63.06666564941406
+        ],
+        [
+          72.93333435058594,
+          23.53333282470703
+        ]
+      ],
+      "peaks": [
+        0.43624556064605713,
+        0.36104243993759155
+      ],
+      "margins": [
+        0.03734546899795532,
+        0.14181163907051086
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 290.16890254193004,
+      "endpoint_length_roi": 57.149387546370065,
+      "hub_center_distance_roi": 16.82136596561481,
+      "hub_error_roi": 15.984397732760959,
+      "hub_error_native": 47.953193198282875,
+      "thin_terminal_error_roi": 1.5179756537513867,
+      "thin_terminal_error_native": 4.5539269612541595,
+      "reference_angle_deg": 285.9517754498097,
+      "angle_error_deg": 4.217127092120336
+    },
+    {
+      "id": "E_007",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.00720624735013,
+          63.37746260055697
+        ],
+        [
+          66.05863679625422,
+          29.496532667354664
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.53333282470703,
+          63.0
+        ],
+        [
+          65.19999694824219,
+          29.399999618530273
+        ]
+      ],
+      "peaks": [
+        0.6594608426094055,
+        0.4622882604598999
+      ],
+      "margins": [
+        0.46495354175567627,
+        0.20561927556991577
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 273.4649282788148,
+      "endpoint_length_roi": 33.942978367190186,
+      "hub_center_distance_roi": 0.5217984204779264,
+      "hub_error_roi": 0.6058333397120943,
+      "hub_error_native": 1.817500019136283,
+      "thin_terminal_error_roi": 0.864049198894055,
+      "thin_terminal_error_native": 2.5921475966821648,
+      "reference_angle_deg": 272.8397206991049,
+      "angle_error_deg": 0.6252075797099224
+    },
+    {
+      "id": "E_008",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.32623311045415,
+          64.0178430877909
+        ],
+        [
+          66.20575398208662,
+          25.43609224319876
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.5,
+          63.150001525878906
+        ],
+        [
+          65.67500305175781,
+          24.950000762939453
+        ]
+      ],
+      "peaks": [
+        0.7569120526313782,
+        0.7045359015464783
+      ],
+      "margins": [
+        0.5697292685508728,
+        0.4617167115211487
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 272.78897520414796,
+      "endpoint_length_roi": 38.62750440995494,
+      "hub_center_distance_roi": 0.9751013364689611,
+      "hub_error_roi": 1.1982529488353388,
+      "hub_error_native": 4.793011795341355,
+      "thin_terminal_error_roi": 0.7197093004995694,
+      "thin_terminal_error_native": 2.8788372019982775,
+      "reference_angle_deg": 273.2587457929884,
+      "angle_error_deg": 0.4697705888404471
+    },
+    {
+      "id": "E_009",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.26512044433277,
+          63.95158355837831
+        ],
+        [
+          16.484831790233088,
+          72.1456060830171
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.46666717529297,
+          62.900001525878906
+        ],
+        [
+          65.16666412353516,
+          24.299999237060547
+        ]
+      ],
+      "peaks": [
+        0.41838088631629944,
+        0.19230350852012634
+      ],
+      "margins": [
+        0.10016828775405884,
+        0.01223684847354889
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 170.26879172619772,
+      "endpoint_length_roi": 48.47780924302762,
+      "hub_center_distance_roi": 0.8884463993587827,
+      "hub_error_roi": 1.3203607059875402,
+      "hub_error_native": 3.9610821179626203,
+      "thin_terminal_error_roi": 68.25776801057576,
+      "thin_terminal_error_native": 204.77330403172726,
+      "reference_angle_deg": 272.52175498202007,
+      "angle_error_deg": 102.25296325582235
+    },
+    {
+      "id": "E_010",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.92481678285031,
+          63.80912881845543
+        ],
+        [
+          64.56069027933303,
+          21.921407970363706
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.96666717529297,
+          62.599998474121094
+        ],
+        [
+          64.69999694824219,
+          22.566667556762695
+        ]
+      ],
+      "peaks": [
+        0.5734666585922241,
+        0.36122366786003113
+      ],
+      "margins": [
+        0.41962915658950806,
+        0.15585732460021973
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 269.50194505818837,
+      "endpoint_length_roi": 41.88930347902936,
+      "hub_center_distance_roi": 1.4579655315169724,
+      "hub_error_roi": 1.5427400494096077,
+      "hub_error_native": 4.628220148228824,
+      "thin_terminal_error_roi": 0.6601259590732363,
+      "thin_terminal_error_native": 1.9803778772197091,
+      "reference_angle_deg": 271.0494256015876,
+      "angle_error_deg": 1.5474805433992174
+    },
+    {
+      "id": "E_011",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.17435851914667,
+          64.13865038545006
+        ],
+        [
+          67.91809821706316,
+          21.623281592916165
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.33333587646484,
+          63.0
+        ],
+        [
+          68.03333282470703,
+          21.133333206176758
+        ]
+      ],
+      "peaks": [
+        0.6922586560249329,
+        0.5293546915054321
+      ],
+      "margins": [
+        0.3261334002017975,
+        0.0949028730392456
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 271.00219758002646,
+      "endpoint_length_roi": 42.52187357470767,
+      "hub_center_distance_roi": 3.7294483294531897,
+      "hub_error_roi": 1.6247317363373581,
+      "hub_error_native": 4.874195209012075,
+      "thin_terminal_error_roi": 0.5033174311181603,
+      "thin_terminal_error_native": 1.509952293354481,
+      "reference_angle_deg": 269.5894439220302,
+      "angle_error_deg": 1.4127536579962339
+    },
+    {
+      "id": "E_012",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.10837925432482,
+          64.2542522742503
+        ],
+        [
+          62.146909086970695,
+          30.097599185653532
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.099998474121094,
+          64.32499694824219
+        ],
+        [
+          61.67499923706055,
+          29.549999237060547
+        ]
+      ],
+      "peaks": [
+        0.734273374080658,
+        0.3355580270290375
+      ],
+      "margins": [
+        0.5804249048233032,
+        0.0168265700340271
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 271.7415362737149,
+      "endpoint_length_roi": 34.1724376424633,
+      "hub_center_distance_roi": 2.5077372837591416,
+      "hub_error_roi": 0.9941395706678189,
+      "hub_error_native": 3.9765582826712755,
+      "thin_terminal_error_roi": 0.7228863051277555,
+      "thin_terminal_error_native": 2.891545220511022,
+      "reference_angle_deg": 269.2998000882505,
+      "angle_error_deg": 2.4417361854644355
+    },
+    {
+      "id": "E_013",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.19734972607912,
+          63.618416583669756
+        ],
+        [
+          58.13771305666279,
+          38.252788963924104
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.93333435058594,
+          62.93333435058594
+        ],
+        [
+          53.83333206176758,
+          24.0
+        ]
+      ],
+      "peaks": [
+        0.6377810835838318,
+        0.48918014764785767
+      ],
+      "margins": [
+        0.5512570738792419,
+        0.05570194125175476
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 256.56432690574223,
+      "endpoint_length_roi": 26.079383832999937,
+      "hub_center_distance_roi": 0.7073324025878122,
+      "hub_error_roi": 0.7341946503373067,
+      "hub_error_native": 2.20258395101192,
+      "thin_terminal_error_roi": 14.888575788146152,
+      "thin_terminal_error_native": 44.66572736443845,
+      "reference_angle_deg": 255.4570304093208,
+      "angle_error_deg": 1.1072964964214407
+    },
+    {
+      "id": "E_014",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.06373400852821,
+          63.97599349605841
+        ],
+        [
+          51.75568695131436,
+          20.107232790782138
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.57500076293945,
+          63.775001525878906
+        ],
+        [
+          52.25,
+          19.899999618530273
+        ]
+      ],
+      "peaks": [
+        0.7189246416091919,
+        0.5143038034439087
+      ],
+      "margins": [
+        0.5046003460884094,
+        0.2054387629032135
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 255.54553208037385,
+      "endpoint_length_roi": 45.302760336043036,
+      "hub_center_distance_roi": 0.6456762529354562,
+      "hub_error_roi": 0.5493555007850984,
+      "hub_error_native": 2.1974220031403937,
+      "thin_terminal_error_roi": 0.5359953150751071,
+      "thin_terminal_error_native": 2.1439812603004285,
+      "reference_angle_deg": 255.5267434748627,
+      "angle_error_deg": 0.018788605511133483
+    },
+    {
+      "id": "E_015",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.8312097436734,
+          62.474362157625
+        ],
+        [
+          16.512767900711836,
+          77.49153407449819
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.63333511352539,
+          62.70000076293945
+        ],
+        [
+          53.36666488647461,
+          26.16666603088379
+        ]
+      ],
+      "peaks": [
+        0.3057222366333008,
+        0.19107453525066376
+      ],
+      "margins": [
+        0.10747863352298737,
+        0.00026057660579681396
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 162.39243349721573,
+      "endpoint_length_roi": 49.64423824399625,
+      "hub_center_distance_roi": 1.0777907394368533,
+      "hub_error_roi": 1.218940691650121,
+      "hub_error_native": 3.6568220749503633,
+      "thin_terminal_error_roi": 63.18585128596152,
+      "thin_terminal_error_native": 189.55755385788456,
+      "reference_angle_deg": 255.7671132687,
+      "angle_error_deg": 93.37467977148427
+    },
+    {
+      "id": "E_016",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.597089989255515,
+          60.32631857957433
+        ],
+        [
+          26.25089241254684,
+          76.02323042022813
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.599998474121094,
+          63.13333511352539
+        ],
+        [
+          52.83333206176758,
+          27.96666717529297
+        ]
+      ],
+      "peaks": [
+        0.6258401870727539,
+        0.22059711813926697
+      ],
+      "margins": [
+        0.43370407819747925,
+        0.03611603379249573
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 157.20258686168438,
+      "endpoint_length_roi": 40.51088143661921,
+      "hub_center_distance_roi": 3.175166172717383,
+      "hub_error_roi": 2.8070180407612018,
+      "hub_error_native": 8.421054122283605,
+      "thin_terminal_error_roi": 54.9186613877188,
+      "thin_terminal_error_native": 164.7559841631564,
+      "reference_angle_deg": 252.9774486129046,
+      "angle_error_deg": 95.77486175122021
+    },
+    {
+      "id": "E_017",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.4153979513344,
+          60.662450053537384
+        ],
+        [
+          56.07290631234078,
+          25.784871593756172
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.0,
+          62.66666793823242
+        ],
+        [
+          56.63333511352539,
+          25.700000762939453
+        ]
+      ],
+      "peaks": [
+        0.5819602012634277,
+        0.44352051615715027
+      ],
+      "margins": [
+        0.21255746483802795,
+        0.16695523262023926
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 253.48296246247378,
+      "endpoint_length_roi": 36.37873846796845,
+      "hub_center_distance_roi": 4.068320896059553,
+      "hub_error_roi": 2.5549663367580155,
+      "hub_error_native": 7.664899010274047,
+      "thin_terminal_error_roi": 0.5668187533248555,
+      "thin_terminal_error_native": 1.7004562599745667,
+      "reference_angle_deg": 252.90816581662102,
+      "angle_error_deg": 0.5747966458527571
+    },
+    {
+      "id": "E_018",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.61660863076691,
+          63.946299289828204
+        ],
+        [
+          49.80091431566398,
+          24.408616508052738
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.83333206176758,
+          63.46666717529297
+        ],
+        [
+          50.86666488647461,
+          24.899999618530273
+        ]
+      ],
+      "peaks": [
+        0.6687268018722534,
+        0.3840194642543793
+      ],
+      "margins": [
+        0.51328045129776,
+        0.1088128387928009
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 254.70079779671445,
+      "endpoint_length_roi": 40.99033548618569,
+      "hub_center_distance_roi": 2.9177266568801508,
+      "hub_error_roi": 1.3078466549406982,
+      "hub_error_native": 3.9235399648220946,
+      "thin_terminal_error_roi": 1.1735764314460981,
+      "thin_terminal_error_native": 3.5207292943382944,
+      "reference_angle_deg": 254.12657511284743,
+      "angle_error_deg": 0.5742226838670206
+    },
+    {
+      "id": "E_019",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.10159905627904,
+          61.511657140370474
+        ],
+        [
+          43.61558760280693,
+          37.615274808082226
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.53333282470703,
+          62.43333435058594
+        ],
+        [
+          41.53333282470703,
+          35.20000076293945
+        ]
+      ],
+      "peaks": [
+        0.5249223709106445,
+        0.46702975034713745
+      ],
+      "margins": [
+        0.06343847513198853,
+        0.14010053873062134
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 229.39400896898766,
+      "endpoint_length_roi": 31.475605694611954,
+      "hub_center_distance_roi": 2.077361006651361,
+      "hub_error_roi": 1.082781321308977,
+      "hub_error_native": 3.248343963926931,
+      "thin_terminal_error_roi": 3.188939270989682,
+      "thin_terminal_error_native": 9.566817812969047,
+      "reference_angle_deg": 231.0675598726121,
+      "angle_error_deg": 1.673550903624431
+    },
+    {
+      "id": "E_020",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.831381095828654,
+          63.370386712355824
+        ],
+        [
+          41.90298632862013,
+          69.58268029717651
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.875,
+          62.724998474121094
+        ],
+        [
+          35.849998474121094,
+          29.549999237060547
+        ]
+      ],
+      "peaks": [
+        0.6913230419158936,
+        0.2782532572746277
+      ],
+      "margins": [
+        0.3258243203163147,
+        0.044453978538513184
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 163.46723434039075,
+      "endpoint_length_roi": 21.830948195534827,
+      "hub_center_distance_roi": 0.6810659610854324,
+      "hub_error_roi": 0.6468605621405884,
+      "hub_error_native": 2.5874422485623536,
+      "thin_terminal_error_roi": 40.48770448948273,
+      "thin_terminal_error_native": 161.95081795793092,
+      "reference_angle_deg": 230.83306792851906,
+      "angle_error_deg": 67.36583358812831
+    },
+    {
+      "id": "E_021",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.49676888911238,
+          62.28705320679978
+        ],
+        [
+          17.801623249578167,
+          59.96628831287802
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.099998474121094,
+          63.766666412353516
+        ],
+        [
+          40.400001525878906,
+          36.233333587646484
+        ]
+      ],
+      "peaks": [
+        0.35284560918807983,
+        0.20342545211315155
+      ],
+      "margins": [
+        0.06713074445724487,
+        0.01821015775203705
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 182.9074397263149,
+      "endpoint_length_roi": 45.75404118448012,
+      "hub_center_distance_roi": 1.2129510967933779,
+      "hub_error_roi": 1.531888377219878,
+      "hub_error_native": 4.595665131659634,
+      "thin_terminal_error_roi": 32.77102135589721,
+      "thin_terminal_error_native": 98.31306406769164,
+      "reference_angle_deg": 230.49595005275742,
+      "angle_error_deg": 47.58851032644253
+    },
+    {
+      "id": "E_022",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.13960131163402,
+          62.15662950998669
+        ],
+        [
+          42.0575091086459,
+          37.912699813891244
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.06666564941406,
+          63.233333587646484
+        ],
+        [
+          40.79999923706055,
+          36.56666564941406
+        ]
+      ],
+      "peaks": [
+        0.6030670404434204,
+        0.3610515594482422
+      ],
+      "margins": [
+        0.32685813307762146,
+        0.12421044707298279
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 228.9903556910836,
+      "endpoint_length_roi": 32.1282233988204,
+      "hub_center_distance_roi": 1.3908743609738847,
+      "hub_error_roi": 1.079171571935012,
+      "hub_error_native": 3.2375147158050357,
+      "thin_terminal_error_roi": 1.8420475154225533,
+      "thin_terminal_error_native": 5.52614254626766,
+      "reference_angle_deg": 230.13812024352052,
+      "angle_error_deg": 1.147764552436911
+    },
+    {
+      "id": "E_023",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.93159654253022,
+          61.37244779560444
+        ],
+        [
+          45.59966441677833,
+          32.777994103236665
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          62.0
+        ],
+        [
+          45.20000076293945,
+          31.5
+        ]
+      ],
+      "peaks": [
+        0.5755823254585266,
+        0.4438273310661316
+      ],
+      "margins": [
+        0.01036977767944336,
+        0.0794704258441925
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 232.01058199692494,
+      "endpoint_length_roi": 36.28164790130341,
+      "hub_center_distance_roi": 4.915844413546281,
+      "hub_error_roi": 1.5358043265797978,
+      "hub_error_native": 4.607412979739394,
+      "thin_terminal_error_roi": 1.3390294858992204,
+      "thin_terminal_error_native": 4.017088457697661,
+      "reference_angle_deg": 231.64695040167297,
+      "angle_error_deg": 0.36363159525197375
+    },
+    {
+      "id": "E_024",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.8248638665164,
+          60.52340083493542
+        ],
+        [
+          32.736604798033085,
+          44.19891079681279
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.79999923706055,
+          63.099998474121094
+        ],
+        [
+          31.366666793823242,
+          44.29999923706055
+        ]
+      ],
+      "peaks": [
+        0.6456645131111145,
+        0.4357466697692871
+      ],
+      "margins": [
+        0.42351630330085754,
+        0.14666178822517395
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 207.7040295087559,
+      "endpoint_length_roi": 35.11365584660618,
+      "hub_center_distance_roi": 2.9942743897697697,
+      "hub_error_roi": 2.576717610460089,
+      "hub_error_native": 7.730152831380267,
+      "thin_terminal_error_roi": 1.3736626252942064,
+      "thin_terminal_error_native": 4.120987875882619,
+      "reference_angle_deg": 210.09874915780682,
+      "angle_error_deg": 2.394719649050927
+    },
+    {
+      "id": "E_025",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.10783525897821,
+          64.0136333493339
+        ],
+        [
+          57.94069270607119,
+          21.799953597312072
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.5,
+          64.55000305175781
+        ],
+        [
+          22.774999618530273,
+          40.474998474121094
+        ]
+      ],
+      "peaks": [
+        0.5275753736495972,
+        0.24430112540721893
+      ],
+      "margins": [
+        0.05495676398277283,
+        0.02506636083126068
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 263.0214558733388,
+      "endpoint_length_roi": 42.52874463663747,
+      "hub_center_distance_roi": 0.6462293723196483,
+      "hub_error_roi": 1.4919165941240065,
+      "hub_error_native": 5.967666376496026,
+      "thin_terminal_error_roi": 39.81687169376763,
+      "thin_terminal_error_native": 159.26748677507052,
+      "reference_angle_deg": 209.9846156821587,
+      "angle_error_deg": 53.03684019118012
+    },
+    {
+      "id": "E_026",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.67002293435568,
+          62.08768480262966
+        ],
+        [
+          19.96187954747949,
+          76.15077302315314
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.53333282470703,
+          62.66666793823242
+        ],
+        [
+          32.5,
+          43.733333587646484
+        ]
+      ],
+      "peaks": [
+        0.40330109000205994,
+        0.18440407514572144
+      ],
+      "margins": [
+        0.12540212273597717,
+        0.03883558511734009
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 162.16442891258956,
+      "endpoint_length_roi": 45.91483691167763,
+      "hub_center_distance_roi": 1.422512571097401,
+      "hub_error_roi": 0.5948997036376513,
+      "hub_error_native": 1.784699110912954,
+      "thin_terminal_error_roi": 34.757658782441816,
+      "thin_terminal_error_native": 104.27297634732545,
+      "reference_angle_deg": 211.38722939900524,
+      "angle_error_deg": 49.22280048641568
+    },
+    {
+      "id": "E_027",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.10651753463138,
+          61.98609701362986
+        ],
+        [
+          34.412968943564664,
+          43.96310712047455
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.96666717529297,
+          63.099998474121094
+        ],
+        [
+          33.96666717529297,
+          44.29999923706055
+        ]
+      ],
+      "peaks": [
+        0.6858431696891785,
+        0.251095712184906
+      ],
+      "margins": [
+        0.44548487663269043,
+        0.05126276612281799
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 211.25634902259713,
+      "endpoint_length_roi": 34.735212574832744,
+      "hub_center_distance_roi": 1.6308788342350138,
+      "hub_error_roi": 1.1226462428973734,
+      "hub_error_native": 3.36793872869212,
+      "thin_terminal_error_roi": 0.5591793688792864,
+      "thin_terminal_error_native": 1.6775381066378592,
+      "reference_angle_deg": 212.07399982905622,
+      "angle_error_deg": 0.8176508064590848
+    },
+    {
+      "id": "E_028",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.46758841237691,
+          63.60312671489177
+        ],
+        [
+          38.25669058537993,
+          43.914189703465105
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.33333587646484,
+          63.66666793823242
+        ],
+        [
+          34.06666564941406,
+          41.29999923706055
+        ]
+      ],
+      "peaks": [
+        0.6040067076683044,
+        0.34001219272613525
+      ],
+      "margins": [
+        0.35279878973960876,
+        0.021235138177871704
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 213.98103812812664,
+      "endpoint_length_roi": 35.22684760944675,
+      "hub_center_distance_roi": 3.968928435907092,
+      "hub_error_roi": 0.8680761249097401,
+      "hub_error_native": 2.60422837472922,
+      "thin_terminal_error_roi": 4.938653739497864,
+      "thin_terminal_error_native": 14.815961218493593,
+      "reference_angle_deg": 213.1334379482921,
+      "angle_error_deg": 0.8476001798345294
+    },
+    {
+      "id": "E_029",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.715122854927706,
+          63.99163254150073
+        ],
+        [
+          35.86528855508669,
+          45.88784605990397
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.70000076293945,
+          63.36666488647461
+        ],
+        [
+          33.766666412353516,
+          45.63333511352539
+        ]
+      ],
+      "peaks": [
+        0.8126579523086548,
+        0.2823147773742676
+      ],
+      "margins": [
+        0.7353096008300781,
+        0.04763452708721161
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 215.0052611421059,
+      "endpoint_length_roi": 31.55885007886825,
+      "hub_center_distance_roi": 1.851347881642963,
+      "hub_error_roi": 1.1664343374225745,
+      "hub_error_native": 3.4993030122677236,
+      "thin_terminal_error_roi": 2.1139987511340945,
+      "thin_terminal_error_native": 6.341996253402284,
+      "reference_angle_deg": 211.50426069647398,
+      "angle_error_deg": 3.5010004456319166
+    },
+    {
+      "id": "E_030",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.02172759486291,
+          63.475421164984844
+        ],
+        [
+          66.14378237363988,
+          44.460996318600735
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.13333129882812,
+          62.66666793823242
+        ],
+        [
+          29.96666717529297,
+          58.33333206176758
+        ]
+      ],
+      "peaks": [
+        0.4632614254951477,
+        0.24759358167648315
+      ],
+      "margins": [
+        0.28189370036125183,
+        0.03438594937324524
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 270.3677801301778,
+      "endpoint_length_roi": 19.014816580966848,
+      "hub_center_distance_roi": 2.521847374807559,
+      "hub_error_roi": 2.0542936383731387,
+      "hub_error_native": 6.162880915119416,
+      "thin_terminal_error_roi": 38.745649601543754,
+      "thin_terminal_error_native": 116.23694880463125,
+      "reference_angle_deg": 187.22819463949344,
+      "angle_error_deg": 83.13958549068434
+    },
+    {
+      "id": "E_031",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.01398600159527,
+          63.50298846642434
+        ],
+        [
+          37.97297768753224,
+          50.52171089631538
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.45000076293945,
+          63.0
+        ],
+        [
+          23.149999618530273,
+          55.95000076293945
+        ]
+      ],
+      "peaks": [
+        0.6575901508331299,
+        0.37606102228164673
+      ],
+      "margins": [
+        0.1504077911376953,
+        0.09735879302024841
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 206.49596408845747,
+      "endpoint_length_roi": 29.097210886360116,
+      "hub_center_distance_roi": 0.5139946894350786,
+      "hub_error_roi": 0.7556962000550022,
+      "hub_error_native": 3.0227848002200086,
+      "thin_terminal_error_roi": 15.78565835529855,
+      "thin_terminal_error_native": 63.1426334211942,
+      "reference_angle_deg": 189.92279542971306,
+      "angle_error_deg": 16.573168658744407
+    },
+    {
+      "id": "E_032",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.78835695733867,
+          62.55658227231794
+        ],
+        [
+          19.935276441878734,
+          55.818117574894494
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.400001525878906,
+          62.86666488647461
+        ],
+        [
+          28.066667556762695,
+          57.86666488647461
+        ]
+      ],
+      "peaks": [
+        0.4110701084136963,
+        0.20347265899181366
+      ],
+      "margins": [
+        0.25083494186401367,
+        0.046379074454307556
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 188.73574319111165,
+      "endpoint_length_roi": 44.36777633794412,
+      "hub_center_distance_roi": 0.986502277620482,
+      "hub_error_roi": 0.4969619389314781,
+      "hub_error_native": 1.4908858167944343,
+      "thin_terminal_error_roi": 8.38546764056698,
+      "thin_terminal_error_native": 25.156402921700938,
+      "reference_angle_deg": 188.05441430335364,
+      "angle_error_deg": 0.6813288877580135
+    },
+    {
+      "id": "E_033",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.2817615002061,
+          61.70644348699149
+        ],
+        [
+          33.97546298927351,
+          36.00951829075226
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.06666564941406,
+          62.36666488647461
+        ],
+        [
+          30.133333206176758,
+          57.46666717529297
+        ]
+      ],
+      "peaks": [
+        0.6441586017608643,
+        0.19436956942081451
+      ],
+      "margins": [
+        0.39615947008132935,
+        0.01639486849308014
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 220.29484764912812,
+      "endpoint_length_roi": 39.734162807021235,
+      "hub_center_distance_roi": 1.9565265161913201,
+      "hub_error_roi": 0.694376354265755,
+      "hub_error_native": 2.0831290627972647,
+      "thin_terminal_error_roi": 21.79842195030424,
+      "thin_terminal_error_native": 65.39526585091272,
+      "reference_angle_deg": 188.21675533187158,
+      "angle_error_deg": 32.078092317256534
+    },
+    {
+      "id": "E_034",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.97208533017897,
+          60.91996240886221
+        ],
+        [
+          42.11198133891291,
+          53.62442850654182
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.66666412353516,
+          62.66666793823242
+        ],
+        [
+          28.866666793823242,
+          56.20000076293945
+        ]
+      ],
+      "peaks": [
+        0.5848984122276306,
+        0.3332490026950836
+      ],
+      "margins": [
+        0.49532681703567505,
+        0.06357356905937195
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 195.75457723628833,
+      "endpoint_length_roi": 26.869495591823096,
+      "hub_center_distance_roi": 5.1629585677289755,
+      "hub_error_roi": 1.879739318765398,
+      "hub_error_native": 5.639217956296194,
+      "thin_terminal_error_roi": 13.49340319735126,
+      "thin_terminal_error_native": 40.48020959205378,
+      "reference_angle_deg": 189.2287187649269,
+      "angle_error_deg": 6.525858471361431
+    },
+    {
+      "id": "E_035",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.063266042991,
+          64.24893381278888
+        ],
+        [
+          16.19355976969413,
+          64.07642370246398
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.13333511352539,
+          63.96666717529297
+        ],
+        [
+          26.600000381469727,
+          57.5
+        ]
+      ],
+      "peaks": [
+        0.5959687232971191,
+        0.17743642628192902
+      ],
+      "margins": [
+        0.1990983784198761,
+        0.012081041932106018
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 180.22530468376527,
+      "endpoint_length_roi": 43.870045455225,
+      "hub_center_distance_roi": 3.51739138385213,
+      "hub_error_roi": 1.1066717084834032,
+      "hub_error_native": 3.32001512545021,
+      "thin_terminal_error_roi": 12.310294672376553,
+      "thin_terminal_error_native": 36.93088401712966,
+      "reference_angle_deg": 190.60629845550156,
+      "angle_error_deg": 10.380993771736286
+    },
+    {
+      "id": "E_036",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.92479756340132,
+          63.561419734092546
+        ],
+        [
+          58.18187626540865,
+          23.982995357652083
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.0,
+          63.099998474121094
+        ],
+        [
+          20.100000381469727,
+          68.13333129882812
+        ]
+      ],
+      "peaks": [
+        0.5352628827095032,
+        0.2451387196779251
+      ],
+      "margins": [
+        0.21209201216697693,
+        0.00048752129077911377
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 261.7438709309771,
+      "endpoint_length_roi": 39.99290963604117,
+      "hub_center_distance_roi": 0.4292148105642414,
+      "hub_error_roi": 1.0335183174122562,
+      "hub_error_native": 3.1005549522367684,
+      "thin_terminal_error_roi": 58.30507211691303,
+      "thin_terminal_error_native": 174.9152163507391,
+      "reference_angle_deg": 173.30824551488138,
+      "angle_error_deg": 88.43562541609572
+    },
+    {
+      "id": "E_037",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.31056806393856,
+          63.80295004842626
+        ],
+        [
+          22.011603323702552,
+          52.327306554692235
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.2249984741211,
+          63.275001525878906
+        ],
+        [
+          19.325000762939453,
+          69.0250015258789
+        ]
+      ],
+      "peaks": [
+        0.6596816182136536,
+        0.24563954770565033
+      ],
+      "margins": [
+        0.46056610345840454,
+        0.006712853908538818
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 195.17889310433662,
+      "endpoint_length_roi": 43.82799118931883,
+      "hub_center_distance_roi": 0.865331912111521,
+      "hub_error_roi": 0.5348381036925703,
+      "hub_error_native": 2.1393524147702814,
+      "thin_terminal_error_roi": 16.91244661988003,
+      "thin_terminal_error_native": 67.64978647952012,
+      "reference_angle_deg": 172.70228793687164,
+      "angle_error_deg": 22.47660516746498
+    },
+    {
+      "id": "E_038",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.28523809947394,
+          62.3601126944475
+        ],
+        [
+          23.916368306691037,
+          49.96360155193008
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.76667022705078,
+          62.36666488647461
+        ],
+        [
+          28.399999618530273,
+          64.0
+        ]
+      ],
+      "peaks": [
+        0.44623494148254395,
+        0.18854312598705292
+      ],
+      "margins": [
+        0.217498779296875,
+        0.0004488825798034668
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 197.0707250566765,
+      "endpoint_length_roi": 42.22936344361845,
+      "hub_center_distance_roi": 1.384175546029183,
+      "hub_error_roi": 0.48147671250385593,
+      "hub_error_native": 1.4444301375115678,
+      "thin_terminal_error_roi": 14.735108792726466,
+      "thin_terminal_error_native": 44.2053263781794,
+      "reference_angle_deg": 177.4284046777187,
+      "angle_error_deg": 19.642320378957805
+    },
+    {
+      "id": "E_039",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.10900825278043,
+          62.13951972095276
+        ],
+        [
+          28.068572022060547,
+          53.89097826751789
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.266666412353516,
+          62.599998474121094
+        ],
+        [
+          26.933332443237305,
+          65.53333282470703
+        ]
+      ],
+      "peaks": [
+        0.5228248834609985,
+        0.24482925236225128
+      ],
+      "margins": [
+        0.38930484652519226,
+        0.046243637800216675
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 192.8912078826211,
+      "endpoint_length_roi": 36.97230693112913,
+      "hub_center_distance_roi": 1.4905695695374699,
+      "hub_error_roi": 0.9599898219529504,
+      "hub_error_native": 2.879969465858851,
+      "thin_terminal_error_roi": 11.697571907734938,
+      "thin_terminal_error_native": 35.09271572320481,
+      "reference_angle_deg": 175.384295144526,
+      "angle_error_deg": 17.50691273809511
+    },
+    {
+      "id": "E_040",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.60736860605151,
+          60.95396569953892
+        ],
+        [
+          55.879241886845485,
+          37.538702062007516
+        ]
+      ],
+      "target_points_roi": [
+        [
+          70.0,
+          62.33333206176758
+        ],
+        [
+          30.200000762939453,
+          64.19999694824219
+        ]
+      ],
+      "peaks": [
+        0.5021718144416809,
+        0.22366710007190704
+      ],
+      "margins": [
+        0.41970521211624146,
+        0.000914260745048523
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 241.4722725299306,
+      "endpoint_length_roi": 26.651074668674557,
+      "hub_center_distance_roi": 5.706794611443877,
+      "hub_error_roi": 1.9601208535850134,
+      "hub_error_native": 5.8803625607550405,
+      "thin_terminal_error_roi": 37.016861964657,
+      "thin_terminal_error_native": 111.05058589397099,
+      "reference_angle_deg": 177.31473106036242,
+      "angle_error_deg": 64.15754146956817
+    },
+    {
+      "id": "E_041",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.74868860324777,
+          62.54718822765011
+        ],
+        [
+          25.644649519621133,
+          77.29852971808738
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.766666412353516,
+          62.900001525878906
+        ],
+        [
+          30.100000381469727,
+          64.53333282470703
+        ]
+      ],
+      "peaks": [
+        0.47952911257743835,
+        0.18913812935352325
+      ],
+      "margins": [
+        0.21171095967292786,
+        0.06028619408607483
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 157.20698810098554,
+      "endpoint_length_roi": 38.07749513495186,
+      "hub_center_distance_roi": 2.911625778740674,
+      "hub_error_roi": 2.0485877236404355,
+      "hub_error_native": 6.145763170921306,
+      "thin_terminal_error_roi": 13.520369929441365,
+      "thin_terminal_error_native": 40.561109788324096,
+      "reference_angle_deg": 177.13759827779728,
+      "angle_error_deg": 19.93061017681174
+    },
+    {
+      "id": "E_042",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.71640055650855,
+          65.61361284957333
+        ],
+        [
+          17.752791379922197,
+          74.00525813568402
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.5,
+          63.67499923706055
+        ],
+        [
+          18.274999618530273,
+          79.7249984741211
+        ]
+      ],
+      "peaks": [
+        0.6852251291275024,
+        0.3158056437969208
+      ],
+      "margins": [
+        0.40294674038887024,
+        0.0444716215133667
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 170.07605679554337,
+      "endpoint_length_roi": 48.692170991363916,
+      "hub_center_distance_roi": 3.062644397375066,
+      "hub_error_roi": 2.2886356312209593,
+      "hub_error_native": 9.154542524883837,
+      "thin_terminal_error_roi": 5.743529488355957,
+      "thin_terminal_error_native": 22.97411795342383,
+      "reference_angle_deg": 160.85224760909463,
+      "angle_error_deg": 9.223809186448733
+    },
+    {
+      "id": "E_043",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.40394045176298,
+          63.81901801963321
+        ],
+        [
+          21.70210280315394,
+          68.00706777435946
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.06666564941406,
+          62.733333587646484
+        ],
+        [
+          30.46666717529297,
+          70.66666412353516
+        ]
+      ],
+      "peaks": [
+        0.30857113003730774,
+        0.19035395979881287
+      ],
+      "margins": [
+        0.1085868626832962,
+        0.014752000570297241
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 174.12517778333566,
+      "endpoint_length_roi": 40.91673677997538,
+      "hub_center_distance_roi": 1.1415423908608222,
+      "hub_error_roi": 1.2719730238727602,
+      "hub_error_native": 3.8159190716182807,
+      "thin_terminal_error_roi": 9.159205280695346,
+      "thin_terminal_error_native": 27.47761584208604,
+      "reference_angle_deg": 166.32271737145103,
+      "angle_error_deg": 7.802460411884624
+    },
+    {
+      "id": "E_044",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.98868895786998,
+          62.031899992913914
+        ],
+        [
+          20.0438280594878,
+          70.00935684896359
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.599998474121094,
+          63.0
+        ],
+        [
+          32.13333511352539,
+          70.69999694824219
+        ]
+      ],
+      "peaks": [
+        0.5628086924552917,
+        0.20291990041732788
+      ],
+      "margins": [
+        0.4718792140483856,
+        0.08214297145605087
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 169.7109529640547,
+      "endpoint_length_roi": 44.66307890493325,
+      "hub_center_distance_roi": 1.547299107590454,
+      "hub_error_roi": 1.043215181962487,
+      "hub_error_native": 3.1296455458874615,
+      "thin_terminal_error_roi": 12.109218164537138,
+      "thin_terminal_error_native": 36.32765449361141,
+      "reference_angle_deg": 166.24973644555524,
+      "angle_error_deg": 3.4612165184994694
+    },
+    {
+      "id": "E_045",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.28166741753502,
+          62.37941246473858
+        ],
+        [
+          39.90854671135755,
+          42.113755916815364
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.0,
+          62.33333206176758
+        ],
+        [
+          32.900001525878906,
+          73.13333129882812
+        ]
+      ],
+      "peaks": [
+        0.6464182138442993,
+        0.389584481716156
+      ],
+      "margins": [
+        0.5385442972183228,
+        0.11931556463241577
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 215.53653017763196,
+      "endpoint_length_roi": 34.867331614646105,
+      "hub_center_distance_roi": 4.9112177426885975,
+      "hub_error_roi": 0.7198090736916137,
+      "hub_error_native": 2.159427221074841,
+      "thin_terminal_error_roi": 31.80147421892998,
+      "thin_terminal_error_native": 95.40442265678993,
+      "reference_angle_deg": 163.3444489692129,
+      "angle_error_deg": 52.19208120841907
+    },
+    {
+      "id": "E_046",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.08602600068917,
+          63.803067859156556
+        ],
+        [
+          77.67567809619086,
+          29.688711125260998
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.93333435058594,
+          63.5
+        ],
+        [
+          33.03333282470703,
+          70.69999694824219
+        ]
+      ],
+      "peaks": [
+        0.7487254738807678,
+        0.29344427585601807
+      ],
+      "margins": [
+        0.6186403036117554,
+        0.08796684443950653
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 297.276016278286,
+      "endpoint_length_roi": 38.38209473450182,
+      "hub_center_distance_roi": 3.4273996841955996,
+      "hub_error_roi": 1.8720038105869452,
+      "hub_error_native": 5.616011431760835,
+      "thin_terminal_error_roi": 60.620661132922606,
+      "thin_terminal_error_native": 181.86198339876782,
+      "reference_angle_deg": 166.0104207289764,
+      "angle_error_deg": 131.26559554930964
+    },
+    {
+      "id": "E_047",
+      "split": "train",
+      "source_group": "E",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          53.60871100765874,
+          72.07137469875991
+        ],
+        [
+          36.12178976221491,
+          32.77796809120501
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.07893498986959457,
+        0.1831478327512741
+      ],
+      "margins": [
+        0.0011828169226646423,
+        0.03390394151210785
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 246.00928642871983,
+      "endpoint_length_roi": 43.008885331649715,
+      "hub_center_distance_roi": 13.088394177917813
+    },
+    {
+      "id": "E_048",
+      "split": "train",
+      "source_group": "E",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          52.46606799152009,
+          56.108655896277966
+        ],
+        [
+          36.08536529206596,
+          32.76386154157308
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.09191414713859558,
+        0.1686577945947647
+      ],
+      "margins": [
+        0.009652353823184967,
+        0.017655104398727417
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 234.94321930757073,
+      "endpoint_length_roi": 28.51853510247967,
+      "hub_center_distance_roi": 13.280799043257298
+    },
+    {
+      "id": "E_049",
+      "split": "train",
+      "source_group": "E",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          72.3307814623242,
+          75.9668791719719
+        ],
+        [
+          36.217987427475414,
+          34.06753562240947
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.34125852584838867,
+        0.2421741932630539
+      ],
+      "margins": [
+        0.25773850083351135,
+        0.07261157035827637
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 229.24214525243494,
+      "endpoint_length_roi": 55.31445455654126,
+      "hub_center_distance_roi": 15.277623425254184
+    },
+    {
+      "id": "E_054",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        0.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.83535118705429,
+          59.391472583309145
+        ],
+        [
+          28.098272351075906,
+          70.056041011763
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        [
+          31.274999618530273,
+          73.7750015258789
+        ]
+      ],
+      "peaks": [
+        0.5396271347999573,
+        0.2522873282432556
+      ],
+      "margins": [
+        0.2858485281467438,
+        0.03843620419502258
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 165.32974906153257,
+      "endpoint_length_roi": 42.10988734078842,
+      "hub_center_distance_roi": 6.733941626039091,
+      "thin_terminal_error_roi": 4.891039095871279,
+      "thin_terminal_error_native": 19.564156383485116
+    },
+    {
+      "id": "E_055",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        0.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.43807363905464,
+          59.699398169390086
+        ],
+        [
+          27.860811315632656,
+          76.24553223364337
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        [
+          28.799999237060547,
+          73.1500015258789
+        ]
+      ],
+      "peaks": [
+        0.6007261872291565,
+        0.3139185309410095
+      ],
+      "margins": [
+        0.010880708694458008,
+        0.06516452133655548
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 157.311574563601,
+      "endpoint_length_roi": 42.896785957565626,
+      "hub_center_distance_roi": 5.472933241092243,
+      "thin_terminal_error_roi": 3.23487006145051,
+      "thin_terminal_error_native": 12.93948024580204
+    },
+    {
+      "id": "E_056",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.18047464397533,
+          63.525811747962635
+        ],
+        [
+          66.06978519112093,
+          44.1916374988399
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.724998474121094,
+          63.775001525878906
+        ],
+        null
+      ],
+      "peaks": [
+        0.7557044625282288,
+        0.2445600926876068
+      ],
+      "margins": [
+        0.48194068670272827,
+        0.05041009187698364
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 281.3739618959581,
+      "endpoint_length_roi": 19.721486516679683,
+      "hub_center_distance_roi": 1.3197777886920654,
+      "hub_error_roi": 0.5988336555459896,
+      "hub_error_native": 2.395334622183958
+    },
+    {
+      "id": "E_057",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.010714340327986,
+          62.41741644223385
+        ],
+        [
+          25.948025320248608,
+          77.65082764271865
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.67499923706055,
+          63.125
+        ],
+        null
+      ],
+      "peaks": [
+        0.6957641839981079,
+        0.23581930994987488
+      ],
+      "margins": [
+        0.29069042205810547,
+        0.02358776330947876
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 157.10008771039824,
+      "endpoint_length_roi": 39.14810795124088,
+      "hub_center_distance_roi": 1.841184112371796,
+      "hub_error_roi": 0.9705405273598781,
+      "hub_error_native": 3.8821621094395122
+    },
+    {
+      "id": "E_058",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          56.9963426660405,
+          48.75411614250746
+        ],
+        [
+          45.54015282271909,
+          29.80167908423378
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.70000076293945,
+          62.733333587646484
+        ],
+        [
+          42.79999923706055,
+          25.700000762939453
+        ]
+      ],
+      "peaks": [
+        0.4045490622520447,
+        0.4432467520236969
+      ],
+      "margins": [
+        0.0009600222110748291,
+        0.19337305426597595
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 238.84827442222564,
+      "endpoint_length_roi": 22.145860926458614,
+      "hub_center_distance_roi": 16.11640932268178,
+      "hub_error_roi": 14.749336251879345,
+      "hub_error_native": 44.24800875563804,
+      "thin_terminal_error_roi": 4.9327686672266715,
+      "thin_terminal_error_native": 14.798306001680015,
+      "reference_angle_deg": 242.96245718842096,
+      "angle_error_deg": 4.114182766195313
+    },
+    {
+      "id": "E_059",
+      "split": "train",
+      "source_group": "E",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.59207838447138,
+          62.89160329574308
+        ],
+        [
+          16.60884214138697,
+          58.20875134183677
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.23332977294922,
+          63.16666793823242
+        ],
+        [
+          29.0,
+          73.5999984741211
+        ]
+      ],
+      "peaks": [
+        0.7958500385284424,
+        0.1637808084487915
+      ],
+      "margins": [
+        0.7163427472114563,
+        0.03439690172672272
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 185.46094380758234,
+      "endpoint_length_roi": 49.20657004169283,
+      "hub_center_distance_roi": 2.178747006084702,
+      "hub_error_roi": 1.3863110570363293,
+      "hub_error_native": 4.158933171108988,
+      "thin_terminal_error_roi": 19.75933403139179,
+      "thin_terminal_error_native": 59.27800209417538,
+      "reference_angle_deg": 163.50486967830184,
+      "angle_error_deg": 21.956074129280495
+    },
+    {
+      "id": "F_001",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.15237942084391,
+          64.50857969510774
+        ],
+        [
+          78.09400898955555,
+          38.18395772806522
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.30000305175781,
+          63.46666717529297
+        ],
+        [
+          79.43333435058594,
+          37.63333511352539
+        ]
+      ],
+      "peaks": [
+        0.7919667959213257,
+        0.3371134400367737
+      ],
+      "margins": [
+        0.4655801057815552,
+        0.10712553560733795
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 296.17951208682166,
+      "endpoint_length_roi": 29.33379446306681,
+      "hub_center_distance_roi": 1.9358695079503923,
+      "hub_error_roi": 1.3461527303850687,
+      "hub_error_native": 4.038458191155206,
+      "thin_terminal_error_roi": 1.4480945018685274,
+      "thin_terminal_error_native": 4.344283505605582,
+      "reference_angle_deg": 300.3620450225505,
+      "angle_error_deg": 4.18253293572883
+    },
+    {
+      "id": "F_002",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.99908213833554,
+          74.5778300151183
+        ],
+        [
+          90.28789563868733,
+          40.29720366686616
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.55000305175781,
+          73.8499984741211
+        ],
+        [
+          82.375,
+          45.900001525878906
+        ]
+      ],
+      "peaks": [
+        0.7043031454086304,
+        0.20922395586967468
+      ],
+      "margins": [
+        0.45908981561660767,
+        0.018170446157455444
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 304.1905366598936,
+      "endpoint_length_roi": 41.44309565033296,
+      "hub_center_distance_roi": 11.617310086877882,
+      "hub_error_roi": 2.554941706650613,
+      "hub_error_native": 10.219766826602452,
+      "thin_terminal_error_roi": 9.695631038654204,
+      "thin_terminal_error_native": 38.782524154616816,
+      "reference_angle_deg": 302.527528694641,
+      "angle_error_deg": 1.663007965252632
+    },
+    {
+      "id": "F_003",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.09815306647718,
+          62.16608220591753
+        ],
+        [
+          70.06790611512098,
+          26.154191694793738
+        ]
+      ],
+      "target_points_roi": [
+        [
+          65.0,
+          62.0
+        ],
+        null
+      ],
+      "peaks": [
+        0.2289043366909027,
+        0.16350629925727844
+      ],
+      "margins": [
+        0.0030121803283691406,
+        0.006897568702697754
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 276.2905738590549,
+      "endpoint_length_roi": 36.23003170647777,
+      "hub_center_distance_roi": 2.9205711835554724,
+      "hub_error_roi": 1.110641011549488,
+      "hub_error_native": 3.3319230346484643
+    },
+    {
+      "id": "F_004",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.20504543853599,
+          63.657832220421994
+        ],
+        [
+          56.03138570574774,
+          38.08848788685499
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.53333282470703,
+          62.63333511352539
+        ],
+        [
+          78.19999694824219,
+          34.46666717529297
+        ]
+      ],
+      "peaks": [
+        0.7720702886581421,
+        0.15651360154151917
+      ],
+      "margins": [
+        0.18997031450271606,
+        0.02282644808292389
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 252.2726695301729,
+      "endpoint_length_roi": 26.84399528900121,
+      "hub_center_distance_roi": 0.7224957302321885,
+      "hub_error_roi": 1.2250682256986518,
+      "hub_error_native": 3.675204677095955,
+      "thin_terminal_error_roi": 22.462522335827536,
+      "thin_terminal_error_native": 67.3875670074826,
+      "reference_angle_deg": 297.5064412708256,
+      "angle_error_deg": 45.233771740652685
+    },
+    {
+      "id": "F_005",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.51016722918283,
+          63.569393386500565
+        ],
+        [
+          83.76253439655046,
+          30.06114933909408
+        ]
+      ],
+      "target_points_roi": [
+        [
+          70.0,
+          63.33333206176758
+        ],
+        [
+          83.56666564941406,
+          32.900001525878906
+        ]
+      ],
+      "peaks": [
+        0.6467268466949463,
+        0.19072307646274567
+      ],
+      "margins": [
+        0.2714086174964905,
+        0.015696704387664795
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 294.4741987671216,
+      "endpoint_length_roi": 36.81626166992986,
+      "hub_center_distance_roi": 5.01064777313947,
+      "hub_error_roi": 1.5084185871420006,
+      "hub_error_native": 4.525255761426002,
+      "thin_terminal_error_roi": 2.8456012202200394,
+      "thin_terminal_error_native": 8.536803660660118,
+      "reference_angle_deg": 294.02650693959544,
+      "angle_error_deg": 0.447691827526171
+    },
+    {
+      "id": "F_006",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.664871979242,
+          64.54433174762787
+        ],
+        [
+          16.49406656298785,
+          77.39161178998837
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.93333435058594,
+          63.900001525878906
+        ],
+        [
+          73.9000015258789,
+          31.133333206176758
+        ]
+      ],
+      "peaks": [
+        0.6496185660362244,
+        0.2182098925113678
+      ],
+      "margins": [
+        0.34786614775657654,
+        0.01689113676548004
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 164.12342306899703,
+      "endpoint_length_roi": 46.96226428144123,
+      "hub_center_distance_roi": 2.1114742839245384,
+      "hub_error_roi": 1.4227291457528186,
+      "hub_error_native": 4.268187437258456,
+      "thin_terminal_error_roi": 73.72428166147976,
+      "thin_terminal_error_native": 221.17284498443928,
+      "reference_angle_deg": 288.5048642513128,
+      "angle_error_deg": 124.3814411823158
+    },
+    {
+      "id": "F_007",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.17438012189955,
+          63.83960111348778
+        ],
+        [
+          71.98887491589083,
+          34.24430440167303
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.599998474121094,
+          63.03333282470703
+        ],
+        [
+          71.96666717529297,
+          34.20000076293945
+        ]
+      ],
+      "peaks": [
+        0.7405750751495361,
+        0.3315289318561554
+      ],
+      "margins": [
+        0.3548237681388855,
+        0.0692223608493805
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 284.7910963662688,
+      "endpoint_length_roi": 30.609604968794848,
+      "hub_center_distance_roi": 0.7550612326794344,
+      "hub_error_roi": 0.9899408218667054,
+      "hub_error_native": 2.9698224656001164,
+      "thin_terminal_error_roi": 0.04955800790484851,
+      "thin_terminal_error_native": 0.14867402371454552,
+      "reference_angle_deg": 286.18132791067313,
+      "angle_error_deg": 1.3902315444043438
+    },
+    {
+      "id": "F_008",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.18432312981685,
+          82.48341864698651
+        ],
+        [
+          43.951512562485526,
+          59.672579081842784
+        ]
+      ],
+      "target_points_roi": [
+        [
+          65.0250015258789,
+          82.30000305175781
+        ],
+        [
+          76.57499694824219,
+          48.400001525878906
+        ]
+      ],
+      "peaks": [
+        0.6483320593833923,
+        0.23431384563446045
+      ],
+      "margins": [
+        0.3768382668495178,
+        0.0007382184267044067
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 224.4749225878079,
+      "endpoint_length_roi": 32.559144468554884,
+      "hub_center_distance_roi": 19.33764257740996,
+      "hub_error_roi": 2.1670973835539127,
+      "hub_error_native": 8.66838953421565,
+      "thin_terminal_error_roi": 34.51612287356344,
+      "thin_terminal_error_native": 138.06449149425376,
+      "reference_angle_deg": 288.8143778049072,
+      "angle_error_deg": 64.33945521709933
+    },
+    {
+      "id": "F_009",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          75.97416719658854,
+          77.29154932788448
+        ],
+        [
+          83.9578541404657,
+          27.877315478865096
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.03333282470703,
+          61.766666412353516
+        ],
+        null
+      ],
+      "peaks": [
+        0.2286999225616455,
+        0.11841599643230438
+      ],
+      "margins": [
+        0.002079576253890991,
+        0.00932401418685913
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 279.1777713720533,
+      "endpoint_length_roi": 50.055027360929564,
+      "hub_center_distance_roi": 18.596012478806216,
+      "hub_error_roi": 19.585849867637915,
+      "hub_error_native": 58.75754960291374
+    },
+    {
+      "id": "F_010",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.81978926257406,
+          77.22170585757311
+        ],
+        [
+          27.631188081320484,
+          56.26205855049549
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.36666488647461,
+          62.06666564941406
+        ],
+        [
+          72.23332977294922,
+          34.53333282470703
+        ]
+      ],
+      "peaks": [
+        0.16081874072551727,
+        0.12894734740257263
+      ],
+      "margins": [
+        0.049358054995536804,
+        0.006947696208953857
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 208.7599898140735,
+      "endpoint_length_roi": 43.562324036005336,
+      "hub_center_distance_roi": 13.916415984890298,
+      "hub_error_roi": 15.352298294246722,
+      "hub_error_native": 46.05689488274017,
+      "thin_terminal_error_roi": 49.613390986170934,
+      "thin_terminal_error_native": 148.8401729585128,
+      "reference_angle_deg": 287.8503152546124,
+      "angle_error_deg": 79.09032544053889
+    },
+    {
+      "id": "F_011",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.63507992464822,
+          65.62912077258946
+        ],
+        [
+          16.669957053723646,
+          68.04177896038712
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          64.33333587646484
+        ],
+        [
+          73.0,
+          29.633333206176758
+        ]
+      ],
+      "peaks": [
+        0.6020503044128418,
+        0.21789368987083435
+      ],
+      "margins": [
+        0.1702193021774292,
+        0.014892429113388062
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 177.2355147662704,
+      "endpoint_length_roi": 50.02333878338927,
+      "hub_center_distance_roi": 3.789707297167454,
+      "hub_error_roi": 2.9932663895046985,
+      "hub_error_native": 8.979799168514095,
+      "thin_terminal_error_roi": 68.17831358711844,
+      "thin_terminal_error_native": 204.5349407613553,
+      "reference_angle_deg": 276.0319208005074,
+      "angle_error_deg": 98.79640603423701
+    },
+    {
+      "id": "F_012",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.357469936850485,
+          64.21687367514498
+        ],
+        [
+          72.15459674819489,
+          29.822951384115033
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.36666488647461,
+          63.06666564941406
+        ],
+        [
+          70.76667022705078,
+          29.100000381469727
+        ]
+      ],
+      "peaks": [
+        0.734086275100708,
+        0.2833498418331146
+      ],
+      "margins": [
+        0.39313268661499023,
+        0.006415694952011108
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 285.89963069229793,
+      "endpoint_length_roi": 35.76206907211844,
+      "hub_center_distance_roi": 1.3488079223211533,
+      "hub_error_roi": 1.1502447781035166,
+      "hub_error_native": 3.4507343343105497,
+      "thin_terminal_error_roi": 1.5649275319710634,
+      "thin_terminal_error_native": 4.69478259591319,
+      "reference_angle_deg": 283.8906304606227,
+      "angle_error_deg": 2.009000231675259
+    },
+    {
+      "id": "F_013",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.1627754374598,
+          64.28501117977444
+        ],
+        [
+          64.20371529312594,
+          32.1243497413293
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.83333206176758,
+          63.70000076293945
+        ],
+        [
+          64.93333435058594,
+          31.96666717529297
+        ]
+      ],
+      "peaks": [
+        0.7835267186164856,
+        0.4301105737686157
+      ],
+      "margins": [
+        0.5605543851852417,
+        0.12453955411911011
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 268.29189400954374,
+      "endpoint_length_roi": 32.174958283092494,
+      "hub_center_distance_roi": 1.8387671706310433,
+      "hub_error_roi": 1.4524657920162454,
+      "hub_error_native": 4.357397376048736,
+      "thin_terminal_error_roi": 0.7464635025509407,
+      "thin_terminal_error_native": 2.239390507652822,
+      "reference_angle_deg": 271.9853023964606,
+      "angle_error_deg": 3.6934083869168717
+    },
+    {
+      "id": "F_014",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.63059505245992,
+          75.74254725605903
+        ],
+        [
+          65.77059647783597,
+          43.74102601094955
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.625,
+          74.6500015258789
+        ],
+        [
+          65.75,
+          42.125
+        ]
+      ],
+      "peaks": [
+        0.776009202003479,
+        0.5194582939147949
+      ],
+      "margins": [
+        0.687378466129303,
+        0.18649467825889587
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 270.25065807228515,
+      "endpoint_length_roi": 32.00182748532185,
+      "hub_center_distance_roi": 12.4265602076522,
+      "hub_error_roi": 2.2838712063044486,
+      "hub_error_native": 9.135484825217794,
+      "thin_terminal_error_roi": 1.6161572581171524,
+      "thin_terminal_error_native": 6.4646290324686095,
+      "reference_angle_deg": 273.7380700985244,
+      "angle_error_deg": 3.4874120262392694
+    },
+    {
+      "id": "F_015",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.74301556189359,
+          64.17755516664018
+        ],
+        [
+          75.59372584024392,
+          16.52807746832128
+        ]
+      ],
+      "target_points_roi": [
+        [
+          65.46666717529297,
+          62.233333587646484
+        ],
+        null
+      ],
+      "peaks": [
+        0.25469085574150085,
+        0.14701426029205322
+      ],
+      "margins": [
+        0.0512135773897171,
+        0.003474220633506775
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 281.68037212070954,
+      "endpoint_length_roi": 48.65705722616799,
+      "hub_center_distance_roi": 2.3431175418099692,
+      "hub_error_roi": 1.9637632186700833,
+      "hub_error_native": 5.89128965601025
+    },
+    {
+      "id": "F_016",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.43036690871665,
+          62.32997797961606
+        ],
+        [
+          63.85310070859173,
+          41.9155340358931
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.69999694824219,
+          62.266666412353516
+        ],
+        [
+          63.33333206176758,
+          30.33333396911621
+        ]
+      ],
+      "peaks": [
+        0.7220385670661926,
+        0.321743369102478
+      ],
+      "margins": [
+        0.5227582454681396,
+        0.1393832415342331
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 265.58197535721666,
+      "endpoint_length_roi": 20.47528486242532,
+      "hub_center_distance_roi": 2.2572700171781817,
+      "hub_error_roi": 0.7331088825765973,
+      "hub_error_native": 2.199326647729792,
+      "thin_terminal_error_roi": 11.593856900663733,
+      "thin_terminal_error_native": 34.7815707019912,
+      "reference_angle_deg": 267.54938277153155,
+      "angle_error_deg": 1.9674074143148914
+    },
+    {
+      "id": "F_017",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.9853821943054,
+          65.67691554995243
+        ],
+        [
+          66.00581526975866,
+          43.93784302380601
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          64.66666412353516
+        ],
+        [
+          65.69999694824219,
+          31.866666793823242
+        ]
+      ],
+      "peaks": [
+        0.5647662281990051,
+        0.2443002462387085
+      ],
+      "margins": [
+        0.3158199191093445,
+        0.04913631081581116
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 264.79697738147183,
+      "endpoint_length_roi": 21.829016457591795,
+      "hub_center_distance_roi": 4.985741142560112,
+      "hub_error_roi": 1.6845138983770145,
+      "hub_error_native": 5.0535416951310435,
+      "thin_terminal_error_roi": 12.075049499736064,
+      "thin_terminal_error_native": 36.22514849920819,
+      "reference_angle_deg": 263.6789712435701,
+      "angle_error_deg": 1.118006137901716
+    },
+    {
+      "id": "F_018",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          63.09983347361877,
+          63.678209847123796
+        ],
+        [
+          20.105573716176586,
+          73.80515388257332
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.900001525878906,
+          62.93333435058594
+        ],
+        [
+          60.03333282470703,
+          31.899999618530273
+        ]
+      ],
+      "peaks": [
+        0.7079314589500427,
+        0.31158900260925293
+      ],
+      "margins": [
+        0.5549729466438293,
+        0.04915022850036621
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 166.74603576622061,
+      "endpoint_length_roi": 44.17082031825467,
+      "hub_center_distance_roi": 0.4380547893219568,
+      "hub_error_roi": 0.7712148291364929,
+      "hub_error_native": 2.3136444874094786,
+      "thin_terminal_error_roi": 57.881498782616895,
+      "thin_terminal_error_native": 173.6444963478507,
+      "reference_angle_deg": 264.7223453628063,
+      "angle_error_deg": 97.97630959658571
+    },
+    {
+      "id": "F_019",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.49431483838977,
+          64.31437205594338
+        ],
+        [
+          54.02961812213058,
+          35.87511258712305
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.0999984741211,
+          63.79999923706055
+        ],
+        [
+          52.733333587646484,
+          32.79999923706055
+        ]
+      ],
+      "peaks": [
+        0.6416825652122498,
+        0.4312703609466553
+      ],
+      "margins": [
+        0.3631722927093506,
+        0.05978673696517944
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 248.04419579599195,
+      "endpoint_length_roi": 30.663182319040065,
+      "hub_center_distance_roi": 2.154180475290559,
+      "hub_error_roi": 1.4861687388963913,
+      "hub_error_native": 4.458506216689174,
+      "thin_terminal_error_roi": 3.3371658199848664,
+      "thin_terminal_error_native": 10.0114974599546,
+      "reference_angle_deg": 249.86369947206288,
+      "angle_error_deg": 1.819503676070923
+    },
+    {
+      "id": "F_020",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.89762920622495,
+          77.83620760690548
+        ],
+        [
+          54.17958870323311,
+          45.980196405682655
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.3499984741211,
+          78.2750015258789
+        ],
+        [
+          54.20000076293945,
+          45.625
+        ]
+      ],
+      "peaks": [
+        0.8334618210792542,
+        0.3187607526779175
+      ],
+      "margins": [
+        0.6005879640579224,
+        0.10681001842021942
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 248.23637694917414,
+      "endpoint_length_roi": 34.300932988596315,
+      "hub_center_distance_roi": 14.733320493740955,
+      "hub_error_roi": 2.5851426363912853,
+      "hub_error_native": 10.340570545565141,
+      "thin_terminal_error_roi": 0.35578243181940916,
+      "thin_terminal_error_native": 1.4231297272776366,
+      "reference_angle_deg": 252.7309512184718,
+      "angle_error_deg": 4.494574269297658
+    },
+    {
+      "id": "F_021",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.95891193728232,
+          77.20381287526394
+        ],
+        [
+          81.97914887628384,
+          24.23741495815248
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.93333435058594,
+          63.29999923706055
+        ],
+        null
+      ],
+      "peaks": [
+        0.23622605204582214,
+        0.15728920698165894
+      ],
+      "margins": [
+        0.0015735775232315063,
+        0.004070892930030823
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 286.8284863084899,
+      "endpoint_length_roi": 55.33613014925725,
+      "hub_center_distance_roi": 13.922669831449682,
+      "hub_error_roi": 14.229200730153822,
+      "hub_error_native": 42.68760219046147
+    },
+    {
+      "id": "F_022",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.47410436668642,
+          77.41913594467279
+        ],
+        [
+          19.88138587230904,
+          71.95641696765503
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.63333511352539,
+          63.66666793823242
+        ],
+        [
+          50.66666793823242,
+          34.20000076293945
+        ]
+      ],
+      "peaks": [
+        0.38425859808921814,
+        0.16340401768684387
+      ],
+      "margins": [
+        0.13222280144691467,
+        0.01564115285873413
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 186.54778732769907,
+      "endpoint_length_roi": 47.90519963748112,
+      "hub_center_distance_roi": 14.475353224139234,
+      "hub_error_roi": 14.278721396686505,
+      "hub_error_native": 42.83616419005951,
+      "thin_terminal_error_roi": 48.716327411887,
+      "thin_terminal_error_native": 146.148982235661,
+      "reference_angle_deg": 246.24833302076183,
+      "angle_error_deg": 59.700545693062764
+    },
+    {
+      "id": "F_023",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.6062060924665,
+          62.63474869685115
+        ],
+        [
+          59.78039449923342,
+          43.84273013275778
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          64.0
+        ],
+        [
+          56.93333435058594,
+          32.733333587646484
+        ]
+      ],
+      "peaks": [
+        0.5587356686592102,
+        0.20161756873130798
+      ],
+      "margins": [
+        0.21181827783584595,
+        0.019814491271972656
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 247.3910371370855,
+      "endpoint_length_roi": 20.356406578912964,
+      "hub_center_distance_roi": 4.196377996726431,
+      "hub_error_roi": 2.201564991437643,
+      "hub_error_native": 6.604694974312929,
+      "thin_terminal_error_roi": 11.468410660878314,
+      "thin_terminal_error_native": 34.405231982634945,
+      "reference_angle_deg": 248.36729051840763,
+      "angle_error_deg": 0.9762533813221239
+    },
+    {
+      "id": "F_024",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.887501035872695,
+          65.29124632672968
+        ],
+        [
+          19.681369741661012,
+          76.05476123992533
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.66666793823242,
+          63.733333587646484
+        ],
+        [
+          49.233333587646484,
+          33.766666412353516
+        ]
+      ],
+      "peaks": [
+        0.6651486158370972,
+        0.418901652097702
+      ],
+      "margins": [
+        0.3771321773529053,
+        0.14309945702552795
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 165.6932354258682,
+      "endpoint_length_roi": 43.55698304647396,
+      "hub_center_distance_roi": 2.410127862237643,
+      "hub_error_roi": 1.7418935571183873,
+      "hub_error_native": 5.225680671355162,
+      "thin_terminal_error_roi": 51.590711676620025,
+      "thin_terminal_error_native": 154.77213502986007,
+      "reference_angle_deg": 245.85445678305044,
+      "angle_error_deg": 80.16122135718223
+    },
+    {
+      "id": "F_025",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.17577802683905,
+          63.915689147464256
+        ],
+        [
+          42.02176184784021,
+          43.97471038954374
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.5,
+          63.233333587646484
+        ],
+        [
+          38.16666793823242,
+          41.900001525878906
+        ]
+      ],
+      "peaks": [
+        0.7134386301040649,
+        0.22830867767333984
+      ],
+      "margins": [
+        0.393856018781662,
+        0.024563342332839966
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 221.99059043769785,
+      "endpoint_length_roi": 29.80676209659781,
+      "hub_center_distance_roi": 0.7933936027458544,
+      "hub_error_roi": 0.9603567314142756,
+      "hub_error_native": 2.8810701942428265,
+      "thin_terminal_error_roi": 4.3779179892803475,
+      "thin_terminal_error_native": 13.133753967841042,
+      "reference_angle_deg": 220.10090728053225,
+      "angle_error_deg": 1.8896831571655923
+    },
+    {
+      "id": "F_027",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          59.66267836875459,
+          72.18958501025973
+        ],
+        [
+          65.92255885479388,
+          34.04054855857524
+        ]
+      ],
+      "target_points_roi": [
+        [
+          59.43333435058594,
+          70.66666412353516
+        ],
+        null
+      ],
+      "peaks": [
+        0.32001981139183044,
+        0.1998251974582672
+      ],
+      "margins": [
+        0.007330209016799927,
+        0.008692681789398193
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 279.3186278484328,
+      "endpoint_length_roi": 38.65921734711461,
+      "hub_center_distance_roi": 9.499153907172712,
+      "hub_error_roi": 1.5400930835153168,
+      "hub_error_native": 4.62027925054595
+    },
+    {
+      "id": "F_028",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          58.1253395778334,
+          50.945363613863535
+        ],
+        [
+          16.421602888541784,
+          73.96483456405338
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.13333129882812,
+          62.86666488647461
+        ],
+        [
+          37.20000076293945,
+          37.96666717529297
+        ]
+      ],
+      "peaks": [
+        0.3344549536705017,
+        0.21701779961585999
+      ],
+      "margins": [
+        0.03477352857589722,
+        0.015583857893943787
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 151.1023466897327,
+      "endpoint_length_roi": 47.63504693685524,
+      "hub_center_distance_roi": 13.656715177585925,
+      "hub_error_roi": 13.349658742900493,
+      "hub_error_native": 40.04897622870148,
+      "thin_terminal_error_roi": 41.5645266251883,
+      "thin_terminal_error_native": 124.6935798755649,
+      "reference_angle_deg": 222.75353641124175,
+      "angle_error_deg": 71.65118972150904
+    },
+    {
+      "id": "F_029",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.03830354648255,
+          62.288120083450615
+        ],
+        [
+          69.96816538460146,
+          42.167017224851854
+        ]
+      ],
+      "target_points_roi": [
+        [
+          70.0,
+          63.66666793823242
+        ],
+        null
+      ],
+      "peaks": [
+        0.5751477479934692,
+        0.2747918665409088
+      ],
+      "margins": [
+        0.28252506256103516,
+        0.10357499122619629
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 275.47861309809304,
+      "endpoint_length_roi": 20.213439760726992,
+      "hub_center_distance_roi": 4.697323920292474,
+      "hub_error_roi": 2.397633659187002,
+      "hub_error_native": 7.192900977561006
+    },
+    {
+      "id": "F_030",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.98175643344399,
+          64.487492083079
+        ],
+        [
+          36.05438577830686,
+          36.297995244101614
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.233333587646484,
+          63.5
+        ],
+        [
+          34.900001525878906,
+          35.16666793823242
+        ]
+      ],
+      "peaks": [
+        0.7055506706237793,
+        0.6065429449081421
+      ],
+      "margins": [
+        0.5684537291526794,
+        0.3124038279056549
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 227.39361364764505,
+      "endpoint_length_roi": 38.29982090197789,
+      "hub_center_distance_roi": 1.8111333859029883,
+      "hub_error_roi": 1.0190346798123884,
+      "hub_error_native": 3.0571040394371654,
+      "thin_terminal_error_roi": 1.616324371918857,
+      "thin_terminal_error_native": 4.8489731157565705,
+      "reference_angle_deg": 226.0291548513128,
+      "angle_error_deg": 1.3644587963322579
+    },
+    {
+      "id": "F_031",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.43394497063859,
+          65.7707659397169
+        ],
+        [
+          51.766284577770705,
+          38.2150002985574
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.19999694824219,
+          63.66666793823242
+        ],
+        [
+          25.600000381469727,
+          55.29999923706055
+        ]
+      ],
+      "peaks": [
+        0.5396611094474792,
+        0.2487642765045166
+      ],
+      "margins": [
+        0.4112982153892517,
+        0.07197012007236481
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 240.37830077636733,
+      "endpoint_length_roi": 31.698514196358595,
+      "hub_center_distance_roi": 4.542279272016531,
+      "hub_error_roi": 3.8581923502350906,
+      "hub_error_native": 11.574577050705273,
+      "thin_terminal_error_roi": 31.25014587758342,
+      "thin_terminal_error_native": 93.75043763275026,
+      "reference_angle_deg": 192.22985249498805,
+      "angle_error_deg": 48.148448281379274
+    },
+    {
+      "id": "F_032",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.08340798656204,
+          67.51285180311092
+        ],
+        [
+          39.543097127159726,
+          54.29276912197899
+        ]
+      ],
+      "target_points_roi": [
+        [
+          65.07499694824219,
+          64.69999694824219
+        ],
+        [
+          21.475000381469727,
+          51.79999923706055
+        ]
+      ],
+      "peaks": [
+        0.5675837397575378,
+        0.2608112096786499
+      ],
+      "margins": [
+        0.4208478629589081,
+        0.06816819310188293
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 204.85392042970156,
+      "endpoint_length_roi": 31.453456567558387,
+      "hub_center_distance_roi": 6.091847697128616,
+      "hub_error_roi": 4.1185785666954695,
+      "hub_error_native": 16.474314266781878,
+      "thin_terminal_error_roi": 18.23924400052727,
+      "thin_terminal_error_native": 72.95697600210907,
+      "reference_angle_deg": 196.4819856726966,
+      "angle_error_deg": 8.371934757004965
+    },
+    {
+      "id": "F_033",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          69.95671563727348,
+          70.12655092253542
+        ],
+        [
+          93.58288045185274,
+          27.848237896171
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.099998474121094,
+          63.53333282470703
+        ],
+        [
+          26.066667556762695,
+          53.86666488647461
+        ]
+      ],
+      "peaks": [
+        0.2243708372116089,
+        0.15223217010498047
+      ],
+      "margins": [
+        0.029630392789840698,
+        0.009576693177223206
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 299.1975363508747,
+      "endpoint_length_roi": 48.43192558840623,
+      "hub_center_distance_roi": 9.252045933174283,
+      "hub_error_roi": 9.512365380965987,
+      "hub_error_native": 28.53709614289796,
+      "thin_terminal_error_roi": 72.35604706411816,
+      "thin_terminal_error_native": 217.06814119235446,
+      "reference_angle_deg": 194.62927388293468,
+      "angle_error_deg": 104.56826246794003
+    },
+    {
+      "id": "F_034",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.43492089294552,
+          64.33135604099442
+        ],
+        [
+          52.03547261503466,
+          45.67024317903709
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.96666717529297,
+          63.86666488647461
+        ],
+        [
+          26.799999237060547,
+          54.93333435058594
+        ]
+      ],
+      "peaks": [
+        0.47169825434684753,
+        0.2864357829093933
+      ],
+      "margins": [
+        0.3209182024002075,
+        0.01201099157333374
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 240.86998959260143,
+      "endpoint_length_roi": 21.363184634591647,
+      "hub_center_distance_roi": 1.35112781452455,
+      "hub_error_roi": 0.7061812641803014,
+      "hub_error_native": 2.118543792540904,
+      "thin_terminal_error_roi": 26.881852143460396,
+      "thin_terminal_error_native": 80.64555643038119,
+      "reference_angle_deg": 193.87459751180796,
+      "angle_error_deg": 46.995392080793465
+    },
+    {
+      "id": "F_035",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.74517166014135,
+          62.7360168642212
+        ],
+        [
+          67.91015316808465,
+          44.14654379772392
+        ]
+      ],
+      "target_points_roi": [
+        [
+          68.33333587646484,
+          62.66666793823242
+        ],
+        [
+          29.866666793823242,
+          53.0
+        ]
+      ],
+      "peaks": [
+        0.48592913150787354,
+        0.20172184705734253
+      ],
+      "margins": [
+        0.38399380445480347,
+        0.019987329840660095
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 270.5084864911018,
+      "endpoint_length_roi": 18.590205157232422,
+      "hub_center_distance_roi": 4.313369060933889,
+      "hub_error_roi": 0.5922384814407315,
+      "hub_error_native": 1.7767154443221946,
+      "thin_terminal_error_roi": 39.06008886618454,
+      "thin_terminal_error_native": 117.18026659855363,
+      "reference_angle_deg": 194.10631665842274,
+      "angle_error_deg": 76.40216983267908
+    },
+    {
+      "id": "F_036",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          61.917413390159865,
+          64.72454115174305
+        ],
+        [
+          32.03385079807931,
+          50.4152290494705
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.36666488647461,
+          63.66666793823242
+        ],
+        [
+          28.03333282470703,
+          52.33333206176758
+        ]
+      ],
+      "peaks": [
+        0.7321784496307373,
+        0.31679800152778625
+      ],
+      "margins": [
+        0.5607341527938843,
+        0.0894538015127182
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 205.5867564540787,
+      "endpoint_length_roi": 33.13281947005175,
+      "hub_center_distance_roi": 2.0010200923422774,
+      "hub_error_roi": 1.149313987909461,
+      "hub_error_native": 3.4479419637283826,
+      "thin_terminal_error_roi": 4.4365823807360725,
+      "thin_terminal_error_native": 13.309747142208217,
+      "reference_angle_deg": 198.26791066587717,
+      "angle_error_deg": 7.318845788201543
+    },
+    {
+      "id": "F_037",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.73490492076384,
+          64.99302621154878
+        ],
+        [
+          69.90191872034814,
+          45.416126201661335
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.83333587646484,
+          63.63333511352539
+        ],
+        [
+          27.399999618530273,
+          60.63333511352539
+        ]
+      ],
+      "peaks": [
+        0.6497161984443665,
+        0.28297439217567444
+      ],
+      "margins": [
+        0.5767091512680054,
+        0.07579396665096283
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 276.3164921299058,
+      "endpoint_length_roi": 19.696470821056238,
+      "hub_center_distance_roi": 4.490383831732147,
+      "hub_error_roi": 3.2043506051738837,
+      "hub_error_native": 9.61305181552165,
+      "thin_terminal_error_roi": 45.14395390752548,
+      "thin_terminal_error_native": 135.43186172257643,
+      "reference_angle_deg": 184.58203214451217,
+      "angle_error_deg": 91.73445998539364
+    },
+    {
+      "id": "F_038",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.03537966217877,
+          64.96112279580045
+        ],
+        [
+          53.99712359380032,
+          44.315448024171616
+        ]
+      ],
+      "target_points_roi": [
+        [
+          63.82500076293945,
+          64.125
+        ],
+        [
+          22.774999618530273,
+          60.17499923706055
+        ]
+      ],
+      "peaks": [
+        0.696173906326294,
+        0.2503303289413452
+      ],
+      "margins": [
+        0.5961414575576782,
+        0.012666553258895874
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 239.75402927008753,
+      "endpoint_length_roi": 23.899027091991044,
+      "hub_center_distance_roi": 2.926265513550924,
+      "hub_error_roi": 2.36323426850991,
+      "hub_error_native": 9.45293707403964,
+      "thin_terminal_error_roi": 35.01922886360263,
+      "thin_terminal_error_native": 140.0769154544105,
+      "reference_angle_deg": 185.4963147685129,
+      "angle_error_deg": 54.25771450157464
+    },
+    {
+      "id": "F_039",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          72.3620129280645,
+          50.082202290225226
+        ],
+        [
+          68.07729576248896,
+          16.547876557702217
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.26667022705078,
+          63.43333435058594
+        ],
+        [
+          23.399999618530273,
+          58.43333435058594
+        ]
+      ],
+      "peaks": [
+        0.25469133257865906,
+        0.24292400479316711
+      ],
+      "margins": [
+        0.08084893226623535,
+        0.08859287202358246
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 262.7187085306222,
+      "endpoint_length_roi": 33.80694904193415,
+      "hub_center_distance_roi": 16.080191805995955,
+      "hub_error_roi": 15.613689530026136,
+      "hub_error_native": 46.84106859007841,
+      "thin_terminal_error_roi": 61.240937005033075,
+      "thin_terminal_error_native": 183.72281101509924,
+      "reference_angle_deg": 186.97541868710368,
+      "angle_error_deg": 75.74328984351854
+    },
+    {
+      "id": "F_040",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          62.36375409909674,
+          64.33462597726155
+        ],
+        [
+          31.73735931268465,
+          58.046650698287785
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.93333435058594,
+          63.93333435058594
+        ],
+        [
+          23.366666793823242,
+          58.79999923706055
+        ]
+      ],
+      "peaks": [
+        0.552379846572876,
+        0.22638584673404694
+      ],
+      "margins": [
+        0.4758628010749817,
+        0.028148934245109558
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 191.6022965010766,
+      "endpoint_length_roi": 31.265231339655152,
+      "hub_center_distance_roi": 1.4098422852359291,
+      "hub_error_roi": 0.6967471797764673,
+      "hub_error_native": 2.090241539329402,
+      "thin_terminal_error_roi": 8.404524214147603,
+      "thin_terminal_error_native": 25.21357264244281,
+      "reference_angle_deg": 187.39219917449773,
+      "angle_error_deg": 4.210097326578875
+    },
+    {
+      "id": "F_041",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          71.42745374385694,
+          64.824655856596
+        ],
+        [
+          27.766499220399627,
+          50.16516365245858
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.66666412353516,
+          63.66666793823242
+        ],
+        [
+          26.233333587646484,
+          64.19999694824219
+        ]
+      ],
+      "peaks": [
+        0.5638283491134644,
+        0.3453758656978607
+      ],
+      "margins": [
+        0.4597271978855133,
+        0.16264930367469788
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 198.5598619821404,
+      "endpoint_length_roi": 46.05626625750913,
+      "hub_center_distance_roi": 8.037364991053073,
+      "hub_error_roi": 2.1074430255902405,
+      "hub_error_native": 6.322329076770721,
+      "thin_terminal_error_roi": 14.118326476530122,
+      "thin_terminal_error_native": 42.354979429590365,
+      "reference_angle_deg": 179.2964857793334,
+      "angle_error_deg": 19.263376202806995
+    },
+    {
+      "id": "F_042",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.392108609145865,
+          64.56494565873273
+        ],
+        [
+          45.53023049416847,
+          53.80087684290883
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.70000076293945,
+          63.53333282470703
+        ],
+        [
+          29.5,
+          57.099998474121094
+        ]
+      ],
+      "peaks": [
+        0.7287915945053101,
+        0.2741389572620392
+      ],
+      "margins": [
+        0.6159915924072266,
+        0.09251414239406586
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 215.91482926574002,
+      "endpoint_length_roi": 18.350493142589833,
+      "hub_center_distance_roi": 3.2852850946910115,
+      "hub_error_roi": 1.6657751724891794,
+      "hub_error_native": 4.997325517467538,
+      "thin_terminal_error_roi": 16.366199718740496,
+      "thin_terminal_error_native": 49.09859915622149,
+      "reference_angle_deg": 191.29852726879278,
+      "angle_error_deg": 24.616301996947243
+    },
+    {
+      "id": "F_043",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          69.31794576485598,
+          64.33671916349542
+        ],
+        [
+          67.96506426825366,
+          30.067275694722156
+        ]
+      ],
+      "target_points_roi": [
+        [
+          65.5,
+          62.900001525878906
+        ],
+        [
+          28.0,
+          68.0
+        ]
+      ],
+      "peaks": [
+        0.7607467174530029,
+        0.20350752770900726
+      ],
+      "margins": [
+        0.47376760840415955,
+        0.01116257905960083
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 267.7392638716443,
+      "endpoint_length_roi": 34.29613745020414,
+      "hub_center_distance_roi": 5.8778050224013105,
+      "hub_error_roi": 4.079321933069277,
+      "hub_error_native": 12.237965799207831,
+      "thin_terminal_error_roi": 55.10079795416634,
+      "thin_terminal_error_native": 165.302393862499,
+      "reference_angle_deg": 172.25529174261038,
+      "angle_error_deg": 95.48397212903393
+    },
+    {
+      "id": "F_044",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.79896384059359,
+          63.97580990344814
+        ],
+        [
+          29.627892835409185,
+          76.1904742125725
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.0250015258789,
+          62.82500076293945
+        ],
+        [
+          22.875,
+          69.7750015258789
+        ]
+      ],
+      "peaks": [
+        0.6473954916000366,
+        0.20726343989372253
+      ],
+      "margins": [
+        0.44811609387397766,
+        0.013403311371803284
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 162.2554351414007,
+      "endpoint_length_roi": 40.0777829460092,
+      "hub_center_distance_roi": 4.325215042856307,
+      "hub_error_roi": 3.945523188471324,
+      "hub_error_native": 15.782092753885296,
+      "thin_terminal_error_roi": 9.31449684310603,
+      "thin_terminal_error_native": 37.25798737242412,
+      "reference_angle_deg": 170.41353832755402,
+      "angle_error_deg": 8.158103186153312
+    },
+    {
+      "id": "F_045",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.76831772151003,
+          64.11390891047355
+        ],
+        [
+          48.26090798131344,
+          16.521307907363067
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.0,
+          62.33333206176758
+        ],
+        null
+      ],
+      "peaks": [
+        0.28203025460243225,
+        0.14813746511936188
+      ],
+      "margins": [
+        0.05717207491397858,
+        0.03539253771305084
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 249.80345456831995,
+      "endpoint_length_roi": 50.71060112099248,
+      "hub_center_distance_roi": 2.3499254107471756,
+      "hub_error_roi": 2.5094623883123113,
+      "hub_error_native": 7.528387164936934
+    },
+    {
+      "id": "F_046",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.06325910988811,
+          64.05012433144168
+        ],
+        [
+          28.01734761485264,
+          66.03704186865995
+        ]
+      ],
+      "target_points_roi": [
+        [
+          62.83333206176758,
+          62.86666488647461
+        ],
+        [
+          24.366666793823242,
+          71.5999984741211
+        ]
+      ],
+      "peaks": [
+        0.32873791456222534,
+        0.15901945531368256
+      ],
+      "margins": [
+        0.24782688915729523,
+        0.004926145076751709
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 176.84494317770182,
+      "endpoint_length_roi": 36.10063125220438,
+      "hub_center_distance_roi": 0.7873357637730543,
+      "hub_error_roi": 1.7068382470463468,
+      "hub_error_native": 5.12051474113904,
+      "thin_terminal_error_roi": 6.653867796347894,
+      "thin_terminal_error_native": 19.96160338904368,
+      "reference_angle_deg": 167.2086095450454,
+      "angle_error_deg": 9.63633363265643
+    },
+    {
+      "id": "F_047",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          67.91601428149701,
+          64.3233016961303
+        ],
+        [
+          45.660247272048196,
+          66.06950504495674
+        ]
+      ],
+      "target_points_roi": [
+        [
+          69.33333587646484,
+          63.33333206176758
+        ],
+        [
+          28.5,
+          74.9000015258789
+        ]
+      ],
+      "peaks": [
+        0.5319018959999084,
+        0.2515907287597656
+      ],
+      "margins": [
+        0.33895450830459595,
+        0.041583284735679626
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 175.51372318588653,
+      "endpoint_length_roi": 22.324166083290166,
+      "hub_center_distance_roi": 4.4921050541184595,
+      "hub_error_roi": 1.728826301431818,
+      "hub_error_native": 5.186478904295454,
+      "thin_terminal_error_roi": 19.29900915947283,
+      "thin_terminal_error_native": 57.897027478418494,
+      "reference_angle_deg": 164.18441144653264,
+      "angle_error_deg": 11.329311739353898
+    },
+    {
+      "id": "F_048",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.10107408759011,
+          63.78030771627412
+        ],
+        [
+          45.27666747907802,
+          61.97974032009389
+        ]
+      ],
+      "target_points_roi": [
+        [
+          61.0,
+          62.33333206176758
+        ],
+        [
+          29.799999237060547,
+          67.69999694824219
+        ]
+      ],
+      "peaks": [
+        0.664658784866333,
+        0.3259337246417999
+      ],
+      "margins": [
+        0.5595430135726929,
+        0.09045033156871796
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 186.925204306949,
+      "endpoint_length_roi": 14.933354420313082,
+      "hub_center_distance_roi": 3.410464744555233,
+      "hub_error_roi": 1.7034689139331518,
+      "hub_error_native": 5.110406741799455,
+      "thin_terminal_error_roi": 16.49995744737988,
+      "thin_terminal_error_native": 49.49987234213964,
+      "reference_angle_deg": 170.2401465059915,
+      "angle_error_deg": 16.68505780095751
+    },
+    {
+      "id": "F_049",
+      "split": "train",
+      "source_group": "F",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.15693022409084,
+          68.05537264705606
+        ],
+        [
+          29.676589007505473,
+          61.95025474288411
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.18247194588184357,
+        0.07710178941488266
+      ],
+      "margins": [
+        0.01662003993988037,
+        7.073581218719482e-05
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 190.04077359957216,
+      "endpoint_length_roi": 35.01665882170938,
+      "hub_center_distance_roi": 4.6024968520218
+    },
+    {
+      "id": "F_050",
+      "split": "train",
+      "source_group": "F",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          66.26118911491888,
+          70.18124426610116
+        ],
+        [
+          18.003785017129957,
+          48.50468908006985
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.19713328778743744,
+        0.0980340838432312
+      ],
+      "margins": [
+        0.06142948567867279,
+        0.00023054331541061401
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 204.18895348078797,
+      "endpoint_length_roi": 52.902269280158066,
+      "hub_center_distance_roi": 7.229328479994261
+    },
+    {
+      "id": "F_051",
+      "split": "train",
+      "source_group": "F",
+      "target_present": false,
+      "mask": [
+        1.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          64.1545410654455,
+          77.50676654017784
+        ],
+        [
+          21.878541685672037,
+          48.638929758811614
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        null
+      ],
+      "peaks": [
+        0.2613902688026428,
+        0.13485386967658997
+      ],
+      "margins": [
+        0.10622523725032806,
+        0.025254935026168823
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 214.32691070177393,
+      "endpoint_length_roi": 51.191914634971475,
+      "hub_center_distance_roi": 14.022051665765602
+    },
+    {
+      "id": "F_056",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        0.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          76.89665503581259,
+          63.75560788888189
+        ],
+        [
+          22.019118234661008,
+          67.89298002764684
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        [
+          28.200000762939453,
+          68.30000305175781
+        ]
+      ],
+      "peaks": [
+        0.5445815324783325,
+        0.31014204025268555
+      ],
+      "margins": [
+        0.2331734001636505,
+        0.026393890380859375
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 175.68846641293212,
+      "endpoint_length_roi": 55.03327987296754,
+      "hub_center_distance_roi": 13.39909331042296,
+      "thin_terminal_error_roi": 6.194269655942836,
+      "thin_terminal_error_native": 18.58280896782851
+    },
+    {
+      "id": "F_057",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        0.0,
+        1.0
+      ],
+      "predicted_points_roi": [
+        [
+          60.085654886970936,
+          66.16529822871749
+        ],
+        [
+          50.085894042228524,
+          41.775231685136546
+        ]
+      ],
+      "target_points_roi": [
+        null,
+        [
+          27.16666603088379,
+          67.4000015258789
+        ]
+      ],
+      "peaks": [
+        0.42328011989593506,
+        0.21993255615234375
+      ],
+      "margins": [
+        0.03307539224624634,
+        0.0020122677087783813
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 247.70670556170654,
+      "endpoint_length_roi": 26.360397625080505,
+      "hub_center_distance_roi": 4.3314624780632744,
+      "thin_terminal_error_roi": 34.37906109868372,
+      "thin_terminal_error_native": 103.13718329605116
+    },
+    {
+      "id": "F_058",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          68.0069131038266,
+          62.6602224330986
+        ],
+        [
+          25.677288292676515,
+          61.501692044070985
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.03333282470703,
+          62.900001525878906
+        ],
+        null
+      ],
+      "peaks": [
+        0.5376119017601013,
+        0.24651961028575897
+      ],
+      "margins": [
+        0.3322691023349762,
+        0.08539822697639465
+      ],
+      "evidence_accepted": false,
+      "angle_deg": 181.56775154951683,
+      "endpoint_length_roi": 42.34547590138802,
+      "hub_center_distance_roi": 4.584483840882721,
+      "hub_error_roi": 3.980808240538915,
+      "hub_error_native": 11.942424721616746
+    },
+    {
+      "id": "F_059",
+      "split": "train",
+      "source_group": "F",
+      "target_present": true,
+      "mask": [
+        1.0,
+        0.0
+      ],
+      "predicted_points_roi": [
+        [
+          65.72846642395142,
+          64.17824322988925
+        ],
+        [
+          41.43649140731871,
+          53.98135157386668
+        ]
+      ],
+      "target_points_roi": [
+        [
+          64.5999984741211,
+          63.16666793823242
+        ],
+        null
+      ],
+      "peaks": [
+        0.3240256607532501,
+        0.3934117555618286
+      ],
+      "margins": [
+        0.04014882445335388,
+        0.1815883368253708
+      ],
+      "evidence_accepted": true,
+      "angle_deg": 202.77090062316606,
+      "endpoint_length_roi": 26.345334494998735,
+      "hub_center_distance_roi": 2.3293940159555264,
+      "hub_error_roi": 1.5154947985674,
+      "hub_error_native": 4.5464843957022
+    }
+  ]
+}

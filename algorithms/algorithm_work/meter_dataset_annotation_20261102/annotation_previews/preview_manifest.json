@@ -1,0 +1,12 @@
+{
+  "kind": "ANNOTATION_REVIEW_COPIES_ONLY_NOT_TRAINING_INPUTS",
+  "count": 472,
+  "canonical_labels": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotations.json",
+  "originals_unchanged": true,
+  "colors": {
+    "green": "gauge bbox",
+    "magenta": "mechanical hub",
+    "cyan": "thin reading terminal"
+  },
+  "training_performed": false
+}

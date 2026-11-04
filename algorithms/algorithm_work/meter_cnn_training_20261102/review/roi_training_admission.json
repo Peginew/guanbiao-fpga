@@ -1,0 +1,33 @@
+{
+  "status": "PASS_TRAINING_ADMISSION_PROXY_ROI_ONLY",
+  "checks": 5522,
+  "failures": [],
+  "file_sha256": {
+    "roi_adapter.py": "2f3bc1b8c640742f09a8ab2a7bed30707cd6064197c0da7430556e3338d45cc4",
+    "train_grouped.py": "d8d44385c0064f9873b161dc489b218714c07a06a6cbb5a96d4330317f2ded4b",
+    "prepared_train.jsonl": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "prepared_validation.jsonl": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79"
+  },
+  "source_dataset_manifest_sha256": "e512850e54db6cc20c4b1973db9d48c852bf8737c3846a07afcb5cf9472c9872",
+  "actual_native_images_opened": 236,
+  "roi_pixels_independently_compared": 3866624,
+  "mapped_coordinate_heads_checked": 395,
+  "maximum_inverse_native_error_px": 0.0,
+  "visually_inspected_contact_sheets": [
+    "train_contact_01.png",
+    "train_contact_05.png",
+    "validation_contact_05.png"
+  ],
+  "visual_scope": "35 raw/label ROI pairs; no obvious coordinate-system shift, no guarantee of full canonical label precision",
+  "training_script_review": "scratch C4; actual D/E/F only gradients; G inference_mode selection; no H/ABC inputs; bounded coupled augmentation; masked unknown heads",
+  "test_H_pixels_or_labels_opened": false,
+  "real_training_started_by_reviewer": false,
+  "device_operations": false,
+  "limitations": [
+    "Annotated bbox is locator proxy, not actual detector ROI",
+    "HDMI RGB reconstructed gray not proved equal to actual CSI ROI",
+    "Original OSD remains visible and can contaminate image-domain evaluation",
+    "Known label uncertainty remains; this is transformation alignment review, not gold-label certification",
+    "Network score/acceptance policy is proxy; integer conversion, calibration and board READ remain pending"
+  ]
+}

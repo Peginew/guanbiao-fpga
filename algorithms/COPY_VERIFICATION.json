@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "source_files": 1407,
+  "source_bytes": 127547746,
+  "total_files_including_generated_docs": 1413,
+  "total_bytes_including_generated_docs": 128101553,
+  "all_copied_sha_verified": true,
+  "errors": [],
+  "new_training": false,
+  "C_or_H_evaluation_executed": false,
+  "source_modified": false
+}

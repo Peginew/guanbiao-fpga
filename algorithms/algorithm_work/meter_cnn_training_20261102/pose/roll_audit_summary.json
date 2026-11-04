@@ -1,0 +1,113 @@
+{
+  "status": "RELATIVE_ROLL_AUDIT_NOT_ABSOLUTE_POSE",
+  "reference": {
+    "id": "D_002",
+    "split": "train",
+    "sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+    "absolute_upright_verified": false
+  },
+  "method": "New-data SIFT/CLAHE static-print masked mutual matches + RANSAC homography; local Jacobian polar rotation at hub",
+  "code_technique_reference": "algorithm_work/meter_accuracy_rebuild_20261024/registration/face.py; no old images or weights imported",
+  "mask": "Printed annulus radius.40..86 of face radius; central hub/background/rim excluded, ±22deg needle and counterweight exclusion from available direct visual labels; no bar inversion. Unknown dynamic direction skipped.",
+  "angle": "Image-coordinate clockwise positive relative to D002, NOT certified absolute roll; perspective/yaw can confound polar angle",
+  "groups": {
+    "D": {
+      "records": 59,
+      "supported": 24,
+      "relative_degrees_min": -2.3501272872669654,
+      "max": 5.705987715287577,
+      "percentiles_5_50_95": [
+        -2.103456788429064,
+        -0.3109739887439908,
+        4.540911231701403
+      ],
+      "beyond_absolute8_count": 0,
+      "lower_anisotropy_count": 24,
+      "lower_anisotropy_min": -2.3501272872669654,
+      "lower_anisotropy_max": 5.705987715287577
+    },
+    "E": {
+      "records": 59,
+      "supported": 38,
+      "relative_degrees_min": -5.6614457450000035,
+      "max": 9.415253197652158,
+      "percentiles_5_50_95": [
+        -4.102779102729736,
+        -1.3347094103865556,
+        2.805512643966045
+      ],
+      "beyond_absolute8_count": 1,
+      "lower_anisotropy_count": 37,
+      "lower_anisotropy_min": -5.6614457450000035,
+      "lower_anisotropy_max": 9.415253197652158
+    },
+    "F": {
+      "records": 59,
+      "supported": 16,
+      "relative_degrees_min": -1.7492218999467675,
+      "max": 8.921542624696444,
+      "percentiles_5_50_95": [
+        -1.4389739159754165,
+        4.711427409482141,
+        8.61659853543559
+      ],
+      "beyond_absolute8_count": 2,
+      "lower_anisotropy_count": 15,
+      "lower_anisotropy_min": -1.7492218999467675,
+      "lower_anisotropy_max": 8.921542624696444
+    },
+    "G": {
+      "records": 59,
+      "supported": 37,
+      "relative_degrees_min": 3.9678121299605893,
+      "max": 15.43130775286831,
+      "percentiles_5_50_95": [
+        4.304913557086509,
+        10.40589633767203,
+        14.109465839415401
+      ],
+      "beyond_absolute8_count": 27,
+      "lower_anisotropy_count": 36,
+      "lower_anisotropy_min": 3.9678121299605893,
+      "lower_anisotropy_max": 15.43130775286831
+    }
+  },
+  "train": {
+    "records": 177,
+    "supported": 78,
+    "relative_degrees_min": -5.6614457450000035,
+    "max": 9.415253197652158,
+    "percentiles_5_50_95": [
+      -2.92611822413438,
+      -0.05905041478987115,
+      6.8923390965956255
+    ],
+    "beyond_absolute8_count": 3,
+    "lower_anisotropy_count": 76,
+    "lower_anisotropy_min": -5.6614457450000035,
+    "lower_anisotropy_max": 9.415253197652158
+  },
+  "validation": {
+    "records": 59,
+    "supported": 37,
+    "relative_degrees_min": 3.9678121299605893,
+    "max": 15.43130775286831,
+    "percentiles_5_50_95": [
+      4.304913557086509,
+      10.40589633767203,
+      14.109465839415401
+    ],
+    "beyond_absolute8_count": 27,
+    "lower_anisotropy_count": 36,
+    "lower_anisotropy_min": 3.9678121299605893,
+    "lower_anisotropy_max": 15.43130775286831
+  },
+  "H_opened": false,
+  "canonical_changed": false,
+  "training_executed": false,
+  "note": "Audit metadata only, not production model inputs/pose labels. Existing labels/ROIs and run001/run002 untouched.",
+  "input_sha": {
+    "prepared_train.jsonl": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "prepared_validation.jsonl": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79"
+  }
+}

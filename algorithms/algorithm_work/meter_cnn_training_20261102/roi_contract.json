@@ -1,0 +1,41 @@
+{
+  "schema": "meter_native_roi_adapter_v1",
+  "source_manifest_sha256": "e512850e54db6cc20c4b1973db9d48c852bf8737c3846a07afcb5cf9472c9872",
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\meter_pair\\meter_roi_window_policy.v",
+      "sha256": "eed0a594bcba9176f98fade5f3af892d7b7603d0c70d1bb707fcd604eaf86682"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_flash20e_20261101\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_capture_mcu.v",
+      "sha256": "846c5d743c3563ccf20fc645987d78288ce20c002123bb04f8398dcc7884851c"
+    }
+  ],
+  "capture_accepts_strides": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "current_parent_policy_selects_strides": [
+    2,
+    3,
+    4
+  ],
+  "gray_reconstruction": "U8=(77R+150G+29B+128)>>8",
+  "blockmean": "U8 sum shifted; stride3 hardware reciprocal multiply7282 then >>16",
+  "coordinates": "roi=(native-origin-(stride-1)/2)/stride; heatmap=roi/2; inverse=native=roi*stride+origin+(stride-1)/2",
+  "keypoint_source": "Direct visual coordinates from immutable canonical annotation; pressure not used",
+  "negative_crop_policy": "Same-session median positive face BOX, no keypoint or pressure use. A plausible false-locator window, no guarantee object centered.",
+  "masks": "Honor original per-head mask; visible supervised out-of-window head ignored explicitly, never clamped or converted negative",
+  "labels_unchanged": true,
+  "raw_sources_unchanged": true,
+  "bbox_proxy_not_actual_auto_locator": true,
+  "no_board_capture_equivalence_claim": true,
+  "supervised_point_selection_does_not_control_crop": true,
+  "hardware_policy_available_does_not_gate_training": true,
+  "OSD": "Retained original native HDMI OSD, overlap approximate rectangles logged; no overlay preview input. Label contamination requires visual review.",
+  "train_augmentation_recommendation": "Bounded translation/scale perturbations with joint coordinate transform; never derive crop from thin tip. Validation no random jitter.",
+  "validation_role": "G development only; H not opened/prepared/scored",
+  "training_executed": false
+}

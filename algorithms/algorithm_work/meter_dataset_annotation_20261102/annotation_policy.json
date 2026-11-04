@@ -1,0 +1,180 @@
+{
+  "schema": "meter_annotation_policy_v1",
+  "date_local": "2026-11-02",
+  "source_root": "D:/资料归档/FPGA采集素材/hdmi_capture_20261018/data_base",
+  "scope": "ANNOTATION_ONLY_NO_TRAINING_NO_BOARD_OPERATIONS",
+  "training_authorized": false,
+  "raw_images_must_remain_unchanged": true,
+  "user_updates": [
+    "有些补拍的照片我们进行标注了",
+    "我们每一张数据集中只拍摄了一个圆形物体，你要求拍摄两个圆形物体，这个你记住",
+    "我们拍摄的关于压力的顺序是从压力高到低进行拍摄的"
+  ],
+  "circular_distractor_note": {
+    "user_reports_one_instead_of_requested_two": true,
+    "no_second_object_is_to_be_fabricated": true,
+    "actual_object_class_and_count_require_image_review": true
+  },
+  "pressure_capture_order": "high_to_low",
+  "pressure_units": "psi",
+  "pressure_levels_descending": {
+    "A": [
+      12,
+      11,
+      9.5,
+      8,
+      6.5,
+      5,
+      3.5,
+      2.5
+    ],
+    "B": [
+      12,
+      11,
+      9.5,
+      8,
+      6.5,
+      5,
+      3.5,
+      2.5
+    ],
+    "C": [
+      12,
+      11,
+      9.5,
+      8,
+      6.5,
+      5,
+      3.5,
+      2.5
+    ],
+    "D": [
+      12,
+      11,
+      9.5,
+      8,
+      6.5,
+      5,
+      3.5,
+      2.5
+    ],
+    "E": [
+      12,
+      11,
+      9.5,
+      8,
+      6.5,
+      5,
+      3.5,
+      2.5
+    ],
+    "F": [
+      12,
+      11.5,
+      10,
+      8.5,
+      7,
+      5.5,
+      4,
+      2.5
+    ],
+    "G": [
+      12,
+      11.5,
+      10,
+      8.5,
+      7,
+      5.5,
+      4,
+      2.5
+    ],
+    "H": [
+      12,
+      11.5,
+      10,
+      8.5,
+      7,
+      5.5,
+      4,
+      2.5
+    ]
+  },
+  "pressure_provenance": "User explicitly supplied these two schedules in chat on 2026-11-02; not inferred from needle angles or previous bar calibration.",
+  "pressure_reference_uncertainty": null,
+  "challenge_gauge_pressure_psi": 2.5,
+  "challenge_pressure_provenance": "User explicitly confirmed all near/far/lighting/occlusion challenge photographs remained at 2.5psi on 2026-11-02; invisible points remain null.",
+  "conditions_per_pressure": [
+    "front_medium_soft_light",
+    "front_large_soft_light",
+    "front_dim",
+    "backlight_or_local_reflection",
+    "mild_left_view",
+    "mild_right_view"
+  ],
+  "supplement_annotations": {
+    "A/补拍12psi逆光.png": {
+      "pressure_value": 12,
+      "pressure_unit": "psi",
+      "condition_index": 4
+    },
+    "C/补拍12第一张.png": {
+      "pressure_value": 12,
+      "pressure_unit": "psi",
+      "condition_index": 1
+    },
+    "C/补拍12第二张.png": {
+      "pressure_value": 12,
+      "pressure_unit": "psi",
+      "condition_index": 2
+    },
+    "C/补拍12第三张.png": {
+      "pressure_value": 12,
+      "pressure_unit": "psi",
+      "condition_index": 3
+    },
+    "C/补拍杂物.png": {
+      "pressure_value": null,
+      "pressure_unit": null,
+      "class_requires_image_review": true
+    },
+    "E/补拍 8psi 右侧.png": {
+      "pressure_value": 8,
+      "pressure_unit": "psi",
+      "condition_index": 6
+    },
+    "E/补拍2.5psi第一张.png": {
+      "pressure_value": 2.5,
+      "pressure_unit": "psi",
+      "condition_index": 1
+    }
+  },
+  "coordinate_system": "Native 1280x720 raster; origin top-left; x right, y down; bbox [x0,y0,x1,y1) half-open.",
+  "keypoint_definition": {
+    "hub": "Visible center of the actual mechanical pivot, not the detector box center.",
+    "thin_terminal": "Physical tip of the narrow reading end, not the broad counterweight and not an extrapolated tick intersection."
+  },
+  "visibility_enum": [
+    "visible",
+    "occluded",
+    "unknown",
+    "absent"
+  ],
+  "visible_point_requires_uncertainty_px": true,
+  "invisible_point_xy_must_be_null": true,
+  "automatic_proposals_are_not_ground_truth": true,
+  "OSD_predictions_must_not_be_used_as_ground_truth": true,
+  "bar_must_not_be_used_to_invert_keypoint_labels": true,
+  "split": "unassigned",
+  "independent_reposition_per_group": "user_confirmed_scene_repositioned_between_groups",
+  "test_set_independence_not_claimed": true,
+  "scene_repositioned_between_groups": true,
+  "manual_focus_setting_unchanged": true,
+  "pressure_stable_within_capture_group": true,
+  "capture_confirmation": {
+    "date_local": "2026-11-02",
+    "source": "User replied 1.有 2.是的，基本不变 3.没有调整过焦距 to the three explicit capture-setting questions.",
+    "pressure_stability_note": "Basically unchanged, not a measured zero-drift guarantee.",
+    "focus_note": "Unchanged manual focusing setting as asked in context; no measured focal length or depth-of-field claim.",
+    "independence_note": "Physical rearrangement confirmed; statistical independence and train/test split are not established solely by this response."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task": "Native-image to CNN ROI adapter, label-alignment review and first grouped training",
+  "authorized_by": "2026-11-02 user explicitly requests conversion, trainer adaptation, alignment checks, then training",
+  "dataset_manifest_sha256": "e512850e54db6cc20c4b1973db9d48c852bf8737c3846a07afcb5cf9472c9872",
+  "canonical_annotations_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "train_groups": ["D", "E", "F"],
+  "validation_groups": ["G"],
+  "prospective_test_group_H": "No pixel or label opening and no model evaluation in this task",
+  "refinement_reserve_ABC": "Not used in this task",
+  "original_images_and_canonical_annotations": "Unchanged",
+  "model": "Existing Direct C4/W8 topology, 1202 parameters, scratch initialization, 128x128 U8 gray to two 64x64 keypoint evidence maps",
+  "heads": ["hub", "thin_terminal"],
+  "pressure": "Metadata only; no inverse pressure-to-point labels or direct pressure regression",
+  "alignment_admission": [
+    "Use current hardware ROI window policy and integer block averaging with explicit native pixel-center transform",
+    "Check admitted point forward/inverse transforms and rendered ROI overlays",
+    "Do not clamp out-of-view coordinates or change original labels",
+    "Respect per-head masks and actual negative images",
+    "Only source native PNG pixels, no annotation preview as network input"
+  ],
+  "input_scope": "Annotated-bbox-derived ROI from HDMI PNG, a training proxy; neither actual automatic-locator ROI nor byte-identical CSI analysis gray has been demonstrated",
+  "selection": "Train-only optimizer and augmentation, validation-only checkpoint selection, single architecture with fixed seed and bounded steps",
+  "outputs": ["Reproducible ROI and mapped-label records", "Alignment visual and arithmetic checks", "Adapted trainer and configuration", "Actual first training checkpoints and train/validation diagnostics"],
+  "not_this_task": ["Hardware downloads", "Flash or MCU changes", "New bitstreams", "Motor movement", "Expanding board TEST pressure calibration", "Claiming board accuracy from PC training"],
+  "integer_deployment": "Separate next stage after evaluating learned candidate; no automatically approved replacement of existing firmware"
+}

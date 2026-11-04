@@ -1,0 +1,35 @@
+--- train_grouped.py
++++ train_grouped_v2.py
+@@ -54,6 +54,14 @@
+         self.context = nn.Sequential(nn.Conv2d(8, 8, 5, 1, 2, groups=8), nn.ReLU())
+         self.fuse = nn.Conv2d(c + 8, c, 1)
+         self.head = nn.Conv2d(c, 2, 1)
++        # Scratch-only initialization repair.  Forward operators, channels,
++        # parameters, masks, data and validation policy remain unchanged.
++        for name, layer in self.named_modules():
++            if isinstance(layer, nn.Conv2d) and name != "head":
++                nn.init.kaiming_uniform_(layer.weight, a=0, mode="fan_in", nonlinearity="relu")
++                nn.init.zeros_(layer.bias)
++        nn.init.constant_(self.fuse.bias, .05)
++        nn.init.normal_(self.head.weight, mean=0., std=.01)
+         nn.init.constant_(self.head.bias, -4.59511985)
+ 
+     def forward(self, x):
+@@ -320,7 +328,7 @@
+ def checkpoint(model, step, config, score):
+     return dict(channels=4, state_dict={k: v.detach().cpu() for k, v in model.state_dict().items()},
+                 architecture="encoder_local_skip_upright_v4", parameters=1202, training_steps=step,
+-                initialization="scratch", dataset_manifest_sha256=config["dataset_manifest_sha256"],
++                initialization="scratch_kaiming_relu_fuse_positive_head_prior_v2", dataset_manifest_sha256=config["dataset_manifest_sha256"],
+                 prepared_train_sha256=config["prepared_train_sha256"], prepared_validation_sha256=config["prepared_validation_sha256"],
+                 validation_selection_loss=score, seed=config["seed"])
+ 
+@@ -346,7 +354,7 @@
+         raise ValueError("Train/validation source SHA overlap")
+     model = Direct(4)
+     config = dict(schema="grouped_fresh_c4_training_v1", seed=args.seed, device=str(device), threads=args.threads,
+-                  steps=args.steps, batch_size=args.batch, eval_every=args.eval_every, initialization="scratch",
++                  steps=args.steps, batch_size=args.batch, eval_every=args.eval_every, initialization="scratch_kaiming_relu_fuse_positive_head_prior_v2",
+                   architecture="encoder_local_skip_upright_v4", train_groups=["D", "E", "F"], validation_groups=["G"],
+                   train_ids=[it["id"] for it in train_items], validation_ids=[it["id"] for it in val_items],
+                   prepared_train_sha256=sha(args.train), prepared_validation_sha256=sha(args.validation),

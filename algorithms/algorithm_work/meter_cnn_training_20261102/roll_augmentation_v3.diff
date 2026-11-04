@@ -1,0 +1,55 @@
+--- train_grouped_v2.py
++++ train_grouped_v3.py
+@@ -133,7 +133,7 @@
+     return items
+ 
+ 
+-def augment(rng, item):
++def augment(rng, item, rotation_degrees=(-8., 8.)):
+     """Train-only photometric and coupled affine augmentation, no label guessing."""
+     points = item["points"]
+     # Reject transformations that push a supervised visible point out of the
+@@ -141,7 +141,7 @@
+     matrix = np.array([[1., 0., 0.], [0., 1., 0.]], np.float64)
+     transformed = points
+     for _ in range(12):
+-        m = cv2.getRotationMatrix2D((63.5, 63.5), float(rng.uniform(-8, 8)), float(rng.uniform(.96, 1.04)))
++        m = cv2.getRotationMatrix2D((63.5, 63.5), float(rng.uniform(rotation_degrees[0], rotation_degrees[1])), float(rng.uniform(.96, 1.04)))
+         m[:, 2] += rng.uniform(-2, 2, 2)
+         trial = [None if p is None else (np.r_[p, 1] @ m.T).tolist() for p in points]
+         valid = all(p is None or not item["mask"][k] or (np.asarray(p) >= 0).all() and (np.asarray(p) <= 127).all()
+@@ -361,7 +361,12 @@
+                   dataset_manifest_sha256=sha(HERE.parent / "meter_training_dataset_20261102/dataset_manifest.json"),
+                   trainer_sha256=sha(__file__), roi_adapter_sha256=sha(HERE / "roi_adapter.py"),
+                   selection_metric="minimum G validation masked focal loss; no H access",
+-                  optimizer="Adam lr=.003 cosine->.00015", augmentation="train-only affine +/-8deg .96..1.04 scale +/-2ROIpx; gain .8..1.2 bias +/-12; light noise",
++                  optimizer="Adam lr=.003 cosine->.00015", augmentation=f"train-only affine [{args.roll_min_deg},{args.roll_max_deg}] OpenCV deg .96..1.04 scale +/-2ROIpx; gain .8..1.2 bias +/-12; light noise",
++                  roll_augmentation=dict(min_opencv_deg=args.roll_min_deg, max_opencv_deg=args.roll_max_deg,
++                                         positive_rotation="counterclockwise in displayed image", point_transform="same affine as pixels",
++                                         image_needle_angle_convention="right=0, clockwise positive; transformed angle = original - OpenCV rotation",
++                                         physical_dial_roll_label=False, yaw_or_perspective_augmentation=False,
++                                         validation_original_geometry_unchanged=True),
+                   labels="masked hub/thin-terminal visual keypoints; pressure not a training target",
+                   predeclared_metrics=dict(all_supervised_heads="ROI and native endpoint mean/median/p90 without confidence filtering",
+                                            full_point_metrics="all full labels: angle mean/median/p90, <=5deg, <=10deg, >=150deg wrong-direction count",
+@@ -388,7 +393,7 @@
+     for step in range(1, args.steps + 1):
+         model.train()
+         picks = [train_items[int(rng.integers(len(train_items)))] for _ in range(args.batch)]
+-        batch = [augment(rng, item) for item in picks]
++        batch = [augment(rng, item, (args.roll_min_deg, args.roll_max_deg)) for item in picks]
+         x = torch.from_numpy(np.stack([b[0] for b in batch])).to(device)
+         y = torch.from_numpy(np.stack([b[1] for b in batch])).to(device)
+         masks = torch.from_numpy(np.stack([b[2] for b in batch])).to(device)
+@@ -447,7 +452,11 @@
+     parser.add_argument("--eval-every", type=int, default=200)
+     parser.add_argument("--threads", type=int, default=4)
+     parser.add_argument("--seed", type=int, default=SEED)
++    parser.add_argument("--roll-min-deg", type=float, default=-8.)
++    parser.add_argument("--roll-max-deg", type=float, default=8.)
+     args = parser.parse_args()
++    if not (math.isfinite(args.roll_min_deg) and math.isfinite(args.roll_max_deg) and args.roll_min_deg <= args.roll_max_deg):
++        parser.error("roll bounds must be finite and min <= max")
+     if args.mode == "smoke":
+         smoke(args.out, args.threads)
+     else:

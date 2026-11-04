@@ -1,0 +1,254 @@
+{
+  "status": "PASS_SYNTHETIC_SMOKE_ONLY",
+  "real_images_opened": 0,
+  "real_training_started": false,
+  "synthetic_optimizer_steps": 25,
+  "mask_unknown_gradient_zero": true,
+  "true_negative_gradient_nonzero": true,
+  "border_point_continuous_coordinates_not_clamped": true,
+  "parameters": 1202,
+  "threads": 4,
+  "synthetic_seconds_per_step": 0.021880000000237487,
+  "estimated_2400_optimizer_seconds": 52.51200000056997,
+  "torch_version": "2.13.0+cpu",
+  "resource_estimate": {
+    "parameters": 1202,
+    "layers": [
+      {
+        "name": "first",
+        "weight_shape": [
+          4,
+          1,
+          5,
+          5
+        ],
+        "activation_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "conv_MAC": 409600,
+        "int8_activation_bytes": 16384,
+        "int8_weight_bytes": 100,
+        "int32_bias_bytes": 16
+      },
+      {
+        "name": "local.0",
+        "weight_shape": [
+          4,
+          1,
+          5,
+          5
+        ],
+        "activation_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "conv_MAC": 409600,
+        "int8_activation_bytes": 16384,
+        "int8_weight_bytes": 100,
+        "int32_bias_bytes": 16
+      },
+      {
+        "name": "local.2",
+        "weight_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "activation_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "conv_MAC": 65536,
+        "int8_activation_bytes": 16384,
+        "int8_weight_bytes": 16,
+        "int32_bias_bytes": 16
+      },
+      {
+        "name": "downs.0.0",
+        "weight_shape": [
+          4,
+          1,
+          5,
+          5
+        ],
+        "activation_shape": [
+          1,
+          4,
+          32,
+          32
+        ],
+        "conv_MAC": 102400,
+        "int8_activation_bytes": 4096,
+        "int8_weight_bytes": 100,
+        "int32_bias_bytes": 16
+      },
+      {
+        "name": "downs.0.2",
+        "weight_shape": [
+          8,
+          4,
+          1,
+          1
+        ],
+        "activation_shape": [
+          1,
+          8,
+          32,
+          32
+        ],
+        "conv_MAC": 32768,
+        "int8_activation_bytes": 8192,
+        "int8_weight_bytes": 32,
+        "int32_bias_bytes": 32
+      },
+      {
+        "name": "downs.1.0",
+        "weight_shape": [
+          8,
+          1,
+          5,
+          5
+        ],
+        "activation_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "conv_MAC": 51200,
+        "int8_activation_bytes": 2048,
+        "int8_weight_bytes": 200,
+        "int32_bias_bytes": 32
+      },
+      {
+        "name": "downs.1.2",
+        "weight_shape": [
+          8,
+          8,
+          1,
+          1
+        ],
+        "activation_shape": [
+          1,
+          8,
+          16,
+          16
+        ],
+        "conv_MAC": 16384,
+        "int8_activation_bytes": 2048,
+        "int8_weight_bytes": 64,
+        "int32_bias_bytes": 32
+      },
+      {
+        "name": "downs.2.0",
+        "weight_shape": [
+          8,
+          1,
+          5,
+          5
+        ],
+        "activation_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "conv_MAC": 12800,
+        "int8_activation_bytes": 512,
+        "int8_weight_bytes": 200,
+        "int32_bias_bytes": 32
+      },
+      {
+        "name": "downs.2.2",
+        "weight_shape": [
+          8,
+          8,
+          1,
+          1
+        ],
+        "activation_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "conv_MAC": 4096,
+        "int8_activation_bytes": 512,
+        "int8_weight_bytes": 64,
+        "int32_bias_bytes": 32
+      },
+      {
+        "name": "context.0",
+        "weight_shape": [
+          8,
+          1,
+          5,
+          5
+        ],
+        "activation_shape": [
+          1,
+          8,
+          8,
+          8
+        ],
+        "conv_MAC": 12800,
+        "int8_activation_bytes": 512,
+        "int8_weight_bytes": 200,
+        "int32_bias_bytes": 32
+      },
+      {
+        "name": "fuse",
+        "weight_shape": [
+          4,
+          12,
+          1,
+          1
+        ],
+        "activation_shape": [
+          1,
+          4,
+          64,
+          64
+        ],
+        "conv_MAC": 196608,
+        "int8_activation_bytes": 16384,
+        "int8_weight_bytes": 48,
+        "int32_bias_bytes": 16
+      },
+      {
+        "name": "head",
+        "weight_shape": [
+          2,
+          4,
+          1,
+          1
+        ],
+        "activation_shape": [
+          1,
+          2,
+          64,
+          64
+        ],
+        "conv_MAC": 32768,
+        "int8_activation_bytes": 8192,
+        "int8_weight_bytes": 8,
+        "int32_bias_bytes": 8
+      }
+    ],
+    "conv_MAC": 1346560,
+    "int8_weights_plus_int32_bias_bytes": 1412,
+    "largest_int8_activation_bytes": 16384,
+    "two_largest_buffer_estimate_bytes": 32768,
+    "estimate_only_not_linker_memory_layout": true,
+    "FPGA_Slice_change_measured": false,
+    "integer_conversion_status": "PENDING; architecture unchanged does not prove trained quantized accuracy"
+  }
+}

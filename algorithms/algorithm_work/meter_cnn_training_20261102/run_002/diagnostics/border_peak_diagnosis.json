@@ -1,0 +1,16 @@
+{
+  "train": {
+    "full_labels": 134,
+    "thin_prediction_near_ROI_border4px": 0,
+    "border_predictions_wrong_over10deg": 0,
+    "total_wrong_over10deg": 54,
+    "border_ids": []
+  },
+  "validation": {
+    "full_labels": 50,
+    "thin_prediction_near_ROI_border4px": 0,
+    "border_predictions_wrong_over10deg": 0,
+    "total_wrong_over10deg": 36,
+    "border_ids": []
+  }
+}

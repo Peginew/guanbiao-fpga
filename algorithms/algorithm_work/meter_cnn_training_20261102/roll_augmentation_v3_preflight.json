@@ -1,0 +1,29 @@
+{
+  "status": "PASS_CONFIGURABLE_ROLL_TOOL_ONLY_NO_REAL_TRAINING",
+  "default_roll_range_deg": [
+    -8,
+    8
+  ],
+  "default_augmentation_bitexact_comparisons": 100,
+  "nondefault_synthetic_transform_checks": 30,
+  "max_angle_convention_error_deg": 5.684341886080802e-14,
+  "initial_weights_bitexact_to_v2_at_same_seed": true,
+  "parameters": 1202,
+  "real_images_opened": 0,
+  "real_optimizer_steps": 0,
+  "run003_started": false,
+  "range_for_future_training_selected": false,
+  "pose_evidence_pending": true,
+  "labels_or_pressure_or_hardware_changed": false,
+  "file_sha256": {
+    "train_grouped.py": "d8d44385c0064f9873b161dc489b218714c07a06a6cbb5a96d4330317f2ded4b",
+    "train_grouped_v2.py": "88fff3d2660504cf49c08b1a2580968cfe17d7814c49027b0693091b91b86591",
+    "train_grouped_v3.py": "123bc54d67f69138edef0f8c1de50ebaaf67f9a7cc2589733757cd1b450af2bd"
+  },
+  "angle_conventions": {
+    "opencv_positive": "counterclockwise on screen",
+    "needle_metric": "right=0 clockwise",
+    "relationship": "metric angle after affine = original angle - OpenCV theta; uniform scale and translation cancel in vector direction",
+    "roll_vs_yaw": "image roll only; not a side-view or perspective simulation"
+  }
+}

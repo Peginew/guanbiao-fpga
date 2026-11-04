@@ -1,0 +1,146 @@
+{
+  "status": "ROI_ADAPTED_TRAINING_COMPLETED_MODEL_NOT_ACCEPTED_FOR_READ_DEPLOYMENT",
+  "completed_utc": "2026-11-01T22:29:31.277377+00:00",
+  "task": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102",
+  "source_dataset_manifest_sha256": "e512850e54db6cc20c4b1973db9d48c852bf8737c3846a07afcb5cf9472c9872",
+  "canonical_annotations_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "prepared_counts": {
+    "train_all": 177,
+    "training_supervised": 164,
+    "validation": 59
+  },
+  "conversion_review": {
+    "status": "PASS_TRAINING_ADMISSION_PROXY_ROI_ONLY",
+    "checks": 5522,
+    "independent_ROI_pixels_compared": 3866624
+  },
+  "actual_training_runs": [
+    {
+      "run": "run_001",
+      "steps": 2400,
+      "result": "FAILED_DEAD_RELU_CONSTANT_HEATMAP",
+      "preserved": true
+    },
+    {
+      "run": "run_002",
+      "steps": 2400,
+      "result": "NONCONSTANT_FLOAT_MODEL_TRAINED_BUT_POINTER_EFFECT_INSUFFICIENT",
+      "best_step": 2400
+    }
+  ],
+  "selected_development_checkpoint": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\run_002\\best_weights.pt",
+  "selected_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "validation_metrics": {
+    "images": 59,
+    "validation_or_training_loss": 1.9371395294482892,
+    "hub_error_roi": {
+      "n": 52,
+      "mean": 3.3400119247768916,
+      "median": 1.8015042400728338,
+      "p90": 4.725867329513118
+    },
+    "thin_terminal_error_roi": {
+      "n": 52,
+      "mean": 30.767941811431527,
+      "median": 22.317574504326437,
+      "p90": 67.76839791941298
+    },
+    "hub_error_native": {
+      "n": 52,
+      "mean": 10.341669183405331,
+      "median": 5.387256636326544,
+      "p90": 14.259897200245591
+    },
+    "thin_terminal_error_native": {
+      "n": 52,
+      "mean": 92.1562094112477,
+      "median": 67.64335911026151,
+      "p90": 192.20303017376946
+    },
+    "angle_error_deg": {
+      "n": 50,
+      "mean": 43.09821720059354,
+      "median": 19.502418719586814,
+      "p90": 112.98553199411963
+    },
+    "bounded_full_point_count": 50,
+    "both_points_within_4roi": 6,
+    "within_5deg": 10,
+    "within_10deg": 14,
+    "approximately_180deg_wrong_direction": 0,
+    "evidence_accepted_full_points": 22,
+    "evidence_coverage": 0.44,
+    "accepted_angle_error_deg": {
+      "n": 22,
+      "mean": 46.669826146055335,
+      "median": 21.780173643240005,
+      "p90": 126.45465533109038
+    },
+    "accepted_over_10deg": 14,
+    "negative_count": 3,
+    "negative_evidence_false_accepts": 0,
+    "fixed_evidence_policy": {
+      "min_sigmoid_peak": 0.3,
+      "min_peak_margin": 0.02,
+      "endpoint_length_roi": [
+        18,
+        65
+      ],
+      "max_hub_center_distance_roi": 20
+    },
+    "pressure_error_computed": false,
+    "end_to_end_READ_or_FAR_claim": false
+  },
+  "model_effect_decision": "FAIL_FOR_READ_DEPLOYMENT",
+  "execution_and_reporting_independent_review": "PASS_EXECUTION_AND_REPORTING_EFFECTS_REPORTED_NO_DEPLOYMENT_ACCEPTANCE",
+  "roll_handling": {
+    "native_image_and_point_roll_preserved": true,
+    "synchronous_image_point_augmentation_deg": [
+      -8,
+      8
+    ],
+    "configurable_v3_ready": true,
+    "new_range_selected": false,
+    "run_003_started": false,
+    "pose_audit": "Static-print relative orientation to D002; not absolute upright or CNN input",
+    "supported_train_count": 78,
+    "supported_validation_count": 37
+  },
+  "preservation": {
+    "original_images_modified": false,
+    "canonical_annotations_modified": false,
+    "source_split_manifest_modified": false,
+    "test_H_pixels_or_labels_opened": false,
+    "reserve_ABC_used": false,
+    "MCU_or_Flash_or_bitstream_changes": false
+  },
+  "pending": [
+    "Thin-terminal evidence and erroneous-acceptance improvement",
+    "Actual automatic-locator ROI / CSI grayscale domain check",
+    "Integer accuracy and MCU deployment",
+    "Printed scale reference rotation for calibrated pressure; existing TEST calibration unchanged"
+  ],
+  "files_sha256": {
+    "roi_adapter.py": "2f3bc1b8c640742f09a8ab2a7bed30707cd6064197c0da7430556e3338d45cc4",
+    "roi_contract.json": "20ca8fa2d0e9eebaabda541e0aaaa23c95b20da5bab4e2cdd840d9b6b899ecad",
+    "train_grouped.py": "d8d44385c0064f9873b161dc489b218714c07a06a6cbb5a96d4330317f2ded4b",
+    "train_grouped_v2.py": "88fff3d2660504cf49c08b1a2580968cfe17d7814c49027b0693091b91b86591",
+    "train_grouped_v3.py": "123bc54d67f69138edef0f8c1de50ebaaf67f9a7cc2589733757cd1b450af2bd",
+    "prepared_train.jsonl": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "prepared_validation.jsonl": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79",
+    "review/roi_training_admission.json": "9b9bd24f0aa877b938049cc23c25859190c8d362892851313a6ac11f25b4b3fb",
+    "review/initialization_fix_admission.json": "b706848135437a618baf54554c1026a09ddcc2795ed3d88b6fc17318faceaa87",
+    "review/training_result_v2_review.json": "dc0be1b3b2d40405d6246fd6d47bfe6e7e3b75085298f6ff832986a815407b4d",
+    "review/roll_handling_review.json": "1890763d399ecd94b091a7af4259527e34dacdccc055383ce09ddafc1425cc09",
+    "run_001/training_receipt.json": "de510da124be8d43254370d9a36c4053cb3977b5c421d822b93649975add1d8d",
+    "run_001/optimization_diagnosis.json": "a6c90f6a5b3090f90295d4301864e411155c316f386c40c80a6468ef74e91c02",
+    "run_002/training_config.json": "80a253136b22c3d3be4474a2888e8a5bb9929ee34e98d68f858c2e3b72a087bc",
+    "run_002/training_receipt.json": "d9f27bc634eaec096d049529c40a8e265437b71554faab1930973caf80b0b3a1",
+    "run_002/best_weights.pt": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+    "run_002/validation_evaluation.json": "fceaf01298736ff5e421a8b2aeefdb5eed7c3b169cd3ed0a9ddd65e536cdd4a2",
+    "run_002/diagnostics/candidate_diagnostics.json": "c8e97a01a6ed223c0e7600de464a2338e3dedc5dd9a8b2df4b8efcecc81f15a1",
+    "run_002/visual/index.html": "1f4b276f21f9503f2e3f5d8ed6e025601ed3ebff48f6da6d0f05bb90ffeb49e9",
+    "pose/roll_audit_summary.json": "63e8e475497852bfe9233ec39f6e7059e348fd7eff52b6f6455fcbbddaf5e816",
+    "pose/roll_audit_interpretation.json": "15285db00cd3ff0edfcc9922d3a1b4f00213529a2f150adf6ef9d503dc351a97"
+  }
+}

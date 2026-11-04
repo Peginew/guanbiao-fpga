@@ -1,0 +1,47 @@
+{
+  "status": "RELATIVE_PRINT_ROTATION_AUDIT_COMPLETE_NO_RETRAIN",
+  "summary_sha256": "63e8e475497852bfe9233ec39f6e7059e348fd7eff52b6f6455fcbbddaf5e816",
+  "visual_review": {
+    "file": "roll_representatives.png",
+    "ids": [
+      "D_002",
+      "D_001",
+      "E_022",
+      "E_058",
+      "F_014",
+      "G_002",
+      "G_033",
+      "G_018"
+    ],
+    "actually_viewed_with_tool": true,
+    "observations": [
+      "Static tick/numeral green matches span both sides of face.",
+      "Reference-axis cyan line follows printed top/bottom orientation; G examples visibly rotate clockwise relative to D002.",
+      "Needle/counterweight sectors, hub and background are excluded from descriptor support."
+    ]
+  },
+  "training_only_recommendation": {
+    "keep_existing_rotation_augmentation_degrees": [
+      -8,
+      8
+    ],
+    "why": "The actual training frames already contain relative print rotations from -5.66 to +9.42deg; ±8 perturbation is applied around each original image pose, not a hard absolute pose acceptance gate.",
+    "rough_composed_train_range_relative_D002": [
+      -13.66,
+      17.42
+    ],
+    "range_is_not_uniform_coverage_or_generalization_proof": true,
+    "do_not_create_run003_solely_for_this_audit": true,
+    "do_not_rectify_validation_using_its_ground_truth": true
+  },
+  "critical_dependency_note": "Direct visual hub/thin-terminal labels are used only offline to EXCLUDE dynamic needle/counterweight features in this audit. They are not CNN inputs, not a production pose estimator requirement, and not a prerequisite for starting CNN.",
+  "limitations": [
+    "Only78train/37validation prints had sufficient masked registration evidence; unknown samples have no assigned roll.",
+    "Relative apparent in-plane print rotation is not calibrated absolute upright, physical yaw or pitch.",
+    "Local homography rotation can be confounded by perspective; anisotropy metadata retained.",
+    "Existing model direction error is measured relative to each image own annotated direction; it cannot be explained away simply by image roll."
+  ],
+  "H_opened": false,
+  "labels_or_ROIs_changed": false,
+  "retrained": false
+}

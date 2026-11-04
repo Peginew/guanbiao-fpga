@@ -1,0 +1,36 @@
+{
+  "status": "PASS_ROLL_HANDLING_TOOL_REVIEW_NO_NEW_TRAINING",
+  "checks": 57,
+  "failures": [],
+  "trainer_v3_sha256": "123bc54d67f69138edef0f8c1de50ebaaf67f9a7cc2589733757cd1b450af2bd",
+  "prepared_train_sha256": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+  "prepared_validation_sha256": "b10e06666ba291f8e7353ac45dffd1c1a52fe73d144bccc1d116e68cee909d79",
+  "pose_audit_sha256": "63e8e475497852bfe9233ec39f6e7059e348fd7eff52b6f6455fcbbddaf5e816",
+  "native_ROI_direction_examples": [
+    "D_001",
+    "D_005",
+    "G_006"
+  ],
+  "maximum_actual_native_to_ROI_angle_change_deg": 0.0,
+  "synthetic_maximum_rotation_convention_error_deg": 2.842170943040401e-14,
+  "synthetic_maximum_dot_to_mapped_point_distance_roi": 1.1259474596414507,
+  "default_v3_vs_v2_bitexact_augmentations": 20,
+  "default_roll_augmentation_opencv_deg": [
+    -8,
+    8
+  ],
+  "roll_range_for_next_training_selected": false,
+  "reference_convention": "Image right=0, clockwise positive. OpenCV positive rotation is displayed CCW: transformed image needle angle=original−theta.",
+  "original_capture_roll": "Preserved in original pixel coordinates and native keypoints. No implicit upright normalization or pressure-based label rotation.",
+  "validation": "Original G image geometry, each prediction compared to that image visual native/ROI endpoint direction; no upright zero-roll assumption.",
+  "pose_evidence": "Static printed-feature homography/polar rotation relative to D002; direct needle points only exclude dynamic features. Does not use pressure or needle angle as roll value.",
+  "boundaries": [
+    "Image roll differs from yaw/sideview; affine roll augmentation is not perspective supervision",
+    "Needle direction in image does not establish bar value; pressure calibration requires printed scale reference and roll handling",
+    "run002 mean43deg angular residual already compares each image own direction, so cannot be wholly attributed to photographed dial roll"
+  ],
+  "optimizer_steps": 0,
+  "run003_started": false,
+  "test_H_opened": false,
+  "hardware_actions": false
+}

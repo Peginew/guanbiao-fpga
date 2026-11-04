@@ -1,0 +1,106 @@
+{
+  "status": "PASS_EXECUTION_AND_REPORTING_EFFECTS_REPORTED_NO_DEPLOYMENT_ACCEPTANCE",
+  "checks": 293,
+  "failures": [],
+  "run": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\run_002",
+  "best_step": 2400,
+  "completed_steps": 2400,
+  "checkpoint_G_prediction_max_difference_roi": 8.065423742209532e-06,
+  "best_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "last_checkpoint_sha256": "c221678efa4762bed298828b2e8e8ba3c2a6b343c2c16efe35aec77a85c896df",
+  "config_sha256": "80a253136b22c3d3be4474a2888e8a5bb9929ee34e98d68f858c2e3b72a087bc",
+  "validation_report_sha256": "fceaf01298736ff5e421a8b2aeefdb5eed7c3b169cd3ed0a9ddd65e536cdd4a2",
+  "history_sha256": "cfca6054c8a9814902257b633b58825b96130549cdb864848fd9cb34ee67a2e4",
+  "training_receipt_sha256": "d9f27bc634eaec096d049529c40a8e265437b71554faab1930973caf80b0b3a1",
+  "validation_metrics_recomputed": {
+    "hub_n": 52,
+    "hub_mean_roi": 3.3400120236819837,
+    "thin_n": 52,
+    "thin_mean_roi": 30.767941523245273,
+    "full_n": 50,
+    "angle_mean_deg": 43.098216398969306,
+    "within5": 10,
+    "evidence_accepted_full": 22,
+    "negatives": 3,
+    "negative_false_accepts": 0
+  },
+  "G001_convolution_activation_trace": {
+    "first": {
+      "min": -2.6852355003356934,
+      "max": 3.1789207458496094,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 1.0731498003005981
+    },
+    "local.0": {
+      "min": -4.175619125366211,
+      "max": 6.091214179992676,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 1.2556570768356323
+    },
+    "local.2": {
+      "min": -0.6567845344543457,
+      "max": 10.68506908416748,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 1.8417370319366455
+    },
+    "downs.0.0": {
+      "min": -18.059635162353516,
+      "max": 3.478419542312622,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 3.248075246810913
+    },
+    "downs.0.2": {
+      "min": -4.259119987487793,
+      "max": 2.63163423538208,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 1.1669979095458984
+    },
+    "downs.1.0": {
+      "min": -1.9854761362075806,
+      "max": 8.263710975646973,
+      "fraction_nonzero": 0.75,
+      "spatial_std": 1.6196799278259277
+    },
+    "downs.1.2": {
+      "min": -8.292383193969727,
+      "max": 7.269645690917969,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 1.4781451225280762
+    },
+    "downs.2.0": {
+      "min": -11.423683166503906,
+      "max": 16.21677589416504,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 4.798081398010254
+    },
+    "downs.2.2": {
+      "min": -21.801267623901367,
+      "max": 20.5416316986084,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 6.776589870452881
+    },
+    "context.0": {
+      "min": -39.93599319458008,
+      "max": 40.2945671081543,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 22.784870147705078
+    },
+    "fuse": {
+      "min": -41.27707290649414,
+      "max": 22.83491325378418,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 12.723535537719727
+    },
+    "head": {
+      "min": -13.358087539672852,
+      "max": -0.0033402442932128906,
+      "fraction_nonzero": 1.0,
+      "spatial_std": 1.8023635149002075
+    }
+  },
+  "deployment_decision": "No integer or board deployment acceptance; assess actual float metrics separately. Training completion is not deployment success.",
+  "diagnosis_scope": "Activation trace is from G001 only; it is not an exhaustive per-frame activation audit.",
+  "test_H_pixels_or_labels_opened": false,
+  "optimizer_executed_by_reviewer": false,
+  "integer_or_board_READ_accepted": false
+}
