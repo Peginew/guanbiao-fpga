@@ -1,0 +1,45 @@
+{
+  "status": "BOUNDED_INTEGER_PIXEL_PROFILE_REFERENCE_COMPLETE_FROZEN_PSI_PRESERVED",
+  "owned_scope": "pose_frontend.py andfrontend referencefixtures/verification only; Cfront/matcher/integration independentlyowned",
+  "counts": {
+    "normalize_pixels": 3866624,
+    "normalize_mismatches": 0,
+    "q5coordinate_components": 55054080,
+    "q5coordinate_mismatches": 0,
+    "bilinear_samples": 27527040,
+    "bilinear_pixel_mismatches": 0,
+    "profile_S8_elements": 27527040,
+    "rational_vs_float32_profile_mismatches": 173,
+    "rational_vs_float32_profile_max_abs_error": 1,
+    "outside_predicate_mismatches": 0
+  },
+  "geometry_generation_is_still_float": true,
+  "outside_and_hub_distance_still_float": true,
+  "normalized_pixels_and_bilinear_match_OpenCV": true,
+  "profile_rounding_rule": "Exact rational RNE,173near-halfFLOAT32 roundingdifferences of1, noG-dependentpatch",
+  "templates_indices_values_and_shifts_unchanged": true,
+  "root_C_integration_reference": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\c_pixel_chain_verification.json",
+    "sha256": "977456acba7e2d31589ec5d93fe3737b0c301a535921df1c67c87b47a953e0a8",
+    "scope": "223actualmodelhubROIs realCcore,13synthetichub arithmetic-only excluded fromREAD",
+    "pressure_output_changes": [],
+    "valid_readings": 21,
+    "MAE_psi": 0.15740682142050108
+  },
+  "whole_application_linked": false,
+  "MCU_cycles_measured": false,
+  "actual_board_pixel_domain_equivalence": false,
+  "new_geometry_or_model_training": false,
+  "H_or_ABC_opened": false,
+  "hardware_actions": false,
+  "files_sha256": {
+    "pose_frontend.py": "4f6d09ada61eca5634172447971046c33d50ceb130178b130fe83690fb578120",
+    "frontend_verification.json": "e2b45363b32e5cf0c777e3ab646f73388e7d3ab0f1bc675203cf3a5b2bc928a2",
+    "frontend_fixture_manifest.json": "55fb927038bb2f49b076b1e14f9f490dc229af75497b9030d75aba5ea3cf3bd1",
+    "frontend_fixtures/templates.npz": "39a8d055a5d125cd4fdef7b6fcfe8f8ad0ed0974ca985ea44a5ea6052d8a4cdd",
+    "frontend_fixtures/D_002.npz": "649e3b8c27f7ae05e3bc52af945b2fa76828a7a4c12bd6324f369ff275eaa7ae",
+    "frontend_fixtures/D_013.npz": "61672905aad7e743a6bedbea1cc5ecb74cc534407f98eacd5311fe3addf2c968",
+    "frontend_fixtures/G_001.npz": "76c1f73fc51304323c3c0544dfec149b3eba7810756b1ef806bdbd8e3b18dd93",
+    "frontend_fixtures/G_040.npz": "37690ff1d4e78a2ffc9aa510da2c69db2ac6cb8f4ca1b5a53b536cb079f438da"
+  }
+}

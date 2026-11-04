@@ -1,0 +1,29 @@
+{
+  "status": "THREE_INTEGER_OPERATORS_C99_Q5_INPUT_HOST_AND_RV32_OBJECT_COMPLETE",
+  "source_sha256": {
+    "meter_pose_frontend.c": "8379ac344fa7a8194e89a65155d4768113d857c572a2a26b714b67b9f96233cc",
+    "meter_pose_frontend.h": "fa51a5683d367a0dfb6741834166e67b32c4c6829d9ae2189352cd5477f1711a",
+    "meter_pose_frontend.dll": "62f0e6d99dddeebe002de12d4e69f7ede8e356dc60f8bcf1fb0002f235eaf096",
+    "pose_frontend.py": "4f6d09ada61eca5634172447971046c33d50ceb130178b130fe83690fb578120",
+    "host_frontend_tests.py": "abb396712ccc2d3f53aef406929e9679c542e1e718c47fd1c899dc3d4e421d3c",
+    "host_frontend_test_receipt.json": "54a119db38d290ca88a2b30608a02fb113007f9b0f374282449007787cd102fa",
+    "inspect_frontend_object.py": "2019444a82430347681ec665782f11b63ec501a4db06969aefa2105d4df9dc2e",
+    "README_frontend.md": "89a20b84390189dce24501d8657a874ce497955e71f57a638303ab91eba31942",
+    "rv32_build/meter_pose_frontend.o": "cd37f97766de8e6dd6ce47d746d29343f3ccb5b7bab49934b1f52a4260ecdaff",
+    "rv32_build/meter_pose_frontend.su": "19fc590bff09bbf50e945567e3c16ae0efd0a18fbccd4f4cd3597d61542dadc2",
+    "rv32_build/rv32_frontend_object_receipt.json": "3e3f61ff4d1e882a249a75ebfbd6c8e0a639eb3476f6388be2ebf261afc3f81c"
+  },
+  "scope": [
+    "normalize9x9",
+    "Q5bilinear",
+    "rational_RNE_profile"
+  ],
+  "coordinate_geometry_not_implemented": true,
+  "outside_predicate_not_replaced": true,
+  "new_training": false,
+  "board_actions": false,
+  "full_application_linked": false,
+  "RV32text_bytes": 1320,
+  "RV32max_local_frame_bytes": 32,
+  "real_fixture_conformance_owned_by_root": true
+}
