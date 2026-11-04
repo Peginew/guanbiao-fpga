@@ -1,0 +1,23 @@
+{
+  "status": "READY_AI_REVIEWED_SILVER_AND_FROZEN_G_VALIDATION",
+  "train_images": 177,
+  "validation_images": 59,
+  "checks": 1841,
+  "coordinate_roundtrip_max_error_ROI_px": 0,
+  "train_original_PNG_SHA_checked": 177,
+  "all21_native_contact_pages_visually_reviewed": true,
+  "ROI_alignment_12_images_visually_reviewed": true,
+  "train_coordinate_source_counts": {
+    "D025_NATIVE_STATIC_SIFT_RANSAC_H_SILVER_PLUS_AI_VISUAL_REVIEW": 729,
+    "FROZEN_TRAIN_VISUAL_PRINT_SIDECAR_PLUS_NEW_PER_POINT_VISIBILITY_REVIEW": 91,
+    "AI_VISUAL_NATIVE_RAW_POINT_UNREGISTERED_NO_PSI_OR_QUERY_NEEDLE": 15
+  },
+  "train_sha256": "91a95a3b04f3697a260ccc911243bdf68efbeffd27b8b05eab857d6fc7651f38",
+  "validation_sha256": "0d015ff8e03c56b8bceab1c27d85240b07fe014cbb0fa1c5fd6c897aa6a5600b",
+  "labels_are_blind_human_gold": false,
+  "G_used_as_training_or_template": false,
+  "H_or_ABC_read": false,
+  "canonical_old_data_or_weights_modified": false,
+  "models_firmware_devices_touched": false,
+  "limited_scope": "Data/mapping/masks and AI visual audit ready; not certified label precision or training/model/MCU validation."
+}

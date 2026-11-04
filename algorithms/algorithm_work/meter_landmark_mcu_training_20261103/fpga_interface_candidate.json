@@ -1,0 +1,25 @@
+{
+  "status": "ISOLATED_PSI_RESULT_ABI_CANDIDATE_NOT_YET_SIMULATED",
+  "old": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_hdmi_ui_ref_fix_20261103\\project",
+  "new": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project",
+  "project": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark.al",
+  "changed_files": [
+    "user_source\\hdl_source\\meter_pair\\meter_mcu_live_roi.v",
+    "user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v",
+    "user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+    "user_source\\hdl_source\\meter_pair\\t06_meter_pair_link.v"
+  ],
+  "added": "t06_meter_psi_return_runtime.v",
+  "pins_constraints_clocks_unchanged": true,
+  "arm060_unchanged": true,
+  "features064": 1,
+  "returnPSIQ8": 292,
+  "units": "New scalar PSI_Q8 is explicitly converted to existing barU0.16 transport; old angleTEST mapper removed. Display remainspsi.",
+  "hardware_actions": false,
+  "bounded_compute_budget": {
+    "read_job_seconds": 20,
+    "phase_seconds": 24,
+    "actual_MCU_cycles_pending": true,
+    "capture_CDC_limits_unchanged": true
+  }
+}

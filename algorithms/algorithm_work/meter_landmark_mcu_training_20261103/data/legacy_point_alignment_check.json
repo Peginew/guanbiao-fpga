@@ -1,0 +1,473 @@
+{
+  "comparisons": [
+    {
+      "id": "D_001",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.806936388195515
+    },
+    {
+      "id": "D_001",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.0104502694041622
+    },
+    {
+      "id": "D_002",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.8623119555629377
+    },
+    {
+      "id": "D_002",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.30678820192879597
+    },
+    {
+      "id": "D_007",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.5473157413758992
+    },
+    {
+      "id": "D_007",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.712832590608813
+    },
+    {
+      "id": "D_008",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.311763953622387
+    },
+    {
+      "id": "D_008",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.0861106239448741
+    },
+    {
+      "id": "D_013",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.6633030803485445
+    },
+    {
+      "id": "D_013",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 2.0175571460184916
+    },
+    {
+      "id": "D_014",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.443878912822031
+    },
+    {
+      "id": "D_014",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.10280302320719736
+    },
+    {
+      "id": "D_019",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.3021651685955287
+    },
+    {
+      "id": "D_019",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.301349246969223
+    },
+    {
+      "id": "D_020",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.0144169404764
+    },
+    {
+      "id": "D_020",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 3.752362014572521
+    },
+    {
+      "id": "D_025",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.3399548691736243
+    },
+    {
+      "id": "D_025",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.6699218750212753
+    },
+    {
+      "id": "D_026",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.102955943886229
+    },
+    {
+      "id": "D_026",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.09305113968979303
+    },
+    {
+      "id": "D_031",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.19223531823162246
+    },
+    {
+      "id": "D_031",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.0584468806701377
+    },
+    {
+      "id": "D_032",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.3982586373135317
+    },
+    {
+      "id": "D_032",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 2.392612433809171
+    },
+    {
+      "id": "D_037",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.0411591577111872
+    },
+    {
+      "id": "D_037",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.9345502589334171
+    },
+    {
+      "id": "D_038",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 6.417523171417447
+    },
+    {
+      "id": "D_038",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 3.30205176497846
+    },
+    {
+      "id": "D_043",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.5842264152780303
+    },
+    {
+      "id": "D_043",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.1111633169435549
+    },
+    {
+      "id": "D_044",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.0863382662759222
+    },
+    {
+      "id": "D_044",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 2.203094993607864
+    },
+    {
+      "id": "E_001",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.937988545064018
+    },
+    {
+      "id": "E_001",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.7468266535889609
+    },
+    {
+      "id": "E_002",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.283805901220873
+    },
+    {
+      "id": "E_002",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.6134481689682
+    },
+    {
+      "id": "E_007",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.6638603157992986
+    },
+    {
+      "id": "E_007",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.9480101830436947
+    },
+    {
+      "id": "E_008",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.4118675471457377
+    },
+    {
+      "id": "E_008",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.5953066150872253
+    },
+    {
+      "id": "E_013",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.8271023648576963
+    },
+    {
+      "id": "E_013",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.4337998308338207
+    },
+    {
+      "id": "E_014",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 4.17577429949723
+    },
+    {
+      "id": "E_014",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.4319088706803016
+    },
+    {
+      "id": "E_019",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.098916089568257
+    },
+    {
+      "id": "E_019",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.5416288699677648
+    },
+    {
+      "id": "E_020",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 1.1813761212982976
+    },
+    {
+      "id": "E_020",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.3388827617543146
+    },
+    {
+      "id": "E_024",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.6291295931579352
+    },
+    {
+      "id": "E_024",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.30148659304232506
+    },
+    {
+      "id": "E_025",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.6760216303504696
+    },
+    {
+      "id": "E_025",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.0321624944436851
+    },
+    {
+      "id": "E_030",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.7825587620470081
+    },
+    {
+      "id": "E_030",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.421550755051937
+    },
+    {
+      "id": "E_031",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.45384708880417296
+    },
+    {
+      "id": "E_031",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.6167011243679854
+    },
+    {
+      "id": "E_036",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.1252164976545997
+    },
+    {
+      "id": "E_036",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.3029448264021108
+    },
+    {
+      "id": "E_037",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.889862213553457
+    },
+    {
+      "id": "E_037",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.35495931611549464
+    },
+    {
+      "id": "E_042",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.462915219428034
+    },
+    {
+      "id": "E_042",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.9341234728850513
+    },
+    {
+      "id": "E_059",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 0.9659652396484935
+    },
+    {
+      "id": "E_059",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.6167484106656926
+    },
+    {
+      "id": "F_001",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 5.609055414703273
+    },
+    {
+      "id": "F_001",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.4181720613470709
+    },
+    {
+      "id": "F_002",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 5.1617522824959705
+    },
+    {
+      "id": "F_002",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.7267456542336936
+    },
+    {
+      "id": "F_007",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 8.079010596233662
+    },
+    {
+      "id": "F_007",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 2.73183490484669
+    },
+    {
+      "id": "F_008",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 4.91678408906798
+    },
+    {
+      "id": "F_008",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 2.6452379353419064
+    },
+    {
+      "id": "F_013",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 3.0297434974179454
+    },
+    {
+      "id": "F_014",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.0849430488216476
+    },
+    {
+      "id": "F_014",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.9036688589517832
+    },
+    {
+      "id": "F_019",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.629992975534124
+    },
+    {
+      "id": "F_019",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 2.2696579922482445
+    },
+    {
+      "id": "F_020",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 7.112089219739174
+    },
+    {
+      "id": "F_020",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.4296224165725033
+    },
+    {
+      "id": "F_025",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 2.4460640811961625
+    },
+    {
+      "id": "F_025",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.6498168779657572
+    },
+    {
+      "id": "F_026",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 4.390296056181606
+    },
+    {
+      "id": "F_026",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 5.559024110007556
+    },
+    {
+      "id": "F_031",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 10.47416929114776
+    },
+    {
+      "id": "F_031",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.3300764290655758
+    },
+    {
+      "id": "F_032",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.3344921029627732
+    },
+    {
+      "id": "F_037",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.5785568793737141
+    },
+    {
+      "id": "F_038",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 1.2100084374368358
+    },
+    {
+      "id": "F_043",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 4.87494028015695
+    },
+    {
+      "id": "F_043",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 2.1382101821219255
+    },
+    {
+      "id": "F_044",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 3.103721409873598
+    },
+    {
+      "id": "F_044",
+      "point": "lower_striped_ball_print_centroid",
+      "distance_native_px": 0.6402707851984719
+    }
+  ],
+  "max_distance_native_px": 10.47416929114776,
+  "over10": [
+    {
+      "id": "F_031",
+      "point": "outer_psi_10_text_centroid",
+      "distance_native_px": 10.47416929114776
+    }
+  ],
+  "points_over10_are_masked_unknown_not_auto_corrected": true
+}

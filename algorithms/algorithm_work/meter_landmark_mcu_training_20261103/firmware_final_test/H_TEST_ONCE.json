@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "started_UTC": "2026-11-02T23:39:40.184117+00:00",
+  "manifest_sha256": "3b3ff1649cdb9a242dee6d795a502c81c7e03d77f01e5a36c3fe5c78316b9313",
+  "selected_variant": "U7",
+  "H_open_started": true,
+  "completed_UTC": "2026-11-02T23:39:43.147090+00:00",
+  "report_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware_final_test\\FINAL_H_ONCE\\final_H_evaluation.json",
+  "report_sha256": "da6a31ac28a3bfc7a0915f6a3777bb9cadf146828d34bf1f28c16fb34e0c7830"
+}

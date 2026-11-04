@@ -1,0 +1,170 @@
+{
+  "status": "INDEPENDENT_FINAL_C_EXISTING_PREDICTIONS_RESCORE_PASS",
+  "checks": 324,
+  "manifest_sha256": "9df9e85087bb36269ab42ce26673d7e6c58b3b3b93f8b7a8c4b20bbe5514cfc1",
+  "ELF_sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc",
+  "DLL_sha256": "21f3f341116be6a5e214cbd5bc61d1529edb5c9c0cb6b9da4941c9bc6f391505",
+  "canonical_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "prediction_sha256": "ebd87cdc4f3f31193e78acfb06da9f737cf1a8316ea1dc267515d1ac13f2348f",
+  "report_sha256": "7c5c7b944e9ff60faf064f646b23dfdb741a3d1845edaf1fdac672dab9fa96ce",
+  "marker_sha256": "484448846e46bd5bfaad4972403c798ba4787938374c2c2c6e038cd17de0a769",
+  "summary": {
+    "integer_ring_only": {
+      "total_rows": 59,
+      "gauges": 56,
+      "negative": 3,
+      "gauge_outputs": 19,
+      "gauge_rejected": 37,
+      "negative_outputs": 0,
+      "pressure_evaluable_outputs": 19,
+      "output_without_known_pressure": 0,
+      "MAE_psi": 0.15748355263157895,
+      "error_bands": [
+        {
+          "absolute_error_max_psi": 0.25,
+          "count": 15,
+          "over_ids": [
+            "C_015",
+            "C_028",
+            "C_029",
+            "C_041"
+          ]
+        },
+        {
+          "absolute_error_max_psi": 0.5,
+          "count": 19,
+          "over_ids": []
+        },
+        {
+          "absolute_error_max_psi": 1.0,
+          "count": 19,
+          "over_ids": []
+        }
+      ],
+      "output_ids": [
+        "C_004",
+        "C_005",
+        "C_008",
+        "C_010",
+        "C_011",
+        "C_013",
+        "C_015",
+        "C_016",
+        "C_017",
+        "C_018",
+        "C_022",
+        "C_023",
+        "C_028",
+        "C_029",
+        "C_034",
+        "C_035",
+        "C_037",
+        "C_040",
+        "C_041"
+      ],
+      "all_gauges_are_denominator": true
+    },
+    "trained_sixpoint_fusion": {
+      "total_rows": 59,
+      "gauges": 56,
+      "negative": 3,
+      "gauge_outputs": 31,
+      "gauge_rejected": 25,
+      "negative_outputs": 0,
+      "pressure_evaluable_outputs": 31,
+      "output_without_known_pressure": 0,
+      "MAE_psi": 0.16847278225806453,
+      "error_bands": [
+        {
+          "absolute_error_max_psi": 0.25,
+          "count": 23,
+          "over_ids": [
+            "C_015",
+            "C_024",
+            "C_026",
+            "C_027",
+            "C_028",
+            "C_029",
+            "C_039",
+            "C_041"
+          ]
+        },
+        {
+          "absolute_error_max_psi": 0.5,
+          "count": 31,
+          "over_ids": []
+        },
+        {
+          "absolute_error_max_psi": 1.0,
+          "count": 31,
+          "over_ids": []
+        }
+      ],
+      "output_ids": [
+        "C_004",
+        "C_005",
+        "C_008",
+        "C_009",
+        "C_010",
+        "C_011",
+        "C_013",
+        "C_014",
+        "C_015",
+        "C_016",
+        "C_017",
+        "C_018",
+        "C_020",
+        "C_022",
+        "C_023",
+        "C_024",
+        "C_026",
+        "C_027",
+        "C_028",
+        "C_029",
+        "C_030",
+        "C_032",
+        "C_033",
+        "C_034",
+        "C_035",
+        "C_037",
+        "C_038",
+        "C_039",
+        "C_040",
+        "C_041",
+        "C_044"
+      ],
+      "all_gauges_are_denominator": true
+    }
+  },
+  "improvement": {
+    "old_outputs": 19,
+    "new_outputs": 31,
+    "added": 12,
+    "withdrawn": 0,
+    "all_old19_values_preserved_exactly": true,
+    "new_over_descriptive_halfpsi": 0
+  },
+  "scope": {
+    "existing_C_evaluation_only": true,
+    "new_forward_invocations": 0,
+    "PNG_images_opened": 0,
+    "H_rows_selected": false,
+    "training_or_threshold_modified": false,
+    "device_actions": false
+  },
+  "interpretation": [
+    "Onefrozencandidate/sameCconsumer/sharedROIandradius; comparator isinteger-ringonly underSAMEcorrectedTRAINdomain,notoldfloat/nativeSIFT",
+    "Full59denominator=56gauge+3negative;31/56read,25gaugereject;MAEonly31accepted",
+    "0/3negativeoutputsdoesnotproveindustrialFAR; .25/.5/1psi descriptivebandsnotuseraccuracycontract",
+    "CpreviouslyexposedannotationQA acknowledged; nohumanblindgoldclaim;truthinstrumentprecisionunknown",
+    "Manualbbox/HDMIproxyinput and hostCexecution; notphysicalMCU/MMIO/CSI/boardacceptance",
+    "NoCfeedbacktraining/tuning/reselectionafterthisresult"
+  ],
+  "source_bindings": {
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\FINAL_FROZEN_SELECTED.json": "9df9e85087bb36269ab42ce26673d7e6c58b3b3b93f8b7a8c4b20bbe5514cfc1",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\C_TEST_ONCE.json": "484448846e46bd5bfaad4972403c798ba4787938374c2c2c6e038cd17de0a769",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\run_locked_C.py": "7fa2b0bd992e4343f922567dfbf206d444b02723907ebf159cee4b99190bbf29",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\FINAL_C_ONCE\\predictions_before_scoring.jsonl": "ebd87cdc4f3f31193e78acfb06da9f737cf1a8316ea1dc267515d1ac13f2348f",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\FINAL_C_ONCE\\final_C_evaluation.json": "7c5c7b944e9ff60faf064f646b23dfdb741a3d1845edaf1fdac672dab9fa96ce"
+  }
+}

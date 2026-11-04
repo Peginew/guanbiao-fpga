@@ -1,0 +1,1899 @@
+{
+  "scope": "frozenhub_firsthead_only_no_label_or_PSI",
+  "N": 59,
+  "mean_shift": 0.6894251318428385,
+  "max_shift": 10.18818566701096,
+  "evidence_flips": 5,
+  "float_accepted": 45,
+  "W8_accepted": 44,
+  "rows": [
+    {
+      "id": "G_001",
+      "float": {
+        "roi_xy": [
+          61.25753849266611,
+          60.09302245109069
+        ],
+        "accepted": true,
+        "peak": 0.49916502833366394,
+        "margin": 0.15153279900550842,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          61.2265625,
+          59.99609375
+        ],
+        "roi_xy_q8": [
+          15674,
+          15359
+        ],
+        "accepted": true,
+        "peak": 0.46879482406079287,
+        "margin": 0.10583819086275827,
+        "peak_q15": 15361,
+        "margin_q15": 3468,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.10175797372579207
+    },
+    {
+      "id": "G_002",
+      "float": {
+        "roi_xy": [
+          59.96988449121335,
+          60.03965865861391
+        ],
+        "accepted": true,
+        "peak": 0.47943466901779175,
+        "margin": 0.21388182044029236,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          59.9453125,
+          59.984375
+        ],
+        "roi_xy_q8": [
+          15346,
+          15356
+        ],
+        "accepted": true,
+        "peak": 0.500015259254738,
+        "margin": 0.19266335032197027,
+        "peak_q15": 16384,
+        "margin_q15": 6313,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.06049847652567958
+    },
+    {
+      "id": "G_003",
+      "float": {
+        "roi_xy": [
+          63.50203478748749,
+          59.98755501640727
+        ],
+        "accepted": true,
+        "peak": 0.458278089761734,
+        "margin": 0.0949597954750061,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.4765625,
+          59.953125
+        ],
+        "roi_xy_q8": [
+          16250,
+          15348
+        ],
+        "accepted": true,
+        "peak": 0.40733054597613455,
+        "margin": 0.13840144047364727,
+        "peak_q15": 13347,
+        "margin_q15": 4535,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.04282830208694006
+    },
+    {
+      "id": "G_004",
+      "float": {
+        "roi_xy": [
+          65.95134272437946,
+          48.71791209534998
+        ],
+        "accepted": false,
+        "peak": 0.2895940840244293,
+        "margin": 0.04194597899913788,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          66.04296875,
+          48.609375
+        ],
+        "roi_xy_q8": [
+          16907,
+          12444
+        ],
+        "accepted": false,
+        "peak": 0.24509414960173345,
+        "margin": 0.06265449995422223,
+        "peak_q15": 8031,
+        "margin_q15": 2053,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.14204094352695265
+    },
+    {
+      "id": "G_005",
+      "float": {
+        "roi_xy": [
+          65.42641435860197,
+          60.339630223459395
+        ],
+        "accepted": true,
+        "peak": 0.35873064398765564,
+        "margin": 0.10229915380477905,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          65.42578125,
+          60.375
+        ],
+        "roi_xy_q8": [
+          16749,
+          15456
+        ],
+        "accepted": true,
+        "peak": 0.3345744193853572,
+        "margin": 0.07773064363536485,
+        "peak_q15": 10963,
+        "margin_q15": 2547,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.03537544231574004
+    },
+    {
+      "id": "G_006",
+      "float": {
+        "roi_xy": [
+          58.90967569336599,
+          60.062864837746
+        ],
+        "accepted": false,
+        "peak": 0.2825194001197815,
+        "margin": 0.024829745292663574,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          51.40625,
+          66.3671875
+        ],
+        "roi_xy_q8": [
+          13160,
+          16990
+        ],
+        "accepted": false,
+        "peak": 0.2568437757499924,
+        "margin": 0.0,
+        "peak_q15": 8416,
+        "margin_q15": 0,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 9.80030006508343
+    },
+    {
+      "id": "G_007",
+      "float": {
+        "roi_xy": [
+          62.454303545170376,
+          59.98950200446847
+        ],
+        "accepted": false,
+        "peak": 0.268169641494751,
+        "margin": 0.20888109505176544,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          62.48046875,
+          59.96875
+        ],
+        "roi_xy_q8": [
+          15995,
+          15352
+        ],
+        "accepted": false,
+        "peak": 0.2814111758781701,
+        "margin": 0.21768852809228798,
+        "peak_q15": 9221,
+        "margin_q15": 7133,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.033395563077085286
+    },
+    {
+      "id": "G_008",
+      "float": {
+        "roi_xy": [
+          60.142167752023816,
+          60.00081774498235
+        ],
+        "accepted": true,
+        "peak": 0.48634928464889526,
+        "margin": 0.26894140243530273,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          60.1875,
+          60.03125
+        ],
+        "roi_xy_q8": [
+          15408,
+          15368
+        ],
+        "accepted": true,
+        "peak": 0.500015259254738,
+        "margin": 0.34391308328501236,
+        "peak_q15": 16384,
+        "margin_q15": 11269,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.05459976970678124
+    },
+    {
+      "id": "G_009",
+      "float": {
+        "roi_xy": [
+          61.88559046588371,
+          60.39669377161427
+        ],
+        "accepted": true,
+        "peak": 0.4176146984100342,
+        "margin": 0.15491649508476257,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          61.9140625,
+          60.375
+        ],
+        "roi_xy_q8": [
+          15850,
+          15456
+        ],
+        "accepted": true,
+        "peak": 0.37754448072756125,
+        "margin": 0.12070070497756889,
+        "peak_q15": 12371,
+        "margin_q15": 3955,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.035794922175794684
+    },
+    {
+      "id": "G_010",
+      "float": {
+        "roi_xy": [
+          63.31135846554619,
+          59.77925044154983
+        ],
+        "accepted": false,
+        "peak": 0.21615421772003174,
+        "margin": 0.07971362769603729,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.19921875,
+          59.72265625
+        ],
+        "roi_xy_q8": [
+          16179,
+          15289
+        ],
+        "accepted": false,
+        "peak": 0.16452528458510085,
+        "margin": 0.031556138798181095,
+        "peak_q15": 5391,
+        "margin_q15": 1034,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.12561137814688364
+    },
+    {
+      "id": "G_011",
+      "float": {
+        "roi_xy": [
+          64.29437444483563,
+          60.64770762587913
+        ],
+        "accepted": true,
+        "peak": 0.33377212285995483,
+        "margin": 0.17850707471370697,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.28125,
+          60.6875
+        ],
+        "roi_xy_q8": [
+          16456,
+          15536
+        ],
+        "accepted": false,
+        "peak": 0.29422894985808895,
+        "margin": 0.16125980407116916,
+        "peak_q15": 9641,
+        "margin_q15": 5284,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.04190088412454776
+    },
+    {
+      "id": "G_012",
+      "float": {
+        "roi_xy": [
+          58.91261603497489,
+          60.296529084331745
+        ],
+        "accepted": true,
+        "peak": 0.4027516543865204,
+        "margin": 0.19175052642822266,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          58.92578125,
+          60.19921875
+        ],
+        "roi_xy_q8": [
+          15085,
+          15411
+        ],
+        "accepted": true,
+        "peak": 0.34864345225379195,
+        "margin": 0.09179967650379955,
+        "peak_q15": 11424,
+        "margin_q15": 3008,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.09819686377076081
+    },
+    {
+      "id": "G_013",
+      "float": {
+        "roi_xy": [
+          63.66814716810373,
+          61.29079039279224
+        ],
+        "accepted": true,
+        "peak": 0.43941012024879456,
+        "margin": 0.31745606660842896,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.71875,
+          61.3046875
+        ],
+        "roi_xy_q8": [
+          16312,
+          15694
+        ],
+        "accepted": true,
+        "peak": 0.4532609027375103,
+        "margin": 0.3273415326395459,
+        "peak_q15": 14852,
+        "margin_q15": 10726,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.0524764345651095
+    },
+    {
+      "id": "G_014",
+      "float": {
+        "roi_xy": [
+          60.96997849572768,
+          60.14416228747732
+        ],
+        "accepted": true,
+        "peak": 0.5642937421798706,
+        "margin": 0.4017315208911896,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          60.98046875,
+          60.12109375
+        ],
+        "roi_xy_q8": [
+          15611,
+          15391
+        ],
+        "accepted": true,
+        "peak": 0.500015259254738,
+        "margin": 0.33548997466963715,
+        "peak_q15": 16384,
+        "margin_q15": 10993,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.025341721647127897
+    },
+    {
+      "id": "G_015",
+      "float": {
+        "roi_xy": [
+          63.16240805601679,
+          60.15258890364306
+        ],
+        "accepted": true,
+        "peak": 0.35916346311569214,
+        "margin": 0.22155211865901947,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.20703125,
+          60.12890625
+        ],
+        "roi_xy_q8": [
+          16181,
+          15393
+        ],
+        "accepted": true,
+        "peak": 0.32081057161168247,
+        "margin": 0.1727652821436201,
+        "peak_q15": 10512,
+        "margin_q15": 5661,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.05051828901339067
+    },
+    {
+      "id": "G_016",
+      "float": {
+        "roi_xy": [
+          63.13515428826367,
+          61.04594465588245
+        ],
+        "accepted": true,
+        "peak": 0.46200886368751526,
+        "margin": 0.39517706632614136,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          62.08203125,
+          58.3125
+        ],
+        "roi_xy_q8": [
+          15893,
+          14928
+        ],
+        "accepted": true,
+        "peak": 0.4532609027375103,
+        "margin": 0.3966185491500595,
+        "peak_q15": 14852,
+        "margin_q15": 12996,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 2.929298178829536
+    },
+    {
+      "id": "G_017",
+      "float": {
+        "roi_xy": [
+          65.03139865843751,
+          60.14754945769093
+        ],
+        "accepted": true,
+        "peak": 0.4639735221862793,
+        "margin": 0.22440463304519653,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.98828125,
+          60.109375
+        ],
+        "roi_xy_q8": [
+          16637,
+          15388
+        ],
+        "accepted": true,
+        "peak": 0.40733054597613455,
+        "margin": 0.20551164281136508,
+        "peak_q15": 13347,
+        "margin_q15": 6734,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.05758819436623753
+    },
+    {
+      "id": "G_018",
+      "float": {
+        "roi_xy": [
+          59.75840129290452,
+          58.42038845372043
+        ],
+        "accepted": true,
+        "peak": 0.46343350410461426,
+        "margin": 0.4058000147342682,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          59.76953125,
+          58.4765625
+        ],
+        "roi_xy_q8": [
+          15301,
+          14970
+        ],
+        "accepted": true,
+        "peak": 0.5156102175969726,
+        "margin": 0.44807275612659075,
+        "peak_q15": 16895,
+        "margin_q15": 14682,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.05726604072543098
+    },
+    {
+      "id": "G_019",
+      "float": {
+        "roi_xy": [
+          62.18935189966998,
+          60.098138031620664
+        ],
+        "accepted": true,
+        "peak": 0.5429250597953796,
+        "margin": 0.26409757137298584,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          62.19921875,
+          60.078125
+        ],
+        "roi_xy_q8": [
+          15923,
+          15380
+        ],
+        "accepted": true,
+        "peak": 0.5926694540238655,
+        "margin": 0.29844050416577655,
+        "peak_q15": 19420,
+        "margin_q15": 9779,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.02231313895633504
+    },
+    {
+      "id": "G_020",
+      "float": {
+        "roi_xy": [
+          62.02381569650834,
+          65.19637573743566
+        ],
+        "accepted": true,
+        "peak": 0.4273003339767456,
+        "margin": 0.2203938215970993,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          61.76171875,
+          64.58984375
+        ],
+        "roi_xy_q8": [
+          15811,
+          16535
+        ],
+        "accepted": true,
+        "peak": 0.4532609027375103,
+        "margin": 0.23056733909115879,
+        "peak_q15": 14852,
+        "margin_q15": 7555,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.6607388751629858
+    },
+    {
+      "id": "G_021",
+      "float": {
+        "roi_xy": [
+          63.55823645042598,
+          62.069990706268804
+        ],
+        "accepted": true,
+        "peak": 0.4581940770149231,
+        "margin": 0.2224600911140442,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.63671875,
+          62.34375
+        ],
+        "roi_xy_q8": [
+          16291,
+          15960
+        ],
+        "accepted": true,
+        "peak": 0.4378185369426557,
+        "margin": 0.130466628009888,
+        "peak_q15": 14346,
+        "margin_q15": 4275,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.2847869769681005
+    },
+    {
+      "id": "G_022",
+      "float": {
+        "roi_xy": [
+          63.90123865589239,
+          61.387583788196956
+        ],
+        "accepted": true,
+        "peak": 0.5788894295692444,
+        "margin": 0.44165509939193726,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.8359375,
+          61.35546875
+        ],
+        "roi_xy_q8": [
+          16342,
+          15707
+        ],
+        "accepted": true,
+        "peak": 0.5156102175969726,
+        "margin": 0.3595080416272469,
+        "peak_q15": 16895,
+        "margin_q15": 11780,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.07277098762057886
+    },
+    {
+      "id": "G_023",
+      "float": {
+        "roi_xy": [
+          65.02827263012622,
+          61.61299924884832
+        ],
+        "accepted": false,
+        "peak": 0.24643659591674805,
+        "margin": 0.10709458589553833,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.625,
+          60.65625
+        ],
+        "roi_xy_q8": [
+          16544,
+          15528
+        ],
+        "accepted": false,
+        "peak": 0.24509414960173345,
+        "margin": 0.11917477950376903,
+        "peak_q15": 8031,
+        "margin_q15": 3905,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 1.038266795857762
+    },
+    {
+      "id": "G_024",
+      "float": {
+        "roi_xy": [
+          62.00369326680176,
+          77.55675393791213
+        ],
+        "accepted": true,
+        "peak": 0.3961421251296997,
+        "margin": 0.035631924867630005,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          61.9140625,
+          77.4609375
+        ],
+        "roi_xy_q8": [
+          15850,
+          19830
+        ],
+        "accepted": true,
+        "peak": 0.46879482406079287,
+        "margin": 0.07644886623737297,
+        "peak_q15": 15361,
+        "margin_q15": 2505,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.13120390288265663
+    },
+    {
+      "id": "G_025",
+      "float": {
+        "roi_xy": [
+          63.03531706445875,
+          60.50951788295891
+        ],
+        "accepted": true,
+        "peak": 0.507010281085968,
+        "margin": 0.3457566797733307,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.1171875,
+          60.59765625
+        ],
+        "roi_xy_q8": [
+          16158,
+          15513
+        ],
+        "accepted": true,
+        "peak": 0.500015259254738,
+        "margin": 0.3596911526841029,
+        "peak_q15": 16384,
+        "margin_q15": 11786,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.12029605130835959
+    },
+    {
+      "id": "G_026",
+      "float": {
+        "roi_xy": [
+          59.9950442932717,
+          58.48843272857015
+        ],
+        "accepted": true,
+        "peak": 0.35679712891578674,
+        "margin": 0.15672874450683594,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          60.09375,
+          58.5390625
+        ],
+        "roi_xy_q8": [
+          15384,
+          14986
+        ],
+        "accepted": true,
+        "peak": 0.34864345225379195,
+        "margin": 0.1259498886074404,
+        "peak_q15": 11424,
+        "margin_q15": 4127,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.11093326956225691
+    },
+    {
+      "id": "G_027",
+      "float": {
+        "roi_xy": [
+          62.14833279597873,
+          63.83733116291173
+        ],
+        "accepted": true,
+        "peak": 0.35206663608551025,
+        "margin": 0.18593813478946686,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          62.203125,
+          63.8828125
+        ],
+        "roi_xy_q8": [
+          15924,
+          16354
+        ],
+        "accepted": true,
+        "peak": 0.37754448072756125,
+        "margin": 0.17572557756279183,
+        "peak_q15": 12371,
+        "margin_q15": 5758,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.07120911209139626
+    },
+    {
+      "id": "G_028",
+      "float": {
+        "roi_xy": [
+          60.48187530523205,
+          58.48229574369478
+        ],
+        "accepted": true,
+        "peak": 0.3033912479877472,
+        "margin": 0.19154170155525208,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          60.47265625,
+          58.5625
+        ],
+        "roi_xy_q8": [
+          15481,
+          14992
+        ],
+        "accepted": false,
+        "peak": 0.2337107455671865,
+        "margin": 0.10779137546922209,
+        "peak_q15": 7658,
+        "margin_q15": 3532,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.08073235849921301
+    },
+    {
+      "id": "G_029",
+      "float": {
+        "roi_xy": [
+          64.26986824875735,
+          60.20665063232653
+        ],
+        "accepted": true,
+        "peak": 0.3423166573047638,
+        "margin": 0.14468224346637726,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.296875,
+          60.17578125
+        ],
+        "roi_xy_q8": [
+          16460,
+          15405
+        ],
+        "accepted": true,
+        "peak": 0.37754448072756125,
+        "margin": 0.18561357463301492,
+        "peak_q15": 12371,
+        "margin_q15": 6082,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.04101564796396488
+    },
+    {
+      "id": "G_030",
+      "float": {
+        "roi_xy": [
+          57.65189856407701,
+          58.405518275837835
+        ],
+        "accepted": false,
+        "peak": 0.26619505882263184,
+        "margin": 0.05613860487937927,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          59.47265625,
+          68.4296875
+        ],
+        "roi_xy_q8": [
+          15225,
+          17518
+        ],
+        "accepted": false,
+        "peak": 0.24509414960173345,
+        "margin": 0.04327524643696402,
+        "peak_q15": 8031,
+        "margin_q15": 1418,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 10.18818566701096
+    },
+    {
+      "id": "G_031",
+      "float": {
+        "roi_xy": [
+          61.500025701711714,
+          60.55469086776211
+        ],
+        "accepted": true,
+        "peak": 0.37584927678108215,
+        "margin": 0.21621978282928467,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.93359375,
+          63.78125
+        ],
+        "roi_xy_q8": [
+          16367,
+          16328
+        ],
+        "accepted": true,
+        "peak": 0.4224982451857051,
+        "margin": 0.21042512283700063,
+        "peak_q15": 13844,
+        "margin_q15": 6895,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 4.041402885073125
+    },
+    {
+      "id": "G_032",
+      "float": {
+        "roi_xy": [
+          62.14371048411863,
+          64.20833397231424
+        ],
+        "accepted": true,
+        "peak": 0.38071268796920776,
+        "margin": 0.10558891296386719,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          62.21875,
+          64.30078125
+        ],
+        "roi_xy_q8": [
+          15928,
+          16461
+        ],
+        "accepted": true,
+        "peak": 0.3923459578234199,
+        "margin": 0.12341685232093265,
+        "peak_q15": 12856,
+        "margin_q15": 4044,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.11906900560271516
+    },
+    {
+      "id": "G_033",
+      "float": {
+        "roi_xy": [
+          63.713960950977395,
+          64.15605301168377
+        ],
+        "accepted": false,
+        "peak": 0.350831538438797,
+        "margin": 0.0029835402965545654,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.3125,
+          62.5
+        ],
+        "roi_xy_q8": [
+          16208,
+          16000
+        ],
+        "accepted": true,
+        "peak": 0.37754448072756125,
+        "margin": 0.07019257179479355,
+        "peak_q15": 12371,
+        "margin_q15": 2300,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 1.7040195047787887
+    },
+    {
+      "id": "G_034",
+      "float": {
+        "roi_xy": [
+          63.24453520499344,
+          62.220267800402894
+        ],
+        "accepted": true,
+        "peak": 0.40532049536705017,
+        "margin": 0.16252893209457397,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.12109375,
+          62.2265625
+        ],
+        "roi_xy_q8": [
+          16159,
+          15930
+        ],
+        "accepted": true,
+        "peak": 0.37754448072756125,
+        "margin": 0.13245033112582782,
+        "peak_q15": 12371,
+        "margin_q15": 4340,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.1236018448645297
+    },
+    {
+      "id": "G_035",
+      "float": {
+        "roi_xy": [
+          60.582553501424876,
+          53.61351834066353
+        ],
+        "accepted": false,
+        "peak": 0.07735048234462738,
+        "margin": 0.01577051728963852,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          60.62890625,
+          53.6328125
+        ],
+        "roi_xy_q8": [
+          15521,
+          13730
+        ],
+        "accepted": false,
+        "peak": 0.08035523545030061,
+        "margin": 0.004486220892971587,
+        "peak_q15": 2633,
+        "margin_q15": 147,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.050207986266825114
+    },
+    {
+      "id": "G_036",
+      "float": {
+        "roi_xy": [
+          59.36739884560851,
+          58.503345378414984
+        ],
+        "accepted": true,
+        "peak": 0.39506566524505615,
+        "margin": 0.24316981434822083,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          59.3828125,
+          58.49609375
+        ],
+        "roi_xy_q8": [
+          15202,
+          14975
+        ],
+        "accepted": true,
+        "peak": 0.4224982451857051,
+        "margin": 0.25797296060060426,
+        "peak_q15": 13844,
+        "margin_q15": 8453,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.01703428473312639
+    },
+    {
+      "id": "G_037",
+      "float": {
+        "roi_xy": [
+          59.89035958923147,
+          60.20937834641593
+        ],
+        "accepted": true,
+        "peak": 0.4571909010410309,
+        "margin": 0.11064475774765015,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          59.859375,
+          60.23828125
+        ],
+        "roi_xy_q8": [
+          15324,
+          15421
+        ],
+        "accepted": true,
+        "peak": 0.46879482406079287,
+        "margin": 0.1479842524491104,
+        "peak_q15": 15361,
+        "margin_q15": 4849,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.04237242741964455
+    },
+    {
+      "id": "G_038",
+      "float": {
+        "roi_xy": [
+          59.8625429910149,
+          60.44355476514928
+        ],
+        "accepted": true,
+        "peak": 0.49386271834373474,
+        "margin": 0.2775401473045349,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          59.9296875,
+          60.4453125
+        ],
+        "roi_xy_q8": [
+          15342,
+          15474
+        ],
+        "accepted": true,
+        "peak": 0.48438978240302744,
+        "margin": 0.2616962187566759,
+        "peak_q15": 15872,
+        "margin_q15": 8575,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.06716751237507514
+    },
+    {
+      "id": "G_039",
+      "float": {
+        "roi_xy": [
+          63.806668249602644,
+          62.340663762236865
+        ],
+        "accepted": true,
+        "peak": 0.3502492904663086,
+        "margin": 0.17928341031074524,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.703125,
+          62.46875
+        ],
+        "roi_xy_q8": [
+          16308,
+          15992
+        ],
+        "accepted": true,
+        "peak": 0.3629566331980346,
+        "margin": 0.1805169835505234,
+        "peak_q15": 11893,
+        "margin_q15": 5915,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.16470363943334682
+    },
+    {
+      "id": "G_040",
+      "float": {
+        "roi_xy": [
+          64.39516981997856,
+          61.491267726640025
+        ],
+        "accepted": true,
+        "peak": 0.4383145570755005,
+        "margin": 0.34023547172546387,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.4453125,
+          61.5703125
+        ],
+        "roi_xy_q8": [
+          16498,
+          15762
+        ],
+        "accepted": true,
+        "peak": 0.4378185369426557,
+        "margin": 0.3118991668446913,
+        "peak_q15": 14346,
+        "margin_q15": 10220,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.09360750266544908
+    },
+    {
+      "id": "G_041",
+      "float": {
+        "roi_xy": [
+          64.42604771883028,
+          60.477771768530395
+        ],
+        "accepted": true,
+        "peak": 0.39390504360198975,
+        "margin": 0.3155204951763153,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.42578125,
+          60.4609375
+        ],
+        "roi_xy_q8": [
+          16493,
+          15478
+        ],
+        "accepted": true,
+        "peak": 0.3923459578234199,
+        "margin": 0.29148228400524917,
+        "peak_q15": 12856,
+        "margin_q15": 9551,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.016836377359484806
+    },
+    {
+      "id": "G_042",
+      "float": {
+        "roi_xy": [
+          63.91538614008124,
+          63.86366645706778
+        ],
+        "accepted": true,
+        "peak": 0.3418962061405182,
+        "margin": 0.14173643290996552,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.96484375,
+          63.796875
+        ],
+        "roi_xy_q8": [
+          16375,
+          16332
+        ],
+        "accepted": true,
+        "peak": 0.3345744193853572,
+        "margin": 0.16129032258064516,
+        "peak_q15": 10963,
+        "margin_q15": 5285,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.08310928898813516
+    },
+    {
+      "id": "G_043",
+      "float": {
+        "roi_xy": [
+          63.35411727144619,
+          60.516321555936415
+        ],
+        "accepted": true,
+        "peak": 0.5086445808410645,
+        "margin": 0.4111676812171936,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.30078125,
+          60.50390625
+        ],
+        "roi_xy_q8": [
+          16205,
+          15489
+        ],
+        "accepted": true,
+        "peak": 0.500015259254738,
+        "margin": 0.3933225501266518,
+        "peak_q15": 16384,
+        "margin_q15": 12888,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.05476194851540118
+    },
+    {
+      "id": "G_044",
+      "float": {
+        "roi_xy": [
+          55.84486739476603,
+          62.02033068129672
+        ],
+        "accepted": true,
+        "peak": 0.3294565975666046,
+        "margin": 0.16616207361221313,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          54.63671875,
+          60.6484375
+        ],
+        "roi_xy_q8": [
+          13987,
+          15526
+        ],
+        "accepted": true,
+        "peak": 0.34864345225379195,
+        "margin": 0.09179967650379955,
+        "peak_q15": 11424,
+        "margin_q15": 3008,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 1.828035570971862
+    },
+    {
+      "id": "G_045",
+      "float": {
+        "roi_xy": [
+          64.42811525027012,
+          61.71391557844171
+        ],
+        "accepted": true,
+        "peak": 0.39301395416259766,
+        "margin": 0.18381772935390472,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.390625,
+          60.83984375
+        ],
+        "roi_xy_q8": [
+          16484,
+          15575
+        ],
+        "accepted": true,
+        "peak": 0.40733054597613455,
+        "margin": 0.15048677022614215,
+        "peak_q15": 13347,
+        "margin_q15": 4931,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.8748754655039456
+    },
+    {
+      "id": "G_046",
+      "float": {
+        "roi_xy": [
+          63.46132362157345,
+          60.53905991271244
+        ],
+        "accepted": true,
+        "peak": 0.45424097776412964,
+        "margin": 0.38313692808151245,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.484375,
+          60.546875
+        ],
+        "roi_xy_q8": [
+          16252,
+          15500
+        ],
+        "accepted": true,
+        "peak": 0.48438978240302744,
+        "margin": 0.4085207678456984,
+        "peak_q15": 15872,
+        "margin_q15": 13386,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.02434012400700264
+    },
+    {
+      "id": "G_047",
+      "float": {
+        "roi_xy": [
+          66.1059840680469,
+          60.09161682502937
+        ],
+        "accepted": true,
+        "peak": 0.5277242660522461,
+        "margin": 0.42011821269989014,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          66.06640625,
+          60.08984375
+        ],
+        "roi_xy_q8": [
+          16913,
+          15383
+        ],
+        "accepted": true,
+        "peak": 0.48438978240302744,
+        "margin": 0.3715933713797418,
+        "peak_q15": 15872,
+        "margin_q15": 12176,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.03961751476825373
+    },
+    {
+      "id": "G_048",
+      "float": {
+        "roi_xy": [
+          58.677763458688844,
+          60.656490087520154
+        ],
+        "accepted": true,
+        "peak": 0.609932541847229,
+        "margin": 0.44947201013565063,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          58.6953125,
+          60.64453125
+        ],
+        "roi_xy_q8": [
+          15026,
+          15525
+        ],
+        "accepted": true,
+        "peak": 0.5775017548142949,
+        "margin": 0.4371776482436598,
+        "peak_q15": 18923,
+        "margin_q15": 14325,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.021236351988374026
+    },
+    {
+      "id": "G_049",
+      "float": {
+        "roi_xy": [
+          64.19630814363042,
+          20.728035931352252
+        ],
+        "accepted": false,
+        "peak": 0.061027102172374725,
+        "margin": 0.005413748323917389,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.1015625,
+          20.69921875
+        ],
+        "roi_xy_q8": [
+          16410,
+          5299
+        ],
+        "accepted": false,
+        "peak": 0.07159642323068942,
+        "margin": 0.007873775444807276,
+        "peak_q15": 2346,
+        "margin_q15": 258,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.09903114120331422
+    },
+    {
+      "id": "G_050",
+      "float": {
+        "roi_xy": [
+          48.24849814256495,
+          63.71501125416567
+        ],
+        "accepted": false,
+        "peak": 0.21816657483577728,
+        "margin": 0.14428064227104187,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          48.55859375,
+          61.78125
+        ],
+        "roi_xy_q8": [
+          12431,
+          15816
+        ],
+        "accepted": false,
+        "peak": 0.18243964964751122,
+        "margin": 0.10657063509018219,
+        "peak_q15": 5978,
+        "margin_q15": 3492,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 1.958466715025529
+    },
+    {
+      "id": "G_051",
+      "float": {
+        "roi_xy": [
+          65.55774467072831,
+          56.24535320593733
+        ],
+        "accepted": false,
+        "peak": 0.283626914024353,
+        "margin": 0.06874117255210876,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.609375,
+          56.125
+        ],
+        "roi_xy_q8": [
+          16540,
+          14368
+        ],
+        "accepted": true,
+        "peak": 0.34864345225379195,
+        "margin": 0.14682454908902248,
+        "peak_q15": 11424,
+        "margin_q15": 4811,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.955975902696673
+    },
+    {
+      "id": "G_052",
+      "float": {
+        "roi_xy": [
+          64.0478024364459,
+          63.58702040220816
+        ],
+        "accepted": true,
+        "peak": 0.42246344685554504,
+        "margin": 0.03857806324958801,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.04296875,
+          63.515625
+        ],
+        "roi_xy_q8": [
+          16395,
+          16260
+        ],
+        "accepted": false,
+        "peak": 0.34864345225379195,
+        "margin": 0.014069032868434707,
+        "peak_q15": 11424,
+        "margin_q15": 461,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.07155884278775335
+    },
+    {
+      "id": "G_053",
+      "float": {
+        "roi_xy": [
+          64.58623622439539,
+          62.30000308448011
+        ],
+        "accepted": true,
+        "peak": 0.4425292909145355,
+        "margin": 0.21578100323677063,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.609375,
+          62.29296875
+        ],
+        "roi_xy_q8": [
+          16540,
+          15947
+        ],
+        "accepted": true,
+        "peak": 0.4378185369426557,
+        "margin": 0.19272438734092226,
+        "peak_q15": 14346,
+        "margin_q15": 6315,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.024184391620597958
+    },
+    {
+      "id": "G_054",
+      "float": {
+        "roi_xy": [
+          78.20634481878207,
+          16.268522478492915
+        ],
+        "accepted": false,
+        "peak": 0.14537274837493896,
+        "margin": 0.022695519030094147,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          78.125,
+          16.26171875
+        ],
+        "roi_xy_q8": [
+          20000,
+          4163
+        ],
+        "accepted": false,
+        "peak": 0.17328409680471205,
+        "margin": 0.06048768578142644,
+        "peak_q15": 5678,
+        "margin_q15": 1982,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.08162885680991312
+    },
+    {
+      "id": "G_055",
+      "float": {
+        "roi_xy": [
+          76.21123027673663,
+          65.53640684877256
+        ],
+        "accepted": false,
+        "peak": 0.09675504267215729,
+        "margin": 0.006445474922657013,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          75.99609375,
+          65.53125
+        ],
+        "roi_xy_q8": [
+          19455,
+          16776
+        ],
+        "accepted": false,
+        "peak": 0.11279641102328562,
+        "margin": 0.017456587420270394,
+        "peak_q15": 3696,
+        "margin_q15": 572,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.21519832300825023
+    },
+    {
+      "id": "G_056",
+      "float": {
+        "roi_xy": [
+          71.56703577264797,
+          64.37141172099194
+        ],
+        "accepted": true,
+        "peak": 0.47406506538391113,
+        "margin": 0.3038657307624817,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          70.50390625,
+          64.05859375
+        ],
+        "roi_xy_q8": [
+          18049,
+          16399
+        ],
+        "accepted": true,
+        "peak": 0.5156102175969726,
+        "margin": 0.31379131443220315,
+        "peak_q15": 16895,
+        "margin_q15": 10282,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 1.108196492009073
+    },
+    {
+      "id": "G_057",
+      "float": {
+        "roi_xy": [
+          64.47331291592141,
+          65.47068229215697
+        ],
+        "accepted": true,
+        "peak": 0.5557126402854919,
+        "margin": 0.32067784667015076,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.421875,
+          65.484375
+        ],
+        "roi_xy_q8": [
+          16492,
+          16764
+        ],
+        "accepted": true,
+        "peak": 0.5775017548142949,
+        "margin": 0.3756828516495254,
+        "peak_q15": 18923,
+        "margin_q15": 12310,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.053229216060476675
+    },
+    {
+      "id": "G_058",
+      "float": {
+        "roi_xy": [
+          64.02415073318387,
+          64.07101199877587
+        ],
+        "accepted": true,
+        "peak": 0.5305215716362,
+        "margin": 0.3726535439491272,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          64.08203125,
+          64.1171875
+        ],
+        "roi_xy_q8": [
+          16405,
+          16414
+        ],
+        "accepted": true,
+        "peak": 0.6076540421765801,
+        "margin": 0.36255989257484666,
+        "peak_q15": 19911,
+        "margin_q15": 11880,
+        "visibility_evidence": "sufficient",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.0740427656169141
+    },
+    {
+      "id": "G_059",
+      "float": {
+        "roi_xy": [
+          63.71129119017267,
+          62.53630906010696
+        ],
+        "accepted": false,
+        "peak": 0.18226100504398346,
+        "margin": 0.04750584065914154,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "W8": {
+        "roi_xy": [
+          63.67578125,
+          62.44140625
+        ],
+        "roi_xy_q8": [
+          16301,
+          15985
+        ],
+        "accepted": false,
+        "peak": 0.16452528458510085,
+        "margin": 0.03860591448713645,
+        "peak_q15": 5391,
+        "margin_q15": 1265,
+        "visibility_evidence": "unknown",
+        "confidence_is_calibrated_probability": false
+      },
+      "coordinate_shift_ROI": 0.10132866927609527
+    }
+  ]
+}

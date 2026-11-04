@@ -1,0 +1,616 @@
+{
+  "status": "ANALYSIS_ONLY_NO_CODE_OR_THRESHOLD_CHANGE",
+  "rows": [
+    {
+      "id": "G_011",
+      "old_float_hub": [
+        64.29437444483563,
+        60.64770762587913
+      ],
+      "new_W8_hub": {
+        "roi_xy_q8": [
+          16456,
+          15536
+        ],
+        "roi_xy": [
+          64.28125,
+          60.6875
+        ],
+        "peak_q15": 9641,
+        "margin_q15": 5284,
+        "accepted": false
+      },
+      "hub_movement_ROI": 0.04190088412454776,
+      "old_hub_peak": 0.33377212285995483,
+      "old_hub_margin": 0.17850707471370697,
+      "old_angle": 294.8048063589891,
+      "new_angle": 294.7587890625,
+      "old_neural_valid": true,
+      "new_neural_valid": false,
+      "new_needle_peak": 0.5621814630573443,
+      "new_needle_margin": 0.49058503982665486,
+      "old_ring": {
+        "id": "G_011",
+        "split": "validation",
+        "source_sha256": "27cb1eb00873e217db80cb3694192c16b8bf9f457bc92edfadb26aeb2d0f22de",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 9.0,
+        "score": 0.82061767578125,
+        "margin": 0.02032470703125,
+        "reference_id": "E_002",
+        "dx": -1.5,
+        "dy": 0,
+        "radius_scale": 1.03,
+        "outside_fraction": 0.0
+      },
+      "new_ring": {
+        "accepted": true,
+        "roll": 9,
+        "reason": 0,
+        "profile_id": 5,
+        "template_id": 1
+      },
+      "new_points": [
+        {
+          "roi_xy_q8": [
+            10720,
+            12351
+          ],
+          "roi_xy": [
+            41.875,
+            48.24609375
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 709,
+          "accepted": false
+        },
+        {
+          "roi_xy_q8": [
+            19560,
+            7530
+          ],
+          "roi_xy": [
+            76.40625,
+            29.4140625
+          ],
+          "peak_q15": 18421,
+          "margin_q15": 4577,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            24789,
+            12267
+          ],
+          "roi_xy": [
+            96.83203125,
+            47.91796875
+          ],
+          "peak_q15": 18421,
+          "margin_q15": 6997,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            16981,
+            12737
+          ],
+          "roi_xy": [
+            66.33203125,
+            49.75390625
+          ],
+          "peak_q15": 16895,
+          "margin_q15": 11780,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            16423,
+            16481
+          ],
+          "roi_xy": [
+            64.15234375,
+            64.37890625
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 2096,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            13826,
+            22544
+          ],
+          "roi_xy": [
+            54.0078125,
+            88.0625
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 999,
+          "accepted": true
+        }
+      ],
+      "new_print_pose": {
+        "accepted": false,
+        "roll": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference": 1,
+      "corrected_angle": 285.7587890625,
+      "frozen_angle_domain": [
+        164.9189063841552,
+        288.1874999590581
+      ],
+      "final": {
+        "valid": false,
+        "psi": null
+      },
+      "interpretation": "Hub peak0.29423 below fixed0.3 afterW8; geometry movement only0.042ROI and ring stillaccepted. No threshold relaxation."
+    },
+    {
+      "id": "G_028",
+      "old_float_hub": [
+        60.48187530523205,
+        58.48229574369478
+      ],
+      "new_W8_hub": {
+        "roi_xy_q8": [
+          15481,
+          14992
+        ],
+        "roi_xy": [
+          60.47265625,
+          58.5625
+        ],
+        "peak_q15": 7658,
+        "margin_q15": 3532,
+        "accepted": false
+      },
+      "hub_movement_ROI": 0.080732358499213,
+      "old_hub_peak": 0.3033912479877472,
+      "old_hub_margin": 0.19154170155525208,
+      "old_angle": 231.94331907513424,
+      "new_angle": 232.0360565185547,
+      "old_neural_valid": true,
+      "new_neural_valid": false,
+      "new_needle_peak": 0.8080690939054537,
+      "new_needle_margin": 0.4594256416516617,
+      "old_ring": {
+        "id": "G_028",
+        "split": "validation",
+        "source_sha256": "78247233be816bef621d9c59f181c6b1d77d4038fd2e9de124553b97a93f0416",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.8566791794185157,
+        "margin": 0.06223101568477429,
+        "reference_id": "D_002",
+        "dx": 1.5,
+        "dy": 1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_ring": {
+        "accepted": true,
+        "roll": 12,
+        "reason": 0,
+        "profile_id": 25,
+        "template_id": 0
+      },
+      "new_points": [
+        {
+          "roi_xy_q8": [
+            5195,
+            15383
+          ],
+          "roi_xy": [
+            20.29296875,
+            60.08984375
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 0,
+          "accepted": false
+        },
+        {
+          "roi_xy_q8": [
+            16041,
+            4664
+          ],
+          "roi_xy": [
+            62.66015625,
+            18.21875
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 6315,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            26095,
+            11872
+          ],
+          "roi_xy": [
+            101.93359375,
+            46.375
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 5720,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            16369,
+            12190
+          ],
+          "roi_xy": [
+            63.94140625,
+            47.6171875
+          ],
+          "peak_q15": 23546,
+          "margin_q15": 15515,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            19028,
+            19852
+          ],
+          "roi_xy": [
+            74.328125,
+            77.546875
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 850,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            15373,
+            21525
+          ],
+          "roi_xy": [
+            60.05078125,
+            84.08203125
+          ],
+          "peak_q15": 26154,
+          "margin_q15": 12310,
+          "accepted": true
+        }
+      ],
+      "new_print_pose": {
+        "accepted": true,
+        "roll": 10.789169311523438,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference": 1,
+      "corrected_angle": 220.0360565185547,
+      "frozen_angle_domain": [
+        164.9189063841552,
+        288.1874999590581
+      ],
+      "final": {
+        "valid": false,
+        "psi": null
+      },
+      "interpretation": "Hub peak0.23371 below fixed0.3 afterW8; geometry movement0.081ROI and ring stillaccepted. No threshold relaxation."
+    },
+    {
+      "id": "G_045",
+      "old_float_hub": [
+        64.42811525027012,
+        61.71391557844171
+      ],
+      "new_W8_hub": {
+        "roi_xy_q8": [
+          16484,
+          15575
+        ],
+        "roi_xy": [
+          64.390625,
+          60.83984375
+        ],
+        "peak_q15": 13347,
+        "margin_q15": 4931,
+        "accepted": true
+      },
+      "hub_movement_ROI": 0.8748754655039456,
+      "old_hub_peak": 0.39301395416259766,
+      "old_hub_margin": 0.18381772935390472,
+      "old_angle": 178.77627326013302,
+      "new_angle": 176.320068359375,
+      "old_neural_valid": true,
+      "new_neural_valid": true,
+      "new_needle_peak": 0.7057710501419111,
+      "new_needle_margin": 0.4606769005401776,
+      "old_ring": {
+        "id": "G_045",
+        "split": "validation",
+        "source_sha256": "2dbfd4645a2b79ccf02cb5eb3734e0a42303d7131e7e8f32c460282a0991a507",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": true,
+        "reason": "ROI128_LOCAL_CONTRAST_MULTI_RING_SUPPORTED",
+        "relative_roll_deg": 12.0,
+        "score": 0.8371509181331294,
+        "margin": 0.045882746748278525,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_ring": {
+        "accepted": true,
+        "roll": 13,
+        "reason": 0,
+        "profile_id": 1,
+        "template_id": 0
+      },
+      "new_points": [
+        {
+          "roi_xy_q8": [
+            11275,
+            15825
+          ],
+          "roi_xy": [
+            44.04296875,
+            61.81640625
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 709,
+          "accepted": false
+        },
+        {
+          "roi_xy_q8": [
+            16841,
+            6063
+          ],
+          "roi_xy": [
+            65.78515625,
+            23.68359375
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 4398,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            25142,
+            12328
+          ],
+          "roi_xy": [
+            98.2109375,
+            48.15625
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 2481,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            16766,
+            12767
+          ],
+          "roi_xy": [
+            65.4921875,
+            49.87109375
+          ],
+          "peak_q15": 16384,
+          "margin_q15": 10993,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            16408,
+            17891
+          ],
+          "roi_xy": [
+            64.09375,
+            69.88671875
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 635,
+          "accepted": false
+        },
+        {
+          "roi_xy_q8": [
+            17791,
+            22996
+          ],
+          "roi_xy": [
+            69.49609375,
+            89.828125
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 2199,
+          "accepted": false
+        }
+      ],
+      "new_print_pose": {
+        "accepted": true,
+        "roll": 11.166488647460938,
+        "reason": 0,
+        "inlier_mask": 14
+      },
+      "selected_reference": 1,
+      "corrected_angle": 163.320068359375,
+      "frozen_angle_domain": [
+        164.9189063841552,
+        288.1874999590581
+      ],
+      "final": {
+        "valid": false,
+        "psi": null
+      },
+      "interpretation": "Hub moves0.875ROI, needle−2.456deg, ring12→13deg. Corrected163.320deg falls below frozen164.919deg; old-first does not switch to new print solely to rescue calibration."
+    },
+    {
+      "id": "G_042",
+      "old_float_hub": [
+        63.91538614008124,
+        63.86366645706778
+      ],
+      "new_W8_hub": {
+        "roi_xy_q8": [
+          16375,
+          16332
+        ],
+        "roi_xy": [
+          63.96484375,
+          63.796875
+        ],
+        "peak_q15": 10963,
+        "margin_q15": 5285,
+        "accepted": true
+      },
+      "hub_movement_ROI": 0.08310928898813516,
+      "old_hub_peak": 0.3418962061405182,
+      "old_hub_margin": 0.14173643290996552,
+      "old_angle": 199.93010549994838,
+      "new_angle": 199.7860870361328,
+      "old_neural_valid": true,
+      "new_neural_valid": true,
+      "new_needle_peak": 0.6791894283883175,
+      "new_needle_margin": 0.5059053315836055,
+      "old_ring": {
+        "id": "G_042",
+        "split": "validation",
+        "source_sha256": "0a3dadaa0f89120733b1d39397b45d06938d0a7d0e9ae0c3f29f09a258a7610f",
+        "query_uses_GT_points": false,
+        "query_uses_pressure": false,
+        "native_frame_used": false,
+        "method": "B",
+        "accepted": false,
+        "reason": "ROI128_RING_AMBIGUOUS",
+        "relative_roll_deg": -24.0,
+        "score": 0.7866057765876052,
+        "margin": 0.0003631008063552654,
+        "reference_id": "D_002",
+        "dx": -1.5,
+        "dy": -1.5,
+        "radius_scale": 1.0,
+        "outside_fraction": 0.0
+      },
+      "new_ring": {
+        "accepted": false,
+        "roll": -24,
+        "reason": 3,
+        "profile_id": 1,
+        "template_id": 0
+      },
+      "new_points": [
+        {
+          "roi_xy_q8": [
+            10804,
+            14386
+          ],
+          "roi_xy": [
+            42.203125,
+            56.1953125
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 2344,
+          "accepted": false
+        },
+        {
+          "roi_xy_q8": [
+            15354,
+            5667
+          ],
+          "roi_xy": [
+            59.9765625,
+            22.13671875
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 4944,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            26287,
+            11604
+          ],
+          "roi_xy": [
+            102.68359375,
+            45.328125
+          ],
+          "peak_q15": 13844,
+          "margin_q15": 4623,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            15957,
+            12441
+          ],
+          "roi_xy": [
+            62.33203125,
+            48.59765625
+          ],
+          "peak_q15": 20396,
+          "margin_q15": 14418,
+          "accepted": true
+        },
+        {
+          "roi_xy_q8": [
+            15844,
+            17951
+          ],
+          "roi_xy": [
+            61.890625,
+            70.12109375
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 348,
+          "accepted": false
+        },
+        {
+          "roi_xy_q8": [
+            15851,
+            20672
+          ],
+          "roi_xy": [
+            61.91796875,
+            80.75
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 1432,
+          "accepted": true
+        }
+      ],
+      "new_print_pose": {
+        "accepted": true,
+        "roll": 6.2734832763671875,
+        "reason": 0,
+        "inlier_mask": 42
+      },
+      "selected_reference": 2,
+      "corrected_angle": 193.51260375976562,
+      "frozen_angle_domain": [
+        164.9189063841552,
+        288.1874999590581
+      ],
+      "final": {
+        "valid": true,
+        "psi": 4.93359375,
+        "absolute_error_psi": 0.93359375
+      },
+      "interpretation": "Oldring rejects; newprint acceptedroll6.273deg. Needle199.786deg produces4.93359psi against4psi, addedwrong>0.5. Geometric consistency does not prove calibration/pointcorrectness."
+    }
+  ],
+  "replay_sha256": "77555653ef39d7b275d873af7182e574c4a7cc8613cc85cd2efaae87d53ce8f6",
+  "reference": "Fixedmodelandcalibration; noGparameterretuning"
+}

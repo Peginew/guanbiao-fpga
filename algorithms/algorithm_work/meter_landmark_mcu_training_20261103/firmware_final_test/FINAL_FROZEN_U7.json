@@ -1,0 +1,75 @@
+{
+  "status": "FINAL_FROZEN",
+  "permission_to_run_H_once": true,
+  "selected_variant": "U7",
+  "harness_sha256": "5aec4c93e26d25b1a1a2c31566cb09950df4ac4f170049ec486c012357873066",
+  "H_expected_count": 59,
+  "H_prior_annotation_QA_exposure_acknowledged": true,
+  "canonical": {
+    "path": "C:/Users/Edward/Documents/ChatGPT/嵌赛FPGA/algorithm_work/meter_dataset_annotation_20261102/annotations.json",
+    "sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e"
+  },
+  "roi_adapter": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_cnn_training_20261102\\roi_adapter.py",
+    "sha256": "2f3bc1b8c640742f09a8ab2a7bed30707cd6064197c0da7430556e3338d45cc4"
+  },
+  "ELF": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\meter_landmark_reader.elf",
+    "sha256": "dd8ac48e29833818b22e798b134ee6b9e3d668147f2c49b5dff5be5f037319c8"
+  },
+  "DLL": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\host\\meter_landmark_reader.dll",
+    "sha256": "cf855dff71d72787cd7c18f5b3c5ffd9a4bc4839c1b72aea4e8d66c7ecf0e95d"
+  },
+  "build_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\build_receipt.json",
+    "sha256": "027d118f15b5679b865d0cbea54f38ddef308869c478aab15c256aca5eb13913"
+  },
+  "compiled_source_directory": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\source",
+  "frozen_model_and_calibration_artifacts": [
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\model\\run_001\\best_weights.pt",
+      "sha256": "b857014dd887f46cb754a0596c7e6dba1797ac559561454656a50daea15a1596"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\source\\landmark_weights_q8.h",
+      "sha256": "152c4d424b8ebd8f5a621a5cab564d8475230830915b7836332388f2268a0a92"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\source\\hub_weights_q8.h",
+      "sha256": "12a14a7c2260b9a81cc140209946cca0a41f09dbbc46ed9f1348b47d0200b033"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\source\\polar_weights_q8.h",
+      "sha256": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\source\\reader_numeric.c",
+      "sha256": "2eafcc638aa7bb028464b27e10d1644bfd2ac59ba04db1fb11b5496592a120bd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\source\\reader_ring_templates.h",
+      "sha256": "5beb70412cfc203a6ab058877a6ce0561110e9dd1c81a146007846f44b2f98c2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\source\\reader_runtime.c",
+      "sha256": "4370276f5016078bf019463e7ba4c54bd3f4472b5cd513498e69e4b0af48cb48"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\model\\run_001\\config.json",
+      "sha256": "ea49bcb3911ab066a05870d7ba1a5bdcfd8a034124cd808282e72ab3196fec8c"
+    }
+  ],
+  "fixed_metrics": {
+    "bands_psi": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "pressure_used_only_for_scoring": true,
+    "all_H_rows_retained": true,
+    "bands_are_not_user_tolerance_spec": true
+  },
+  "output_directory": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware_final_test\\FINAL_H_ONCE",
+  "selection_before_H": "U7 selected because U8 added one correct output but one additional wrong output on reusedG; no QAT/scale search afterH."
+}

@@ -1,0 +1,18 @@
+{
+  "date_local": "2026-11-03",
+  "scope": "One bounded expanded-data training of the SAME1222parameter six-print model after first candidate was not sufficiently robust. Actual MCU runtime, old hub/polar models, calibration and score thresholds remain frozen.",
+  "previous_immutable_task": "algorithm_work/meter_landmark_mcu_training_20261103",
+  "reason": "First candidate26/56G with25within0.5psi and16/56H with14within0.5psi did not meet strong correct-readout goal. Add previously reserved capture sessions rather than unlimited scale/architecture/threshold sweeps.",
+  "train": "A/B118 previously reserved plusD/E/F177 existing supervision,295total, noC/H images",
+  "development": "G59 fixedpoint metric selection, then once frozen actual fullC PSI comparison",
+  "final_reserved": "C59 locked until ALL new weights/quantization/ELF are frozen; then one whole-group sameC evaluation. Prior annotationQA exposure acknowledged, not blind human-gold.",
+  "H": "First candidate historical final test remains unchanged; never used for training, calibration, newpointlabels, subsequent scores or choosing the expanded candidate.",
+  "labels": "Same sixidentities. A/B native staticregistration silver with explicit uncertainty, visually review/mask occluded or unknown, no PSI-derived geometry. Reuse frozenDEF labels exactly.",
+  "model": "Same C4 sixheads1222parameters, same128ROI input, U7 hidden andS8 head, fixed0.3peak/0.02margin. NoQAT/noadditionalarchitecture/noscalevariants. One fixed trainingrun, G chooses step using predeclaredpoint metric only, never PSI-search.",
+  "pipeline": "Freeze original1202hub/1009polar and existingcalibration; sameimageoldreferencefirst; full C re-evaluates sameintegerhub/polar/ROI/ownership. No artificial read permission or groundtruth-based selection.",
+  "implementation": "Newweights can replace old sixpoint model without FPGA datapath change. Use the already auditedPSIQ8 ABI candidate and same TCMarena/link/flashlayout; actual finalELF must be rebuilt and checked.",
+  "calibration_domain_question": "Training median-angle boundary issue is recorded separately; no calibration change mixed into this single-model expanded-data comparison.",
+  "stop": "After this run and finalC test, do not retune C/H or broaden again in this turn. Deliver exact measured performance and flashed-capable experimental package honestly; failure is not accuracy acceptance.",
+  "unit": "psi",
+  "hardware_actions": false
+}

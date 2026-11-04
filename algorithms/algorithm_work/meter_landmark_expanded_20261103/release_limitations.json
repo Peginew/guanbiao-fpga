@@ -1,0 +1,45 @@
+{
+  "status": "MEASURED_LIMITS_NOT_PRODUCTION_ACCURACY_ACCEPTANCE",
+  "unit": "psi",
+  "current_pressure_support": [
+    2.5,
+    12
+  ],
+  "current_proxy_C": {
+    "gauges": 56,
+    "outputs": 31,
+    "within_0_5psi": 31,
+    "rejected": 25,
+    "negative_outputs": 0,
+    "negatives": 3,
+    "MAE_on_accepted_psi": 0.16847278225806453
+  },
+  "current_G_reused_development": {
+    "outputs": 29,
+    "within_0_5psi": 28,
+    "known_error_id": "G_042"
+  },
+  "measurement_boundary": [
+    "C uses canonical face boxes and HDMI-derived128grayROI, not proven actual automatic CSI ROI",
+    "C had earlier annotation QA exposure; not blind human-gold",
+    "0.5psi is a descriptive reporting band, not user-approved metrology accuracy",
+    "Three negative images do not establish industrial false-acceptance rates",
+    "Live output also requires inherited FPGA quality/pose and3fresh-source stable confirmation",
+    "ActualMCU latency/XIP throughput/coldboot/newliveREAD still unmeasured"
+  ],
+  "hardware_actions": false,
+  "further_C_H_tuning": false,
+  "historical_previous_firmware_H": {
+    "report": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware_final_test\\FINAL_H_ONCE\\final_H_evaluation.json",
+      "sha256": "da6a31ac28a3bfc7a0915f6a3777bb9cadf146828d34bf1f28c16fb34e0c7830"
+    },
+    "ELF_sha256": "dd8ac48e29833818b22e798b134ee6b9e3d668147f2c49b5dff5be5f037319c8",
+    "domain": "earlier angular permission domain",
+    "outputs": 16,
+    "within_0_5psi": 14,
+    "maximum_error_psi": 2.09375,
+    "current_selected_firmware_H_rerun": false,
+    "scope": "Earlier candidate with sameb857pointweights had substantial errors; currentCsuccess does not erase that evidence."
+  }
+}

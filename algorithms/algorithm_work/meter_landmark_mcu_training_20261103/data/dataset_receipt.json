@@ -1,0 +1,104 @@
+{
+  "status": "READY_AFTER_NATIVE_AND_ROI_VISUAL_QA",
+  "train_images": 177,
+  "validation_images": 59,
+  "train_supervised_images": 157,
+  "train_true_negatives": 9,
+  "train_head_statistics": {
+    "outer_psi_5_text_centroid": {
+      "coordinate_heads": 141,
+      "visibility_heads": 156,
+      "occluded_or_absent": 15,
+      "unknown": 21
+    },
+    "outer_psi_10_text_centroid": {
+      "coordinate_heads": 145,
+      "visibility_heads": 154,
+      "occluded_or_absent": 9,
+      "unknown": 23
+    },
+    "outer_psi_15_text_centroid": {
+      "coordinate_heads": 141,
+      "visibility_heads": 151,
+      "occluded_or_absent": 10,
+      "unknown": 26
+    },
+    "upper_basketball_logo_centroid": {
+      "coordinate_heads": 144,
+      "visibility_heads": 156,
+      "occluded_or_absent": 12,
+      "unknown": 21
+    },
+    "middle_soccer_logo_centroid": {
+      "coordinate_heads": 122,
+      "visibility_heads": 156,
+      "occluded_or_absent": 34,
+      "unknown": 21
+    },
+    "lower_striped_ball_print_centroid": {
+      "coordinate_heads": 142,
+      "visibility_heads": 156,
+      "occluded_or_absent": 14,
+      "unknown": 21
+    }
+  },
+  "validation_head_statistics": {
+    "outer_psi_5_text_centroid": {
+      "coordinate_heads": 51,
+      "visibility_heads": 55,
+      "occluded_or_absent": 4,
+      "unknown": 4
+    },
+    "outer_psi_10_text_centroid": {
+      "coordinate_heads": 52,
+      "visibility_heads": 55,
+      "occluded_or_absent": 3,
+      "unknown": 4
+    },
+    "outer_psi_15_text_centroid": {
+      "coordinate_heads": 49,
+      "visibility_heads": 56,
+      "occluded_or_absent": 7,
+      "unknown": 3
+    },
+    "upper_basketball_logo_centroid": {
+      "coordinate_heads": 54,
+      "visibility_heads": 58,
+      "occluded_or_absent": 4,
+      "unknown": 1
+    },
+    "middle_soccer_logo_centroid": {
+      "coordinate_heads": 45,
+      "visibility_heads": 56,
+      "occluded_or_absent": 11,
+      "unknown": 3
+    },
+    "lower_striped_ball_print_centroid": {
+      "coordinate_heads": 47,
+      "visibility_heads": 56,
+      "occluded_or_absent": 9,
+      "unknown": 3
+    }
+  },
+  "label_coordinates": "native and originalROI128; heatmap64 target=xy_roi/2",
+  "coordinate_transform": "(native-[x0,y0]-(stride-1)/2)/stride; no clipping or hidden-center reconstruction",
+  "G_frozen_sidecar_sha256": "0e8c3c8c82c8d2ab38fc7f96a087c2c4fb405e431a894063153fc899b2bd073e",
+  "G_used_for_training_or_templates": false,
+  "H_or_ABC_read": false,
+  "no_model_or_firmware_or_board_actions": true,
+  "old_canonical_images_weights_modified": false,
+  "outputs_sha256": {
+    "train_landmarks.jsonl": "91a95a3b04f3697a260ccc911243bdf68efbeffd27b8b05eab857d6fc7651f38",
+    "validation_landmarks.jsonl": "0d015ff8e03c56b8bceab1c27d85240b07fe014cbb0fa1c5fd6c897aa6a5600b",
+    "visual_visibility_review_ledger.json": "29cca0a6d12eacf055ebd592de1721ab6730f867cab591b17c069fd179228768",
+    "legacy_point_alignment_check.json": "c2cd9c809db69ffc169b20d1909207c57059659b956d335ddd4b9410b72fc704"
+  },
+  "sources_sha256": {
+    "algorithm_work\\meter_landmark_mcu_training_20261103\\data\\registration_candidates.jsonl": "bc243e37b181cbc71c96333a2eccb2bfdb1d4af4061e0422a0edc03513e3211d",
+    "algorithm_work\\meter_print_reference_control_20261102\\annotations_train\\print_annotations.jsonl": "5c4fc51b636dd8e96de8934d2103ee6a00b5f79f310d197c90efc2c1eb6abfa2",
+    "algorithm_work\\meter_redundant_print_20261102\\annotations\\print_annotations.jsonl": "0e8c3c8c82c8d2ab38fc7f96a087c2c4fb405e431a894063153fc899b2bd073e",
+    "algorithm_work\\meter_landmark_mcu_training_20261103\\data\\finalize_dataset.py": "c198130c20fc0933eba7d4941c511a0cb25745ec2ec1c44cf4c50044280fb494"
+  },
+  "final_QA_receipt_sha256": "0f0c9971d09d3cc90bfa025dfbaeef70ed6176fa66762ad9f062231f120527bd",
+  "labels_frozen_no_further_changes": true
+}

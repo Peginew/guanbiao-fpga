@@ -1,0 +1,34 @@
+{
+  "images": 177,
+  "train_groups_only": [
+    "D",
+    "E",
+    "F"
+  ],
+  "registered_candidates": 150,
+  "not_registered_ids": [
+    "D_052",
+    "D_053",
+    "D_054",
+    "D_055",
+    "E_050",
+    "E_051",
+    "E_052",
+    "E_053",
+    "F_009",
+    "F_010",
+    "F_015",
+    "F_016",
+    "F_023",
+    "F_026",
+    "F_053",
+    "F_054",
+    "F_055",
+    "F_057"
+  ],
+  "reference_D025_sha256": "365d6f001090a1bc20de34b23c57ea81758c688619cb4addfd203e5f083a2d64",
+  "no_query_GT_pressure_needle_NN": true,
+  "G_H_ABC_not_read": true,
+  "candidate_labels_not_training_ready": true,
+  "source_code_sha256": "599aeb02e5e83f0f1c363a997a49e06e4b70039a611bf5bec0da159547ba630d"
+}

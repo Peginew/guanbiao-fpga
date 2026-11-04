@@ -1,0 +1,120 @@
+{
+  "status": "SAME_C_HUB_POLAR_AND_STREAMING_RING_NUMERIC_PASS",
+  "counts": {
+    "maps": 48,
+    "map_elements": 196608,
+    "map_mismatches": 0,
+    "decode_fields": 240,
+    "decode_mismatches": 0,
+    "polar_logit_elements": 2160,
+    "polar_logit_mismatches": 0,
+    "polar_Q6_difference_from_previous_float_frontend": 597,
+    "ring_result_fields": 90,
+    "ring_result_mismatches": 0,
+    "ring_Q5_differences_from_floatgeometry": 102,
+    "ring_outside_count_differences": 0,
+    "ring_Q5_components": 1399680
+  },
+  "rows": [
+    {
+      "id": "D_002",
+      "hub_roi_q8": [
+        16271,
+        16402
+      ],
+      "needle_angle_deg": 286.40447998046875,
+      "needle_valid": true,
+      "outside": 0
+    },
+    {
+      "id": "E_002",
+      "hub_roi_q8": [
+        16131,
+        16329
+      ],
+      "needle_angle_deg": 290.8955078125,
+      "needle_valid": true,
+      "outside": 0
+    },
+    {
+      "id": "F_002",
+      "hub_roi_q8": [
+        17161,
+        19096
+      ],
+      "needle_angle_deg": 295.9325408935547,
+      "needle_valid": true,
+      "outside": 0
+    },
+    {
+      "id": "G_014",
+      "hub_roi_q8": [
+        15611,
+        15391
+      ],
+      "needle_angle_deg": 272.92015075683594,
+      "needle_valid": true,
+      "outside": 0
+    },
+    {
+      "id": "G_041",
+      "hub_roi_q8": [
+        16493,
+        15478
+      ],
+      "needle_angle_deg": 186.2572784423828,
+      "needle_valid": true,
+      "outside": 0
+    },
+    {
+      "id": "G_053",
+      "hub_roi_q8": [
+        16540,
+        15947
+      ],
+      "needle_angle_deg": 164.02235412597656,
+      "needle_valid": false,
+      "outside": 0
+    }
+  ],
+  "source_sha256": {
+    "c4_host_probe.c": "c008fa479f5bbaf832b926f4ae9e618378cd80ea9a57338e1d521f1dfd53ada9",
+    "hub_weights_q8.h": "12a14a7c2260b9a81cc140209946cca0a41f09dbbc46ed9f1348b47d0200b033",
+    "landmark_geometry.c": "2ac19a61ae212135c7c727432eb28dc4eb840fe7fa84cb7283bc30e05793dd79",
+    "landmark_geometry.h": "f8b381f081987c91bac78f72436adbc42d18dccc06f47a9dabdedad76d5109c0",
+    "landmark_reference.h": "36b6685c7cef84f5b5b6884d12ea405b1b4bad4126f961b7a0e872c07d2eb829",
+    "landmark_weights_q8.h": "152c4d424b8ebd8f5a621a5cab564d8475230830915b7836332388f2268a0a92",
+    "meter_mcu_live_abi.h": "57d9aa7f4c9c553aa4cade891e380267def152087d45ed245e484b2fc7d1c4c8",
+    "meter_mcu_roi_abi.h": "ccfa54487c997af3e8fcb1b2eaf4c98b5172c7b493252dfcfdee98206100ae46",
+    "meter_pose_frontend.c": "8379ac344fa7a8194e89a65155d4768113d857c572a2a26b714b67b9f96233cc",
+    "meter_pose_frontend.h": "fa51a5683d367a0dfb6741834166e67b32c4c6829d9ae2189352cd5477f1711a",
+    "meter_pose_matcher.c": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2",
+    "meter_pose_matcher.h": "89b125040d65d58433d034406f748e7e16d462e4521a49d01d614db862480921",
+    "minimal_app.c": "47ac906b386e82f2531d9c618dfafb85cd7f1ca1556a73c049b67836315ccd21",
+    "minimal_libc.c": "2949df0b9ab63f0a20d86913b5dd2f2227a8e63ed8728bdf42e63e2ac1772d74",
+    "mroi_c4.c": "db703479feabeda9c50cafd2efea596206c9f1f7721cd266a4338c4eaf211d5b",
+    "mroi_c4.h": "fdc97d2a0ad223dc3feea2dc899af8c572766de74cf180591e4e0a6ea686c236",
+    "mroi_client.c": "d2942be2563e04c77024d0a5cdfbd2738dcd7ca0f32a3687e4bf645595fca5b7",
+    "mroi_client.h": "af362569705e40346d4fe738b55b07c1a30623f90a9d6bd149ae62be161dca9e",
+    "mroi_cold_start.c": "f21f0a90ff3dcb4d3ecff7f7b878d9b10d62129e07035940c67565d1551cb58e",
+    "mroi_cold_start.h": "e26cc4a8547c59856ec87afbfce9a5213e37ff60784c7fb65bffe82a916edd32",
+    "mroi_decode.c": "0a52a3882002e3f29b591c180f5a59b3e52c978b9a2b5cea08bd74b639d48643",
+    "platform_binding.c": "d196a185143e4e1a62943ae57b7160a9b984e0b359beceac76a11911220bcedf",
+    "platform_binding.h": "3cb8bc94599cc683ba244665d920a8c44d5a36f32ac43b9be3355b5c45bde03e",
+    "polar_quant_config.h": "25d9649fae41b47beff987c5195013027e266839d49a415dc6259f9496413312",
+    "polar_weights_q8.h": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d",
+    "reader_numeric.c": "2eafcc638aa7bb028464b27e10d1644bfd2ac59ba04db1fb11b5496592a120bd",
+    "reader_numeric.h": "7057b3e5341ed22f65a89d48fe9e942e5c94d9c56178b800d5616f0979ce40f4",
+    "reader_ring_templates.h": "5beb70412cfc203a6ab058877a6ce0561110e9dd1c81a146007846f44b2f98c2",
+    "reader_runtime.c": "4370276f5016078bf019463e7ba4c54bd3f4472b5cd513498e69e4b0af48cb48",
+    "reader_runtime.h": "44dd0fe1fdb8f46398f5e3db16835166dfede0233198569ae6e405439a449111",
+    "reader_sigmoid.c": "7106b0b6f4380e3e37dbd054940e2a1f50e9689f97dfd2551413b9b62c0960b1",
+    "reader_tables.h": "ec9b07316fbcc95a5c128a163b494ba2d0dc82c00033539092c2631020a05b5d",
+    "soc_plat.c": "8cee4dec90eeea64daf09d074bb90a2ad67b56f0e2016ab62635a1cf9527a54a",
+    "soc_plat.h": "62f67ecc38196e9f77401a60a1664e5f4fa6d0f44456f0c8d87c890e6ec06eba"
+  },
+  "DLL_sha256": "5a40c6dcc941a3c90dbd35af80c1c5f5e50399a5141efff40e8ec92a5e85385c",
+  "scope": "6 proxyROIs; exact C4 maps/decode, rationalQ6 polar logits and independently reconstructed Q20radial/Q30trig ring pose. Not complete model/PSI or MCU execution.",
+  "H_opened": false,
+  "hardware_actions": false
+}

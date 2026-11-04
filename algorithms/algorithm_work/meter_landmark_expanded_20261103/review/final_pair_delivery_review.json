@@ -1,0 +1,58 @@
+{
+  "status": "FINAL_PAIRED_BUNDLE_IDENTITY_INVENTORY_ZIP_REVIEW_PASS_NOT_BOARD_ACCEPTANCE",
+  "passed": true,
+  "checks": 604,
+  "archive": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103.zip",
+    "sha256": "65c14082ef137324a5ee1abb48bd76cad00416f9dacccb7d85671a7982c9ab39"
+  },
+  "directory": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103",
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103\\pair_manifest.json",
+    "sha256": "3739b5244d987b73cae7491aede68eba57e17f5719152b509b0c753e4f319efa"
+  },
+  "manifest_files": 96,
+  "actual_files": 97,
+  "source_snapshot_files": 272,
+  "selected_identities": {
+    "fpga/Meter_Trained_Readout_20261103.bit": "d88297760b8b41be1466bf4a5ddeb18e4391c3601f2f529b788712b1de5469bd",
+    "fpga/accepted_routed.db": "def86a7b478657109e6a55cd17f1d6fb079dc2814d7d9b52949b2ac1a8b1a4a5",
+    "mcu/meter_landmark_reader.elf": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc",
+    "mcu/meter_landmark_reader.bin": "fb31905ac395832ae5bba6a3cfb603339cc02df5d654bd3f18edb3ee8cdce135",
+    "mcu/U33_E00000_E0FFFF_reader_payload.bin": "24025d127c2ed12b41ee338d6a2d426308a2689bc0987141e121f8563f6385f1",
+    "mcu/verification_host/meter_landmark_reader.dll": "21f3f341116be6a5e214cbd5bc61d1529edb5c9c0cb6b9da4941c9bc6f391505"
+  },
+  "physical_release": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103\\fpga\\physical_release.json",
+    "sha256": "20f9f036224fe3443465899edc46ec968e876d1d0c18bd03d025eea9f817c4c5"
+  },
+  "software_release": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103\\fpga\\software_release.json",
+    "sha256": "18b5d167e8b18700db08c825a1416b3be9e6cbc3e1f87c9873d615f5894e4351"
+  },
+  "actual_route": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103\\fpga\\route_receipt.json",
+    "sha256": "4b6a1d7e1b4c694d15576eb8734930c716ad0fb92758305857340d3801834075"
+  },
+  "actual_bitgen": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103\\fpga\\bitgen_receipt.json",
+    "sha256": "d8ad6fd0e9ff929d7d801c89beab6cbcce7c2b29bfdf82b843d20c41bff78daa"
+  },
+  "single_C_evidence_unchanged": true,
+  "no_old_HPF_or_alternate_bit": true,
+  "scope": {
+    "file_hashes_and_ZIP_only": true,
+    "new_training": false,
+    "new_forward": false,
+    "new_compilation": false,
+    "new_route": false,
+    "device_actions": false
+  },
+  "boundaries": [
+    "OfflineacceptedDB/bit+wholetrainedMCUappcorrectlypaired;notnewboardexecution",
+    "128manualbboxHDMIproxyCscoreisnotautomaticCSIROIorMCUcycletest",
+    "Carfree1174Slice;1200preferredreserveis26short,alreadydisclosed",
+    "NoFlashorSRAMdownloadbythisreview;cannotuseoldHPFreplacebit/app"
+  ],
+  "reviewer": "roi_adapter_final_delivery_file_identity_scope"
+}

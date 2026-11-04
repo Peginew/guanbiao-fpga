@@ -1,0 +1,15 @@
+{
+  "status": "FINAL_FROZEN_U7_H_TEST_RELEASED_ONCE",
+  "date_local": "2026-11-03",
+  "initial_training_scope_preserved": "DEF updates, G development selection, no H/ABC in training or calibration",
+  "final_test_scope_amendment": "After single-model training, integer implementation and U7 selection are complete and SHA-frozen, open the originally reserved H59 group once for final same-C reading evaluation. ABC remains unused.",
+  "selected_variant": "U7",
+  "manifest": "FINAL_FROZEN_U7.json",
+  "selection_reason_before_H": "U8 added one correct reading and one new wrong reading on reused G; retain the lower-error U7 experimental firmware, not a passed accuracy release.",
+  "no_post_H_model_selection_or_tuning": true,
+  "H_prior_annotation_QA_exposure_acknowledged": true,
+  "not_blind_human_gold": true,
+  "evaluation": "All59 inputs once, model sees only128ROI and actual proxy radius, PSI truth after predictions for scoring; compare same-runtime integer ring-only to trained sixpoint fusion.",
+  "failure_policy": "Keep all failures and rejection denominators. A poor H result does not authorize H-specific thresholds, weight changes, variant selection or repeated prediction sweeps.",
+  "hardware_actions": false
+}

@@ -1,0 +1,7196 @@
+{
+  "status": "FINAL_FROZEN_H_ONCE_EVALUATION_COMPLETED",
+  "unit": "psi",
+  "selected_variant": "U7",
+  "manifest_sha256": "3b3ff1649cdb9a242dee6d795a502c81c7e03d77f01e5a36c3fe5c78316b9313",
+  "harness_sha256": "5aec4c93e26d25b1a1a2c31566cb09950df4ac4f170049ec486c012357873066",
+  "ELF_sha256": "dd8ac48e29833818b22e798b134ee6b9e3d668147f2c49b5dff5be5f037319c8",
+  "DLL_sha256": "cf855dff71d72787cd7c18f5b3c5ffd9a4bc4839c1b72aea4e8d66c7ecf0e95d",
+  "summary": {
+    "integer_ring_only": {
+      "total_rows": 59,
+      "gauges": 56,
+      "negative": 3,
+      "gauge_outputs": 10,
+      "gauge_rejected": 46,
+      "negative_outputs": 0,
+      "pressure_evaluable_outputs": 10,
+      "output_without_known_pressure": 0,
+      "MAE_psi": 0.145703125,
+      "error_bands": [
+        {
+          "absolute_error_max_psi": 0.25,
+          "count": 8,
+          "over_ids": [
+            "H_013",
+            "H_025"
+          ]
+        },
+        {
+          "absolute_error_max_psi": 0.5,
+          "count": 10,
+          "over_ids": []
+        },
+        {
+          "absolute_error_max_psi": 1.0,
+          "count": 10,
+          "over_ids": []
+        }
+      ],
+      "output_ids": [
+        "H_001",
+        "H_007",
+        "H_013",
+        "H_016",
+        "H_025",
+        "H_030",
+        "H_031",
+        "H_034",
+        "H_037",
+        "H_040"
+      ],
+      "all_gauges_are_denominator": true
+    },
+    "trained_sixpoint_fusion": {
+      "total_rows": 59,
+      "gauges": 56,
+      "negative": 3,
+      "gauge_outputs": 16,
+      "gauge_rejected": 40,
+      "negative_outputs": 0,
+      "pressure_evaluable_outputs": 16,
+      "output_without_known_pressure": 0,
+      "MAE_psi": 0.3134765625,
+      "error_bands": [
+        {
+          "absolute_error_max_psi": 0.25,
+          "count": 10,
+          "over_ids": [
+            "H_002",
+            "H_006",
+            "H_013",
+            "H_025",
+            "H_036",
+            "H_042"
+          ]
+        },
+        {
+          "absolute_error_max_psi": 0.5,
+          "count": 14,
+          "over_ids": [
+            "H_002",
+            "H_042"
+          ]
+        },
+        {
+          "absolute_error_max_psi": 1.0,
+          "count": 15,
+          "over_ids": [
+            "H_002"
+          ]
+        }
+      ],
+      "output_ids": [
+        "H_001",
+        "H_002",
+        "H_006",
+        "H_007",
+        "H_013",
+        "H_016",
+        "H_024",
+        "H_025",
+        "H_030",
+        "H_031",
+        "H_034",
+        "H_035",
+        "H_036",
+        "H_037",
+        "H_040",
+        "H_042"
+      ],
+      "all_gauges_are_denominator": true
+    }
+  },
+  "new_fusion_outputs": [
+    {
+      "id": "H_002",
+      "target_present": true,
+      "psi": 9.90625,
+      "absolute_error_psi": 2.09375
+    },
+    {
+      "id": "H_006",
+      "target_present": true,
+      "psi": 11.60546875,
+      "absolute_error_psi": 0.39453125
+    },
+    {
+      "id": "H_024",
+      "target_present": true,
+      "psi": 8.484375,
+      "absolute_error_psi": 0.015625
+    },
+    {
+      "id": "H_035",
+      "target_present": true,
+      "psi": 5.29296875,
+      "absolute_error_psi": 0.20703125
+    },
+    {
+      "id": "H_036",
+      "target_present": true,
+      "psi": 5.796875,
+      "absolute_error_psi": 0.296875
+    },
+    {
+      "id": "H_042",
+      "target_present": true,
+      "psi": 4.55078125,
+      "absolute_error_psi": 0.55078125
+    }
+  ],
+  "withdrawn_old_integer_outputs": [],
+  "ROI_log": [
+    {
+      "id": "H_001",
+      "ROI_sha256": "2af58d3d3f674855b40a9752def6a605cf6a3d3fd0b7d518c2e8abee516273e3",
+      "request": {
+        "x0": 332,
+        "y0": 247,
+        "stride": 3,
+        "radius": 54,
+        "span": 384,
+        "proxy_diameter": 322,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_002",
+      "ROI_sha256": "48e3b34cbf0d5c53d95cbf2e409dc3c8b30f6b204dd5c35d53b95a6728641c58",
+      "request": {
+        "x0": 208,
+        "y0": 121,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 603,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_003",
+      "ROI_sha256": "b4e45c31ecb4bdbaaa565801a52a1faf29008874b801f7e1e835db7c96de5f70",
+      "request": {
+        "x0": 204,
+        "y0": 157,
+        "stride": 3,
+        "radius": 55,
+        "span": 384,
+        "proxy_diameter": 332,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_004",
+      "ROI_sha256": "5360f30ac69111271f7ef32a3381ab4ac925b6f999107cdd8f4e1fd04ad4f066",
+      "request": {
+        "x0": 260,
+        "y0": 183,
+        "stride": 3,
+        "radius": 58,
+        "span": 384,
+        "proxy_diameter": 347,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_005",
+      "ROI_sha256": "83a9e01b753068dbb0982f245230eada9bae7049a65bc808d705041169ad9d66",
+      "request": {
+        "x0": 312,
+        "y0": 184,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 336,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_006",
+      "ROI_sha256": "e754447945882352b42d57c6e0948e0a4c31afadc6fa1c60d85efc5927d2c6fd",
+      "request": {
+        "x0": 252,
+        "y0": 160,
+        "stride": 3,
+        "radius": 54,
+        "span": 384,
+        "proxy_diameter": 321,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_007",
+      "ROI_sha256": "6530a5cafeab82c4c9765297f46b386c841e6caedca9893fc673800b27a07ac4",
+      "request": {
+        "x0": 292,
+        "y0": 119,
+        "stride": 3,
+        "radius": 57,
+        "span": 384,
+        "proxy_diameter": 343,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_008",
+      "ROI_sha256": "fb47b35e931c7b384c7a4a5f39699e383b31372dd3e5fcadbcf89d8e22d1eb98",
+      "request": {
+        "x0": 340,
+        "y0": 85,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 537,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_009",
+      "ROI_sha256": "6da2cba08fe038509edcf5daca1bebba4ce7cd21014d81ef5d65f0abc52cb91b",
+      "request": {
+        "x0": 216,
+        "y0": 92,
+        "stride": 4,
+        "radius": 56,
+        "span": 512,
+        "proxy_diameter": 446,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_010",
+      "ROI_sha256": "2431369c9dd4762f330f0360bd6d15a3cb04754a59bd92779c42325a2dcb771a",
+      "request": {
+        "x0": 276,
+        "y0": 66,
+        "stride": 4,
+        "radius": 51,
+        "span": 512,
+        "proxy_diameter": 408,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_011",
+      "ROI_sha256": "20e2e289529a41c7d8c2055d74252985c0e23b0a4a8dd3d67315a6a30da64039",
+      "request": {
+        "x0": 104,
+        "y0": 120,
+        "stride": 4,
+        "radius": 55,
+        "span": 512,
+        "proxy_diameter": 443,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_012",
+      "ROI_sha256": "b5a06761e351c4f9eb3fd279deb5b315241099c7e8f5a1fced307164a7fa64f0",
+      "request": {
+        "x0": 208,
+        "y0": 109,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 389,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_013",
+      "ROI_sha256": "aed644b7eb2844457e7b686db3380eb7231893e15300ac919cdc19492184af0d",
+      "request": {
+        "x0": 152,
+        "y0": 77,
+        "stride": 4,
+        "radius": 50,
+        "span": 512,
+        "proxy_diameter": 396,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_014",
+      "ROI_sha256": "0f95bd78db4f1d27308439e8e60a49c721c29f6f055764cc51a6f96c8e48c1ef",
+      "request": {
+        "x0": 272,
+        "y0": 112,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 607,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_015",
+      "ROI_sha256": "96e100b5c3fa9b0cbbc447afeb51129d51d706d76ee6e2e29492657c0f762812",
+      "request": {
+        "x0": 236,
+        "y0": 51,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 380,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_016",
+      "ROI_sha256": "101e44f97fef6ddd317fe3f5e5cdf612e6ef1aea1cb31af4e1e312cfa971c1e6",
+      "request": {
+        "x0": 208,
+        "y0": 71,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 381,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_017",
+      "ROI_sha256": "cca7b7cf5e4de2ecfbc944455eace36bba36a4c4863c43a8e3b7cc64f3a8d473",
+      "request": {
+        "x0": 248,
+        "y0": 96,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 381,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_018",
+      "ROI_sha256": "33874f54797c080b506c18a0a2341ce7b31187a36c8215b381cd7d345417a770",
+      "request": {
+        "x0": 268,
+        "y0": 155,
+        "stride": 3,
+        "radius": 59,
+        "span": 384,
+        "proxy_diameter": 355,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_019",
+      "ROI_sha256": "48d6b516b5208f6054a3dbbac3ff8e6fd07fc14f9c804b7b0d984f3f0cceed1c",
+      "request": {
+        "x0": 232,
+        "y0": 120,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 337,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_020",
+      "ROI_sha256": "88f0e87170345038c4abf3db4b2a0d5d2e6be7f47ffe982c74caaadaa0d5c9fb",
+      "request": {
+        "x0": 140,
+        "y0": 94,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 524,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_021",
+      "ROI_sha256": "819574761d5677eb7e79fca6f1b879a89fdc21bdca822bc4b5e9eb9e3ba4513f",
+      "request": {
+        "x0": 224,
+        "y0": 152,
+        "stride": 3,
+        "radius": 58,
+        "span": 384,
+        "proxy_diameter": 345,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_022",
+      "ROI_sha256": "aa90f417627a679fa7deb99c54c8b19ea413f3d94100fbb4eed8d2c2af2475f3",
+      "request": {
+        "x0": 116,
+        "y0": 164,
+        "stride": 3,
+        "radius": 61,
+        "span": 384,
+        "proxy_diameter": 368,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_023",
+      "ROI_sha256": "2c2ee81541456367034c876753c2158701152bd6088004e9641cd94baa9a7c3d",
+      "request": {
+        "x0": 156,
+        "y0": 135,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 383,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_024",
+      "ROI_sha256": "8963525d2c498a43610c7e924952bf750eb8ff49c7fce566040d7f80dad8578f",
+      "request": {
+        "x0": 144,
+        "y0": 96,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 394,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_025",
+      "ROI_sha256": "0658c0fd19976d3c189f18b3b6270958f1876a23ab08e64280bcaa8f9877d1a0",
+      "request": {
+        "x0": 320,
+        "y0": 145,
+        "stride": 3,
+        "radius": 55,
+        "span": 384,
+        "proxy_diameter": 330,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_026",
+      "ROI_sha256": "fc785168ae5a676a440292ece8138d330bbf674034e5646f756cf0a60e9816e0",
+      "request": {
+        "x0": 248,
+        "y0": 81,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 535,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_027",
+      "ROI_sha256": "0a06238f01e0da4a95388a0b33e78e6852c23c8c329e930fd55a30146e29e8b0",
+      "request": {
+        "x0": 252,
+        "y0": 137,
+        "stride": 3,
+        "radius": 58,
+        "span": 384,
+        "proxy_diameter": 345,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_028",
+      "ROI_sha256": "040419bcc7e80abe72929b46a8e5a6531858da72ce509c5f988d76cabee64ec7",
+      "request": {
+        "x0": 128,
+        "y0": 110,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 383,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_029",
+      "ROI_sha256": "2b49382c5408b70abde1c082c6563c372452008c1e2f07090a221dc202ea0b37",
+      "request": {
+        "x0": 140,
+        "y0": 172,
+        "stride": 4,
+        "radius": 59,
+        "span": 512,
+        "proxy_diameter": 475,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_030",
+      "ROI_sha256": "fb83d6ee36fc28d657d1ee3ea0c38ecbc1319a2ac9f89c8e23e7f1d33863fa2c",
+      "request": {
+        "x0": 284,
+        "y0": 104,
+        "stride": 4,
+        "radius": 50,
+        "span": 512,
+        "proxy_diameter": 396,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_031",
+      "ROI_sha256": "961e547dfc433a89f02799a55eef321301375569abe5baee9870aeb4acea974b",
+      "request": {
+        "x0": 252,
+        "y0": 125,
+        "stride": 3,
+        "radius": 60,
+        "span": 384,
+        "proxy_diameter": 358,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_032",
+      "ROI_sha256": "1ab16586d0b3a85da261f05c4918a4a1f2250cec19e4dd1d45e24126a3045c05",
+      "request": {
+        "x0": 228,
+        "y0": 100,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 549,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_033",
+      "ROI_sha256": "cced0c2f3d5232d0f88f9d313f10202ce9227d06f34ce9a86ff2fb0fb5b6ce2f",
+      "request": {
+        "x0": 300,
+        "y0": 123,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 334,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_034",
+      "ROI_sha256": "4aef55b86dcd687b6d428e13e91242f3cb562add32b0618d92e35303f821d24a",
+      "request": {
+        "x0": 288,
+        "y0": 124,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 338,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_035",
+      "ROI_sha256": "ac200279389f2b00fa11f939b9f53b79beac9652dd62f0a72ceabb2bd2eb3cc5",
+      "request": {
+        "x0": 332,
+        "y0": 145,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 335,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_036",
+      "ROI_sha256": "e5f70461cd88130fe04cadbbc70ab2eab5913eb60229474a80b4eff13e81efe1",
+      "request": {
+        "x0": 224,
+        "y0": 139,
+        "stride": 3,
+        "radius": 57,
+        "span": 384,
+        "proxy_diameter": 340,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_037",
+      "ROI_sha256": "f2e5ee68fa2fae8e4a88b8217263d905c9706a2b8f2dfc2fd60eb1b6b3410c2d",
+      "request": {
+        "x0": 252,
+        "y0": 68,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 391,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_038",
+      "ROI_sha256": "25f0018ead53de4919e7094848d70f7c94e49482917a1c7cea828b08db4c0c59",
+      "request": {
+        "x0": 232,
+        "y0": 69,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 567,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_039",
+      "ROI_sha256": "a37b606af24c0232a1fe61901cbcf2455790f3cb2d24c165aa377dec78524007",
+      "request": {
+        "x0": 256,
+        "y0": 138,
+        "stride": 3,
+        "radius": 57,
+        "span": 384,
+        "proxy_diameter": 342,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_040",
+      "ROI_sha256": "dc9854f5057ad6a83f46c248b768536131e47b8bbe070f4a50c33f2bdc8a0208",
+      "request": {
+        "x0": 272,
+        "y0": 151,
+        "stride": 3,
+        "radius": 59,
+        "span": 384,
+        "proxy_diameter": 355,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_041",
+      "ROI_sha256": "ebd8d42ddbb26a60bece1b446012cb24132cee3a7597f99678be5082c326c3c5",
+      "request": {
+        "x0": 200,
+        "y0": 156,
+        "stride": 3,
+        "radius": 62,
+        "span": 384,
+        "proxy_diameter": 369,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_042",
+      "ROI_sha256": "3cba6e7b225a8af6f2722523890dd4f6b156f09352495ace62c7bfe06a040118",
+      "request": {
+        "x0": 144,
+        "y0": 185,
+        "stride": 3,
+        "radius": 62,
+        "span": 384,
+        "proxy_diameter": 372,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_043",
+      "ROI_sha256": "2b675133ec61718e7dce6057ca5e1c0b1d938371d7cd20947eb617340743a03d",
+      "request": {
+        "x0": 284,
+        "y0": 215,
+        "stride": 3,
+        "radius": 60,
+        "span": 384,
+        "proxy_diameter": 362,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_044",
+      "ROI_sha256": "67295cfe91ba915b7e44fdc6c816b456881f61e872feca551c0ad6576a89138a",
+      "request": {
+        "x0": 224,
+        "y0": 104,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 593,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_045",
+      "ROI_sha256": "14ce0e028bc0c95b26f8228a32ac4e32f2a8a31fd10865dca24ea4409ca2c4d2",
+      "request": {
+        "x0": 232,
+        "y0": 120,
+        "stride": 4,
+        "radius": 51,
+        "span": 512,
+        "proxy_diameter": 404,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_046",
+      "ROI_sha256": "3fd0a81d2cb3d83e927ac43eae22b3baedaa98b578a388fde455ba6de5ab6d2e",
+      "request": {
+        "x0": 348,
+        "y0": 121,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 375,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_047",
+      "ROI_sha256": "afd95d7fd953111c3765f2f676871745dcd1874a5a2ce1faf7b0e579d962b274",
+      "request": {
+        "x0": 216,
+        "y0": 104,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 394,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_048",
+      "ROI_sha256": "53dfefc83abde4d007b1f0f7d9c7f1c6722933f10a052c057a76dc683af5d805",
+      "request": {
+        "x0": 220,
+        "y0": 103,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 387,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_049",
+      "ROI_sha256": "d43ed6f0ae060908f9781e4d0fc67b24c7891b2048294c46db32d7052468534f",
+      "request": {
+        "x0": 204,
+        "y0": 100,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_050",
+      "ROI_sha256": "0d8c8c7e6babaa6cd65bbc59fed1901990c757f88799f07ba3580d4f3e91a5c6",
+      "request": {
+        "x0": 204,
+        "y0": 100,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_051",
+      "ROI_sha256": "7686739ef2339d33710b9dcfe4c72b89b672435c75ffff83d16ce34693d4822c",
+      "request": {
+        "x0": 204,
+        "y0": 100,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_052",
+      "ROI_sha256": "7cb5ab1e69ff638089bc19b9c3d9569ac2e1332cb33fc50155df0817bddf81a9",
+      "request": {
+        "x0": 260,
+        "y0": 118,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 826,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_053",
+      "ROI_sha256": "0da8dc074b4f54f828f87d689eaac2069f3ae4c6d3d9125dd87d6573b23baa61",
+      "request": {
+        "x0": 468,
+        "y0": 215,
+        "stride": 2,
+        "radius": 46,
+        "span": 256,
+        "proxy_diameter": 184,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_054",
+      "ROI_sha256": "356a3ee94b32a323cbd8cbd97bcf237a4440b753899a89becd3795dea07bfaeb",
+      "request": {
+        "x0": 116,
+        "y0": 170,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_055",
+      "ROI_sha256": "a8541e052533b109f3cb0bcfd904ebb0a970e64b6350007dfdfdd8335193b64d",
+      "request": {
+        "x0": 112,
+        "y0": 208,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 383,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_056",
+      "ROI_sha256": "3dfcaf636e431db87d992b0658a84fedb5b1ce2116eaa03fcfb460a76c6d7dbf",
+      "request": {
+        "x0": 160,
+        "y0": 139,
+        "stride": 4,
+        "radius": 53,
+        "span": 512,
+        "proxy_diameter": 422,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_057",
+      "ROI_sha256": "103daaedd3190be04c4dfeb7bb92d227ef3ff5fb486ef5887c5591a905fc6cfe",
+      "request": {
+        "x0": 184,
+        "y0": 141,
+        "stride": 4,
+        "radius": 52,
+        "span": 512,
+        "proxy_diameter": 418,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_058",
+      "ROI_sha256": "3840e681247d20f8a5d3b871d1623900117b587d7089e8d82bf57b4bf13cf7d0",
+      "request": {
+        "x0": 184,
+        "y0": 163,
+        "stride": 4,
+        "radius": 53,
+        "span": 512,
+        "proxy_diameter": 424,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    },
+    {
+      "id": "H_059",
+      "ROI_sha256": "90dea397f85f15e7a663c17a2eb5983ed0936d052c992998c647ef9be9b9eb56",
+      "request": {
+        "x0": 184,
+        "y0": 166,
+        "stride": 4,
+        "radius": 53,
+        "span": 512,
+        "proxy_diameter": 426,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "H_001",
+      "source_sha256": "a478dc0fb476debb67fd3da4a59aa63a153ec6deabb0265b0b414da7bdb7ab80",
+      "ROI_request": {
+        "x0": 332,
+        "y0": 247,
+        "stride": 3,
+        "radius": 54,
+        "span": 384,
+        "proxy_diameter": 322,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15559,
+          16319
+        ],
+        "peak_q15": 17915,
+        "margin_q15": 5544,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            8663,
+            13766
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 1742,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13791,
+            6060
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 1432,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24500,
+            10719
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 3862,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15474,
+            12853
+          ],
+          "peak_q15": 16895,
+          "margin_q15": 9946,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16378,
+            16537
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 3458,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16770,
+            22004
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 4126,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 285.3601379394531,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": -2,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": -2.0046844482421875,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3344851964,
+      "psi_word": 2147486685,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 11.86328125
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 11.86328125
+      }
+    },
+    {
+      "id": "H_002",
+      "source_sha256": "928b506b19b50be9e0f869a6fd57a676d1b9f416a16e8c888c05474875204c85",
+      "ROI_request": {
+        "x0": 208,
+        "y0": 121,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 603,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15338,
+          16368
+        ],
+        "peak_q15": 10512,
+        "margin_q15": 1700,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            6173,
+            12895
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 2151,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16808,
+            7192
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 1700,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            26132,
+            11807
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 509,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14309,
+            12274
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 1190,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13827,
+            16544
+          ],
+          "peak_q15": 13844,
+          "margin_q15": 3773,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            13375,
+            23504
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 5572,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 280.0894012451172,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -24,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 19.211929321289062,
+        "reason": 0,
+        "inlier_mask": 35
+      },
+      "selected_reference_kind": 2,
+      "return_code": 3323853823,
+      "psi_word": 2147486184,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 9.90625
+      }
+    },
+    {
+      "id": "H_003",
+      "source_sha256": "fdc611ec608cf0b30b3b5d9f6de3c4b3e0715b55b175f13161d4368213b13cb0",
+      "ROI_request": {
+        "x0": 204,
+        "y0": 157,
+        "stride": 3,
+        "radius": 55,
+        "span": 384,
+        "proxy_diameter": 332,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16276,
+          15915
+        ],
+        "peak_q15": 8031,
+        "margin_q15": 734,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9710,
+            13863
+          ],
+          "peak_q15": 5978,
+          "margin_q15": 300,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14276,
+            6050
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            27635,
+            9164
+          ],
+          "peak_q15": 5115,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15993,
+            13707
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 5688,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19752,
+            18972
+          ],
+          "peak_q15": 5391,
+          "margin_q15": 276,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16943,
+            22094
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 1119,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 283.1628723144531,
+      "neural_valid": false,
+      "ring": {
+        "accepted": true,
+        "roll_deg": -1,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 1,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_004",
+      "source_sha256": "4fc8e1bee56f69aef287e5b191c510008dd3e07a08de38a66cee67fe83864929",
+      "ROI_request": {
+        "x0": 260,
+        "y0": 183,
+        "stride": 3,
+        "radius": 58,
+        "span": 384,
+        "proxy_diameter": 347,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15428,
+          16420
+        ],
+        "peak_q15": 10512,
+        "margin_q15": 2854,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7692,
+            13268
+          ],
+          "peak_q15": 5115,
+          "margin_q15": 758,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13845,
+            5127
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 1983,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            20667,
+            8617
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 324,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15350,
+            12510
+          ],
+          "peak_q15": 5678,
+          "margin_q15": 1552,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16458,
+            16507
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 1558,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16499,
+            22498
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 5661,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 288.3958282470703,
+      "neural_valid": false,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 0,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 1,
+      "return_code": 1142825986,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_005",
+      "source_sha256": "5d4fe546d9c6adec2123c917f0fade57e9ac0c60eec8812639182bdb3c9b7b08",
+      "ROI_request": {
+        "x0": 312,
+        "y0": 184,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 336,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          17426,
+          15536
+        ],
+        "peak_q15": 12856,
+        "margin_q15": 2785,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10684,
+            13371
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 971,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15353,
+            5564
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 3663,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            24635,
+            10270
+          ],
+          "peak_q15": 19911,
+          "margin_q15": 6564,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16415,
+            12501
+          ],
+          "peak_q15": 19420,
+          "margin_q15": 11762,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16483,
+            19878
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 373,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17346,
+            21937
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 6573,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 285.94403076171875,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -3,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 3349285835,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_006",
+      "source_sha256": "853eef24ae758720ab8b650b0baa7a4e685932414d0cc5465649793b6bda52b3",
+      "ROI_request": {
+        "x0": 252,
+        "y0": 160,
+        "stride": 3,
+        "radius": 54,
+        "span": 384,
+        "proxy_diameter": 321,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          14732,
+          16301
+        ],
+        "peak_q15": 19911,
+        "margin_q15": 10270,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11188,
+            14325
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 1225,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13803,
+            5801
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 5559,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24087,
+            9777
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 2523,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15215,
+            12852
+          ],
+          "peak_q15": 18421,
+          "margin_q15": 10390,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15261,
+            16538
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 758,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16259,
+            21968
+          ],
+          "peak_q15": 16895,
+          "margin_q15": 8864,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 283.35508728027344,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -3,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": -0.5100555419921875,
+        "reason": 0,
+        "inlier_mask": 42
+      },
+      "selected_reference_kind": 2,
+      "return_code": 3336358907,
+      "psi_word": 2147486619,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 11.60546875
+      }
+    },
+    {
+      "id": "H_007",
+      "source_sha256": "46e736f2b09f26aa3340a3bedda5be9e717776d3b56a05b66dddbd83de6a8505",
+      "ROI_request": {
+        "x0": 292,
+        "y0": 119,
+        "stride": 3,
+        "radius": 57,
+        "span": 384,
+        "proxy_diameter": 343,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15588,
+          16344
+        ],
+        "peak_q15": 13347,
+        "margin_q15": 3706,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9138,
+            12901
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14882,
+            5184
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 4044,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            25587,
+            11263
+          ],
+          "peak_q15": 23546,
+          "margin_q15": 12122,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15948,
+            12748
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 7536,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19488,
+            19450
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 2413,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16286,
+            22473
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 4235,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 286.6282043457031,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 3,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 3.6559295654296875,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3353244670,
+      "psi_word": 2147486614,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 11.5859375
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 11.5859375
+      }
+    },
+    {
+      "id": "H_008",
+      "source_sha256": "30c37ae56feb48699e08e43f58a77490027d0b8914c28f3c9834e0219a5ca705",
+      "ROI_request": {
+        "x0": 340,
+        "y0": 85,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 537,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15537,
+          16359
+        ],
+        "peak_q15": 9641,
+        "margin_q15": 1610,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            8173,
+            12258
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 2640,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19306,
+            4194
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            27499,
+            11149
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 5316,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14979,
+            15715
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 1983,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19839,
+            19920
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 829,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16025,
+            23598
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 3243,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 288.5811767578125,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 6,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_009",
+      "source_sha256": "1d3af42e8ce3fab0122c2fea6de31a7384b319de414dbb25a603cae73d5b0673",
+      "ROI_request": {
+        "x0": 216,
+        "y0": 92,
+        "stride": 4,
+        "radius": 56,
+        "span": 512,
+        "proxy_diameter": 446,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          17503,
+          13905
+        ],
+        "peak_q15": 8031,
+        "margin_q15": 2640,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            4230,
+            13808
+          ],
+          "peak_q15": 5391,
+          "margin_q15": 793,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13252,
+            2193
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            26221,
+            8265
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16285,
+            12795
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 971,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15825,
+            17411
+          ],
+          "peak_q15": 5678,
+          "margin_q15": 1080,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16371,
+            22455
+          ],
+          "peak_q15": 5391,
+          "margin_q15": 1695,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 106.89404296875,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -22,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_010",
+      "source_sha256": "6c61d28c44466cbbd8ec8f5e1bccd8aa19de4d2bb33eb21bd2e048818048ada7",
+      "ROI_request": {
+        "x0": 276,
+        "y0": 66,
+        "stride": 4,
+        "radius": 51,
+        "span": 512,
+        "proxy_diameter": 408,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16387,
+          13319
+        ],
+        "peak_q15": 15872,
+        "margin_q15": 511,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9771,
+            13377
+          ],
+          "peak_q15": 5978,
+          "margin_q15": 1621,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14996,
+            6643
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 2199,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            26541,
+            8768
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 3383,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16089,
+            13267
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 4345,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16833,
+            16566
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 758,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16357,
+            21607
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 2351,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 101.15940856933594,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -9,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_011",
+      "source_sha256": "b2fc6dfcf640726e467f33034cd14084bf89a86bbab1c4fb855f8e02d6efcc63",
+      "ROI_request": {
+        "x0": 104,
+        "y0": 120,
+        "stride": 4,
+        "radius": 55,
+        "span": 512,
+        "proxy_diameter": 443,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          17718,
+          15445
+        ],
+        "peak_q15": 8031,
+        "margin_q15": 734,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7108,
+            15847
+          ],
+          "peak_q15": 6289,
+          "margin_q15": 611,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13949,
+            4179
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 1381,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24574,
+            10217
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 348,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16488,
+            12854
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 1983,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16910,
+            17929
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17384,
+            21997
+          ],
+          "peak_q15": 5678,
+          "margin_q15": 1080,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 279.19744873046875,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -6,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_012",
+      "source_sha256": "5c587ecf78327860365557cd1cfcebc0ee0bfbb5d0043b9a4c2114572f6ee82c",
+      "ROI_request": {
+        "x0": 208,
+        "y0": 109,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 389,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          14757,
+          15950
+        ],
+        "peak_q15": 17915,
+        "margin_q15": 6952,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11590,
+            14287
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 1119,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14247,
+            6685
+          ],
+          "peak_q15": 16895,
+          "margin_q15": 7674,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            22998,
+            9851
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 4535,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15312,
+            13645
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 6837,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19777,
+            19876
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 1610,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17494,
+            23045
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 930,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 278.7692413330078,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 3319583717,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_013",
+      "source_sha256": "82938afcd3e4ec40c77086b4ce6ba52e290319fae9eedb82106a1dd4a4834c3d",
+      "ROI_request": {
+        "x0": 152,
+        "y0": 77,
+        "stride": 4,
+        "radius": 50,
+        "span": 512,
+        "proxy_diameter": 396,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15770,
+          16328
+        ],
+        "peak_q15": 16895,
+        "margin_q15": 10917,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11184,
+            14310
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 361,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15369,
+            3106
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 409,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            23998,
+            11881
+          ],
+          "peak_q15": 18923,
+          "margin_q15": 8411,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15553,
+            13246
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 6567,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15861,
+            16482
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 1803,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15973,
+            21478
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 4944,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 262.7135925292969,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 5,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 3.3510589599609375,
+        "reason": 0,
+        "inlier_mask": 44
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3252605949,
+      "psi_word": 2147486124,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 9.671875
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 9.671875
+      }
+    },
+    {
+      "id": "H_014",
+      "source_sha256": "6e8cb501d9ff69c465971f2fcdca3d9ce91951380398cd6a8021b52c4f42eacc",
+      "ROI_request": {
+        "x0": 272,
+        "y0": 112,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 607,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16213,
+          17370
+        ],
+        "peak_q15": 9221,
+        "margin_q15": 1563,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7208,
+            12325
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 2774,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15251,
+            9686
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 6243,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            27988,
+            9268
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15822,
+            13860
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 4475,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15928,
+            18414
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 2523,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16867,
+            23951
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 781,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 262.10411071777344,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -7,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_015",
+      "source_sha256": "d38b30805e9f99259fd7e0a408a085b383cb87ef4e32aa1ca5756657fcca800f",
+      "ROI_request": {
+        "x0": 236,
+        "y0": 51,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 380,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15575,
+          16383
+        ],
+        "peak_q15": 6613,
+        "margin_q15": 1222,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            5682,
+            12421
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 3122,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            13451,
+            4264
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 2922,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            28067,
+            12267
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 5125,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15508,
+            13384
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 361,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16373,
+            16502
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 348,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16407,
+            21009
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 3243,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 265.35565185546875,
+      "neural_valid": false,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 2,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 1,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_016",
+      "source_sha256": "02755578cde9387df38e66699652da06283201082b723397ae13a16cefa662c1",
+      "ROI_request": {
+        "x0": 208,
+        "y0": 71,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 381,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15993,
+          15894
+        ],
+        "peak_q15": 16384,
+        "margin_q15": 11533,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10221,
+            13484
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 2543,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14911,
+            6766
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 871,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24076,
+            11741
+          ],
+          "peak_q15": 16895,
+          "margin_q15": 11504,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15997,
+            13284
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 7767,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16399,
+            16540
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 1655,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16481,
+            20981
+          ],
+          "peak_q15": 15872,
+          "margin_q15": 9894,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 263.5417785644531,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 1,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 2.3967742919921875,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3256828897,
+      "psi_word": 2147486216,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 10.03125
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 10.03125
+      }
+    },
+    {
+      "id": "H_017",
+      "source_sha256": "a0fb025b954bd5d96ca6a9ade95c5a43afd337bf3a6e0bdb63819286659c66f8",
+      "ROI_request": {
+        "x0": 248,
+        "y0": 96,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 381,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16853,
+          15983
+        ],
+        "peak_q15": 12856,
+        "margin_q15": 1432,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            8241,
+            13808
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 1619,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17356,
+            4168
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            27967,
+            9155
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 5198,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16319,
+            13421
+          ],
+          "peak_q15": 17406,
+          "margin_q15": 13910,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16895,
+            18413
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 4059,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16868,
+            21077
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 3565,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 266.2337341308594,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -18,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 3265326055,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_018",
+      "source_sha256": "8a126c81d55a861c105a336e95ea8c99edd847b3d6f6f4b7aacf7af788f21f65",
+      "ROI_request": {
+        "x0": 268,
+        "y0": 155,
+        "stride": 3,
+        "radius": 59,
+        "span": 384,
+        "proxy_diameter": 355,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15026,
+          16721
+        ],
+        "peak_q15": 19911,
+        "margin_q15": 15313,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7209,
+            13896
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 805,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14822,
+            5141
+          ],
+          "peak_q15": 16384,
+          "margin_q15": 3037,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            20949,
+            11294
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 2384,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15380,
+            12443
+          ],
+          "peak_q15": 15872,
+          "margin_q15": 2525,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15403,
+            18432
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 2098,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16005,
+            22384
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 1082,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 263.9921875,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -1,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 3256704021,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_019",
+      "source_sha256": "bf5c6d2e41fb83e7dc98832ec398b04567b1eed391fe564e778e405959300702",
+      "ROI_request": {
+        "x0": 232,
+        "y0": 120,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 337,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15065,
+          12497
+        ],
+        "peak_q15": 11424,
+        "margin_q15": 1353,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9694,
+            13356
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 1190,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16252,
+            1079
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            25189,
+            10742
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 5689,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15879,
+            13825
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 2438,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19001,
+            19843
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 5316,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16740,
+            22006
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 6878,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 61.094940185546875,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 1
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 2405266189,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_020",
+      "source_sha256": "f79efafcd499a8b34be1001032c53367ebfb4beebe5a4f1ce7f477f57f290395",
+      "ROI_request": {
+        "x0": 140,
+        "y0": 94,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 524,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15909,
+          18387
+        ],
+        "peak_q15": 14852,
+        "margin_q15": 4781,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            8750,
+            12461
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            12490,
+            4571
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 4825,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            26740,
+            10278
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 3937,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            13275,
+            10372
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 2692,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19820,
+            19920
+          ],
+          "peak_q15": 12371,
+          "margin_q15": 947,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            18958,
+            20987
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 5689,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 252.1911163330078,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 12,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 3206485117,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_021",
+      "source_sha256": "def1fd07e9ddf75f12c4ba758c28a5821c19cb16d5182df992c80a48751dd0ec",
+      "ROI_request": {
+        "x0": 224,
+        "y0": 152,
+        "stride": 3,
+        "radius": 58,
+        "span": 384,
+        "proxy_diameter": 345,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16304,
+          16543
+        ],
+        "peak_q15": 10071,
+        "margin_q15": 0,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            8749,
+            12849
+          ],
+          "peak_q15": 5115,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17036,
+            1129
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 430,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            25573,
+            6148
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 1082,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15790,
+            13801
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 3825,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17941,
+            19837
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 709,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16389,
+            22486
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 3301,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 243.1241912841797,
+      "neural_valid": false,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 5,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 1,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_022",
+      "source_sha256": "d1a447024dad26d921533f44cf21d2913b27e91d5ab83f2513fff79157505b66",
+      "ROI_request": {
+        "x0": 116,
+        "y0": 164,
+        "stride": 3,
+        "radius": 61,
+        "span": 384,
+        "proxy_diameter": 368,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          17552,
+          19759
+        ],
+        "peak_q15": 8031,
+        "margin_q15": 734,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7658,
+            12862
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 1271,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14356,
+            14266
+          ],
+          "peak_q15": 3305,
+          "margin_q15": 1092,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            25612,
+            10782
+          ],
+          "peak_q15": 15872,
+          "margin_q15": 1526,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15388,
+            12452
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 7283,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16881,
+            18940
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 3697,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16310,
+            22998
+          ],
+          "peak_q15": 12371,
+          "margin_q15": 5074,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 240.484619140625,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 1
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 1.4616851806640625,
+        "reason": 0,
+        "inlier_mask": 44
+      },
+      "selected_reference_kind": 2,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_023",
+      "source_sha256": "631fa67ad80030d32da43937fb1a8e3ab1ea0b7b757e78f036703f1b1c72eaf7",
+      "ROI_request": {
+        "x0": 156,
+        "y0": 135,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 383,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15186,
+          15944
+        ],
+        "peak_q15": 9221,
+        "margin_q15": 2608,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            8670,
+            13819
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 1222,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19794,
+            4107
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 805,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            22472,
+            10804
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 3421,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14274,
+            12903
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 8005,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            18378,
+            19475
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 2127,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14893,
+            21501
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 1222,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 242.672119140625,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -24,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_024",
+      "source_sha256": "fcaaf05876e51648fd74ad3a6a4f817d9a590507912bb9494e1cf9076b633def",
+      "ROI_request": {
+        "x0": 144,
+        "y0": 96,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 394,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15392,
+          16470
+        ],
+        "peak_q15": 19420,
+        "margin_q15": 12123,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11532,
+            14293
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 3122,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14307,
+            6715
+          ],
+          "peak_q15": 16384,
+          "margin_q15": 1532,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            27552,
+            11689
+          ],
+          "peak_q15": 15872,
+          "margin_q15": 4448,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15276,
+            13298
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 5280,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16935,
+            19830
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 2040,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15966,
+            21418
+          ],
+          "peak_q15": 13844,
+          "margin_q15": 3773,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 243.3105926513672,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 2,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 1.6804656982421875,
+        "reason": 0,
+        "inlier_mask": 42
+      },
+      "selected_reference_kind": 2,
+      "return_code": 3168670725,
+      "psi_word": 2147485820,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 8.484375
+      }
+    },
+    {
+      "id": "H_025",
+      "source_sha256": "a69226573fec924904aecab464d7b9048834c7766a4300870069d18b59a11056",
+      "ROI_request": {
+        "x0": 320,
+        "y0": 145,
+        "stride": 3,
+        "radius": 55,
+        "span": 384,
+        "proxy_diameter": 330,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15302,
+          15434
+        ],
+        "peak_q15": 10512,
+        "margin_q15": 871,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9168,
+            13324
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 2438,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14268,
+            5697
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 8668,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24955,
+            10821
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 5720,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15530,
+            12759
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 8955,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16381,
+            19052
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16428,
+            21993
+          ],
+          "peak_q15": 23955,
+          "margin_q15": 16297,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 218.3719940185547,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 2,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 0.6982574462890625,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3063800773,
+      "psi_word": 2147485343,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 6.62109375
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 6.62109375
+      }
+    },
+    {
+      "id": "H_026",
+      "source_sha256": "243d74134463dc7b926e64ad84b2516e85242533f975c60c470fde11d5250d35",
+      "ROI_request": {
+        "x0": 248,
+        "y0": 81,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 535,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16211,
+          16398
+        ],
+        "peak_q15": 9641,
+        "margin_q15": 2344,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7660,
+            12732
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 441,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13804,
+            3709
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 4093,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            26497,
+            10152
+          ],
+          "peak_q15": 15872,
+          "margin_q15": 5801,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            13193,
+            14331
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 6549,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19749,
+            19940
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 2932,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19838,
+            20501
+          ],
+          "peak_q15": 12371,
+          "margin_q15": 947,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 218.9428253173828,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_027",
+      "source_sha256": "fe896a80ac8188a9fce49e383f5acebfbfaa11821b821ae1c98cc276dac26211",
+      "ROI_request": {
+        "x0": 252,
+        "y0": 137,
+        "stride": 3,
+        "radius": 58,
+        "span": 384,
+        "proxy_diameter": 345,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16204,
+          16515
+        ],
+        "peak_q15": 7658,
+        "margin_q15": 1980,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11619,
+            13260
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 2182,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14273,
+            1101
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 491,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            27271,
+            8363
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 5280,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15364,
+            12682
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 3171,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19500,
+            19447
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 1906,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16449,
+            22437
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 6365,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 219.73507690429688,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_028",
+      "source_sha256": "8a09f79a4d3f7b5112447bed1eb6d52a1d2f3484fcceb3fcf9b9e006c2815e19",
+      "ROI_request": {
+        "x0": 128,
+        "y0": 110,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 383,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16785,
+          18469
+        ],
+        "peak_q15": 9641,
+        "margin_q15": 420,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9743,
+            14303
+          ],
+          "peak_q15": 5678,
+          "margin_q15": 287,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            12252,
+            4652
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            27267,
+            13300
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 2774,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15453,
+            13408
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 6689,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16460,
+            18990
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 3862,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16524,
+            21475
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 4127,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 226.8965301513672,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -18,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_029",
+      "source_sha256": "aeca946b944ff65f39dd6466c99a12b8f7d45e0bc9ed7e3fdace98541bb2583d",
+      "ROI_request": {
+        "x0": 140,
+        "y0": 172,
+        "stride": 4,
+        "radius": 59,
+        "span": 512,
+        "proxy_diameter": 475,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          19873,
+          14893
+        ],
+        "peak_q15": 11424,
+        "margin_q15": 4475,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7147,
+            13786
+          ],
+          "peak_q15": 5678,
+          "margin_q15": 827,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13811,
+            6228
+          ],
+          "peak_q15": 14852,
+          "margin_q15": 1008,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            27789,
+            9708
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 963,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19666,
+            12178
+          ],
+          "peak_q15": 6289,
+          "margin_q15": 611,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19783,
+            17942
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 2608,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            18493,
+            23063
+          ],
+          "peak_q15": 5978,
+          "margin_q15": 2072,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 220.9644317626953,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 1
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 3076969379,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_030",
+      "source_sha256": "333b177c659b1104302b2f13dd115be3a346894a0d2f36e6de4e0297b315b5a1",
+      "ROI_request": {
+        "x0": 284,
+        "y0": 104,
+        "stride": 4,
+        "radius": 50,
+        "span": 512,
+        "proxy_diameter": 396,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15109,
+          15441
+        ],
+        "peak_q15": 13347,
+        "margin_q15": 4126,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10127,
+            13368
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 1924,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14402,
+            6289
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 5559,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            20594,
+            11706
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 976,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15448,
+            12798
+          ],
+          "peak_q15": 22255,
+          "margin_q15": 15966,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            18484,
+            18377
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 7058,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16052,
+            20944
+          ],
+          "peak_q15": 17406,
+          "margin_q15": 9748,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 223.76661682128906,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 2,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 1.7176666259765625,
+        "reason": 0,
+        "inlier_mask": 42
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3088942021,
+      "psi_word": 2147485445,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 7.01953125
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 7.01953125
+      }
+    },
+    {
+      "id": "H_031",
+      "source_sha256": "710f8989ac4d4d6168465bbf0de90dfc330e8893c55543d376a6556a5e6e5293",
+      "ROI_request": {
+        "x0": 252,
+        "y0": 125,
+        "stride": 3,
+        "radius": 60,
+        "span": 384,
+        "proxy_diameter": 358,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15831,
+          16343
+        ],
+        "peak_q15": 17915,
+        "margin_q15": 7844,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10726,
+            14309
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 912,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14837,
+            4639
+          ],
+          "peak_q15": 22255,
+          "margin_q15": 3332,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            26102,
+            10748
+          ],
+          "peak_q15": 18923,
+          "margin_q15": 8411,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15928,
+            12405
+          ],
+          "peak_q15": 20396,
+          "margin_q15": 15005,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19796,
+            19433
+          ],
+          "peak_q15": 12371,
+          "margin_q15": 478,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16492,
+            22497
+          ],
+          "peak_q15": 23126,
+          "margin_q15": 15095,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 203.2129364013672,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 3,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 2.9901885986328125,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3000953853,
+      "psi_word": 2147485037,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 5.42578125
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 5.42578125
+      }
+    },
+    {
+      "id": "H_032",
+      "source_sha256": "74b63d121f2bf5ba2a2cc62e981868432291df6a2b100a38f54b3e2cbd383a25",
+      "ROI_request": {
+        "x0": 228,
+        "y0": 100,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 549,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15896,
+          16467
+        ],
+        "peak_q15": 16895,
+        "margin_q15": 6383,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7625,
+            13217
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 469,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14759,
+            3137
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 2446,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            27153,
+            10277
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 3468,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14321,
+            13290
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 385,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16888,
+            16889
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 373,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19911,
+            20585
+          ],
+          "peak_q15": 13844,
+          "margin_q15": 2420,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 203.22865295410156,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -18,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 3000964101,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_033",
+      "source_sha256": "abf04deca762fc1ffd27f94b496a144014e7628ee6d8d883ac055c74ab98cc87",
+      "ROI_request": {
+        "x0": 300,
+        "y0": 123,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 334,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          17760,
+          12492
+        ],
+        "peak_q15": 8416,
+        "margin_q15": 0,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11310,
+            14359
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 2267,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16984,
+            4264
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 758,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            25583,
+            11749
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 1082,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15911,
+            12741
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 3963,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16353,
+            19442
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 1762,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16363,
+            22071
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 5735,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 103.70745849609375,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 1
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_034",
+      "source_sha256": "65ff441c1ea52b6c765603b8978182edd2d8034fb1affb61e55bbae1c04797a1",
+      "ROI_request": {
+        "x0": 288,
+        "y0": 124,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 338,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15476,
+          16373
+        ],
+        "peak_q15": 10512,
+        "margin_q15": 6155,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11298,
+            14452
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 430,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14897,
+            5168
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 3352,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            25527,
+            11293
+          ],
+          "peak_q15": 19911,
+          "margin_q15": 12253,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15880,
+            12730
+          ],
+          "peak_q15": 21343,
+          "margin_q15": 12927,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19733,
+            17819
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 781,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16370,
+            22119
+          ],
+          "peak_q15": 19911,
+          "margin_q15": 8487,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 205.78517150878906,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 4,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 3.6797943115234375,
+        "reason": 0,
+        "inlier_mask": 44
+      },
+      "selected_reference_kind": 1,
+      "return_code": 3013491711,
+      "psi_word": 2147485067,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 5.54296875
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 5.54296875
+      }
+    },
+    {
+      "id": "H_035",
+      "source_sha256": "7861c0b44cf6f63d512d736fe38f843e37f99e04c60b4ce9cb13a7ce7b0e73a6",
+      "ROI_request": {
+        "x0": 332,
+        "y0": 145,
+        "stride": 3,
+        "radius": 56,
+        "span": 384,
+        "proxy_diameter": 335,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16061,
+          15860
+        ],
+        "peak_q15": 13844,
+        "margin_q15": 6186,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11578,
+            14192
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 1655,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15286,
+            5358
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 1381,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            21535,
+            11778
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 1893,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15977,
+            12513
+          ],
+          "peak_q15": 13347,
+          "margin_q15": 6050,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16356,
+            19450
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 2854,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16294,
+            22178
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 3122,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 202.9759979248047,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 4,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 4.5766448974609375,
+        "reason": 0,
+        "inlier_mask": 58
+      },
+      "selected_reference_kind": 2,
+      "return_code": 3000984543,
+      "psi_word": 2147485003,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 5.29296875
+      }
+    },
+    {
+      "id": "H_036",
+      "source_sha256": "74fcd835c96f1da52480d22e0074d95ec71bf27a6809a4c2f5611bc8543cd101",
+      "ROI_request": {
+        "x0": 224,
+        "y0": 139,
+        "stride": 3,
+        "radius": 57,
+        "span": 384,
+        "proxy_diameter": 340,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          14870,
+          16324
+        ],
+        "peak_q15": 22255,
+        "margin_q15": 12184,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11268,
+            14695
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 430,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13934,
+            5237
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 10246,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            25171,
+            8834
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 2785,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15198,
+            12622
+          ],
+          "peak_q15": 18421,
+          "margin_q15": 12443,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            18993,
+            17868
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15920,
+            21986
+          ],
+          "peak_q15": 25818,
+          "margin_q15": 13925,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 206.61631774902344,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 5,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 1.3845367431640625,
+        "reason": 0,
+        "inlier_mask": 42
+      },
+      "selected_reference_kind": 2,
+      "return_code": 3017608188,
+      "psi_word": 2147485132,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 5.796875
+      }
+    },
+    {
+      "id": "H_037",
+      "source_sha256": "cb7f5d7be6e38fe09b5466d2c8f8fb7da32134968fe6ec556fa2c4874cc4f7e5",
+      "ROI_request": {
+        "x0": 252,
+        "y0": 68,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 391,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16378,
+          16236
+        ],
+        "peak_q15": 17406,
+        "margin_q15": 12291,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10768,
+            15876
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 2547,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14874,
+            6778
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 8368,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24281,
+            11826
+          ],
+          "peak_q15": 18421,
+          "margin_q15": 7458,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15893,
+            13292
+          ],
+          "peak_q15": 28410,
+          "margin_q15": 22432,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16355,
+            19040
+          ],
+          "peak_q15": 14852,
+          "margin_q15": 6436,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16372,
+            21467
+          ],
+          "peak_q15": 24736,
+          "margin_q15": 19621,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 184.73228454589844,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 2,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 2.4637298583984375,
+        "reason": 0,
+        "inlier_mask": 62
+      },
+      "selected_reference_kind": 1,
+      "return_code": 2925528055,
+      "psi_word": 2147484707,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 4.13671875
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 4.13671875
+      }
+    },
+    {
+      "id": "H_038",
+      "source_sha256": "4de77ac8729694ceb48569e8c49e416c42b08e8ed60b65139c3ec2f5c5ff863f",
+      "ROI_request": {
+        "x0": 232,
+        "y0": 69,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 567,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          14531,
+          15441
+        ],
+        "peak_q15": 12371,
+        "margin_q15": 5758,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7180,
+            15307
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 850,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            18383,
+            4062
+          ],
+          "peak_q15": 5678,
+          "margin_q15": 1552,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            27516,
+            10647
+          ],
+          "peak_q15": 16384,
+          "margin_q15": 5872,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15382,
+            11411
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 2127,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14818,
+            17398
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 1119,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19906,
+            20603
+          ],
+          "peak_q15": 15872,
+          "margin_q15": 10757,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 181.97830200195312,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -7,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 2912707525,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_039",
+      "source_sha256": "0e022cfb892c8ed517f8811d3218a189de1d24a41557d5711ab5130911c5db3f",
+      "ROI_request": {
+        "x0": 256,
+        "y0": 138,
+        "stride": 3,
+        "radius": 57,
+        "span": 384,
+        "proxy_diameter": 342,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16375,
+          16407
+        ],
+        "peak_q15": 7297,
+        "margin_q15": 2446,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9242,
+            15355
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 385,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15241,
+            5215
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 1381,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            25666,
+            11329
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 3830,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15903,
+            12722
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 3818,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19485,
+            19464
+          ],
+          "peak_q15": 6289,
+          "margin_q15": 898,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16323,
+            22399
+          ],
+          "peak_q15": 6289,
+          "margin_q15": 1932,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 189.00462341308594,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 4,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_040",
+      "source_sha256": "0cc6c3028da344ad43334c047550f8b649cf0cb5c9cc610a12d31e55dd439a44",
+      "ROI_request": {
+        "x0": 272,
+        "y0": 151,
+        "stride": 3,
+        "radius": 59,
+        "span": 384,
+        "proxy_diameter": 355,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15792,
+          15556
+        ],
+        "peak_q15": 12371,
+        "margin_q15": 7520,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9218,
+            15274
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 2151,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15296,
+            4718
+          ],
+          "peak_q15": 16384,
+          "margin_q15": 8353,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            26136,
+            11302
+          ],
+          "peak_q15": 18923,
+          "margin_q15": 9282,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15947,
+            12510
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 8258,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19732,
+            19522
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 1610,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16288,
+            22442
+          ],
+          "peak_q15": 16384,
+          "margin_q15": 10406,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 183.88929748535156,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 6,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 5.2480621337890625,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference_kind": 1,
+      "return_code": 2921257932,
+      "psi_word": 2147484615,
+      "integer_ring_only": {
+        "valid": true,
+        "psi": 3.77734375
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 3.77734375
+      }
+    },
+    {
+      "id": "H_041",
+      "source_sha256": "a4364fe591fd7ae6dbb58c94125f81a18b29a00a5a2ab44fc257751c546ae915",
+      "ROI_request": {
+        "x0": 200,
+        "y0": 156,
+        "stride": 3,
+        "radius": 62,
+        "span": 384,
+        "proxy_diameter": 369,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          17371,
+          15471
+        ],
+        "peak_q15": 11424,
+        "margin_q15": 4127,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9723,
+            15382
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 1418,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15975,
+            4525
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 1381,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            26187,
+            10711
+          ],
+          "peak_q15": 12371,
+          "margin_q15": 2730,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16731,
+            12301
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 1924,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16897,
+            16869
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 396,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16888,
+            22557
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 2592,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 181.15768432617188,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 1,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 2908877767,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_042",
+      "source_sha256": "8e97ee5bcf86362dcb46814db466de15595833131edc67d1b71bceedd30cf120",
+      "ROI_request": {
+        "x0": 144,
+        "y0": 185,
+        "stride": 3,
+        "radius": 62,
+        "span": 384,
+        "proxy_diameter": 372,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          14397,
+          16330
+        ],
+        "peak_q15": 16384,
+        "margin_q15": 4013,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            5661,
+            14938
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 1893,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            13863,
+            4500
+          ],
+          "peak_q15": 17406,
+          "margin_q15": 7765,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            21089,
+            11491
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 461,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15116,
+            12382
+          ],
+          "peak_q15": 21804,
+          "margin_q15": 16413,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19029,
+            19905
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 2151,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15945,
+            22945
+          ],
+          "peak_q15": 24351,
+          "margin_q15": 18373,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 189.99380493164062,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -1,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 1.6699676513671875,
+        "reason": 0,
+        "inlier_mask": 42
+      },
+      "selected_reference_kind": 2,
+      "return_code": 2946245629,
+      "psi_word": 2147484813,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": true,
+        "psi": 4.55078125
+      }
+    },
+    {
+      "id": "H_043",
+      "source_sha256": "3b135418e1b065b7129adc0b33a4560acddfc4a728d67b1d5675b167d14f3e6d",
+      "ROI_request": {
+        "x0": 284,
+        "y0": 215,
+        "stride": 3,
+        "radius": 60,
+        "span": 384,
+        "proxy_diameter": 362,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16789,
+          15449
+        ],
+        "peak_q15": 14852,
+        "margin_q15": 8239,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            8757,
+            13319
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 2608,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13857,
+            4620
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 2344,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            25565,
+            10177
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 2505,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15433,
+            12483
+          ],
+          "peak_q15": 19420,
+          "margin_q15": 11004,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16355,
+            19506
+          ],
+          "peak_q15": 12371,
+          "margin_q15": 4340,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16719,
+            22499
+          ],
+          "peak_q15": 21343,
+          "margin_q15": 16745,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 159.1981658935547,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -24,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": -0.7008514404296875,
+        "reason": 0,
+        "inlier_mask": 62
+      },
+      "selected_reference_kind": 2,
+      "return_code": 2816527302,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_044",
+      "source_sha256": "bbde52977fb32c9b19c47b4e9d77908da5cf56537d25a97dcdddf3bcecc4830a",
+      "ROI_request": {
+        "x0": 224,
+        "y0": 104,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 593,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16233,
+          15365
+        ],
+        "peak_q15": 11424,
+        "margin_q15": 3008,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7143,
+            12267
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 3458,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14920,
+            9417
+          ],
+          "peak_q15": 14852,
+          "margin_q15": 4781,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            23039,
+            12918
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 963,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15269,
+            10856
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 1893,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15996,
+            16780
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 1259,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19921,
+            20577
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 469,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 164.2933807373047,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -23,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 2837429184,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_045",
+      "source_sha256": "dc1658051f2d45d1f612a210b6c06269ebf419a5661f253f58a372895fb9fb44",
+      "ROI_request": {
+        "x0": 232,
+        "y0": 120,
+        "stride": 4,
+        "radius": 51,
+        "span": 512,
+        "proxy_diameter": 404,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          18502,
+          15947
+        ],
+        "peak_q15": 9221,
+        "margin_q15": 0,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            9700,
+            13425
+          ],
+          "peak_q15": 5978,
+          "margin_q15": 300,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19411,
+            4162
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 3215,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24061,
+            11335
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 4811,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15752,
+            13236
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 2692,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16358,
+            18963
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 3301,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16401,
+            21490
+          ],
+          "peak_q15": 15872,
+          "margin_q15": 9259,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 168.6615447998047,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -6,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_046",
+      "source_sha256": "c6fae84ab79dcb8a54f775bccbbcc10aa82faaea50468ca2c572dc417e3d4145",
+      "ROI_request": {
+        "x0": 348,
+        "y0": 121,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 375,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16377,
+          15884
+        ],
+        "peak_q15": 18421,
+        "margin_q15": 11808,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10234,
+            13387
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 4393,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15004,
+            7132
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 6549,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            23983,
+            11863
+          ],
+          "peak_q15": 17406,
+          "margin_q15": 7335,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15917,
+            13364
+          ],
+          "peak_q15": 21343,
+          "margin_q15": 15952,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            18971,
+            18417
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 805,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16351,
+            21014
+          ],
+          "peak_q15": 22696,
+          "margin_q15": 15399,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 165.95884704589844,
+      "neural_valid": true,
+      "ring": {
+        "accepted": true,
+        "roll_deg": 3,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 2.7587432861328125,
+        "reason": 0,
+        "inlier_mask": 46
+      },
+      "selected_reference_kind": 1,
+      "return_code": 2845836257,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_047",
+      "source_sha256": "5a25f2aa9c9ca95aa52ab2214370899754db4f76288d4105ad562269e2979d79",
+      "ROI_request": {
+        "x0": 216,
+        "y0": 104,
+        "stride": 4,
+        "radius": 49,
+        "span": 512,
+        "proxy_diameter": 394,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16350,
+          17478
+        ],
+        "peak_q15": 11893,
+        "margin_q15": 4596,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            11265,
+            13822
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 2053,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15303,
+            6721
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 8064,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            23601,
+            11210
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 4825,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16356,
+            13277
+          ],
+          "peak_q15": 16384,
+          "margin_q15": 11269,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            16891,
+            19020
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 4526,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16965,
+            21460
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 4956,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 31.803436279296875,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -7,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 1.7086944580078125,
+        "reason": 0,
+        "inlier_mask": 42
+      },
+      "selected_reference_kind": 2,
+      "return_code": 1142944836,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_048",
+      "source_sha256": "9d33ab2b681e696edaa522a2d0162194ffd06bc5adc4984a26b9d450c1ad23c3",
+      "ROI_request": {
+        "x0": 220,
+        "y0": 103,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 387,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          14988,
+          16302
+        ],
+        "peak_q15": 18421,
+        "margin_q15": 11124,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10185,
+            13531
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 2413,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14395,
+            7007
+          ],
+          "peak_q15": 18923,
+          "margin_q15": 10111,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            23126,
+            11718
+          ],
+          "peak_q15": 14852,
+          "margin_q15": 506,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15288,
+            13382
+          ],
+          "peak_q15": 27652,
+          "margin_q15": 17581,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15802,
+            19044
+          ],
+          "peak_q15": 10963,
+          "margin_q15": 1322,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            15822,
+            21467
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 6140,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 166.005615234375,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 5,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": true,
+        "roll_deg": 2.3786468505859375,
+        "reason": 0,
+        "inlier_mask": 58
+      },
+      "selected_reference_kind": 2,
+      "return_code": 2845658107,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_049",
+      "source_sha256": "19e8d388dedaa933ab07d18e4e8a5980bd2e05a72b188d4fffe6030376722412",
+      "ROI_request": {
+        "x0": 204,
+        "y0": 100,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16373,
+          18369
+        ],
+        "peak_q15": 10071,
+        "margin_q15": 3458,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7651,
+            12859
+          ],
+          "peak_q15": 4357,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13820,
+            5072
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 999,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            27090,
+            17873
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 2053,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16285,
+            12314
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 3025,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16898,
+            18446
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 1834,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16919,
+            20542
+          ],
+          "peak_q15": 4598,
+          "margin_q15": 1293,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 111.83573913574219,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 7,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1142946940,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_050",
+      "source_sha256": "1eb9c4008522e7f8aca6e9213e008eb0a1811f2f8a243e97cc0ef9fc7e8b040a",
+      "ROI_request": {
+        "x0": 204,
+        "y0": 100,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          19727,
+          14936
+        ],
+        "peak_q15": 10963,
+        "margin_q15": 1322,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            6681,
+            15421
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 2053,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13810,
+            5072
+          ],
+          "peak_q15": 14346,
+          "margin_q15": 8057,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24709,
+            18472
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 2015,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13325,
+            14405
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 1762,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19749,
+            19873
+          ],
+          "peak_q15": 6289,
+          "margin_q15": 611,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19429,
+            23935
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 7067,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 27.029067993164062,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 1
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1143376806,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_051",
+      "source_sha256": "e8ac82dc13c4b3a009ed3e450fa177ae11969f525826fb4019e28a440101758f",
+      "ROI_request": {
+        "x0": 204,
+        "y0": 100,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          17985,
+          16915
+        ],
+        "peak_q15": 15361,
+        "margin_q15": 509,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            6636,
+            13306
+          ],
+          "peak_q15": 5978,
+          "margin_q15": 1380,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            13796,
+            5077
+          ],
+          "peak_q15": 15361,
+          "margin_q15": 8412,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            27094,
+            17866
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 1418,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16925,
+            13400
+          ],
+          "peak_q15": 8812,
+          "margin_q15": 2199,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            18982,
+            19443
+          ],
+          "peak_q15": 11893,
+          "margin_q15": 6502,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            17967,
+            23593
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 3180,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 78.38410949707031,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -18,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_052",
+      "source_sha256": "fbb5255d2982c5e28d00c8dab2e67b453572eca01b73dff1871c8574b4006891",
+      "ROI_request": {
+        "x0": 260,
+        "y0": 118,
+        "stride": 4,
+        "radius": 62,
+        "span": 512,
+        "proxy_diameter": 826,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": true,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          14024,
+          18291
+        ],
+        "peak_q15": 8416,
+        "margin_q15": 385,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            7554,
+            16832
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 324,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17416,
+            7633
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 5198,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24439,
+            11840
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 734,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14371,
+            12484
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 2040,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            12778,
+            17444
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 2413,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            14400,
+            20576
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 3180,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 150.753173828125,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -11,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_053",
+      "source_sha256": "16bfdd6fc79593834f296f3dfacac97f4282c4c6f29fa95015f02b980a3054d8",
+      "ROI_request": {
+        "x0": 468,
+        "y0": 215,
+        "stride": 2,
+        "radius": 46,
+        "span": 256,
+        "proxy_diameter": 184,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          16352,
+          15915
+        ],
+        "peak_q15": 14346,
+        "margin_q15": 9231,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10209,
+            13922
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 2543,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            18548,
+            4281
+          ],
+          "peak_q15": 10512,
+          "margin_q15": 3899,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            23065,
+            10755
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 2608,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15459,
+            13173
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 3830,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16476,
+            18423
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 1082,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16869,
+            20594
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 971,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 158.9633331298828,
+      "neural_valid": false,
+      "ring": {
+        "accepted": true,
+        "roll_deg": -4,
+        "reason": 0
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 1,
+      "return_code": 1142944739,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_054",
+      "source_sha256": "30c9050d90ae64a4fe8c47dcc470dd4f72a7f85a36acd0e25aeec7af216b44f5",
+      "ROI_request": {
+        "x0": 116,
+        "y0": 170,
+        "stride": 4,
+        "radius": 47,
+        "span": 512,
+        "proxy_diameter": 373,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          15532,
+          16365
+        ],
+        "peak_q15": 11893,
+        "margin_q15": 7042,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            6129,
+            13226
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 1783,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            19818,
+            4623
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 3644,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            26994,
+            12837
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 684,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19681,
+            15375
+          ],
+          "peak_q15": 5115,
+          "margin_q15": 989,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17389,
+            16872
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 2608,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14309,
+            26585
+          ],
+          "peak_q15": 3305,
+          "margin_q15": 181,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 169.29592895507812,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 24,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1142840319,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_055",
+      "source_sha256": "846378d64dc567adf6085dd9641b13e40a62bcc3e93dfe0f2556c7ea96cd41b1",
+      "ROI_request": {
+        "x0": 112,
+        "y0": 208,
+        "stride": 4,
+        "radius": 48,
+        "span": 512,
+        "proxy_diameter": 383,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          21967,
+          5022
+        ],
+        "peak_q15": 2346,
+        "margin_q15": 792,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            5122,
+            15344
+          ],
+          "peak_q15": 12856,
+          "margin_q15": 1432,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            12428,
+            4700
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 7298,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            26697,
+            15789
+          ],
+          "peak_q15": 13844,
+          "margin_q15": 3773,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            17475,
+            15720
+          ],
+          "peak_q15": 8031,
+          "margin_q15": 3674,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            18391,
+            16543
+          ],
+          "peak_q15": 5391,
+          "margin_q15": 1695,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16883,
+            27142
+          ],
+          "peak_q15": 4598,
+          "margin_q15": 472,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 56.217041015625,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 1
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 2,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_056",
+      "source_sha256": "f7b4a0d2fd8deaa8eb4b72946f41afe6df998643426a531a4e5c9b125559921f",
+      "ROI_request": {
+        "x0": 160,
+        "y0": 139,
+        "stride": 4,
+        "radius": 53,
+        "span": 512,
+        "proxy_diameter": 422,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          19768,
+          15480
+        ],
+        "peak_q15": 10512,
+        "margin_q15": 3215,
+        "evidence_sufficient": true
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            5590,
+            13368
+          ],
+          "peak_q15": 5978,
+          "margin_q15": 1127,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15060,
+            7580
+          ],
+          "peak_q15": 19420,
+          "margin_q15": 7049,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24640,
+            11837
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 2692,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19763,
+            15372
+          ],
+          "peak_q15": 6289,
+          "margin_q15": 1691,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            17909,
+            16944
+          ],
+          "peak_q15": 6289,
+          "margin_q15": 1438,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15939,
+            21983
+          ],
+          "peak_q15": 4851,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 168.7809295654297,
+      "neural_valid": true,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 0,
+        "reason": 1
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 2858853320,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_057",
+      "source_sha256": "8fa447b5dcd37b05cf67e523993f0cbc83c66d0191b8679532011e6aebad6dd2",
+      "ROI_request": {
+        "x0": 184,
+        "y0": 141,
+        "stride": 4,
+        "radius": 52,
+        "span": 512,
+        "proxy_diameter": 418,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          19398,
+          15955
+        ],
+        "peak_q15": 8416,
+        "margin_q15": 2438,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            6158,
+            13346
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 1319,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15086,
+            6875
+          ],
+          "peak_q15": 23126,
+          "margin_q15": 6742,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            25033,
+            11857
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 1190,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14280,
+            12282
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 971,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14366,
+            16501
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 0,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19825,
+            21515
+          ],
+          "peak_q15": 5678,
+          "margin_q15": 1080,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 171.53973388671875,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": -18,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_058",
+      "source_sha256": "4ef964a3334632379665261563ecc92302650a398e72a16b639e98930ad16d12",
+      "ROI_request": {
+        "x0": 184,
+        "y0": 163,
+        "stride": 4,
+        "radius": 53,
+        "span": 512,
+        "proxy_diameter": 424,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          18040,
+          15972
+        ],
+        "peak_q15": 6949,
+        "margin_q15": 971,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            5160,
+            13425
+          ],
+          "peak_q15": 6613,
+          "margin_q15": 1498,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            12238,
+            5031
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 1259,
+          "evidence_sufficient": true
+        },
+        {
+          "roi_xy_q8": [
+            24588,
+            11365
+          ],
+          "peak_q15": 11424,
+          "margin_q15": 461,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15795,
+            12781
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 3243,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            16357,
+            19398
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 1319,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            19792,
+            21490
+          ],
+          "peak_q15": 10071,
+          "margin_q15": 850,
+          "evidence_sufficient": true
+        }
+      ],
+      "angle_deg_image": 266.1495666503906,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 17,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    },
+    {
+      "id": "H_059",
+      "source_sha256": "b3bec91c0336601f80115736521598a636743464fe9ee4c0421f42daee821e77",
+      "ROI_request": {
+        "x0": 184,
+        "y0": 166,
+        "stride": 4,
+        "radius": 53,
+        "span": 512,
+        "proxy_diameter": 426,
+        "hardware_policy_available": true,
+        "hardware_policy_analysis_only": false,
+        "policy": "EXACT_WINDOW_POLICY_WITH_ANNOTATED_BBOX_PROXY"
+      },
+      "hub": {
+        "roi_xy_q8": [
+          18047,
+          15977
+        ],
+        "peak_q15": 6289,
+        "margin_q15": 1174,
+        "evidence_sufficient": false
+      },
+      "landmarks": [
+        {
+          "roi_xy_q8": [
+            10880,
+            13783
+          ],
+          "peak_q15": 7658,
+          "margin_q15": 709,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            14794,
+            6625
+          ],
+          "peak_q15": 9221,
+          "margin_q15": 805,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            24617,
+            11792
+          ],
+          "peak_q15": 9641,
+          "margin_q15": 1225,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15432,
+            12856
+          ],
+          "peak_q15": 8416,
+          "margin_q15": 2438,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            18937,
+            18979
+          ],
+          "peak_q15": 6949,
+          "margin_q15": 660,
+          "evidence_sufficient": false
+        },
+        {
+          "roi_xy_q8": [
+            15900,
+            21957
+          ],
+          "peak_q15": 7297,
+          "margin_q15": 348,
+          "evidence_sufficient": false
+        }
+      ],
+      "angle_deg_image": 194.39883422851562,
+      "neural_valid": false,
+      "ring": {
+        "accepted": false,
+        "roll_deg": 1,
+        "reason": 3
+      },
+      "landmark_pose": {
+        "accepted": false,
+        "roll_deg": 0.0,
+        "reason": 1,
+        "inlier_mask": 0
+      },
+      "selected_reference_kind": 0,
+      "return_code": 1,
+      "psi_word": 0,
+      "integer_ring_only": {
+        "valid": false,
+        "psi": null
+      },
+      "trained_sixpoint_fusion": {
+        "valid": false,
+        "psi": null
+      }
+    }
+  ],
+  "data_boundary": {
+    "H_read_only_after_FINAL_FROZEN": true,
+    "H_used_for_training_selection_threshold_calibration": false,
+    "H_prior_annotation_QA_exposure": true,
+    "blind_human_gold_test": false,
+    "canonical_document_parsed_only_to_select_H": true,
+    "ABC_images_opened": false,
+    "ABC_rows_selected_for_execution": false,
+    "pressure_input_to_model": false,
+    "native_keypoints_used": false,
+    "H_print_point_labels_required": false,
+    "ROI_bbox": "manualcanonicalfaceboxproxy,notactualFPGAautolocalizer",
+    "negative_proxy": "sameHsessionmedianfaceboxeswithdiameter160..499",
+    "actual_CSI_ROI_equivalence_proven": false,
+    "industrial_FAR_proven": false,
+    "metric_bands_are_descriptive_not_user_tolerances": true
+  },
+  "hardware_actions": false
+}

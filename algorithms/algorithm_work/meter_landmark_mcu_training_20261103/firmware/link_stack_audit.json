@@ -1,0 +1,99 @@
+{
+  "status": "OFFLINE_FULL_ELF_MEMORY_LOAD_AND_BOUNDED_STACK_PASS",
+  "ELF_sha256": "dd8ac48e29833818b22e798b134ee6b9e3d668147f2c49b5dff5be5f037319c8",
+  "raw_sha256": "b0cc5babfe4ff4f817974bac2a96acf4eafd1c58cbb0c21f5c5c4e0509ab1de3",
+  "raw_bytes": 47328,
+  "flash_sector_bytes": 65536,
+  "TCM_bytes": 49152,
+  "stack_bytes": 2048,
+  "static_end": 134263736,
+  "heap_alignment_end": 134263744,
+  "stack_limit": 134264832,
+  "gap_after_alignment": 1088,
+  "stack": {
+    "compiled_frames": {
+      "main": 64,
+      "mroi_process_one_with_consumer": 192,
+      "finish": 368,
+      "mlg_consensus_q8": 592,
+      "solve": 112,
+      "project": 32,
+      "mlg_atan2_deg_q16": 48
+    },
+    "sum_conservatively_nested": 1408,
+    "exception_entry_plus_handler": 112,
+    "extra_helper_allowance": 64,
+    "bound": 1584,
+    "remaining": 464,
+    "static_only_not_MCUwatermark": true
+  },
+  "section_and_runtime_symbols": {
+    "mroi_c4_compute": 134222134,
+    "mp_push": 134222850,
+    "hub_w0": 134229180,
+    "landmark_w0": 134227592,
+    "polar_w0": 134225092,
+    "reader_sigmoid_q15": 134229280,
+    "reader_ring": 551553818,
+    "ring_indices_0": 551568180,
+    "ring_values_0": 551566544,
+    "reader_cos_q30": 551572920
+  },
+  "stack_usage_sources": [
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\landmark_geometry.su",
+      "sha256": "7a1d2cc4bd8e1cc95b9c60e98ac603f5028f4f86b48433bc8f376c073c934e4b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\meter_pose_frontend.su",
+      "sha256": "92f079cd9afc8945e9c0494bb292efb2d88a7f6ae065396289b1567a576d36ff"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\meter_pose_matcher.su",
+      "sha256": "1d09b4971cd7238c4bea1ae2314509b6985592b2f63323390545c13dba66787c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\minimal_app.su",
+      "sha256": "f21189fe8214cde54b028e261d684f3dcfa96567a81a3b208d7f7b49a4782cdc"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\minimal_libc.su",
+      "sha256": "6b9e92196e566ca61bf31546a1484d6aa91bc12f6e7630e77383a3166e5e6077"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\mroi_c4.su",
+      "sha256": "d477658b79cf9fd3503107a90f3ef3c20058ea78aff4299a06f4928223ef9355"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\mroi_client.su",
+      "sha256": "4382677b1523e9c645bf79db16a297b7f3e24a0d916152e85c54969347f32f18"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\mroi_decode.su",
+      "sha256": "8bd040718affe34236959c632354696bb0807afdec886763b5088c4a7d46e04b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\platform_binding.su",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\reader_numeric.su",
+      "sha256": "15c40c6579a7914ae1755180eccd5b871488e28fe091561813ad780ce93315b7"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\reader_runtime.su",
+      "sha256": "40058ebcb9629f6bca73823ddf261a85085106385c89f03fd70257c025d4e84c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\reader_sigmoid.su",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\firmware\\build\\soc_plat.su",
+      "sha256": "59f3e3b48d18d7df75a5de56a7a63aef0830f6e88225c03d6a41de7193ca9fe6"
+    }
+  ],
+  "source_domain": "GproxyROI/manualbbox HDMIgray; not actualCSIautoROI or board inference",
+  "hardware_actions": false,
+  "Flash_read_timing_measured": false
+}

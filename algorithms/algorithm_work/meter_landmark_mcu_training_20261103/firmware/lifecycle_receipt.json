@@ -1,0 +1,9 @@
+{
+  "status": "HOST_LIFECYCLE_AND_PSI_ABI_PASS",
+  "stdout": "PASS 13 lifecycle/PSIABI checks; no model or device",
+  "fixture_sha256": "264da4da22ac17f12b21f70941045a2e1b3d0c6612e29c58bdfa11151e03e32d",
+  "client_sha256": "d2942be2563e04c77024d0a5cdfbd2738dcd7ca0f32a3687e4bf645595fca5b7",
+  "coldstart_sha256": "f21f0a90ff3dcb4d3ecff7f7b878d9b10d62129e07035940c67565d1551cb58e",
+  "scope": "Transportfixtureonly,notmodelorboard",
+  "hardware_actions": false
+}

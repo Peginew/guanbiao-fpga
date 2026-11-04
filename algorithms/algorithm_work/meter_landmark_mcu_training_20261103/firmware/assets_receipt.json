@@ -1,0 +1,9 @@
+{
+  "source_templates": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\fixtures\\templates.npz",
+  "source_sha256": "39a8d055a5d125cd4fdef7b6fcfe8f8ad0ed0974ca985ea44a5ea6052d8a4cdd",
+  "generated": {
+    "reader_tables.h": "ec9b07316fbcc95a5c128a163b494ba2d0dc82c00033539092c2631020a05b5d",
+    "reader_ring_templates.h": "5beb70412cfc203a6ab058877a6ce0561110e9dd1c81a146007846f44b2f98c2"
+  },
+  "scope": "Readonly tables only, no firmware execution or MCU cycle claim"
+}

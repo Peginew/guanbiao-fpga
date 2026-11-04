@@ -1,0 +1,126 @@
+{
+  "hub_integer": [
+    {
+      "name": "first",
+      "shift": 10,
+      "conservative_S32_abs_bound": 139445
+    },
+    {
+      "name": "local.0",
+      "shift": 8,
+      "conservative_S32_abs_bound": 136234
+    },
+    {
+      "name": "local.2",
+      "shift": 6,
+      "conservative_S32_abs_bound": 21971
+    },
+    {
+      "name": "downs.0.0",
+      "shift": 5,
+      "conservative_S32_abs_bound": 122550
+    },
+    {
+      "name": "downs.0.2",
+      "shift": 5,
+      "conservative_S32_abs_bound": 24357
+    },
+    {
+      "name": "downs.1.0",
+      "shift": 9,
+      "conservative_S32_abs_bound": 111490
+    },
+    {
+      "name": "downs.1.2",
+      "shift": 6,
+      "conservative_S32_abs_bound": 41138
+    },
+    {
+      "name": "downs.2.0",
+      "shift": 8,
+      "conservative_S32_abs_bound": 121921
+    },
+    {
+      "name": "downs.2.2",
+      "shift": 6,
+      "conservative_S32_abs_bound": 45558
+    },
+    {
+      "name": "context.0",
+      "shift": 6,
+      "conservative_S32_abs_bound": 61646
+    },
+    {
+      "name": "fuse",
+      "shift": 6,
+      "conservative_S32_abs_bound": 50929
+    },
+    {
+      "name": "head",
+      "shift": 5,
+      "conservative_S32_abs_bound": 29494
+    }
+  ],
+  "landmark_integer": [
+    {
+      "name": "first",
+      "shift": 10,
+      "conservative_S32_abs_bound": 167442
+    },
+    {
+      "name": "local.0",
+      "shift": 6,
+      "conservative_S32_abs_bound": 70341
+    },
+    {
+      "name": "local.2",
+      "shift": 6,
+      "conservative_S32_abs_bound": 21518
+    },
+    {
+      "name": "downs.0.0",
+      "shift": 7,
+      "conservative_S32_abs_bound": 91389
+    },
+    {
+      "name": "downs.0.2",
+      "shift": 7,
+      "conservative_S32_abs_bound": 40247
+    },
+    {
+      "name": "downs.1.0",
+      "shift": 8,
+      "conservative_S32_abs_bound": 109503
+    },
+    {
+      "name": "downs.1.2",
+      "shift": 6,
+      "conservative_S32_abs_bound": 34493
+    },
+    {
+      "name": "downs.2.0",
+      "shift": 7,
+      "conservative_S32_abs_bound": 127775
+    },
+    {
+      "name": "downs.2.2",
+      "shift": 7,
+      "conservative_S32_abs_bound": 41151
+    },
+    {
+      "name": "context.0",
+      "shift": 8,
+      "conservative_S32_abs_bound": 131086
+    },
+    {
+      "name": "fuse",
+      "shift": 6,
+      "conservative_S32_abs_bound": 61470
+    },
+    {
+      "name": "head",
+      "shift": 4,
+      "conservative_S32_abs_bound": 25052
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PREPARED_NOT_FROZEN_NO_RUN",
+  "permission_to_run_H_once": false,
+  "selected_variant": "SUPERVISOR_MUST_SELECT_U7_OR_U8_BEFORE_H",
+  "harness_sha256": "SUPERVISOR_FREEZES_AFTER_CODE_REVIEW",
+  "H_expected_count": 59,
+  "H_prior_annotation_QA_exposure_acknowledged": true,
+  "canonical": {"path": "C:/Users/Edward/Documents/ChatGPT/嵌赛FPGA/algorithm_work/meter_dataset_annotation_20261102/annotations.json", "sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e"},
+  "roi_adapter": {"path": "C:/Users/Edward/Documents/ChatGPT/嵌赛FPGA/algorithm_work/meter_cnn_training_20261102/roi_adapter.py", "sha256": "TO_BE_BOUND"},
+  "ELF": {"path": "SELECTED_FROZEN_ELF", "sha256": "TO_BE_BOUND"},
+  "DLL": {"path": "SELECTED_MATCHING_FROZEN_HOST_DLL", "sha256": "TO_BE_BOUND"},
+  "build_receipt": {"path": "SELECTED_ACTUAL_BUILD_RECEIPT", "sha256": "TO_BE_BOUND"},
+  "compiled_source_directory": "SELECTED_FROZEN_SOURCE_DIRECTORY",
+  "frozen_model_and_calibration_artifacts": [],
+  "fixed_metrics": {"bands_psi": [0.25, 0.5, 1.0], "pressure_used_only_for_scoring": true, "all_H_rows_retained": true, "bands_are_not_user_tolerance_spec": true},
+  "output_directory": "C:/Users/Edward/Documents/ChatGPT/嵌赛FPGA/algorithm_work/meter_landmark_mcu_training_20261103/firmware_final_test/FINAL_H_ONCE"
+}
