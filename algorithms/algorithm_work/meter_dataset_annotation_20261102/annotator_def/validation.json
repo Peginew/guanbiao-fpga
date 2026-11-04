@@ -1,0 +1,20 @@
+{
+  "status": "PASS_ANNOTATION_STRUCTURE_AND_SOURCE_IDENTITY",
+  "records": 177,
+  "groups": {
+    "D": 59,
+    "E": 59,
+    "F": 59
+  },
+  "source_sha_matches": 177,
+  "negative_or_unknown_points_never_have_xy": true,
+  "all_visible_points_in_raster": true,
+  "all_bboxes_valid_visible_extent": true,
+  "all_session_splits_unassigned": true,
+  "neural_training_performed": false,
+  "original_images_written": false,
+  "annotation_sha256": "1a17020f4e5d5364f4582e7762e1c86dd1e74593424930f3857832cb49839a45",
+  "limits": "This validates structure/source identity, not independent subpixel ground truth or model accuracy.",
+  "user_explicit_challenge_pressure_psi": 2.5,
+  "known_pressure_count": 168
+}

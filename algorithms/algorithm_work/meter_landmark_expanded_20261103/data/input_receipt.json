@@ -1,0 +1,30 @@
+{
+  "status": "AB118_ROI_PREPARED_DEF177_PIXELS_EXACTLY_PRESERVED",
+  "AB_images": 118,
+  "combined_train_images": 295,
+  "source_read": "reserve JSONL exactly first118 A/B rows, stop atB059 beforeC",
+  "C_H_images_or_points_read": false,
+  "old_DEF_pixel_bytes_unchanged": true,
+  "old_DEF_cache_source_sha256": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708",
+  "frozen_ROI_adapter_sha256": "2f3bc1b8c640742f09a8ab2a7bed30707cd6064197c0da7430556e3338d45cc4",
+  "median_negative_boxes": {
+    "A": [
+      482,
+      170,
+      776,
+      466
+    ],
+    "B": [
+      484,
+      144,
+      788,
+      432
+    ]
+  },
+  "outputs_sha256": {
+    "prepared_ab.jsonl": "931c6fa9a8b7ca76076ce0bbb2f1403a9df927793bcedea10a51b04e6fc93f6c",
+    "roi_cache_ab.npz": "842f2a65bfed45ef3c48a1edca38de37515644c26f738069afd911cfcb01abd6",
+    "roi_cache_train.npz": "827abe60d4b3fcf9ce7f7316b868bbff4a4b0bc5ae802360d910482a28d9e7b3"
+  },
+  "no_new_model_or_firmware_or_device_actions": true
+}

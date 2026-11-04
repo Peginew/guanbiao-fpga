@@ -1,0 +1,15 @@
+{
+  "version": "PSI_Q8_V1",
+  "generic_ID": "0x524f4931",
+  "generic_ABI": "0x00010000",
+  "live_MAGIC": "0x4c565231",
+  "ARM": {"offset": "0x060", "magic": "0x41524d31", "unchanged": true},
+  "FEATURES": {"offset": "0x064", "readonly": true, "PSI_Q8_V1_bit": 0, "required_before_ARM": true},
+  "RETURN_PSI": {"offset": "0x124", "bit31": "same-observation calibrated PSI valid", "bits30_16": "zero", "bits15_0": "unsigned PSI times256", "invalid": 0},
+  "return_sequence": ["EPOCH100", "SOURCE104", "JOB108", "TARGET10c", "CONFIG110", "CRC114", "BYTES118", "PSI124", "CODE11c", "fence", "COMMIT120_RES1", "fence"],
+  "return_CODE": "Unchanged hub-only/full-pointer hubQ4 and image-angle9 encoding. Angle is not modified to encode PSI.",
+  "ownership": "PSI committed only with successful same claim/epoch/source/job/target/config/CRC/bytes transaction; reset PSI seen on each claim/retirement/cancel; never join a prior observation's PSI with new axis/line.",
+  "numeric_output": "Firmware applies frozen TRAIN-only PSI calibration2.5..12. RTL explicitly converts PSI_UQ8 to existing BAR_U0.16 consumers; this is unit conversion, not legacy angle TEST calibration.",
+  "legacy_bit": "New firmware refuses ARM without FEATURES bit0. Never program this app against old97ed/80f9 as if compatible.",
+  "current_scope": "Offline firmware/RTL integration. No device or Flash writes. A matched bit and actual coldboot/ROI timing still require subsequent evidence."
+}

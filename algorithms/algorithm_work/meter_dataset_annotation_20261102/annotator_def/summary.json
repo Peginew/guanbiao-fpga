@@ -1,0 +1,15 @@
+{
+  "records": 177,
+  "image_kind": {
+    "readable_gauge": 143,
+    "absent": 9,
+    "unreadable_gauge": 25
+  },
+  "visible_hubs": 149,
+  "visible_thin_terminals": 140,
+  "full_visible_pairs": 134,
+  "known_pressure": 168,
+  "training_performed": false,
+  "raw_images_modified": false,
+  "annotation_sha256": "1a17020f4e5d5364f4582e7762e1c86dd1e74593424930f3857832cb49839a45"
+}

@@ -1,0 +1,482 @@
+{
+  "status": "EXPANDED_EXPERIMENTAL_FULL_FIRMWARE_AND_G_MATRIX_COMPLETE_AWAIT_FINAL_C_AND_BOARD",
+  "unit": "psi",
+  "candidate": "new1222sixpointU7+frozen1202hub/1009polar+oldfirstring+TRAINcorrecteddomain",
+  "ELF": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\meter_landmark_reader.elf",
+    "sha256": "d938a6cb164e30aee22022b8f94a6da9a548c18edb41c69e34faf918374b7549"
+  },
+  "raw": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\meter_landmark_reader.bin",
+    "sha256": "8632a684003139e0eaea2df395ec6f2090ab431807751c65bdb9146176ee9025",
+    "bytes": 47480,
+    "crc32": "56f41d5f"
+  },
+  "coldboot_payload": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\U33_E00000_E0FFFF_reader_payload.bin",
+    "flash_offset": 14680064,
+    "bytes": 65536,
+    "sha256": "7ebe9782729826a42faec8cd6aa02796918e7a44fc7c0bb6c601317f2f0994de",
+    "policy": "Dedicated sector224 replacement, requires matchedPSIfeaturebit. No device write by builder."
+  },
+  "calibration_domain": {
+    "default": "TRAIN_CORRECTED",
+    "contract_sha256": "e141b2db1cb3a261bd2639bc08b94817e368a5c5d236974cd344626cf3eb533e",
+    "amendment_sha256": "eba26c29ebe813a3d9ce0bff96a1431dd9d6019a750342124fdcb002b3339046",
+    "header_sha256": "53f6472862be4a2c1ea6f854a8d2a7c1722fe8aa10dabc34c958f44e9e780406",
+    "Q16": [
+      10564968,
+      18954848
+    ],
+    "old_domain_comparison_kept": true,
+    "linear_coefficients_pressure_and_score_unchanged": true
+  },
+  "actual_memory": {
+    "status": "ACTUAL_EXPANDED_FULL_ELF_LINK_AND_STATIC_STACK_PASS",
+    "ELF_sha256": "d938a6cb164e30aee22022b8f94a6da9a548c18edb41c69e34faf918374b7549",
+    "raw_bytes": 47480,
+    "TCM": {
+      "bytes": 49152,
+      "bss_start": 134229816,
+      "end": 134263760,
+      "stack_limit": 134264832,
+      "stack_bytes": 2048,
+      "gap": 1072,
+      "arena_bytes": 32768
+    },
+    "gap_after_heap_alignment": 1072,
+    "stack": {
+      "reserved": 2048,
+      "conservative_bound": 1584,
+      "remaining": 464,
+      "frames": {
+        "main": 64,
+        "mroi_process_one_with_consumer": 192,
+        "finish": 368,
+        "mlg_consensus_q8": 592,
+        "solve": 112,
+        "project": 32,
+        "mlg_atan2_deg_q16": 48
+      },
+      "exception_entry": 80,
+      "exception_C_handler": 32,
+      "helper_slack": 64,
+      "actual_MCU_watermark_measured": false
+    },
+    "stack_usage_sources": [
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\landmark_geometry.su",
+        "sha256": "d832f26f226c5d9ac34665a1a96c3dca0fc1f458105f0755081f7169f7b35c91"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\meter_pose_frontend.su",
+        "sha256": "bf3206657618f5628a8c26756d3bb78e670b2fc519a5a791a3dff95b2cd5b479"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\meter_pose_matcher.su",
+        "sha256": "2b2f3c2c72cb4526d6c6d396b90aa3f3db8c9600334ee3bd1894653a04bc6e4e"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\minimal_app.su",
+        "sha256": "6c897ba839dcc3d1a4ebfac52cd2f56d1057f2fb3b2e04b721d0face2f4e9772"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\minimal_libc.su",
+        "sha256": "7874a1eee15b020393fd7fb99644b5ef4caab699ee9ec8bd3bd279a1376a59ae"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\mroi_c4.su",
+        "sha256": "863f16907c00af680c08319a286a26a86ba3255e9d791f41346fd4584f324fa2"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\mroi_client.su",
+        "sha256": "998ba035bcde45efb5b9e1093e4c36e24dd486e031141f6b26c3638a1291a236"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\mroi_decode.su",
+        "sha256": "862183eda894fee47eb1da0ec20528736ba38ef53dd1a7521dc9f299d6a7556f"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\platform_binding.su",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\reader_numeric.su",
+        "sha256": "3385bc563710b8e4661e5ab225776ecf8cbb7d01dd86ba4e3d63cc102832b084"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\reader_runtime.su",
+        "sha256": "7e1846c0ab5d6e14b7629dda120d9fbe79c128357ae9c8b5fc4211191b065e03"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\reader_sigmoid.su",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\soc_plat.su",
+        "sha256": "d71212cd8e5850a260da9f6659d9e17d7cbcd8653a81062069043cb5f1ad3c8f"
+      }
+    ],
+    "Flash_sector_bytes": 65536,
+    "Flash_read_or_compute_cycles_measured": false,
+    "calibration_domain": {
+      "default": "TRAIN_CORRECTED",
+      "contract_sha256": "e141b2db1cb3a261bd2639bc08b94817e368a5c5d236974cd344626cf3eb533e",
+      "amendment_sha256": "eba26c29ebe813a3d9ce0bff96a1431dd9d6019a750342124fdcb002b3339046",
+      "header_sha256": "53f6472862be4a2c1ea6f854a8d2a7c1722fe8aa10dabc34c958f44e9e780406",
+      "Q16": [
+        10564968,
+        18954848
+      ],
+      "old_domain_comparison_kept": true,
+      "linear_coefficients_pressure_and_score_unchanged": true
+    },
+    "H_rerun": false,
+    "C_group_opened": false,
+    "device": false
+  },
+  "boot_numeric_contract": {
+    "status": "ACTUAL_ELF_FPU_START_AND_POLAR_ROUNDING_CONTRACT_PASS",
+    "ELF_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\meter_landmark_reader.elf",
+    "ELF_sha256": "d938a6cb164e30aee22022b8f94a6da9a548c18edb41c69e34faf918374b7549",
+    "ELF_flags": 3,
+    "ABI": "ILP32F",
+    "stack_top": 134266880,
+    "stack_alignment": 16,
+    "FPU": {
+      "enable_address": 551551154,
+      "compressed_lui": "0x6299 x5=0x6000",
+      "set_FS_instruction": "0x3002a073 CSRRS mstatus,x5",
+      "result_FS_bits": "11 Dirty beforemain",
+      "FCSR_instruction": "0x00301073 CSRRW fcsr,x0",
+      "rounding": "frm0 nearest-even;fflags0"
+    },
+    "polar_F32": {
+      "fp_contract": "off",
+      "fast_math": false,
+      "fmul_count": 8,
+      "fadd_count": 3,
+      "fused_FMA_count": 0,
+      "machinecode_sha256": "903dfa02750708bbd5bdf78d08d525edf05d5d736a0474a2e8ef62f692bc51e9"
+    },
+    "source_scope": "OfficialSDKstartup reused, no newFPUprotectionlayers",
+    "new_board_execution": false,
+    "hardware_actions": false
+  },
+  "development_G_matrix": {
+    "old_network_old_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 26,
+      "gauge_outputs": 26,
+      "negative_outputs": 0,
+      "MAE_psi": 0.18194110576923078,
+      "within_025psi": 20,
+      "within_05psi": 25,
+      "within_1psi": 26,
+      "over_05psi_ids": [
+        "G_042"
+      ],
+      "gauge_rejected": 30,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_027",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_048"
+      ]
+    },
+    "old_network_corrected_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 29,
+      "gauge_outputs": 29,
+      "negative_outputs": 0,
+      "MAE_psi": 0.1880387931034483,
+      "within_025psi": 21,
+      "within_05psi": 28,
+      "within_1psi": 29,
+      "over_05psi_ids": [
+        "G_042"
+      ],
+      "gauge_rejected": 27,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_027",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_043",
+        "G_045",
+        "G_046",
+        "G_048"
+      ]
+    },
+    "new_network_old_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 27,
+      "gauge_outputs": 27,
+      "negative_outputs": 0,
+      "MAE_psi": 0.18214699074074073,
+      "within_025psi": 20,
+      "within_05psi": 25,
+      "within_1psi": 27,
+      "over_05psi_ids": [
+        "G_024",
+        "G_042"
+      ],
+      "gauge_rejected": 29,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_024",
+        "G_025",
+        "G_026",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_036",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_048"
+      ]
+    },
+    "new_network_corrected_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 30,
+      "gauge_outputs": 30,
+      "negative_outputs": 0,
+      "MAE_psi": 0.18802083333333333,
+      "within_025psi": 21,
+      "within_05psi": 28,
+      "within_1psi": 30,
+      "over_05psi_ids": [
+        "G_024",
+        "G_042"
+      ],
+      "gauge_rejected": 26,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_024",
+        "G_025",
+        "G_026",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_036",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_043",
+        "G_045",
+        "G_046",
+        "G_048"
+      ]
+    },
+    "ring_only_old_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 18,
+      "gauge_outputs": 18,
+      "negative_outputs": 0,
+      "MAE_psi": 0.1343315972222222,
+      "within_025psi": 15,
+      "within_05psi": 18,
+      "within_1psi": 18,
+      "over_05psi_ids": [],
+      "gauge_rejected": 38,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_029",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040"
+      ]
+    },
+    "ring_only_corrected_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 21,
+      "gauge_outputs": 21,
+      "negative_outputs": 0,
+      "MAE_psi": 0.14955357142857142,
+      "within_025psi": 16,
+      "within_05psi": 21,
+      "within_1psi": 21,
+      "over_05psi_ids": [],
+      "gauge_rejected": 35,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_029",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_043",
+        "G_045",
+        "G_046"
+      ]
+    }
+  },
+  "changes": {
+    "old_network_old_domain__to__new_network_old_domain": {
+      "added": [
+        "G_024",
+        "G_036"
+      ],
+      "withdrawn": [
+        "G_027"
+      ],
+      "new_over05psi": [
+        "G_024"
+      ]
+    },
+    "new_network_old_domain__to__new_network_corrected_domain": {
+      "added": [
+        "G_043",
+        "G_045",
+        "G_046"
+      ],
+      "withdrawn": [],
+      "new_over05psi": []
+    },
+    "old_network_old_domain__to__old_network_corrected_domain": {
+      "added": [
+        "G_043",
+        "G_045",
+        "G_046"
+      ],
+      "withdrawn": [],
+      "new_over05psi": []
+    }
+  },
+  "engineering_goal": {
+    "reference_only_not_user_acceptance": true,
+    "target_correct_descriptive_05psi": 32,
+    "actual_correct": 28,
+    "front_target": 12,
+    "front_correct": 12,
+    "front_denominator": 16,
+    "met_on_reused_G": false
+  },
+  "artifacts": {
+    "build/build_receipt.json": "d1b8dbbf5d8c9a6a13b0c8403f183cc9c29e4fa62be016fbd5037a570f6570d0",
+    "link_stack_audit.json": "0ad485732aed8bf050b4750b9462b0866db8e277d60e508f07893211ce697005",
+    "preservation_check.json": "ce591182179e42dc251e1c632121c2e5ddc69a1bd4c63c035399357c8bcaf286",
+    "numeric_verification.json": "9d0275fd6cb862a7fae9c33d2fedcabd2e4641e90cbeb825d1544cc7f56da379",
+    "calibration_domain_preflight.json": "4140820d6a80e60dd98855f4c8fb064cd21a5b581e1eb6ceaea3d68b87670ce9",
+    "boot_numeric_contract.json": "e16d0293f7c2a7fc36ebb33819d7925de53d65f2bf185239647dfabbc8d1d3bd",
+    "host_matrix/validation_matrix.json": "705179ad47c12d3053560f35134208d10f4f2fe558a67d999c5e5c8b15c8e0aa",
+    "host_matrix/predictions_before_scoring.jsonl": "1053dd95784979cec85ef8b2b17930ec7089c59910b0016ddc4477c7fa2499f4"
+  },
+  "limits": [
+    "Ghasbeenreusedfordevelopmentandisnotindependenttest",
+    "FinalCgroupmustremainlockeduntilsupervisorFINALmanifest",
+    "Hhistoricalevaluationneverrerunorrewritten",
+    "TCMlinked/hostCcorrectnessdoesnotproveactualMCUFlashXIPcycleorcoldboot",
+    "stage_cycles0..3hub/landmarks/polar/ring;slot4reserved;totalmroi_diag.elapsed_cyclesincludesall",
+    "Same-sourceproxyROI/manualboxesnotactualauto-FPGA/CSIbytevalidation",
+    "RequirespairedPSIfeatures064/PSI124bit;old80f9isnotcompatible"
+  ],
+  "hardware_actions": false,
+  "H_rerun": false,
+  "C_group_opened": false
+}

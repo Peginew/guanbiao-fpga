@@ -1,0 +1,25 @@
+{
+  "images": 118,
+  "train_groups_only": [
+    "A",
+    "B"
+  ],
+  "registered_candidates": 102,
+  "not_registered_ids": [
+    "A_052",
+    "A_053",
+    "A_054",
+    "A_056",
+    "B_043",
+    "B_052",
+    "B_053",
+    "B_054",
+    "B_055",
+    "B_056"
+  ],
+  "reference_D025_sha256": "365d6f001090a1bc20de34b23c57ea81758c688619cb4addfd203e5f083a2d64",
+  "no_query_GT_pressure_needle_NN": true,
+  "G_C_H_not_read": true,
+  "candidate_labels_not_training_ready": true,
+  "source_code_sha256": "efdd1b0403f2cd8e179302050d01c101d498594b7c3c8b67c546147d274bdb7c"
+}

@@ -1,0 +1,726 @@
+{
+  "status": "GH_SIDEVIEW_NATIVE_GRID_MANUAL_CORRECTION",
+  "date_utc": "2026-11-01T17:47:05.031049+00:00",
+  "before_sha256": "2b67a19e12d85bd4a71dcbe3730d9cfbeb1fae8410abb3d340b1f3576e419e03",
+  "after_sha256": "ac333e49a5265ae4d2785a1027d564c7e362b5e750654cfefc4d1c2dc73be88e",
+  "changed_records": 32,
+  "changes": [
+    {
+      "id": "G_005",
+      "old_hub": [
+        569.8,
+        334.1
+      ],
+      "new_hub": [
+        578,
+        337
+      ],
+      "hub_change_px": 8.7,
+      "old_tip": [
+        632.0,
+        243.6
+      ],
+      "new_tip": [
+        632,
+        240
+      ],
+      "tip_change_px": 3.6,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_006",
+      "old_hub": [
+        491.6,
+        323.8
+      ],
+      "new_hub": [
+        487,
+        325
+      ],
+      "hub_change_px": 4.75,
+      "old_tip": [
+        535.1,
+        229.4
+      ],
+      "new_tip": [
+        537,
+        234
+      ],
+      "tip_change_px": 4.98,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_011",
+      "old_hub": [
+        563.8,
+        313.4
+      ],
+      "new_hub": [
+        572,
+        316
+      ],
+      "hub_change_px": 8.6,
+      "old_tip": [
+        611.3,
+        215.3
+      ],
+      "new_tip": [
+        606,
+        218
+      ],
+      "tip_change_px": 5.95,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_012",
+      "old_hub": [
+        444.7,
+        307.5
+      ],
+      "new_hub": [
+        440,
+        310
+      ],
+      "hub_change_px": 5.32,
+      "old_tip": [
+        466.1,
+        204.5
+      ],
+      "new_tip": [
+        460,
+        212
+      ],
+      "tip_change_px": 9.67,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_017",
+      "old_hub": [
+        512.4,
+        326.2
+      ],
+      "new_hub": [
+        521,
+        328
+      ],
+      "hub_change_px": 8.79,
+      "old_tip": [
+        533.4,
+        215.3
+      ],
+      "new_tip": [
+        529,
+        213
+      ],
+      "tip_change_px": 4.96,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_018",
+      "old_hub": [
+        507.8,
+        324.5
+      ],
+      "new_hub": [
+        502,
+        325
+      ],
+      "hub_change_px": 5.82,
+      "old_tip": [
+        515.2,
+        212.8
+      ],
+      "new_tip": [
+        514,
+        214
+      ],
+      "tip_change_px": 1.7,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_023",
+      "old_hub": [
+        401.0,
+        323.6
+      ],
+      "new_hub": [
+        409,
+        325
+      ],
+      "hub_change_px": 8.12,
+      "old_tip": [
+        363.0,
+        217.6
+      ],
+      "new_tip": [
+        367,
+        223
+      ],
+      "tip_change_px": 6.72,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_024",
+      "old_hub": [
+        475.5,
+        315.2
+      ],
+      "new_hub": [
+        474,
+        316
+      ],
+      "hub_change_px": 1.7,
+      "old_tip": [
+        432.6,
+        213.4
+      ],
+      "new_tip": [
+        428,
+        219
+      ],
+      "tip_change_px": 7.25,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_029",
+      "old_hub": [
+        330.0,
+        363.0
+      ],
+      "new_hub": [
+        337,
+        365
+      ],
+      "hub_change_px": 7.28,
+      "old_tip": [
+        248.0,
+        265.7
+      ],
+      "new_tip": [
+        252,
+        270
+      ],
+      "tip_change_px": 5.87,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_030",
+      "old_hub": [
+        436.5,
+        365.8
+      ],
+      "new_hub": [
+        429,
+        366
+      ],
+      "hub_change_px": 7.5,
+      "old_tip": [
+        354.4,
+        266.5
+      ],
+      "new_tip": [
+        349,
+        268
+      ],
+      "tip_change_px": 5.6,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_035",
+      "old_hub": [
+        468.2,
+        378.2
+      ],
+      "new_hub": [
+        474,
+        381
+      ],
+      "hub_change_px": 6.44,
+      "old_tip": [
+        355.2,
+        310.8
+      ],
+      "new_tip": [
+        358,
+        312
+      ],
+      "tip_change_px": 3.05,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_036",
+      "old_hub": [
+        437.6,
+        354.7
+      ],
+      "new_hub": [
+        431,
+        354
+      ],
+      "hub_change_px": 6.64,
+      "old_tip": [
+        338.2,
+        293.6
+      ],
+      "new_tip": [
+        330,
+        292
+      ],
+      "tip_change_px": 8.35,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_041",
+      "old_hub": [
+        544.2,
+        342.6
+      ],
+      "new_hub": [
+        551,
+        344
+      ],
+      "hub_change_px": 6.94,
+      "old_tip": [
+        429.8,
+        327.5
+      ],
+      "new_tip": [
+        430,
+        326
+      ],
+      "tip_change_px": 1.51,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_042",
+      "old_hub": [
+        519.1,
+        317.8
+      ],
+      "new_hub": [
+        514,
+        320
+      ],
+      "hub_change_px": 5.55,
+      "old_tip": [
+        418.6,
+        296.7
+      ],
+      "new_tip": [
+        414,
+        295
+      ],
+      "tip_change_px": 4.9,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_047",
+      "old_hub": [
+        579.3,
+        360.4
+      ],
+      "new_hub": [
+        584,
+        362
+      ],
+      "hub_change_px": 4.96,
+      "old_tip": [
+        474.8,
+        387.5
+      ],
+      "new_tip": [
+        472,
+        386
+      ],
+      "tip_change_px": 3.18,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "G_048",
+      "old_hub": [
+        544.6,
+        372.3
+      ],
+      "new_hub": [
+        540,
+        371
+      ],
+      "hub_change_px": 4.78,
+      "old_tip": [
+        451.6,
+        385.3
+      ],
+      "new_tip": [
+        441,
+        387
+      ],
+      "tip_change_px": 10.74,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_005",
+      "old_hub": [
+        510.0,
+        371.0
+      ],
+      "new_hub": [
+        521,
+        369
+      ],
+      "hub_change_px": 11.18,
+      "old_tip": [
+        550.6,
+        254.3
+      ],
+      "new_tip": [
+        551,
+        251
+      ],
+      "tip_change_px": 3.32,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_006",
+      "old_hub": [
+        434.8,
+        350.2
+      ],
+      "new_hub": [
+        426,
+        350
+      ],
+      "hub_change_px": 8.8,
+      "old_tip": [
+        451.4,
+        230.1
+      ],
+      "new_tip": [
+        446,
+        237
+      ],
+      "tip_change_px": 8.76,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_011",
+      "old_hub": [
+        369.8,
+        370.1
+      ],
+      "new_hub": [
+        382,
+        372
+      ],
+      "hub_change_px": 12.35,
+      "old_tip": [
+        410.5,
+        210.9
+      ],
+      "new_tip": [
+        418,
+        211
+      ],
+      "tip_change_px": 7.5,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_012",
+      "old_hub": [
+        450.0,
+        359.1
+      ],
+      "new_hub": [
+        443,
+        357
+      ],
+      "hub_change_px": 7.31,
+      "old_tip": [
+        460.2,
+        213.9
+      ],
+      "new_tip": [
+        452,
+        221
+      ],
+      "tip_change_px": 10.85,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_017",
+      "old_hub": [
+        507.3,
+        348.3
+      ],
+      "new_hub": [
+        513,
+        348
+      ],
+      "hub_change_px": 5.71,
+      "old_tip": [
+        504.1,
+        204.3
+      ],
+      "new_tip": [
+        500,
+        208
+      ],
+      "tip_change_px": 5.52,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_018",
+      "old_hub": [
+        453.6,
+        343.5
+      ],
+      "new_hub": [
+        440,
+        341
+      ],
+      "hub_change_px": 13.83,
+      "old_tip": [
+        464.7,
+        209.7
+      ],
+      "new_tip": [
+        432,
+        215
+      ],
+      "tip_change_px": 33.13,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_023",
+      "old_hub": [
+        392.9,
+        387.8
+      ],
+      "new_hub": [
+        400,
+        387
+      ],
+      "hub_change_px": 7.14,
+      "old_tip": [
+        337.2,
+        270.2
+      ],
+      "new_tip": [
+        342,
+        273
+      ],
+      "tip_change_px": 5.56,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_024",
+      "old_hub": [
+        390.0,
+        348.8
+      ],
+      "new_hub": [
+        381,
+        347
+      ],
+      "hub_change_px": 9.18,
+      "old_tip": [
+        319.3,
+        221.3
+      ],
+      "new_tip": [
+        316,
+        225
+      ],
+      "tip_change_px": 4.96,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_029",
+      "old_hub": [
+        449.4,
+        401.7
+      ],
+      "new_hub": [
+        461,
+        404
+      ],
+      "hub_change_px": 11.83,
+      "old_tip": [
+        305.7,
+        280.3
+      ],
+      "new_tip": null,
+      "tip_change_px": null,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION",
+      "native_tip_recheck_previous_xy": [
+        329,
+        303
+      ],
+      "final_tip_visibility": "unknown",
+      "final_tip_review": "NATIVE_PHYSICAL_ENDPOINT_RECHECK_NOT_PRESSURE_INVERSION"
+    },
+    {
+      "id": "H_030",
+      "old_hub": [
+        530.0,
+        348.3
+      ],
+      "new_hub": [
+        530,
+        350
+      ],
+      "hub_change_px": 1.7,
+      "old_tip": [
+        424.9,
+        255.5
+      ],
+      "new_tip": [
+        423,
+        257
+      ],
+      "tip_change_px": 2.42,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_035",
+      "old_hub": [
+        521.8,
+        333.3
+      ],
+      "new_hub": [
+        527,
+        336
+      ],
+      "hub_change_px": 5.86,
+      "old_tip": [
+        414.0,
+        284.6
+      ],
+      "new_tip": [
+        416,
+        285
+      ],
+      "tip_change_px": 2.04,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_036",
+      "old_hub": [
+        406.5,
+        326.4
+      ],
+      "new_hub": [
+        398,
+        326
+      ],
+      "hub_change_px": 8.51,
+      "old_tip": [
+        300.1,
+        283.8
+      ],
+      "new_tip": [
+        298,
+        285
+      ],
+      "tip_change_px": 2.42,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_041",
+      "old_hub": [
+        398.0,
+        344.4
+      ],
+      "new_hub": [
+        405,
+        340
+      ],
+      "hub_change_px": 8.27,
+      "old_tip": [
+        265.3,
+        331.2
+      ],
+      "new_tip": [
+        274,
+        330
+      ],
+      "tip_change_px": 8.78,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_042",
+      "old_hub": [
+        326.0,
+        375.1
+      ],
+      "new_hub": [
+        320,
+        373
+      ],
+      "hub_change_px": 6.36,
+      "old_tip": [
+        203.4,
+        359.2
+      ],
+      "new_tip": [
+        199,
+        357
+      ],
+      "tip_change_px": 4.92,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION",
+      "native_tip_recheck_previous_xy": [
+        184,
+        350
+      ],
+      "final_tip_review": "NATIVE_PHYSICAL_ENDPOINT_RECHECK_NOT_PRESSURE_INVERSION"
+    },
+    {
+      "id": "H_047",
+      "old_hub": [
+        478.9,
+        357.7
+      ],
+      "new_hub": [
+        490,
+        358
+      ],
+      "hub_change_px": 11.1,
+      "old_tip": [
+        351.5,
+        406.9
+      ],
+      "new_tip": [
+        359,
+        397
+      ],
+      "tip_change_px": 12.42,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    },
+    {
+      "id": "H_048",
+      "old_hub": [
+        464.2,
+        357.3
+      ],
+      "new_hub": [
+        461,
+        357
+      ],
+      "hub_change_px": 3.21,
+      "old_tip": [
+        337.5,
+        389.4
+      ],
+      "new_tip": [
+        333,
+        386
+      ],
+      "tip_change_px": 5.64,
+      "reason": "INDP_REVIEW_EXPOSED_STATIC_PRINT_PLANE_VS_MECHANICAL_PIVOT_DEPTH_ERROR; DIRECT_NATIVE_GRID_RESELECTION"
+    }
+  ],
+  "uncertainties_not_merely_increased": true,
+  "pressure_used_to_infer_points": false,
+  "training_executed": false,
+  "final_tip_recheck_before_sha256": "ff4944f804e11c3e1b3fb3103f50d39ddcab4753897c26154a788322c889b7a3",
+  "maximum_tip_change_px": 33.13
+}

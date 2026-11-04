@@ -1,0 +1,170 @@
+{
+  "status": "PASS_FOR_BOUNDED_AI_ANNOTATION_REVIEW_ONLY_NOT_PRECISION_GROUND_TRUTH",
+  "reviewer": "annotator_def cross-reviewing disjoint ABC output",
+  "annotation_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\annotation.json",
+  "annotation_sha256": "ca86e89e46a238f2a86eee928bb3e0c000f3fe645a25464a58bf6d27a82be335",
+  "records_structurally_checked": 177,
+  "contact_sheet_visual_coverage_records": 177,
+  "visual_review_assets": [
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_A_001.jpg",
+      "sha256": "5d17c3e3ebe9d49b62a6731b0fb192fc94437c1e7be4163201c6b00fa2a26b73",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_A_017.jpg",
+      "sha256": "157f5a33ef3d87efa7ab2b66e5d9c944cf75cc42220615de7f47cae2d0e2fcba",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_A_033.jpg",
+      "sha256": "0bb423534083276ba9e6cc19ab66356a8bc737fb17372d9da2fef8497a204dd3",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_A_049.jpg",
+      "sha256": "18c4b81195d6e46cba7c8f17e125c39e3d0fcc0d82e4b09186e2ae6a0795133c",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_B_001.jpg",
+      "sha256": "adbc9d8cb0bb19d319758f517bd53c4d5b400b05a06784c97502c799a3891431",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_B_017.jpg",
+      "sha256": "f47bf039757a313a50a932ab8991b938a2318bd688b982a4082d640fe767d2eb",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_B_033.jpg",
+      "sha256": "00655d307d2b6a433e4317e9fb4c6340e52e8fffaf529e0a697ee0624dfe7867",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_B_049.jpg",
+      "sha256": "14c7dbdbc44f99de1ec8ea2fc57f1bd6ba644bdf84244c7a7a992ce7adaf6f5d",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_C_001.jpg",
+      "sha256": "904d2db4811be4f46eb8776820993ddade81532f30144d45ee964f66ef37e5a2",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_C_017.jpg",
+      "sha256": "7da8bc352a5d0a444f89b81dcd4de04c6024a31b5c191a7f7aa0c8121309303c",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_C_033.jpg",
+      "sha256": "fac8e4041118d2318a786c94fead102971319d175e6b27b0c37fa5bf695664f3",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\review_C_049.jpg",
+      "sha256": "e355e4bfc10364c7dd257ff9e06b34878a1d363f679bd17e3157c0a1d10c1264",
+      "reviewed": "AI visual inspection of complete contact sheet"
+    }
+  ],
+  "native_original_crop_priority_checks": [
+    "A_009",
+    "A_012",
+    "B_011",
+    "B_018",
+    "C_001",
+    "C_002",
+    "C_003",
+    "C_005",
+    "A_057",
+    "B_059",
+    "C_054",
+    "C_055"
+  ],
+  "key_requested_priority_ids": [
+    "A_009",
+    "A_012",
+    "A_028",
+    "B_011",
+    "B_018",
+    "C_001",
+    "C_002",
+    "C_003",
+    "C_056",
+    "C_057",
+    "C_058",
+    "C_059"
+  ],
+  "checks": {
+    "previous_obvious_A009_screw_and_A012_axis_drift_fixed_in_current_revision": true,
+    "no_additional_clear_non_gauge_as_gauge_or_180_degree_counterweight_errors_identified_on_reviewed_sheets": true,
+    "negative_classes_distinguish_empty_ball_gauge_backside": true,
+    "C_supplement12_three_images_user_pressure_12psi_and_correct_slots": true,
+    "pressure_per_group": {
+      "A": {
+        "12.0": 6,
+        "11.0": 6,
+        "9.5": 6,
+        "8.0": 6,
+        "6.5": 6,
+        "5.0": 6,
+        "3.5": 6,
+        "2.5": 14,
+        "None": 3
+      },
+      "B": {
+        "12.0": 6,
+        "11.0": 6,
+        "9.5": 6,
+        "8.0": 6,
+        "6.5": 6,
+        "5.0": 6,
+        "3.5": 6,
+        "2.5": 14,
+        "None": 3
+      },
+      "C": {
+        "12.0": 6,
+        "11.0": 6,
+        "9.5": 6,
+        "8.0": 6,
+        "6.5": 6,
+        "5.0": 6,
+        "3.5": 6,
+        "2.5": 14,
+        "None": 3
+      }
+    },
+    "invisible_points_have_null_xy": true,
+    "all_visible_points_have_declared_uncertainty": true,
+    "pressure_not_used_to_judge_point_angle": true,
+    "bbox_visual_extent_review": "No new gross wrong-object crop identified; full amodal borders in clipped views not independently proven."
+  },
+  "nonblocking_precision_limits": {
+    "coarse_hub_examples_with_visually_apparent_offsets": [
+      "A_031",
+      "A_040",
+      "A_043",
+      "B_020",
+      "B_038",
+      "B_043",
+      "C_021"
+    ],
+    "interpretation": "Several marks lie a few to low-teens pixels from the apparent mechanical centre, consistent with the broad 15px coarse uncertainty. They are not accepted as exact centre GT.",
+    "precise_subpixel_or_low_pixel_ground_truth_accepted": false,
+    "training_readiness_accepted": false,
+    "test_set_accuracy_or_independence_accepted": false
+  },
+  "hard_structural_errors": [],
+  "operations": {
+    "ABC_files_modified": false,
+    "source_images_modified": false,
+    "training": false,
+    "model_or_device_actions": false
+  },
+  "limits": [
+    "Viewing every sheet provides contact-scale visual coverage, not independent per-point native-pixel measurement.",
+    "The reviewer did not repeat the annotator source hash audit; only annotation revision and review asset hashes were independently bound.",
+    "This is a dataset annotation review and cannot support a claimed CNN accuracy improvement."
+  ]
+}

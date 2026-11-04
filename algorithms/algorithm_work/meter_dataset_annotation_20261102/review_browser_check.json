@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "screenshot_exists": true,
+  "training": false,
+  "scope": "Local annotation-viewer render only; no camera/board/model"
+}

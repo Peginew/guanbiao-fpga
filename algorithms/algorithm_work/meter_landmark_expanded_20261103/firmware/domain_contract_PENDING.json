@@ -1,0 +1,9 @@
+{
+  "status": "AWAIT_ROOT_TRAIN_SIGNED_DOMAIN",
+  "old_domain": [164.9189063841552,288.1874999590581],
+  "proposed_corrected_domain": [161.208610355,289.228040287],
+  "rounding": "Q16inwardceilmin/floormax",
+  "score_or_pressure_range_change": false,
+  "G_prediction_started": false,
+  "H_retest": false
+}

@@ -1,0 +1,45 @@
+{
+  "status": "TRAIN_ONLY_DOMAIN_CONSISTENCY_CORRECTION_FROZEN_BEFORE_EXPANDED_G_OR_C",
+  "unit": "psi",
+  "training_measurements": 65,
+  "fit_record_source_sha256": "890d5ceb5cdf1ca87a6fcb7456cbf4b67123491f0ca60fac84fed5893c937491",
+  "fit_record_source": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_B_calibration_psi.json",
+  "all_records_in_original_DEF_training": true,
+  "all_source_SHA_and_PSI_verified": true,
+  "slope_unchanged": 0.07384237755296061,
+  "intercept_unchanged": -9.35728614979227,
+  "pressure_support_unchanged": [
+    2.5,
+    12.0
+  ],
+  "old_median_anchor_domain": [
+    164.9189063841552,
+    288.1874999590581
+  ],
+  "train_observed_angle_hull": [
+    161.20861035509273,
+    294.36204715201865
+  ],
+  "inverse_pressure_support": [
+    160.57562801642032,
+    289.22804028722635
+  ],
+  "corrected_domain": [
+    161.20861035509273,
+    289.22804028722635
+  ],
+  "corrected_Q16_inward_inclusive": [
+    10564968,
+    18954848
+  ],
+  "derivation": "convexhull(of65 qualifiedtrainangles) intersect inverse(original2.5..12pressure interval under SAMElinearfit)",
+  "preserves_old_accepted_angle_domain": true,
+  "reading_permission_changed_for_added_angles": true,
+  "score_gate_changed": false,
+  "G_H_C_used_to_determine_domain": false,
+  "no_clamping": true,
+  "default_deployment_domain": "TRAIN_CORRECTED",
+  "effect_attribution": "old/newpointmodel x old/corrected domain with same source C predictions; network-only gain assessed atold domain",
+  "final_C_no_post_tuning": true,
+  "hardware_actions": false
+}

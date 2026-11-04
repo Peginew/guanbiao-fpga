@@ -1,0 +1,14 @@
+{
+  "status": "RULE_FROZEN_BEFORE_EXPANDED_TRAINING_RESULTS",
+  "unit": "psi",
+  "comparison_scope": "Wholemodel choice only on reusedGdevelopment; never perimage PSI-based switching, never C/H selection.",
+  "candidates": ["Prior trained sixpoint b857014d U7", "One expanded295image samearchitecture U7 training candidate"],
+  "same_in_all_arms": ["originalhub/polarintegerweights", "ROIinput and center", "TRAIN_CORRECTED domain", "linearcoefficients and2.5..12psi range", "score/geometry thresholds", "oldreferencepriority"],
+  "adopt_expanded_only_if": ["Every itsownaccepted oldring output is preserved", "CorrectGgaugeoutputs within descriptive0.5psi strictly exceed prior model atSAMEcorrected domain", "Gnumericoutputs over descriptive0.5psi do not increase", "Gnegative falseoutputs do not increase"],
+  "otherwise": "Retain prior trained weights; preserve failed expanded run and exact results. Ties favor prior.",
+  "descriptive_band_not_user_accuracy_spec": true,
+  "calibration_domain_not_selected_by_G": "The deterministic TRAINdomain correction is already frozen independently for both models; olddomain arms solely attribute effects.",
+  "training_step_selection": "Same predeclaredpointmetric only; this does not authorize PSI-based checkpoint or threshold sweeps.",
+  "final_C": "Freeze selected completeELF/weights/calibration/score policy before openingC. One test only, no postC variant selection or retraining.",
+  "formal_accuracy_acceptance": "Even a Gselection pass does not certify board/general robustness. Report finalC failures, negative sample limits, and experimentalstatus honestly."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "CAPTURE_METADATA_UPDATED_NO_GEOMETRY_OR_PRESSURE_LABEL_CHANGES",
+  "date_local": "2026-11-02",
+  "before_snapshot": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\versions\\before_capture_confirmation_20261102",
+  "records": 472,
+  "protected_geometry_pressure_sha256_before": "a9b05e6e6ec5ef54f503264a0e50295fca2bff4b039e7a01ad1f7bf1296a55cb",
+  "protected_geometry_pressure_sha256_after": "a9b05e6e6ec5ef54f503264a0e50295fca2bff4b039e7a01ad1f7bf1296a55cb",
+  "protected_fields_unchanged": true,
+  "annotations_sha256_before": "d212ade35787f27ae0effba7e7251a399ceeabf41d204e6f8040d9d347d7c5b9",
+  "annotations_sha256_after": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "scene_repositioned_between_groups": true,
+  "pressure_basically_stable": true,
+  "manual_focus_setting_unchanged": true,
+  "split_remains_unassigned": true,
+  "pressure_reference_uncertainty_remains_unknown": true,
+  "training_performed": false,
+  "original_images_written": false
+}

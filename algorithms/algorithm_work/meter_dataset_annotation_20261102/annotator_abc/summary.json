@@ -1,0 +1,11 @@
+{
+  "images": 177,
+  "positive": 168,
+  "negative": 9,
+  "visible_hub": 156,
+  "visible_thin_terminal": 157,
+  "user_pressure_labels": 168,
+  "trained": false,
+  "original_images_modified": false,
+  "annotation_scope": "AI visual review with explicit uncertainty; root independent overlay review still required."
+}

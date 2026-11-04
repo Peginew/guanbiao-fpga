@@ -1,0 +1,102 @@
+{
+  "schema": "independent_capture_metadata_confirmation_review_v1",
+  "status": "PASS_METADATA_ONLY",
+  "reviewed_utc": "2026-11-01T18:34:52.013958+00:00",
+  "annotations_sha256_before": "d212ade35787f27ae0effba7e7251a399ceeabf41d204e6f8040d9d347d7c5b9",
+  "annotations_sha256_after": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+  "receipt_sha256": "ff321c32386c46dc5063a980b014b0a0383d616512f7abc28ebd86502d9d2574",
+  "policy_sha256_after": "aaf105d8918bbd0d4998e78eab5f124dd1f291839d6609b2bcaa1959687db268",
+  "old_export_review_sha256_preserved": "68eb8c24a9919f0398ac0ef97be266571bd7d5882af8681691301402678654d6",
+  "review_scope": "Only user-confirmed capture metadata and exact preservation of all prior label fields. Not new image review or renewed geometric accuracy/source-file full rehash audit.",
+  "raw_images_rehashed_this_round": 0,
+  "training_executed": false,
+  "board_operations": false,
+  "geometry_points_modified_by_reviewer": false,
+  "checks": [
+    {
+      "name": "before_and_after_bound_to_receipt",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "receipt_protected_summaries_equal",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "all_472_record_content_unchanged_except_four_metadata_fields",
+      "pass": true,
+      "evidence": {
+        "bad_ids": [],
+        "allowed_metadata_fields": [
+          "capture_metadata_source",
+          "independent_reposition",
+          "manual_focus_setting_unchanged",
+          "pressure_stable_within_capture_group"
+        ]
+      }
+    },
+    {
+      "name": "only_top_level_capture_confirmation_added",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "reposition_and_focus_user_confirmation_on_all_records",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "pressure_basic_stability_applies_to_gauge_only",
+      "pass": true,
+      "evidence": {
+        "gauge_count": 448,
+        "negative_count": 24
+      }
+    },
+    {
+      "name": "no_split_assignment_or_pressure_uncertainty_fabricated",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "policy_distinguishes_physical_reposition_from_test_independence",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "policy_stability_not_zero_drift_or_measured_focal_length",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "no_training_authorized_or_claimed",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "raw_source_manifest_identity_unchanged_since_previous_full_hash_audit",
+      "pass": true,
+      "evidence": {
+        "current_raw_files_rehashed_this_round": 0,
+        "prior_full_raw_sha_audit_bound_to": "d212ade35787f27ae0effba7e7251a399ceeabf41d204e6f8040d9d347d7c5b9",
+        "record_path_and_sha_unchanged_by_strict_record_comparison": true
+      }
+    },
+    {
+      "name": "jsonl_matches_updated_record_metadata",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "csv_three_metadata_fields_match_records",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "original_export_gate_kept_original_snapshot_binding",
+      "pass": true,
+      "evidence": null
+    }
+  ]
+}

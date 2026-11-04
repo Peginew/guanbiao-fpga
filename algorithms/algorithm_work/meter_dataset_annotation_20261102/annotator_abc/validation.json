@@ -1,0 +1,49 @@
+{
+  "status": "PASS_STRUCTURAL_NOT_INDEPENDENT_ACCURACY",
+  "records": 177,
+  "original_hash_matches": 177,
+  "image_kind": {
+    "gauge_front": 168,
+    "negative": 9
+  },
+  "pressure_by_group": {
+    "A": {
+      "12.0": 6,
+      "11.0": 6,
+      "9.5": 6,
+      "8.0": 6,
+      "6.5": 6,
+      "5.0": 6,
+      "3.5": 6,
+      "2.5": 14,
+      "None": 3
+    },
+    "B": {
+      "12.0": 6,
+      "11.0": 6,
+      "9.5": 6,
+      "8.0": 6,
+      "6.5": 6,
+      "5.0": 6,
+      "3.5": 6,
+      "2.5": 14,
+      "None": 3
+    },
+    "C": {
+      "12.0": 6,
+      "11.0": 6,
+      "9.5": 6,
+      "8.0": 6,
+      "6.5": 6,
+      "5.0": 6,
+      "3.5": 6,
+      "2.5": 14,
+      "None": 3
+    }
+  },
+  "errors": [],
+  "annotation_sha256": "ca86e89e46a238f2a86eee928bb3e0c000f3fe645a25464a58bf6d27a82be335",
+  "summary_sha256": "5386b690c9ede6754e246c8f688efb5525303d46cc7ca61b2fc0929c4500e270",
+  "trained": false,
+  "original_images_modified": false
+}

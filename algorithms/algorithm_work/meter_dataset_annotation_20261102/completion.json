@@ -1,0 +1,134 @@
+{
+  "status": "FIRST_PASS_ANNOTATION_DELIVERED_WITH_VISIBILITY_AND_UNCERTAINTY",
+  "date_local": "2026-11-02",
+  "completed_utc": "2026-11-01T18:13:34.895200+00:00",
+  "scope": "Annotation only; no training, model changes, camera capture commands or board operations.",
+  "summary": {
+    "images": 472,
+    "groups": {
+      "A": 59,
+      "B": 59,
+      "C": 59,
+      "D": 59,
+      "E": 59,
+      "F": 59,
+      "G": 59,
+      "H": 59
+    },
+    "gauge_faces": 448,
+    "negative_faces": 24,
+    "bbox_visible": 448,
+    "hub_visibility": {
+      "visible": 411,
+      "absent": 24,
+      "unknown": 21,
+      "occluded": 16
+    },
+    "thin_visibility": {
+      "visible": 402,
+      "absent": 24,
+      "unknown": 29,
+      "occluded": 17
+    },
+    "joint_keypoints_visible": 383,
+    "coordinate_precision_tier": {
+      "coarse_visible_points": 132,
+      "bounded_visible_points": 251,
+      "not_applicable": 24,
+      "unknown_or_partial": 65
+    },
+    "user_reported_pressure_labels": 448,
+    "training_performed": false,
+    "raw_images_modified": false,
+    "validation_errors": 0,
+    "label_accuracy_is_not_model_accuracy": true,
+    "human_ground_truth_certified": false
+  },
+  "source_images_unchanged_sha256_verified": 472,
+  "same_source_set_at_close": true,
+  "independent_export_checks_passed": 23,
+  "artifacts": {
+    "annotations.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotations.json",
+      "sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e"
+    },
+    "annotations.jsonl": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotations.jsonl",
+      "sha256": "438abe5b13526f9c51db2d630b813518659099b4c6786716ea3e98f77e2a1e5c"
+    },
+    "annotations.csv": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotations.csv",
+      "sha256": "ebf02ffa7f05695c539117d4fca63c7d50f6455c71649577a73c7ebd28656a53"
+    },
+    "annotation_policy.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotation_policy.json",
+      "sha256": "aaf105d8918bbd0d4998e78eab5f124dd1f291839d6609b2bcaa1959687db268"
+    },
+    "source_manifest.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\source_manifest.json",
+      "sha256": "083c58ab0d78605e1ee716cf182bcb68fb7b51fda9f1f11545290b028c04efc9"
+    },
+    "summary.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\summary.json",
+      "sha256": "a26c296a14f51731f6c8aafa958b2c47431a2552f2fdcfc2f7b25aa2b8b9d1db"
+    },
+    "validation.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\validation.json",
+      "sha256": "e587c4bdc5062abebe00f7357ff26749fed2131527dee69541f9bec9e14d57f8"
+    },
+    "图片标注复核.html": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\图片标注复核.html",
+      "sha256": "154c1138c1327939cd2d642a6924db5fb99457a54d92c24080c417938fb885e5"
+    },
+    "uncertain_annotations.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\uncertain_annotations.json",
+      "sha256": "c87bbf51cbf26b4571113681b3fed05dc54adde5caa3f129dd9302e6fe5f7558"
+    },
+    "标注说明.txt": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\标注说明.txt",
+      "sha256": "258be21dda94ad65615e580feab2b00b3f1b69a3f483459da300599aef0f4bc9"
+    },
+    "annotation_previews/preview_manifest.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotation_previews\\preview_manifest.json",
+      "sha256": "c9474bdb3539b7262132c4278ce1c1ce2c01ea6d3fb92ae49dd963288f289e2a"
+    },
+    "review/export_independent_review.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\review\\export_independent_review.json",
+      "sha256": "68eb8c24a9919f0398ac0ef97be266571bd7d5882af8681691301402678654d6"
+    },
+    "capture_metadata_update_receipt.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\capture_metadata_update_receipt.json",
+      "sha256": "ff321c32386c46dc5063a980b014b0a0383d616512f7abc28ebd86502d9d2574"
+    },
+    "review/metadata_confirmation_review.json": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\review\\metadata_confirmation_review.json",
+      "sha256": "c56ab9c6a2110291731d2b3a2e280bedcc423484f0afb4e6eb0a1a9187123ee7"
+    }
+  },
+  "preview_images": 472,
+  "independent_external_point_corrections": 31,
+  "GH_sideview_images_manually_corrected": 32,
+  "training_executed": false,
+  "model_weights_changed": false,
+  "split_assigned": false,
+  "human_certified_gold_labels": false,
+  "full_dataset_geometric_accuracy_accepted": false,
+  "limits": [
+    "132 joint-visible examples remain coarse annotations with explicit uncertainty.",
+    "Invisible points are null; they are not inverted from pressure.",
+    "Pressure labels are user-reported psi and not a verified calibrated reference measurement.",
+    "Folder names do not prove independent sessions or holdout status."
+  ],
+  "capture_metadata_confirmation": {
+    "date_local": "2026-11-02",
+    "scene_repositioned_between_groups": true,
+    "pressure_basically_stable": true,
+    "manual_focus_setting_unchanged": true,
+    "protected_geometry_pressure_unchanged": true,
+    "before_snapshot": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\versions\\before_capture_confirmation_20261102",
+    "current_annotation_sha256": "cb977f2b8f1b1324993982f9947314ae9a130c055cdcf90f65b5081d4ad22b7e",
+    "base_export_review_annotation_sha256": "d212ade35787f27ae0effba7e7251a399ceeabf41d204e6f8040d9d347d7c5b9"
+  },
+  "base_export_independent_checks_scope": "Original annotation version d212ade3; subsequent metadata-only update recorded separately, not a new geometric accuracy review.",
+  "metadata_updated_utc": "2026-11-01T18:35:03.850387+00:00"
+}

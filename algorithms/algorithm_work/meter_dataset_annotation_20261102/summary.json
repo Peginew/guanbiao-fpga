@@ -1,0 +1,41 @@
+{
+  "images": 472,
+  "groups": {
+    "A": 59,
+    "B": 59,
+    "C": 59,
+    "D": 59,
+    "E": 59,
+    "F": 59,
+    "G": 59,
+    "H": 59
+  },
+  "gauge_faces": 448,
+  "negative_faces": 24,
+  "bbox_visible": 448,
+  "hub_visibility": {
+    "visible": 411,
+    "absent": 24,
+    "unknown": 21,
+    "occluded": 16
+  },
+  "thin_visibility": {
+    "visible": 402,
+    "absent": 24,
+    "unknown": 29,
+    "occluded": 17
+  },
+  "joint_keypoints_visible": 383,
+  "coordinate_precision_tier": {
+    "coarse_visible_points": 132,
+    "bounded_visible_points": 251,
+    "not_applicable": 24,
+    "unknown_or_partial": 65
+  },
+  "user_reported_pressure_labels": 448,
+  "training_performed": false,
+  "raw_images_modified": false,
+  "validation_errors": 0,
+  "label_accuracy_is_not_model_accuracy": true,
+  "human_ground_truth_certified": false
+}

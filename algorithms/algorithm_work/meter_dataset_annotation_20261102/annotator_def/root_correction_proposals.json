@@ -1,0 +1,229 @@
+{
+  "schema": "annotation_correction_proposals_v1",
+  "created_utc": "2026-11-01T17:46:45.358679+00:00",
+  "source_annotation": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\annotation.json",
+  "source_annotation_sha256": "ca86e89e46a238f2a86eee928bb3e0c000f3fe645a25464a58bf6d27a82be335",
+  "corrections": [
+    {
+      "id": "A_031",
+      "keypoint": "hub",
+      "old_value": {
+        "xy": [
+          676.5,
+          333.5
+        ],
+        "visibility": "visible",
+        "uncertainty_px": 15,
+        "annotation_source": "ai_visual_review_with_opencv_assistance",
+        "precision_status": "coarse_AI_visual_reviewed_CV_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          678,
+          320
+        ],
+        "uncertainty_px": 5,
+        "annotation_source": "AI_manual_visual_native_grid_correction",
+        "precision_status": "AI_direct_mechanical_cap_visual_correction_not_user_ground_truth"
+      },
+      "sourcefile": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00056815_1793533126967504500_633667.png",
+      "sourcefileSHA256": "aa2cae2f8bd74fe103d12bca4796628b71716f822ae75d5ea7d0bc6164bc3c48",
+      "actual_visual_basis": "Native cap bounds approximately x655..700 y296..343; corrected pivot to metal cap centre rather than its lower edge/green printed logo direction. Cap highlight is not treated as the pivot.",
+      "evidence_native_grid": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\A_031_hub_finegrid.jpg",
+      "evidence_grid_sha256": "0cca4baca9afac2a2a496af855de49273a72a12135eb2f848f5ddb3eb25dcbd3",
+      "pressure_or_model_prediction_used": false,
+      "source_annotation_modified": false
+    },
+    {
+      "id": "A_040",
+      "keypoint": "hub",
+      "old_value": {
+        "xy": [
+          777.5,
+          331.5
+        ],
+        "visibility": "visible",
+        "uncertainty_px": 15,
+        "annotation_source": "ai_visual_review_with_opencv_assistance",
+        "precision_status": "coarse_AI_visual_reviewed_CV_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          765,
+          322
+        ],
+        "uncertainty_px": 5,
+        "annotation_source": "AI_manual_visual_native_grid_correction",
+        "precision_status": "AI_direct_mechanical_cap_visual_correction_not_user_ground_truth"
+      },
+      "sourcefile": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00060570_1793533252135420800_9bacce.png",
+      "sourcefileSHA256": "d7d4df3c32a3db799a9f3c9ca63553dc909c7c6c33cc46ea77395231a01967ae",
+      "actual_visual_basis": "Metal axis cap visible near x750..780 y305..340; old mark sits down-right at the cap edge. Corrected to the cap centre.",
+      "evidence_native_grid": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\A_040_hub_finegrid.jpg",
+      "evidence_grid_sha256": "927498605ec4bacdc2f426a8a587fb9dd6f55e493686b1c543a8092299ddf8d3",
+      "pressure_or_model_prediction_used": false,
+      "source_annotation_modified": false
+    },
+    {
+      "id": "A_043",
+      "keypoint": "hub",
+      "old_value": {
+        "xy": [
+          587.5,
+          371.5
+        ],
+        "visibility": "visible",
+        "uncertainty_px": 15,
+        "annotation_source": "ai_visual_review_with_opencv_assistance",
+        "precision_status": "coarse_AI_visual_reviewed_CV_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          580,
+          362
+        ],
+        "uncertainty_px": 5,
+        "annotation_source": "AI_manual_visual_native_grid_correction",
+        "precision_status": "AI_direct_mechanical_cap_visual_correction_not_user_ground_truth"
+      },
+      "sourcefile": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\A\\snapshot_00062110_1793533303468553000_38bd99.png",
+      "sourcefileSHA256": "6d81411314bb75c43e6d941a914057897f9925f687871eee3cadce5b943550ff",
+      "actual_visual_basis": "Visible metallic cap/black retaining-ring central region at x555..605 y336..388; old mark sits lower-right. Corrected to central mechanical axis.",
+      "evidence_native_grid": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\A_043_hub_finegrid.jpg",
+      "evidence_grid_sha256": "d2d08fb30bc4011977bf39425e6e64eef133e37d796420cc146a195894c2cbb7",
+      "pressure_or_model_prediction_used": false,
+      "source_annotation_modified": false
+    },
+    {
+      "id": "B_020",
+      "keypoint": "hub",
+      "old_value": {
+        "xy": [
+          594.5,
+          342.5
+        ],
+        "visibility": "visible",
+        "uncertainty_px": 15,
+        "annotation_source": "ai_visual_review_with_opencv_assistance",
+        "precision_status": "coarse_AI_visual_reviewed_CV_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          585,
+          325
+        ],
+        "uncertainty_px": 5,
+        "annotation_source": "AI_manual_visual_native_grid_correction",
+        "precision_status": "AI_direct_mechanical_cap_visual_correction_not_user_ground_truth"
+      },
+      "sourcefile": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00012597_1793534714278881600_5b5d34.png",
+      "sourcefileSHA256": "493176e9ada0b0d47aaac29d026e38ae73cc16b2f4e744a0bab871ac27c84d63",
+      "actual_visual_basis": "Visible cap and central screw indentation at approximately x585 y325. Old x594.5 y342.5 lies near lower/right cap edge; offset is not hidden by wider uncertainty.",
+      "evidence_native_grid": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\B_020_hub_finegrid.jpg",
+      "evidence_grid_sha256": "f9ed0fb7c5aa4a41a879194b72545e1c0242a0cb70ec51c250414cd8133358a3",
+      "pressure_or_model_prediction_used": false,
+      "source_annotation_modified": false
+    },
+    {
+      "id": "B_038",
+      "keypoint": "hub",
+      "old_value": {
+        "xy": [
+          663.5,
+          316.5
+        ],
+        "visibility": "visible",
+        "uncertainty_px": 15,
+        "annotation_source": "ai_visual_review_with_opencv_assistance",
+        "precision_status": "coarse_AI_visual_reviewed_CV_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          660,
+          306
+        ],
+        "uncertainty_px": 5,
+        "annotation_source": "AI_manual_visual_native_grid_correction",
+        "precision_status": "AI_direct_mechanical_cap_visual_correction_not_user_ground_truth"
+      },
+      "sourcefile": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00018855_1793534922880169900_d70ad2.png",
+      "sourcefileSHA256": "f56798ab770315f079409d3badb5380cb6532c7fba7e6bf2df113bb6bed3b201",
+      "actual_visual_basis": "Visible cap centre/central indentation near x660 y306; old y316.5 lies towards the lower rim. Corrected from native enlarged cap.",
+      "evidence_native_grid": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\B_038_hub_finegrid.jpg",
+      "evidence_grid_sha256": "3db587b0d1e069293526c798dd749bc1b6c146f41f58cba4d715fddd09ea6776",
+      "pressure_or_model_prediction_used": false,
+      "source_annotation_modified": false
+    },
+    {
+      "id": "B_043",
+      "keypoint": "hub",
+      "old_value": {
+        "xy": [
+          532.5,
+          393.5
+        ],
+        "visibility": "visible",
+        "uncertainty_px": 15,
+        "annotation_source": "ai_visual_review_with_opencv_assistance",
+        "precision_status": "coarse_AI_visual_reviewed_CV_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          524,
+          387
+        ],
+        "uncertainty_px": 5,
+        "annotation_source": "AI_manual_visual_native_grid_correction",
+        "precision_status": "AI_direct_mechanical_cap_visual_correction_not_user_ground_truth"
+      },
+      "sourcefile": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\B\\snapshot_00020643_1793534982484168200_fe80fb.png",
+      "sourcefileSHA256": "7f2a297ae3ac7dcf46e4ce3d86752978a54ac29f39758a352fe81fab200f1f96",
+      "actual_visual_basis": "Central dark indentation in bright metal cap near x524 y387; old point532.5,393.5 lies lower/right. Corrected native centre.",
+      "evidence_native_grid": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\B_043_hub_finegrid.jpg",
+      "evidence_grid_sha256": "42f3851c99eaf486740e3d51e81b6a163e7fbc1379cabc73616bad5e7f88f77b",
+      "pressure_or_model_prediction_used": false,
+      "source_annotation_modified": false
+    },
+    {
+      "id": "C_021",
+      "keypoint": "hub",
+      "old_value": {
+        "xy": [
+          390.5,
+          280.5
+        ],
+        "visibility": "visible",
+        "uncertainty_px": 15,
+        "annotation_source": "ai_visual_review_with_opencv_assistance",
+        "precision_status": "coarse_AI_visual_reviewed_CV_proposal"
+      },
+      "new_value": {
+        "visibility": "visible",
+        "xy": [
+          372,
+          287
+        ],
+        "uncertainty_px": 6,
+        "annotation_source": "AI_manual_visual_native_grid_correction",
+        "precision_status": "AI_direct_mechanical_cap_visual_correction_not_user_ground_truth"
+      },
+      "sourcefile": "D:\\资料归档\\FPGA采集素材\\hdmi_capture_20261018\\data_base\\C\\snapshot_00032769_1793537314314356900_bdfc23.png",
+      "sourcefileSHA256": "07932546556a081f73ede18e443df76602809a7d000aa2782fbdf7a557e7207c",
+      "actual_visual_basis": "Strong horizontal side view: mechanical cap protrudes left of printed face. Visible cap centre near x372 y287; old x390.5,y280.5 follows printed-plane geometry and is not the cap centre.",
+      "evidence_native_grid": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\C_021_hub_finegrid.jpg",
+      "evidence_grid_sha256": "ce3f74d17246de3e6dcd7f89f560b4a9158831bbe4deb9c9c1fd8c14cb61b208",
+      "pressure_or_model_prediction_used": false,
+      "source_annotation_modified": false
+    }
+  ],
+  "scope": "Seven native-image mechanical hub corrections only; root may apply with old-value audit. No ABC or DEF source annotation changed by this reviewer.",
+  "training_performed": false,
+  "original_images_modified": false,
+  "limits": "AI direct visual cap-centre measurements with5..6px uncertainty; not independently measured subpixel mechanical truth."
+}

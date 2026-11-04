@@ -1,0 +1,45 @@
+{
+  "status": "ANNOTATED_GH_NO_TRAIN",
+  "images": 118,
+  "groups": {
+    "G": 59,
+    "H": 59
+  },
+  "image_kinds": {
+    "readable_gauge": 96,
+    "absent": 6,
+    "unreadable_gauge": 16
+  },
+  "hub_visibility": {
+    "visible": 106,
+    "absent": 6,
+    "unknown": 2,
+    "occluded": 4
+  },
+  "thin_terminal_visibility": {
+    "visible": 105,
+    "absent": 6,
+    "unknown": 3,
+    "occluded": 4
+  },
+  "bbox_count": 112,
+  "pressure_known_gauge": 112,
+  "high_uncertainty_blur_ids": [
+    "G_052",
+    "H_052"
+  ],
+  "UNKNOWN_not_fabricated": [
+    "G_055",
+    "H_055",
+    "H_029(thin_terminal_only)"
+  ],
+  "annotation_sha256": "ac333e49a5265ae4d2785a1027d564c7e362b5e750654cfefc4d1c2dc73be88e",
+  "training_executed": false,
+  "source_images_modified": false,
+  "sideview_native_grid_corrections": 32,
+  "sideview_initial_assisted_proposals_failed_independent_review": true,
+  "final_physical_tip_recheck": [
+    "H_029 unknown rather than rim point",
+    "H_042 corrected to native (199,357)"
+  ]
+}

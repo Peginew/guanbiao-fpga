@@ -1,0 +1,13 @@
+{
+  "date_local": "2026-11-03",
+  "amends": "task_contract.json calibration_domain_question only",
+  "reason": "Original angular domain used endpoint medians and excluded observed qualified TRAIN angles despite predicted pressure still inside the frozen physical support.",
+  "rule_frozen_before_new_validation": "Training angle convex hull intersect inverse of the SAME linear calibration2.5..12psi pressure support; inward integerQ16 bounds.",
+  "candidate_default": "New expanded sixpoint model plus TRAIN_CORRECTED domain",
+  "not_selected_using_G_or_C_outcomes": true,
+  "is_reading_permission_domain_extension": true,
+  "network_effect_control": "Evaluate old/newpointmodels atold domain. Independently evaluate old/corrected domain on the SAME frozen predictions and C numeric code.",
+  "unchanged": ["calibration slope/intercept", "2.5..12psi range", "score thresholds", "old hub/polar weights and integer kernels", "reference priority", "source/token lifecycle"],
+  "no_H_replay": true,
+  "no_post_C_changes": true
+}

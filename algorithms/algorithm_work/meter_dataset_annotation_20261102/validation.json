@@ -1,0 +1,20 @@
+{
+  "schema": "annotation_integrity_v1",
+  "source_count": 472,
+  "record_count": 472,
+  "all_source_images_sha256_unchanged": true,
+  "errors": [],
+  "error_count": 0,
+  "training_performed": false,
+  "checked_utc": "2026-11-01T18:06:31.746434+00:00",
+  "annotation_part_sha256": {
+    "annotator_abc": "ca86e89e46a238f2a86eee928bb3e0c000f3fe645a25464a58bf6d27a82be335",
+    "annotator_def": "1a17020f4e5d5364f4582e7762e1c86dd1e74593424930f3857832cb49839a45",
+    "annotator_gh": "ac333e49a5265ae4d2785a1027d564c7e362b5e750654cfefc4d1c2dc73be88e"
+  },
+  "independent_correction_file_sha256": {
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_def\\root_correction_proposals.json": "cd2ab3e749b23fa8c3ec9bd5105e36bf8254d6103889fea0071d10ce62a7bdc8",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_dataset_annotation_20261102\\annotator_abc\\def_root_corrections.json": "1a514015c314185a3755473ecb1bb001091f225e8f61c4433ebdf167fc65b7dc"
+  },
+  "independent_correction_count": 31
+}

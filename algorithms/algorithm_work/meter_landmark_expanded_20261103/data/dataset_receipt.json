@@ -1,0 +1,93 @@
+{
+  "status": "READY_AB_EXPANDED295_FROZEN_DEF_AND_G_PRESERVED",
+  "AB_images": 118,
+  "train_images": 295,
+  "validation_images": 59,
+  "train_active_images": 267,
+  "train_true_negatives": 15,
+  "AB_head_statistics": {
+    "outer_psi_5_text_centroid": {
+      "coordinates": 97,
+      "visibility_heads": 105,
+      "unknown": 13
+    },
+    "outer_psi_10_text_centroid": {
+      "coordinates": 89,
+      "visibility_heads": 107,
+      "unknown": 11
+    },
+    "outer_psi_15_text_centroid": {
+      "coordinates": 101,
+      "visibility_heads": 108,
+      "unknown": 10
+    },
+    "upper_basketball_logo_centroid": {
+      "coordinates": 100,
+      "visibility_heads": 109,
+      "unknown": 9
+    },
+    "middle_soccer_logo_centroid": {
+      "coordinates": 75,
+      "visibility_heads": 109,
+      "unknown": 9
+    },
+    "lower_striped_ball_print_centroid": {
+      "coordinates": 99,
+      "visibility_heads": 109,
+      "unknown": 9
+    }
+  },
+  "combined_head_statistics": {
+    "outer_psi_5_text_centroid": {
+      "coordinates": 238,
+      "visibility_heads": 261,
+      "unknown": 34
+    },
+    "outer_psi_10_text_centroid": {
+      "coordinates": 234,
+      "visibility_heads": 261,
+      "unknown": 34
+    },
+    "outer_psi_15_text_centroid": {
+      "coordinates": 242,
+      "visibility_heads": 259,
+      "unknown": 36
+    },
+    "upper_basketball_logo_centroid": {
+      "coordinates": 244,
+      "visibility_heads": 265,
+      "unknown": 30
+    },
+    "middle_soccer_logo_centroid": {
+      "coordinates": 197,
+      "visibility_heads": 265,
+      "unknown": 30
+    },
+    "lower_striped_ball_print_centroid": {
+      "coordinates": 241,
+      "visibility_heads": 265,
+      "unknown": 30
+    }
+  },
+  "AB_original_PNG_SHA_checked": 118,
+  "mask_coordinate_checks": 1652,
+  "roundtrip_max_error_ROI_px": 0,
+  "old_DEF_label_lines_byte_identical": true,
+  "old_DEF_pixels_byte_identical": true,
+  "G_validation_file_byte_identical": true,
+  "C_H_images_or_points_read": false,
+  "G_used_as_training_or_templates": false,
+  "no_training_or_firmware_or_device_operations": true,
+  "labels_are_human_gold": false,
+  "labels_frozen_no_further_changes": true,
+  "outputs_sha256": {
+    "train_landmarks.jsonl": "0161e8ef407390e11b744278a131b1c817c0947661f3b8cab8a5f60ed52d387c",
+    "validation_landmarks.jsonl": "0d015ff8e03c56b8bceab1c27d85240b07fe014cbb0fa1c5fd6c897aa6a5600b",
+    "ab_landmarks.jsonl": "93f7d0c203a7f65183568fb3ca1cca126e1f4dcd0f9f5cbaa6e8879595b2f7ba",
+    "roi_cache_train.npz": "827abe60d4b3fcf9ce7f7316b868bbff4a4b0bc5ae802360d910482a28d9e7b3",
+    "visual_visibility_review_ledger.json": "41fc2ce01b395feb52bd4521b4d5d6e84f58cabbe911b417e0180396c745ad8e"
+  },
+  "preserved_DEF_labels_sha256": "91a95a3b04f3697a260ccc911243bdf68efbeffd27b8b05eab857d6fc7651f38",
+  "preserved_DEF_cache_sha256": "123f2eafe94db27b688d068437a34a39fb17028dfdc7dbf6f0f5d59faa007708",
+  "same_ROI_adapter_sha256": "2f3bc1b8c640742f09a8ab2a7bed30707cd6064197c0da7430556e3338d45cc4"
+}

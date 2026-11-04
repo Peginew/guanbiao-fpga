@@ -1,0 +1,152 @@
+{
+  "status": "TRAINED_MCU_AND_MATCHED_FPGA_OFFLINE_DELIVERED_BOARD_VALIDATION_PENDING",
+  "date_local": "2026-11-03",
+  "unit": "psi",
+  "selected": "PRIOR_B857_U7_TRAIN_CORRECTED",
+  "delivery": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\pair_completion.json",
+    "sha256": "b492b819ed41f2859e1fdba1854b7ab77a5e506c169ccbe6d0fe53eb82b6bec8"
+  },
+  "archive": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\delivery\\Trained_MCU_FPGA_Pair_20261103.zip",
+    "sha256": "65c14082ef137324a5ee1abb48bd76cad00416f9dacccb7d85671a7982c9ab39"
+  },
+  "software_release": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\final_software_release.json",
+    "sha256": "18b5d167e8b18700db08c825a1416b3be9e6cbc3e1f87c9873d615f5894e4351"
+  },
+  "reviews": {
+    "software": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\review\\independent_software_review.json",
+      "sha256": "1b759efb0a0a783f1006e45bc490350d5bbae68edafb4e134d248bdb0a3a89c0"
+    },
+    "C": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\review\\final_C_review.json",
+      "sha256": "f1bc661fc33979499b5eaa4982384bc804d3b39c1720895da4b674305a8a8047"
+    },
+    "physical": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\guided_final_physical_review.json",
+      "sha256": "b3f5f04fa51ec9c73c321d5aa8e42dc4ed04a32ab0612266ceffbac37e10e0e4"
+    },
+    "bitgen": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_mcu_training_20261103\\review\\physical_source\\bitgen_identity_review.json",
+      "sha256": "848c028ca96b654b286d6124b92e26b47d8a4dbfaa6bbb47542749c9b7b343e2"
+    },
+    "package": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\review\\final_pair_delivery_review.json",
+      "sha256": "ed3f8df3965979e29e6ed045d5e90480f3263e197643cccd4dc08e4b03a2585e"
+    }
+  },
+  "trained_models": {
+    "hub": 1202,
+    "polar": 1009,
+    "print_landmarks": 1222,
+    "total": 3433,
+    "weights_embedded_in_complete_MCU_firmware": true
+  },
+  "selected_training_groups": [
+    "D",
+    "E",
+    "F"
+  ],
+  "expanded_training_attempt": {
+    "groups": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F"
+    ],
+    "images": 295,
+    "selected": false,
+    "reason": "No increase in correct G reads and additional wrong read under frozen gate"
+  },
+  "comparison": {
+    "scope": "sameC128manual-face-boxHDMIproxyROI,finalCrunonce,notboard",
+    "baseline": "ring-reference plus already-trained hub/polar",
+    "gauges": 56,
+    "negative": 3,
+    "baseline_outputs": 19,
+    "trained_outputs": 31,
+    "old_outputs_unchanged": true,
+    "new_outputs": 12,
+    "withdrawn": 0,
+    "MAE_psi": 0.16847278225806453,
+    "within_half_psi": 31,
+    "rejected_gauges": 25,
+    "negative_outputs": 0
+  },
+  "current_pressure_support_psi": [
+    2.5,
+    12
+  ],
+  "FPGA": {
+    "project": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark.al",
+    "bit": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\bitgen_20261103_130229_485636\\reader_landmark.bit",
+      "sha256": "d88297760b8b41be1466bf4a5ddeb18e4391c3601f2f529b788712b1de5469bd"
+    },
+    "DB": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186\\reader_landmark_pr.db",
+      "sha256": "def86a7b478657109e6a55cd17f1d6fb079dc2814d7d9b52949b2ac1a8b1a4a5"
+    },
+    "resources": {
+      "Slice": 20042,
+      "FF": 22911,
+      "ERAM": 102,
+      "DSP": 38,
+      "PLL": 4,
+      "MCU": 1
+    },
+    "remaining_Slice": 1174,
+    "rover_1200_preference_deficit": 26,
+    "setup_slack_ns": 0.102,
+    "hold_slack_ns": 0.02,
+    "setup_TNS_ns": 0,
+    "hold_TNS_ns": 0
+  },
+  "MCU": {
+    "ELF": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.elf",
+      "sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc"
+    },
+    "raw": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.bin",
+      "bytes": 47480,
+      "sha256": "fb31905ac395832ae5bba6a3cfb603339cc02df5d654bd3f18edb3ee8cdce135",
+      "crc32": "8cd49fe9"
+    },
+    "coldboot_payload": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\U33_E00000_E0FFFF_reader_payload.bin",
+      "flash_offset": 14680064,
+      "bytes": 65536,
+      "sha256": "24025d127c2ed12b41ee338d6a2d426308a2689bc0987141e121f8563f6385f1",
+      "policy": "Dedicated sector224 replacement, requires matchedPSIfeaturebit. No device write by builder."
+    },
+    "DLL": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\host\\meter_landmark_reader.dll",
+      "sha256": "21f3f341116be6a5e214cbd5bc61d1529edb5c9c0cb6b9da4941c9bc6f391505"
+    }
+  },
+  "compatibility": {
+    "needs_both_new_bit_and_new_firmware": true,
+    "compatible_with_old_bb1f_or_80f9": false,
+    "baseline": "80f9 recovery, not bb1f REF stable3s"
+  },
+  "pending": [
+    "Real automatic CSI ROI domain",
+    "Actual MCU cycles and Flash XIP throughput",
+    "New pair coldboot",
+    "Live axis/needle/READ accuracy and coverage",
+    "Broader complex-environment robustness"
+  ],
+  "hardware_actions": false,
+  "board_validation": false,
+  "production_accuracy_accepted": false,
+  "broad_robustness_goal_met": false,
+  "historical_H_errors_preserved": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\release_limitations.json",
+    "sha256": "ce6840ba96bc0e54e50f4429ec09fd3c6601cf81a0d67a818cf8ca9ea52bc8ca"
+  },
+  "no_C_or_H_retuning_after_freeze": true
+}

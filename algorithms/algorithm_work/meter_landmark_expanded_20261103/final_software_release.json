@@ -1,0 +1,359 @@
+{
+  "status": "TRAINED_MCU_SOFTWARE_FROZEN_FINAL_C_BENEFIT_CONFIRMED_MATCHED_FPGA_PENDING",
+  "date_local": "2026-11-03",
+  "unit": "psi",
+  "selected": "PRIOR_B857_U7_TRAIN_CORRECTED",
+  "neural_models": {
+    "hub_parameters": 1202,
+    "polar_parameters": 1009,
+    "six_print_parameters": 1222,
+    "total_parameters": 3433,
+    "all_trained_weights_embedded": true
+  },
+  "firmware": {
+    "ELF": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.elf",
+      "sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc"
+    },
+    "raw": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\meter_landmark_reader.bin",
+      "bytes": 47480,
+      "sha256": "fb31905ac395832ae5bba6a3cfb603339cc02df5d654bd3f18edb3ee8cdce135",
+      "crc32": "8cd49fe9"
+    },
+    "coldboot_payload": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\build\\U33_E00000_E0FFFF_reader_payload.bin",
+      "flash_offset": 14680064,
+      "bytes": 65536,
+      "sha256": "24025d127c2ed12b41ee338d6a2d426308a2689bc0987141e121f8563f6385f1",
+      "policy": "Dedicated sector224 replacement, requires matchedPSIfeaturebit. No device write by builder."
+    },
+    "DLL": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain\\host\\meter_landmark_reader.dll",
+      "sha256": "21f3f341116be6a5e214cbd5bc61d1529edb5c9c0cb6b9da4941c9bc6f391505"
+    }
+  },
+  "TCM": {
+    "bytes": 49152,
+    "bss_start": 134229816,
+    "end": 134263760,
+    "stack_limit": 134264832,
+    "stack_bytes": 2048,
+    "gap": 1072,
+    "arena_bytes": 32768
+  },
+  "G_development": {
+    "final_prior_corrected": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 29,
+      "gauge_outputs": 29,
+      "negative_outputs": 0,
+      "MAE_psi": 0.1880387931034483,
+      "within_025psi": 21,
+      "within_05psi": 28,
+      "within_1psi": 29,
+      "over_05psi_ids": [
+        "G_042"
+      ],
+      "gauge_rejected": 27,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_027",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_043",
+        "G_045",
+        "G_046",
+        "G_048"
+      ]
+    },
+    "same_C_ring_corrected": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 21,
+      "gauge_outputs": 21,
+      "negative_outputs": 0,
+      "MAE_psi": 0.14955357142857142,
+      "within_025psi": 16,
+      "within_05psi": 21,
+      "within_1psi": 21,
+      "over_05psi_ids": [],
+      "gauge_rejected": 35,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_029",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_043",
+        "G_045",
+        "G_046"
+      ]
+    },
+    "historical_prior_old_domain": {
+      "gauges": 56,
+      "negative": 3,
+      "outputs": 26,
+      "gauge_outputs": 26,
+      "negative_outputs": 0,
+      "MAE_psi": 0.18194110576923078,
+      "within_025psi": 20,
+      "within_05psi": 25,
+      "within_1psi": 26,
+      "over_05psi_ids": [
+        "G_042"
+      ],
+      "gauge_rejected": 30,
+      "output_ids": [
+        "G_008",
+        "G_009",
+        "G_013",
+        "G_014",
+        "G_015",
+        "G_016",
+        "G_017",
+        "G_018",
+        "G_019",
+        "G_020",
+        "G_021",
+        "G_022",
+        "G_025",
+        "G_026",
+        "G_027",
+        "G_029",
+        "G_031",
+        "G_032",
+        "G_034",
+        "G_037",
+        "G_038",
+        "G_039",
+        "G_040",
+        "G_041",
+        "G_042",
+        "G_048"
+      ]
+    }
+  },
+  "C_final": {
+    "integer_ring_only": {
+      "total_rows": 59,
+      "gauges": 56,
+      "negative": 3,
+      "gauge_outputs": 19,
+      "gauge_rejected": 37,
+      "negative_outputs": 0,
+      "pressure_evaluable_outputs": 19,
+      "output_without_known_pressure": 0,
+      "MAE_psi": 0.15748355263157895,
+      "error_bands": [
+        {
+          "absolute_error_max_psi": 0.25,
+          "count": 15,
+          "over_ids": [
+            "C_015",
+            "C_028",
+            "C_029",
+            "C_041"
+          ]
+        },
+        {
+          "absolute_error_max_psi": 0.5,
+          "count": 19,
+          "over_ids": []
+        },
+        {
+          "absolute_error_max_psi": 1.0,
+          "count": 19,
+          "over_ids": []
+        }
+      ],
+      "output_ids": [
+        "C_004",
+        "C_005",
+        "C_008",
+        "C_010",
+        "C_011",
+        "C_013",
+        "C_015",
+        "C_016",
+        "C_017",
+        "C_018",
+        "C_022",
+        "C_023",
+        "C_028",
+        "C_029",
+        "C_034",
+        "C_035",
+        "C_037",
+        "C_040",
+        "C_041"
+      ],
+      "all_gauges_are_denominator": true
+    },
+    "trained_sixpoint_fusion": {
+      "total_rows": 59,
+      "gauges": 56,
+      "negative": 3,
+      "gauge_outputs": 31,
+      "gauge_rejected": 25,
+      "negative_outputs": 0,
+      "pressure_evaluable_outputs": 31,
+      "output_without_known_pressure": 0,
+      "MAE_psi": 0.16847278225806453,
+      "error_bands": [
+        {
+          "absolute_error_max_psi": 0.25,
+          "count": 23,
+          "over_ids": [
+            "C_015",
+            "C_024",
+            "C_026",
+            "C_027",
+            "C_028",
+            "C_029",
+            "C_039",
+            "C_041"
+          ]
+        },
+        {
+          "absolute_error_max_psi": 0.5,
+          "count": 31,
+          "over_ids": []
+        },
+        {
+          "absolute_error_max_psi": 1.0,
+          "count": 31,
+          "over_ids": []
+        }
+      ],
+      "output_ids": [
+        "C_004",
+        "C_005",
+        "C_008",
+        "C_009",
+        "C_010",
+        "C_011",
+        "C_013",
+        "C_014",
+        "C_015",
+        "C_016",
+        "C_017",
+        "C_018",
+        "C_020",
+        "C_022",
+        "C_023",
+        "C_024",
+        "C_026",
+        "C_027",
+        "C_028",
+        "C_029",
+        "C_030",
+        "C_032",
+        "C_033",
+        "C_034",
+        "C_035",
+        "C_037",
+        "C_038",
+        "C_039",
+        "C_040",
+        "C_041",
+        "C_044"
+      ],
+      "all_gauges_are_denominator": true
+    }
+  },
+  "C_new_outputs": 12,
+  "C_withdrawn": [],
+  "evidence": {
+    "selection": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\final_selection.json",
+      "sha256": "0f6e7b59739249fe9681f01fe12247f006c416b24ee76f859929f789b0959c96"
+    },
+    "frozen_manifest": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\FINAL_FROZEN_SELECTED.json",
+      "sha256": "9df9e85087bb36269ab42ce26673d7e6c58b3b3b93f8b7a8c4b20bbe5514cfc1"
+    },
+    "once_marker": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\C_TEST_ONCE.json",
+      "sha256": "484448846e46bd5bfaad4972403c798ba4787938374c2c2c6e038cd17de0a769"
+    },
+    "C_report": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_final_test\\FINAL_C_ONCE\\final_C_evaluation.json",
+      "sha256": "7c5c7b944e9ff60faf064f646b23dfdb741a3d1845edaf1fdac672dab9fa96ce"
+    },
+    "software_review": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\review\\independent_software_review.json",
+      "sha256": "1b759efb0a0a783f1006e45bc490350d5bbae68edafb4e134d248bdb0a3a89c0"
+    },
+    "C_review": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\review\\final_C_review.json",
+      "sha256": "f1bc661fc33979499b5eaa4982384bc804d3b39c1720895da4b674305a8a8047"
+    }
+  },
+  "data_scope": {
+    "C_read_only_after_FINAL_FROZEN": true,
+    "C_used_for_training_selection_threshold_calibration": false,
+    "C_prior_annotation_QA_exposure": true,
+    "blind_human_gold_test": false,
+    "canonical_document_parsed_only_to_select_C": true,
+    "ABH_images_opened": false,
+    "ABH_rows_selected_for_execution": false,
+    "H_inference_rerun": false,
+    "H_scores_changed": false,
+    "pressure_input_to_model": false,
+    "native_keypoints_used": false,
+    "C_print_point_labels_required": false,
+    "ROI_bbox": "manualcanonicalfaceboxproxy,notactualFPGAautolocalizer",
+    "negative_proxy": "sameCsessionmedianfaceboxeswithdiameter160..499",
+    "execution_scope": "FrozenC128ROIconsumer,nophysicalMMIO/clientorMCUcycletest",
+    "actual_CSI_ROI_equivalence_proven": false,
+    "industrial_FAR_proven": false,
+    "metric_bands_are_descriptive_not_user_tolerances": true
+  },
+  "board_validation": false,
+  "hardware_actions": false,
+  "needs_matching_FPGA_FEATURE_064_PSI_RETURN_124": true,
+  "compatible_with_current_bb1f": false,
+  "broad_robustness_goal_met": false,
+  "notes": [
+    "Reference comparison is ring-only plus already-trained hub/polar, not a full random network baseline.",
+    "Final C31/56 permits,25 rejects,0/3 negative outputs; error bands descriptive not specified user accuracy.",
+    "G reused development has one error above0.5psi, so not all outputs universally correct.",
+    "Actual MCU cycles, XIP throughput, coldboot and automatic same-camera ROI remain unmeasured."
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "schema": "independent_annotation_export_semantic_review_v1",
+  "status": "PASS_EXPORT_SEMANTICS_ONLY",
+  "reviewed_utc": "2026-11-01T18:09:23.543159+00:00",
+  "annotation_sha256": "d212ade35787f27ae0effba7e7251a399ceeabf41d204e6f8040d9d347d7c5b9",
+  "files": {
+    "annotations.json": "d212ade35787f27ae0effba7e7251a399ceeabf41d204e6f8040d9d347d7c5b9",
+    "annotations.csv": "e0e0f69e95840abd56f115219e96aa83d0b790efd90454f92e8d641cc62e14b2",
+    "annotations.jsonl": "ae29c2008143b0766fd66b8c2bc17b48e80ad64af36d99eb95e6144f214fa483",
+    "annotation_policy.json": "cfd6287da51c583f080144d9b6ae9a11c8e4a585550e06423881ca54b54d82a9",
+    "source_manifest.json": "083c58ab0d78605e1ee716cf182bcb68fb7b51fda9f1f11545290b028c04efc9",
+    "validation.json": "e587c4bdc5062abebe00f7357ff26749fed2131527dee69541f9bec9e14d57f8",
+    "assemble_annotations.py": "c52a835d810f41e2accc5153e8feaa70f9ccd6a9fdc4b208ba6385a1978f8215"
+  },
+  "scope": "Export semantics, source identity, pressure provenance, visibility, uncertainty preservation and correction trace; not full geometric accuracy acceptance.",
+  "training_executed": false,
+  "source_images_modified": false,
+  "geometric_accuracy_full_dataset_pass_claimed": false,
+  "limitations": [
+    "AI-assisted labels are not human-certified gold truth.",
+    "Known pressure is user-reported psi; reference measurement uncertainty remains unknown.",
+    "Sessions and splits remain unassigned and independence unconfirmed.",
+    "H029 thin terminal explicitly UNKNOWN despite known pressure."
+  ],
+  "checks": [
+    {
+      "name": "two_explicit_psi_schedules",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "descending_order",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "scope_and_no_training_claim",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "no_independent_or_human_truth_claim",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "472_unique_images_59_per_group",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "all_472_raw_file_sha256_rechecked",
+      "pass": true,
+      "evidence": {
+        "files_rehashed": 472,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "integrity_export_has_no_errors",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "each_group_8_ranks_6_conditions_unique_and_challenges",
+      "pass": true,
+      "evidence": {
+        "groups": {
+          "A": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          },
+          "B": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          },
+          "C": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          },
+          "D": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          },
+          "E": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          },
+          "F": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          },
+          "G": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          },
+          "H": {
+            "main_8x6": 48,
+            "unique_slots": 48,
+            "negative": 3,
+            "challenge": 8
+          }
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "retained_main_capture_sequence_and_replacement_holes",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "seven_named_supplements_with_explicit_slots_and_C_12psi",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "24_negatives_have_no_target_pressure_or_points",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "psi_to_bar_is_only_unit_conversion_no_independent_measurement",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "single_circular_object_user_limit_retained_no_fabrication",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "exact_current_part_hashes_match_assembly_receipt",
+      "pass": true,
+      "evidence": {
+        "annotator_abc": "ca86e89e46a238f2a86eee928bb3e0c000f3fe645a25464a58bf6d27a82be335",
+        "annotator_def": "1a17020f4e5d5364f4582e7762e1c86dd1e74593424930f3857832cb49839a45",
+        "annotator_gh": "ac333e49a5265ae4d2785a1027d564c7e362b5e750654cfefc4d1c2dc73be88e"
+      }
+    },
+    {
+      "name": "all_keypoints_uncertainty_and_review_overwrites_preserve_trace",
+      "pass": true,
+      "evidence": {
+        "errors": [],
+        "external_corrections": 31
+      }
+    },
+    {
+      "name": "visibility_masks_null_and_native_point_bounds",
+      "pass": true,
+      "evidence": {
+        "errors": [],
+        "visibility_counts": {
+          "hub": {
+            "visible": 411,
+            "absent": 24,
+            "unknown": 21,
+            "occluded": 16
+          },
+          "thin_terminal": {
+            "visible": 402,
+            "absent": 24,
+            "unknown": 29,
+            "occluded": 17
+          }
+        }
+      }
+    },
+    {
+      "name": "review_status_not_blank",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "H029_unresolvable_physical_tip_not_fabricated_and_H042_corrected",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "csv_is_472_matching_rows_including_nulls_and_uncertainty",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "name": "jsonl_exact_record_equivalence",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "assembler_has_only_file_data_hash_csv_imports",
+      "pass": true,
+      "evidence": [
+        "pathlib",
+        "collections",
+        "csv",
+        "hashlib",
+        "json",
+        "datetime"
+      ]
+    },
+    {
+      "name": "no_pressure_or_prediction_geometry_truth_claims",
+      "pass": true,
+      "evidence": null
+    },
+    {
+      "name": "snapshot_unchanged_during_independent_audit",
+      "pass": true,
+      "evidence": null
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "status": "ACTUAL_EXPANDED_FULL_ELF_LINK_AND_STATIC_STACK_PASS",
+  "ELF_sha256": "d938a6cb164e30aee22022b8f94a6da9a548c18edb41c69e34faf918374b7549",
+  "raw_bytes": 47480,
+  "TCM": {
+    "bytes": 49152,
+    "bss_start": 134229816,
+    "end": 134263760,
+    "stack_limit": 134264832,
+    "stack_bytes": 2048,
+    "gap": 1072,
+    "arena_bytes": 32768
+  },
+  "gap_after_heap_alignment": 1072,
+  "stack": {
+    "reserved": 2048,
+    "conservative_bound": 1584,
+    "remaining": 464,
+    "frames": {
+      "main": 64,
+      "mroi_process_one_with_consumer": 192,
+      "finish": 368,
+      "mlg_consensus_q8": 592,
+      "solve": 112,
+      "project": 32,
+      "mlg_atan2_deg_q16": 48
+    },
+    "exception_entry": 80,
+    "exception_C_handler": 32,
+    "helper_slack": 64,
+    "actual_MCU_watermark_measured": false
+  },
+  "stack_usage_sources": [
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\landmark_geometry.su",
+      "sha256": "d832f26f226c5d9ac34665a1a96c3dca0fc1f458105f0755081f7169f7b35c91"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\meter_pose_frontend.su",
+      "sha256": "bf3206657618f5628a8c26756d3bb78e670b2fc519a5a791a3dff95b2cd5b479"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\meter_pose_matcher.su",
+      "sha256": "2b2f3c2c72cb4526d6c6d396b90aa3f3db8c9600334ee3bd1894653a04bc6e4e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\minimal_app.su",
+      "sha256": "6c897ba839dcc3d1a4ebfac52cd2f56d1057f2fb3b2e04b721d0face2f4e9772"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\minimal_libc.su",
+      "sha256": "7874a1eee15b020393fd7fb99644b5ef4caab699ee9ec8bd3bd279a1376a59ae"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\mroi_c4.su",
+      "sha256": "863f16907c00af680c08319a286a26a86ba3255e9d791f41346fd4584f324fa2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\mroi_client.su",
+      "sha256": "998ba035bcde45efb5b9e1093e4c36e24dd486e031141f6b26c3638a1291a236"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\mroi_decode.su",
+      "sha256": "862183eda894fee47eb1da0ec20528736ba38ef53dd1a7521dc9f299d6a7556f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\platform_binding.su",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\reader_numeric.su",
+      "sha256": "3385bc563710b8e4661e5ab225776ecf8cbb7d01dd86ba4e3d63cc102832b084"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\reader_runtime.su",
+      "sha256": "7e1846c0ab5d6e14b7629dda120d9fbe79c128357ae9c8b5fc4211191b065e03"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\reader_sigmoid.su",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware\\build\\soc_plat.su",
+      "sha256": "d71212cd8e5850a260da9f6659d9e17d7cbcd8653a81062069043cb5f1ad3c8f"
+    }
+  ],
+  "Flash_sector_bytes": 65536,
+  "Flash_read_or_compute_cycles_measured": false,
+  "calibration_domain": {
+    "default": "TRAIN_CORRECTED",
+    "contract_sha256": "e141b2db1cb3a261bd2639bc08b94817e368a5c5d236974cd344626cf3eb533e",
+    "amendment_sha256": "eba26c29ebe813a3d9ce0bff96a1431dd9d6019a750342124fdcb002b3339046",
+    "header_sha256": "53f6472862be4a2c1ea6f854a8d2a7c1722fe8aa10dabc34c958f44e9e780406",
+    "Q16": [
+      10564968,
+      18954848
+    ],
+    "old_domain_comparison_kept": true,
+    "linear_coefficients_pressure_and_score_unchanged": true
+  },
+  "H_rerun": false,
+  "C_group_opened": false,
+  "device": false
+}
