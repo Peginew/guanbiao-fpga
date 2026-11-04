@@ -32,7 +32,7 @@
 
 ## 下载完整原图
 
-完整图像见[原图Release](https://github.com/Peginew/guanbiao-fpga/releases/tag/instrument-images-20261104)。图像以不压缩、不转码的ZIP保存，再切分为16MiB分卷；所有分卷、整ZIP及497个图像条目均有SHA256校验。`image_archive.json`列出下载地址、长度及校验值，`image_index.json`记录每张原图的SHA256。
+完整图像见[原图Release](https://github.com/Peginew/guanbiao-fpga/releases/tag/instrument-images-20261104)。图像以不压缩、不转码的ZIP保存，再切分为混合大小分卷：已上传前缀保留16MiB，后续分卷不超过4MiB。所有分卷、整ZIP及497个图像条目均有SHA256校验。请以`image_archive.json`逐项列出的顺序、下载地址、实际长度及校验值为准，勿假设固定分卷大小；`image_index.json`记录每张原图的SHA256。
 
 安装Python 3.9或更新版本后，在仓库根目录运行以下命令；无需第三方Python包：
 
@@ -40,7 +40,7 @@
 python datasets/download_images.py
 ```
 
-脚本下载并逐片校验、合并ZIP、校验全部原图，再恢复到`datasets/images/`。已有同SHA图片直接跳过；已有不同内容会报错并拒绝覆盖。分卷缓存默认放在系统临时目录`GuanBiao-images-20261104`，便于断点后重用；建议预留约2.5GB磁盘空间。完整ZIP大小为847,403,594字节，共51片。
+脚本依manifest中的实际大小下载并逐片校验、合并ZIP、校验全部原图，再恢复到`datasets/images/`。已有同SHA图片直接跳过；已有不同内容会报错并拒绝覆盖。分卷缓存默认放在系统临时目录`GuanBiao-images-20261104`，便于断点后重用；建议预留约2.5GB磁盘空间。完整ZIP大小仍为847,403,594字节，分卷调整不改变原图或整ZIP的SHA256。
 
 也可手动按文件名顺序合并Release分卷为`images.zip`，再离线校验恢复：
 

@@ -10,12 +10,12 @@
 | 帧率／帧数 | 30 帧/秒／1397 帧（容器记录） |
 | 时长 | 46.566667 秒 |
 | 完整文件大小 | 1,367,634,672 字节 |
-| 分片数量 | 82 片，前 81 片各 16 MiB，末片 8,680,176 字节 |
+| 分片数量 | 150 片；前 59 片各 16 MiB，其后 90 片各 4 MiB，末片 291,568 字节 |
 | 完整文件 SHA-256 | `f98285a9b6915c34db108fce03d00d2b027157da8c7f24488347dc702ffbeb4a` |
 
 ## 下载与恢复
 
-1. 从 Release 下载 `raw_capture.avi.part0001` 至 `raw_capture.avi.part0082`，全部放进同一个文件夹。它们是原始字节分片，不是 ZIP，不能单片播放。
+1. 按本目录最新 `raw_video_manifest.json` 的 `parts` 清单，从 Release 下载全部分片，并放进同一个文件夹。当前采用前段 16 MiB、后段 4 MiB 的混合分片；文件名连续编号，它们是原始字节分片，不是 ZIP，不能单片播放。若曾下载旧版分片，请按新清单重新下载第 60 片及其后文件，避免同名旧分片混入。
 2. 保留本目录的 `restore_video.py` 和 `raw_video_manifest.json`。使用 Python 3.9 或更新版本，在仓库根目录运行：
 
 ```powershell
@@ -40,6 +40,6 @@ python .\datasets\raw_video\restore_video.py --parts-dir .\raw_video_parts --out
 
 - `raw_video_manifest.json`：完整视频信息及每片大小、SHA-256和下载地址前缀。
 - `SHA256SUMS.parts.txt`：方便外部校验工具使用的逐片 SHA-256。
-- `LOCAL_VERIFICATION.json`：发布准备阶段的实际本地往返恢复记录。82 片与完整视频均校验通过，临时恢复副本随后删除，原文件未修改；此记录不代表远端上传已完成。
+- `LOCAL_VERIFICATION.json`：发布准备阶段的实际本地往返恢复记录。当前清单的全部 150 片与完整视频均校验通过，临时恢复副本随后删除，原文件未修改；此记录不代表远端上传已完成。
 
 该视频用于保留采集来源与复现实验，不单独构成模型精度或整机功能的验收结论。
