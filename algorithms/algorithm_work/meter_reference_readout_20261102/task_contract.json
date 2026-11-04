@@ -1,0 +1,44 @@
+{
+  "date_local": "2026-11-02",
+  "user_authorization": "Proceed autonomously with the revised recommendation, assign technical workers and an independent supervisor",
+  "goal": "Improve correct PSI readout using the actual available 128x128 ROI interface; do not conflate pointer visibility with read permission",
+  "scope": "Offline input-domain audit, bounded visual annotation review, joint failure diagnostics, then one justified reference-direction candidate and cost verification",
+  "baseline": {
+    "hub_parameters": 1202,
+    "needle_parameters": 1009,
+    "needle_checkpoint_sha256": "d139ecdc1059829be18e23eaf5d503d5c9d59a798d2986774441f88cc1804882",
+    "roi128_pose": "Frozen multi-reference annular candidate B",
+    "development_readings": 21,
+    "development_gauge_images": 56,
+    "development_MAE_psi": 0.15740682142050108
+  },
+  "data": {
+    "train": ["D", "E", "F"],
+    "development": "G",
+    "H": "SEALED_NOT_OPENED",
+    "ABC": "UNUSED_RESERVE",
+    "canonical_labels": "UNCHANGED; review notes are a separate sidecar",
+    "actual_board_ROI_dumps": "Domain evidence only, never silently introduced into this round training"
+  },
+  "pre_training_gate": [
+    "One bounded review of approximately 24 representative images and available ROI provenance",
+    "Joint and overlapping gate failures, not first-failure counts interpreted as independent causes",
+    "Label visibility and uncertainty; algorithmic static registration is silver evidence, never human pose ground truth",
+    "Freeze one candidate input/output, training budget and deployment costs before using G results"
+  ],
+  "selection": {
+    "primary": "Final PSI output coverage, error distribution, wrong acceptance, and per-ID gains and losses under fixed permissions",
+    "diagnostic": ["hub and needle error", "static-reference reliability", "source-domain discrepancy"],
+    "error_bands": [0.25, 0.5, 1.0],
+    "bands_are_user_final_tolerance": false,
+    "no_net_benefit": "Keep existing weights and pose; preserve the failed experiment without further G-driven tuning"
+  },
+  "resource_scope": "All weights, activations, preprocessing, reference data, stack, linked code and runtime; parameter count alone is not fit evidence",
+  "no_actions": ["No board downloads", "No SRAM trials", "No Flash writes", "No MCU firmware replacement", "No vehicle motion", "No modification of concurrent OSD or REF projects"],
+  "roles": {
+    "root": "Technical lead, implementation and scheduling",
+    "roi_adapter": "Input-domain and bounded visual-label audit",
+    "training_adapter": "Joint failure analysis and reference substitutions",
+    "training_review": "Independent supervisor, direction corrections and result verification"
+  }
+}

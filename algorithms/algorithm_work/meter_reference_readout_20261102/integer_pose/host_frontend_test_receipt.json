@@ -1,0 +1,28 @@
+{
+  "status": "PASS_SYNTHETIC_C_FRONTEND_Q5_INTEGER_KERNELS",
+  "counts": {
+    "normalize_pixels": 262144,
+    "inplace_normalize_pixels": 262144,
+    "bilinear_Q5_pixels": 77312,
+    "profile_elements": 138240,
+    "inplace_profile_elements": 138240,
+    "fused_profile_elements": 69120
+  },
+  "signed_positive_negative_RNE_half_ties": true,
+  "both_saturation_ends": true,
+  "exact_alias_normalize_and_profile": true,
+  "full_signed_S16_Q5_domain_sampled": true,
+  "normalized_workspace_bytes": 1408,
+  "profile_workspace_bytes": 360,
+  "coordinate_generation_or_outside_count_implemented": false,
+  "model_training": false,
+  "real_dataset_inputs_read": false,
+  "hardware_actions": false,
+  "source_sha256": {
+    "meter_pose_frontend.c": "8379ac344fa7a8194e89a65155d4768113d857c572a2a26b714b67b9f96233cc",
+    "meter_pose_frontend.h": "fa51a5683d367a0dfb6741834166e67b32c4c6829d9ae2189352cd5477f1711a",
+    "meter_pose_frontend.dll": "62f0e6d99dddeebe002de12d4e69f7ede8e356dc60f8bcf1fb0002f235eaf096",
+    "pose_frontend.py": "4f6d09ada61eca5634172447971046c33d50ceb130178b130fe83690fb578120",
+    "host_frontend_tests.py": "abb396712ccc2d3f53aef406929e9679c542e1e718c47fd1c899dc3d4e421d3c"
+  }
+}

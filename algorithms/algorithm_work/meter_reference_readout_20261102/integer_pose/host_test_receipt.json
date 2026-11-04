@@ -1,0 +1,196 @@
+{
+  "status": "PASS_SYNTHETIC_NUMPY_TRIM_AND_FROZEN_TEMPLATE_FLOAT_THRESHOLDS",
+  "cases": [
+    {
+      "name": "random_counts_[1]",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": -14,
+      "profile": 1,
+      "template": 0
+    },
+    {
+      "name": "random_counts_[2]",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": -20,
+      "profile": 2,
+      "template": 0
+    },
+    {
+      "name": "random_counts_[3]",
+      "candidate_checks": 49,
+      "accepted": true,
+      "delta": 19,
+      "profile": 2,
+      "template": 0
+    },
+    {
+      "name": "random_counts_[5]",
+      "candidate_checks": 49,
+      "accepted": true,
+      "delta": 22,
+      "profile": 1,
+      "template": 0
+    },
+    {
+      "name": "random_counts_[17]",
+      "candidate_checks": 49,
+      "accepted": true,
+      "delta": -15,
+      "profile": 1,
+      "template": 0
+    },
+    {
+      "name": "random_counts_[63]",
+      "candidate_checks": 49,
+      "accepted": true,
+      "delta": 5,
+      "profile": 2,
+      "template": 0
+    },
+    {
+      "name": "random_counts_[121, 120]",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": -8,
+      "profile": 0,
+      "template": 1
+    },
+    {
+      "name": "random_counts_[1600, 1599]",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": -18,
+      "profile": 1,
+      "template": 1
+    },
+    {
+      "name": "random_counts_[1634, 1633]",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": 13,
+      "profile": 1,
+      "template": 1
+    },
+    {
+      "name": "random_counts_[4320, 4319]",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": -11,
+      "profile": 0,
+      "template": 0
+    },
+    {
+      "name": "planted_plus7_two_count_tie_first_profile_template",
+      "candidate_checks": 49,
+      "accepted": true,
+      "delta": 7,
+      "profile": 2,
+      "template": 0
+    },
+    {
+      "name": "center14_rejected",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": 0,
+      "profile": 255,
+      "template": 255
+    },
+    {
+      "name": "outside217_rejected",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": 0,
+      "profile": 255,
+      "template": 255
+    },
+    {
+      "name": "outside216_accepted",
+      "candidate_checks": 49,
+      "accepted": true,
+      "delta": 7,
+      "profile": 0,
+      "template": 0
+    },
+    {
+      "name": "search_endpoint_plus24_rejected",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": 24,
+      "profile": 0,
+      "template": 0
+    },
+    {
+      "name": "equal_all_shifts_pick_minus24_far_minus18",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": -24,
+      "profile": 0,
+      "template": 0
+    },
+    {
+      "name": "maximum_difference255_trim_keep3456",
+      "candidate_checks": 49,
+      "accepted": false,
+      "delta": -24,
+      "profile": 0,
+      "template": 0
+    }
+  ],
+  "candidate_partition_winner_checks": 833,
+  "frozen_template_score_boundary_checks": 14,
+  "frozen_template_margin_boundary_checks": 3096,
+  "context_bytes": 1104,
+  "template_struct_host_bytes": 32,
+  "result_bytes": 32,
+  "compile_command": [
+    "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\gcc.exe",
+    "-std=c99",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-shared",
+    "-static-libgcc",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\meter_pose_matcher.c",
+    "-o",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\meter_pose_matcher.dll"
+  ],
+  "compile_exit": 0,
+  "compile_stderr": "",
+  "generic_exact_rational_versus_float64_edge_examples": [
+    {
+      "best_sum": 2,
+      "far_sum": 290,
+      "keep": 125,
+      "exact_rational": true,
+      "original_float64": false
+    },
+    {
+      "best_sum": 5,
+      "far_sum": 293,
+      "keep": 125,
+      "exact_rational": true,
+      "original_float64": false
+    },
+    {
+      "best_sum": 18,
+      "far_sum": 306,
+      "keep": 125,
+      "exact_rational": true,
+      "original_float64": false
+    }
+  ],
+  "generic_edge_limit": "Current frozen keep counts1280/1307 pass both exact-rational and float64 threshold tests. Arbitrary new template counts are not certified IEEE cancellation equivalent; do not replace frozen templates silently.",
+  "source_sha256": {
+    "meter_pose_matcher.c": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2",
+    "meter_pose_matcher.h": "89b125040d65d58433d034406f748e7e16d462e4521a49d01d614db862480921",
+    "meter_pose_matcher.dll": "2e00613b7d3b2b82ebeaddb090ccdf2ec6170507b718c0c2dfa7a8b4726a429c",
+    "host_tests.py": "0c52be8c28e7336118371a01321e961f4cec810ec16f2c46c36718848e6bbb79"
+  },
+  "original_project_compiled": false,
+  "model_training": false,
+  "real_dataset_inputs_read": false,
+  "hardware_actions": false
+}

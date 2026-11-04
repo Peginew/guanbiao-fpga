@@ -1,0 +1,265 @@
+{
+  "status": "ROI128_COMPLEX_SCENE_PSI_COVERAGE_IMPROVED_PC_ONLY_MCU_FIT_PENDING",
+  "completed_utc": "2026-11-02T05:15:33.698467+00:00",
+  "primary_unit": "psi",
+  "task": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102",
+  "selected": {
+    "learning_weights": "Keep previous hub1202 and needle1009; new robust training is not adopted",
+    "pose_method": "B multi-reference normalized ROI128 ring",
+    "reading_file": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_B_with_old_B_readout_psi.json",
+    "calibration_file": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_robust_readout_20261102\\pose\\candidate_B_calibration_psi.json",
+    "runtime_input": "Only same128U8ROI plus actual predicted hub and locator radius; no native frame, queryGT points or querypressure"
+  },
+  "comparison": {
+    "input_scope": "Same ROI128 PC proxy, not physical board",
+    "baseline": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 12,
+      "coverage_gauge": 0.21428571428571427,
+      "valid_reads_with_bounded_both_points": 12,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.12971877779584373,
+      "reading_median_abs_error_psi": 0.1472449656116055,
+      "reading_max_abs_error_psi": 0.2916287160826183,
+      "accurate_accepted_within_tolerance": 12,
+      "wrong_accepted_over_tolerance": 0,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 10,
+        "within_0_5_psi": 12,
+        "within_1_0_psi": 12,
+        "bins": {
+          "up_to_0_25": 10,
+          "over_0_25_to_0_5": 2,
+          "over_0_5_to_1_0": 0,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "LEGACY_ROI128_RING_AMBIGUOUS": 28,
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+        "PREDICTED_VALUE_OUTSIDE_TRAIN_PRESSURE_SUPPORT": 1,
+        "PREDICTION_NOT_PERMITTED": 17
+      },
+      "static_pose_supported": 16
+    },
+    "selected": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 21,
+      "coverage_gauge": 0.375,
+      "valid_reads_with_bounded_both_points": 21,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.15740682142050108,
+      "reading_median_abs_error_psi": 0.12991795921179872,
+      "reading_max_abs_error_psi": 0.45787038715820216,
+      "accurate_accepted_within_tolerance": 21,
+      "wrong_accepted_over_tolerance": 0,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 16,
+        "within_0_5_psi": 21,
+        "within_1_0_psi": 21,
+        "bins": {
+          "up_to_0_25": 16,
+          "over_0_25_to_0_5": 5,
+          "over_0_5_to_1_0": 0,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "ROI128_RING_AMBIGUOUS": 13
+      },
+      "static_pose_supported": 32
+    },
+    "new_reading_IDs": [
+      "G_011",
+      "G_013",
+      "G_016",
+      "G_018",
+      "G_021",
+      "G_022",
+      "G_026",
+      "G_028",
+      "G_039",
+      "G_040",
+      "G_045"
+    ],
+    "withdrawn_reading_IDs": [
+      "G_003",
+      "G_043"
+    ],
+    "net_valid_gain": 9,
+    "model_only_native_PC": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 32,
+      "coverage_gauge": 0.5714285714285714,
+      "valid_reads_with_bounded_both_points": 32,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.1965236527089626,
+      "reading_median_abs_error_psi": 0.11967504063429235,
+      "reading_max_abs_error_psi": 0.9132449009750783,
+      "accurate_accepted_within_tolerance": 31,
+      "wrong_accepted_over_tolerance": 1,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 23,
+        "within_0_5_psi": 29,
+        "within_1_0_psi": 32,
+        "bins": {
+          "up_to_0_25": 23,
+          "over_0_25_to_0_5": 6,
+          "over_0_5_to_1_0": 3,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "NO_STATIC_PRINT_POSE": 9,
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 4,
+        "PREDICTION_NOT_PERMITTED": 14
+      },
+      "static_pose_supported": 42
+    },
+    "new_joint_ROI128": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 21,
+      "coverage_gauge": 0.375,
+      "valid_reads_with_bounded_both_points": 21,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.15609589263388632,
+      "reading_median_abs_error_psi": 0.12098942582113636,
+      "reading_max_abs_error_psi": 0.5083647942232048,
+      "accurate_accepted_within_tolerance": 21,
+      "wrong_accepted_over_tolerance": 0,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 18,
+        "within_0_5_psi": 20,
+        "within_1_0_psi": 21,
+        "bins": {
+          "up_to_0_25": 18,
+          "over_0_25_to_0_5": 2,
+          "over_0_5_to_1_0": 1,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 14,
+        "ROI128_RING_AMBIGUOUS": 16
+      },
+      "static_pose_supported": 31
+    }
+  },
+  "scene_progress": {
+    "each_scene_images": 8,
+    "dim": [
+      3,
+      5
+    ],
+    "backlight_or_local_reflection": [
+      0,
+      4
+    ],
+    "mild_left": [
+      1,
+      2
+    ],
+    "mild_right": [
+      0,
+      1
+    ],
+    "severe_challenges": [
+      0,
+      0
+    ]
+  },
+  "quality_policy": {
+    "error_bands_psi": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "bands_are_not_user_confirmed_acceptance_target": true,
+    "candidate_axes_and_direction_display_independent_of_READ": true,
+    "tip_endpoint_is_not_measured": true
+  },
+  "limits": {
+    "prospective_H_opened": false,
+    "ABC_reserve_used": false,
+    "new_learning_net_improved_final_readout": false,
+    "MCU_integer_pose_implemented": false,
+    "TCM_stack_code_cycle_fit_verified": false,
+    "physical_board_acceptance": false,
+    "hardware_or_OSD_or_Flash_changed": false,
+    "manual_bbox_HDMI_proxy_not_actual_auto_locator": true
+  },
+  "next_necessary": "Fixed-point ring/profile kernel and source-identical PSI reference, buffer reuse and actual MCU link/cycle review before board deployment",
+  "files_sha256": {
+    "task_contract.json": "7e97cf61c0e3dd9cf49d45815bb93c159c38469b8c39b2861fd518bd38fea03d",
+    "baseline_failure_decomposition.json": "8ad95dd20afb06b23a8104e88f0b51a29393425a4f49c84c816e2a48e9e6abe4",
+    "training/run_001/completion.json": "3f89207fdfabf5efbe1950f4f3d0e421919c6d42ae9eea111b927a584e6bd7bc",
+    "training/run_001/effect_diagnostics.json": "49a03af90482d16afe5bef9353e17d1d29956ff2f5cc05bd86d1e5575c99a21e",
+    "pose/completion.json": "fc8cc99d5d5279fad5d919ee8604ec827b0af210424015f96b681b54d337b0fe",
+    "pose/roi_pose_candidates.py": "ea9db1a8886158181b7916d619cf6371bf6d1d836423397f21515fe22e7c1166",
+    "pose/candidate_config.json": "2b12f64af23a9de1852a03f0885b143776d58402126b93111102b60b195d5b37",
+    "pose/template_setup.json": "4983c1f85d307268ba48c51c9874ea2517387e0ac2279ac72a537d70fb53f83d",
+    "pose/candidate_B_pose.jsonl": "6581235488bfd4953d9690f7464aa612b619c8c46454db4b3a65bb750246dff0",
+    "pose/candidate_B_calibration_psi.json": "890d5ceb5cdf1ca87a6fcb7456cbf4b67123491f0ca60fac84fed5893c937491",
+    "pose/candidate_B_with_old_B_readout_psi.json": "170a2eff32047fb13d3e6c24ac831e1d31da9dfa76c24c7c127cf689091db237",
+    "pose/baseline_ROI128_old_B_readout_psi.json": "dc87d985b84950cf6f6504eacb5d5069a2b759f2d27fa05ac92d4e7178d338c9",
+    "pose/scene_readout_comparison.json": "101f9d12d1430130f980c30e80e2ce3bcdcc6ea9a5dfbe911f3cf9b0eff581be",
+    "pose/cost_and_timing.json": "0abd0e18caaf6d998eb6cf935e7fe8cfd0eb299459bcdc7c4ea2695eca63965b",
+    "pose/joint_new_model/summary.json": "004a97d677eb1a641a4aa970996336ffb64cef93d5ce5d2e8fd8b84e311cb647",
+    "pose/joint_new_model/input_contract.json": "24b8c8abe264227976e55971926067b0ff6f78da008398eff21b191bca59098a",
+    "model_only_native_pose_psi.json": "6584446880e4d88ba99ac0e038e5b868f32ac1f968395f213837fbbc3c3a26b4",
+    "geometry/projective_readout.py": "d60797095e0e2fe38068d77258cd73558a629a115583da8342622e3ad88adc8c",
+    "geometry/baseline_B_projective_diagnostic.json": "79b2dd46fe04f7af5c80c63916cae3b19d7fa022355ccb705ed31ff24c5628ff",
+    "comparison/index.html": "30d41f922f29d13619b49cefe59442d4e49b22eee9dccf1520bfa6b5e4ec2a3a",
+    "comparison/summary.json": "026027608e677d34abfedfe130db93686299e4b829f66e60d19f95c7586faba1",
+    "comparison/manifest.json": "fa178b781fe5b830b1f2d2d7a222ac8290c555f38420db850ee74f76fe1e880f",
+    "comparison/visualization_receipt.json": "f17dcb2e614290aba345335580f8f376981511d9cb105b188c9ee74cb7bd589a",
+    "review/robust_chain_admission.json": "b589a551c7be510ad2b55154fb6e89d1be5e15a150291259ddcf1f9a026f961e",
+    "review/robust_chain_results_review.json": "425086d01a8de35e5eb51ef8023f870d260ae14e2d80d35732c2235a2fa30edc",
+    "review/pose_readout_review.json": "0e9c40157aaa7df602614777af84e9bd6558dcacbdde87c24f536d662d0705e8",
+    "review/psi_delta_review.json": "1d9688e4c96d64375e6c1e06d425eb5ae7e76a75d0208aafc6971bb59b6a2911",
+    "training/train_robust_chain.py": "fa812fa91d3c1901f676dc433af764152485f70744a26e08098774c06ad69de9",
+    "training/preflight.json": "cfc31e1273f319bde1dfe204317aead380efa1235c3acace3d70ee242a1982e2",
+    "pose/run_joint_new_model.py": "4116a8028d0d12ee4cbdcf7564f35ac33243a26159e89d8e0e467e6bf4d161cd",
+    "pose/calibrate_and_score.py": "1c9451bc7f873db878f6ef5eb017a77121a035bb137a2e437738a36cb6348bd5",
+    "comparison/build_comparison.py": "17dcc04e97429e23c677a1eb0b80b72f62743cfbeaf5f383e520800bc411bce3",
+    "training/run_001/hub/best_weights.pt": "7759e6ad91b73a23aef4126f6601f6eb612f5c957d61d6f2a363da97430944f4",
+    "training/run_001/polar/best_weights.pt": "ddb2cbf610c1f68c27847e21f23080e7ffe575698722553d5e28f14633aa423d"
+  }
+}

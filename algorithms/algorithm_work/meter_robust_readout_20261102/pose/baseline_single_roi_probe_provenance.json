@@ -1,0 +1,45 @@
+{
+  "status": "BASELINE_IS_PRIOR_PC_ROI128_PROBE_NOT_BOARD_BASELINE",
+  "name_zh": "上一轮固定单模板环形ROI128探测，对照用；不是已验收板载基线",
+  "original_script": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\readout\\roi128_pose_probe.py",
+  "original_script_sha256": "db95f1a33adf32e6b93e7c410464d6727099f2a4870a672a0ce97ff26e63542e",
+  "original_result_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\readout\\roi128_pose_probe_records.jsonl",
+  "original_result_sha256": "e8c48879de294533350e67114513b693b659fc41746546dea691d50b7b2828dd",
+  "original_summary_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_pointer_readout_20261102\\readout\\roi128_pose_probe_summary.json",
+  "original_summary_sha256": "4e581b22c1b65bda0e916dc3057214d8e471af999d6c688320251325f131d47c",
+  "original_reference_creation": "2026-11-02 earlier meter_pointer_readout PC task; reference D002 ROI from same newdataset, frozen oldB predicted hub; no pretrained or boardvalidated poseimplementation.",
+  "fixed_parameters": {
+    "reference_id": "D_002",
+    "radial_bands": 12,
+    "radial_fractions": [
+      0.4,
+      0.88
+    ],
+    "angular_bins": 360,
+    "search_deg": [
+      -24,
+      24
+    ],
+    "reference_fixed_excluded_needle_sectors_deg": [
+      281,
+      101
+    ],
+    "reference_sector_halfwidth_deg": 24,
+    "feature_mask_reference_gradient_min": 8,
+    "per_radial_mean_mean_absolute_normalization": true,
+    "trim_largest_residual_fraction": 0.2,
+    "min_score": 0.6,
+    "min_margin": 0.015,
+    "max_outside_fraction": 0.05,
+    "center_or_scale_search": false
+  },
+  "how_this_round_used": "No baseline inference rerun; original frozenpose records reused; SIFT diagnostic fields removed fromruntime-facingcopy; fresh D/E/F visualangle+PSI empiricalcalibration fitted usingthispose, thenG oldB angles evaluated.",
+  "new_readout_calibration_is_not_prior_board_calibration": true,
+  "native_SIFT_runtime_not_used": true,
+  "same_resource_or_board_validation_claim": false,
+  "inference_model_query_hubs": "oldB polar_angle/run001 predictions; same checkpointpair as otherpose-onlycomparisons",
+  "joint_model_query_hubs": "Newrobust training/run001/polar predictions reexecuted pose; fixedold train templates are setupconstants only.",
+  "G_used_to_pick_parameters": false,
+  "H_opened": false,
+  "hardware_actions": false
+}

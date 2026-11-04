@@ -1,0 +1,123 @@
+{
+  "candidate": "STATIC_PRINT_ROLL_CNN_1",
+  "seed": 1106,
+  "optimizer_steps": 1600,
+  "train_weight_update_groups": [
+    "D",
+    "E"
+  ],
+  "internal_step_selection_group": "F",
+  "final_development_group": "G",
+  "H_opened": false,
+  "ABC_opened": false,
+  "labels": "Train-only native static-print registration SILVER relative roll; NOT human pose ground truth",
+  "unknown_pose": "IGNORE, not null class; PSI never provides pose/point labels",
+  "silver_filter": {
+    "accepted": true,
+    "min_inliers": 12,
+    "min_unique": 10,
+    "min_hull": 0.08,
+    "max_reprojection_px": 0.8,
+    "max_anisotropy": 1.15
+  },
+  "input": "128U8 ROI -> fixed9x9 local contrast -> annulus from frozen predicted hub/locator radius",
+  "annulus_radius_fraction": [
+    0.28,
+    0.95
+  ],
+  "local_contrast_gain": 3,
+  "direction_bins_deg": [
+    -40.0,
+    -38.0,
+    -36.0,
+    -34.0,
+    -32.0,
+    -30.0,
+    -28.0,
+    -26.0,
+    -24.0,
+    -22.0,
+    -20.0,
+    -18.0,
+    -16.0,
+    -14.0,
+    -12.0,
+    -10.0,
+    -8.0,
+    -6.0,
+    -4.0,
+    -2.0,
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    26.0,
+    28.0,
+    30.0,
+    32.0,
+    34.0,
+    36.0,
+    38.0,
+    40.0
+  ],
+  "null_class": "True no-gauge images only",
+  "target_sigma_deg": 2.5,
+  "batch_size": 16,
+  "learning_rate": 0.002,
+  "augmentation": {
+    "rotation_degrees": [
+      -24,
+      24
+    ],
+    "scale": [
+      0.97,
+      1.03
+    ],
+    "translation_pixels": [
+      -1.5,
+      1.5
+    ],
+    "contrast": [
+      0.8,
+      1.2
+    ],
+    "brightness": [
+      -10,
+      10
+    ],
+    "random_annular_sector_probability": 0.3,
+    "random_sector_width_degrees": [
+      10,
+      35
+    ]
+  },
+  "selection": "Minimum F silver-direction cross entropy with fixed deterministic +/-12deg views; no F pressure or G score",
+  "fixed_pose_permission": {
+    "non_null_probability_min": 0.8,
+    "conditional_stddev_deg_max": 5.0,
+    "abs_roll_deg_max_exclusive": 24.0,
+    "hub_center_distance_max": 20.0,
+    "roll_distribution_is_not_calibrated_probability": true
+  },
+  "model_baseline": "Frozen original1202 hub + original1009 needle; no hub changes, no polar rebuilding required",
+  "calibration": "Train-only visual directions and user PSI, same original linear median-anchor procedure; coordinate change is explicit",
+  "experiment_budget": "One1600-step run, no G-driven retraining or threshold changes",
+  "hardware_actions": false,
+  "deployment_status": "PC candidate only; full integer/linked MCU fit pending",
+  "parameters": 6226,
+  "weight_update_items": 80,
+  "internal_selection_items": 21,
+  "source_code_sha256": "7f99338774091a7c8d2e69d344bd976102b9e089e801e80ff816b448235900f1",
+  "source_silver_sha256": "efb64fc24613b2ffb6d9cf1beb2b7fb169b0fa4ce28495cd961a749827dcf063",
+  "prepared_train_sha256": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+  "old_G_predictions_used_for_training": false
+}

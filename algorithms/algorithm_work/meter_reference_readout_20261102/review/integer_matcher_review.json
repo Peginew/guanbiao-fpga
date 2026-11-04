@@ -1,0 +1,97 @@
+{
+  "status": "PASS_FROZEN_MATCHER_CORE_NOT_FULL_MCU_PIPELINE",
+  "checks": 1528,
+  "fixtures": [
+    {
+      "id": "D_002",
+      "accepted": true,
+      "roll": 0,
+      "reason": 0
+    },
+    {
+      "id": "E_002",
+      "accepted": true,
+      "roll": -2,
+      "reason": 0
+    },
+    {
+      "id": "F_003",
+      "accepted": true,
+      "roll": 8,
+      "reason": 0
+    },
+    {
+      "id": "G_004",
+      "accepted": false,
+      "roll": 0,
+      "reason": 1
+    },
+    {
+      "id": "G_018",
+      "accepted": true,
+      "roll": 15,
+      "reason": 0
+    },
+    {
+      "id": "G_024",
+      "accepted": false,
+      "roll": 0,
+      "reason": 1
+    },
+    {
+      "id": "G_040",
+      "accepted": true,
+      "roll": 9,
+      "reason": 0
+    },
+    {
+      "id": "G_052",
+      "accepted": false,
+      "roll": 24,
+      "reason": 3
+    }
+  ],
+  "source_sha256": {
+    "meter_pose_matcher.c": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2",
+    "meter_pose_matcher.h": "89b125040d65d58433d034406f748e7e16d462e4521a49d01d614db862480921",
+    "verify_matcher.py": "475ef253e143bec9a39709e115d0d0fd8508eccdf92cd2868d9c43e9722140e3",
+    "c_matcher_verification.json": "43b62f11cd15018e57c788e6a374e0159a5e9a8e5008f4b044ba49213cf16785",
+    "c_matcher_readout_psi.json": "f4b1b60b9f3b4964c1417a86fa16717bb79d6616eed2955cbc95ee4c160d2d52",
+    "core_completion.json": "8b36aa2ce90b3f376b4f73925fff9cbcd6665d40c0f24b27bf6ed107d05046b7"
+  },
+  "independent_rebuild_command": [
+    "C:/Users/Edward/Desktop/mingw64/bin/gcc.exe",
+    "-std=c99",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-shared",
+    "-static-libgcc",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\meter_pose_matcher.c",
+    "-o",
+    "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\review\\matcher_independent_rebuild.dll"
+  ],
+  "independent_DLL_sha256": "ba0956532127543cd8b8ecebaae2b0f3fdbc7fe71cc6a7406dfc5b9412110dac",
+  "context_bytes": 1104,
+  "fixed_template_keeps": [
+    1307,
+    1280
+  ],
+  "max_comparison_product": 3045703680,
+  "generic125_exact_rational_not_IEEE_cancellation_equivalent": true,
+  "preserved_PSI": {
+    "valid": 21,
+    "MAE_psi": 0.15740682142050108
+  },
+  "RV32_object_scope": "Independently parsed RISC-V32 relocatable ELF1548B text,zero allocated rodata/data/BSS and onlymemset unresolved; compiler stack file max single frame96B. Context/profile/templates/callers/libc are not included. Object is not full application link.",
+  "remaining": [
+    "Full integer frontend not proven by frozen float profile fixtures",
+    "Combined scratch lifetimes and actual ELF/link/stack fit pending",
+    "Host timing is not MCU cycle measurement",
+    "No hardware/source-frame domain validation"
+  ],
+  "model_training": false,
+  "board_actions": false,
+  "H_or_ABC_opened": false
+}

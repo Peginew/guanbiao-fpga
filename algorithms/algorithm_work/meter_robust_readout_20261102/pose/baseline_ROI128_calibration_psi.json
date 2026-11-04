@@ -1,0 +1,618 @@
+{
+  "schema": "roi128_static_print_train_only_PSI_calibration_v1",
+  "primary_unit": "psi",
+  "pose_candidate": "baseline_ROI128",
+  "slope_psi_per_degree": 0.07417524589962239,
+  "intercept_psi": -9.414651484249317,
+  "branch_center_deg": 224.78165744919028,
+  "supported_angle_interval_deg": [
+    163.0251417353067,
+    290.15569809405105
+  ],
+  "supported_pressure_interval_psi": [
+    2.5,
+    12.0
+  ],
+  "anchors": [
+    {
+      "reference_psi": 2.5,
+      "median_reference_angle_deg": 163.0251417353067,
+      "images": 7
+    },
+    {
+      "reference_psi": 3.5,
+      "median_reference_angle_deg": 171.79625272558695,
+      "images": 7
+    },
+    {
+      "reference_psi": 4,
+      "median_reference_angle_deg": 194.18380807853106,
+      "images": 2
+    },
+    {
+      "reference_psi": 5,
+      "median_reference_angle_deg": 190.21675890497124,
+      "images": 5
+    },
+    {
+      "reference_psi": 5.5,
+      "median_reference_angle_deg": 195.87460215768547,
+      "images": 1
+    },
+    {
+      "reference_psi": 6.5,
+      "median_reference_angle_deg": 212.98461119302306,
+      "images": 5
+    },
+    {
+      "reference_psi": 7,
+      "median_reference_angle_deg": 217.10090754621223,
+      "images": 1
+    },
+    {
+      "reference_psi": 8,
+      "median_reference_angle_deg": 234.8646066077011,
+      "images": 4
+    },
+    {
+      "reference_psi": 8.5,
+      "median_reference_angle_deg": 242.86369657175186,
+      "images": 1
+    },
+    {
+      "reference_psi": 9.5,
+      "median_reference_angle_deg": 253.20376935756997,
+      "images": 7
+    },
+    {
+      "reference_psi": 10,
+      "median_reference_angle_deg": 264.26733896814295,
+      "images": 2
+    },
+    {
+      "reference_psi": 11,
+      "median_reference_angle_deg": 272.04943063218883,
+      "images": 7
+    },
+    {
+      "reference_psi": 11.5,
+      "median_reference_angle_deg": 283.18132350554424,
+      "images": 1
+    },
+    {
+      "reference_psi": 12,
+      "median_reference_angle_deg": 290.15569809405105,
+      "images": 6
+    }
+  ],
+  "fit_measurements": [
+    {
+      "id": "D_002",
+      "image_angle_deg": 287.4776801638209,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 287.4776801638209,
+      "reference_psi": 12,
+      "source_sha256": "b650acf60fd2ef3fdacca1d8e1aea3aea6fd3d45d77ef2900ccaa95a9318455d",
+      "reference_angle_unwrapped_deg": 287.4776801638209
+    },
+    {
+      "id": "D_003",
+      "image_angle_deg": 286.1874999590581,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 286.1874999590581,
+      "reference_psi": 12,
+      "source_sha256": "8d1fcaebee037f6a4c82dfec9ab7f1dc12bb7130d03b67254586b7628b1c493d",
+      "reference_angle_unwrapped_deg": 286.1874999590581
+    },
+    {
+      "id": "D_004",
+      "image_angle_deg": 286.1051420841489,
+      "relative_print_roll_deg": 1.0,
+      "reference_angle_deg": 285.1051420841489,
+      "reference_psi": 12,
+      "source_sha256": "9f20391f04da6db93269ee858ee8f6b4b950617ce5bf7bb40aba4a6d95a0f36c",
+      "reference_angle_unwrapped_deg": 285.1051420841489
+    },
+    {
+      "id": "D_008",
+      "image_angle_deg": 275.9654747551783,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 275.9654747551783,
+      "reference_psi": 11,
+      "source_sha256": "534a5596bac89f7e8eaa0935a7589f08fcf2c807035120f59156d5c4e042b047",
+      "reference_angle_unwrapped_deg": 275.9654747551783
+    },
+    {
+      "id": "D_009",
+      "image_angle_deg": 274.02335231903334,
+      "relative_print_roll_deg": 1.0,
+      "reference_angle_deg": 273.02335231903334,
+      "reference_psi": 11,
+      "source_sha256": "b9c44a2d0494d8378b4fd2792296f230f5a45a3950cf9f3ad312d7756fce6928",
+      "reference_angle_unwrapped_deg": 273.02335231903334
+    },
+    {
+      "id": "D_010",
+      "image_angle_deg": 275.70529631034333,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 275.70529631034333,
+      "reference_psi": 11,
+      "source_sha256": "087b968dba3bb6e5161b0240b934d6a116bc77d654624f0fb8d38e5203676ada",
+      "reference_angle_unwrapped_deg": 275.70529631034333
+    },
+    {
+      "id": "D_013",
+      "image_angle_deg": 253.53883251772226,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 253.53883251772226,
+      "reference_psi": 9.5,
+      "source_sha256": "e4faf9de936f4300e9173573bd0fdb22fdd2953815644aaca5b76f46a2fe076b",
+      "reference_angle_unwrapped_deg": 253.53883251772226
+    },
+    {
+      "id": "D_014",
+      "image_angle_deg": 257.20376935756997,
+      "relative_print_roll_deg": 4.0,
+      "reference_angle_deg": 253.20376935756997,
+      "reference_psi": 9.5,
+      "source_sha256": "998d46999232b8309f14e5ef33bd5729b9c0dda79d05c2852aa1f2c1817316af",
+      "reference_angle_unwrapped_deg": 253.20376935756997
+    },
+    {
+      "id": "D_015",
+      "image_angle_deg": 256.97372058743423,
+      "relative_print_roll_deg": 5.0,
+      "reference_angle_deg": 251.97372058743423,
+      "reference_psi": 9.5,
+      "source_sha256": "5cecd36635e798ed3c3daf4f4d258d2e9b1a845086c2b40e4769391854878564",
+      "reference_angle_unwrapped_deg": 251.97372058743423
+    },
+    {
+      "id": "D_016",
+      "image_angle_deg": 256.5162397577546,
+      "relative_print_roll_deg": 4.0,
+      "reference_angle_deg": 252.5162397577546,
+      "reference_psi": 9.5,
+      "source_sha256": "8c9db58d5ea7dc1f0541adac79e1f6e8fca47c1597045396778693ba18ea8a57",
+      "reference_angle_unwrapped_deg": 252.5162397577546
+    },
+    {
+      "id": "D_020",
+      "image_angle_deg": 234.59109463795323,
+      "relative_print_roll_deg": -1.0,
+      "reference_angle_deg": 235.59109463795323,
+      "reference_psi": 8,
+      "source_sha256": "5e163d2b9983baf9ca5942710eee66a119b35a4e71c755b7f0e43383bcc37cd7",
+      "reference_angle_unwrapped_deg": 235.59109463795323
+    },
+    {
+      "id": "D_025",
+      "image_angle_deg": 212.44803936396494,
+      "relative_print_roll_deg": -1.0,
+      "reference_angle_deg": 213.44803936396494,
+      "reference_psi": 6.5,
+      "source_sha256": "a654be1db6d7712478b9e1eea7e1da409955b71982df47facbfcf9359432daf7",
+      "reference_angle_unwrapped_deg": 213.44803936396494
+    },
+    {
+      "id": "D_026",
+      "image_angle_deg": 211.93149860858455,
+      "relative_print_roll_deg": -1.0,
+      "reference_angle_deg": 212.93149860858455,
+      "reference_psi": 6.5,
+      "source_sha256": "7af1be8a47b9e80fafac495f10d5f882662ad4de2bf97b789f5df2ac917f866d",
+      "reference_angle_unwrapped_deg": 212.93149860858455
+    },
+    {
+      "id": "D_031",
+      "image_angle_deg": 195.23562702852035,
+      "relative_print_roll_deg": 5.0,
+      "reference_angle_deg": 190.23562702852035,
+      "reference_psi": 5,
+      "source_sha256": "289e4a80569fc0c74cc27a7e1b9d40de64050d37b644ba5ac41136346464e755",
+      "reference_angle_unwrapped_deg": 190.23562702852035
+    },
+    {
+      "id": "D_033",
+      "image_angle_deg": 191.18375578617216,
+      "relative_print_roll_deg": -1.0,
+      "reference_angle_deg": 192.18375578617216,
+      "reference_psi": 5,
+      "source_sha256": "3f2897a05c47a873003a761bf765962e64597d95872b2481d11ef74f00e0dbb3",
+      "reference_angle_unwrapped_deg": 192.18375578617216
+    },
+    {
+      "id": "D_037",
+      "image_angle_deg": 173.85410169337416,
+      "relative_print_roll_deg": 2.0,
+      "reference_angle_deg": 171.85410169337416,
+      "reference_psi": 3.5,
+      "source_sha256": "b20bf438e3cecee76dd92aca29b80cae6418b694ed8cb87d54e2c00b92f70a7e",
+      "reference_angle_unwrapped_deg": 171.85410169337416
+    },
+    {
+      "id": "D_038",
+      "image_angle_deg": 173.311547737593,
+      "relative_print_roll_deg": 2.0,
+      "reference_angle_deg": 171.311547737593,
+      "reference_psi": 3.5,
+      "source_sha256": "f51d8d4996b6019e34c2ec5136f2a918147db82369c378ac955b9a6e8436e6aa",
+      "reference_angle_unwrapped_deg": 171.311547737593
+    },
+    {
+      "id": "D_040",
+      "image_angle_deg": 171.79625272558695,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 171.79625272558695,
+      "reference_psi": 3.5,
+      "source_sha256": "59e89eade2eaac8071569aef51a3ed3c3378733e1aa9a449befe58091aee5f54",
+      "reference_angle_unwrapped_deg": 171.79625272558695
+    },
+    {
+      "id": "D_043",
+      "image_angle_deg": 166.97992219086757,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 166.97992219086757,
+      "reference_psi": 2.5,
+      "source_sha256": "fc855c474b55ee876bbddee6d5d832075ac81429cf2762f9fc9fbf1748f4aef6",
+      "reference_angle_unwrapped_deg": 166.97992219086757
+    },
+    {
+      "id": "D_044",
+      "image_angle_deg": 169.5674514109414,
+      "relative_print_roll_deg": 3.0,
+      "reference_angle_deg": 166.5674514109414,
+      "reference_psi": 2.5,
+      "source_sha256": "b1b4715326af622c3cf64964655e9b72819eb9f7aaccedbc8026ee76dc06821c",
+      "reference_angle_unwrapped_deg": 166.5674514109414
+    },
+    {
+      "id": "D_045",
+      "image_angle_deg": 167.0251417353067,
+      "relative_print_roll_deg": 4.0,
+      "reference_angle_deg": 163.0251417353067,
+      "reference_psi": 2.5,
+      "source_sha256": "c8060cd7f9248d865cb2a34aa3141eb97ad3765867daca11656054c409a7289e",
+      "reference_angle_unwrapped_deg": 163.0251417353067
+    },
+    {
+      "id": "D_046",
+      "image_angle_deg": 164.85789057744287,
+      "relative_print_roll_deg": 1.0,
+      "reference_angle_deg": 163.85789057744287,
+      "reference_psi": 2.5,
+      "source_sha256": "4d186d110a76679fb9263b9ef93a590271ca17c56eea4d327a0fe0d98dc80e59",
+      "reference_angle_unwrapped_deg": 163.85789057744287
+    },
+    {
+      "id": "E_002",
+      "image_angle_deg": 289.8337160242812,
+      "relative_print_roll_deg": -3.0,
+      "reference_angle_deg": 292.8337160242812,
+      "reference_psi": 12,
+      "source_sha256": "f9d1d9c6a5f5a9972c10ce558e0476d09e873ce97c04f7925839428d2f0e124d",
+      "reference_angle_unwrapped_deg": 292.8337160242812
+    },
+    {
+      "id": "E_007",
+      "image_angle_deg": 272.8397250572763,
+      "relative_print_roll_deg": 1.0,
+      "reference_angle_deg": 271.8397250572763,
+      "reference_psi": 11,
+      "source_sha256": "faa7ca7bb7c7f7c53d81cc20ff6faf9a9c019d7dd7a4527fa707cb368a38e58f",
+      "reference_angle_unwrapped_deg": 271.8397250572763
+    },
+    {
+      "id": "E_008",
+      "image_angle_deg": 273.258741295424,
+      "relative_print_roll_deg": 3.0,
+      "reference_angle_deg": 270.258741295424,
+      "reference_psi": 11,
+      "source_sha256": "4cf0b6b0c0414d8a598d4e7981816d48d350455516a0b4affd691257eb2a19f9",
+      "reference_angle_unwrapped_deg": 270.258741295424
+    },
+    {
+      "id": "E_009",
+      "image_angle_deg": 272.5217596524536,
+      "relative_print_roll_deg": 1.0,
+      "reference_angle_deg": 271.5217596524536,
+      "reference_psi": 11,
+      "source_sha256": "e5e3281f52037d8144b5e9af3490a7dd5aff120ee8a802cbb0e1dac526796a69",
+      "reference_angle_unwrapped_deg": 271.5217596524536
+    },
+    {
+      "id": "E_010",
+      "image_angle_deg": 271.04943063218883,
+      "relative_print_roll_deg": -1.0,
+      "reference_angle_deg": 272.04943063218883,
+      "reference_psi": 11,
+      "source_sha256": "369233f6cdb6cec55acbc15ad4cfe830e296a774a17bfe7834f038bda0f1b11b",
+      "reference_angle_unwrapped_deg": 272.04943063218883
+    },
+    {
+      "id": "E_013",
+      "image_angle_deg": 255.4570332013787,
+      "relative_print_roll_deg": 3.0,
+      "reference_angle_deg": 252.4570332013787,
+      "reference_psi": 9.5,
+      "source_sha256": "0735b3b0f6f8c3a626a922ebf4a52c2496786eda05072709fe6838423cd5e1ec",
+      "reference_angle_unwrapped_deg": 252.4570332013787
+    },
+    {
+      "id": "E_014",
+      "image_angle_deg": 255.52674380618123,
+      "relative_print_roll_deg": -1.0,
+      "reference_angle_deg": 256.52674380618123,
+      "reference_psi": 9.5,
+      "source_sha256": "53b0397abeb75d6d73967d25de4841cc49da0a7badf750e68faf06698f8209e7",
+      "reference_angle_unwrapped_deg": 256.52674380618123
+    },
+    {
+      "id": "E_015",
+      "image_angle_deg": 255.76711799218828,
+      "relative_print_roll_deg": 1.0,
+      "reference_angle_deg": 254.76711799218828,
+      "reference_psi": 9.5,
+      "source_sha256": "21f7494f0c6d1ef85f2a891beed2e353138b014938ca0993c52da10611c02f15",
+      "reference_angle_unwrapped_deg": 254.76711799218828
+    },
+    {
+      "id": "E_019",
+      "image_angle_deg": 231.0675596110673,
+      "relative_print_roll_deg": -2.0,
+      "reference_angle_deg": 233.0675596110673,
+      "reference_psi": 8,
+      "source_sha256": "c0f10b3fb2a7aaac94572e94b219a080c7779c4604238565e43ce3437766ef65",
+      "reference_angle_unwrapped_deg": 233.0675596110673
+    },
+    {
+      "id": "E_020",
+      "image_angle_deg": 230.83307015783325,
+      "relative_print_roll_deg": -5.0,
+      "reference_angle_deg": 235.83307015783325,
+      "reference_psi": 8,
+      "source_sha256": "d8a65a50a2886f0e6c026504523f76f7e9b1a5a45f48afffefc51f27f0ea36a7",
+      "reference_angle_unwrapped_deg": 235.83307015783325
+    },
+    {
+      "id": "E_022",
+      "image_angle_deg": 230.13811857744898,
+      "relative_print_roll_deg": -4.0,
+      "reference_angle_deg": 234.13811857744898,
+      "reference_psi": 8,
+      "source_sha256": "9cf6730e3ddb1ae72e385a8e27fcf7c51bca62512aa558811aaef7beffbd9e1c",
+      "reference_angle_unwrapped_deg": 234.13811857744898
+    },
+    {
+      "id": "E_025",
+      "image_angle_deg": 209.98461119302306,
+      "relative_print_roll_deg": -3.0,
+      "reference_angle_deg": 212.98461119302306,
+      "reference_psi": 6.5,
+      "source_sha256": "af7f11d60461ad3f3c565003d2e71d001ab3a5c32e6d795bcf739e42eb283626",
+      "reference_angle_unwrapped_deg": 212.98461119302306
+    },
+    {
+      "id": "E_026",
+      "image_angle_deg": 211.38722761281988,
+      "relative_print_roll_deg": -2.0,
+      "reference_angle_deg": 213.38722761281988,
+      "reference_psi": 6.5,
+      "source_sha256": "13fd3d9a8e976e73acbecf125120864b4c3d93c993d0ee52309b9899e7660bf8",
+      "reference_angle_unwrapped_deg": 213.38722761281988
+    },
+    {
+      "id": "E_027",
+      "image_angle_deg": 212.07400087529405,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 212.07400087529405,
+      "reference_psi": 6.5,
+      "source_sha256": "3724b4d90ff50fb987992bbe6411a43e0a259b100109bd054eda01730a79b819",
+      "reference_angle_unwrapped_deg": 212.07400087529405
+    },
+    {
+      "id": "E_031",
+      "image_angle_deg": 189.92279675837807,
+      "relative_print_roll_deg": 0.0,
+      "reference_angle_deg": 189.92279675837807,
+      "reference_psi": 5,
+      "source_sha256": "04c6ba19d7c8ef6b36fec6d9705e840761cae2bc74e3f0e1264ba2f676ef43a2",
+      "reference_angle_unwrapped_deg": 189.92279675837807
+    },
+    {
+      "id": "E_032",
+      "image_angle_deg": 188.05441444638177,
+      "relative_print_roll_deg": -2.0,
+      "reference_angle_deg": 190.05441444638177,
+      "reference_psi": 5,
+      "source_sha256": "97746d4568ea0400e0988cd124370ebde650b0701bd73b8d8a7d743c9334e98f",
+      "reference_angle_unwrapped_deg": 190.05441444638177
+    },
+    {
+      "id": "E_033",
+      "image_angle_deg": 188.21675890497124,
+      "relative_print_roll_deg": -2.0,
+      "reference_angle_deg": 190.21675890497124,
+      "reference_psi": 5,
+      "source_sha256": "375d9ba009ccb7ccba88b5f881fdd8ba453bbf05740687316fbf135d64a6e2e7",
+      "reference_angle_unwrapped_deg": 190.21675890497124
+    },
+    {
+      "id": "E_036",
+      "image_angle_deg": 173.3082449037654,
+      "relative_print_roll_deg": 2.0,
+      "reference_angle_deg": 171.3082449037654,
+      "reference_psi": 3.5,
+      "source_sha256": "b4778ea6ab65a0ac9b57c27107547bced6b15b5e425a60a42308e8d637e5f80f",
+      "reference_angle_unwrapped_deg": 171.3082449037654
+    },
+    {
+      "id": "E_037",
+      "image_angle_deg": 172.70228830486886,
+      "relative_print_roll_deg": 1.0,
+      "reference_angle_deg": 171.70228830486886,
+      "reference_psi": 3.5,
+      "source_sha256": "6d9db2f7dd17f47670fce83a6f8ad7b1d2882aadf2eb01f5446a5790289a1eb9",
+      "reference_angle_unwrapped_deg": 171.70228830486886
+    },
+    {
+      "id": "E_038",
+      "image_angle_deg": 177.42840719840382,
+      "relative_print_roll_deg": 2.0,
+      "reference_angle_deg": 175.42840719840382,
+      "reference_psi": 3.5,
+      "source_sha256": "343ed5ae72d7c476ef24c915310684206ebdfb21bf6189fc647282b1d1efc00e",
+      "reference_angle_unwrapped_deg": 175.42840719840382
+    },
+    {
+      "id": "E_039",
+      "image_angle_deg": 175.38429665787294,
+      "relative_print_roll_deg": 3.0,
+      "reference_angle_deg": 172.38429665787294,
+      "reference_psi": 3.5,
+      "source_sha256": "b08d89c8a69fd2ac1de61ded269d10d2727043876bde87957e81d76ab865f8ee",
+      "reference_angle_unwrapped_deg": 172.38429665787294
+    },
+    {
+      "id": "E_042",
+      "image_angle_deg": 160.8522466186636,
+      "relative_print_roll_deg": -2.0,
+      "reference_angle_deg": 162.8522466186636,
+      "reference_psi": 2.5,
+      "source_sha256": "f1c7788a53a27a491738e76cc9b11030f42257bd20e6d5fb6c60fc551b9b45e4",
+      "reference_angle_unwrapped_deg": 162.8522466186636
+    },
+    {
+      "id": "E_059",
+      "image_angle_deg": 163.50486707216658,
+      "relative_print_roll_deg": 3.0,
+      "reference_angle_deg": 160.50486707216658,
+      "reference_psi": 2.5,
+      "source_sha256": "597f928e0234e6691706cbb03221db404feb7c4483c3da3e0183848af621b18c",
+      "reference_angle_unwrapped_deg": 160.50486707216658
+    },
+    {
+      "id": "F_001",
+      "image_angle_deg": 300.36204715201865,
+      "relative_print_roll_deg": 7.0,
+      "reference_angle_deg": 293.36204715201865,
+      "reference_psi": 12,
+      "source_sha256": "a9486ff997f176f20db398d3c14bf5f1bbc4d0f071ddd72535c612d059204b3c",
+      "reference_angle_unwrapped_deg": 293.36204715201865
+    },
+    {
+      "id": "F_004",
+      "image_angle_deg": 297.50644640009915,
+      "relative_print_roll_deg": 4.0,
+      "reference_angle_deg": 293.50644640009915,
+      "reference_psi": 12,
+      "source_sha256": "72b99962df33075fa1b05ab931d7e9351e58949d0ac531387076d7d9d3b5aa47",
+      "reference_angle_unwrapped_deg": 293.50644640009915
+    },
+    {
+      "id": "F_007",
+      "image_angle_deg": 286.18132350554424,
+      "relative_print_roll_deg": 3.0,
+      "reference_angle_deg": 283.18132350554424,
+      "reference_psi": 11.5,
+      "source_sha256": "972a8c14d030708f6309628d883dbf8724db9cab36f0bc7795150e50f5f89bc8",
+      "reference_angle_unwrapped_deg": 283.18132350554424
+    },
+    {
+      "id": "F_013",
+      "image_angle_deg": 271.9852982847665,
+      "relative_print_roll_deg": 6.0,
+      "reference_angle_deg": 265.9852982847665,
+      "reference_psi": 10,
+      "source_sha256": "5ae28dc41b193e13c78951c33614455532da9cab3ccc1cf6716a7542e927e5bc",
+      "reference_angle_unwrapped_deg": 265.9852982847665
+    },
+    {
+      "id": "F_016",
+      "image_angle_deg": 267.5493796515194,
+      "relative_print_roll_deg": 5.0,
+      "reference_angle_deg": 262.5493796515194,
+      "reference_psi": 10,
+      "source_sha256": "9f70829177a605748f275e554fb2613be3f0610c9d18acd4bdfa80cec975b8c1",
+      "reference_angle_unwrapped_deg": 262.5493796515194
+    },
+    {
+      "id": "F_019",
+      "image_angle_deg": 249.86369657175186,
+      "relative_print_roll_deg": 7.0,
+      "reference_angle_deg": 242.86369657175186,
+      "reference_psi": 8.5,
+      "source_sha256": "16644ccd5e969677734ec247c2530673b95b97ea6bdefdbdf214e9370ed73fdd",
+      "reference_angle_unwrapped_deg": 242.86369657175186
+    },
+    {
+      "id": "F_025",
+      "image_angle_deg": 220.10090754621223,
+      "relative_print_roll_deg": 3.0,
+      "reference_angle_deg": 217.10090754621223,
+      "reference_psi": 7,
+      "source_sha256": "2ecc4e16800b28063af664563d16208a214ed04731d7eaeab57630e1c04b18f3",
+      "reference_angle_unwrapped_deg": 217.10090754621223
+    },
+    {
+      "id": "F_034",
+      "image_angle_deg": 193.87460215768547,
+      "relative_print_roll_deg": -2.0,
+      "reference_angle_deg": 195.87460215768547,
+      "reference_psi": 5.5,
+      "source_sha256": "664aebee50fb70c08ba34db50b9fbc4d65515ef5ce71cdb7a523ce32eb695b92",
+      "reference_angle_unwrapped_deg": 195.87460215768547
+    },
+    {
+      "id": "F_039",
+      "image_angle_deg": 186.9754193532993,
+      "relative_print_roll_deg": -20.0,
+      "reference_angle_deg": 206.9754193532993,
+      "reference_psi": 4,
+      "source_sha256": "e7a88d40da3108b0c6a2b2fc5f52c59bd6e6fea58226bb07ad4143392a9bd18e",
+      "reference_angle_unwrapped_deg": 206.9754193532993
+    },
+    {
+      "id": "F_040",
+      "image_angle_deg": 187.3921968037628,
+      "relative_print_roll_deg": 6.0,
+      "reference_angle_deg": 181.3921968037628,
+      "reference_psi": 4,
+      "source_sha256": "896ce7d7adcbad0bdc3ed63bfeb064c7ad41bc6cc48c7d2f8def2706b8131c52",
+      "reference_angle_unwrapped_deg": 181.3921968037628
+    },
+    {
+      "id": "F_046",
+      "image_angle_deg": 167.20861035509273,
+      "relative_print_roll_deg": 5.0,
+      "reference_angle_deg": 162.20861035509273,
+      "reference_psi": 2.5,
+      "source_sha256": "311c8772ff9437b2dd0c0322c568bbb4ffc1310f587d72aa4b6fd74fcd1e62be",
+      "reference_angle_unwrapped_deg": 162.20861035509273
+    }
+  ],
+  "train_fit_MAE_psi": 0.21855473569502123,
+  "train_fit_max_abs_error_psi": 1.9378011414591203,
+  "method": "Linear fit toequal-pressure median ofdirect train visual needle angles minus thiscandidate ROI128print pose; no GT pose, no nativeSIFT",
+  "fit_groups": [
+    "D",
+    "E",
+    "F"
+  ],
+  "G_used_for_fitting": false,
+  "query_inputs": [
+    "U8ROI128",
+    "oldB predictedhub",
+    "locatorradius"
+  ],
+  "query_GT_points_used": false,
+  "query_pressure_used": false,
+  "original_point_labels_changed": false,
+  "pressure_inversion_to_keypoints": false,
+  "limits": "Offline manual-bbox/HDMIproxy; range not expanded, noextrapolation, boundary rejections retained; noMCU/hardware deployment",
+  "source_sha256": {
+    "pose": "74972cd7792c4504697ac3ed5d905f7406a6f9e439fc454d0b26037cc7dc6167",
+    "train_records": "c73ea11c262fbd3912b885c2e1c16c958e006d45f6929def67128c6e1b46abb8",
+    "code": "1c9451bc7f873db878f6ef5eb017a77121a035bb137a2e437738a36cb6348bd5"
+  }
+}

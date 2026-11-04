@@ -1,0 +1,455 @@
+{
+  "unit": "psi",
+  "status": "TRAIN_ONLY_PROJECTIVE_LINE_CALIBRATION_PC_NATIVE_H_DIAGNOSTIC",
+  "measurements": [
+    {
+      "id": "D_001",
+      "angle_deg": 284.59711708726746,
+      "pressure_psi": 12
+    },
+    {
+      "id": "D_002",
+      "angle_deg": 287.4776801638209,
+      "pressure_psi": 12
+    },
+    {
+      "id": "D_003",
+      "angle_deg": 286.74426762897906,
+      "pressure_psi": 12
+    },
+    {
+      "id": "D_004",
+      "angle_deg": 287.24570385201037,
+      "pressure_psi": 12
+    },
+    {
+      "id": "D_007",
+      "angle_deg": 272.2380597370145,
+      "pressure_psi": 11
+    },
+    {
+      "id": "D_008",
+      "angle_deg": 273.36347003974555,
+      "pressure_psi": 11
+    },
+    {
+      "id": "D_009",
+      "angle_deg": 275.0173808062027,
+      "pressure_psi": 11
+    },
+    {
+      "id": "D_010",
+      "angle_deg": 275.48020654765975,
+      "pressure_psi": 11
+    },
+    {
+      "id": "D_013",
+      "angle_deg": 253.87291094109884,
+      "pressure_psi": 9.5
+    },
+    {
+      "id": "D_014",
+      "angle_deg": 254.03477117699737,
+      "pressure_psi": 9.5
+    },
+    {
+      "id": "D_016",
+      "angle_deg": 255.3877690403656,
+      "pressure_psi": 9.5
+    },
+    {
+      "id": "D_019",
+      "angle_deg": 233.25204547506542,
+      "pressure_psi": 8
+    },
+    {
+      "id": "D_020",
+      "angle_deg": 234.51664244814597,
+      "pressure_psi": 8
+    },
+    {
+      "id": "D_025",
+      "angle_deg": 214.37957446711536,
+      "pressure_psi": 6.5
+    },
+    {
+      "id": "D_026",
+      "angle_deg": 213.50665073244645,
+      "pressure_psi": 6.5
+    },
+    {
+      "id": "D_027",
+      "angle_deg": 215.90090463110366,
+      "pressure_psi": 6.5
+    },
+    {
+      "id": "D_031",
+      "angle_deg": 192.8104704913498,
+      "pressure_psi": 5
+    },
+    {
+      "id": "D_032",
+      "angle_deg": 192.9411365256666,
+      "pressure_psi": 5
+    },
+    {
+      "id": "D_037",
+      "angle_deg": 172.47014413741528,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "D_038",
+      "angle_deg": 172.36499464433172,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "D_039",
+      "angle_deg": 173.90021633231697,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "D_040",
+      "angle_deg": 173.47676884045305,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "D_043",
+      "angle_deg": 165.14051203552407,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "D_044",
+      "angle_deg": 164.9156545867755,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "D_045",
+      "angle_deg": 165.07097413019895,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "D_046",
+      "angle_deg": 164.85287104972602,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "E_001",
+      "angle_deg": 290.2196780934277,
+      "pressure_psi": 12
+    },
+    {
+      "id": "E_002",
+      "angle_deg": 291.01248505720076,
+      "pressure_psi": 12
+    },
+    {
+      "id": "E_003",
+      "angle_deg": 290.6927508025382,
+      "pressure_psi": 12
+    },
+    {
+      "id": "E_007",
+      "angle_deg": 271.45795690990957,
+      "pressure_psi": 11
+    },
+    {
+      "id": "E_008",
+      "angle_deg": 271.70949117269066,
+      "pressure_psi": 11
+    },
+    {
+      "id": "E_009",
+      "angle_deg": 272.46978119587806,
+      "pressure_psi": 11
+    },
+    {
+      "id": "E_010",
+      "angle_deg": 272.07755134649733,
+      "pressure_psi": 11
+    },
+    {
+      "id": "E_013",
+      "angle_deg": 252.81922876311015,
+      "pressure_psi": 9.5
+    },
+    {
+      "id": "E_014",
+      "angle_deg": 254.67904632352838,
+      "pressure_psi": 9.5
+    },
+    {
+      "id": "E_015",
+      "angle_deg": 254.6947235545921,
+      "pressure_psi": 9.5
+    },
+    {
+      "id": "E_016",
+      "angle_deg": 254.06182790667253,
+      "pressure_psi": 9.5
+    },
+    {
+      "id": "E_019",
+      "angle_deg": 234.25085270411256,
+      "pressure_psi": 8
+    },
+    {
+      "id": "E_020",
+      "angle_deg": 234.22718406927189,
+      "pressure_psi": 8
+    },
+    {
+      "id": "E_021",
+      "angle_deg": 234.33991655827552,
+      "pressure_psi": 8
+    },
+    {
+      "id": "E_022",
+      "angle_deg": 234.65137064192447,
+      "pressure_psi": 8
+    },
+    {
+      "id": "E_024",
+      "angle_deg": 212.50231072481537,
+      "pressure_psi": 6.5
+    },
+    {
+      "id": "E_025",
+      "angle_deg": 211.35782568866446,
+      "pressure_psi": 6.5
+    },
+    {
+      "id": "E_026",
+      "angle_deg": 213.28007735191446,
+      "pressure_psi": 6.5
+    },
+    {
+      "id": "E_027",
+      "angle_deg": 213.36878344116045,
+      "pressure_psi": 6.5
+    },
+    {
+      "id": "E_030",
+      "angle_deg": 190.7909333457518,
+      "pressure_psi": 5
+    },
+    {
+      "id": "E_031",
+      "angle_deg": 189.98226117974457,
+      "pressure_psi": 5
+    },
+    {
+      "id": "E_032",
+      "angle_deg": 190.12091719911618,
+      "pressure_psi": 5
+    },
+    {
+      "id": "E_033",
+      "angle_deg": 191.099302729693,
+      "pressure_psi": 5
+    },
+    {
+      "id": "E_036",
+      "angle_deg": 172.51207136472163,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "E_037",
+      "angle_deg": 172.5142301342506,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "E_038",
+      "angle_deg": 175.56181934468304,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "E_039",
+      "angle_deg": 174.38865573525612,
+      "pressure_psi": 3.5
+    },
+    {
+      "id": "E_042",
+      "angle_deg": 162.8034597461258,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "E_044",
+      "angle_deg": 165.96523359040523,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "E_059",
+      "angle_deg": 163.021415055584,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "F_002",
+      "angle_deg": 295.24325914651956,
+      "pressure_psi": 12
+    },
+    {
+      "id": "F_008",
+      "angle_deg": 283.0447353352371,
+      "pressure_psi": 11.5
+    },
+    {
+      "id": "F_014",
+      "angle_deg": 264.0619850536961,
+      "pressure_psi": 10
+    },
+    {
+      "id": "F_019",
+      "angle_deg": 242.7254432275625,
+      "pressure_psi": 8.5
+    },
+    {
+      "id": "F_020",
+      "angle_deg": 244.79544731729703,
+      "pressure_psi": 8.5
+    },
+    {
+      "id": "F_028",
+      "angle_deg": 220.24486191055666,
+      "pressure_psi": 7
+    },
+    {
+      "id": "F_031",
+      "angle_deg": 193.82078688534742,
+      "pressure_psi": 5.5
+    },
+    {
+      "id": "F_033",
+      "angle_deg": 195.4730138926333,
+      "pressure_psi": 5.5
+    },
+    {
+      "id": "F_034",
+      "angle_deg": 195.73228719695223,
+      "pressure_psi": 5.5
+    },
+    {
+      "id": "F_037",
+      "angle_deg": 180.61952162735736,
+      "pressure_psi": 4
+    },
+    {
+      "id": "F_038",
+      "angle_deg": 181.44616875888278,
+      "pressure_psi": 4
+    },
+    {
+      "id": "F_039",
+      "angle_deg": 181.265958971577,
+      "pressure_psi": 4
+    },
+    {
+      "id": "F_040",
+      "angle_deg": 182.4063147373398,
+      "pressure_psi": 4
+    },
+    {
+      "id": "F_043",
+      "angle_deg": 160.94376693890086,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "F_044",
+      "angle_deg": 160.49328899369564,
+      "pressure_psi": 2.5
+    },
+    {
+      "id": "F_046",
+      "angle_deg": 160.3781298740625,
+      "pressure_psi": 2.5
+    }
+  ],
+  "anchors": [
+    {
+      "psi": 2.5,
+      "angle_deg": 163.93714305265502,
+      "n": 10
+    },
+    {
+      "psi": 3.5,
+      "angle_deg": 172.99549948735182,
+      "n": 8
+    },
+    {
+      "psi": 4,
+      "angle_deg": 181.35606386522988,
+      "n": 4
+    },
+    {
+      "psi": 5,
+      "angle_deg": 190.9451180377224,
+      "n": 6
+    },
+    {
+      "psi": 5.5,
+      "angle_deg": 195.4730138926333,
+      "n": 3
+    },
+    {
+      "psi": 6.5,
+      "angle_deg": 213.36878344116045,
+      "n": 7
+    },
+    {
+      "psi": 7,
+      "angle_deg": 220.24486191055666,
+      "n": 1
+    },
+    {
+      "psi": 8,
+      "angle_deg": 234.29538463119405,
+      "n": 6
+    },
+    {
+      "psi": 8.5,
+      "angle_deg": 243.76044527242976,
+      "n": 2
+    },
+    {
+      "psi": 9.5,
+      "angle_deg": 254.06182790667253,
+      "n": 7
+    },
+    {
+      "psi": 10,
+      "angle_deg": 264.0619850536961,
+      "n": 1
+    },
+    {
+      "psi": 11,
+      "angle_deg": 272.3539204664463,
+      "n": 8
+    },
+    {
+      "psi": 11.5,
+      "angle_deg": 283.0447353352371,
+      "n": 1
+    },
+    {
+      "psi": 12,
+      "angle_deg": 288.8486791286243,
+      "n": 8
+    }
+  ],
+  "slope_psi_per_degree": 0.07357746340849171,
+  "intercept_psi": -9.241726787999935,
+  "branch_center_deg": 220.06469547863256,
+  "angle_support": [
+    163.93714305265502,
+    288.8486791286243
+  ],
+  "psi_support": [
+    2.5,
+    12.0
+  ],
+  "train_MAE_psi": 0.1469514014021236,
+  "train_max_error_psi": 0.481523308456941,
+  "G_used_for_fit": false,
+  "H_opened": false,
+  "query_GT_used_for_prediction": false,
+  "native_H_MCU_available": false
+}

@@ -1,0 +1,205 @@
+{
+  "status": "REJECT_NEW_REFERENCE_CNN_KEEP_ORIGINAL_2211_PLUS_MULTI_RING",
+  "primary_unit": "psi",
+  "baseline": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 21,
+    "coverage_gauge": 0.375,
+    "valid_reads_with_bounded_both_points": 21,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 0.15740682142050108,
+    "reading_median_abs_error_psi": 0.12991795921179872,
+    "reading_max_abs_error_psi": 0.45787038715820216,
+    "accurate_accepted_within_tolerance": 21,
+    "wrong_accepted_over_tolerance": 0,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 16,
+      "within_0_5_psi": 21,
+      "within_1_0_psi": 21,
+      "bins": {
+        "up_to_0_25": 16,
+        "over_0_25_to_0_5": 5,
+        "over_0_5_to_1_0": 0,
+        "over_1_0": 0
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+      "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+      "PREDICTION_NOT_PERMITTED": 17,
+      "ROI128_RING_AMBIGUOUS": 13
+    },
+    "static_pose_supported": 32
+  },
+  "candidate": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 6,
+    "coverage_gauge": 0.10714285714285714,
+    "valid_reads_with_bounded_both_points": 5,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 0.5752706572080765,
+    "reading_median_abs_error_psi": 0.19479932423140767,
+    "reading_max_abs_error_psi": 2.279270536076554,
+    "accurate_accepted_within_tolerance": 5,
+    "wrong_accepted_over_tolerance": 1,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 4,
+      "within_0_5_psi": 4,
+      "within_1_0_psi": 5,
+      "bins": {
+        "up_to_0_25": 4,
+        "over_0_25_to_0_5": 0,
+        "over_0_5_to_1_0": 1,
+        "over_1_0": 1
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 3,
+      "PREDICTION_NOT_PERMITTED": 17,
+      "STATIC_PRINT_CNN_REFERENCE_UNCERTAIN": 33
+    },
+    "static_pose_supported": 13
+  },
+  "ablations": {
+    "new_reference_old_calibration": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 6,
+      "coverage_gauge": 0.10714285714285714,
+      "valid_reads_with_bounded_both_points": 5,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.6248830854110358,
+      "reading_median_abs_error_psi": 0.27210061799097396,
+      "reading_max_abs_error_psi": 2.210710437100696,
+      "accurate_accepted_within_tolerance": 5,
+      "wrong_accepted_over_tolerance": 1,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 2,
+        "within_0_5_psi": 4,
+        "within_1_0_psi": 5,
+        "bins": {
+          "up_to_0_25": 2,
+          "over_0_25_to_0_5": 2,
+          "over_0_5_to_1_0": 1,
+          "over_1_0": 1
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 3,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "STATIC_PRINT_CNN_REFERENCE_UNCERTAIN": 33
+      }
+    },
+    "old_reference_new_calibration": {
+      "unit": "psi",
+      "images": 59,
+      "gauge_images": 56,
+      "negative_images": 3,
+      "valid_readings": 21,
+      "coverage_gauge": 0.375,
+      "valid_reads_with_bounded_both_points": 21,
+      "bounded_both_point_images": 50,
+      "reading_mae_psi": 0.17671932259272624,
+      "reading_median_abs_error_psi": 0.1365777430829187,
+      "reading_max_abs_error_psi": 0.5188348088228647,
+      "accurate_accepted_within_tolerance": 21,
+      "wrong_accepted_over_tolerance": 0,
+      "negative_false_accepts": 0,
+      "legacy_comparison_tolerance_psi": 0.7251886888086433,
+      "output_error_distribution_psi": {
+        "within_0_25_psi": 16,
+        "within_0_5_psi": 20,
+        "within_1_0_psi": 21,
+        "bins": {
+          "up_to_0_25": 16,
+          "over_0_25_to_0_5": 4,
+          "over_0_5_to_1_0": 1,
+          "over_1_0": 0
+        },
+        "changes_output_permission": false,
+        "is_user_confirmed_final_accuracy_target": false
+      },
+      "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+        "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+        "PREDICTION_NOT_PERMITTED": 17,
+        "ROI128_RING_AMBIGUOUS": 13
+      }
+    }
+  },
+  "gained_ids": [
+    "G_020",
+    "G_032",
+    "G_041",
+    "G_052"
+  ],
+  "lost_ids": [
+    "G_008",
+    "G_009",
+    "G_011",
+    "G_013",
+    "G_014",
+    "G_015",
+    "G_016",
+    "G_018",
+    "G_021",
+    "G_022",
+    "G_025",
+    "G_026",
+    "G_028",
+    "G_029",
+    "G_031",
+    "G_038",
+    "G_039",
+    "G_040",
+    "G_045"
+  ],
+  "outputs_over_descriptive_half_psi": [
+    {
+      "id": "G_020",
+      "prediction_psi": 7.966684864134921,
+      "reference_psi": 8.5,
+      "absolute_error_psi": 0.5333151358650792
+    },
+    {
+      "id": "G_052",
+      "prediction_psi": 4.779270536076554,
+      "reference_psi": 2.5,
+      "absolute_error_psi": 2.279270536076554
+    }
+  ],
+  "half_psi_is_user_final_tolerance": false,
+  "new_model_deployed": false,
+  "no_second_training_run": true,
+  "next_action": "Quantize and verify the existing multi-ring pose core; not another G-tuned learning experiment",
+  "source": {
+    "checkpoint_sha256": "80880c89c6e41b3821bc5715e725b0b4f651406866ff7edb127e28e54d44c2d7",
+    "candidate_pose_sha256": "54facf4f71b119a762a5bf528beb31b0fff15c5ca59da0c0faa67b03023aa41e",
+    "candidate_readout_sha256": "78325c46e6ea5234fdf5b8f8e008d2b94d28e00743e73aba93020bf611633fb4",
+    "baseline_readout_sha256": "170a2eff32047fb13d3e6c24ac831e1d31da9dfa76c24c7c127cf689091db237"
+  }
+}

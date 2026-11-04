@@ -1,0 +1,118 @@
+{
+  "status": "PASS_BOUNDED_DIAGNOSTICS_AND_CODE_ADMISSION",
+  "checks": 1651,
+  "diagnostics_source": "c6036ab0adafdbeaa9e6df2bc6c51f6e97e998a6014533e17903f8f40e57d3d7",
+  "candidate_source": "7f99338774091a7c8d2e69d344bd976102b9e089e801e80ff816b448235900f1",
+  "candidate_config": "03a2ecfba7fd9c8338575ceb18dd6ac41958ec7d6a7ccccf5d458a03e33f29aa",
+  "diagnostic_summary_sha256": "28d955c0a3f38513261b089add775d25bf4225a801d7965c0a3ba9a394b6e379",
+  "supervision_counts": {
+    "D": {
+      "silver": 28,
+      "null": 3
+    },
+    "E": {
+      "silver": 46,
+      "null": 3
+    },
+    "F": {
+      "silver": 18,
+      "null": 3
+    }
+  },
+  "candidate_parameters": 6226,
+  "whole_neural_pair_plus_candidate_parameters": 8437,
+  "candidate_convolution_and_linear_MACs": 634624,
+  "layers": [
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        4,
+        64,
+        64
+      ],
+      "MACs": 409600,
+      "output_elements": 16384
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        4,
+        32,
+        32
+      ],
+      "MACs": 102400,
+      "output_elements": 4096
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        32,
+        32
+      ],
+      "MACs": 32768,
+      "output_elements": 8192
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        16,
+        16
+      ],
+      "MACs": 51200,
+      "output_elements": 2048
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        16,
+        16
+      ],
+      "MACs": 16384,
+      "output_elements": 2048
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        8,
+        8
+      ],
+      "MACs": 12800,
+      "output_elements": 512
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        8,
+        8
+      ],
+      "MACs": 4096,
+      "output_elements": 512
+    },
+    {
+      "kind": "Linear",
+      "output_shape": [
+        1,
+        42
+      ],
+      "MACs": 5376,
+      "output_elements": 42
+    }
+  ],
+  "cost_boundaries": "MACs exclude box normalization, annulus generation, softmax/decode, PSI, old hub/polar and memory traffic. No integer C/link/stack/cycle fit proof.",
+  "hardware_actions": false,
+  "H_or_ABC_opened": false,
+  "training_by_reviewer": false,
+  "scope": "Execution and diagnostic semantics only; silver is not GT and pose is not yaw. G is development. Error bins are descriptive, no user final target."
+}

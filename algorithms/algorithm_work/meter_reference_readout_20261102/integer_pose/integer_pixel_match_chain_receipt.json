@@ -1,0 +1,58 @@
+{
+  "status": "PASS_FROZEN_PSI_OUTPUTS_PRESERVED",
+  "model_hub_records": 223,
+  "arithmetic_only13_records_excluded_from_readout": true,
+  "pose_decision_changes": [],
+  "pose_angle_changes": [],
+  "pose_winner_metadata_changes": [],
+  "pressure_output_changes": [],
+  "summary": {
+    "unit": "psi",
+    "images": 59,
+    "gauge_images": 56,
+    "negative_images": 3,
+    "valid_readings": 21,
+    "coverage_gauge": 0.375,
+    "valid_reads_with_bounded_both_points": 21,
+    "bounded_both_point_images": 50,
+    "reading_mae_psi": 0.15740682142050108,
+    "reading_median_abs_error_psi": 0.12991795921179872,
+    "reading_max_abs_error_psi": 0.45787038715820216,
+    "accurate_accepted_within_tolerance": 21,
+    "wrong_accepted_over_tolerance": 0,
+    "negative_false_accepts": 0,
+    "legacy_comparison_tolerance_psi": 0.7251886888086433,
+    "output_error_distribution_psi": {
+      "within_0_25_psi": 16,
+      "within_0_5_psi": 21,
+      "within_1_0_psi": 21,
+      "bins": {
+        "up_to_0_25": 16,
+        "over_0_25_to_0_5": 5,
+        "over_0_5_to_1_0": 0,
+        "over_1_0": 0
+      },
+      "changes_output_permission": false,
+      "is_user_confirmed_final_accuracy_target": false
+    },
+    "tolerance_note": "Exact equivalent of historical0.05bar engineering comparison only; NOT0.05psi and NOT user-confirmed final accuracy target.",
+    "rejections": {
+      "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 7,
+      "PREDICTED_HUB_TOO_FAR_FROM_LOCATOR_CENTER_FOR_RING_POSE": 1,
+      "PREDICTION_NOT_PERMITTED": 17,
+      "ROI128_RING_AMBIGUOUS": 13
+    }
+  },
+  "float32_tie_profile_differences": 173,
+  "frontend_profile_max_abs_difference": 1,
+  "thresholds_changed": false,
+  "calibration_changed": false,
+  "geometry_uses_float": true,
+  "MCU_deployed": false,
+  "H_opened": false,
+  "hardware_actions": false,
+  "source": {
+    "frontend_manifest_sha256": "55fb927038bb2f49b076b1e14f9f490dc229af75497b9030d75aba5ea3cf3bd1",
+    "matcher_verification_sha256": "43b62f11cd15018e57c788e6a374e0159a5e9a8e5008f4b044ba49213cf16785"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "status": "RV32IMAC_C99_OBJECT_COMPILED_NOT_APPLICATION_LINKED",
+  "compiler": "C:\\Anlogic\\FD_2026.2\\toolchain\\gcc\\riscv\\ph1p35\\bin\\riscv64-unknown-elf-gcc.exe",
+  "compile_flags": [
+    "-march=rv32imac",
+    "-mabi=ilp32",
+    "-std=c99",
+    "-O2",
+    "-ffreestanding",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fstack-usage",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-c"
+  ],
+  "compile_exit": 0,
+  "compile_stderr": "",
+  "ELFclass": 32,
+  "ELFmachine": "RISC-V243",
+  "text_bytes": 1548,
+  "rodata_bytes": 0,
+  "data_bytes": 0,
+  "bss_bytes": 0,
+  "object_file_bytes": 6432,
+  "nonalloc_metadata_bytes": 87,
+  "stack_usage": {
+    "mp_context_size": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mp_template_size": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mp_result_size": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mp_template_init": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mp_prepare": {
+      "bytes": 16,
+      "kind": "static"
+    },
+    "mp_push": {
+      "bytes": 96,
+      "kind": "static"
+    },
+    "mp_score_ge_064": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mp_margin_ge_0018": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mp_finish": {
+      "bytes": 16,
+      "kind": "static"
+    },
+    "mp_get_shift": {
+      "bytes": 0,
+      "kind": "static"
+    }
+  },
+  "max_individual_function_static_frame_bytes": 96,
+  "undefined_symbols": [
+    "memset"
+  ],
+  "unresolved_libgcc_or_float_helpers": [],
+  "caller_owned_working_storage": {
+    "context_bytes": 1104,
+    "query_profile_bytes": 4320,
+    "frozen_template_values_bytes": 3234,
+    "frozen_template_U16_indices_bytes": 6468,
+    "local_shift_tables_S16_bytes": 196,
+    "context_excludes_templates_profiles_and_frontend": true
+  },
+  "limits": [
+    "0objectBSS means context/profile storage is supplied by caller, not zero workspace.",
+    "Static stack frame96bytes excludes caller, interrupt and unresolvedmemset implementations; not measured stack watermark.",
+    "Actual whole48KiBMCU application with rawROI frontend,newhub/polar,PSI andownership is NOT linked.",
+    "No MCU cycles, board fit, software recognition deployment, Flash or device action is claimed.",
+    "Exact-rational thresholds are matched to frozenkeep1307/1280; generickeep125 IEEE cancellation edge is documented separately."
+  ],
+  "sources_sha256": {
+    "meter_pose_matcher.c": "baca7df6a444026c30069cdb8bad07fb46d3cd9b44c93c4cbf57110d8ebd63b2",
+    "meter_pose_matcher.h": "89b125040d65d58433d034406f748e7e16d462e4521a49d01d614db862480921",
+    "meter_pose_matcher.o": "835059c844d07b4c9b716fa922b11c3dae725ca8acbd8d68a6faa6c55331e575",
+    "meter_pose_matcher.su": "d4e4468aef870de36e30c5d15087e696037938a78f2c0c518df2ac5a3d222b59",
+    "inspect_rv32_object.py": "c81eca6869bfceea1fd1e46fccbc70083a202c505240c6dab906f37bfefc961e"
+  },
+  "inspection_commands": [
+    [
+      "C:\\Anlogic\\FD_2026.2\\toolchain\\gcc\\riscv\\ph1p35\\bin\\riscv64-unknown-elf-size.exe",
+      "-A",
+      "-d",
+      "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\rv32_build\\meter_pose_matcher.o"
+    ],
+    [
+      "C:\\Anlogic\\FD_2026.2\\toolchain\\gcc\\riscv\\ph1p35\\bin\\riscv64-unknown-elf-nm.exe",
+      "-u",
+      "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\rv32_build\\meter_pose_matcher.o"
+    ]
+  ],
+  "model_training": false,
+  "application_link": false,
+  "hardware_actions": false
+}

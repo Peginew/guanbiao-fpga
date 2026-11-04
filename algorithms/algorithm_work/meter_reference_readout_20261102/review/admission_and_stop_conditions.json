@@ -1,0 +1,34 @@
+{
+  "status": "SUPERVISION_CONTRACT_ONLY_CANDIDATE_ADMISSION_PENDING",
+  "scope": "Offline ROI128 static-reference candidate; no board, firmware, Flash, canonical-label or split changes",
+  "primary_unit": "psi",
+  "baseline": "Frozen previous hub1202 + polar1009 + multi-reference ROI128 annular pose; G21/56 valid, MAE0.15740682142050108psi",
+  "admission": [
+    "One main reference-direction candidate with input, label sources, loss masks, training budget, internal selection and output-evidence rules frozen before its G evaluation",
+    "Static registration labels explicitly silver relative-roll evidence, not human pose ground truth or yaw truth; original-image roll is not assumed zero",
+    "Unknown reference directions stay ignored; registration failure is not automatically an unreadable-image or no-gauge negative",
+    "Runtime uses only128x128U8ROI and declared same-source predicted geometry; no query pressure, GT points, native frame, SIFT or other unavailable inputs",
+    "Independent geometric augmentation applies the same coordinate/angle convention to image and reference label; pressure and needle angle cannot supply orientation supervision",
+    "Hub and polar remain frozen; any hub replacement requires regenerated same-view polar features and matching provenance",
+    "Training/templates/fitted normalization/calibration exclude G and sealed H/ABC; internal held-out groups must not be fitted into training references",
+    "Final PSI comparison keeps all56 gauge and3 negative G images, records all computed gate states, and distinguishes first failure from overlapping causes",
+    "A changed reference coordinate system may require train-only calibration, but that joint change is not described as a same-calibration pose-only ablation",
+    "ProxyHDMI/manual-bbox ROI evidence and actual board gray/automatic localization are identified separately; missing domain equivalence prevents deployment claims but not bounded PC evaluation"
+  ],
+  "stop_or_keep_baseline": [
+    "Insufficient visible static-print evidence or unreliable silver supervision: state the missing evidence rather than fabricate point coordinates or zero roll",
+    "No final PSI benefit after the fixed run: retain previous candidate and do not chase G by changing thresholds or scope",
+    "Additional accepted readings with additional large errors: report exact gains/losses and the tradeoff, not unconditional improvement",
+    "Unmeasured fixed-point preprocessing, activations, scratch/templates, code, stack, link map or full inference cycles: MCU fit remains pending",
+    "Query GT/pressure leakage, mixed-frame geometry, changed canonical/splits or opening sealed H/ABC: fail the affected candidate"
+  ],
+  "evaluation_bands_psi": [0.25, 0.5, 1.0],
+  "bands_are_user_confirmed_final_targets": false,
+  "supervisor_actions": {
+    "training": false,
+    "candidate_source_or_weight_modification": false,
+    "sealed_H_or_ABC_opened": false,
+    "hardware": false
+  },
+  "final_review": "Pending exact candidate and diagnostic artifacts"
+}

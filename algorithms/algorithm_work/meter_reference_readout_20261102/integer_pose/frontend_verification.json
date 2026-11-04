@@ -1,0 +1,160 @@
+{
+  "status": "PASS_INTEGER_PIXEL_PROFILE_MATH_WITH_EXPLICIT_FLOAT32_TIE_DIFFERENCES",
+  "synthetic": {
+    "status": "PASS",
+    "pixel_checks": 82816,
+    "bilinear_max_cv_error": 0,
+    "RNE_signed_ties": true
+  },
+  "counts": {
+    "normalize_pixels": 3866624,
+    "normalize_mismatches": 0,
+    "q5coordinate_components": 55054080,
+    "q5coordinate_mismatches": 0,
+    "bilinear_samples": 27527040,
+    "bilinear_pixel_mismatches": 0,
+    "profile_S8_elements": 27527040,
+    "rational_vs_float32_profile_mismatches": 173,
+    "rational_vs_float32_profile_max_abs_error": 1,
+    "outside_predicate_mismatches": 0
+  },
+  "first_profile_rounding_differences": [
+    {
+      "id": "D_013",
+      "profile": 0,
+      "band": 11,
+      "angle": 94,
+      "rational_value": 23,
+      "old_float32_value": 24
+    },
+    {
+      "id": "D_022",
+      "profile": 1,
+      "band": 9,
+      "angle": 147,
+      "rational_value": 71,
+      "old_float32_value": 72
+    },
+    {
+      "id": "D_031",
+      "profile": 1,
+      "band": 3,
+      "angle": 184,
+      "rational_value": 46,
+      "old_float32_value": 45
+    },
+    {
+      "id": "D_040",
+      "profile": 22,
+      "band": 11,
+      "angle": 316,
+      "rational_value": -32,
+      "old_float32_value": -33
+    },
+    {
+      "id": "E_002",
+      "profile": 10,
+      "band": 7,
+      "angle": 232,
+      "rational_value": 4,
+      "old_float32_value": 5
+    },
+    {
+      "id": "E_005",
+      "profile": 25,
+      "band": 1,
+      "angle": 35,
+      "rational_value": -68,
+      "old_float32_value": -67
+    },
+    {
+      "id": "E_007",
+      "profile": 13,
+      "band": 8,
+      "angle": 114,
+      "rational_value": -51,
+      "old_float32_value": -50
+    },
+    {
+      "id": "E_010",
+      "profile": 4,
+      "band": 10,
+      "angle": 122,
+      "rational_value": 69,
+      "old_float32_value": 68
+    },
+    {
+      "id": "E_015",
+      "profile": 25,
+      "band": 7,
+      "angle": 76,
+      "rational_value": 40,
+      "old_float32_value": 41
+    },
+    {
+      "id": "E_023",
+      "profile": 18,
+      "band": 11,
+      "angle": 81,
+      "rational_value": 50,
+      "old_float32_value": 49
+    },
+    {
+      "id": "E_033",
+      "profile": 11,
+      "band": 8,
+      "angle": 228,
+      "rational_value": -61,
+      "old_float32_value": -60
+    },
+    {
+      "id": "E_039",
+      "profile": 20,
+      "band": 6,
+      "angle": 125,
+      "rational_value": 69,
+      "old_float32_value": 68
+    }
+  ],
+  "template_differences": [
+    {
+      "id": "D_002",
+      "selected_elements": 1634,
+      "integer_vs_old_changed": 0,
+      "max_abs_difference": 0,
+      "outside_count": 0
+    },
+    {
+      "id": "E_002",
+      "selected_elements": 1600,
+      "integer_vs_old_changed": 0,
+      "max_abs_difference": 0,
+      "outside_count": 0
+    }
+  ],
+  "fixed_math": {
+    "local_mean": "nearest(sum/81)=(sum+40)//81",
+    "local_contrast": "satU8(3*(pixel-localmean)+128)",
+    "Q5_pixel_coordinates": "RNE(float32map*32), stillfromfloatgeometry",
+    "bilinear": "(weighted4pixelSum+512)>>10 (positivehalfup)",
+    "radial_profile": "d=360*u-sum; A=sum(abs(d)); RNEeven(d*11520/max(A,777600)); sat[-127,127]",
+    "maximum_profile_numerator_bound": 1057536000,
+    "profile_intermediate_S32_mathematically_sufficient": true
+  },
+  "remaining_float": [
+    "sin/cos",
+    "radialfractionandscalegeometry",
+    "predictedhubcoordinates",
+    "outsidepredicate",
+    "hubdistancepredicate"
+  ],
+  "not_yet_C_frontend_or_MCU": true,
+  "not_board_pixel_domain_equivalence": true,
+  "no_new_optimization_or_threshold_changes": true,
+  "G_not_used_to_tune": true,
+  "H_opened": false,
+  "hardware_actions": false,
+  "elapsed_seconds": 15.125,
+  "frontend_code_sha256": "4f6d09ada61eca5634172447971046c33d50ceb130178b130fe83690fb578120",
+  "fixture_manifest_sha256": "55fb927038bb2f49b076b1e14f9f490dc229af75497b9030d75aba5ea3cf3bd1"
+}

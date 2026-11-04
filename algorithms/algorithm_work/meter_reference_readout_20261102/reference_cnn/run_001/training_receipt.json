@@ -1,0 +1,10 @@
+{
+  "status": "ONE_FIXED_RUN_COMPLETED_G_NOT_EVALUATED",
+  "steps": 1600,
+  "elapsed_s": 56.01499999999942,
+  "best_checkpoint_sha256": "80880c89c6e41b3821bc5715e725b0b4f651406866ff7edb127e28e54d44c2d7",
+  "config_sha256": "3c99cbf3d4b70aa5f7b1d45f7500dc9ab3d9e44aabf4fdbfdccfe490fe88236f",
+  "history_sha256": "f6964701cd6d7d5be8445d72829163100b39009d622bb2a571460c46c804b519",
+  "H_opened": false,
+  "hardware_actions": false
+}

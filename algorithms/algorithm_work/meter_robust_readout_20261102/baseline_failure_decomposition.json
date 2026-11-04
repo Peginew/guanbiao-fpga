@@ -1,0 +1,811 @@
+{
+  "scope": "Read-only existing G baseline analysis, no new inference/training/H",
+  "unit": "psi",
+  "by_scene": {
+    "front_medium_soft_light": {
+      "images": 8,
+      "valid": 6,
+      "error_within_0_5psi": 6,
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+        "PREDICTION_NOT_PERMITTED": 1
+      },
+      "details": [
+        {
+          "id": "G_001",
+          "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+          "error_psi": null,
+          "angle_error_deg": 2.0589781718781524,
+          "needle_score": 0.7489136457443237,
+          "needle_margin": 0.5699637532234192,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_007",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 1.0537251641299576,
+          "needle_score": 0.6953473091125488,
+          "needle_margin": 0.6095890998840332,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_013",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.07549976982548579,
+          "angle_error_deg": 0.02887759021604097,
+          "needle_score": 0.7908886671066284,
+          "needle_margin": 0.6809816360473633,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_019",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.1922779669618837,
+          "angle_error_deg": 0.6111272842775861,
+          "needle_score": 0.9102154970169067,
+          "needle_margin": 0.7555058002471924,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_025",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.13337883472327317,
+          "angle_error_deg": 0.3520389396334451,
+          "needle_score": 0.9181375503540039,
+          "needle_margin": 0.7342906594276428,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_031",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.23064316635835524,
+          "angle_error_deg": 0.804780050614113,
+          "needle_score": 0.8476036787033081,
+          "needle_margin": 0.5900487899780273,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_037",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.0015453220877508222,
+          "angle_error_deg": 1.1188021220099813,
+          "needle_score": 0.8631095290184021,
+          "needle_margin": 0.5977869033813477,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_043",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.3359797077559925,
+          "angle_error_deg": 0.5690080851959749,
+          "needle_score": 0.9143829941749573,
+          "needle_margin": 0.6395646929740906,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "front_large_soft_light": {
+      "images": 8,
+      "valid": 7,
+      "error_within_0_5psi": 6,
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1
+      },
+      "details": [
+        {
+          "id": "G_002",
+          "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+          "error_psi": null,
+          "angle_error_deg": 4.148279417431866,
+          "needle_score": 0.7893348336219788,
+          "needle_margin": 0.6792372465133667,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_008",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.05347256216358787,
+          "angle_error_deg": 4.11015344627117,
+          "needle_score": 0.7281258702278137,
+          "needle_margin": 0.5975704789161682,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_014",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.0624252165075454,
+          "angle_error_deg": 2.8039333189040008,
+          "needle_score": 0.7922462821006775,
+          "needle_margin": 0.5727301836013794,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_020",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.17728341279990723,
+          "angle_error_deg": 1.4931973344806693,
+          "needle_score": 0.9450564384460449,
+          "needle_margin": 0.7470910549163818,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_026",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.07223049127643755,
+          "angle_error_deg": 1.2473888809506093,
+          "needle_score": 0.9480050206184387,
+          "needle_margin": 0.6472758650779724,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_032",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.018384196430805133,
+          "angle_error_deg": 4.206100563972939,
+          "needle_score": 0.8876083493232727,
+          "needle_margin": 0.7207589745521545,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_038",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.062908049814423,
+          "angle_error_deg": 0.6458238739319881,
+          "needle_score": 0.9243571758270264,
+          "needle_margin": 0.5602328181266785,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_044",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.5688849541904517,
+          "angle_error_deg": 2.7358843118508673,
+          "needle_score": 0.9144700765609741,
+          "needle_margin": 0.7238942384719849,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "front_dim": {
+      "images": 8,
+      "valid": 6,
+      "error_within_0_5psi": 5,
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+        "PREDICTION_NOT_PERMITTED": 1
+      },
+      "details": [
+        {
+          "id": "G_003",
+          "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+          "error_psi": null,
+          "angle_error_deg": 0.47081993726885685,
+          "needle_score": 0.5915219187736511,
+          "needle_margin": 0.34630274772644043,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_009",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.028242927936240392,
+          "angle_error_deg": 1.704693907523847,
+          "needle_score": 0.45880264043807983,
+          "needle_margin": 0.19842222332954407,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_015",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.019405160282987666,
+          "angle_error_deg": 0.10342513562557087,
+          "needle_score": 0.41476961970329285,
+          "needle_margin": 0.14530181884765625,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_021",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.11874297799585953,
+          "angle_error_deg": 0.6748419038256372,
+          "needle_score": 0.5278603434562683,
+          "needle_margin": 0.30380162596702576,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_027",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.16399156019194372,
+          "angle_error_deg": 4.002014395584695,
+          "needle_score": 0.7338359355926514,
+          "needle_margin": 0.497948557138443,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_033",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 4.6596827347158865,
+          "needle_score": 0.6692397594451904,
+          "needle_margin": 0.46593356132507324,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_039",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.3949838350314474,
+          "angle_error_deg": 3.196342124698276,
+          "needle_score": 0.7612306475639343,
+          "needle_margin": 0.48855963349342346,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_045",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.5316493601054049,
+          "angle_error_deg": 3.055029496199836,
+          "needle_score": 0.6538345217704773,
+          "needle_margin": 0.39654257893562317,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "backlight_or_local_reflection": {
+      "images": 8,
+      "valid": 5,
+      "error_within_0_5psi": 5,
+      "rejections": {
+        "PREDICTION_NOT_PERMITTED": 2,
+        "NO_STATIC_PRINT_POSE": 1
+      },
+      "details": [
+        {
+          "id": "G_004",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 170.13688533438534,
+          "needle_score": 0.3463357090950012,
+          "needle_margin": 0.29238131642341614,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_010",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 0.5164824516604085,
+          "needle_score": 0.3481631577014923,
+          "needle_margin": 0.2776470184326172,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_016",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.012610689048985435,
+          "angle_error_deg": 1.248199249519189,
+          "needle_score": 0.6872897744178772,
+          "needle_margin": 0.5552234649658203,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_022",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.13343964591937407,
+          "angle_error_deg": 0.11917111107263167,
+          "needle_score": 0.6543677449226379,
+          "needle_margin": 0.5729150176048279,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_028",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.08607768883026079,
+          "angle_error_deg": 1.0749222111825247,
+          "needle_score": 0.8076721429824829,
+          "needle_margin": 0.44427672028541565,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_034",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.016289086393179275,
+          "angle_error_deg": 2.8719972944554115,
+          "needle_score": 0.8506526947021484,
+          "needle_margin": 0.7335827350616455,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_040",
+          "reason": "NO_STATIC_PRINT_POSE",
+          "error_psi": null,
+          "angle_error_deg": 1.3630179808155276,
+          "needle_score": 0.7271031737327576,
+          "needle_margin": 0.6749880313873291,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_046",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.3613913899998282,
+          "angle_error_deg": 0.7070413786000529,
+          "needle_score": 0.8114858269691467,
+          "needle_margin": 0.7646375894546509,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "mild_left_view": {
+      "images": 8,
+      "valid": 3,
+      "error_within_0_5psi": 3,
+      "rejections": {
+        "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION": 1,
+        "PREDICTION_NOT_PERMITTED": 2,
+        "NO_STATIC_PRINT_POSE": 2
+      },
+      "details": [
+        {
+          "id": "G_005",
+          "reason": "PREDICTED_DIRECTION_OUTSIDE_TRAIN_CALIBRATION",
+          "error_psi": null,
+          "angle_error_deg": 3.9385838955378745,
+          "needle_score": 0.6470686793327332,
+          "needle_margin": 0.3703620135784149,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_011",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.0988597912261664,
+          "angle_error_deg": 5.671163153083569,
+          "needle_score": 0.5273811221122742,
+          "needle_margin": 0.4690018594264984,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_017",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.2561382986394456,
+          "angle_error_deg": 4.232126051757746,
+          "needle_score": 0.6220653057098389,
+          "needle_margin": 0.40459951758384705,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_023",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 1.3629765257121562,
+          "needle_score": 0.7801427841186523,
+          "needle_margin": 0.6701428294181824,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_029",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.19894401855477728,
+          "angle_error_deg": 2.0712882872677483,
+          "needle_score": 0.824716329574585,
+          "needle_margin": 0.6545829772949219,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_035",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 6.7154537831240475,
+          "needle_score": 0.3697754144668579,
+          "needle_margin": 0.09895354509353638,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_041",
+          "reason": "NO_STATIC_PRINT_POSE",
+          "error_psi": null,
+          "angle_error_deg": 2.221125580409648,
+          "needle_score": 0.6566389799118042,
+          "needle_margin": 0.43852657079696655,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_047",
+          "reason": "NO_STATIC_PRINT_POSE",
+          "error_psi": null,
+          "angle_error_deg": 2.1309539084415405,
+          "needle_score": 0.736557126045227,
+          "needle_margin": 0.5083789825439453,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "mild_right_view": {
+      "images": 8,
+      "valid": 5,
+      "error_within_0_5psi": 4,
+      "rejections": {
+        "PREDICTION_NOT_PERMITTED": 2,
+        "NO_STATIC_PRINT_POSE": 1
+      },
+      "details": [
+        {
+          "id": "G_006",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 1.257260802724602,
+          "needle_score": 0.4004456698894501,
+          "needle_margin": 0.1282925009727478,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_012",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.36844302920023253,
+          "angle_error_deg": 5.419062869687934,
+          "needle_score": 0.5284342169761658,
+          "needle_margin": 0.35791313648223877,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_018",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.11573314327181983,
+          "angle_error_deg": 2.7743806622341936,
+          "needle_score": 0.7601483464241028,
+          "needle_margin": 0.653889536857605,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_024",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.40028499809259266,
+          "angle_error_deg": 13.459607648080862,
+          "needle_score": 0.5714583992958069,
+          "needle_margin": 0.5131720304489136,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_030",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 3.3371125658972574,
+          "needle_score": 0.872292697429657,
+          "needle_margin": 0.3057407736778259,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_036",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.019466496528790955,
+          "angle_error_deg": 1.294289907772594,
+          "needle_score": 0.5905059576034546,
+          "needle_margin": 0.4908270239830017,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_042",
+          "reason": "PC_EMPIRICALLY_CALIBRATED_READING_PSI",
+          "error_psi": 0.8730675157995584,
+          "angle_error_deg": 5.893862032021929,
+          "needle_score": 0.6288769841194153,
+          "needle_margin": 0.43171077966690063,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_048",
+          "reason": "NO_STATIC_PRINT_POSE",
+          "error_psi": null,
+          "angle_error_deg": 0.13290213302238385,
+          "needle_score": 0.8211464285850525,
+          "needle_margin": 0.45242977142333984,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "empty_background": {
+      "images": 1,
+      "valid": 0,
+      "error_within_0_5psi": 0,
+      "rejections": {
+        "PREDICTION_NOT_PERMITTED": 1
+      },
+      "details": [
+        {
+          "id": "G_049",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.41483181715011597,
+          "needle_margin": 0.07472577691078186,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "non_gauge_circular_or_reflective_object": {
+      "images": 2,
+      "valid": 0,
+      "error_within_0_5psi": 0,
+      "rejections": {
+        "PREDICTION_NOT_PERMITTED": 2
+      },
+      "details": [
+        {
+          "id": "G_050",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.26103028655052185,
+          "needle_margin": 0.13847839832305908,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_051",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.22588777542114258,
+          "needle_margin": 0.09164133667945862,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "challenge_with_gauge": {
+      "images": 8,
+      "valid": 0,
+      "error_within_0_5psi": 0,
+      "rejections": {
+        "NO_STATIC_PRINT_POSE": 2,
+        "PREDICTION_NOT_PERMITTED": 6
+      },
+      "details": [
+        {
+          "id": "G_052",
+          "reason": "NO_STATIC_PRINT_POSE",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.42016831040382385,
+          "needle_margin": 0.22371119260787964,
+          "supervision_mask": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "G_053",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 4.57575527949561,
+          "needle_score": 0.22509059309959412,
+          "needle_margin": 0.12909650802612305,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_054",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": 0.6394598445848487,
+          "needle_score": 0.8084986805915833,
+          "needle_margin": 0.4646184742450714,
+          "supervision_mask": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "G_055",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.005474560894072056,
+          "needle_margin": 0.0010784594342112541,
+          "supervision_mask": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "G_056",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.2882291376590729,
+          "needle_margin": 0.09616364538669586,
+          "supervision_mask": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "G_057",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.13343402743339539,
+          "needle_margin": 0.040162235498428345,
+          "supervision_mask": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "G_058",
+          "reason": "NO_STATIC_PRINT_POSE",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.349818617105484,
+          "needle_margin": 0.2740645706653595,
+          "supervision_mask": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "G_059",
+          "reason": "PREDICTION_NOT_PERMITTED",
+          "error_psi": null,
+          "angle_error_deg": null,
+          "needle_score": 0.15255358815193176,
+          "needle_margin": 0.0732252448797226,
+          "supervision_mask": [
+            1,
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

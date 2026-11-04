@@ -1,0 +1,109 @@
+{
+  "status": "RV32IMAC_Q5_INPUT_PIXEL_PROFILE_FRONTEND_OBJECT_COMPILED_NOT_LINKED",
+  "scope": [
+    "replicate9x9localcontrast",
+    "Q5bilinearconstantborder128",
+    "signedrationalRNEprofile"
+  ],
+  "compile_exit": 0,
+  "compile_stderr": "",
+  "compiler": "C:/Anlogic/FD_2026.2/toolchain/gcc/riscv/ph1p35/bin/riscv64-unknown-elf-gcc.exe",
+  "compile_flags": [
+    "-march=rv32imac",
+    "-mabi=ilp32",
+    "-std=c99",
+    "-O2",
+    "-ffreestanding",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fstack-usage",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-c"
+  ],
+  "text_bytes": 1320,
+  "rodata_bytes": 0,
+  "data_bytes": 0,
+  "bss_bytes": 0,
+  "object_file_bytes": 5564,
+  "undefined_symbols": [],
+  "unresolved_libgcc_or_float_helpers": [],
+  "stack_usage": {
+    "normalize_row": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mpf_bilinear_q5_u8.part.0": {
+      "bytes": 16,
+      "kind": "static"
+    },
+    "mpf_normalize_workspace_size": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mpf_profile_workspace_size": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mpf_normalize9x9_u8": {
+      "bytes": 32,
+      "kind": "static"
+    },
+    "mpf_bilinear_q5_u8": {
+      "bytes": 0,
+      "kind": "static"
+    },
+    "mpf_normalize_profile_s8": {
+      "bytes": 16,
+      "kind": "static"
+    },
+    "mpf_profile_q5_s8": {
+      "bytes": 32,
+      "kind": "static"
+    }
+  },
+  "max_individual_function_static_frame_bytes": 32,
+  "fused_profile_known_internal_call_chain_bytes": 48,
+  "caller_owned_storage": {
+    "normalizer_workspace_bytes": 1408,
+    "fused_profile_workspace_bytes": 360,
+    "normalized_U8_image_bytes": 16384,
+    "output_S8_profile_bytes": 4320,
+    "full_Q5_xy_coordinate_tables_S16_bytes": 17280,
+    "all_caller_storage_is_not_newly_allocated_here": true
+  },
+  "coordinate_generation_implemented": false,
+  "outside_predicate_implemented": false,
+  "pending": [
+    "Float-derivedQ5tables/hubradius/outside predicate are supplied, not all-integergeometry.",
+    "RawROI ownership and normalized-image/scratch reuse must be planned in real application.",
+    "Caller tables and profile/template storage do not disappear because objectBSSis0.",
+    "No fullhub+polar+pose+psi C application link, measuredstack, MCUcycles orboardvalidation."
+  ],
+  "source_sha256": {
+    "meter_pose_frontend.c": "8379ac344fa7a8194e89a65155d4768113d857c572a2a26b714b67b9f96233cc",
+    "meter_pose_frontend.h": "fa51a5683d367a0dfb6741834166e67b32c4c6829d9ae2189352cd5477f1711a",
+    "pose_frontend.py": "4f6d09ada61eca5634172447971046c33d50ceb130178b130fe83690fb578120",
+    "inspect_rv32_object.py": "c81eca6869bfceea1fd1e46fccbc70083a202c505240c6dab906f37bfefc961e",
+    "meter_pose_frontend.o": "cd37f97766de8e6dd6ce47d746d29343f3ccb5b7bab49934b1f52a4260ecdaff",
+    "meter_pose_frontend.su": "19fc590bff09bbf50e945567e3c16ae0efd0a18fbccd4f4cd3597d61542dadc2",
+    "inspect_frontend_object.py": "2019444a82430347681ec665782f11b63ec501a4db06969aefa2105d4df9dc2e"
+  },
+  "inspection_commands": [
+    [
+      "C:\\Anlogic\\FD_2026.2\\toolchain\\gcc\\riscv\\ph1p35\\bin\\riscv64-unknown-elf-size.exe",
+      "-A",
+      "-d",
+      "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\rv32_build\\meter_pose_frontend.o"
+    ],
+    [
+      "C:\\Anlogic\\FD_2026.2\\toolchain\\gcc\\riscv\\ph1p35\\bin\\riscv64-unknown-elf-nm.exe",
+      "-u",
+      "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_reference_readout_20261102\\integer_pose\\rv32_build\\meter_pose_frontend.o"
+    ]
+  ],
+  "training": false,
+  "full_application_link": false,
+  "hardware_actions": false
+}

@@ -1,0 +1,257 @@
+{
+  "status": "EXECUTION_REPLAY_PASS_CANDIDATE_FAIL_KEEP_BASELINE",
+  "checks": 2602,
+  "diagnostics_source": "c6036ab0adafdbeaa9e6df2bc6c51f6e97e998a6014533e17903f8f40e57d3d7",
+  "candidate_source": "7f99338774091a7c8d2e69d344bd976102b9e089e801e80ff816b448235900f1",
+  "candidate_config": "03a2ecfba7fd9c8338575ceb18dd6ac41958ec7d6a7ccccf5d458a03e33f29aa",
+  "diagnostic_summary_sha256": "28d955c0a3f38513261b089add775d25bf4225a801d7965c0a3ba9a394b6e379",
+  "supervision_counts": {
+    "D": {
+      "silver": 28,
+      "null": 3
+    },
+    "E": {
+      "silver": 46,
+      "null": 3
+    },
+    "F": {
+      "silver": 18,
+      "null": 3
+    }
+  },
+  "candidate_parameters": 6226,
+  "whole_neural_pair_plus_candidate_parameters": 8437,
+  "candidate_convolution_and_linear_MACs": 634624,
+  "layers": [
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        4,
+        64,
+        64
+      ],
+      "MACs": 409600,
+      "output_elements": 16384
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        4,
+        32,
+        32
+      ],
+      "MACs": 102400,
+      "output_elements": 4096
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        32,
+        32
+      ],
+      "MACs": 32768,
+      "output_elements": 8192
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        16,
+        16
+      ],
+      "MACs": 51200,
+      "output_elements": 2048
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        16,
+        16
+      ],
+      "MACs": 16384,
+      "output_elements": 2048
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        8,
+        8
+      ],
+      "MACs": 12800,
+      "output_elements": 512
+    },
+    {
+      "kind": "Conv2d",
+      "output_shape": [
+        1,
+        8,
+        8,
+        8
+      ],
+      "MACs": 4096,
+      "output_elements": 512
+    },
+    {
+      "kind": "Linear",
+      "output_shape": [
+        1,
+        42
+      ],
+      "MACs": 5376,
+      "output_elements": 42
+    }
+  ],
+  "cost_boundaries": "MACs exclude box normalization, annulus generation, softmax/decode, PSI, old hub/polar and memory traffic. No integer C/link/stack/cycle fit proof.",
+  "hardware_actions": false,
+  "H_or_ABC_opened": false,
+  "training_by_reviewer": false,
+  "scope": "Execution and diagnostic semantics only; silver is not GT and pose is not yaw. G is development. Error bins are descriptive, no user final target.",
+  "checkpoint_sha256": "80880c89c6e41b3821bc5715e725b0b4f651406866ff7edb127e28e54d44c2d7",
+  "best_step": 1600,
+  "training_receipt_sha256": "382ee6b9dc43f93ebb1c8bd5addac56ff0edda58dbc423407482fc8699e0ed8a",
+  "candidate_pose_sha256": "54facf4f71b119a762a5bf528beb31b0fff15c5ca59da0c0faa67b03023aa41e",
+  "calibration_sha256": "2828b9a5054855b444ec025fff00b6aa3dac07c406924af217e9f722f3338f5d",
+  "readout_sha256": "78325c46e6ea5234fdf5b8f8e008d2b94d28e00743e73aba93020bf611633fb4",
+  "baseline": {
+    "valid_readings": 21,
+    "mae_psi": 0.15740682142050108,
+    "bins": {
+      "0.25": 16,
+      "0.5": 21,
+      "1.0": 21
+    },
+    "negative_outputs": 0,
+    "ids": [
+      "G_008",
+      "G_009",
+      "G_011",
+      "G_013",
+      "G_014",
+      "G_015",
+      "G_016",
+      "G_018",
+      "G_019",
+      "G_021",
+      "G_022",
+      "G_025",
+      "G_026",
+      "G_028",
+      "G_029",
+      "G_031",
+      "G_037",
+      "G_038",
+      "G_039",
+      "G_040",
+      "G_045"
+    ]
+  },
+  "candidate": {
+    "valid_readings": 6,
+    "mae_psi": 0.5752706572080765,
+    "bins": {
+      "0.25": 4,
+      "0.5": 4,
+      "1.0": 5
+    },
+    "negative_outputs": 0,
+    "ids": [
+      "G_019",
+      "G_020",
+      "G_032",
+      "G_037",
+      "G_041",
+      "G_052"
+    ]
+  },
+  "gained_ids": [
+    "G_020",
+    "G_032",
+    "G_041",
+    "G_052"
+  ],
+  "lost_ids": [
+    "G_008",
+    "G_009",
+    "G_011",
+    "G_013",
+    "G_014",
+    "G_015",
+    "G_016",
+    "G_018",
+    "G_021",
+    "G_022",
+    "G_025",
+    "G_026",
+    "G_028",
+    "G_029",
+    "G_031",
+    "G_038",
+    "G_039",
+    "G_040",
+    "G_045"
+  ],
+  "candidate_error_rows": [
+    {
+      "id": "G_019",
+      "reference_psi": 8.5,
+      "estimate_psi": 8.305429629357247,
+      "absolute_error_psi": 0.19457037064275262
+    },
+    {
+      "id": "G_020",
+      "reference_psi": 8.5,
+      "estimate_psi": 7.966684864134921,
+      "absolute_error_psi": 0.5333151358650792
+    },
+    {
+      "id": "G_032",
+      "reference_psi": 5.5,
+      "estimate_psi": 5.304971722179937,
+      "absolute_error_psi": 0.1950282778200627
+    },
+    {
+      "id": "G_037",
+      "reference_psi": 4,
+      "estimate_psi": 3.8969297728284076,
+      "absolute_error_psi": 0.10307022717159242
+    },
+    {
+      "id": "G_041",
+      "reference_psi": 4,
+      "estimate_psi": 3.8536306043275825,
+      "absolute_error_psi": 0.14636939567241747
+    },
+    {
+      "id": "G_052",
+      "reference_psi": 2.5,
+      "estimate_psi": 4.779270536076554,
+      "absolute_error_psi": 2.279270536076554
+    }
+  ],
+  "selection_decision": "Do not adopt new referenceCNN. Preserve previous2211 + multi-referenceROI128 ring. No new G-driven training or threshold changes.",
+  "final_PSI_is_new_train_calibration_not_same_cal_ablation": true,
+  "remaining": "Input-domain equivalence, static silver quality, true linked MCU memory and fixed-point/full-cycle proof retain their stated limits. No deployed accuracy claim.",
+  "input_audit_review": {
+    "checks": 83,
+    "completion_sha256": "cf79a006169a459e23ee840285e2bf0e07948b16e632ed0d44aca5d005da3156",
+    "audit_records": 24,
+    "manual_static_sidecars": 8,
+    "native_to_ROI_and_relative_angles_recomputed": true,
+    "independent_visual_scope": "G/F12 native/ROI panels plus8 manual-axis panel pairs viewed; not a24-image gold recertification",
+    "domain_equivalence_proven": false,
+    "source_stage": "AWB-after RGB grayscale; no unsupported raw-sensor-domain claim",
+    "manual_sidecar_is_gold_or_training_labels": false,
+    "canonical_changed": false,
+    "known_board_zero_dumps_are_not_camera_black_proof": true,
+    "H_or_ABC_opened": false
+  }
+}
