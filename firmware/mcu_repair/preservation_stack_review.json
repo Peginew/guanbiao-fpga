@@ -1,0 +1,49 @@
+{
+  "weights": {
+    "hub_weights_q8.h": {
+      "old": "12a14a7c2260b9a81cc140209946cca0a41f09dbbc46ed9f1348b47d0200b033",
+      "new": "12a14a7c2260b9a81cc140209946cca0a41f09dbbc46ed9f1348b47d0200b033",
+      "equal": true
+    },
+    "landmark_weights_q8.h": {
+      "old": "152c4d424b8ebd8f5a621a5cab564d8475230830915b7836332388f2268a0a92",
+      "new": "152c4d424b8ebd8f5a621a5cab564d8475230830915b7836332388f2268a0a92",
+      "equal": true
+    },
+    "polar_weights_q8.h": {
+      "old": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d",
+      "new": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d",
+      "equal": true
+    }
+  },
+  "object_equal": {
+    "al_chip.o": true,
+    "al_rv32_start_flash_tcm.o": true,
+    "landmark_geometry.o": true,
+    "meter_pose_frontend.o": true,
+    "meter_pose_matcher.o": true,
+    "minimal_app.o": false,
+    "minimal_libc.o": true,
+    "mroi_c4.o": true,
+    "mroi_client.o": false,
+    "mroi_decode.o": true,
+    "mroi_guard.o": false,
+    "nuclei_intexc.o": true,
+    "nuclei_startup.o": true,
+    "platform_binding.o": true,
+    "reader_numeric.o": true,
+    "reader_runtime.o": true,
+    "reader_sigmoid.o": true,
+    "soc_plat.o": true
+  },
+  "all_weights_identical": true,
+  "math_objects_identical": true,
+  "stack_bound_old": 1584,
+  "exception_handler_frame_old": 32,
+  "exception_handler_frame_new": 48,
+  "conservative_stack_bound_new": 1600,
+  "reserved_stack": 2048,
+  "static_stack_remaining": 448,
+  "TCM_actual_gap_new": 1004,
+  "no_device": true
+}

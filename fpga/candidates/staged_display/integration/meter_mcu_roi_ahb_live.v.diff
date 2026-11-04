@@ -1,0 +1,98 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_landmark_s3_20261103\project\user_source\hdl_source\meter_pair\meter_mcu_roi_ahb_live.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\meter_mcu_roi_ahb_live.v
+@@ -8,6 +8,7 @@
+  output reg [31:0] hrdata,output reg [1:0] hresp,output reg hready,
+  input wire [31:0] source_crc32,quality_flags,quality_mean,quality_gradient,quality_counts,
+  input wire [31:0] observer_seq,observer_hword,input wire [95:0] observer_snapshot,
++ input wire [3:0] first_cancel_cause_read,
+  output wire observer_offer_accepted,
+  input wire offer_valid,output wire offer_ready,input wire [95:0] offer_token,
+  input wire [15:0] offer_target,input wire [31:0] offer_config,
+@@ -22,7 +23,9 @@
+  output wire [31:0] checksum_result_config,output reg [31:0] checksum_crc32,
+  output reg platform_armed,
+  output reg [31:0] checksum_bytes,checksum_code,
+- output reg [15:0] checksum_psi_q8,output reg checksum_psi_valid
++ output reg [15:0] checksum_psi_q8,output reg checksum_psi_valid,
++ // One-entry stage mailbox; blocked writers wait, never overwrite.
++ output reg progress_valid,output reg [31:0] progress_code,input wire progress_ready
+ );
+  localparam IDLE=0,DECODE=1,RESP=2,RREQ=3,RWAIT=4,ERR1=5,ERR2=6;
+  localparam E_ALIGN=1,E_SIZE=2,E_ADDRESS=3,E_READONLY=4,E_OWNER=5,
+@@ -40,12 +43,12 @@
+  wire offer_format=offer_stride>=1&&offer_stride<=4&&offer_radius>=40&&offer_radius<=62&&
+   offer_x0[1:0]==0&&offered_xend<=1280&&offered_yend<=720;
+  wire kill=cancel||!roi_live||cpu_reset_quiescent;
+- assign offer_ready=rst_n&&platform_armed&&!kill&&!present&&!ram_pending&&!roi_word_active;
++ assign offer_ready=rst_n&&platform_armed&&!kill&&!present&&!ram_pending&&!roi_word_active&&!progress_valid;
+  assign observer_offer_accepted=offer_valid&&offer_ready&&fresh&&offer_format; // exact existing legal accept, no feedback
+  assign owner_visible=rst_n&&present&&active&&!kill;
+  assign cpu_claimed=present&&claimed;
+  assign revoked=present&&!active&&!result_pending;
+- assign session_busy=present||ram_pending||roi_word_active;
++ assign session_busy=present||ram_pending||roi_word_active||progress_valid;
+  assign checksum_result_valid=rst_n&&present&&result_pending&&!kill;
+  assign checksum_result_token=token;assign checksum_result_target=target;
+  assign checksum_result_config=config_id;
+@@ -82,10 +85,10 @@
+    'h50:read_register=quality_mean;'h54:read_register=quality_gradient;
+    'h58:read_register=quality_counts;'h5c:read_register=32'h4c565231;
+    'h60:read_register={31'd0,platform_armed};
+-   'h64:read_register=32'h00000001; // FEATURES bit0: PSI_Q8_RETURN_V1
++   'h64:read_register=32'h00000003; // bit0 PSI_Q8; bit1 STAGE_PROGRESS_V1
+    'h200:read_register=observer_seq;
+    'h204:read_register=observer_snapshot[31:0];
+-   'h208:read_register=32'd0;
++   'h208:read_register={28'd0,first_cancel_cause_read}; // stable first cancellation only
+    'h20c:read_register=32'd0;
+    'h210:read_register=observer_hword;
+    default:read_register=0;
+@@ -120,6 +123,7 @@
+   case(bus_state)
+    IDLE:begin hready=1;hrdata=0;end
+    RESP:if(bus_write&&write_error!=0||!bus_write&&result_response_error!=0)begin hresp=1;hready=0;hrdata=0;end
++        else if(bus_write&&bus_offset=='h11c&&progress_valid&&!progress_ready)begin hready=0;hresp=0;end
+         else begin hready=1;if(bus_write)hrdata=0;end
+    ERR1:begin hresp=1;hready=0;hrdata=0;end
+    ERR2:begin hresp=1;hready=1;hrdata=0;end
+@@ -145,9 +149,11 @@
+    byte_index<=0;word_acc<=0;claim_epoch<=0;claim_source<=0;claim_job<=0;claim_mask<=0;
+    quiet_epoch<=0;quiet_source<=0;quiet_job<=0;quiet_mask<=0;
+    ret_epoch<=0;ret_source<=0;ret_job<=0;ret_target<=0;ret_config<=0;ret_crc<=0;ret_bytes<=0;ret_code<=0;ret_mask<=0;ret_psi_q8<=0;ret_psi_valid<=0;
++   progress_valid<=0;progress_code<=0;
+    platform_armed<=0;release_pulse<=0;offer_rejected<=0;last_error<=0;checksum_crc32<=0;checksum_bytes<=0;checksum_code<=0;checksum_psi_q8<=0;checksum_psi_valid<=0;
+   end else begin
+    release_pulse<=0;offer_rejected<=0;
++   if(progress_valid&&progress_ready)progress_valid<=0;
+    if(offer_valid&&offer_ready)begin
+     if(!fresh||!offer_format)begin offer_rejected<=1;last_error<=fresh?E_FORMAT:E_REPLAY;end
+     else begin
+@@ -158,7 +164,7 @@
+    end
+    if(present&&kill)begin active<=0;result_pending<=0;claim_mask<=0;ret_mask<=0;end
+    if(cpu_reset_quiescent)begin
+-    active<=0;claimed<=0;result_pending<=0;claim_mask<=0;ret_mask<=0;quiet_mask<=0;
++    active<=0;claimed<=0;result_pending<=0;claim_mask<=0;ret_mask<=0;quiet_mask<=0;progress_valid<=0;
+    end
+    if(present&&!active&&!claimed&&!result_pending&&!ram_pending&&!roi_word_active)begin present<=0;release_pulse<=1;end
+    if(checksum_result_valid&&checksum_result_ready)begin result_pending<=0;present<=0;release_pulse<=1;end
+@@ -198,7 +204,9 @@
+       if(bus_offset=='h120)begin ret_mask<=0;ret_psi_valid<=0;end
+       if(bus_offset=='h18c)quiet_mask<=0;
+      end
+-     if(!hready)begin last_error<=bus_write?write_error:result_response_error;bus_state<=ERR2;end
++     if(bus_write&&bus_offset=='h11c&&write_error==0&&progress_valid&&!progress_ready)begin
++      // True AHB wait-state: retain address/data and every body bit.
++     end else if(!hready)begin last_error<=bus_write?write_error:result_response_error;bus_state<=ERR2;end
+      else begin
+       if(bus_write)case(bus_offset)
+        'h60:platform_armed<=1;
+@@ -213,7 +221,7 @@
+        'h110:begin ret_config<=write_data;ret_mask[4]<=1;end
+        'h114:begin ret_crc<=write_data;ret_mask[5]<=1;end
+        'h118:begin ret_bytes<=write_data;ret_mask[6]<=1;end
+-       'h11c:begin ret_code<=write_data;ret_mask[7]<=1;end
++       'h11c:begin ret_code<=write_data;ret_mask[7]<=1;progress_code<=write_data;progress_valid<=1;end
+        'h124:begin ret_psi_q8<=write_data[15:0];ret_psi_valid<=write_data[31];end
+        'h120:begin
+         checksum_psi_q8<=ret_psi_q8;checksum_psi_valid<=ret_psi_valid;

@@ -1,0 +1,58 @@
+{
+  "status": "PREPARED_ONLY_NEW_SHARED_MAPPER_SOURCE_FREEZE_NO_NATIVE_RUN",
+  "task": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104",
+  "project": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project",
+  "name": "reader_shared",
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\source_freeze.json",
+    "sha256": "0e2262a4cb63f65a8c6d993f2213f10cc67660134f0fd0b2ece461e3486b85d6"
+  },
+  "inputs": 272,
+  "tools": [
+    {
+      "name": "source_helpers.py",
+      "old_sha256": "cd50514203ae6b57839829c3424fb7105b4f90cb694f2ec46b568d58811ff91a",
+      "new_sha256": "0dccc45018e2aecf4630861ce009f44e87da9f83d3374d32572e2c373403b66d",
+      "old_data_or_admission_copied": false
+    },
+    {
+      "name": "mapping_helpers.py",
+      "old_sha256": "20791267936c3fd34f3d5c389675901f4376530a434a5b1a07e28c995ba47ad1",
+      "new_sha256": "20791267936c3fd34f3d5c389675901f4376530a434a5b1a07e28c995ba47ad1",
+      "old_data_or_admission_copied": false
+    },
+    {
+      "name": "progress_mapping_hooks.py",
+      "old_sha256": "490037c3d6699370447864acb8adf81a5a0f76700ace4cde1744b48ab9b99023",
+      "new_sha256": "f42abe9f6037a3ad9db272eca6e6959fa4e60c2114dcbf7185597924ae78caa3",
+      "old_data_or_admission_copied": false
+    },
+    {
+      "name": "run_td.py",
+      "old_sha256": "4ce9165740e618196b497d550e8412a93ad2c8e1be74f4d2463cde8ef559344f",
+      "new_sha256": "68e557a08dd6dc8e15866748478fb400cbad5ea2cc2b580bbd5ca4aaa53fb3fa",
+      "old_data_or_admission_copied": false
+    },
+    {
+      "name": "run_pipeline.py",
+      "old_sha256": "1563099c1b4b87c4dcb2737c4237b7c6b2909bdcc08245fffc4f26c8ffd40de5",
+      "new_sha256": "c427713269ed7eb19590f8d1bf79ca4950ee84c78cea44461586d9607edbc99d",
+      "old_data_or_admission_copied": false
+    },
+    {
+      "name": "free_ui_place_flow.py",
+      "old_sha256": "3b8c45272690e16ff52d36cef9876b7c7a38dbc4f9a20095d975d9775f26b8fc",
+      "new_sha256": "7e908291392776263eb66a4c8d78bc14413cb3ef0cd4c0dc6b35150ed38c612e",
+      "old_data_or_admission_copied": false
+    }
+  ],
+  "SYN_plan": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\SYN_PLAN.json",
+    "sha256": "42797819d273dc8974e2c89ba2d6a61101aef0af1de24d0b5c03b4f5fa306337"
+  },
+  "source_SDC_IO_MCU_methods_unchanged": true,
+  "no_latest_or_PASS_admissions_copied": true,
+  "new_DDR_ASR_SMD_must_be_derived_after_actual_SYN_PLACE": true,
+  "native_TD_run": false,
+  "device": false
+}

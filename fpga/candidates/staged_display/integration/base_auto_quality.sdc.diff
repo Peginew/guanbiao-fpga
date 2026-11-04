@@ -1,0 +1,16 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_landmark_s3_20261103\project\td_project\base_auto_quality.sdc
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\td_project\base_auto_quality.sdc
+@@ -159,3 +159,13 @@
+ # Manual REF switches: only async input pads to first synchronizer FFs.
+ # sync0->sync1 and all HDMI consumers remain normally timed.
+ set_false_path -from [get_ports {I_preset_sw[*]}] -to [get_regs {u_meter_pair/reference_control/switch_sync0[*]}]
++
++# STAGE_PROGRESS_V1: same-owner display evidence only; no READ permission.
++# Sender holdscode32 through2sync+settle+returnedACK. ExactphysicalQ endpoints
++# mustbefreshlyreviewedafterplace, justlikePSIheld-data; noasyncclockcuts.
++set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_toggle}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_sync[0]}] -datapath_only 7.200
++set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_ack}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_ack_sync[0]}] -datapath_only 7.200
++set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_held_code[*]}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200
++
++# Passive sticky4 diagnostic only, sampledtwiceaftersettlingbydebug. No controlconsumer.
++set_max_delay -from [get_regs {u_meter_pair/pipeline/first_cancel_cause[*]}] -to [get_regs {u_meter_pair/pipeline/reader/live/first_cancel_sync0[*]}] -datapath_only 7.200

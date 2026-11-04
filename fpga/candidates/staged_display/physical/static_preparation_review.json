@@ -1,0 +1,20 @@
+{
+  "status": "STATIC_TOOL_PREPARATION_ONLY_NO_TD",
+  "python_AST_files": 6,
+  "prepared_sha256": {
+    "free_ui_place_flow.py": "3b8c45272690e16ff52d36cef9876b7c7a38dbc4f9a20095d975d9775f26b8fc",
+    "mapping_helpers.py": "20791267936c3fd34f3d5c389675901f4376530a434a5b1a07e28c995ba47ad1",
+    "progress_mapping_hooks.py": "490037c3d6699370447864acb8adf81a5a0f76700ace4cde1744b48ab9b99023",
+    "run_pipeline.py": "1563099c1b4b87c4dcb2737c4237b7c6b2909bdcc08245fffc4f26c8ffd40de5",
+    "run_td.py": "6155a5b11f717a51a9dedfa05817a0e5100fb9294b14bcf4b92e7a0925d1aff4",
+    "source_helpers.py": "cd50514203ae6b57839829c3424fb7105b4f90cb694f2ec46b568d58811ff91a"
+  },
+  "freeUI_flow_host_generation_checked": true,
+  "generated_probe_not_used_on_device": true,
+  "old_aliases_gates_DB_SDC_not_copied": true,
+  "source_freeze_not_created": true,
+  "synthesis_started": false,
+  "place_route_executors_require_root_integration": true,
+  "new_exact_Q32_and_sync4_hooks_require_fresh_netlist": true,
+  "device": false
+}

@@ -1,0 +1,1410 @@
+{
+  "project": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project",
+  "name": "reader_shared",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index0.dath",
+      "sha256": "489db80c76238bbb5aa71968378af59472284ae1e3c04a642fe33f3014a9292b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index1.dath",
+      "sha256": "972cd6c86c5789b0d546dcd504467242adcb1ec8dd52abe8c90021dd34b0bd4b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index2.dath",
+      "sha256": "e2df7be93fc5664ac28faf7c4d9a3ff156bbc5f60cbc8237b79a6fe9db522ee0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index3.dath",
+      "sha256": "473907034859a48e987cb8a4f189d769383b06a2900035efc10b68d95130f0ed"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index4.dath",
+      "sha256": "9d75a2550b8eb3a16688b28f0a98071a14ff316779601ec97a938c58aa062aef"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index5.dath",
+      "sha256": "668748d315ff8cdc17b8c09d5ef72d6290a6a20738fe1a6395a92898018eacc3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index6.dath",
+      "sha256": "402fcb865820b99e172fcbddcd0f4bccd033379d2bc6f997456999beacd743a5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index7.dath",
+      "sha256": "286bbe41de714d31233a1972ab0fc67c60645f23afc64b3cb3f0629965471de6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_palette.mem",
+      "sha256": "05c2f63c5ef164207314b6a1b9d14972becbdba1cbfaa1e5bd6d988c192fce05"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex",
+      "sha256": "a94ce75bd9651a231f29ecba62d29f8ae510b0ca227d0a8b94dab499ca91c603"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\meter_pair\\pair_base_rom.mem",
+      "sha256": "f185a449f050bfaac15ce8c41ea1e06830242b07e026d349c667e883b6afa836"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\meter_pair\\strip_model.hex",
+      "sha256": "ace107010799f45d9549f31b1d1ecdae79f885f27140fc221d653921c67395f2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_coldboot_20261101\\project\\user_source\\hdl_source\\boot_rom\\bootrom.mem",
+      "sha256": "ac331d2703528a131721ff8f9c3153f2067659ef0412f34286197e64765e9048"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\td_project\\base_auto_quality.sdc",
+      "sha256": "5a7e3f68cec29012143fb5893598617694aba742657d0f47fc30c186147df574"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\td_project\\reader_shared.al",
+      "sha256": "7afffcf748d0832e435c7795448269c8b8bdf5c0f67ba0c19fee2ef717c3a832"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\constraints_source\\pin.adc",
+      "sha256": "6a7222ceec1cdd1334e79c82ae942bb14de34cf112098d4a23ecc500170aba1e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\constraints_source\\timing.sdc",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index.mem",
+      "sha256": "7e3cc4171d7921c6ae422b37b98d697e812cabe563181e6a0ceea01e1dfcaf3c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index0.dath",
+      "sha256": "489db80c76238bbb5aa71968378af59472284ae1e3c04a642fe33f3014a9292b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index1.dath",
+      "sha256": "972cd6c86c5789b0d546dcd504467242adcb1ec8dd52abe8c90021dd34b0bd4b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index2.dath",
+      "sha256": "e2df7be93fc5664ac28faf7c4d9a3ff156bbc5f60cbc8237b79a6fe9db522ee0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index3.dath",
+      "sha256": "473907034859a48e987cb8a4f189d769383b06a2900035efc10b68d95130f0ed"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index4.dath",
+      "sha256": "9d75a2550b8eb3a16688b28f0a98071a14ff316779601ec97a938c58aa062aef"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index5.dath",
+      "sha256": "668748d315ff8cdc17b8c09d5ef72d6290a6a20738fe1a6395a92898018eacc3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index6.dath",
+      "sha256": "402fcb865820b99e172fcbddcd0f4bccd033379d2bc6f997456999beacd743a5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_index7.dath",
+      "sha256": "286bbe41de714d31233a1972ab0fc67c60645f23afc64b3cb3f0629965471de6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_palette.mem",
+      "sha256": "05c2f63c5ef164207314b6a1b9d14972becbdba1cbfaa1e5bd6d988c192fce05"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "sha256": "564996a5bd3d957489c0319f5d5bcbc0ecadd455235e69b043fbc999ae8982b0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\audio_arc_calculate.v",
+      "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\awb.v",
+      "sha256": "224d1c2dd00288e8971bd739a46262c3f43e7dee94f2c90eda97352de9f5c7bd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\boot_rom\\bootrom.mem",
+      "sha256": "ac331d2703528a131721ff8f9c3153f2067659ef0412f34286197e64765e9048"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\boot_rom\\meter_mcu_bootrom_ahb.v",
+      "sha256": "ad13bb81618a1a633e4c1b76eeaf7884f10ef2a398b052f0cddccc341caaf1a9"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+      "sha256": "80cc2cf6cd231394025286de4c67f38636ca253bcdec575c33fbb5069bf0df48"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\dsi_tx_packet\\config_data.mif",
+      "sha256": "0f5842f2ca3e46634e0215cc55cf2c9b5afab16517e96d9e5dde6bf3845813ad"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\dsi_tx_packet\\config_data.mif.dat",
+      "sha256": "4e05846962e371e436714ac3268109d6322e333620ad4e95e3391c6da9f432e2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\hdmi_mixer.v",
+      "sha256": "7ccb1fb83d42cdf0a5206c581f94e89b447fb6a3a5b9711115ddbc3bd24372f5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\hdmi_phy_warpper.v",
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\hdmi_tx.v",
+      "sha256": "868bae05196b403adbc2885778104a533d3a8028ed74e4fa3ef4a38764806437"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\I2S_receiver.v",
+      "sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\csi_unpacket_2lane.v",
+      "sha256": "b7e093e1e377f5a61a22216e9a4ec404068a3346923758297867b465679dacdd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\data128_96\\data128_96.v",
+      "sha256": "b6acceb73cc76058d4afe6ec593360bae6701646fdda780a9264ada3befd5318"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\bilinear_interpolation.v",
+      "sha256": "53a4fc3dea805d59cee9bdab1a090c26c03eb555ab612a1a4698d810c1991baf"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\.m_params_blk_mem_gen_demosaic.txt",
+      "sha256": "5e26ea4e1476686542cd496c81a4557aa1b674149ba313b3fd625af5c9fd1a2c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\.params_blk_mem_gen_demosaic.txt",
+      "sha256": "fd29c924b47d1e48bdc3a2eab4f7abb679fb23aab23b3c40e29372f0f2c8f1b1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\.ports_blk_mem_gen_demosaic.txt",
+      "sha256": "f9882b0975a77f758baa98b74649159c7f4c6590a259591941c039bf1ef8eab9"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\blk_mem_gen_demosaic.v",
+      "sha256": "f52e1a6ef3da30b6b5342ed21fffc1651b9d0574fd3331215dbc0fb21476b83f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\blk_mem_gen_demosaic.xml",
+      "sha256": "9488f4f3af1d7cd60574a6a115f6fe78416432810231ee50de51e27c844a0570"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\Design.xml",
+      "sha256": "15d9b59feac472cfdc73a0ab4bc78c76c8af7cc9bbd3f1b09b3c10623770a559"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\DesignConfiguration.xml",
+      "sha256": "b4b0392ba552c1631343ac2c7732075d9aa95460715723994aecabf399da8868"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\RTL\\include\\define.v",
+      "sha256": "ce22c429acd5d725b986015db98a3a86609204620dc1ba9158123f1e335b6ac5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_demosaic\\RTL\\ram_c36c2ca3b3a7.v",
+      "sha256": "4c007b82769a2af9474683ec27711133c735ac776fd1f3d037d4eb00cc20a832"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\.m_params_blk_mem_gen_zhenghe.txt",
+      "sha256": "97a9f87b1f5ac927934d32bebc00206a13b23830facc6b2a2298ccf7924903fc"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\.params_blk_mem_gen_zhenghe.txt",
+      "sha256": "902190f496eedd54c33824555ef6af4e5553329c256cc046074f7b8f4468693b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\.ports_blk_mem_gen_zhenghe.txt",
+      "sha256": "f9882b0975a77f758baa98b74649159c7f4c6590a259591941c039bf1ef8eab9"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\blk_mem_gen_zhenghe.v",
+      "sha256": "c6b2064638cf7217b792e8f880840f46151a1c83158dd6e96d8d4c63631432bd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\blk_mem_gen_zhenghe.xml",
+      "sha256": "48edbc23f5a159c7174d46cfb3f71d57726553d99ee9c7095d3913ecb3b7a6ef"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\Design.xml",
+      "sha256": "dee91dfd99dee99429c37b0e7d57888c3aff5473464176c1d848573f08143ba4"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\DesignConfiguration.xml",
+      "sha256": "abf427deb516260163dbfe3677440c5ba3b75ade76de7be5e13b9f02f65b2d33"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\RTL\\include\\define.v",
+      "sha256": "104eb8d9b626b944b1e2d3b8070f51c636af132bc00b32ebed0236bbb2c144c0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\blk_mem_gen_zhenghe\\RTL\\ram_d32970204f32.v",
+      "sha256": "facbb17d5cf7aa37e7cb63764780c2c7acc655ff421a766701c656adbb9f8c26"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\demosaic.v",
+      "sha256": "95ff3eaa0e99fd1dbe63c153164e36faa1a97b19d071e4a0b0bb3936287f22d4"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\line_buffer_demosaic.v",
+      "sha256": "24df3d5acf7268adc9d150a5392ff0aa07967ba90c4a705e3e43a2bf8a3d47b4"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\mipi_to_raw_converter.v",
+      "sha256": "b77e678034af9968d0969655f403cac3b992412b109dba889e8ccb3f6f224975"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\raw_matrix_3x3_buffer.v",
+      "sha256": "28f19502f5a70b48e9bdeeaddcb84500052b7bd0c6e15b4da1ea9899265577c3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\t06_compact_line_ram.v",
+      "sha256": "ef3715ea82cacb21c5014a72e5ceeccad584a60af85c6068412a5c1d4c2a6196"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\zhenghe.v",
+      "sha256": "521845869533025336357d4abc6c72d814d93b284dc7c27fa149643e320b8510"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\isp_top.v",
+      "sha256": "176708848efe4632332ff778028ab74bb3115cabecfe9ecc982e92d711473037"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\raw10_unpacket_2lane.v",
+      "sha256": "83f89d7f8e2b19322a7f6a8ddc0cae64fcbd83fed6b742c10f5d2339f59d30fd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\isp\\uial2axis.v",
+      "sha256": "8cd4d98799da50285bc381c16405aeb55eb4d28363e20b33836542a32539610e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\key_remove_shakes.v",
+      "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\lane_lvds_10_1.v",
+      "sha256": "d66695f530b07538d9aa986e0323889e2377ae66b20758580c673a376408efea"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mc_to_user_interface.v",
+      "sha256": "676a54f13d3bdbf245a72521322d397f4290806059dd6374cc6b03a96e54fd17"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_live_roi.v",
+      "sha256": "c5c3d703b3a2788cecd64a6df1cbb1551b8c21f0c418615bf96ac16b60a8d054"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_quality_crc128.v",
+      "sha256": "dcffaeef679168146c894b22adb7f815b8a8b7ca7cd8a6378f310ff7d16502e5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v",
+      "sha256": "2d8ac535bff0e0d637241b5511cf785480bc5b5148d3afa425bf79ed819debcf"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_roi_observer.v",
+      "sha256": "dbdf555e0628d3641a61a689fa5bb1101f2cce856cd35f0103b711ced61b4be1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_ref_display_control.v",
+      "sha256": "0a2cc864b68152c7ab17fe8a5cc4241a1583d01bd12f16d515c0d62cba7b7e2c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_roi_window_policy.v",
+      "sha256": "eed0a594bcba9176f98fade5f3af892d7b7603d0c70d1bb707fcd604eaf86682"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex",
+      "sha256": "a94ce75bd9651a231f29ecba62d29f8ae510b0ca227d0a8b94dab499ca91c603"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\pair_base_rom.mem",
+      "sha256": "f185a449f050bfaac15ce8c41ea1e06830242b07e026d349c667e883b6afa836"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\strip_cnn.v",
+      "sha256": "6b56b9ab402236e964b8050d83ec5363755af7d32446fe47a0f9b634d50dde4d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\strip_model.hex",
+      "sha256": "ace107010799f45d9549f31b1d1ecdae79f885f27140fc221d653921c67395f2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\strip_requant.v",
+      "sha256": "1a0cdd66a5b7e9ab24db7b87bceed75e48c0b0666902033fdb8005a0dfa2859e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_mean4_frame_lease.v",
+      "sha256": "580711c7e72ffb1abe95f3f2605d891eb5d25f4878596b93a06335f3bf54c3b1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_direction_line.v",
+      "sha256": "3efe6e5d3975fd836e00559358030ad14cb34ff1053a7e858d33d59acdf5aef5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_hub128.v",
+      "sha256": "a4c13f6d213d19abb8d86120020f598c833bd054476d61b09f98e856037ebd30"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_needle128.v",
+      "sha256": "b19e15fa133d359deffe1ad8e6e272454e4144ef390a2d24c2eb64c4edf523c2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_pair_bench_osd.v",
+      "sha256": "b8d712e3fb919f795abfeb560e91440b425488038240606ee7c13cc80ab9b37e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_pair_link.v",
+      "sha256": "5a1d13bf679e2d939b3d9f2827d86dec4f70377590a2a05f8c9e32754f5d440d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_psi_return_runtime.v",
+      "sha256": "cc27433981b85154dbfdfe93a9649038e31ac991e235c56ed9949592354a9b5e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_quality128.v",
+      "sha256": "dc71da0d3f2cff62e0beb8e91bb35418ea251631bd698fbecd053d9ecd44b2fb"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_capture.v",
+      "sha256": "1c5d0d3f2e7de338e5e3e96572caa2f235d9e76d3150c6648bf2483204b0cad5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_capture_mcu.v",
+      "sha256": "846c5d743c3563ccf20fc645987d78288ce20c002123bb04f8398dcc7884851c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+      "sha256": "5307a7f1c9259320e95dc74eef9bc852b9f46a091cdc492dc97254a54867e05b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_scale_runtime.v",
+      "sha256": "ee16eaab545f00a892877759bb40738203e822e3026cb375caf1cc8c1c825477"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_sevenseg.v",
+      "sha256": "da7130e839a9c2bf355279af16350f90c698ac3e238a582a65e2a113068cf4ca"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+      "sha256": "e1d4b14780171a92e83a5ca84d0bd1d3a0e344d49e4ddeb9eaf903692f918527"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_pair_metric.v",
+      "sha256": "1b95091da97333aeecc883e1f87a0b33ed328053c3a2f7dbe096e496b2c82e4b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_pair_search.v",
+      "sha256": "37f050c23e19d85516aef1b837f2f0914955b05e0474aa8efe29fbed830cc827"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\visual_read_guard.v",
+      "sha256": "310a33fe770271f3a40fd379e313152d149bde12d3b14e4dd302221a979068f8"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\visual_readability_gate.v",
+      "sha256": "8fffbeb834732965f9f1a715167d4a795651fd62720bed7792b75c6f3197578d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mipi_dphy_rx\\byte_aligner.enc.v",
+      "sha256": "25a3581a512ad89bb43fed2758e32ce089ccca29dec445ef9b71da36423f217c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mipi_dphy_rx\\byte_aligner_wrapper.enc.sv",
+      "sha256": "d98ae007d77ae262c0c34b53586a5aa8a840edc7dcdbfcc9091eb89cc68a6776"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mipi_dphy_rx\\channel_aligner.enc.v",
+      "sha256": "3824e224a0b0b4e2b37ca4ac5533002221bcaec2694ee86de5c0f1a104dffebb"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mipi_dphy_rx\\channel_aligner_wrapper.enc.sv",
+      "sha256": "c26aef5aeb40a767633efa21be4e5e59c25b91e79d0ea1f7c05d70a958771846"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mipi_dphy_rx\\hs_detect.enc.v",
+      "sha256": "bbf7a362273291a874793abbbd027a8d668c6281a4dd81240eae45572d5e5c92"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mipi_dphy_rx\\mipi_dphy_rx_ph1p_mipiio_wrapper.sv",
+      "sha256": "5c075dc58f284bfd03174832180984e3148311682753b1aa20832640c6130ecb"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\mipi_dphy_rx\\ph1p_mipiio_rx_wrapper.v",
+      "sha256": "f957019576d22a8322889af73f8bfee07f46006959f9efcca0595bc8fa3234ae"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\osd_char_lib.v",
+      "sha256": "80269dee8af301d175a0b8ba0b0305149852916a3ed81082349bebc27feac311"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\.m_params_ddr2.txt",
+      "sha256": "2e7e92f7421ea8cde90c09d90fc68472e2043801f5ab8115518b347e4617546a"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\.params_ddr2.txt",
+      "sha256": "05c307685a34e4e3faff48b3f67bca22b992ad3a2ca39d67112347ca307d3cfb"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\.ports_ddr2.txt",
+      "sha256": "8c870855f11b7288369350fb8cae50196ddad60b7df9108780aca164825ee88f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ddr2.v",
+      "sha256": "99910fcd06d61b728c4333f8eb15dd07b61db32af197ad3871995283461fe29e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ddr2.xml",
+      "sha256": "1c0928264dcbc2217f7c1015042fc61e02bd444b727eac8b2e8f9bc4b89fc720"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\Design.xml",
+      "sha256": "05f2df14236dae523772394418c4bfc68949fd9bc0c5a25fe9a5c82b815b3538"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\DesignConfiguration.xml",
+      "sha256": "a3b21234cb726166d33141f559b20bfdadea14b5f752e547b07e6ee8a8230fe5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "sha256": "a206d148022c1a5bb46c37932714dc9d57fea32f39fdb344e060e9fc9c6ff1ce"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\sim\\fileset\\fileset_mis.f",
+      "sha256": "ed60cfa5d7ec730ee1114414cd7c74df3a6b5710e9fe38689710ceec59761e7f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\adc\\ddr2.adc",
+      "sha256": "9b579aef1dd260789b02b7012ca9689af6280ec9af530a1a946c5ac0a8c43e81"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_clk_top.v",
+      "sha256": "036a13cefc0014468cb7553aa43064a65bd2bf3008c25d2e495867fc5f43d329"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_pll0.v",
+      "sha256": "ab08d9b46eff0e2acf0abaf5b57e999629894e1ba4f28d14f859c45a6b487fa7"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_pll1.v",
+      "sha256": "9aafa4558b482ee93f926ad3f710a90ce1be99ddf8712752d1e1c48404f90ae0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\include\\ph1p_mis_define.vh",
+      "sha256": "a0e0bc78eab01cd1815a04f246420b68b4a5a616c43c2f36988c4df94fc1b471"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\init\\ph1p_ddrphy_dram_init_ddr2.v",
+      "sha256": "b4b6c9e5223852750d2a0d3a013447716a08c56055511afa517dce612380649f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\mc\\alc_mc_top_all.enc.sv",
+      "sha256": "19b4b773f7dae211b9b9adb73c3871d5b494345fbf684ce1b7dac9cd3cae512b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\mc\\alc_phy2mc_fifo_ctrl.v",
+      "sha256": "cf1500a2d491c637a9150fb36fbc6de109e62cca5d8ff3c58dadf5f7f84472c6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\misc\\ph1p_ddr_fifo_dram_sync.v",
+      "sha256": "21795bf78115dbd04d7ec81f4f240832d8e7267fdebeddcb6be50d3cb95ab8b6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\misc\\ph1p_ddrphy_sync_rst_gen.v",
+      "sha256": "8db3d13deec253a2248899de81a7d1a382eacb7683f229732a28272ab9969c55"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ddrphy_cfg_rom.txt",
+      "sha256": "2f5a00c5a364a4d37891042b4d4956a29b3990b3385512d20ede491c8ccf863b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_board_delay.vh",
+      "sha256": "fbb70f7d53984ac052b29ded89fefde7c82a003484fc7fc60e0a816372c0de89"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_bus_matrix.vh",
+      "sha256": "828cb1decead67b69ccd6540fc7c9b15b8daeb3b5f101f08c92d2a8a228f4acb"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_ddrio.vh",
+      "sha256": "8e9bde3255e6a332fc43aae1414a29183b5e1ed650d3ef731fddd2dbbff21863"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_pad_type.vh",
+      "sha256": "76439ab49aefb1e41d91d2d4ee12094ef362b1ac69a382b8faa5d3202842b7fb"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy.v",
+      "sha256": "d48e70211a598a211ce0f9060c767c04148592b0ec1137017027bb741ad5b283"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_apb_bridge.v",
+      "sha256": "cde632f73a4e58c1cf375f62626b26e144ef553926b5539b5eae08b655fecb12"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_bankref_cfg.v",
+      "sha256": "96121f2a93a56127499518158b07b2db9deff29bbac464d3c077ab6a718a8f1c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_byte_wrapper.v",
+      "sha256": "ad7fa1a71337f4a3989cb619d77b770510c30c5b81f126f6661eaf65f01f710c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_decode.v",
+      "sha256": "b3bd00df9d41b792d6f6a18b2be29c8ab363aeb3fb7dc88fe0be61dff8905abd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_execution.v",
+      "sha256": "53c5eaad74abfc98bb0c2a4ede0a1863c8a34008da1955cf7ad397e151d0a9c1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_wrapper.v",
+      "sha256": "82cdea3269662c94b82c675c8a7e110c1c1fc212775f4c696e876215e7ebd68e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_dcu.v",
+      "sha256": "0f335ebf3607a7823b90a6d6278dd3906fdf0e941c019c83186b2d017e613b49"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_dcu_wrapper.v",
+      "sha256": "b130b5b93bcc9fb8fb71a0e38a1000c86cb663ac1d72aef0a47215d8154ab32c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_fast_init.v",
+      "sha256": "c36a5925a09f8dafe5d49144cdc72fa85656602b3d4a944f587bbd0d9fa1d5a3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_fast_init_wrapper.v",
+      "sha256": "30cf679296790caa864d0ebbe6110a17b3c9b6bee529ef3cd6eeabe37da2dac1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_init.v",
+      "sha256": "fafa767b0a4d1f431dac6ea1461dc16aff2ea1169c8aa45a50a009117a90f5c4"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_mdl_cal.v",
+      "sha256": "247c8a832efebf5c4733e599d7e2b19abc3687ca48b6317ea1fc882095768d95"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_mdl_cal_wrapper.v",
+      "sha256": "0b583c987311deeadeeedd19dd51a04e8e14b227873e37f1ec8db8dd18b7c125"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_rphase_ctl.v",
+      "sha256": "2e26a87b37c99613bc61c52fd2482012a2f5bd8a662636f782418de5d9ce6928"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_top.v",
+      "sha256": "0780509185215671e361e6fcc47a0cd8a986c5f48b8a3e140faa8ec64ad62eee"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_wphase_ctl.v",
+      "sha256": "6e62e4e832b2b85859cdbd38d2d08dde9b8066670246c6c7ab6d675e0dd13680"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_wrapper.v",
+      "sha256": "12ce7589375eb44f6e71d9d4280ae32cf2bb82ef7519a2ddaae01f7914ba0467"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1066.vh",
+      "sha256": "b64f54ddcca5ff29139f55cc2e9bfb388b3781c951eec156353dd6794171a49c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1333.vh",
+      "sha256": "50f8013ffd18e874a8917e633287e2c7803126c594e0f95bc582931a8e1aaab5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_400.vh",
+      "sha256": "9ca837ef541e787058f3bbbdacb952b6d97a8fca315dc87dfc4db6561aedfd73"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_533.vh",
+      "sha256": "78495997f24d6a890756101cadbd39ebdcd814ebc3981f190ae43cb319815c9c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_667.vh",
+      "sha256": "66fde1491aeb55f212ccccbb174649b63029d4e63df5105515241765538518d5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_800.vh",
+      "sha256": "034f9fa434e52a7f6e38e3c5d8d01218bc87c60cc8463bdde6bc5c454e1b25ae"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "sha256": "4b10686e72bcde0f3f2a25c28b31df92c3478a39257b16b28cf7f88572436dfe"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\top\\ph1p_ddrmc_top.v",
+      "sha256": "067ac86d88e35cb0c12e62816175542df2e907d244e86f92411611b83123736e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\sdc\\ddr2.sdc",
+      "sha256": "adb6317927dfd09095073cad40be8e63d39ea3d941b4c790f2f483b1aed428d6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ph1p35_324_ddr_wrapper.v",
+      "sha256": "891e2838ab36107b05bd23f67967f8ef3f9e9564f2fb022ec382f54e233e9e8d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\signal_delay.v",
+      "sha256": "4f02b8d4baa6d3fea92ff1b79689b804ea70511749923bffe2c9c0c5a7978066"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\mode_glyph.dath",
+      "sha256": "aef7a2b8284a805e7cd059df3e761c506d6aad053c5dab630e9fa98d08ce759a"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\point_b.dath",
+      "sha256": "e2b790591b527dca1fffd3fdb3003905fb616a0b0e955e1e7e49f5cb1b81aa6c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\point_g.dath",
+      "sha256": "a06ea4e28202f760167d74f283d0d723ba52a1c977bd2fdb61726e5a6bd693f0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\point_r.dath",
+      "sha256": "7dcc6dae00d9db33b3fcc0abfff999b8f5b41474ace1033a9b03714e58f0a77c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_camera_startup.v",
+      "sha256": "f30b272867c1b21821a054406df6575f3bc4f55467f50ba98028a3d412882e37"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_color_line_ram.v",
+      "sha256": "9c90c92546605c484d8690314e8f5a14e57769844592f583d948c7fc44b0b027"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_gray4_exact_dsp.v",
+      "sha256": "59b48caa3dd9ffbaadfd8ec4259d16fd6c9ae7a7ab1d0e34f6eb00cd025fa305"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_mode_control.v",
+      "sha256": "fd76a1d3802bdfcfb8bed2245a003fbca4389708e0dc03e95300acbeae77f40c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_mode_glyph_rom.v",
+      "sha256": "b46087107d65868a41b2f6e17839603e877342f02e266b69da25749a86266452"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_mode_osd.v",
+      "sha256": "28ea079378cdff91e73f118688200c1de2269f066ba009ce5127bddc74a400ae"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_native_bridge.v",
+      "sha256": "557b86434cc3da2ee21c3c9d27e638a763e5f4122de92202efee2aee43f7ccab"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_pack96_128.v",
+      "sha256": "938aac8df40aa446ed9b04ba11b0062e7bc4a50cb788464288584c2e170060d2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_point_transform_rom.v",
+      "sha256": "963a86e47d70743e4f79fdbf056fd61d7c475db0bcdffbbf49e9e6cb2688e43c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_saturation_sw_control.v",
+      "sha256": "01908d35d6e353a3b16aaf22f5d80f7cc321c47c563cca4a0239bbdb1a451bcf"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_video_filter.v",
+      "sha256": "1fb95c6b6cae562364eebd3a03acac64ef72fcd807df2157c4caa33b46ee8bb5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_analysis_stream.v",
+      "sha256": "21ee09bb004c23b03361d9ce063f2b94e9ba3f008f05fe3144c58b3cd6786c47"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_auto_exposure.v",
+      "sha256": "e88294eb74c702c02eda72936ea5378bc71446b63e62d883518dea2a0059f429"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_ddr_recovery.v",
+      "sha256": "a642df2207d78e7b31661b060f2121a2aa01f651bde33e523b1625de5c8eb929"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_frame_manager.v",
+      "sha256": "7a6fd9dddac8c300876afea525a23e77cf98455651b88d78e23305230135711d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_latency_frame_core.v",
+      "sha256": "e44dc10f8f29590ddfa35ebd167580ecd60e0f1398cc6e94b475b6c93e2478d5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_latency_frame_osd.v",
+      "sha256": "56c0ba9f64318083f9a3cce42d69ffabe0034d852ab0ede741da6784d9b9cd39"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_motion_core.v",
+      "sha256": "01a136003c459c6b3aedd289fdc0aa055ed14ac8354954028505fd761f49d6a4"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_motion_link.v",
+      "sha256": "7968352788d7b611814da4d3fac62a4af2bc1a53006f7add9f1ec90d490cb234"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_motion_osd.v",
+      "sha256": "65e18208cfac80a799dc60bbef7dcf15cc70c3393cb7b29ec9994e4bf2618292"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_quality_osd.v",
+      "sha256": "b63e5de0b6505d95b385916bd6a4c028f5c8f5a47eaff1a7cabe658d7ae3bdc0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_quality_stats.v",
+      "sha256": "bfb7cbedb40bc2bc8a27e9e87bd7ceb6cc60a7b80dc37305a9d43f3ae326a5b2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_reset_release.v",
+      "sha256": "f6190d0ee3aa942827c279ec10a082230c35f6eef4bc05245519c5cbe1f3a9af"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_rx_fault_guard.v",
+      "sha256": "76c0ad4f2e88061d8180d02ba252ceb9a328162f3f1a3d3473191f843b7b9ed9"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06_serial_divider.v",
+      "sha256": "6654a1e3de9f3aeef700dbcec82c7f2e6414ae871919803cf30e4e639992fb0c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+      "sha256": "5893592a6ca0c7a2f615b59e6917f993ddd7f192a906092ba28077626c5cf085"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_barq16_psi100.v",
+      "sha256": "437ad9d42394d0e75e7ce247cb9742b15c4875bcec0c481b5bbe267680c81b0c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_bin32_bcd.v",
+      "sha256": "7d0290dbb27eec3dc30f5409ddf79996472a45851793bef4bab792b1685b962b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_logo_rom.v",
+      "sha256": "110b1e2adf2f6e70ddcce1f64b81c162ff134b01430ea721bcfc524f9b128f7c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_pressure_display.v",
+      "sha256": "5d3521dba058dfd0512e145c733ca866ae6ea23f7711ee59cec696f2afc10ec6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_codes.vh",
+      "sha256": "f1b88a005ccb08013abe8fde12f5e6ff72bbe33aa3b5ccc97030276b40839f1f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_field_cases.vh",
+      "sha256": "842b42affe52a0608af0cfc3a06d1a0d838cc44c457b4c30a85f09a3def132bf"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_font.mem",
+      "sha256": "1efee6ccf6660447acaddb7e7e849689246e47e061becfdb37d67616d7929259"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_index0.dath",
+      "sha256": "e92c04406d83a89fb1eb39471d5e1314bc5903db50b1790fc669ddc8cc43a13c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_index1.dath",
+      "sha256": "77cb35a8bc93d60abfc5ca4f213274405fe9cb4d4d8c1c418d84bd87f5436eb5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_palette.dath",
+      "sha256": "7f621c78f2f377e95cbae48e6861aaf6cbcd0474d8b59626433a52d7316fe168"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_text.mem",
+      "sha256": "7ece71a524aed9d606d2f99e7ed8070be05fd65bc24da9b8c1252582b78098e5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\uics500_cfg\\uii2c.v",
+      "sha256": "84836a7e2bc57a2460ea3ced36440a8a878e595210e529c476c9c6c0150cf6e6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\uics520_cfg\\SC520GainTbl.v",
+      "sha256": "29fb4c454420fee6973c38c6928c964959da0f0b2ea877e3bff5a5eb6d621cb1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\uics520_cfg\\uicfgcs520.v",
+      "sha256": "1ddef6abcc88be0d5d6e6ed37c73c38b329d8b69b37972c26d5583885fd512e2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\uics520_cfg\\uics520reg_720p60.v",
+      "sha256": "f8192ba7f455753b14b3384ce847badf4b4c929cd10f4025fce3835ca0c83cb7"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\uics520_cfg\\uics520regAE.v",
+      "sha256": "fee276da7e14be679a5beda9b2b6f80949f64138c931cae889eadc06cc40f735"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\uiisp_beta\\ae_set.v",
+      "sha256": "6417041749d387d22208955d041885ea401e34dbd67ce3d79625bc0029bc272e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\video_in.v",
+      "sha256": "f386aa9f4427906ed1c5c6c8fa07e7237ecab759f3018a1ddd2011be6e6473ce"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\video_out.v",
+      "sha256": "b36ae721ba41c8b20f4b364f5c37a3151c2cf8035efef1108da509765d07c8cd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\vtc\\uivtc.v",
+      "sha256": "c7deaea83ea04fae9caaf34644fe089aeba6dc54dee26c377aef1df44648e4db"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\.m_params_blk_mem_gen_awb_delay_signal.txt",
+      "sha256": "c712f469bf120ea38e3d1c91d2d6aae1dd5ca658b26a5ce5dbdb9cc7370eb8dd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\.params_blk_mem_gen_awb_delay_signal.txt",
+      "sha256": "e9157f46121a253584f414d5a95b56a1bdbc958ee45c6cc053cd195ad021d7ea"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\.ports_blk_mem_gen_awb_delay_signal.txt",
+      "sha256": "ed060b0a8f1216f9389653e982879185b21022c48dd226da197a76315f1a2a46"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\blk_mem_gen_awb_delay_signal.v",
+      "sha256": "7cab7914392384bcc93a3daefe1dc038fc5cd88ac8f4306532fabb71740da93e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\blk_mem_gen_awb_delay_signal.xml",
+      "sha256": "2a4036c207ee38a5cc415e9df729333f00b82072c774ac911eb71a8855bcd423"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\Design.xml",
+      "sha256": "e436f92f4c57a127cff592927c58dcec6901816ccd324d6a394dec3cdd1ef527"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\DesignConfiguration.xml",
+      "sha256": "fbd224d860d857522661f5dde1710438d95ff685832a1d61f39b8b77bd005f0b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\ram_f84573da5ab5.v",
+      "sha256": "2dcda5edbc2764e38137bf47b9aa0ed601dcad32b150e5f135036ae92308a94b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\divider\\divider.ipc",
+      "sha256": "6c8d11f165aca0d4818325452b554ef11c11ff618e2e99473b50af32745afa62"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\divider\\divider_gate.v",
+      "sha256": "9f7ddab1d4aa3419c81061c3f14448b1475d22aab02492b9bb67ca6a5842ee7d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\.m_params_mcu_roi50.txt",
+      "sha256": "75dc57fc87a1bea96c7e580c07a15a6477f2d8bda432e14c7e08ac1928e01395"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\.params_mcu_roi50.txt",
+      "sha256": "3de37bb6f19415df97eede3af9ed5416c9c6b728c88e7556178107479ac379b5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\.ports_mcu_roi50.txt",
+      "sha256": "5a786ae32654b024d30eb4ee34a6da219fcc0a2162d1a803d1548aefbf4b77df"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\Design.xml",
+      "sha256": "d090178e0f702e7523ddfd4f0858f83ef046cb7e4eea0e467f4c3cbee357a677"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\DesignConfiguration.xml",
+      "sha256": "7a84247fe11e9164c90cbd4b72479e31fea76a72e7ddd4b44e0e1ae923b59c1b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\mcu_roi50.tcl",
+      "sha256": "41e9e81f94057e6d2b01ba65f55a88b925576b7954322fdbba89e91d2a1c5dc5"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\mcu_roi50.v",
+      "sha256": "c5613134df9458f85359cad0f75c65adeca914c7db66934f0cc391eb80d5c33d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\mcu_roi50.xml",
+      "sha256": "8e3b685394a4894e2ce6828d4cbc4747e00a34afdbf844aa1f4f9763139d0dfa"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\RTL\\include\\define.v",
+      "sha256": "f85971c74cb4afd827e130e526c611cf141ca7521324b27fe0d472da69653e2f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mcu_roi50\\RTL\\MCU_a112bff27f0f.v",
+      "sha256": "10f2b1c60f7cd7ec428150ba7266e568d62510d4f89867dd1b9a089aee025833"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\.m_params_mroi_pll.txt",
+      "sha256": "c922818acd6b3217eddbb32ab5f148c85688822201c7f64ebf10f86619cce232"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\.params_mroi_pll.txt",
+      "sha256": "4898de0afb9dfd73acdc2e23dd6a0f1c7e3d29d89812caab5c2f4eaea79cf1e2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\.ports_mroi_pll.txt",
+      "sha256": "0d5197da4efbbbf2d49e2d815cbc91fdc602e7d8bc7cdd77f0837c150c480f4a"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\Design.xml",
+      "sha256": "aff0d00c0935db29dfb212c3e5dd2c021afa6ad5987fc8bf460848021b70a283"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\DesignConfiguration.xml",
+      "sha256": "5c0eb877549ab9cb0cf71302e08202f59d17c6d0c07256d284763ae59aaf1efa"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\mroi_pll.v",
+      "sha256": "89d40c550f10e5519b2969476094ff834e02e936fd858cc19b0d47a0b59227f6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\mroi_pll.xml",
+      "sha256": "6a9610c1c6baa6c7b9a0f67d7bca0f8c9cfc550fe11bebecabb722d1053adaea"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\RTL\\include\\define.v",
+      "sha256": "b5977c9e5319a9eb0f9a15f8e3ee2d7c67370176ae3fff9074f8528c762993f3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\mroi_pll\\RTL\\ph1p_phy_pll_wrapper_08353213927c.v",
+      "sha256": "561b888d3f93f1993b865875fe984f2d3944796f384541ccf77169822738e4d1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\.m_params_PLL.txt",
+      "sha256": "2a9aec5bc56eaf55d21bdf04d909dba9f821359eda82395e7a170508ecf0a819"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\.params_PLL.txt",
+      "sha256": "e73afc6db374fd675872530f5d57c162c75f708898c0c7493b61c499ca2d00ec"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\.ports_PLL.txt",
+      "sha256": "bd8d1143b3926737d797e55f079433d4881e2029314ee46c4ea36802eeb246b4"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\Design.xml",
+      "sha256": "d72d72c78ca050de67b898426664373e915a67effed434d44aba3ff1fe30624f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\DesignConfiguration.xml",
+      "sha256": "890ccd3b2faf9f3a2b0d36bd26fe5bfc81cc3a6c8ba9b8110311b97f43d55f65"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\PLL.v",
+      "sha256": "1137946f04514e440b6c6cfd6695715dd6ae48d213af0c7314932b9f5e671037"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\PLL.xml",
+      "sha256": "cdd3123c372c914ee1f71c7ede955dc572eba871ebb5752d0ff3220d16b89707"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\RTL\\include\\define.v",
+      "sha256": "6c747d798a21add4498d24776caaa1318e0a20f0b04bc5e6f759ece127b53997"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\PLL\\RTL\\ph1p_phy_pll_wrapper_25a56e5ce2f9.v",
+      "sha256": "2f6f2560129b950c9f5a36136f128a9304ff858bf1bae0f2129ea0145d941a1e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\.m_params_w128_d512_fifo.txt",
+      "sha256": "1a8581b6e24056ea3b566874c652189c227f2b7018e8d15109277a9ddd7f8875"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\.params_w128_d512_fifo.txt",
+      "sha256": "9084c1d68af266a4109d691bb7dafa79249d7e4574e66537c55c96469c277602"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\.ports_w128_d512_fifo.txt",
+      "sha256": "572011b96130d64d6f8ca9cdd691e3d159e01cf3c646a18b6e04e74ec3ee926e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\Design.xml",
+      "sha256": "73fb27576629befafb79a6fc5f7319186fd3730ab02b64230d39396b2eef8518"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\DesignConfiguration.xml",
+      "sha256": "aa7e1a92676245a06f76be11c89d1e6448350746169b2759f2048f2d5ffd43c6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\soft_fifo_al_4057d6b76aa6.v",
+      "sha256": "75e5785ae0733b4ef7ce9a80d09f68419ceb0a6a5143baf866c5442ca310cb5e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\w128_d512_fifo.tcl",
+      "sha256": "d8c23f200b61011541161d6f7a3afc73958defa23b46d11039c66f2e0e555235"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\w128_d512_fifo.v",
+      "sha256": "5cd5f8e2216dd8989dc1e54d42b4da348dbb09f130bbe92deaa205db53a96bb4"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w128_d512_fifo\\w128_d512_fifo.xml",
+      "sha256": "168018c547dd95d242196199bdfb35d426265ad0df0a39288d23e0c4c8a4bdfc"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\.m_params_w155_d512_fifo.txt",
+      "sha256": "1a8581b6e24056ea3b566874c652189c227f2b7018e8d15109277a9ddd7f8875"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\.params_w155_d512_fifo.txt",
+      "sha256": "0827a0ecc7eda30611d9426412018d4200ddd71bfc48137bf8aea0686815e880"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\.ports_w155_d512_fifo.txt",
+      "sha256": "1b00beacfff42ed042379fbb7c7eeb7d74543df3c116cc98f60a194087e5e3ad"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\Design.xml",
+      "sha256": "9d55317fcafc1f7770a913def7546a9cf6d528e2e1f5d3053475fbf41e8e3d27"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\DesignConfiguration.xml",
+      "sha256": "fd3ac947078686af5ac2d07ae9e64b5cddaea3f796163a10c5c1079e47cccdee"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\soft_fifo_al_f58e8b3e1f3d.v",
+      "sha256": "cffdae59273ca6d7a4ab6473baa8cf94e81ab1900c4b9e358adca6e4b196114d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\w155_d512_fifo.v",
+      "sha256": "d600bcd8e876691d6cf3a512650e7e69118fc8016e9fdf892ac85e4c63851e37"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\ip_source\\w155_d512_fifo\\w155_d512_fifo.xml",
+      "sha256": "c16f1a475e2c0c61e4d9f05598a753086ac4f95bb223997e2c686557b30285ea"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\mode_glyph.dath",
+      "sha256": "aef7a2b8284a805e7cd059df3e761c506d6aad053c5dab630e9fa98d08ce759a"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\point_b.dath",
+      "sha256": "e2b790591b527dca1fffd3fdb3003905fb616a0b0e955e1e7e49f5cb1b81aa6c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\point_g.dath",
+      "sha256": "a06ea4e28202f760167d74f283d0d723ba52a1c977bd2fdb61726e5a6bd693f0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\point_r.dath",
+      "sha256": "7dcc6dae00d9db33b3fcc0abfff999b8f5b41474ace1033a9b03714e58f0a77c"
+    }
+  ],
+  "reference_edges": [
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index0.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index0.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index1.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index1.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index2.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index2.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index3.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index3.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index4.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index4.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index5.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index5.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index6.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index6.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_index7.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_index7.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\anlogic_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/anlogic_logo_palette.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\anlogic_logo_palette.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\boot_rom\\meter_mcu_bootrom_ahb.v",
+      "literal": "bootrom.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\boot_rom\\bootrom.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/meter_pair/needle_trig128.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/meter_pair/pair_base_rom.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\meter_pair\\pair_base_rom.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_coldboot_20261101/project/user_source/hdl_source/boot_rom/bootrom.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_coldboot_20261101\\project\\user_source\\hdl_source\\boot_rom\\bootrom.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_font.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_font.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_text.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_text.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\hdmi_mixer.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_index0.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_index0.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\hdmi_mixer.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_index1.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_index1.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\hdmi_mixer.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_palette.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_palette.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\strip_cnn.v",
+      "literal": "strip_model.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\strip_model.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_direction_line.v",
+      "literal": "needle_trig128.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_needle128.v",
+      "literal": "needle_trig128.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_pair_bench_osd.v",
+      "literal": "needle_trig128.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_pair_link.v",
+      "literal": "needle_trig128.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_pair_link.v",
+      "literal": "pair_base_rom.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\pair_base_rom.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native/project/user_source/hdl_source/meter_pair/strip_model.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native\\project\\user_source\\hdl_source\\meter_pair\\strip_model.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+      "literal": "needle_trig128.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+      "literal": "needle_trig128.hex",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\needle_trig128.hex"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+      "literal": "pair_base_rom.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\pair_base_rom.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_pair_metric.v",
+      "literal": "pair_base_rom.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\pair_base_rom.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_pair_search.v",
+      "literal": "pair_base_rom.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\pair_base_rom.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "literal": "./src/rtl/include/ph1p_mis_define.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\include\\ph1p_mis_define.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "literal": "ph1p_mis_define.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\include\\ph1p_mis_define.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy.v",
+      "literal": "./include/ph1p_ddrphy_bus_matrix.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_bus_matrix.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy.v",
+      "literal": "./include/ph1p_ddrphy_pad_type.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_pad_type.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy.v",
+      "literal": "ph1p_ddrphy_bus_matrix.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_bus_matrix.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy.v",
+      "literal": "ph1p_ddrphy_pad_type.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_pad_type.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_fast_init_wrapper.v",
+      "literal": "./include/ph1p_ddrphy_board_delay.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_board_delay.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_top.v",
+      "literal": "./include/ph1p_ddrphy_ddrio.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_ddrio.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_top.v",
+      "literal": "ph1p_ddrphy_ddrio.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_ddrio.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "literal": "ddr2_1066.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1066.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "literal": "ddr2_1333.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1333.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "literal": "ddr2_400.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_400.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "literal": "ddr2_533.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_533.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "literal": "ddr2_667.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_667.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "literal": "ddr2_800.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_800.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_mode_glyph_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_video20_mcu/project/user_source/hdl_source/t06/mode_glyph.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\mode_glyph.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_point_transform_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_video20_mcu/project/user_source/hdl_source/t06/point_b.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\point_b.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_point_transform_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_video20_mcu/project/user_source/hdl_source/t06/point_g.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\point_g.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\t06\\t06_point_transform_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_video20_mcu/project/user_source/hdl_source/t06/point_r.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_video20_mcu\\project\\user_source\\hdl_source\\t06\\point_r.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_codes.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_codes.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_field_cases.vh",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_field_cases.vh"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_font.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_font.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_text.mem",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_text.mem"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_index0.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_index0.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_index1.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_index1.dath"
+    },
+    {
+      "from": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_logo_rom.v",
+      "literal": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_palette.dath",
+      "to": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\ui\\ui_logo_palette.dath"
+    }
+  ],
+  "unresolved_references": [],
+  "tools": [
+    {
+      "path": "C:\\Anlogic\\TD_6.2.1_Engineer_6.2.168.116\\doc\\scripts\\DefaultFlow.tcl",
+      "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\run_td.py",
+      "sha256": "68e557a08dd6dc8e15866748478fb400cbad5ea2cc2b580bbd5ca4aaa53fb3fa"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\source_helpers.py",
+      "sha256": "0dccc45018e2aecf4630861ce009f44e87da9f83d3374d32572e2c373403b66d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\mapping_helpers.py",
+      "sha256": "20791267936c3fd34f3d5c389675901f4376530a434a5b1a07e28c995ba47ad1"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\run_pipeline.py",
+      "sha256": "c427713269ed7eb19590f8d1bf79ca4950ee84c78cea44461586d9607edbc99d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\free_ui_place_flow.py",
+      "sha256": "7e908291392776263eb66a4c8d78bc14413cb3ef0cd4c0dc6b35150ed38c612e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\progress_mapping_hooks.py",
+      "sha256": "f42abe9f6037a3ad9db272eca6e6959fa4e60c2114dcbf7185597924ae78caa3"
+    }
+  ],
+  "state": "INPUT_SNAPSHOT_ROOT_FREEZE_REVIEW_REQUIRED",
+  "native_run": false,
+  "device": false
+}

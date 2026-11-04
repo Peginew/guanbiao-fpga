@@ -1,0 +1,33 @@
+{
+  "status": "FRESH_HOST_MAPPING_FOR_INDEPENDENT_REVIEW_NOT_ROUTE_ADMISSION",
+  "raw_place_passed": false,
+  "raw_place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\latest_guided_place.json",
+    "sha256": "7be56a9b6abbcd9fa2d5f15a32101471eaddeff62afc39c172add33f0feb7b7b"
+  },
+  "native_place_exit_code": 0,
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_place.db",
+    "sha256": "07e58145d5d105324dec19f8cc66ecdaf48c77f08cab7cf057b95637d1c31c37"
+  },
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "physical_ASR_count": 7,
+  "logical_FF_count": 12,
+  "mapping": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\placed_asr_mapping.json",
+    "sha256": "fee867d904d949df7746c7dcd98a17df2640cbc765711c0727394d10ab9b6f97"
+  },
+  "asr_literal": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\asr_literal.sdc",
+    "sha256": "1f58b82254c432879bbc465192c59be62ad84174d44d26cd1e014be79a1ceced"
+  },
+  "psi_literal": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\psi_literal.sdc",
+    "sha256": "799e8df18f8dbe7298a65f5840d93eac128e298e7510f2d9bf6437402fa7ef6c"
+  },
+  "no_TD_invoked": true,
+  "device": false
+}

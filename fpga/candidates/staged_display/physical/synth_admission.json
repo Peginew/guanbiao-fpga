@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "stage": "synth",
+  "manifest_sha256": "9d4661b453a52a0e0f05a5696bf6b769c982cfc82cd27c7c5ddc83bce878b828",
+  "root_synth_only_authorized": true,
+  "source_ready": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\source_ready.json",
+    "sha256": "05deb66bd2a83cc64f89406837f240f473bb4fb137679fb8d5376245e5a86780"
+  },
+  "mcu_control_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\mcu_progress_control_review.json",
+    "sha256": "9b4cc3a380698643e689c10afcc832499f66134ecdab5ed7837ec3eabcbc4c67"
+  },
+  "final_components_can_run_in_parallel": true,
+  "route_or_bitgen_admitted": false,
+  "no_device_actions": true,
+  "short_ASCII_run_root_avoids_known_long_XML_path_failure": true
+}

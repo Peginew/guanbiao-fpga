@@ -1,0 +1,363 @@
+{
+  "derived": true,
+  "placed_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\place_20261104_042828_324748\\reader_staged_place.db",
+    "sha256": "b19824575e986fed2a11db6423e8c0e0c145d32e88eb16a48dc84e749322d075"
+  },
+  "placed_netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\place_20261104_042828_324748\\actual_netlist.v",
+    "sha256": "1e07b3ece5c224227f0e70d49a7b46ac3fecf00beb042ccc33a2eec02bd165e5"
+  },
+  "logical_FF_count": 12,
+  "physical_ASR_count": 7,
+  "pins": [
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr",
+    "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr"
+  ],
+  "records": [
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "lane": 0,
+      "stage": 0,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "lane": 0,
+      "stage": 1,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "lane": 0,
+      "stage": 2,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "lane": 1,
+      "stage": 0,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "lane": 1,
+      "stage": 1,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "lane": 1,
+      "stage": 2,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "A",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "lane": 2,
+      "stage": 0,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "lane": 2,
+      "stage": 1,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "lane": 2,
+      "stage": 2,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "A",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "lane": 3,
+      "stage": 0,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "lane": 3,
+      "stage": 1,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    },
+    {
+      "logical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "lane": 3,
+      "stage": 2,
+      "physical": "u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "A",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clock_root": {
+        "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        "bit": 5
+      }
+    }
+  ],
+  "source": "u_hdmi_reset/release_ff[2]",
+  "parent_clock": {
+    "cell": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+    "bit": 4
+  },
+  "nonserial_registered_consumers": [],
+  "DDR_packed_mapping": [
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_3",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_wptr_reg[0]_syn_2",
+      "pin": "ofb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_reg_syn_3",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_reg",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_reg_syn_3",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_full_nxt_b[1]_syn_1",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_empty_reg_syn_3",
+      "pin": "oqa"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_wptr_reg[0]",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_wptr_reg[0]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[16]",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[16]_syn_2",
+      "pin": "oqa"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[2]",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[2]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[30]",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[30]_syn_2",
+      "pin": "oqa"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[44]",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[44]_syn_2",
+      "pin": "oqa"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_63",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/u_axi_rx/app_addr_r2_reg[8]_syn_2",
+      "pin": "ofb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_83",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[44]_syn_2",
+      "pin": "ofb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_empty_nxt_syn_3",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_empty_reg_syn_3",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[0]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[0]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[10]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[10]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[11]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[11]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[12]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[12]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[13]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[13]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[1]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[1]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[20]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[20]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[21]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[21]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[22]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[22]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[23]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[23]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[24]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[24]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[25]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[25]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[26]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[26]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[27]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[27]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[28]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[28]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[29]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[29]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[30]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[30]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[31]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[31]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[32]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[32]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[40]_syn_9",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[40]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[7]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[7]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[8]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[8]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[9]_syn_5",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[9]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[21]",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[21]_syn_2",
+      "pin": "oqb"
+    },
+    {
+      "logical": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_cmd_wrapper/u_ddrphy_cmd_execution/cmd_decode[1]$u_ddrphy_cmd_decode/cmd_code[1]_syn_1",
+      "packed_cell": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[2]_syn_2",
+      "pin": "ofb"
+    }
+  ],
+  "old_physical_pins_copied": false,
+  "device": false
+}

@@ -1,0 +1,15 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_landmark_s3_20261103\project\user_source\hdl_source\ui\t06_ui_logo_rom.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\ui\t06_ui_logo_rom.v
+@@ -3,9 +3,9 @@
+ // Two synchronous ROM stages: input coordinates at edge N -> output at N+1.
+ // Two 2048x8 index banks plus one 512x25 palette; no image/frame RAM.
+ module t06_ui_logo_rom #(
+- parameter INDEX0_INIT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/hdl_source/ui/ui_logo_index0.dath",
+- parameter INDEX1_INIT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/hdl_source/ui/ui_logo_index1.dath",
+- parameter PALETTE_INIT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/hdl_source/ui/ui_logo_palette.dath"
++ parameter INDEX0_INIT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_logo_index0.dath",
++ parameter INDEX1_INIT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_logo_index1.dath",
++ parameter PALETTE_INIT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_logo_palette.dath"
+ )(input wire I_clk,input wire [6:0] I_local_x,I_local_y,output wire [24:0] O_pixel);
+  reg [26:0] descriptor;
+  always @* begin

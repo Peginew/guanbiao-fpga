@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "stage": "guided_place",
+  "manifest_sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6",
+  "source_db_sha256": "429817dc8620833533bc7ace88e6b1cc042c5f5e4cdc7f3497c4f7d0595f2cab",
+  "anchor_plan_sha256": "70be8390fa648b556bb56324d6d5f534f9d8078f0177966019e12858e871d680",
+  "anchor_adc_sha256": "a0b45dc231b411cbdf996bb5a0eac09d7f48b9dc3481f51a052745f25a2366cd",
+  "ddr_group_plan_sha256": "5bd1221a780d23279a15873f0a5ca573264ed38a0df499b2f1d4ef71bd92423f",
+  "ddr_group_tcl_sha256": "b68c72d86fdd7c5449e5fc13fdd7ef490bf41c814667f0d1041e7ac3709f3810",
+  "ddr_semantic_admission_sha256": "690ee29a3a13039324845803ef43616ef8b0829a9a74c79826422c8ea5e395eb",
+  "runner_sha256": "b79b730eab1c01614fdcdc06ef97e508a06bed30bf4e2cee76ceab283dfab627",
+  "independent_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\macro_anchor_review.json",
+    "sha256": "59641a32ecf0a3f2aa4039a10d29b475376ae8764c69506a2b1819de95acb66b"
+  },
+  "native_SYN_acceptance": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\accepted_synth_receipt.json",
+    "sha256": "34f6af64c100c4fb9295b93c4b5f1e5b41a40f93eaee24d5a24d968f040718e7"
+  },
+  "new_macro_identity_verified": true,
+  "DDR_semantic_member_count": 37,
+  "fresh_place_review_required": true,
+  "device": false
+}

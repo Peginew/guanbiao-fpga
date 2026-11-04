@@ -1,0 +1,301 @@
+{
+  "stage": "route",
+  "state": "ACTUAL_FREE_UI_FINAL_PASS_INDEPENDENT_REVIEW_PENDING",
+  "passed": true,
+  "device": false,
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\reader_landmark_s3_place.db",
+    "sha256": "933dd7ff62641d1d759d74a77d285b0bd8b460f3e1b65c6aefc0c0ca7b1f1300"
+  },
+  "gate": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\free_ui_route_admission.json",
+    "sha256": "88600c9b6c349f26fdfbd2e7f1a7158482d2841f8c41f2926091bdad9d126bbe"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896",
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\latest_place.json",
+    "sha256": "5141b6ef2d9418cc65d0f2eec5bb5cdd107db409f705e4317addf2421aeb04e2"
+  },
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\asr_literal.sdc",
+      "sha256": "26ed6d584ba73b8e8c7c03ddff7fc56606830ec2c66bb9620c3f4d35c105b07a"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\execute.tcl",
+      "sha256": "cfd06d04f4f4245d731d0a293bd7b3ccbf866085ed6e0499111233cb39abfc38"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\input_place.db",
+      "sha256": "933dd7ff62641d1d759d74a77d285b0bd8b460f3e1b65c6aefc0c0ca7b1f1300"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\psi_literal.sdc",
+      "sha256": "c445016e0ba578a04a89043dcc06aa98cb66d03f2151794910b5bf86fad72054"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\reader_landmark_s3.prj",
+      "sha256": "51846a2cb7650f82d74fded94dd57c57b45791f715039dbe98bf66388acb6d1c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\run_free_ui_route.py",
+      "sha256": "a58229666ba5f68794d5a4760d6bc5c8393d080793d5e7aa249aea073705d602"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\free_ui_route_admission.json",
+      "sha256": "88600c9b6c349f26fdfbd2e7f1a7158482d2841f8c41f2926091bdad9d126bbe"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\latest_place.json",
+      "sha256": "5141b6ef2d9418cc65d0f2eec5bb5cdd107db409f705e4317addf2421aeb04e2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\placed_asr_mapping.json",
+      "sha256": "8a7b7c9a1068aaf4891ffe8dd7c819a60803ad13c977e8bf62e1a1c2b23299b0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\fresh_ASR_and_exact_Q_review.json",
+      "sha256": "72e889b8d6fc6dd56eb78b2aa44c5a7d6b143d2e204cbe1964648f0d0f3e307f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\place_physical_review.json",
+      "sha256": "f1bb00a3414b4bd761fdc6a0066d9f304de7830b0d6e6faf029652dbaac52bf9"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\fresh_ASR_and_exact_Q_review.json",
+      "sha256": "72e889b8d6fc6dd56eb78b2aa44c5a7d6b143d2e204cbe1964648f0d0f3e307f"
+    }
+  ],
+  "ASR_count": 6,
+  "PSI_logical_source_count": 17,
+  "expected_PSI_path_count": 17,
+  "PSI_path_source_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\fresh_ASR_and_exact_Q_review.json",
+    "sha256": "72e889b8d6fc6dd56eb78b2aa44c5a7d6b143d2e204cbe1964648f0d0f3e307f"
+  },
+  "old_ten_UI_LOCs_required": false,
+  "fresh_free_UI_place_inputs": true,
+  "original_aliases_preserved": [],
+  "PSI_eachsource_FINAL_independent_review_passed": false,
+  "bitgen_admitted": false,
+  "pure_read_sdc_before_first_timer_required": true,
+  "exit_code": 0,
+  "elapsed_s": 858.5779999999941,
+  "output": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\reader_landmark_s3_pr.db",
+    "sha256": "e47cc43c02152c1433624355cd1a4c2d0937b05de71240ed4089b017bf76cd34"
+  },
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\console.log",
+    "sha256": "95cf4890959d21de776e920493cac9f4653a7d05cf689d3bad5e1521a9549421"
+  },
+  "resources": {
+    "Slice": 20096,
+    "Slice_is_SYN_estimate": false,
+    "FF": 22978,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "FINAL": {
+    "SWNS": 0.106,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "errors": [],
+  "global_final_timing_passed": true,
+  "physical_capacity_passed": true,
+  "literal_contracts_before_first_timer_and_pre_route": true,
+  "PSI_pre_summary": [
+    {
+      "total": 17,
+      "active": 17,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqa u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqb}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200",
+      "check": "Max"
+    }
+  ],
+  "ASR_pre_summary": [
+    {
+      "total": 6,
+      "active": 6,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]",
+      "check": "Max"
+    },
+    {
+      "total": 6,
+      "active": 6,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]",
+      "check": "Min"
+    }
+  ],
+  "PSI_final_summary": [
+    {
+      "total": 17,
+      "active": 17,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqa u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqb}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200",
+      "check": "Max"
+    }
+  ],
+  "ASR_final_summary": [
+    {
+      "total": 6,
+      "active": 6,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]",
+      "check": "Max"
+    },
+    {
+      "total": 6,
+      "active": 6,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]",
+      "check": "Min"
+    }
+  ],
+  "PSI_summary_active_passed": true,
+  "ASR_summary_active_passed": true,
+  "DRC_messages_passed": true,
+  "actual_route_only_scope": true,
+  "actual_commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "import_db input_place.db",
+    "read_sdc asr_literal.sdc",
+    "read_sdc psi_literal.sdc",
+    "report_clock_summary -file initial_clocks.txt",
+    "update_timing",
+    "start_timer",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*]",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "get_clocks HDMI_PIXEL_CLK",
+    "get_pins u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_exception -ep_num 256 -path_num 1 -file pre_contract_exception.timing",
+    "report_timing_ignored -ep_num 32 -path_num 1 -file pre_contract_ignored.timing",
+    "set_param route effort normal",
+    "set_param route fix_hold on",
+    "set_param route timing on",
+    "set_param route post_route_opt off",
+    "commit_param -step route",
+    "route",
+    "start_timer",
+    "start_timer",
+    "fix_hold",
+    "start_timer",
+    "report_qor -step route -file route.qor",
+    "start_timer",
+    "update_timing -mode final",
+    "start_timer",
+    "report_timing_summary -file final_timing.rpt",
+    "update_timing -mode final",
+    "start_timer",
+    "report_timing_status -file before_hold.ts",
+    "report_area -io_info -file reader_landmark_s3_phy.area",
+    "update_timing -mode final",
+    "start_timer",
+    "report_timing_status -file reader_landmark_s3_phy.ts",
+    "report_timing_summary -ep_num 16 -path_num 1 -file reader_landmark_s3_pr.timing",
+    "report_timing_exception -file reader_landmark_s3_exception.timing",
+    "report_clock_summary -file clocks.txt",
+    "report_clock_utilization -file clock_utilization.txt",
+    "flow_status -file flow.status",
+    "report_route_status -drc",
+    "write_verilog actual_netlist.v",
+    "export_adc -file actual.adc",
+    "export_db reader_landmark_s3_pr.db",
+    "report_timing_exception -ep_num 256 -path_num 1 -file all_held_data.timing",
+    "report_timing_ignored -ep_num 32 -path_num 1 -file all_ignored_data.timing",
+    "report_clock_intersection -file clock_intersection.txt"
+  ],
+  "after_rover_reserve": {
+    "Slice": -80,
+    "FF": 17054,
+    "ERAM": 4
+  },
+  "artifacts": {
+    "actual.adc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\actual.adc",
+      "sha256": "a7d35441d58f7718bcd7ae1886cb4c11ffeaf755c827caf27abdb749b8c2151a"
+    },
+    "actual_netlist.v": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\actual_netlist.v",
+      "sha256": "aeb964361f371678bf7baf18fce60546eb85041ba5ed1bfc09cef05a5dc06901"
+    },
+    "all_held_data.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\all_held_data.timing",
+      "sha256": "4b2069e0ac3bce455846c166ac7faf3d6d1baca4bd4bc563f37826d18c2ffe6f"
+    },
+    "all_ignored_data.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\all_ignored_data.timing",
+      "sha256": "70a205548ed193b2e2d8747c898cfaad2d8ad21038de62263bce2b2342bd44e0"
+    },
+    "asr_literal.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\asr_literal.sdc",
+      "sha256": "26ed6d584ba73b8e8c7c03ddff7fc56606830ec2c66bb9620c3f4d35c105b07a"
+    },
+    "before_hold.ts": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\before_hold.ts",
+      "sha256": "985df248c81e37912a22997a7a392a45400f2969c68f55c8d461df465acca056"
+    },
+    "clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\clocks.txt",
+      "sha256": "301dd2c0322337d1233677b48e54cea61542a2b6294fa3dd17287cf691e8b962"
+    },
+    "clock_intersection.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\clock_intersection.txt",
+      "sha256": "613a4844da9b91198f697e0aeb13a393204530689081fd5221241552f0a40d65"
+    },
+    "clock_utilization.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\clock_utilization.txt",
+      "sha256": "165e71b413869e20c84910699a5f569073feb56d03a0919fcd28582c8250fa21"
+    },
+    "initial_clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\initial_clocks.txt",
+      "sha256": "301dd2c0322337d1233677b48e54cea61542a2b6294fa3dd17287cf691e8b962"
+    },
+    "pre_contract_exception.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\pre_contract_exception.timing",
+      "sha256": "7cd09ba9696ae41858e8168c8685dbf58492292198ce7fab8290120ded523e7e"
+    },
+    "pre_contract_ignored.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\pre_contract_ignored.timing",
+      "sha256": "5581a0fe4e7c8803bac59aa24fadee8389e4d99a984f0bfe8249f4259ea9265b"
+    },
+    "psi_literal.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\psi_literal.sdc",
+      "sha256": "c445016e0ba578a04a89043dcc06aa98cb66d03f2151794910b5bf86fad72054"
+    },
+    "reader_landmark_s3_exception.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\reader_landmark_s3_exception.timing",
+      "sha256": "09412fdc000f461d85629abd1ea148adb48dd2279246ce744e1ff054deab4abe"
+    },
+    "reader_landmark_s3_phy.area": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\reader_landmark_s3_phy.area",
+      "sha256": "e104406f2ad9b83ee3c5a7506bcb566fe99b0708d7cd9d82804539ce62e5f239"
+    },
+    "reader_landmark_s3_phy.ts": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\reader_landmark_s3_phy.ts",
+      "sha256": "985df248c81e37912a22997a7a392a45400f2969c68f55c8d461df465acca056"
+    },
+    "reader_landmark_s3_pr.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\reader_landmark_s3_pr.timing",
+      "sha256": "96ea05f85a8f86cb0bab6b581c6846b607d6f8503df82c8b874a96d26f2b44b8"
+    }
+  }
+}

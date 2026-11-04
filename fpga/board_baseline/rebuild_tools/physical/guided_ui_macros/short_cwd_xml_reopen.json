@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "scope": "One short-CWD open of same-byte absolute-path PRJ plus exact existing07e581 placedDB; metadata/6ISP RAM existence only, not new PNR/STA or device validation",
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238",
+  "exit_code": 0,
+  "elapsed_s": 10.687000000005355,
+  "errors": [],
+  "source_place_raw": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\latest_guided_place.json",
+    "sha256": "7be56a9b6abbcd9fa2d5f15a32101471eaddeff62afc39c172add33f0feb7b7b"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_place.db",
+    "sha256": "07e58145d5d105324dec19f8cc66ecdaf48c77f08cab7cf057b95637d1c31c37"
+  },
+  "original_prj": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3.prj",
+    "sha256": "51846a2cb7650f82d74fded94dd57c57b45791f715039dbe98bf66388acb6d1c"
+  },
+  "copied_prj": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238\\reader_landmark_s3.prj",
+    "sha256": "51846a2cb7650f82d74fded94dd57c57b45791f715039dbe98bf66388acb6d1c"
+  },
+  "copied_prj_same_bytes": true,
+  "six_ISP_ERAM_names": [
+    "u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_2",
+    "u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_43",
+    "u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_84",
+    "u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[1]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_1",
+    "u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[2]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_2",
+    "u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/ram_syn_1"
+  ],
+  "commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "open_project reader_landmark_s3.prj -noanalyze",
+    "import_db C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/td_project/reader_landmark_s3_Runs/guided_ui_place_20261103_184018_017011/reader_landmark_s3_place.db",
+    "report_clock_summary -file clocks.txt",
+    "update_timing",
+    "start_timer",
+    "report_area -io_info -file reopened.area",
+    "get_cells u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_2",
+    "report_cells  -attributes -connection",
+    "get_cells u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_43",
+    "report_cells  -attributes -connection",
+    "get_cells u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_84",
+    "report_cells  -attributes -connection",
+    "get_cells u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[1]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_1",
+    "report_cells  -attributes -connection",
+    "get_cells u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[2]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_2",
+    "report_cells  -attributes -connection",
+    "get_cells u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/ram_syn_1",
+    "report_cells  -attributes -connection"
+  ],
+  "native_NO_PNR_export_device": true,
+  "sourcefreeze": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "artifacts": {
+    "clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238\\clocks.txt",
+      "sha256": "74f72de3e359df385d5daf8ca323689d27e372f9c09a1c41fd51ac3dc8c12089"
+    },
+    "console.log": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238\\console.log",
+      "sha256": "0b4755631de068893bde3561da38b1b6ae5e54c07a33ceaaaf943224b9b916a8"
+    },
+    "execute.tcl": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238\\execute.tcl",
+      "sha256": "b2e9e5c4d99cce056400cdaba3cd510d90546db7aa3b7c9046c377219efcf4ce"
+    },
+    "reader_landmark_s3.prj": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238\\reader_landmark_s3.prj",
+      "sha256": "51846a2cb7650f82d74fded94dd57c57b45791f715039dbe98bf66388acb6d1c"
+    },
+    "reopened.area": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238\\reopened.area",
+      "sha256": "eeb7911635d389163dda8e4fc2fa901f4fe722b4c6a5fe17661685a2aa916251"
+    },
+    "td_20261103_185715.log": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\xmlcheck_185713_842238\\td_20261103_185715.log",
+      "sha256": "42942404d90168a3043307717956f27892f5b721fad2f04158c6c36ce6d70d8d"
+    }
+  },
+  "raw_place_FAIL_preserved": true
+}

@@ -1,0 +1,71 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_landmark_s3_20261103\project\user_source\hdl_source\meter_pair\t06_meter_roi_reader.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_roi_reader.v
+@@ -50,7 +50,13 @@
+  output reg [15:0] result_cnn_margin,
+  // Captured lease evidence, frozen in CAPWAIT before RELEASE.
+  // {reason5,diagnostics53,x0_11,y0_10,stride3,radius7,hint32}.
+- output reg [120:0] result_capture_debug
++ output reg [120:0] result_capture_debug,
++ // Earlier display-only evidence; never asserts candidate/value/result_pulse.
++ output reg progress_valid,progress_pulse,progress_needle_valid,
++ output reg [10:0] progress_hub_x_q4,progress_hub_y_q4,output reg [8:0] progress_angle,
++ output wire [31:0] progress_source,progress_config,output wire [15:0] progress_target,
++ output wire [10:0] progress_x0,output wire [9:0] progress_y0,
++ output wire [2:0] progress_stride,output wire [6:0] progress_radius
+ );
+ // CORE wrapper only. The live component owns every CSI/HCLK CDC and RAM lease.
+ // Old hub/needle/StripCNN blocks are replaced, never prerequisites for analysis.
+@@ -64,7 +70,7 @@
+  wire owner_bad=(state!=IDLE||candidate_valid||value_valid||age_active)&&
+   (owner_target!=active_target||owner_config!=active_config);
+  wire kill=!rst_n||!enabled||cancel||owner_bad;
+- wire live_ready,live_busy,live_armed,live_result;
++ wire live_ready,live_busy,live_armed,live_result,live_progress;wire [31:0] live_progress_code;
+  wire [95:0] live_token;wire [31:0] live_hint,live_config,live_crc,live_hwcrc,live_bytes,live_code,live_age;
+  wire [15:0] live_target;wire [10:0] live_x;wire [9:0] live_y;
+  wire [2:0] live_stride;wire [6:0] live_radius;
+@@ -85,6 +91,7 @@
+   .req_radius(req_radius),.req_hint_source(req_hint_source),.req_target(req_target),.req_config(req_config),
+   .busy(live_busy),.capture_armed(live_armed),.platform_armed(platform_armed),
+   .owned_roi_good(owned_roi_good),.owned_roi_source(owned_roi_source),.result_valid(live_result),.result_ready(1'b1),
++  .progress_pulse(live_progress),.progress_code(live_progress_code),
+   .result_token(live_token),.result_hint_source(live_hint),.result_target(live_target),.result_config(live_config),
+   .result_x0(live_x),.result_y0(live_y),.result_stride(live_stride),.result_radius(live_radius),
+   .result_source_crc32(live_hwcrc),.result_crc32(live_crc),.result_bytes(live_bytes),.result_code(live_code),
+@@ -101,6 +108,12 @@
+  reg [7:0] held_mean;reg [21:0] held_gradient;reg [31:0] held_crc;
+  assign quality_mean=held_mean;assign quality_gradient=held_gradient;
+  assign mcu_result_crc=held_crc;
++ assign progress_source=live_token[63:32];assign progress_config=live_config;assign progress_target=live_target;
++ assign progress_x0=live_x;assign progress_y0=live_y;assign progress_stride=live_stride;assign progress_radius=live_radius;
++ wire progress_coords_ok=live_progress_code[21:11]<=2032&&live_progress_code[10:0]<=2032;
++ wire progress_pointer=live_progress_code[31]&&live_progress_code[30:22]<360&&progress_coords_ok;
++ wire progress_hub=live_progress_code[31:30]==2'b01&&live_progress_code[29:27]==0&&
++  live_progress_code[26:22]!=0&&progress_coords_ok;
+  reg [6:0] held_radius;
+  reg conf_have,conf_identity,conf_pose,conf_number_permit;reg [31:0] conf_source,conf_config;
+  reg [15:0] conf_target;reg [10:0] conf_x;reg [9:0] conf_y;reg [6:0] conf_radius;
+@@ -135,6 +148,7 @@
+   .busy(mbusy),.done(mdone),.value_valid(mgood),.value_q16(mq16),.value_bcd(mbcd),.reason(mreason));
+  always @(posedge clk or negedge rst_n)begin
+   if(!rst_n)begin
++   progress_valid<=0;progress_pulse<=0;progress_needle_valid<=0;progress_hub_x_q4<=0;progress_hub_y_q4<=0;progress_angle<=0;
+    state<=IDLE;owner_target<=0;owner_config<=0;age<=0;age_active<=0;passed<=0;mstart<=0;
+    result_pulse<=0;candidate_valid<=0;value_valid<=0;visual_stable<=0;reason<=0;
+    result_hint_source<=0;result_source<=0;result_confirmed_source<=0;result_config<=0;result_target<=0;
+@@ -143,7 +157,14 @@
+    result_needle_score<=0;result_needle_count<=0;result_cnn_valid<=0;result_cnn_pass<=0;result_cnn_margin<=0;result_capture_debug<=0;
+    conf_have<=0;conf_identity<=0;conf_pose<=0;conf_number_permit<=0;conf_source<=0;conf_config<=0;conf_target<=0;conf_x<=0;conf_y<=0;conf_radius<=0;held_hub_only<=0;held_psi_q8<=0;held_psi_valid<=0;
+   end else begin
+-   mstart<=0;result_pulse<=0;
++   mstart<=0;result_pulse<=0;progress_pulse<=0;
++   if(kill||take)begin progress_valid<=0;progress_needle_valid<=0;end
++   else if(state==WAIT_CPU&&live_progress&&live_target==owner_target&&live_config==owner_config&&
++           (progress_pointer||progress_hub)&&(!progress_valid||!progress_needle_valid||progress_pointer))begin
++    progress_valid<=1;progress_pulse<=1;progress_needle_valid<=progress_pointer;
++    progress_hub_x_q4<=live_progress_code[21:11];progress_hub_y_q4<=live_progress_code[10:0];
++    progress_angle<=progress_pointer?live_progress_code[30:22]:9'd0;
++   end
+    if(age_active&&age!=32'hffffffff)age<=age+1'b1;
+    if(confirm_valid&&confirm_target==active_target&&confirm_config==active_config)begin
+     conf_have<=1;conf_identity<=confirm_detector_evidence_ok;conf_pose<=confirm_pose_ok;conf_number_permit<=confirm_number_permit;

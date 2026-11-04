@@ -1,0 +1,128 @@
+{
+  "kind": "TRAINED_STABLE3S_ROVER_MERGED_ESP32_SOURCE_OFFLINE_BUILD_FREEZE",
+  "at": "2026-11-04T05:55:27.880636+08:00",
+  "source_root": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+  "source_count": 41,
+  "source_sha256": {
+    "AppState.inc": "5331ef9e40f5ed0cf69d391a5b8c8a8b8e21e5feb4385137120ef679539166f5",
+    "BufferedConsole.h": "eae0f42a5a92af4ff76f6905745f63cc43acad10870a404017c35d0888473b32",
+    "Calibration.h": "68665d203aa294f2ec68d516f7caa02b974e4e6e064b8df74dadd968b4e4972d",
+    "CarConfig.h": "51166eb97c524f237c7df716c8389a8d9701179425d7fbe277e1b7c91eabe134",
+    "ConsoleUi.h": "2f2b23cb193ce9e4f521a9e95b0da624c50e5b54586b4b69852e39c7453ebb9a",
+    "ESP32S3_4WD_Web_FPGA.ino": "8c3ba3c5b6c112614091abf043b32f6c174790f202d8c502b81035c71c401755",
+    "FgInterrupts.inc": "3d076e9b037a21daf1d2f02bfa89732456f4055e34bf0704c0134a3a625ff5b8",
+    "FpgaRuntime.inc": "ef9e77a3d6612024bd34af56afe7b4378f69ab5068f53a9b59606bc2134c8325",
+    "FpgaUartLink.h": "c735ee2fa2262ab2908ce3efb6370d05043dc5b325e3dc42b68ad46ab7f0163c",
+    "GoalDrive.h": "cd0897e764167e83ed39eee24d266335c98650d2490eaa104e2ae6f3fa6d8544",
+    "GoalDriveRuntime.inc": "bfde78923c9eadeb8faccd425f1f6f3142df12904728151438aebd0524383896",
+    "GuanbiaoProtocolV4.h": "7dd553b96ac8da582c2bde50d69dcc5e4c32c832f068c178193d432b51e662d1",
+    "HttpForm.h": "3a80ad8da89e5aa41c769799a1c7d76d785126a7f7213344be4ea0fd24d64366",
+    "ImuHeading.h": "d3106a50b520b06e3e5232fd07dc50db968c684f2a28ca98f658a1734b6ea567",
+    "ImuMotion.h": "a8be48dbc3aad4dcd45565431bdd70b853fd616e93e90d73560fb92d2d109ebb",
+    "ImuRuntime.inc": "91ef5815f51d4816b41cbf374bfa1f369459daa2536b06b4aa58884fe1f40277",
+    "InspectionExecutor.h": "fd28f437878050521dca0fdaa828198844304938a577d8d110805fb8f28f2346",
+    "LineBuffer.h": "727c45e4b629c614753ef7160f9e133033999e9bdeb0e4fa683b73667724562c",
+    "LiteScanLink.h": "9968d64e9bcea4c40e4e59887b332bc670472aa63f785ed57c0f40ed89e28f83",
+    "MotorStartAssist.h": "97cc28847fa4a22252ccbfc7a8370c387ad4f871762ad6ebc0fea2daaecaae03",
+    "NativeHttpServer.h": "a8118824712550603182a527fd6804c5a2f12592f029ebe79a21e7445ed46429",
+    "Navigation.h": "ce1c45d0f8695a30c795129128feaad05e0c0831fd6d27ed6f35f42f85be62b4",
+    "Navigation.inc": "303171e573bde26eaf33951c42ddb6749903e29d21138d93c209677f5dd4164b",
+    "ObstacleMap.h": "01fee69bdf91109e060559ef1c03b1c2e526a5aec66c6ea38ba4469260d8f78c",
+    "PathPlan.h": "0906539f1371b8151c73406fa24d9dadae7178b041d9ad163606495bf3ec5ae0",
+    "RobotApp.cpp": "e09d6e61bd72930ff0de5125d6e4bf1d83238528f7a970bcd9852bfd502f91e5",
+    "RobotApp.h": "4dca3b6b4a2969feb458b631517d3cfdc9aa4594dacd6a19b0e3c7e72b3cfe73",
+    "RoutePlan.h": "45c0cf68fcd4d8fb255ffccb9b2d4a2e6fa0a8909264173c5243a2754ac3ffb6",
+    "RouteRuntime.inc": "9f64429fee09b1a9e2af176d043f874780b2a37dee7eb1f2281efaa4be87a4a1",
+    "RouteSpeed.h": "dbc05e517b37a3320a343911c02f904ba2b5eecdc21ceb0d7f9d939729ac9589",
+    "Runtime.inc": "c6e2e7e643bf71efebb574e5e86f787e69420a9b60096ba88d86c71bb8a9afa3",
+    "RxProbe.h": "869039b2fe31541fbac34875e4f39f155976a03553b1019d71bbcf2afff5517c",
+    "ScanPlan.h": "56cbb08edc71f6ee8752cb23b906a67a151c9b3c3f772a25e1ec9072fb3c35fa",
+    "Stage1Control.h": "818a8cb474c662d03690718172f9320f3d836ceeee9332c94e6bb84a92c78f63",
+    "StraightStability.h": "a9b450d2bd6f220b1e48a85bbda58a3b4fdc4de0c848c54440c8dcfb8bdd813a",
+    "WebBridge.h": "0efe8a72c83833e7e318d76ed32d043d6ac9083b81f44b89031fec4bd81a4114",
+    "WebRuntime.inc": "91f6b3d3a13d6e8db87db7b1a983c851feb4c2e506e90ae05c5969261beb371a",
+    "WebUi.h": "c9699e1f98ee469641edc93ff4cd69d486e473417af028a031af083cbb998976",
+    "WebUiGzip.h": "ae746dcf3dcc01fd53d8fd66a84141423ac872aa747ada3cb275d1cae4449e57",
+    "WheelPid.h": "a022551488feed0a047ae0e5286487521d08404a140435ee90b5cea65366cb8a",
+    "WireCodecV4.h": "d6004e48a3d13b56406a40cf803f1ec7f7f68b0211699336fbf619fcde784fa7"
+  },
+  "R24_ZIP": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\ESP32S3_三轮车_轻量巡检与完整上位机_R24_V4_20261103.zip",
+    "sha256": "bb6d88ff6f87b3867de021374f93051e53a21763afe7183744910cb82549ee12"
+  },
+  "trained_base_ZIP_sha256": "e477c9fdf8afa870ba1c236d7367f7383f39cafa3c48bee2eec921b64f6a8c7d",
+  "changed_source_files": [
+    "GuanbiaoProtocolV4.h",
+    "LiteScanLink.h"
+  ],
+  "protected_original_7": {
+    "CarConfig.h": "51166eb97c524f237c7df716c8389a8d9701179425d7fbe277e1b7c91eabe134",
+    "Calibration.h": "68665d203aa294f2ec68d516f7caa02b974e4e6e064b8df74dadd968b4e4972d",
+    "WheelPid.h": "a022551488feed0a047ae0e5286487521d08404a140435ee90b5cea65366cb8a",
+    "ImuHeading.h": "d3106a50b520b06e3e5232fd07dc50db968c684f2a28ca98f658a1734b6ea567",
+    "ImuMotion.h": "a8be48dbc3aad4dcd45565431bdd70b853fd616e93e90d73560fb92d2d109ebb",
+    "GoalDrive.h": "cd0897e764167e83ed39eee24d266335c98650d2490eaa104e2ae6f3fa6d8544",
+    "GoalDriveRuntime.inc": "bfde78923c9eadeb8faccd425f1f6f3142df12904728151438aebd0524383896"
+  },
+  "CFG": "8A2EBD57",
+  "READ_TIMEOUT_MS": 26000,
+  "protocol": {
+    "contract.json": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\protocol\\contract.json",
+      "sha256": "24a50d21afce5e076076f46ccb50f52a839d7b390fb196874eac53be63da208e",
+      "bytes": 25983
+    },
+    "contract.md": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\protocol\\contract.md",
+      "sha256": "37105060efa6cb39cafaed796d85f70336d17b3f3dff5705efbab7a61b18cd56",
+      "bytes": 15792
+    },
+    "GuanbiaoProtocolV4.h": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\protocol\\GuanbiaoProtocolV4.h",
+      "sha256": "7dd553b96ac8da582c2bde50d69dcc5e4c32c832f068c178193d432b51e662d1",
+      "bytes": 6499
+    },
+    "guanbiao_uart_v4_defs.vh": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\protocol\\guanbiao_uart_v4_defs.vh",
+      "sha256": "851a639a7d120f0c6b70c51d68dd138639c4046841cf45968aef586478c7855c",
+      "bytes": 6798
+    }
+  },
+  "actual_official_build": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\evidence\\arduino_build_receipt.json",
+    "sha256": "83dff0eb9d3ea3919fbb0934a03e23a2f8a0091f6092a3bad20bc8cf28d3910d",
+    "bytes": 8078
+  },
+  "actual_host_checks": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\evidence\\host_checks_receipt.json",
+    "sha256": "ad69c4f6c229a0c31de60e4b5d4f0d802e759cfa8320827f6c200a3d437292e5",
+    "bytes": 16933
+  },
+  "actual_codec_checks": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\evidence\\codec_receipt.json",
+    "sha256": "e98f84bba985a2611de6d239570240485f2712538c82c8b06cdbaafcbb2679cc",
+    "bytes": 9577
+  },
+  "source_delta": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\evidence\\ESP_source_delta.diff",
+    "sha256": "c914a5c41fd6d7a6c48c376f1bf594a9bcda9f90966e8a5374f92d3689075147",
+    "bytes": 6706
+  },
+  "read_timeout_analysis": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\evidence\\read_timeout_analysis.json",
+    "sha256": "4015db4444eb459d905bcd2391d8d83fc2dba6536ed5692405b1085e2fdf0d40",
+    "bytes": 3068
+  },
+  "new_APP": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\firmware\\ESP32S3_4WD_Web_FPGA.ino.bin",
+    "sha256": "a13acfb1ded9240c594fc1482f5c3dcce20993d0aacedf86858f98f3752caa4a",
+    "bytes": 1060368
+  },
+  "default_local_armed": false,
+  "formalReadingValid": false,
+  "MCU_347b_included": false,
+  "FPGA_new_bit_or_physical_acceptance": false,
+  "hardware_verified": false,
+  "devices": false,
+  "flashed": false
+}

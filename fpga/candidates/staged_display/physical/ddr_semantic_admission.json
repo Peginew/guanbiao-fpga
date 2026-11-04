@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "stage": "DDR_semantic_membership",
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\source_freeze.json",
+    "sha256": "9d4661b453a52a0e0f05a5696bf6b769c982cfc82cd27c7c5ddc83bce878b828"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged_gate.db",
+    "sha256": "2c1eac01aaa437844d9e43092dde1656e02b21d8c4309b09a2017fe0030b519e"
+  },
+  "netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\actual_netlist.v",
+    "sha256": "ce0d9bd663ad2cc866478cb0ab79d37fb1f16cb2770aa8038af86203bb9258f3"
+  },
+  "ddr_group_plan": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\ddr_group_plan.json",
+    "sha256": "21ffa6dea2f35505d720918be8817b1aaa3b71f96cbaee180971ff8ae4deab41"
+  },
+  "ddr_group_tcl": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\ddr_group.tcl",
+    "sha256": "be7825fc5d29da0c5198356aafe56c38c1f72d521fa6489f244b18a9543857c7"
+  },
+  "accepted_member_count": 37,
+  "accepted_members": [
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_3",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_reg",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_full_nxt_b[1]_syn_1",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_wptr_reg[0]",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[16]",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[2]",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[30]",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[44]",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_63",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_83",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_empty_nxt_syn_3",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[0]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[10]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[11]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[12]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[13]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[1]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[20]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[21]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[22]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[23]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[24]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[25]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[26]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[27]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[28]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[29]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[30]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[31]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[32]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[40]_syn_9",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[7]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[8]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[9]_syn_5",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[21]",
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_cmd_wrapper/u_ddrphy_cmd_execution/cmd_decode[1]$u_ddrphy_cmd_decode/cmd_code[1]_syn_1"
+  ],
+  "independent_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\ddr_semantic_review.json",
+    "sha256": "f8c8cb6171e84da23f5e8f1fbd106aa243c99f98abf7bc0ce4e60a83e59e6b68"
+  },
+  "actual_union_not_historical_count": true,
+  "source_and_endpoint_and_all_fanout_preserved": true,
+  "device_actions": false
+}

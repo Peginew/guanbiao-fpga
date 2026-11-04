@@ -1,0 +1,786 @@
+{
+  "stage": "route",
+  "state": "FAILED_OR_INCOMPLETE_PRESERVED",
+  "passed": false,
+  "device": false,
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\source_freeze.json",
+    "sha256": "0e2262a4cb63f65a8c6d993f2213f10cc67660134f0fd0b2ece461e3486b85d6"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\place_20261104_073046_579181\\reader_shared_place.db",
+    "sha256": "d3797bcb7fc313c52288bea50b9ff07767f96fc75c340a7480b01cd49a0c8dd6"
+  },
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\latest_place.json",
+    "sha256": "bffd96ff23ce242298f4590c833789297becc7c169071e55c2ea0808d0ca64dd"
+  },
+  "gate": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\route_admission.json",
+    "sha256": "a57fe9972a2a27b687d81edb3b6c536327c1303849fcd5f6e3bec491de81d422"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749",
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\asr_literal.sdc",
+      "sha256": "1f58b82254c432879bbc465192c59be62ad84174d44d26cd1e014be79a1ceced"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\diagnostic4_exact_QD_candidate.sdc",
+      "sha256": "f209a6b353c90d1a78d3635dcab74c522288386ad5d2396a46a1ecf25cbd2682"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\execute.tcl",
+      "sha256": "9f322f7c370f1c62e7784a7634350f527bd5ec1c91964c9d5279591a61da4858"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\input_place.db",
+      "sha256": "d3797bcb7fc313c52288bea50b9ff07767f96fc75c340a7480b01cd49a0c8dd6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\progress32_exact_Q_candidate.sdc",
+      "sha256": "4d9ef6ea17324157b38d24d8a496642dafd69d94fd40b0dfb72fd93b939f2b98"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\progressCtrl2_exact_QD_candidate.sdc",
+      "sha256": "15375fd5f21cf69cd9fc08f9e51e8f9c473f9c5fd9461de1242cd73e835ef7ab"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\PSI17_exact_Q_candidate.sdc",
+      "sha256": "521578188895dfc3808d0586612e6a6651421474a833ea7dd71db180a0ef8b29"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\reader_shared.prj",
+      "sha256": "6d202e7bf4a2e423c31c73dffa74fc5a16fe04bdb3a799bc48df4442cde7f331"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\run_route.py",
+      "sha256": "0e2ddc52719103900a179a15b7b136c304cf0c5d26415aea58b823f3f7380cc6"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\route_admission.json",
+      "sha256": "a57fe9972a2a27b687d81edb3b6c536327c1303849fcd5f6e3bec491de81d422"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\latest_place.json",
+      "sha256": "bffd96ff23ce242298f4590c833789297becc7c169071e55c2ea0808d0ca64dd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\expected_rules.json",
+      "sha256": "370382af59a1f89c6cf38ea34e5ead43cbad62d26c02a67043fec9b29f65b99d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\endpoints\\fresh_identity.json",
+      "sha256": "5881aa4bd2631d416008b8f9f3cff7bf3cfeef12c4440876f6493fc35f306418"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\placed_asr_mapping.json",
+      "sha256": "a100148225b8ddaef0e4d5aed9c9f2f92e9fce4805d2370b4fd6e23bbd086b69"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\physical_source\\probe_contract_review.json",
+      "sha256": "05f55912729b633af73c490ec68d86924590b48fcb7ef7e94c39ba980ef7560d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\physical_source\\route_prerequisites_review.json",
+      "sha256": "27c6778959a55593d22607ca0073bd054578907b33679d0038fae5a0edaeb208"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\physical_source\\probe_contract_review.json",
+      "sha256": "05f55912729b633af73c490ec68d86924590b48fcb7ef7e94c39ba980ef7560d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\probe_asr_review.json",
+      "sha256": "7fcad264f3b1efcae2aa6ca6ac1b5f6db0db6cc889dc2d286fd271b3f49caa3d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\expected_rules_review.json",
+      "sha256": "befdd8569eff777ca6716950cf590916479ff87338f633433c99ba52a7695606"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\shared_mapper_source_review.json",
+      "sha256": "7ec47c68e1ab9b68a0c193ce78bd39f00487f64eace9e3cd4f30d3a1a7b6f333"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\physical_source\\place_entity_review.json",
+      "sha256": "1b6a863e1296cbd281cf73bf6daaa24cbae2ead02063b32068c525a4ddc3205e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\physical_source\\stable3s74_placed_DATA_inventory.json",
+      "sha256": "c9fc7d7b946b269ed38495a518e072c9070e0d0b3d0d61ffb2ffca1ec58af85f"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\physical_source\\native_cache_place_review.json",
+      "sha256": "034813bd7630653542bd0a1cffd8d530726c0178c7334f5a8c294f55fd5bc4d8"
+    }
+  ],
+  "expected_rules": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\physical\\expected_rules.json",
+    "sha256": "370382af59a1f89c6cf38ea34e5ead43cbad62d26c02a67043fec9b29f65b99d"
+  },
+  "bitgen_admitted": false,
+  "eachsource_FINAL_independent_review_passed": false,
+  "pure_literal_before_first_timer_required": true,
+  "source_functionality_changed": false,
+  "exit_code": null,
+  "elapsed_s": 7201.953000000009,
+  "errors": [],
+  "output": null,
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\console.log",
+    "sha256": "f21c4bc388856267a7a31e2bac6844590ab5a79c409acaa8db3b29250254ad27"
+  },
+  "resources": {},
+  "FINAL": {},
+  "global_final_timing_passed": false,
+  "physical_capacity_passed": false,
+  "pre_rule_tables_passed": true,
+  "final_rule_tables_passed": false,
+  "pre_rule_checks": [
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          17,
+          17,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[10]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[12]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqa}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            17,
+            17,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[10]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[12]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqa}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          32,
+          32,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_held_code_reg[4]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[2]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[5]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[4]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[5]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[8]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[8]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[2]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[18]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[14]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[14]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[16]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[16]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[20]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[18]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[21]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[20]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[21]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[30]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[28]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[24]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_toggle_reg_syn_3.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[29]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[31]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[28]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[29]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[30]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[31]_syn_2.oqa}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            32,
+            32,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_held_code_reg[4]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[2]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[5]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[4]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[5]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[8]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[8]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[2]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[18]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[14]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[14]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[16]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[16]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[20]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[18]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[21]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[20]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[21]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[30]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[28]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[24]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_toggle_reg_syn_3.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[29]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[31]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[28]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[29]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[30]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[31]_syn_2.oqa}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_toggle_reg_syn_3.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_sync_reg[0]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_toggle_reg_syn_3.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_sync_reg[0]_syn_2.ima}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_seen_reg_syn_3.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_ack_sync_reg[0]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_seen_reg_syn_3.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_ack_sync_reg[0]_syn_2.ima}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[2]_syn_5.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[0]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[2]_syn_5.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[0]_syn_2.ima}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[3]_syn_5.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[1]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[3]_syn_5.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[1]_syn_2.ima}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[2]_syn_5.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[2]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[2]_syn_5.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[2]_syn_2.ima}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[3]_syn_5.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[3]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[3]_syn_5.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[3]_syn_2.ima}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_toggle}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_sync[0]}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_toggle}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_sync[0]}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_ack}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_ack_sync[0]}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_ack}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_ack_sync[0]}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          33,
+          0,
+          33,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_held_code[*]}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            33,
+            0,
+            33,
+            0
+          ],
+          "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_held_code[*]}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/first_cancel_cause[*]}] -to [get_regs {u_meter_pair/pipeline/reader/live/first_cancel_sync0[*]}] -datapath_only 7.200"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            4,
+            0,
+            4,
+            0
+          ],
+          "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/first_cancel_cause[*]}] -to [get_regs {u_meter_pair/pipeline/reader/live/first_cancel_sync0[*]}] -datapath_only 7.200"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "ASR_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          7,
+          7,
+          0,
+          0
+        ],
+        "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+      },
+      "actual": [
+        {
+          "mode": "Max",
+          "counts": [
+            7,
+            7,
+            0,
+            0
+          ],
+          "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "ASR_rules",
+      "expected": {
+        "mode": "Min",
+        "counts": [
+          7,
+          7,
+          0,
+          0
+        ],
+        "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+      },
+      "actual": [
+        {
+          "mode": "Min",
+          "counts": [
+            7,
+            7,
+            0,
+            0
+          ],
+          "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "final_rule_checks": [
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          17,
+          17,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[4]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[6]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[10]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[12]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqa u_meter_pair/pipeline/reader/live/return_psi_q8_reg[15]_syn_2.oqb u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqa}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          32,
+          32,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_held_code_reg[4]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[7]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[2]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[5]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[4]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[5]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[8]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[7]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[8]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[9]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[9]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[2]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[18]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[14]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[14]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[16]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[16]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[20]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[18]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[21]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[20]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[21]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[30]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[28]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[24]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_toggle_reg_syn_3.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[29]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[31]_syn_2.oqb u_meter_pair/pipeline/reader/live/progress_held_code_reg[28]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[29]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[30]_syn_2.oqa u_meter_pair/pipeline/reader/live/progress_held_code_reg[31]_syn_2.oqa}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_toggle_reg_syn_3.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_sync_reg[0]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_seen_reg_syn_3.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_ack_sync_reg[0]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[2]_syn_5.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[0]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[3]_syn_5.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[1]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[2]_syn_5.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[2]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "exact_SMD_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "command": "set_max_delay -from [get_pins {u_meter_pair/pipeline/first_cancel_cause_reg[3]_syn_5.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/first_cancel_sync0_reg[3]_syn_2.ima}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_toggle}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_sync[0]}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_ack}] -to [get_regs {u_meter_pair/pipeline/reader/live/progress_ack_sync[0]}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          33,
+          0,
+          33,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/progress_held_code[*]}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "replaced_logical_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/first_cancel_cause[*]}] -to [get_regs {u_meter_pair/pipeline/reader/live/first_cancel_sync0[*]}] -datapath_only 7.200"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "ASR_rules",
+      "expected": {
+        "mode": "Max",
+        "counts": [
+          7,
+          7,
+          0,
+          0
+        ],
+        "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+      },
+      "actual": [],
+      "passed": false
+    },
+    {
+      "group": "ASR_rules",
+      "expected": {
+        "mode": "Min",
+        "counts": [
+          7,
+          7,
+          0,
+          0
+        ],
+        "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]"
+      },
+      "actual": [],
+      "passed": false
+    }
+  ],
+  "literal_contracts_before_first_timer_and_pre_route": true,
+  "DRC_messages_passed": false,
+  "actual_zero_overflow_last_table": false,
+  "last_overflow_counts": [
+    21,
+    21,
+    1
+  ],
+  "actual_route_only_scope": true,
+  "actual_same_source_DB": true,
+  "actual_commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "import_db input_place.db",
+    "read_sdc asr_literal.sdc",
+    "read_sdc PSI17_exact_Q_candidate.sdc",
+    "read_sdc progress32_exact_Q_candidate.sdc",
+    "read_sdc progressCtrl2_exact_QD_candidate.sdc",
+    "read_sdc diagnostic4_exact_QD_candidate.sdc",
+    "report_clock_summary -file initial_clocks.txt",
+    "update_timing",
+    "start_timer",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_exception -ep_num 256 -path_num 1 -file pre_contract_exception.timing",
+    "report_timing_ignored -ep_num 64 -path_num 1 -file pre_contract_ignored.timing",
+    "set_param route effort normal",
+    "set_param route fix_hold on",
+    "set_param route timing on",
+    "set_param route post_route_opt off",
+    "commit_param -step route",
+    "route",
+    "start_timer",
+    "start_timer"
+  ],
+  "after_rover_reserve": {},
+  "artifacts": {
+    "asr_literal.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\asr_literal.sdc",
+      "sha256": "1f58b82254c432879bbc465192c59be62ad84174d44d26cd1e014be79a1ceced"
+    },
+    "diagnostic4_exact_QD_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\diagnostic4_exact_QD_candidate.sdc",
+      "sha256": "f209a6b353c90d1a78d3635dcab74c522288386ad5d2396a46a1ecf25cbd2682"
+    },
+    "initial_clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\initial_clocks.txt",
+      "sha256": "00f4a7fd9e1234320854b0910b89bb56462ad31919b378d97093c227dfdfc4ae"
+    },
+    "pre_contract_exception.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\pre_contract_exception.timing",
+      "sha256": "149ca55dd2895d33cb1cc7b40be6de204bbeba89a472c2f73cec0cc3684af172"
+    },
+    "pre_contract_ignored.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\pre_contract_ignored.timing",
+      "sha256": "1ba7f76a5ff397263f9a0f52a3fce8dd13888e2a50245f49e8912ee3a5cd1e25"
+    },
+    "progress32_exact_Q_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\progress32_exact_Q_candidate.sdc",
+      "sha256": "4d9ef6ea17324157b38d24d8a496642dafd69d94fd40b0dfb72fd93b939f2b98"
+    },
+    "progressCtrl2_exact_QD_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\progressCtrl2_exact_QD_candidate.sdc",
+      "sha256": "15375fd5f21cf69cd9fc08f9e51e8f9c473f9c5fd9461de1242cd73e835ef7ab"
+    },
+    "PSI17_exact_Q_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\route_20261104_085505_883749\\PSI17_exact_Q_candidate.sdc",
+      "sha256": "521578188895dfc3808d0586612e6a6651421474a833ea7dd71db180a0ef8b29"
+    }
+  }
+}

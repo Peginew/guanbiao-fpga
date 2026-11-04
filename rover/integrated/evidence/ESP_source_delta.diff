@@ -1,0 +1,40 @@
+--- original_R24/GuanbiaoProtocolV4.h
++++ merged/GuanbiaoProtocolV4.h
+@@ -1,7 +1,7 @@
+ #pragma once
+ #include <cstdint>
+ namespace gb4 {
+-constexpr std::uint32_t kConfigSignature=0x5948E36Bu;
++constexpr std::uint32_t kConfigSignature=0x8A2EBD57u;
+ constexpr unsigned kVersion=4,kFrameBytes=32,kHeaderBytes=20,kPayloadOffset=20,kPayloadBytes=10;
+ enum class Msg : std::uint16_t {HELLO=1, STATE=2, START=3, CANCEL=4, ACK=5, OBSERVATION=6, RESULT=7, FAILURE=8, STEP_REQUEST=9, STOP_ACTION=10};
+ enum class TaskMode : std::uint16_t {FORMAL_REVIEW=0, DIAGNOSTIC_CONTINUOUS=1};
+@@ -35,7 +35,7 @@
+ constexpr std::uint32_t NEGATIVE_WIRE_MAX_AGE_MS=1100u;
+ constexpr std::uint32_t FIRST_OBSERVATION_TIMEOUT_MS=3500u;
+ constexpr std::uint32_t SOURCE_FENCE_TIMEOUT_MS=1000u;
+-constexpr std::uint32_t READ_TIMEOUT_MS=15000u;
++constexpr std::uint32_t READ_TIMEOUT_MS=26000u;
+ constexpr std::uint32_t READ_WIRE_MAX_AGE_MS=200u;
+ constexpr std::uint32_t STEP_DEFAULT_MDEG=10000u;
+ constexpr std::uint32_t STEP_MAX_MDEG=10000u;
+--- original_R24/LiteScanLink.h
++++ merged/LiteScanLink.h
+@@ -105,7 +105,7 @@
+   }
+   if(type==gb4::Msg::CANCEL){e_.cancel();st_.taskState=Cancelled;commandPending_=false;clearVisual();clearResult();queueAck(b,gb4::AckStatus::CANCELLED);stateSent_=false;return;}
+   if(type==gb4::Msg::FAILURE){fail(gb4::Reason(p[4]));return;}
+-  if(type==gb4::Msg::RESULT){const auto source=u32(p);const bool ok=readyRead(now)&&floorKnown_&&readKnown_&&now-readAt_<15000&&std::uint32_t(u16(p+6))+4<=200&&ahead32(source,floor_)&&(!lastReadKnown_||ahead32(source,lastRead_));if(!ok){fail(gb4::Reason::FRAME_STALE);return;}st_.candidateRead=true;st_.readSourceFrame=source;st_.rawBarQ16=u16(p+4);st_.readAgeMs=u16(p+6)+4;st_.taskState=Completed;st_.workflowStage=8;lastRead_=source;lastReadKnown_=true;e_.finishTask();queueAck(b,gb4::AckStatus::ACCEPTED);stateSent_=false;return;}
++  if(type==gb4::Msg::RESULT){const auto source=u32(p);const bool ok=readyRead(now)&&floorKnown_&&readKnown_&&now-readAt_<gb4::cfg::READ_TIMEOUT_MS&&std::uint32_t(u16(p+6))+4<=200&&ahead32(source,floor_)&&(!lastReadKnown_||ahead32(source,lastRead_));if(!ok){fail(gb4::Reason::FRAME_STALE);return;}st_.candidateRead=true;st_.readSourceFrame=source;st_.rawBarQ16=u16(p+4);st_.readAgeMs=u16(p+6)+4;st_.taskState=Completed;st_.workflowStage=8;lastRead_=source;lastReadKnown_=true;e_.finishTask();queueAck(b,gb4::AckStatus::ACCEPTED);stateSent_=false;return;}
+  }
+  public:
+  explicit FpgaUartLink(InspectionExecutor&e):e_(e){}
+@@ -120,7 +120,7 @@
+   if(scopeKnown_&&countScanMotion_&&!s_.navOwner&&!e_.aligning()&&s_.imuSample!=lastSample_){cumulativeAngle_+=std::fabs(s_.headingDeg-lastHeading_);lastHeading_=s_.headingDeg;lastSample_=s_.imuSample;}else if(s_.imuSample!=lastSample_){lastHeading_=s_.headingDeg;lastSample_=s_.imuSample;}
+   if(taskActive()&&st_.taskState!=AwaitCancel&&!e_.active())fail(reason(e_.feedback().reason));expire(now);
+  }
+- void expire(std::uint32_t n){if(used_&&n-byteAt_>=30){used_=0;++st_.partialTimeouts;}if(st_.negotiated&&n-(controlKnown_?controlAt_:attemptAt_)>500){lose();return;}if(!taskActive()||st_.taskState==AwaitCancel)return;if(!online(n)){fail(gb4::Reason::STATE_STALE);return;}if(!localContext()||!budget(n)){fail(gb4::Reason::TOTAL_BUDGET);return;}if(st_.taskState==AwaitStart&&n-startAt_>=1000){fail(gb4::Reason::ACTION_TIMEOUT);return;}if(e_.driving()&&e_.motionEpoch()==requestEpoch_&&n-actionAt_>=1000){fail(gb4::Reason::ACTION_STALLED);return;}if(preparing_&&!readKnown_&&n-prepareAt_>=1000){fail(gb4::Reason::SOURCE_FENCE_TIMEOUT);return;}if(readKnown_&&n-readAt_>=15000){fail(gb4::Reason::READ_TIMEOUT);return;}if(st_.taskState==Observing&&readyRead(n)&&!preparing_&&!readKnown_){if(!imageWaiting_){imageWaiting_=true;imageAt_=n;}else if(n-imageAt_>=3500){fail(gb4::Reason::OBSERVATION_ERROR);return;}}}
++ void expire(std::uint32_t n){if(used_&&n-byteAt_>=30){used_=0;++st_.partialTimeouts;}if(st_.negotiated&&n-(controlKnown_?controlAt_:attemptAt_)>500){lose();return;}if(!taskActive()||st_.taskState==AwaitCancel)return;if(!online(n)){fail(gb4::Reason::STATE_STALE);return;}if(!localContext()||!budget(n)){fail(gb4::Reason::TOTAL_BUDGET);return;}if(st_.taskState==AwaitStart&&n-startAt_>=1000){fail(gb4::Reason::ACTION_TIMEOUT);return;}if(e_.driving()&&e_.motionEpoch()==requestEpoch_&&n-actionAt_>=1000){fail(gb4::Reason::ACTION_STALLED);return;}if(preparing_&&!readKnown_&&n-prepareAt_>=1000){fail(gb4::Reason::SOURCE_FENCE_TIMEOUT);return;}if(readKnown_&&n-readAt_>=gb4::cfg::READ_TIMEOUT_MS){fail(gb4::Reason::READ_TIMEOUT);return;}if(st_.taskState==Observing&&readyRead(n)&&!preparing_&&!readKnown_){if(!imageWaiting_){imageWaiting_=true;imageAt_=n;}else if(n-imageAt_>=3500){fail(gb4::Reason::OBSERVATION_ERROR);return;}}}
+  void feed(std::uint8_t b,std::uint32_t n){if(used_&&n-byteAt_>=30){used_=0;++st_.partialTimeouts;}byteAt_=n;++st_.rxBytes;if(!used_){if(b==0xa5)rx_[used_++]=b;return;}if(used_==1){if(b==0x5a)rx_[used_++]=b;else used_=b==0xa5?1:0;return;}rx_[used_++]=b;if(used_<32)return;used_=0;if(FpgaWire::u16(rx_+30)!=FpgaWire::crc(rx_+2,28)){++st_.crcErrors;return;}receive(rx_,n);}
+  bool startTask(std::uint16_t task,std::uint16_t point,std::uint16_t cfg,std::uint32_t epoch,std::uint32_t n,gb4::TaskMode mode=gb4::TaskMode::FORMAL_REVIEW){if(!executionLinkFresh(n)||!parkConfirmed_||parkAge(n)<6000||taskActive()||!task||!point||cfg!=4||!plan_||!maxSteps_||maxSteps_>36||(direction_!=10000&&direction_!=-10000)||mode!=mode_||allocator_==0xffffffffu)return false;beginPointScope(plan_,point,pose_,n);if(!taskClockKnown_){taskClockKnown_=true;firstTaskAt_=n;}if(!budget(n))return false;const auto remaining=300000u-(n-firstTaskAt_);InspectionExecutor::Context c{st_.localSession,st_.bindingToken,st_.bindingToken,epoch,pose_,task,point,4};if(!e_.begin(c,maxSteps_>pointActions_?maxSteps_-pointActions_:1,s_,n,remaining))return false;taskKey_=++allocator_;st_.taskKey=taskKey_;st_.taskId=task;st_.pointId=point;st_.taskState=AwaitStart;st_.workflowStage=1;startAt_=n;command_=gb4::Msg::START;commandPending_=true;commandSent_=false;tries_=0;prepared_=99;requestKnown_=triggerKnown_=false;stateSent_=false;clearVisual();clearResult();return true;}
+  bool cancelTask(std::uint16_t task,std::uint16_t point,std::uint16_t cfg,std::uint32_t,std::uint32_t){if(task!=st_.taskId||point!=st_.pointId||cfg!=4)return false;if(!taskActive()){if(st_.taskState!=Completed)return false;e_.cancel();st_.taskState=Cancelled;clearVisual();clearResult();stateSent_=false;return true;}e_.cancel();st_.taskState=AwaitCancel;command_=gb4::Msg::CANCEL;commandPending_=true;commandSent_=false;tries_=0;clearVisual();clearResult();return true;}

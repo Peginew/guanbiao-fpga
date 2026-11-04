@@ -1,0 +1,254 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_landmark_s3_20261103\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v
+@@ -114,6 +114,14 @@
+  end
+  reg roi_request,roi_cancel,roi_cancel_soft;wire roi_ready,roi_busy,roi_armed,roi_result,roi_candidate,roi_number,roi_stable;
+  wire roi_owned_good,roi_platform_armed;wire [31:0] roi_owned_source;
++ reg read_job_active,read_waiting_T,read_confirmed;
++ // Passive first cancellation path, held through video recovery until MCU reset.
++ reg [3:0] cancel_cause_event,first_cancel_cause;
++ always @(posedge core_clk or negedge mcu_arst_n)begin
++  if(!mcu_arst_n)first_cancel_cause<=0;
++  else if(first_cancel_cause==0&&cancel_cause_event!=0)first_cancel_cause<=cancel_cause_event;
++ end
++ reg [31:0] read_expected_source;
+  reg [10:0] roi_x;reg [9:0] roi_y;reg [2:0] roi_stride;reg [6:0] roi_radius;
+  reg [31:0] hint_source,hint_epoch,hint_cfg,hint_lease;
+  reg [15:0] active_target_id;
+@@ -127,6 +135,9 @@
+  wire [6:0] hub_x,hub_y;wire [15:0] roi_q16,roi_bcd;wire [1:0] stable_count;wire [7:0] mean_gray;wire [21:0] gradient;
+  wire [4:0] roi_stage_flags;wire [120:0] reader_capture_debug;
+  wire [10:0] hub_x_q4,hub_y_q4;wire [31:0] mcu_result_crc;
++ wire progress_have,progress_pulse,progress_needle;wire [10:0] progress_hx,progress_hy,progress_x;
++ wire [9:0] progress_y;wire [8:0] progress_angle;wire [2:0] progress_stride;wire [6:0] progress_radius;
++ wire [31:0] progress_source,progress_config;wire [15:0] progress_target;
+  // Passive observation only. These registers never control the pipeline.
+  wire [31:0] observer_context;
+  wire read_output_withdraw,measurement_fault;
+@@ -140,6 +151,10 @@
+   .observer_context(observer_context),
+   .owned_roi_good(roi_owned_good),.owned_roi_source(roi_owned_source),.platform_armed(roi_platform_armed),
+   .hub_x_q4(hub_x_q4),.hub_y_q4(hub_y_q4),.mcu_result_crc(mcu_result_crc),
++  .progress_valid(progress_have),.progress_pulse(progress_pulse),.progress_needle_valid(progress_needle),
++  .progress_hub_x_q4(progress_hx),.progress_hub_y_q4(progress_hy),.progress_angle(progress_angle),
++  .progress_source(progress_source),.progress_config(progress_config),.progress_target(progress_target),
++  .progress_x0(progress_x),.progress_y0(progress_y),.progress_stride(progress_stride),.progress_radius(progress_radius),
+   .csi_clk(csi_clk),.clk(core_clk),.arst_n(arst_n),.gray4(delayed_gray),.gray_valid(delayed_valid),.gray_sof(delayed_sof),.gray_eol(delayed_eol),.frame_error(delayed_error),.source_id(delayed_source),.source_id_valid(delayed_source_valid),.capture_frame_allowed(cap_open),
+   .enabled(enabled),.cancel(worker_cancel||roi_cancel),.active_target(active_target_id),.active_config(active_config),
+   .req_valid(roi_request),.req_ready(roi_ready),.req_x0(roi_x),.req_y0(roi_y),.req_stride(roi_stride),.req_radius(roi_radius),.req_hint_source(hint_source),.req_target(active_target_id),.req_config(active_config),
+@@ -227,16 +242,42 @@
+  wire display_owner_bad=(geometry_have||display_value_have)&&display_owner_target!=active_target_id;
+  // A reader rejection is not an owner loss. Existing target/stop/stream/fault
+  // invalidations revoke both displays immediately; no new timeout/ticket.
+- wire display_revoke=!rst_n||worker_cancel||motion_change||!stationary||measurement_fault||
+-  !controlled_frontal_setup||!focus_setup_permit||display_owner_bad||
+-  (roi_cancel&&pipeline_reason==17);
++ // Compute deadline withdraws CURRENT READ above; it is not evidence that
++ // a previously recognized same-owner axis/needle has become a different dial.
++ wire display_revoke=!rst_n||external_kill||restart_cancel||motion_change||!stationary||measurement_fault||
++  !controlled_frontal_setup||!focus_setup_permit||display_owner_bad;
+  assign display_hard_revoke=display_revoke;
+  wire axis_display_update=observation&&roi_stage_flags[2]&&roi_stage_flags[4]&&confirm_identity&&
+   reader_source==confirm_source&&result_cfg==active_config&&result_target==active_target_id;
+  // Once FULL exists, keep its entire LAST package through later HUB_ONLY.
+  // The new hub remains in the completed-job diagnostic bundle; it cannot
+  // silently replace the saved hub while retaining another source's needle.
+- wire geometry_package_update=axis_display_update&&(!geometry_have||!geometry_needle_valid||roi_stage_flags[3]);
++ // A stage may precede TRACK-T confirmation. Its held valid allows the
++ // confirmation pulse to publish it later; a newer tracking U is never used.
++ wire early_context=progress_have&&read_job_active&&read_confirmed&&confirm_identity&&
++  progress_source==confirm_source&&progress_source==read_expected_source&&
++  progress_source==roi_owned_source&&roi_owned_good&&progress_config==hint_cfg&&
++  progress_config==active_config&&progress_target==active_target_id&&capture_motion==motion_epoch;
++ wire early_request=early_context&&(progress_pulse||confirm_valid)&&!axis_display_update;
++ wire [10:0] display_x=early_request?progress_x:result_x;
++ wire [9:0] display_y=early_request?progress_y:result_y;
++ wire [2:0] display_stride=early_request?progress_stride:result_stride;
++ wire [10:0] display_hx=early_request?progress_hx:hub_x_q4,display_hy=early_request?progress_hy:hub_y_q4;
++ // One shared native-coordinate mapper, rather than two added multiplier paths.
++ wire [16:0] display_nxq4=({6'd0,display_x}<<4)+display_hx*display_stride+((display_stride-1'b1)<<3);
++ wire [16:0] display_nyq4=({7'd0,display_y}<<4)+display_hy*display_stride+((display_stride-1'b1)<<3);
++ wire [12:0] display_nx=(display_nxq4+17'd8)>>4,display_ny=(display_nyq4+17'd8)>>4;
++ wire [12:0] early_dx=display_nx>=confirm_x?display_nx-confirm_x:confirm_x-display_nx;
++ wire [12:0] early_dy=display_ny>=confirm_y?display_ny-confirm_y:confirm_y-display_ny;
++ wire [6:0] early_dr=progress_radius>=confirm_radius?progress_radius-confirm_radius:confirm_radius-progress_radius;
++ wire early_axis_update=early_request&&display_nx<1280&&display_ny<720&&
++  early_dx<=({10'd0,progress_stride}<<3)&&early_dy<=({10'd0,progress_stride}<<3)&&early_dr<=4;
++ wire display_needle=early_request?progress_needle:roi_stage_flags[3];
++ wire [8:0] display_angle=early_request?progress_angle:needle_angle;
++ wire [31:0] display_source=early_request?progress_source:reader_source;
++ wire [15:0] display_target=early_request?progress_target:result_target;
++ wire geometry_package_update=(axis_display_update||early_axis_update)&&
++  (!geometry_have||!geometry_needle_valid||display_needle);
+  assign display_value_valid=display_value_have&&!display_revoke&&calibration_valid;
+  always @(posedge core_clk or negedge rst_n)begin
+   if(!rst_n)begin display_value_have<=0;display_owner_target<=0;display_value_update<=0;display_value_bcd<=0;display_value_q16<=0;display_value_source<=0;end
+@@ -244,7 +285,7 @@
+    display_value_update<=0;
+    if(display_revoke)begin display_value_have<=0;display_value_bcd<=0;display_value_q16<=0;display_value_source<=0;end
+    else begin
+-    if(axis_display_update)display_owner_target<=result_target;
++    if(geometry_package_update)display_owner_target<=display_target;
+     if(!calibration_valid)begin display_value_have<=0;display_value_bcd<=0;display_value_q16<=0;display_value_source<=0;end
+     else if(guard_update&&value_valid)begin
+      display_value_have<=1;display_owner_target<=guard_target;display_value_update<=1;
+@@ -256,15 +297,12 @@
+  always @(posedge core_clk or negedge rst_n)begin
+   if(!rst_n)begin geometry_have<=0;geometry_hub_x<=0;geometry_hub_y<=0;geometry_center_x<=0;geometry_center_y<=0;geometry_diameter<=0;geometry_roll<=0;geometry_source<=0;geometry_needle_valid<=0;geometry_needle_angle<=0;geometry_x0<=0;geometry_x1<=0;geometry_y0<=0;geometry_y1<=0;end
+   else if(display_revoke)begin geometry_have<=0;geometry_source<=0;geometry_needle_valid<=0;geometry_needle_angle<=0;end
+-  else if(observation)begin
+-   if(geometry_package_update)begin
+-    geometry_have<=1;geometry_hub_x<=(({6'd0,result_x}<<4)+hub_x_q4*result_stride+((result_stride-1'b1)<<3)+17'd8)>>4;
+-    geometry_hub_y<=(({7'd0,result_y}<<4)+hub_y_q4*result_stride+((result_stride-1'b1)<<3)+17'd8)>>4;geometry_source<=reader_source;
++  else if(geometry_package_update)begin
++    geometry_have<=1;geometry_hub_x<=display_nx[10:0];geometry_hub_y<=display_ny[9:0];geometry_source<=display_source;
+     geometry_center_x<=confirm_x;geometry_center_y<=confirm_y;geometry_diameter<=confirmed_diameter;geometry_roll<=confirmed_roll;
+     geometry_x0<=confirmed_x0;geometry_x1<=confirmed_x1;geometry_y0<=confirmed_y0;geometry_y1<=confirmed_y1;
+-     geometry_needle_valid<=roi_stage_flags[3];geometry_needle_angle<=roi_stage_flags[3]?needle_angle:9'd0;
+-   end // A single unsuccessful observation retains the last successful axis.
+-  end
++    geometry_needle_valid<=display_needle;geometry_needle_angle<=display_needle?display_angle:9'd0;
++  end // One failed number/pose observation retains the whole successful package.
+  end
+  // These six bits are the same observation's existing readability vetoes,
+  // not the guard's next-cycle priority reason. [5]identity+printed support,
+@@ -314,8 +352,7 @@
+  // Reader owns one immutable hint/expected-T/epoch bundle until completion.
+  // Its ROI pixels are private; the full-frame lease may be released after
+  // TRACK without waiting for hub/needle arithmetic to finish.
+- reg read_job_active,read_waiting_T,read_confirmed;
+- reg [31:0] read_expected_source;
++
+  // RAW CORE registers establish protection before CPU/NN completion.
+  wire job_frozen=read_job_active&&read_confirmed&&roi_owned_good&&roi_owned_source==read_expected_source;
+  assign measurement_fault=roi_result&&reader_reason==21;
+@@ -332,7 +369,7 @@
+  // Continuous localisation runs regardless; only parked CNN starts here.
+  wire can_prepare_reader=global_lock&&!reacquire_due&&request_bounds&&location_valid&&stationary;
+  // Compact passive taps only. Global-MCU live block owns all sinceARM history.
+- assign observer_context={17'd0,
++ assign observer_context={13'd0,first_cancel_cause,
+   worker_cancel,read_job_active,!owned_frame,!roi_ready,!stationary,!location_valid,!request_bounds,reacquire_due,!global_lock,
+   observer_display_fault,stream_fault,!rst_n,(state==DECIDE_NEXT),(pair_done&&pair_valid),owner_valid};
+ 
+@@ -340,8 +377,9 @@
+   begin release_valid<=1;release_lease<=frame_lease;state<=WAIT_RELEASE;phase_cycles<=0;end
+  endtask
+  task withdraw_reader;
+-  input soft_origin;
++  input soft_origin;input [3:0] cause_code;
+   begin
++   if(read_job_active&&first_cancel_cause==0)cancel_cause_event<=cause_code;
+    roi_request<=0;roi_cancel<=1;roi_cancel_soft<=soft_origin;read_job_active<=0;read_waiting_T<=0;read_confirmed<=0;
+    reader_result_pending<=0;confirm_identity<=0;confirm_pose<=0;observation<=0;
+    confirmed_partial<=0;confirmed_crop_complete<=0;
+@@ -351,6 +389,7 @@
+   if(!rst_n)begin
+    state<=WAIT_OWNER;phase_cycles<=0;last_config<=0;last_motion<=0;restart_cancel<=0;
+    pair_start<=0;pair_track<=0;scan_is_track<=0;release_valid<=0;release_lease<=0;
++   cancel_cause_event<=0;
+    roi_request<=0;roi_cancel<=0;roi_cancel_soft<=0;observation<=0;reader_result_pending<=0;confirm_valid<=0;
+    location_have<=0;location_partial<=0;location_roll<=0;location_age_cycles<=0;box_x0<=0;box_x1<=0;box_y0<=0;box_y1<=0;
+    center_x<=0;center_y<=0;diameter<=0;location_source<=0;location_epoch<=0;pipeline_reason<=1;
+@@ -363,6 +402,7 @@
+    frame_source<=0;frame_epoch<=0;frame_cfg<=0;frame_lease<=0;arm_cycles<=0;read_job_age<=0;
+   end else begin
+    last_config<=active_config;last_motion<=motion_epoch;pair_start<=0;release_valid<=0;
++   cancel_cause_event<=0;
+    roi_cancel<=0;roi_cancel_soft<=0;observation<=0;confirm_valid<=0;restart_cancel<=0;
+    if(location_age_cycles!=32'hffffffff)location_age_cycles<=location_age_cycles+1'b1;
+    if(!read_job_active)read_job_age<=0;
+@@ -379,10 +419,12 @@
+        (!roi_number||confirmed_source==confirm_source)&&result_cfg==hint_cfg&&
+        result_cfg==active_config&&result_target==active_target_id&&capture_motion==motion_epoch)begin
+      observation<=1;
+-    end else begin roi_cancel<=1;confirm_identity<=0;confirm_pose<=0;end
++    end else begin
++     if(read_job_active&&first_cancel_cause==0)cancel_cause_event<=4'd13;
++     roi_cancel<=1;confirm_identity<=0;confirm_pose<=0;end
+    end
+-   if(measurement_fault||(read_job_active&&(motion_change||!stationary)))withdraw_reader(1'b0);
+-   else if(read_job_active&&read_withdraw&&!job_frozen)withdraw_reader(1'b1);
++   if(measurement_fault||(read_job_active&&(motion_change||!stationary)))withdraw_reader(1'b0,measurement_fault?4'd8:4'd7);
++   else if(read_job_active&&read_withdraw&&!job_frozen)withdraw_reader(1'b1,4'd9);
+    // Reader expiry/abort can return to IDLE without result_pulse.  Retire
+    // that job only after its real req_ready/drained contract, or request its
+    // existing cancel/lease-release procedure on the sole2s no-return fault
+@@ -390,10 +432,10 @@
+    // A new job is still impossible until reader req_ready returns; no pending
+    // pixel return or CDC ownership is silently cleared by this controller.
+    if(read_watchdog_revoke)begin
+-    withdraw_reader(1'b0);pipeline_reason<=17;
++    withdraw_reader(1'b0,4'd1);pipeline_reason<=17;
+    end
+    if(worker_cancel)begin
+-    state<=WAIT_OWNER;withdraw_reader(1'b0);location_have<=0;
++    state<=WAIT_OWNER;withdraw_reader(1'b0,phase_timeout?4'd2:stream_fault?4'd4:restart_cancel?4'd3:(context_change||source_context_bad||platform_context_bad)?4'd5:4'd6);location_have<=0;
+     pipeline_reason<=phase_timeout?5'd15:5'd1;
+    end else case(state)
+     WAIT_OWNER:if(owner_valid&&owner_cfg==active_config&&!pair_busy)begin
+@@ -407,14 +449,14 @@
+        // A routine recheck may cancel this unconfirmed reader, but it is not
+        // failed evidence about earlier completed T observations. Reader still
+        // receives the real cancel and must drain its existing claimed lease.
+-       withdraw_reader(1'b1);
+-      end else withdraw_reader(1'b0);
++       withdraw_reader(1'b1,4'd12);
++      end else withdraw_reader(1'b0,4'd12);
+      end
+     end
+     SEARCH_WAIT:if(pair_done)begin
+      if(pair_fault||!pair_valid||!pair_context_good||
+         (scan_is_track?!pair_fresh:!pair_margin_valid))begin
+-      restart_cancel<=1;withdraw_reader(1'b0);location_have<=0;pipeline_reason<=3;state<=RESTART;
++      restart_cancel<=1;withdraw_reader(1'b0,4'd3);location_have<=0;pipeline_reason<=3;state<=RESTART;
+      end else begin
+       // An old SEARCH S is only an internal acquisition hint. Exact displayed
+       // geometry requires a measured source age within the same 200ms budget.
+@@ -435,7 +477,7 @@
+      end
+     end
+     DECIDE_NEXT:begin
+-     if(!owned_frame)begin restart_cancel<=1;withdraw_reader(1'b0);state<=RESTART;pipeline_reason<=5;end
++     if(!owned_frame)begin restart_cancel<=1;withdraw_reader(1'b0,4'd10);state<=RESTART;pipeline_reason<=5;end
+      else if(!read_job_active&&can_prepare_reader&&roi_ready)begin
+       remember_hint();roi_request<=1;state<=REQUEST_ROI;pipeline_reason<=6;
+      end else begin
+@@ -444,11 +486,11 @@
+      end
+     end
+     REQUEST_ROI:begin
+-     if(!owned_frame)begin restart_cancel<=1;withdraw_reader(1'b0);state<=RESTART;pipeline_reason<=5;end
++     if(!owned_frame)begin restart_cancel<=1;withdraw_reader(1'b0,4'd10);state<=RESTART;pipeline_reason<=5;end
+      else if(!can_prepare_reader)begin
+       // Only lost location/recheck permission is soft. Bad crop bounds,
+       // stop permission, ownership or reader readiness remains hard.
+-      withdraw_reader(request_bounds&&stationary&&roi_ready);release_frame();pipeline_reason<=12;
++      withdraw_reader(request_bounds&&stationary&&roi_ready,4'd9);release_frame();pipeline_reason<=12;
+      end
+      else if(roi_request&&roi_ready)begin
+       roi_request<=0;read_job_active<=1;read_waiting_T<=1;read_confirmed<=0;
+@@ -457,11 +499,11 @@
+     end
+     WAIT_ARMED:begin
+      arm_cycles<=arm_cycles+1'b1;
+-     if(!owned_frame)begin restart_cancel<=1;withdraw_reader(1'b0);state<=RESTART;pipeline_reason<=5;end
++     if(!owned_frame)begin restart_cancel<=1;withdraw_reader(1'b0,4'd10);state<=RESTART;pipeline_reason<=5;end
+      else if(arm_cycles>=MAX_ARM_CYCLES-1)begin
+-      withdraw_reader(1'b0);release_frame();pipeline_reason<=14;
++      withdraw_reader(1'b0,4'd11);release_frame();pipeline_reason<=14;
+      end else if(read_withdraw)begin
+-      withdraw_reader(1'b1);release_frame();pipeline_reason<=14;
++      withdraw_reader(1'b1,4'd9);release_frame();pipeline_reason<=14;
+      end else if(roi_armed)begin
+       // This lower bound precedes the actual fresh T SOF. It may reject a
+       // borderline post-stop capture, never label a pre-stop T as post-stop.
+@@ -470,7 +512,7 @@
+     end
+     WAIT_RELEASE:if(!owner_valid)begin state<=WAIT_OWNER;phase_cycles<=0;end
+     RESTART:state<=WAIT_OWNER;
+-    default:begin restart_cancel<=1;withdraw_reader(1'b0);state<=RESTART;pipeline_reason<=16;end
++    default:begin restart_cancel<=1;withdraw_reader(1'b0,4'd3);state<=RESTART;pipeline_reason<=16;end
+    endcase
+    // These hard causes can coincide with a later soft branch above. They
+    // always dominate the guard-only cause tag; ROI cancel/drain is unchanged.

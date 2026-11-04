@@ -1,0 +1,127 @@
+{
+  "status": "NEW_SYN_IDENTITY_VERIFIED_TEN_MACRO_PLAN_ROOT_ADMISSION_REQUIRED",
+  "source_comparison": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\source_comparison.json",
+    "sha256": "ed2f57f506d9489bab4fcfa81d2af418608955397e50f7ad0d9db2842da2c602"
+  },
+  "source_positions_log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_ui_place_20261103_120910_204032\\console.log",
+    "sha256": "940d890480ac4fdf0d5bc56646cf3931b0d7504efb6289fdae21d0e5a5a54688"
+  },
+  "reference_routed_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186\\reader_landmark_pr.db",
+    "sha256": "def86a7b478657109e6a55cd17f1d6fb079dc2814d7d9b52949b2ac1a8b1a4a5"
+  },
+  "reference_parent_place_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_ui_place_20261103_120910_204032\\reader_landmark_place.db",
+    "sha256": "809fffe0bc3c48a9363a4514a8254c2a775a63d891134ca7d019c875e16afa7d"
+  },
+  "netlists": {
+    "reference_syn": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\synth_20261103_063022_809832\\actual_netlist.v",
+      "sha256": "70b698613a9bd6237924932515f69801afbcd0b207b2daac51080df0b05e18bc"
+    },
+    "new_syn": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\synth_20261103_181022_258861\\actual_netlist.v",
+      "sha256": "8567135bf329693054b797fd30ab4db6f7e5ad19d5881be0321f20d6a77b652e"
+    },
+    "reference_route": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_20261103\\project\\td_project\\reader_landmark_Runs\\guided_route_20261103_123221_532186\\actual_netlist.v",
+      "sha256": "c00bb456a0642eab0fc36772e6dacd1118a46ec4863b001a7841d31e4c693865"
+    }
+  },
+  "SYN": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\synth_20261103_181022_258861\\reader_landmark_s3_gate.db",
+    "sha256": "429817dc8620833533bc7ace88e6b1cc042c5f5e4cdc7f3497c4f7d0595f2cab"
+  },
+  "anchors_ADC": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\ui_macro_anchors.adc",
+    "sha256": "a0b45dc231b411cbdf996bb5a0eac09d7f48b9dc3481f51a052745f25a2366cd"
+  },
+  "anchors": [
+    {
+      "name": "u_dashboard/mult2_syn_59",
+      "col": 27,
+      "row": 44,
+      "offset": 0,
+      "type": "PH1P_PHY_DSPSIOU_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_dashboard/mult4_syn_60",
+      "col": 27,
+      "row": 56,
+      "offset": 1,
+      "type": "PH1P_PHY_DSPSIOU_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_dashboard/ramread0_syn_23",
+      "col": 37,
+      "row": 56,
+      "offset": 0,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_dashboard/ramread0_syn_29",
+      "col": 37,
+      "row": 52,
+      "offset": 1,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_23",
+      "col": 23,
+      "row": 72,
+      "offset": 0,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_29",
+      "col": 23,
+      "row": 72,
+      "offset": 1,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_35",
+      "col": 23,
+      "row": 76,
+      "offset": 0,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+      "col": 7,
+      "row": 8,
+      "offset": 1,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+      "col": 7,
+      "row": 8,
+      "offset": 0,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+      "col": 7,
+      "row": 12,
+      "offset": 0,
+      "type": "PH1P_PHY_ERAM_V2",
+      "is_placed": true
+    }
+  ],
+  "clockBound": "Do not copy reference clockBound. Review actual new placement.",
+  "positions_scope": "Accepted d882 hard anchor parent placement; route kept same physical macros and did not run place.",
+  "fresh_ASR_required_after_new_place": true,
+  "device": false
+}

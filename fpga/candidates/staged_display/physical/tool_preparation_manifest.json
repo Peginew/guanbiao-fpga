@@ -1,0 +1,33 @@
+{
+  "status": "TOOLS_PREPARED_ONLY_NOT_FROZEN_OR_EXECUTED",
+  "project": "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/td_project/reader_staged.al",
+  "name": "reader_staged",
+  "copied_pure_tools": [
+    {
+      "name": "source_helpers.py",
+      "source": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_helpers.py",
+      "source_sha256": "3dc41ee6bd5abfacfd330d934d713fb50cf1fb6afbacae10b99356ec8c1da28b",
+      "new_sha256": "cd50514203ae6b57839829c3424fb7105b4f90cb694f2ec46b568d58811ff91a"
+    },
+    {
+      "name": "mapping_helpers.py",
+      "source": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\mapping_helpers.py",
+      "source_sha256": "20791267936c3fd34f3d5c389675901f4376530a434a5b1a07e28c995ba47ad1",
+      "new_sha256": "20791267936c3fd34f3d5c389675901f4376530a434a5b1a07e28c995ba47ad1"
+    },
+    {
+      "name": "run_td.py",
+      "source": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\run_td.py",
+      "source_sha256": "fe4f6099bd1f54e95148783d0305a9c506f50e8f8426e3d23b8e36ead29b4e16",
+      "new_sha256": "6155a5b11f717a51a9dedfa05817a0e5100fb9294b14bcf4b92e7a0925d1aff4"
+    }
+  ],
+  "old_receipts_aliases_gates_SDC_ADC_DB_copied": false,
+  "default_UI_LOC": "FREE_UI_NO_10_LOC",
+  "DDR": "Fresh new SYN derive37 semantic members; no old netlist reuse",
+  "PSI": "Fresh actual17 Q-half sources; first-timer pure literal7.2ns",
+  "progress": "Fresh actual32 Q-half sources; structural hook pending independent clock/Tco/hold proof",
+  "new_sync": "progress_sync[1:0] and progress_ack_sync[1:0],4 logic FF; actual packed endpoints must be derived",
+  "native_TD_run": false,
+  "device": false
+}

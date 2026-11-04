@@ -1,0 +1,24 @@
+<fgBankInterrupt(void*)>:
+403753b0:	004136        	entry	a1, 32
+403753b3:	fc14a1        	l32r	a10, 40374404 <_iram_text_start> (60004000 <GPIO>)
+403753b6:	0020c0        	memw
+403753b9:	172a82        	l32i	a8, a10, 92
+403753bc:	159080        	extui	a9, a8, 16, 2
+403753bf:	119900        	slli	a9, a9, 16
+403753c2:	0020c0        	memw
+403753c5:	136a92        	s32i	a9, a10, 76
+403753c8:	107807        	bbci	a8, 16, 403753dc <fgBankInterrupt(void*)+0x2c>
+403753cb:	fc0fa1        	l32r	a10, 40374408 <_iram_text_start+0x4> (3fc9eb3c <fgCount>)
+403753ce:	0020c0        	memw
+403753d1:	0a98      	l32i.n	a9, a10, 0
+403753d3:	01c992        	addi	a9, a9, 1
+403753d6:	0020c0        	memw
+403753d9:	006a92        	s32i	a9, a10, 0
+403753dc:	0e7817        	bbci	a8, 17, 403753ee <fgBankInterrupt(void*)+0x3e>
+403753df:	fc0a91        	l32r	a9, 40374408 <_iram_text_start+0x4> (3fc9eb3c <fgCount>)
+403753e2:	0020c0        	memw
+403753e5:	1988      	l32i.n	a8, a9, 4
+403753e7:	881b      	addi.n	a8, a8, 1
+403753e9:	0020c0        	memw
+403753ec:	1989      	s32i.n	a8, a9, 4
+403753ee:	f01d      	retw.n

@@ -1,0 +1,17 @@
+{
+  "baseline": "793de53afa53a0046a2325d6f2ef6373e98d43e5ee0257ace2b203709c0599df",
+  "FEATURES": "0x064 bit1=STAGE_PROGRESS_V1",
+  "write_offset": "0x11C RETURN_CODE",
+  "axis_code": "Existing0x40000000 hub format",
+  "needle_code": "Existing0x80000000 needle format",
+  "metadata": "AHB current frozen claimed descriptor; not unstaged final RETURN body",
+  "AHB_ack": "Single pending entry and HREADY backpressure until code consumed; cancellation ERROR",
+  "CDC": "Hold until CORE ack; core always ack but only owner/token match emits visual stage",
+  "initial_ROI_CRC_verified_before_stage": true,
+  "early_RES1": false,
+  "early_PSI": false,
+  "early_ROI_release": false,
+  "without_feature": "No early stage write; final code/PSI/RES1 preserved",
+  "models_changed": false,
+  "device": false
+}

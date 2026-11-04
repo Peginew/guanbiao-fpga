@@ -1,0 +1,115 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_landmark_s3_20261103\project\user_source\hdl_source\meter_pair\meter_mcu_live_roi.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\meter_mcu_live_roi.v
+@@ -19,6 +19,8 @@
+  // Read-only CORE register taps, deliberately independent of cancel/kill.
+  output wire owned_roi_good,output wire [31:0] owned_roi_source,
+  output reg result_valid,input wire result_ready,
++ // Display evidence only. Metadata uses the existing frozen current ROI ports.
++ output reg progress_pulse,output reg [31:0] progress_code,
+  output reg [95:0] result_token,output reg [31:0] result_hint_source,
+  output reg [15:0] result_target,output reg [31:0] result_config,
+  output reg [10:0] result_x0,output reg [9:0] result_y0,
+@@ -41,6 +43,13 @@
+  always @(posedge clk or negedge arst_n)if(!arst_n)core_reset<=0;else core_reset<={core_reset[0],1'b1};
+  always @(posedge mcu_clk or negedge arst_n)if(!arst_n)mc_reset<=0;else mc_reset<={mc_reset[0],1'b1};
+  wire rst_n=core_reset[1],mrst_n=mc_reset[1];
++ // Passive multi-bit diagnostic only. Source is sticky; debug must wait for
++ // settling and read twice equal. No control or ROI/READ consumer exists.
++ (* ASYNC_REG="TRUE" *) reg [3:0] first_cancel_sync0,first_cancel_sync1;
++ always @(posedge mcu_clk or negedge mrst_n)begin
++  if(!mrst_n)begin first_cancel_sync0<=0;first_cancel_sync1<=0;end
++  else begin first_cancel_sync0<=observer_context[18:15];first_cancel_sync1<=first_cancel_sync0;end
++ end
+  localparam C_IDLE=0,C_CAPTURE=1,C_WAIT=2,C_RETSETTLE=3,C_RESULT=4,C_RELEASE=5,C_DRAIN=6;
+  reg [2:0] cs;
+  reg [15:0] owner_target;reg [31:0] owner_config,owner_epoch,owner_job,job_counter,age;
+@@ -48,6 +57,13 @@
+  reg [174:0] offer_payload;
+  (* ASYNC_REG="TRUE" *) reg [1:0] ret_sync,cpu_reset_sync,armed_sync;
+  reg ret_seen;
++ (* ASYNC_REG="TRUE" *) reg [1:0] progress_sync;
++ reg progress_seen,progress_settle,progress_ack;
++ (* ASYNC_REG="TRUE" *) reg [1:0] progress_ack_sync;
++ reg progress_toggle;
++ // Held until CORE acknowledgement; same HCLK owner metadata remains frozen.
++ reg [31:0] progress_held_code;
++ wire progress_idle=progress_ack_sync[1]==progress_toggle;
+  reg [4:0] stage_passed;
+  wire owner_bad=owner_target!=active_target||owner_config!=active_config||owner_epoch!=session_epoch;
+  wire retained_context_bad=(result_checksum_ok||(|stage_passed))&&
+@@ -139,11 +155,14 @@
+    end
+   end
+  end
++ wire br_progress_valid;wire [31:0] br_progress_code;
++ wire br_progress_ready=(hs==H_CPU||hs==H_QUIET)&&(h_revoke||progress_idle);
+  wire br_result_ready=hs==H_CPU&&!h_revoke;
+  wire br_cancel=h_revoke||hs==H_QUIET;
+  meter_mcu_roi_ahb_live bridge(.clk(mcu_clk),.rst_n(mrst_n),.haddr(haddr),.htrans(htrans),.hwrite(hwrite),
+   .hsize(hsize),.hwdata(hwdata),.hrdata(hrdata),.hresp(hresp),.hready(hready),
+   .observer_seq(observer_seq),.observer_snapshot(observer_snapshot),.observer_hword(observer_hword),.observer_offer_accepted(observer_offer_accepted),
++  .first_cancel_cause_read(first_cancel_sync1),
+   .source_crc32(hw_crc),.quality_flags({25'd0,qreason,qgood,qcomplete}),
+   .quality_mean({24'd0,qmean}),.quality_gradient({10'd0,qgradient}),.quality_counts({2'd0,qbright,2'd0,qdark}),
+   .offer_valid(hs==H_OFFER&&!h_revoke),.offer_ready(br_ready),.offer_token(token),.offer_target(target),
+@@ -155,7 +174,8 @@
+   .checksum_result_valid(br_valid),.checksum_result_ready(br_result_ready),.checksum_result_token(br_token),
+   .checksum_result_target(br_target),.checksum_result_config(br_config),.checksum_crc32(br_crc),
+   .checksum_psi_q8(br_psi_q8),.checksum_psi_valid(br_psi_valid),
+-  .checksum_bytes(br_bytes),.checksum_code(br_code),.platform_armed(br_armed));
++  .checksum_bytes(br_bytes),.checksum_code(br_code),.platform_armed(br_armed),
++  .progress_valid(br_progress_valid),.progress_code(br_progress_code),.progress_ready(br_progress_ready));
+  // Exactly one read clock and one local client at a time. Quality runs first;
+  // quality failure remains metadata and never suppresses complete ROI analysis.
+  assign rd_authority=mrst_n&&!h_revoke&&(hs==H_QWAIT||hs==H_CPU);
+@@ -164,11 +184,17 @@
+ 
+  always @(posedge mcu_clk or negedge mrst_n)begin
+   if(!mrst_n)begin
++   progress_toggle<=0;progress_held_code<=0;progress_ack_sync<=0;
+    offer_sync<=0;live_sync<=0;retack_sync<=0;offer_seen<=0;ret_toggle<=0;local_live<=0;hs<=H_IDLE;quiet_delay<=0;
+    token<=0;target<=0;config_id<=0;x0<=0;y0<=0;stride<=0;radius<=0;
+    return_token<=0;return_target<=0;return_config<=0;return_source_crc<=0;return_cpu_crc<=0;return_bytes<=0;return_code<=0;return_psi_q8<=0;return_psi_valid<=0;
+    return_mean<=0;return_gradient<=0;return_qreason<=0;return_qgood<=0;return_kind<=0;
+   end else begin
++   progress_ack_sync<={progress_ack_sync[0],progress_ack};
++   if(br_progress_valid&&br_progress_ready&&!h_revoke&&
++      br_token==token&&br_target==target&&br_config==config_id)begin
++    progress_held_code<=br_progress_code;progress_toggle<=~progress_toggle;
++   end
+    offer_sync<={offer_sync[0],offer_toggle};live_sync<={live_sync[0],job_live};retack_sync<={retack_sync[0],ret_ack};
+    if(h_revoke)local_live<=0;
+    case(hs)
+@@ -206,7 +232,7 @@
+      local_live<=0;
+      if(h_revoke)return_kind<=13;
+      if(quiet_delay!=3)quiet_delay<=quiet_delay+1'b1;
+-     if(quiet_delay>=2&&!qbusy&&!br_busy)hs<=H_RETURN;
++     if(quiet_delay>=2&&!qbusy&&!br_busy&&!br_progress_valid&&progress_idle)hs<=H_RETURN;
+     end
+     H_RETURN:begin
+      return_token<=token;return_target<=target;return_config<=config_id;
+@@ -220,12 +246,23 @@
+ 
+  always @(posedge clk or negedge rst_n)begin
+   if(!rst_n)begin
++   progress_sync<=0;progress_seen<=0;progress_settle<=0;progress_ack<=0;progress_pulse<=0;progress_code<=0;
+    cs<=C_IDLE;owner_target<=0;owner_config<=0;owner_epoch<=0;owner_job<=0;job_counter<=0;age<=0;age_active<=0;
+    offer_held<=0;job_live<=0;offer_toggle<=0;offer_payload<=0;ret_ack<=0;ret_sync<=0;ret_seen<=0;cpu_reset_sync<=0;armed_sync<=0;cap_release<=0;
+    result_valid<=0;result_token<=0;result_hint_source<=0;result_target<=0;result_config<=0;result_x0<=0;result_y0<=0;result_stride<=0;result_radius<=0;
+    result_source_crc32<=0;result_crc32<=0;result_bytes<=0;result_code<=0;result_psi_q8<=0;result_psi_valid<=0;result_checksum_ok<=0;result_quality_ok<=0;
+    quality_mean<=0;quality_gradient<=0;quality_reason<=0;stage_passed<=0;status_reason<=0;result_capture_debug<=0;
+   end else begin
++   progress_sync<={progress_sync[0],progress_toggle};progress_pulse<=0;
++   if(progress_sync[1]!=progress_seen)begin
++    progress_seen<=progress_sync[1];progress_settle<=1;
++   end else if(progress_settle)begin
++    progress_settle<=0;progress_ack<=progress_seen;
++    // Drain even revoked/late messages, without resurrecting their display.
++    if(cs==C_WAIT&&job_live&&!core_kill)begin
++     progress_code<=progress_held_code;progress_pulse<=1;
++    end
++   end
+    ret_sync<={ret_sync[0],ret_toggle};cpu_reset_sync<={cpu_reset_sync[0],cpu_reset_quiescent};armed_sync<={armed_sync[0],br_armed};cap_release<=0;
+    if(age_active&&age!=32'hffffffff)age<=age+1'b1;
+    if(core_kill)begin

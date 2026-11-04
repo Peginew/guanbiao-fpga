@@ -1,0 +1,10 @@
+set_inst_assignment {u_dashboard/mult2_syn_59} {location = x27y44z0;}
+set_inst_assignment {u_dashboard/mult4_syn_60} {location = x27y56z1;}
+set_inst_assignment {u_dashboard/ramread0_syn_23} {location = x37y56z0;}
+set_inst_assignment {u_dashboard/ramread0_syn_29} {location = x37y52z1;}
+set_inst_assignment {u_dashboard/ramread1_syn_23} {location = x23y72z0;}
+set_inst_assignment {u_dashboard/ramread1_syn_29} {location = x23y72z1;}
+set_inst_assignment {u_dashboard/ramread1_syn_35} {location = x23y76z0;}
+set_inst_assignment {u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1} {location = x7y8z1;}
+set_inst_assignment {u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1} {location = x7y8z0;}
+set_inst_assignment {u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1} {location = x7y12z0;}

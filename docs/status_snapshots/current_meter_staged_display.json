@@ -1,0 +1,105 @@
+{
+  "status": "SHARED_MAPPER_ACTUAL_ROUTE_RUNNING_PRE_FINAL",
+  "task": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104",
+  "contract": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104/task_contract.json",
+  "current_board_unchanged_from_repair": true,
+  "board_bit": "87da",
+  "board_MCU": "793d/347b",
+  "new_bit_ready": false,
+  "source_freeze": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104/physical/source_freeze.json",
+    "sha256": "9d4661b453a52a0e0f05a5696bf6b769c982cfc82cd27c7c5ddc83bce878b828"
+  },
+  "AL": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/td_project/reader_staged.al",
+  "MCU_ELF_sha256": "6035464a8cbdbe859a5b65cb52a0f6274f89edcfdcbf5df4c5ce739501cd6a39",
+  "MCU_payload_sha256": "922fd68686e27fd448bfa7d1d2a802c4c48b8c7e541d73775be4d3422a9a311c",
+  "synth_run": "origin://desktop_fpga/staged_20261104/synth_20261104_041522_844135",
+  "component_checks": 10047,
+  "component_receipt": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104/tests/components_20261104_041532_892596/receipt.json",
+    "sha256": "817f6f41ffe308a5475aafdb2530439539ed77ffc79cdababcf640db14e8c489"
+  },
+  "synth_DB": "2c1eac01aaa437844d9e43092dde1656e02b21d8c4309b09a2017fe0030b519e",
+  "place_DB": {
+    "path": "origin://desktop_fpga/staged_20261104/place_20261104_042828_324748/reader_staged_place.db",
+    "sha256": "b19824575e986fed2a11db6423e8c0e0c145d32e88eb16a48dc84e749322d075"
+  },
+  "actual_placed_resources": {
+    "Slice": 20366,
+    "Slice_is_SYN_estimate": false,
+    "FF": 23131,
+    "ERAM": 102,
+    "DSP": 40,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "remaining_slice": 850,
+  "preferred_car_reserve_shortfall": 350,
+  "DSP_remaining": 0,
+  "route_run": "origin://desktop_fpga/staged_20261104/route_20261104_051307_105524",
+  "route_gate": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104/physical/route_admission.json",
+    "sha256": "1a679b3c774d648432f0c8c955cd6c4267f608276342a7f48924be5789906d0a"
+  },
+  "root_route_session": null,
+  "device_actions_for_staged_task": false,
+  "independent_resource_fallback": {
+    "task": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104/shared_mapper_20261104",
+    "manifest_sha256": "0e2262a4cb63f65a8c6d993f2213f10cc67660134f0fd0b2ece461e3486b85d6",
+    "status": "ACTUAL_PLACE_PASS_NEW_ROUTE_RUNNING",
+    "source_review_sha256": "7ec47c68e1ab9b68a0c193ce78bd39f00487f64eace9e3cd4f30d3a1a7b6f333",
+    "SYN_DB": {
+      "path": "origin://desktop_fpga/shared_mapper_20261104/synth_20261104_070046_253570/reader_shared_gate.db",
+      "sha256": "94ebcef7a09a437e93de40c185b8eaacbb21515a4743a9213e07d3abcc347cdd"
+    },
+    "SYN_resources": {
+      "Slice": 22529,
+      "Slice_is_SYN_estimate": true,
+      "FF": 23776,
+      "ERAM": 102,
+      "DSP": 38,
+      "PLL": 4,
+      "MCU": 1
+    },
+    "component_checks": 58850,
+    "actual_placed_resources": {
+      "Slice": 20418,
+      "Slice_is_SYN_estimate": false,
+      "FF": 23116,
+      "ERAM": 102,
+      "DSP": 38,
+      "PLL": 4,
+      "MCU": 1
+    },
+    "new_bit_ready": false,
+    "main_route_unchanged": true,
+    "device": false,
+    "remaining_slice": 798,
+    "preferred_car_reserve_shortfall": 402,
+    "DSP_remaining": 2,
+    "place_DB": {
+      "path": "origin://desktop_fpga/shared_mapper_20261104/place_20261104_073046_579181/reader_shared_place.db",
+      "sha256": "d3797bcb7fc313c52288bea50b9ff07767f96fc75c340a7480b01cd49a0c8dd6"
+    },
+    "route_run": "origin://desktop_fpga/shared_mapper_20261104/route_20261104_085505_883749"
+  },
+  "main_route_failure": {
+    "receipt": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104/physical/latest_route.json",
+    "elapsed_s": 7201.468999999997,
+    "reason": "OWNED_RUNNER_7200S_TIMEOUT",
+    "last_overflow_counts": [
+      173,
+      173,
+      1
+    ],
+    "output": null,
+    "FINAL": {},
+    "new_bit_generated": false
+  },
+  "active_candidate_task": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/staged_display_20261104/shared_mapper_20261104",
+  "active_candidate_AL": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/td_project/reader_shared.al",
+  "shared_route_run": "origin://desktop_fpga/shared_mapper_20261104/route_20261104_085505_883749",
+  "shared_root_route_session": 30070,
+  "_archive_note": "Path values exported as origin aliases; no claim these are executable local paths. Original snapshot SHA recorded in source manifest.",
+  "_original_sha256": "c873724987652c049910ea1ba6a3b5f547b1892b698942c0c16d107036dbf329"
+}

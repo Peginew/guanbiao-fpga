@@ -1,0 +1,91 @@
+{
+  "status": "TRAINED_MCU_AND_MATCHED_FPGA_OFFLINE_DELIVERED_BOARD_VALIDATION_PENDING",
+  "date_local": "2026-11-03",
+  "task": "origin://workspace/algorithm_work/meter_landmark_expanded_20261103",
+  "contract": "origin://workspace/algorithm_work/meter_landmark_expanded_20261103/task_contract.json",
+  "unit": "psi",
+  "train_groups": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "F"
+  ],
+  "train_images": 295,
+  "development": "G59",
+  "final_reserved": "C59 oneevaluation afterfinalfreeze; priorannotationQAexposure",
+  "H": "Firstcandidate historical final evaluation; no new H inference or use in training",
+  "same_architecture_1222_U7": true,
+  "old_hub_polar_frozen": true,
+  "calibration_domain": "TRAIN-only derived correction separate2x2 control, coefficients/pressure unchanged",
+  "hardware_actions": false,
+  "selected": "PRIOR_B857_U7_TRAIN_CORRECTED",
+  "expanded_weights_selected": false,
+  "final_C_completed_once": true,
+  "software_release": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_expanded_20261103/final_software_release.json",
+    "sha256": "18b5d167e8b18700db08c825a1416b3be9e6cbc3e1f87c9873d615f5894e4351"
+  },
+  "MCU_ELF": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_expanded_20261103/firmware_prior_domain/build/meter_landmark_reader.elf",
+    "sha256": "7b582ce32365dc6e326c03da562ca1c94ba7cc66d99742aa21256d61cdb2b9bc"
+  },
+  "MCU_payload": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_expanded_20261103/firmware_prior_domain/build/U33_E00000_E0FFFF_reader_payload.bin",
+    "flash_offset": 14680064,
+    "bytes": 65536,
+    "sha256": "24025d127c2ed12b41ee338d6a2d426308a2689bc0987141e121f8563f6385f1",
+    "policy": "Dedicated sector224 replacement, requires matchedPSIfeaturebit. No device write by builder."
+  },
+  "matched_FPGA_route_pending": false,
+  "board_validation": false,
+  "FPGA_active_route": null,
+  "FPGA_constraint_loading": "official read_sdc pure ASR6/PSI17, actual active summary gate passed before route",
+  "FPGA_active_entry": "origin://workspace/algorithm_work/meter_landmark_mcu_training_20261103/physical/guided_ui_macros/run_guided_route.py",
+  "FPGA_state": "INDEPENDENT_FINAL_AND_BITGEN_PASS_PAIRED_DELIVERY_COMPLETE",
+  "FPGA_last_route": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_reader_landmark_20261103/project/td_project/reader_landmark_Runs/guided_route_20261103_123221_532186",
+  "MCU_or_model_changes": false,
+  "completion": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_expanded_20261103/completion.json",
+    "sha256": "9b64f814af543ddd035bf25746e7fa43b899a4e15ef52ccab3f4397a7533f6cb"
+  },
+  "matched_FPGA_bit_ready": true,
+  "FPGA_bit": {
+    "path": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_reader_landmark_20261103/project/td_project/reader_landmark_Runs/bitgen_20261103_130229_485636/reader_landmark.bit",
+    "sha256": "d88297760b8b41be1466bf4a5ddeb18e4391c3601f2f529b788712b1de5469bd"
+  },
+  "delivery": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_expanded_20261103/delivery/Trained_MCU_FPGA_Pair_20261103.zip",
+    "sha256": "65c14082ef137324a5ee1abb48bd76cad00416f9dacccb7d85671a7982c9ab39"
+  },
+  "actual_resources": {
+    "Slice": 20042,
+    "FF": 22911,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "remaining_Slice": 1174,
+  "rover_1200_preference_deficit": 26,
+  "selected_training_groups": [
+    "D",
+    "E",
+    "F"
+  ],
+  "expanded_training_attempt_groups": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "F"
+  ],
+  "train_groups_scope": "295-image expanded attempt was not selected; selected b857 used frozenDEF177",
+  "latest_user_baseline_change": {
+    "status": "DO_NOT_SELECT_OLD80F9_PAIR_FOR_REQUESTED_STABLE3S_FLASH",
+    "successor_pointer": "hardware/current_meter_landmark_stable3s.json",
+    "reason": "Userrequiresbb1fStable3sbaseline; oldd882packagepreservedashistoricalofflinecandidate"
+  },
+  "_archive_note": "Path values exported as origin aliases; no claim these are executable local paths. Original snapshot SHA recorded in source manifest.",
+  "_original_sha256": "105115895e48b70e22db48586d979c810b0f41991ddc9ad1ccaba206c9e811fb"
+}

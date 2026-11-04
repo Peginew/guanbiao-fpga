@@ -1,0 +1,1376 @@
+{
+  "status": "STAGED_DISPLAY_TRAIN_ONLY_SAME_INPUT_MATH_AND_WEIGHTS_PRESERVATION_PASS",
+  "new_ELF_sha256": "6035464a8cbdbe859a5b65cb52a0f6274f89edcfdcbf5df4c5ce739501cd6a39",
+  "old_host_DLL_sha256": "21f3f341116be6a5e214cbd5bc61d1529edb5c9c0cb6b9da4941c9bc6f391505",
+  "staged_host_DLL_sha256": "300d76e579bca54c41697e851ef46a2ecaf03427caab66b5b2c7e16f19ca48bc",
+  "semantic_fields_compared": true,
+  "C_padding_not_compared": true,
+  "TRAIN_only_forward_inputs": 6,
+  "C_G_H_images_read": false,
+  "accuracy_reassessment": false,
+  "new_weights_or_training": false,
+  "weights": {
+    "hub_weights_q8.h": {
+      "equal": true,
+      "sha256": "12a14a7c2260b9a81cc140209946cca0a41f09dbbc46ed9f1348b47d0200b033"
+    },
+    "landmark_weights_q8.h": {
+      "equal": true,
+      "sha256": "152c4d424b8ebd8f5a621a5cab564d8475230830915b7836332388f2268a0a92"
+    },
+    "polar_weights_q8.h": {
+      "equal": true,
+      "sha256": "6b0aa436cad1c120b3836c62c34a05e62c69fa24094688f2bba556dedf6b850d"
+    }
+  },
+  "same_base_object_bytes": {
+    "al_chip.o": true,
+    "al_rv32_start_flash_tcm.o": true,
+    "landmark_geometry.o": true,
+    "meter_pose_frontend.o": true,
+    "meter_pose_matcher.o": true,
+    "minimal_app.o": true,
+    "minimal_libc.o": true,
+    "mroi_c4.o": true,
+    "mroi_client.o": true,
+    "mroi_decode.o": true,
+    "mroi_guard.o": true,
+    "nuclei_intexc.o": true,
+    "nuclei_startup.o": true,
+    "platform_binding.o": true,
+    "reader_numeric.o": true,
+    "reader_runtime.o": false,
+    "reader_sigmoid.o": true,
+    "soc_plat.o": true
+  },
+  "feature1_host_path": "Host image callback does not advertise stage feature; early submits disabled, final mathematics identical. Feature3 transactions are separate reviewer tests.",
+  "rows": [
+    {
+      "id": "D_002",
+      "input_sha256": "5fde81725b09c464023509a65a245e0d9970722d6eae4e9ff41ff3674560f365",
+      "semantic_diagnostic_equal": true,
+      "old": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 1,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3349138433,
+        "psi_word": 0,
+        "hub": {
+          "x": 16271,
+          "y": 16402,
+          "peak": 21804,
+          "margin": 7458,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 5108,
+            "y": 14369,
+            "peak": 12856,
+            "margin": 3215,
+            "valid": 1
+          },
+          {
+            "x": 18615,
+            "y": 5174,
+            "peak": 17406,
+            "margin": 2554,
+            "valid": 1
+          },
+          {
+            "x": 26526,
+            "y": 10695,
+            "peak": 18923,
+            "margin": 9702,
+            "valid": 1
+          },
+          {
+            "x": 16541,
+            "y": 13266,
+            "peak": 12371,
+            "margin": 6082,
+            "valid": 1
+          },
+          {
+            "x": 16896,
+            "y": 17436,
+            "peak": 15361,
+            "margin": 6945,
+            "valid": 1
+          },
+          {
+            "x": 17424,
+            "y": 23098,
+            "peak": 26478,
+            "margin": 9583,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 18769804,
+          "peak": 23546,
+          "margin": 7162,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 33957,
+          "far_sum": 34136,
+          "margin_num": 1150792,
+          "margin_den": 1672960,
+          "best_keep": 1307,
+          "far_keep": 1280,
+          "delta": -4,
+          "far_delta": -12,
+          "profile": 11,
+          "template": 0,
+          "accepted": 0,
+          "score": 1,
+          "margin": 0,
+          "interior": 1,
+          "reason": 3
+        },
+        "print": {
+          "roll": 0,
+          "sse": 0,
+          "accepted": 0,
+          "reason": 2,
+          "mask": 0,
+          "count": 0
+        },
+        "neural": 1,
+        "reference": 0,
+        "reference_kind": 0,
+        "read": 0,
+        "roll": 0,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "staged": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 1,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3349138433,
+        "psi_word": 0,
+        "hub": {
+          "x": 16271,
+          "y": 16402,
+          "peak": 21804,
+          "margin": 7458,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 5108,
+            "y": 14369,
+            "peak": 12856,
+            "margin": 3215,
+            "valid": 1
+          },
+          {
+            "x": 18615,
+            "y": 5174,
+            "peak": 17406,
+            "margin": 2554,
+            "valid": 1
+          },
+          {
+            "x": 26526,
+            "y": 10695,
+            "peak": 18923,
+            "margin": 9702,
+            "valid": 1
+          },
+          {
+            "x": 16541,
+            "y": 13266,
+            "peak": 12371,
+            "margin": 6082,
+            "valid": 1
+          },
+          {
+            "x": 16896,
+            "y": 17436,
+            "peak": 15361,
+            "margin": 6945,
+            "valid": 1
+          },
+          {
+            "x": 17424,
+            "y": 23098,
+            "peak": 26478,
+            "margin": 9583,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 18769804,
+          "peak": 23546,
+          "margin": 7162,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 33957,
+          "far_sum": 34136,
+          "margin_num": 1150792,
+          "margin_den": 1672960,
+          "best_keep": 1307,
+          "far_keep": 1280,
+          "delta": -4,
+          "far_delta": -12,
+          "profile": 11,
+          "template": 0,
+          "accepted": 0,
+          "score": 1,
+          "margin": 0,
+          "interior": 1,
+          "reason": 3
+        },
+        "print": {
+          "roll": 0,
+          "sse": 0,
+          "accepted": 0,
+          "reason": 2,
+          "mask": 0,
+          "count": 0
+        },
+        "neural": 1,
+        "reference": 0,
+        "reference_kind": 0,
+        "read": 0,
+        "roll": 0,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "D_013",
+      "input_sha256": "a4c9fdd5992a780d57fed04bbd655b0a22f954b2bbcee1d4f6355155e4383c01",
+      "semantic_diagnostic_equal": true,
+      "old": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 2,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3206530018,
+        "psi_word": 2147486041,
+        "hub": {
+          "x": 16248,
+          "y": 15904,
+          "peak": 23546,
+          "margin": 19420,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 7158,
+            "y": 14751,
+            "peak": 13347,
+            "margin": 1454,
+            "valid": 1
+          },
+          {
+            "x": 14840,
+            "y": 6504,
+            "peak": 23955,
+            "margin": 13443,
+            "valid": 1
+          },
+          {
+            "x": 24783,
+            "y": 11163,
+            "peak": 16895,
+            "margin": 4524,
+            "valid": 1
+          },
+          {
+            "x": 15995,
+            "y": 12967,
+            "peak": 22696,
+            "margin": 11733,
+            "valid": 1
+          },
+          {
+            "x": 16931,
+            "y": 18947,
+            "peak": 16895,
+            "margin": 6824,
+            "valid": 1
+          },
+          {
+            "x": 17394,
+            "y": 21524,
+            "peak": 24736,
+            "margin": 15924,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 16534649,
+          "peak": 30421,
+          "margin": 20350,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 30784,
+          "far_sum": 33103,
+          "margin_num": 3862101,
+          "margin_den": 1672960,
+          "best_keep": 1307,
+          "far_keep": 1280,
+          "delta": -1,
+          "far_delta": -11,
+          "profile": 26,
+          "template": 0,
+          "accepted": 1,
+          "score": 1,
+          "margin": 1,
+          "interior": 1,
+          "reason": 0
+        },
+        "print": {
+          "roll": -83315,
+          "sse": 148835,
+          "accepted": 1,
+          "reason": 0,
+          "mask": 63,
+          "count": 6
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 1,
+        "read": 1,
+        "roll": -65536,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "staged": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 2,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3206530018,
+        "psi_word": 2147486041,
+        "hub": {
+          "x": 16248,
+          "y": 15904,
+          "peak": 23546,
+          "margin": 19420,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 7158,
+            "y": 14751,
+            "peak": 13347,
+            "margin": 1454,
+            "valid": 1
+          },
+          {
+            "x": 14840,
+            "y": 6504,
+            "peak": 23955,
+            "margin": 13443,
+            "valid": 1
+          },
+          {
+            "x": 24783,
+            "y": 11163,
+            "peak": 16895,
+            "margin": 4524,
+            "valid": 1
+          },
+          {
+            "x": 15995,
+            "y": 12967,
+            "peak": 22696,
+            "margin": 11733,
+            "valid": 1
+          },
+          {
+            "x": 16931,
+            "y": 18947,
+            "peak": 16895,
+            "margin": 6824,
+            "valid": 1
+          },
+          {
+            "x": 17394,
+            "y": 21524,
+            "peak": 24736,
+            "margin": 15924,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 16534649,
+          "peak": 30421,
+          "margin": 20350,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 30784,
+          "far_sum": 33103,
+          "margin_num": 3862101,
+          "margin_den": 1672960,
+          "best_keep": 1307,
+          "far_keep": 1280,
+          "delta": -1,
+          "far_delta": -11,
+          "profile": 26,
+          "template": 0,
+          "accepted": 1,
+          "score": 1,
+          "margin": 1,
+          "interior": 1,
+          "reason": 0
+        },
+        "print": {
+          "roll": -83315,
+          "sse": 148835,
+          "accepted": 1,
+          "reason": 0,
+          "mask": 63,
+          "count": 6
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 1,
+        "read": 1,
+        "roll": -65536,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "D_025",
+      "input_sha256": "f263e39e2073789a661e7d6e6e1a9165f5c2323548e321bf06bb0fc746c2a460",
+      "semantic_diagnostic_equal": true,
+      "old": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 3,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3034590175,
+        "psi_word": 2147485291,
+        "hub": {
+          "x": 16467,
+          "y": 15858,
+          "peak": 23546,
+          "margin": 16249,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 11586,
+            "y": 13166,
+            "peak": 13844,
+            "margin": 0,
+            "valid": 0
+          },
+          {
+            "x": 14524,
+            "y": 6161,
+            "peak": 23955,
+            "margin": 16297,
+            "valid": 1
+          },
+          {
+            "x": 22023,
+            "y": 11632,
+            "peak": 20396,
+            "margin": 3501,
+            "valid": 1
+          },
+          {
+            "x": 16268,
+            "y": 12892,
+            "peak": 28169,
+            "margin": 9246,
+            "valid": 1
+          },
+          {
+            "x": 17354,
+            "y": 19017,
+            "peak": 18923,
+            "margin": 5079,
+            "valid": 1
+          },
+          {
+            "x": 17546,
+            "y": 21871,
+            "peak": 23955,
+            "margin": 14734,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 13809541,
+          "peak": 30679,
+          "margin": 23730,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 35375,
+          "far_sum": 36085,
+          "margin_num": 908800,
+          "margin_den": 1638400,
+          "best_keep": 1280,
+          "far_keep": 1280,
+          "delta": 21,
+          "far_delta": 1,
+          "profile": 2,
+          "template": 1,
+          "accepted": 0,
+          "score": 1,
+          "margin": 0,
+          "interior": 1,
+          "reason": 3
+        },
+        "print": {
+          "roll": -192827,
+          "sse": 21933,
+          "accepted": 1,
+          "reason": 0,
+          "mask": 58,
+          "count": 4
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 2,
+        "read": 1,
+        "roll": -192827,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "staged": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 3,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3034590175,
+        "psi_word": 2147485291,
+        "hub": {
+          "x": 16467,
+          "y": 15858,
+          "peak": 23546,
+          "margin": 16249,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 11586,
+            "y": 13166,
+            "peak": 13844,
+            "margin": 0,
+            "valid": 0
+          },
+          {
+            "x": 14524,
+            "y": 6161,
+            "peak": 23955,
+            "margin": 16297,
+            "valid": 1
+          },
+          {
+            "x": 22023,
+            "y": 11632,
+            "peak": 20396,
+            "margin": 3501,
+            "valid": 1
+          },
+          {
+            "x": 16268,
+            "y": 12892,
+            "peak": 28169,
+            "margin": 9246,
+            "valid": 1
+          },
+          {
+            "x": 17354,
+            "y": 19017,
+            "peak": 18923,
+            "margin": 5079,
+            "valid": 1
+          },
+          {
+            "x": 17546,
+            "y": 21871,
+            "peak": 23955,
+            "margin": 14734,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 13809541,
+          "peak": 30679,
+          "margin": 23730,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 35375,
+          "far_sum": 36085,
+          "margin_num": 908800,
+          "margin_den": 1638400,
+          "best_keep": 1280,
+          "far_keep": 1280,
+          "delta": 21,
+          "far_delta": 1,
+          "profile": 2,
+          "template": 1,
+          "accepted": 0,
+          "score": 1,
+          "margin": 0,
+          "interior": 1,
+          "reason": 3
+        },
+        "print": {
+          "roll": -192827,
+          "sse": 21933,
+          "accepted": 1,
+          "reason": 0,
+          "mask": 58,
+          "count": 4
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 2,
+        "read": 1,
+        "roll": -192827,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "E_002",
+      "input_sha256": "98f9ddddf06286876bd2349019caad6e645242670472f4db51b15e98f6a6ad89",
+      "semantic_diagnostic_equal": true,
+      "old": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 4,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3370091517,
+        "psi_word": 0,
+        "hub": {
+          "x": 16131,
+          "y": 16329,
+          "peak": 16895,
+          "margin": 1534,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 5662,
+            "y": 14432,
+            "peak": 11893,
+            "margin": 3477,
+            "valid": 1
+          },
+          {
+            "x": 14463,
+            "y": 5079,
+            "peak": 21343,
+            "margin": 8487,
+            "valid": 1
+          },
+          {
+            "x": 26110,
+            "y": 10182,
+            "peak": 20396,
+            "margin": 7049,
+            "valid": 1
+          },
+          {
+            "x": 16356,
+            "y": 12491,
+            "peak": 13347,
+            "margin": 1454,
+            "valid": 1
+          },
+          {
+            "x": 15858,
+            "y": 17876,
+            "peak": 14346,
+            "margin": 0,
+            "valid": 0
+          },
+          {
+            "x": 17490,
+            "y": 22532,
+            "peak": 30554,
+            "margin": 10643,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 19064128,
+          "peak": 26478,
+          "margin": 17666,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 35252,
+          "far_sum": 35518,
+          "margin_num": 347662,
+          "margin_den": 1708249,
+          "best_keep": 1307,
+          "far_keep": 1307,
+          "delta": -5,
+          "far_delta": 24,
+          "profile": 18,
+          "template": 0,
+          "accepted": 0,
+          "score": 1,
+          "margin": 0,
+          "interior": 1,
+          "reason": 3
+        },
+        "print": {
+          "roll": 0,
+          "sse": 0,
+          "accepted": 0,
+          "reason": 2,
+          "mask": 0,
+          "count": 0
+        },
+        "neural": 1,
+        "reference": 0,
+        "reference_kind": 0,
+        "read": 0,
+        "roll": 0,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "staged": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 4,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3370091517,
+        "psi_word": 0,
+        "hub": {
+          "x": 16131,
+          "y": 16329,
+          "peak": 16895,
+          "margin": 1534,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 5662,
+            "y": 14432,
+            "peak": 11893,
+            "margin": 3477,
+            "valid": 1
+          },
+          {
+            "x": 14463,
+            "y": 5079,
+            "peak": 21343,
+            "margin": 8487,
+            "valid": 1
+          },
+          {
+            "x": 26110,
+            "y": 10182,
+            "peak": 20396,
+            "margin": 7049,
+            "valid": 1
+          },
+          {
+            "x": 16356,
+            "y": 12491,
+            "peak": 13347,
+            "margin": 1454,
+            "valid": 1
+          },
+          {
+            "x": 15858,
+            "y": 17876,
+            "peak": 14346,
+            "margin": 0,
+            "valid": 0
+          },
+          {
+            "x": 17490,
+            "y": 22532,
+            "peak": 30554,
+            "margin": 10643,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 19064128,
+          "peak": 26478,
+          "margin": 17666,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 35252,
+          "far_sum": 35518,
+          "margin_num": 347662,
+          "margin_den": 1708249,
+          "best_keep": 1307,
+          "far_keep": 1307,
+          "delta": -5,
+          "far_delta": 24,
+          "profile": 18,
+          "template": 0,
+          "accepted": 0,
+          "score": 1,
+          "margin": 0,
+          "interior": 1,
+          "reason": 3
+        },
+        "print": {
+          "roll": 0,
+          "sse": 0,
+          "accepted": 0,
+          "reason": 2,
+          "mask": 0,
+          "count": 0
+        },
+        "neural": 1,
+        "reference": 0,
+        "reference_kind": 0,
+        "read": 0,
+        "roll": 0,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "F_002",
+      "input_sha256": "a6cd623a9cf079879b5fb238d42087c6bae184ffc5c1e4581f7a89000d7d8238",
+      "semantic_diagnostic_equal": true,
+      "old": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 5,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3391196330,
+        "psi_word": 2147486658,
+        "hub": {
+          "x": 17161,
+          "y": 19096,
+          "peak": 18923,
+          "margin": 13245,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 7541,
+            "y": 15427,
+            "peak": 11424,
+            "margin": 3393,
+            "valid": 1
+          },
+          {
+            "x": 16478,
+            "y": 4726,
+            "peak": 22255,
+            "margin": 15966,
+            "valid": 1
+          },
+          {
+            "x": 25033,
+            "y": 15483,
+            "peak": 22255,
+            "margin": 11292,
+            "valid": 1
+          },
+          {
+            "x": 19864,
+            "y": 12665,
+            "peak": 9641,
+            "margin": 1983,
+            "valid": 0
+          },
+          {
+            "x": 17408,
+            "y": 16524,
+            "peak": 10071,
+            "margin": 0,
+            "valid": 0
+          },
+          {
+            "x": 16853,
+            "y": 20487,
+            "peak": 15872,
+            "margin": 6231,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 19394235,
+          "peak": 29071,
+          "margin": 15724,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 31949,
+          "far_sum": 34625,
+          "margin_num": 4360155,
+          "margin_den": 1672960,
+          "best_keep": 1307,
+          "far_keep": 1280,
+          "delta": 10,
+          "far_delta": 3,
+          "profile": 0,
+          "template": 0,
+          "accepted": 1,
+          "score": 1,
+          "margin": 1,
+          "interior": 1,
+          "reason": 0
+        },
+        "print": {
+          "roll": 0,
+          "sse": 0,
+          "accepted": 0,
+          "reason": 2,
+          "mask": 0,
+          "count": 0
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 1,
+        "read": 1,
+        "roll": 655360,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "staged": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 5,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3391196330,
+        "psi_word": 2147486658,
+        "hub": {
+          "x": 17161,
+          "y": 19096,
+          "peak": 18923,
+          "margin": 13245,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 7541,
+            "y": 15427,
+            "peak": 11424,
+            "margin": 3393,
+            "valid": 1
+          },
+          {
+            "x": 16478,
+            "y": 4726,
+            "peak": 22255,
+            "margin": 15966,
+            "valid": 1
+          },
+          {
+            "x": 25033,
+            "y": 15483,
+            "peak": 22255,
+            "margin": 11292,
+            "valid": 1
+          },
+          {
+            "x": 19864,
+            "y": 12665,
+            "peak": 9641,
+            "margin": 1983,
+            "valid": 0
+          },
+          {
+            "x": 17408,
+            "y": 16524,
+            "peak": 10071,
+            "margin": 0,
+            "valid": 0
+          },
+          {
+            "x": 16853,
+            "y": 20487,
+            "peak": 15872,
+            "margin": 6231,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 19394235,
+          "peak": 29071,
+          "margin": 15724,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 31949,
+          "far_sum": 34625,
+          "margin_num": 4360155,
+          "margin_den": 1672960,
+          "best_keep": 1307,
+          "far_keep": 1280,
+          "delta": 10,
+          "far_delta": 3,
+          "profile": 0,
+          "template": 0,
+          "accepted": 1,
+          "score": 1,
+          "margin": 1,
+          "interior": 1,
+          "reason": 0
+        },
+        "print": {
+          "roll": 0,
+          "sse": 0,
+          "accepted": 0,
+          "reason": 2,
+          "mask": 0,
+          "count": 0
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 1,
+        "read": 1,
+        "roll": 655360,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "F_025",
+      "input_sha256": "986dd6ad3b650e130e72a4d7a4ead93140ca653276286d5f51a6457464b16f56",
+      "semantic_diagnostic_equal": true,
+      "old": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 6,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3076533245,
+        "psi_word": 2147485391,
+        "hub": {
+          "x": 16464,
+          "y": 16335,
+          "peak": 19911,
+          "margin": 10690,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 11364,
+            "y": 12429,
+            "peak": 10512,
+            "margin": 1291,
+            "valid": 1
+          },
+          {
+            "x": 15431,
+            "y": 7560,
+            "peak": 14852,
+            "margin": 8563,
+            "valid": 1
+          },
+          {
+            "x": 24456,
+            "y": 12210,
+            "peak": 15872,
+            "margin": 6231,
+            "valid": 1
+          },
+          {
+            "x": 16423,
+            "y": 13503,
+            "peak": 22696,
+            "margin": 6312,
+            "valid": 1
+          },
+          {
+            "x": 17421,
+            "y": 16504,
+            "peak": 10071,
+            "margin": 1655,
+            "valid": 1
+          },
+          {
+            "x": 16909,
+            "y": 21084,
+            "peak": 19911,
+            "margin": 13622,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 14478083,
+          "peak": 26154,
+          "margin": 20763,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 28408,
+          "far_sum": 33934,
+          "margin_num": 7073280,
+          "margin_den": 1638400,
+          "best_keep": 1280,
+          "far_keep": 1280,
+          "delta": 2,
+          "far_delta": 8,
+          "profile": 3,
+          "template": 1,
+          "accepted": 1,
+          "score": 1,
+          "margin": 1,
+          "interior": 1,
+          "reason": 0
+        },
+        "print": {
+          "roll": 171457,
+          "sse": 76219,
+          "accepted": 1,
+          "reason": 0,
+          "mask": 46,
+          "count": 4
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 1,
+        "read": 1,
+        "roll": 131072,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "staged": {
+        "active": 0,
+        "phase": 5,
+        "words": 4096,
+        "completed": 6,
+        "cancelled": 0,
+        "epoch": 0,
+        "source": 0,
+        "job": 0,
+        "radius": 48,
+        "return_code": 3076533245,
+        "psi_word": 2147485391,
+        "hub": {
+          "x": 16464,
+          "y": 16335,
+          "peak": 19911,
+          "margin": 10690,
+          "valid": 1
+        },
+        "landmark": [
+          {
+            "x": 11364,
+            "y": 12429,
+            "peak": 10512,
+            "margin": 1291,
+            "valid": 1
+          },
+          {
+            "x": 15431,
+            "y": 7560,
+            "peak": 14852,
+            "margin": 8563,
+            "valid": 1
+          },
+          {
+            "x": 24456,
+            "y": 12210,
+            "peak": 15872,
+            "margin": 6231,
+            "valid": 1
+          },
+          {
+            "x": 16423,
+            "y": 13503,
+            "peak": 22696,
+            "margin": 6312,
+            "valid": 1
+          },
+          {
+            "x": 17421,
+            "y": 16504,
+            "peak": 10071,
+            "margin": 1655,
+            "valid": 1
+          },
+          {
+            "x": 16909,
+            "y": 21084,
+            "peak": 19911,
+            "margin": 13622,
+            "valid": 1
+          }
+        ],
+        "needle": {
+          "angle": 14478083,
+          "peak": 26154,
+          "margin": 20763,
+          "outside": 0,
+          "valid": 1
+        },
+        "ring": {
+          "best_sum": 28408,
+          "far_sum": 33934,
+          "margin_num": 7073280,
+          "margin_den": 1638400,
+          "best_keep": 1280,
+          "far_keep": 1280,
+          "delta": 2,
+          "far_delta": 8,
+          "profile": 3,
+          "template": 1,
+          "accepted": 1,
+          "score": 1,
+          "margin": 1,
+          "interior": 1,
+          "reason": 0
+        },
+        "print": {
+          "roll": 171457,
+          "sse": 76219,
+          "accepted": 1,
+          "reason": 0,
+          "mask": 46,
+          "count": 4
+        },
+        "neural": 1,
+        "reference": 1,
+        "reference_kind": 1,
+        "read": 1,
+        "roll": 131072,
+        "cycles": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "device": false
+}

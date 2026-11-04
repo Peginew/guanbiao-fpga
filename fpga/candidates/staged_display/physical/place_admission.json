@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "stage": "staged_free_ui_place",
+  "free_UI_no_ten_LOC": true,
+  "DDR_semantic_member_count": 37,
+  "fresh_ASR_PSI17_progress32_CDC4_review_required": true,
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\source_freeze.json",
+    "sha256": "9d4661b453a52a0e0f05a5696bf6b769c982cfc82cd27c7c5ddc83bce878b828"
+  },
+  "synth_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\latest_synth.json",
+    "sha256": "e9aaf7c272762edbfcd400e4f5ad4d1ca1494e9fe4ad1aa12aee90f80cb00e42"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged_gate.db",
+    "sha256": "2c1eac01aaa437844d9e43092dde1656e02b21d8c4309b09a2017fe0030b519e"
+  },
+  "ddr_group_plan": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\ddr_group_plan.json",
+    "sha256": "21ffa6dea2f35505d720918be8817b1aaa3b71f96cbaee180971ff8ae4deab41"
+  },
+  "ddr_group_tcl": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\ddr_group.tcl",
+    "sha256": "be7825fc5d29da0c5198356aafe56c38c1f72d521fa6489f244b18a9543857c7"
+  },
+  "macro_inventory": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\macro_names.json",
+    "sha256": "cc6cf5c5578970c3b537bc661766787d1fe9fde3dc7f9ce66a3d593920e46696"
+  },
+  "runner_sha256": "2cb0cce5bff438d47a697da8346f43104ad9cc6088c270123d71bd3005cb838c",
+  "flow_generator": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\free_ui_place_flow.py",
+    "sha256": "3b8c45272690e16ff52d36cef9876b7c7a38dbc4f9a20095d975d9775f26b8fc"
+  },
+  "root_offline_place_authorization": true,
+  "independent_final_source_review_in_parallel": true,
+  "route_or_bitgen_admitted": false,
+  "independent_reviews": []
+}

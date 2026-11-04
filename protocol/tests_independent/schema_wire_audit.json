@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_WIRE_SCHEMA_AND_VECTOR_GENERATION_ONLY",
+  "config_signature": "8A2EBD57",
+  "contract_sha256": "24a50d21afce5e076076f46ccb50f52a839d7b390fb196874eac53be63da208e",
+  "golden_count": 54,
+  "field_accepted_count": 30,
+  "crc_check_123456789": "29B1",
+  "crc_range_inclusive": [
+    2,
+    29
+  ],
+  "frame_bytes": 32,
+  "header_and_all_payloads_exact_nonoverlap": true,
+  "actual_actor_implementation_executed": false,
+  "native": false,
+  "devices": false,
+  "scope": "Independent struct/binascii bytes. Stateful replay, token/key/epoch, fences, terminal park, deadlines and local mode require actual both-end execution; this file is not that PASS."
+}

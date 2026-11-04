@@ -1,0 +1,1697 @@
+{
+  "passed": true,
+  "status": "PASS_ACTUAL_FREE_UI_PLACE_IDENTITY_CLOCK_MCU_INIT_AND_DATA_MAP",
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\latest_place.json",
+    "sha256": "5141b6ef2d9418cc65d0f2eec5bb5cdd107db409f705e4317addf2421aeb04e2"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\reader_landmark_s3_place.db",
+    "sha256": "933dd7ff62641d1d759d74a77d285b0bd8b460f3e1b65c6aefc0c0ca7b1f1300"
+  },
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "auditor": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\audit_free_ui_place.py",
+    "sha256": "d846b5ab8f354b5ffb210488aed08b2f165ca8c3d7a15f43d8414f8b2d627d29"
+  },
+  "same_SYN_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\synth_20261103_181022_258861\\reader_landmark_s3_gate.db",
+    "sha256": "429817dc8620833533bc7ace88e6b1cc042c5f5e4cdc7f3497c4f7d0595f2cab"
+  },
+  "no_new_synthesis_or_RTL_change": true,
+  "actual_ten_UI_LOC_ADC_not_loaded": true,
+  "old_macro_LOC_equality_required": false,
+  "IO_count": 81,
+  "IO_rows": {
+    "I_hdmi_hpd_en_sense": [
+      "INPUT",
+      "B17",
+      "LVCMOS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_mode_key_n": [
+      "INPUT",
+      "C7",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_preset_sw[1]": [
+      "INPUT",
+      "D11",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_preset_sw[0]": [
+      "INPUT",
+      "E11",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_rst_n": [
+      "INPUT",
+      "B9",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_saturation_sw[1]": [
+      "INPUT",
+      "B4",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_saturation_sw[0]": [
+      "INPUT",
+      "A4",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "I_sys_clk": [
+      "INPUT",
+      "C4",
+      "LVCMOS33",
+      "HDIO",
+      "N/A",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_cam_24m": [
+      "OUTPUT",
+      "L3",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_cam_rst": [
+      "OUTPUT",
+      "L2",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_cam_scl": [
+      "OUTPUT",
+      "K3",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "O_meter_digit_n[7]": [
+      "OUTPUT",
+      "A14",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[6]": [
+      "OUTPUT",
+      "B15",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[5]": [
+      "OUTPUT",
+      "A15",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[4]": [
+      "OUTPUT",
+      "B16",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[3]": [
+      "OUTPUT",
+      "A18",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[2]": [
+      "OUTPUT",
+      "A17",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[1]": [
+      "OUTPUT",
+      "G14",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_digit_n[0]": [
+      "OUTPUT",
+      "G15",
+      "LVCMOS33",
+      "HRIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[7]": [
+      "OUTPUT",
+      "E5",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[6]": [
+      "OUTPUT",
+      "B7",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[5]": [
+      "OUTPUT",
+      "B6",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[4]": [
+      "OUTPUT",
+      "E6",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[3]": [
+      "OUTPUT",
+      "E7",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[2]": [
+      "OUTPUT",
+      "B11",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[1]": [
+      "OUTPUT",
+      "C11",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_meter_segment_n[0]": [
+      "OUTPUT",
+      "C9",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_ch0_p": [
+      "OUTPUT",
+      "G16",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_ch0_p(n)": [
+      "OUTPUT",
+      "H16",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_ch1_p": [
+      "OUTPUT",
+      "F17",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_ch1_p(n)": [
+      "OUTPUT",
+      "E18",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_ch2_p": [
+      "OUTPUT",
+      "H14",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_ch2_p(n)": [
+      "OUTPUT",
+      "H13",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "O_tmds_clk_p": [
+      "OUTPUT",
+      "C17",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "DDRX1"
+    ],
+    "O_tmds_clk_p(n)": [
+      "OUTPUT",
+      "D18",
+      "TMDS33",
+      "HRIO",
+      "N/A",
+      "NONE",
+      "NONE"
+    ],
+    "ddr_addr[12]": [
+      "OUTPUT",
+      "S82_5",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[11]": [
+      "OUTPUT",
+      "S82_47",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[10]": [
+      "OUTPUT",
+      "S82_11",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[9]": [
+      "OUTPUT",
+      "S82_6",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[8]": [
+      "OUTPUT",
+      "S82_48",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[7]": [
+      "OUTPUT",
+      "S82_7",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[6]": [
+      "OUTPUT",
+      "S82_49",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[5]": [
+      "OUTPUT",
+      "S82_8",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[4]": [
+      "OUTPUT",
+      "S82_50",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[3]": [
+      "OUTPUT",
+      "S82_9",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[2]": [
+      "OUTPUT",
+      "S82_51",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[1]": [
+      "OUTPUT",
+      "S82_10",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_addr[0]": [
+      "OUTPUT",
+      "S82_52",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ba[1]": [
+      "OUTPUT",
+      "S82_12",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ba[0]": [
+      "OUTPUT",
+      "S82_13",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_cas_n": [
+      "OUTPUT",
+      "S82_53",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ck_n[0]": [
+      "OUTPUT",
+      "S82_57",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ck_p[0]": [
+      "OUTPUT",
+      "S82_58",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_cke[0]": [
+      "OUTPUT",
+      "S82_15",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_cs_n[0]": [
+      "OUTPUT",
+      "S82_54",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_odt[0]": [
+      "OUTPUT",
+      "S82_55",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_ras_n": [
+      "OUTPUT",
+      "S82_56",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_we_n": [
+      "OUTPUT",
+      "S82_14",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "IO_cam_sda": [
+      "INOUT",
+      "J3",
+      "LVCMOS33",
+      "HDIO",
+      "8",
+      "PULLUP",
+      "NONE"
+    ],
+    "ddr_dm[1]": [
+      "INOUT",
+      "S82_37",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dm[0]": [
+      "INOUT",
+      "S82_28",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[15]": [
+      "INOUT",
+      "S82_76",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[14]": [
+      "INOUT",
+      "S82_35",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[13]": [
+      "INOUT",
+      "S82_72",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[12]": [
+      "INOUT",
+      "S82_31",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[11]": [
+      "INOUT",
+      "S82_32",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[10]": [
+      "INOUT",
+      "S82_73",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[9]": [
+      "INOUT",
+      "S82_34",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[8]": [
+      "INOUT",
+      "S82_75",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[7]": [
+      "INOUT",
+      "S82_67",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[6]": [
+      "INOUT",
+      "S82_26",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[5]": [
+      "INOUT",
+      "S82_64",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[4]": [
+      "INOUT",
+      "S82_23",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[3]": [
+      "INOUT",
+      "S82_22",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[2]": [
+      "INOUT",
+      "S82_63",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[1]": [
+      "INOUT",
+      "S82_25",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dq[0]": [
+      "INOUT",
+      "S82_66",
+      "SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_n[1]": [
+      "INOUT",
+      "S82_79",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_n[0]": [
+      "INOUT",
+      "S82_70",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_p[1]": [
+      "INOUT",
+      "S82_78",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ],
+    "ddr_dqs_p[0]": [
+      "INOUT",
+      "S82_69",
+      "DIFF_SSTL15",
+      "DDR",
+      "N/A",
+      "N/A",
+      "NONE"
+    ]
+  },
+  "clock_object_count": 18,
+  "regular_clock_frequencies": {
+    "HDMI_PIXEL_CLK": 75.002,
+    "MIPI_RX_BYTE_CLK": 103.52,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk": 133.333,
+    "MCU_ROI_50": 50.0,
+    "pll_clk_24m": 23.81,
+    "pll_clk_100m": 100.0,
+    "HDMI_SERIAL_CLK": 375.094,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/mcu_clk": 50.795,
+    "sys_clk_50m": 50.0,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ctl_clk": 133.333,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ddr_clk": 533.333,
+    "MCU_TIMER_25": 25.0,
+    "mipi_rx_ck_pad": 414.079,
+    "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.tif_c16_in": 103.52,
+    "u_ph1p35_324_ddr_wrapper/u_ddr2/ref_clk": 133.333,
+    "u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst.core_clk": 50.0,
+    "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.io_clk_pad_p": 414.079
+  },
+  "macro26": [
+    "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+    "\\u_dashboard/ramread0_syn_23",
+    "\\u_dashboard/ramread0_syn_29",
+    "\\u_dashboard/ramread1_syn_23",
+    "\\u_dashboard/ramread1_syn_29",
+    "\\u_dashboard/ramread1_syn_35",
+    "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+    "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+    "\\u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+    "\\u_mcu_bootrom/ramread0_syn_23",
+    "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+    "\\u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread0_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread1_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread2_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread3_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_30",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_30",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_30",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_24",
+    "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_30",
+    "\\u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll0/u_pll_inst",
+    "\\u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll1/u_pll_inst"
+  ],
+  "critical_macro_ports_params_INIT_preserved": true,
+  "all102_ERAM_parameters_INIT": [
+    {
+      "name": "\\u_dashboard/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_dashboard/ramread0_syn_29",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_dashboard/ramread1_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_dashboard/ramread1_syn_29",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_dashboard/ramread1_syn_35",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_524",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_587",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_608",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_380",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_401",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_2",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_43",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_84",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[1]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[2]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_2",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/ram_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/ramread0_syn_44",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/ramread1_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/ramread1_syn_44",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/ramread2_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/ramread2_syn_44",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_color_a/ram_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_color_b/ram_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_color_c/ram_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_point_rom/g_channel[0]$g_pair[0]$rom_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_point_rom/g_channel[0]$g_pair[1]$rom_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_point_rom/g_channel[1]$g_pair[0]$rom_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_point_rom/g_channel[1]$g_pair[1]$rom_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_point_rom/g_channel[2]$g_pair[0]$rom_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_point_rom/g_channel[2]$g_pair[1]$rom_syn_1",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_support_rows/ramread0_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_support_rows/ramread0_syn_41",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_isp_top/u_t06/u_filter/u_support_rows/ramread0_syn_58",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_106",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_147",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_65",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_mcu_bootrom/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/osd/direction_line/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_102",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_108",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_110",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_112",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_114",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_116",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_118",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_120",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_122",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_124",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_126",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_128",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_130",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_132",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_30",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_36",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_42",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_48",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_54",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_60",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_66",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_72",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_78",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_84",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_90",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/frame_cache/ramread1_syn_96",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread0_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread1_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread2_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread3_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread4_syn_30",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread5_syn_30",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread6_syn_30",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/reader/live/capture/ramread7_syn_30",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/search/metric/ramread3_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/search/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_meter_pair/pipeline/search/ramread0_syn_44",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread1_syn_24",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread1_syn_30",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread1_syn_36",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread1_syn_42",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread1_syn_48",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread1_syn_50",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_motion/u_core/ramread1_syn_52",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_105",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_146",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_64",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_105",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_146",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_23",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    },
+    {
+      "name": "\\u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_64",
+      "all_parameters_equal_same_SYN": true,
+      "INIT_literals": 80
+    }
+  ],
+  "all102_ERAM_INIT_literals": 8160,
+  "UI_Logo_boot_INIT": 720,
+  "ROI_capture_INIT": 960,
+  "clock_aliases": [
+    {
+      "macro": "\\u_dashboard/ramread0_syn_23",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread0_syn_23",
+      "pin": "clkb",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread0_syn_29",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread0_syn_29",
+      "pin": "clkb",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread1_syn_23",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread1_syn_23",
+      "pin": "clkb",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread1_syn_29",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread1_syn_29",
+      "pin": "clkb",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread1_syn_35",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_dashboard/ramread1_syn_35",
+      "pin": "clkb",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+      "pin": "clka",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+      "pin": "clkb",
+      "actual_root": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        4
+      ]
+    },
+    {
+      "macro": "\\u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst",
+      "pin": "fb_clk",
+      "actual_root": [
+        "\\u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst",
+        "AHB"
+      ]
+    }
+  ],
+  "free_macro_actual_positions_and_clockBound": [
+    {
+      "name": "u_dashboard/mult2_syn_59",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_dashboard/mult2_syn_59",
+        "col": 27,
+        "row": 72,
+        "offset": 1,
+        "type": "PH1P_PHY_DSPSIOU_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {}
+    },
+    {
+      "name": "u_dashboard/mult4_syn_60",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_dashboard/mult4_syn_60",
+        "col": 27,
+        "row": 76,
+        "offset": 1,
+        "type": "PH1P_PHY_DSPSIOU_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {}
+    },
+    {
+      "name": "u_dashboard/ramread0_syn_23",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_dashboard/ramread0_syn_23",
+        "col": 7,
+        "row": 72,
+        "offset": 0,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ],
+        "clkb": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    },
+    {
+      "name": "u_dashboard/ramread0_syn_29",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_dashboard/ramread0_syn_29",
+        "col": 7,
+        "row": 72,
+        "offset": 1,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ],
+        "clkb": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_23",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_dashboard/ramread1_syn_23",
+        "col": 23,
+        "row": 72,
+        "offset": 1,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ],
+        "clkb": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_29",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_dashboard/ramread1_syn_29",
+        "col": 23,
+        "row": 76,
+        "offset": 0,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ],
+        "clkb": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_35",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_dashboard/ramread1_syn_35",
+        "col": 23,
+        "row": 72,
+        "offset": 0,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ],
+        "clkb": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+        "col": 37,
+        "row": 4,
+        "offset": 1,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+        "col": 37,
+        "row": 8,
+        "offset": 0,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+      "old_LOC_equality_required": false,
+      "actual_position": {
+        "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+        "col": 7,
+        "row": 44,
+        "offset": 1,
+        "type": "PH1P_PHY_ERAM_V2",
+        "is_placed": true,
+        "matches_anchor": false
+      },
+      "HadBound": false,
+      "actual_clock_roots": {
+        "clka": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ],
+        "clkb": [
+          "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+          4
+        ]
+      }
+    }
+  ],
+  "MCU": {
+    "name": "\\u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst",
+    "reset_vector": "0x20E00000",
+    "AHB_MHz": 50,
+    "debug_stop_ports_zero": true
+  },
+  "DDR37_source_and_soft_group": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\ddr_semantic_admission.json",
+    "sha256": "690ee29a3a13039324845803ef43616ef8b0829a9a74c79826422c8ea5e395eb"
+  },
+  "DDR_Tcl_preserved": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\ddr_group.tcl",
+    "sha256": "b68c72d86fdd7c5449e5fc13fdd7ef490bf41c814667f0d1041e7ac3709f3810"
+  },
+  "Stable3s_actual_mapped_DATA_count": 74,
+  "Stable3s_DATA": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\stable74_data_inventory.json",
+    "sha256": "902e640a6671a39bf33ef52afef211e1fcd58e20e0b8eed9f3dc466ee88a0930"
+  },
+  "resources": {
+    "Slice": 20096,
+    "Slice_is_SYN_estimate": false,
+    "FF": 22978,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "after_rover_reserve": {
+    "Slice": -80,
+    "FF": 17054,
+    "ERAM": 4
+  },
+  "actual_source_and_place_only": true,
+  "route_admitted": false,
+  "device": false
+}

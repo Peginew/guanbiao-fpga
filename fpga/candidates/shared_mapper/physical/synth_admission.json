@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "stage": "synth",
+  "manifest_sha256": "0e2262a4cb63f65a8c6d993f2213f10cc67660134f0fd0b2ece461e3486b85d6",
+  "source_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\review\\shared_mapper_source_review.json",
+    "sha256": "7ec47c68e1ab9b68a0c193ce78bd39f00487f64eace9e3cd4f30d3a1a7b6f333"
+  },
+  "actual_component_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\tests\\components_20261104_063620_770835\\receipt.json",
+    "sha256": "cd09219c1b96afa175955ec3d69eb2351b0755bedd7ef3314e5c39a52efdbd9c"
+  },
+  "root_admission": "ONE_SHARED_COORDINATE_MAPPER_CANDIDATE_NO_NETWORK_MATH_OR_THRESHOLD_CHANGE",
+  "main_route_61716_unchanged": true,
+  "native_scope": "synth_only",
+  "actual_DSP_or_Slice_saving_claimed": false,
+  "device": false
+}

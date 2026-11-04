@@ -1,0 +1,56 @@
+{
+  "status": "FRESH_FREE_UI_HOST_HANDOFF_REQUIRES_INDEPENDENT_ROUTE_ADMISSION",
+  "producer": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\prepare_free_ui_physical.py",
+    "sha256": "3318ca70d1b9f1e094f902fbaa76bbad59b68becb719ff3d7be49c902b0eca10"
+  },
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\latest_place.json",
+    "sha256": "5141b6ef2d9418cc65d0f2eec5bb5cdd107db409f705e4317addf2421aeb04e2"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\reader_landmark_s3_place.db",
+    "sha256": "933dd7ff62641d1d759d74a77d285b0bd8b460f3e1b65c6aefc0c0ca7b1f1300"
+  },
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "ASR_count": 6,
+  "ASR_logical_FF_count": 12,
+  "ASR_mapping": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\placed_asr_mapping.json",
+    "sha256": "8a7b7c9a1068aaf4891ffe8dd7c819a60803ad13c977e8bf62e1a1c2b23299b0"
+  },
+  "asr_literal": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\asr_literal.sdc",
+    "sha256": "26ed6d584ba73b8e8c7c03ddff7fc56606830ec2c66bb9620c3f4d35c105b07a"
+  },
+  "PSI17_precheck": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\psi17_endpoint_precheck.json",
+    "sha256": "48adc2ea69f53b5b2394b7a8e32f79e381b21725a32b0ffee531095fe45e59bb"
+  },
+  "qualified_syntax_exact_Q_literal": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\psi_exact_qpins.sdc",
+    "sha256": "c445016e0ba578a04a89043dcc06aa98cb66d03f2151794910b5bf86fad72054"
+  },
+  "unqualified_regs_literal_NOT_FOR_ROUTE": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\psi_literal.sdc",
+    "sha256": "799e8df18f8dbe7298a65f5840d93eac128e298e7510f2d9bf6437402fa7ef6c"
+  },
+  "macro_actual_positions": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\macro_actual_positions.json",
+    "sha256": "f2b7be6aa1e7a421f59d6e474127ad4f22495ca103e97a6ff9c039d4efbba4d2"
+  },
+  "clocks": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\clocks.txt",
+    "sha256": "301dd2c0322337d1233677b48e54cea61542a2b6294fa3dd17287cf691e8b962"
+  },
+  "area": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\reader_landmark_s3_phy.area",
+    "sha256": "7297b9ceb45b1a0bcb6db6c8a3356f1ee8be587c1381af1150f233192bb53459"
+  },
+  "old_10_macro_coordinate_equality_required": false,
+  "native_run": false,
+  "device": false
+}

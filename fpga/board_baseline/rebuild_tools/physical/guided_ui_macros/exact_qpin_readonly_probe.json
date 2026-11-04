@@ -1,0 +1,86 @@
+{
+  "native_probe_passed": true,
+  "passed": false,
+  "status": "NATIVE_SCOPE_QUERY_COMPLETE_SOURCE_AND_TCO_INDEPENDENT_REVIEW_REQUIRED",
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_place.db",
+    "sha256": "07e58145d5d105324dec19f8cc66ecdaf48c77f08cab7cf057b95637d1c31c37"
+  },
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\latest_guided_place.json",
+    "sha256": "d797a0213bce414612cedd6b461154fa11f8de635c88380166ee1f426e2535e0"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774",
+  "exit_code": 0,
+  "elapsed_s": 15.936999999990803,
+  "errors": [],
+  "literal_files": {
+    "ASR": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\asr_literal.sdc",
+      "sha256": "1f58b82254c432879bbc465192c59be62ad84174d44d26cd1e014be79a1ceced"
+    },
+    "PSI_exactQ": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\psi_exact_qpins.sdc",
+      "sha256": "166ec6d23222fe0974e4400a74c6d2308d3dc64dab1d6b2ed0cfaddeef948f2b"
+    }
+  },
+  "both_read_sdc_before_first_timer": true,
+  "logical_intent_16plus1_reported": true,
+  "no_PNR_export_device": true,
+  "commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "import_db C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/td_project/reader_landmark_s3_Runs/guided_ui_place_20261103_184018_017011/reader_landmark_s3_place.db",
+    "read_sdc asr_literal.sdc",
+    "read_sdc psi_exact_qpins.sdc",
+    "report_clock_summary -file clocks.txt",
+    "update_timing",
+    "start_timer",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*]",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_exception -ep_num 256 -path_num 1 -file all_exact_qpin_SMD.timing",
+    "report_timing_ignored -ep_num 32 -path_num 1 -file all_exact_qpin_ignored.timing",
+    "report_timing_status -file placed_status.ts"
+  ],
+  "scope": "PlacedDB Manhattan query only, not FINAL timing or route approval. Exact source/Qpin/Tco/budget and held-bytes remain for independent review.",
+  "artifacts": {
+    "all_exact_qpin_ignored.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\all_exact_qpin_ignored.timing",
+      "sha256": "7ff4bb4a4c157e781663e9a03d2e71d93c1ca81bfdcf25a5c6d862bd9c0e6694"
+    },
+    "all_exact_qpin_SMD.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\all_exact_qpin_SMD.timing",
+      "sha256": "e9b1713419ad95639f980da3785f00e9cc4bd4d9234ce0e018a25ace0d7d13f1"
+    },
+    "asr_literal.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\asr_literal.sdc",
+      "sha256": "1f58b82254c432879bbc465192c59be62ad84174d44d26cd1e014be79a1ceced"
+    },
+    "clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\clocks.txt",
+      "sha256": "484e107ece40a2aac69411adbce325ac2818bbd4543912ffd22e5395d3f97d55"
+    },
+    "console.log": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\console.log",
+      "sha256": "e766eed7c86caa65776b2e16648cfaa4ffbb2744fd190573ce9234589d3a2331"
+    },
+    "execute.tcl": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\execute.tcl",
+      "sha256": "e357e758727c7d4a99556ab11a56605f59899276b044fb8cfde0e5d77aae3453"
+    },
+    "placed_status.ts": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\placed_status.ts",
+      "sha256": "659ac326afdfd3bc0303871f517d90a0104ea5fe81ef7bd89dd14c9b69061870"
+    },
+    "psi_exact_qpins.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\psi_exact_qpins.sdc",
+      "sha256": "166ec6d23222fe0974e4400a74c6d2308d3dc64dab1d6b2ed0cfaddeef948f2b"
+    },
+    "td_20261103_192446.log": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\qchk_192446_385774\\td_20261103_192446.log",
+      "sha256": "12b9677bde13be780931f5b2dc02b59b13795c85822a8e31ecfb65582d4a1600"
+    }
+  },
+  "device": false
+}

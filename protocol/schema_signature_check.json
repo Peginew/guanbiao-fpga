@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "CFG": "8A2EBD57",
+  "canonical_CRC32_recomputed": true,
+  "canonical_SHA256_recomputed": true,
+  "ESP_actual_CXX_header_equals_protocol": true,
+  "FPGA_actual_VH_equals_protocol": true,
+  "config_values_changed": [
+    "READ_TIMEOUT_MS"
+  ],
+  "wire_header_payload_crc_enums_unchanged": true,
+  "FPGA_actual_VH": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\fpga\\project\\user_source\\hdl_source\\meter_pair\\guanbiao_uart_v4_defs.vh",
+    "sha256": "851a639a7d120f0c6b70c51d68dd138639c4046841cf45968aef586478c7855c"
+  },
+  "ESP_actual_CXX_header": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA\\GuanbiaoProtocolV4.h",
+    "sha256": "7dd553b96ac8da582c2bde50d69dcc5e4c32c832f068c178193d432b51e662d1"
+  },
+  "contract_sha256": "24a50d21afce5e076076f46ccb50f52a839d7b390fb196874eac53be63da208e",
+  "scope": "Pure host canonical identity/layout; no native or device acceptance",
+  "devices": false
+}

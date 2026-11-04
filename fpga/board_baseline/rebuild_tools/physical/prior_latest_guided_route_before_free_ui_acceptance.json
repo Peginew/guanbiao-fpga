@@ -1,0 +1,167 @@
+{
+  "stage": "route",
+  "state": "FAILED_OR_INCOMPLETE_PRESERVED",
+  "passed": false,
+  "device": false,
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_place.db",
+    "sha256": "07e58145d5d105324dec19f8cc66ecdaf48c77f08cab7cf057b95637d1c31c37"
+  },
+  "gate": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\guided_route_admission.json",
+    "sha256": "813b872e61f1ec12efc5b7650ffa408ca2f180257f52dde14830c65c2086c9ca"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251",
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\latest_guided_place.json",
+    "sha256": "d797a0213bce414612cedd6b461154fa11f8de635c88380166ee1f426e2535e0"
+  },
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\asr_literal.sdc",
+      "sha256": "1f58b82254c432879bbc465192c59be62ad84174d44d26cd1e014be79a1ceced"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\execute.tcl",
+      "sha256": "7be44c025986f7ef4bb561d2701d28dd20bbb6fb5cef5592107f4e3b70599d30"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\input_place.db",
+      "sha256": "07e58145d5d105324dec19f8cc66ecdaf48c77f08cab7cf057b95637d1c31c37"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\psi_literal.sdc",
+      "sha256": "799e8df18f8dbe7298a65f5840d93eac128e298e7510f2d9bf6437402fa7ef6c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\reader_landmark_s3.prj",
+      "sha256": "51846a2cb7650f82d74fded94dd57c57b45791f715039dbe98bf66388acb6d1c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\run_guided_route.py",
+      "sha256": "156d3c173448eb9744c1d8451fb8b0666fd9403e99c0179c33a012f42cbe7257"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\guided_route_admission.json",
+      "sha256": "813b872e61f1ec12efc5b7650ffa408ca2f180257f52dde14830c65c2086c9ca"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\latest_guided_place.json",
+      "sha256": "d797a0213bce414612cedd6b461154fa11f8de635c88380166ee1f426e2535e0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\placed_asr_mapping.json",
+      "sha256": "fee867d904d949df7746c7dcd98a17df2640cbc765711c0727394d10ab9b6f97"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\guided_place_facts_review.json",
+      "sha256": "f775705e90d1a17aceef354aa854ade37b67cef987dd19a5c9946920e46bce87"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\XML_PATH_acceptance_review.json",
+      "sha256": "770a018f8207aae0ef5c575b40e8af9b6b3b14143390a134ff934be1fc2ffbd0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\fresh_ASR7_review.json",
+      "sha256": "3bd893526fd14879efe39dffdad364419d4e75cc6b7389eb892e20d4b3e24517"
+    }
+  ],
+  "ASR_count": 7,
+  "original_aliases_preserved": [],
+  "PSI_eachsource_FINAL_independent_review_passed": false,
+  "bitgen_admitted": false,
+  "pure_read_sdc_before_first_timer_required": true,
+  "exit_code": 1,
+  "elapsed_s": 14.156000000002678,
+  "output": null,
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\console.log",
+    "sha256": "0105698419b62ea2743b6f24a94aa9976f43b0714426d9892aa64031c84dd8e4"
+  },
+  "resources": {},
+  "FINAL": {},
+  "errors": [
+    "GUIDED_ROUTE_FAILED: ACTUAL_GUIDED_SDC_CONTRACT_NOT_ACTIVE"
+  ],
+  "global_final_timing_passed": false,
+  "physical_capacity_passed": false,
+  "literal_contracts_before_first_timer_and_pre_route": false,
+  "PSI_pre_summary": [
+    {
+      "total": 19,
+      "active": 19,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_max_delay -from [get_regs {u_meter_pair/pipeline/reader/live/return_psi_q8[*] u_meter_pair/pipeline/reader/live/return_psi_valid}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 7.200",
+      "check": "Max"
+    }
+  ],
+  "ASR_pre_summary": [
+    {
+      "total": 7,
+      "active": 7,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]",
+      "check": "Max"
+    },
+    {
+      "total": 7,
+      "active": 7,
+      "shadowed": 0,
+      "ignored": 0,
+      "command": "set_false_path -through [get_nets {u_hdmi_reset/release_ff[2]}] -to [get_pins {u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr}]",
+      "check": "Min"
+    }
+  ],
+  "PSI_final_summary": [],
+  "ASR_final_summary": [],
+  "PSI_summary_active_passed": false,
+  "ASR_summary_active_passed": false,
+  "DRC_messages_passed": false,
+  "actual_route_only_scope": true,
+  "actual_commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "import_db input_place.db",
+    "read_sdc asr_literal.sdc",
+    "read_sdc psi_literal.sdc",
+    "report_clock_summary -file initial_clocks.txt",
+    "update_timing",
+    "start_timer",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_q8[*]",
+    "get_regs u_meter_pair/pipeline/reader/live/return_psi_valid",
+    "get_clocks HDMI_PIXEL_CLK",
+    "get_pins u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2.asr u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2.asr",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_exception -ep_num 256 -path_num 1 -file pre_contract_exception.timing",
+    "report_timing_ignored -ep_num 32 -path_num 1 -file pre_contract_ignored.timing"
+  ],
+  "after_rover_reserve": {},
+  "artifacts": {
+    "asr_literal.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\asr_literal.sdc",
+      "sha256": "1f58b82254c432879bbc465192c59be62ad84174d44d26cd1e014be79a1ceced"
+    },
+    "initial_clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\initial_clocks.txt",
+      "sha256": "74f72de3e359df385d5daf8ca323689d27e372f9c09a1c41fd51ac3dc8c12089"
+    },
+    "pre_contract_exception.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\pre_contract_exception.timing",
+      "sha256": "26ce381af0c4f2eca0e38fc0168aef1e84585121d738ffd0eb9b974153edd387"
+    },
+    "pre_contract_ignored.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\pre_contract_ignored.timing",
+      "sha256": "a1d4a1114e8ca4b8e948b60768b98ee6c6b85e216392358216b42f021fbb8bbf"
+    },
+    "psi_literal.sdc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_route_20261103_190820_497251\\psi_literal.sdc",
+      "sha256": "799e8df18f8dbe7298a65f5840d93eac128e298e7510f2d9bf6437402fa7ef6c"
+    }
+  }
+}

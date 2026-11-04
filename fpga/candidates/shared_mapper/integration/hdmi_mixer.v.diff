@@ -1,0 +1,11 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\hdmi_mixer.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_shared_mapper_20261104\project\user_source\hdl_source\hdmi_mixer.v
+@@ -514,7 +514,7 @@
+     wire [6:0] logo_prefetch_x=logo_prefetch_inside?S_x-12:7'd127;
+     wire [6:0] logo_prefetch_y=logo_prefetch_inside?S_y+18:7'd127;
+     t06_ui_logo_rom #(
+-      .INDEX0_INIT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_logo_index0.dath"),.INDEX1_INIT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_logo_index1.dath"),.PALETTE_INIT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_logo_palette.dath")) u_anlogic_logo_rom(
++      .INDEX0_INIT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_index0.dath"),.INDEX1_INIT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_index1.dath"),.PALETTE_INIT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_logo_palette.dath")) u_anlogic_logo_rom(
+       .I_clk(I_clk),.I_local_x(logo_prefetch_x),.I_local_y(logo_prefetch_y),.O_pixel(S_logo_pixel));
+ 
+     osd_char_lib u_osd_char_lib(

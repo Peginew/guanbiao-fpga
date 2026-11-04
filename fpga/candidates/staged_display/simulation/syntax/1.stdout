@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module meter_mcu_roi_ahb_live
+-- Compiling module meter_mcu_live_roi
+-- Compiling module t06_meter_roi_reader
+-- Compiling module t06_meter_visual_pipeline
+** Error: C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v(249): (vlog-2730) Undefined variable: 'read_job_active'.
+** Error: C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v(249): (vlog-2730) Undefined variable: 'read_confirmed'.
+** Error: C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v(250): (vlog-2730) Undefined variable: 'read_expected_source'.
+** Error: C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v(347): 'read_job_active' already declared in this scope (t06_meter_visual_pipeline).
+** Error: C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v(347): 'read_confirmed' already declared in this scope (t06_meter_visual_pipeline).
+** Error: C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v(348): 'read_expected_source' already declared in this scope (t06_meter_visual_pipeline).

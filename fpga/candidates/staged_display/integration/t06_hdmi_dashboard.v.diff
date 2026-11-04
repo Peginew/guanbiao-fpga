@@ -1,0 +1,29 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_landmark_s3_20261103\project\user_source\hdl_source\ui\t06_hdmi_dashboard.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\ui\t06_hdmi_dashboard.v
+@@ -3,7 +3,7 @@
+ // All fields snapshot at raster row4 after LF first true source. The shared
+ // writer finishes before header row12; tests check write-before-visible.
+ module t06_hdmi_dashboard #(
+- parameter TEXT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/hdl_source/ui/ui_text.mem", FONT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/hdl_source/ui/ui_font.mem"
++ parameter TEXT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_text.mem", FONT_FILE="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_font.mem"
+ )(
+  input wire clk,rst_n,vs,de,input wire [23:0] rgb,
+  input wire [4:0] mode,input wire [1:0] sat,
+@@ -22,7 +22,7 @@
+  input wire aq_valid,input wire [167:0] aq_payload,
+  output reg out_vs,out_de,output reg [23:0] out_rgb
+ );
+- `include "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/hdl_source/ui/ui_codes.vh"
++ `include "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_codes.vh"
+  reg [9:0] text_ram[0:4095]; // 40Kbits, reused by captions and changing digits.
+  reg [5:0] glyph_rom[0:8191]; // 48Kbits, shared Chinese/Latin halves.
+  initial begin $readmemh(TEXT_FILE,text_ram);$readmemh(FONT_FILE,glyph_rom);end
+@@ -99,7 +99,7 @@
+  always @*begin
+   field_value=0;field_address=0;field_digits=1;field_length=1;field_frac=0;field_kind=0;field_valid=0;
+   case(field_index)
+-   `include "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/hdl_source/ui/ui_field_cases.vh"
++   `include "C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_field_cases.vh"
+    default:begin end
+   endcase
+  end

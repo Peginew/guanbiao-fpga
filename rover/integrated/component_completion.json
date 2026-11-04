@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "kind": "MERGED_ESP_SOURCE_HOST_AND_OFFICIAL_OFFLINE_BUILD_COMPLETE",
+  "source_freeze": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\source_freeze.json",
+    "sha256": "7f4b3070100e4424f84375315c9bc1ad5cf37eaa4a9db9a1c06845814ff033a8",
+    "bytes": 7927
+  },
+  "checks": 26222,
+  "codec_vectors": 54,
+  "new_APP": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\firmware\\ESP32S3_4WD_Web_FPGA.ino.bin",
+    "sha256": "a13acfb1ded9240c594fc1482f5c3dcce20993d0aacedf86858f98f3752caa4a",
+    "bytes": 1060368
+  },
+  "CFG": "8A2EBD57",
+  "READ_TIMEOUT_MS": 26000,
+  "scope": "Fresh ESP actual C++/RobotApp mock-HAL and official Arduino offline build; existing R24 wire layout/safety semantics retained. New FPGA native/bit/board and fresh full C++-RTL wire chain are not claimed.",
+  "devices": false,
+  "flashed": false
+}

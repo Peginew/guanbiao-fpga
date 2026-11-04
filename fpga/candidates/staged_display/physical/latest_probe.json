@@ -1,0 +1,69 @@
+{
+  "state": "NATIVE_PROBE_COMPLETE_EFFECTIVE_REVIEW_REQUIRED",
+  "passed": false,
+  "stage": "read_only_literal_probe",
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\place_20261104_042828_324748\\reader_staged_place.db",
+    "sha256": "b19824575e986fed2a11db6423e8c0e0c145d32e88eb16a48dc84e749322d075"
+  },
+  "endpoint_identity": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\endpoints\\fresh_identity.json",
+    "sha256": "579745294b009e16cf34c1613708f97d12385aca268993976f89bca9c0ab7473"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726",
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\asr_literal.sdc",
+      "sha256": "4d8e2669f91fa192e786ddff6333a86b6ec9e2ca2294283c5e1fa625c613c95d"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\diagnostic4_exact_QD_candidate.sdc",
+      "sha256": "b79f0d3511f0c7e3688a0fc41645bd4b30738bb9e04b0a49390617d3893f3ab0"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\execute.tcl",
+      "sha256": "5fcfdbca5456f950601adc5eefbcde6bbd78fada24c6dd80fc1f01208880ccb7"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\progress32_exact_Q_candidate.sdc",
+      "sha256": "f71dc1b3d8cff3ef719411ccf698717596583d7afdb37ac2b22b28c9f8604fb2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\progressCtrl2_exact_QD_candidate.sdc",
+      "sha256": "86b10b16184e11a0152ec60310dffd6b296afef3355e2630cbb42bf05eb2b757"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\PSI17_exact_Q_candidate.sdc",
+      "sha256": "af3617f5547d9be8c2b17aaecbf58420b9131a58f35549c06b0e65bf3ff5cbe0"
+    }
+  ],
+  "route": false,
+  "export_DB": false,
+  "device": false,
+  "completed": true,
+  "exit_code": 0,
+  "elapsed_s": 15.437999999994645,
+  "artifacts": {
+    "clock_intersection.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\clock_intersection.txt",
+      "sha256": "8c9b3477fe55412ce4db73e843e463e33e8402273380ffa3afae9563ec3f7575"
+    },
+    "initial_clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\initial_clocks.txt",
+      "sha256": "b6251ca1a09d1ff7eb8319b9afb5721d57db94c96b9d0b9ad6ae407dd62474ad"
+    },
+    "pre_contract_exception.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\pre_contract_exception.timing",
+      "sha256": "78f8d189049c57409cc3a62dbc4a52790994bb770fbc4059b9654ec5208bc2fa"
+    },
+    "pre_contract_ignored.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\pre_contract_ignored.timing",
+      "sha256": "4b1fa917bbcef9db12952d5198675e507ef8ea36b3492f7de4e75b08e0fef8b5"
+    },
+    "probe.ts": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\probe_20261104_045516_726726\\probe.ts",
+      "sha256": "9131539e5b355efa5bd9ae99447334f17e81ef4d626f02356d621e558f17c2bc"
+    }
+  },
+  "no_marker_is_used_as_SDC_pass": true
+}

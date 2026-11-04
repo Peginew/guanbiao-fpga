@@ -1,0 +1,183 @@
+{
+  "status": "ACTUAL_STABLE3S_PSI_PLACE17_SOURCES",
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_place.db",
+    "sha256": "07e58145d5d105324dec19f8cc66ecdaf48c77f08cab7cf057b95637d1c31c37"
+  },
+  "source_netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\actual_netlist.v",
+    "sha256": "d5e563a1ac673f480087d5e9231607754a3e721215563976829d71d0c7536f73"
+  },
+  "registers": [
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[0]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[1]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[2]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[3]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[4]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[5]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[6]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[8]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[7]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[8]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[8]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[9]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[10]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[11]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[12]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[12]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[13]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[14]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[15]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3",
+      "half": "A",
+      "outputpin": "oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_valid",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3",
+      "half": "B",
+      "outputpin": "oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ]
+    }
+  ]
+}

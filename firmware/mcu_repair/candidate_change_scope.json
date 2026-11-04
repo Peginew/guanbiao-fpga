@@ -1,0 +1,13 @@
+{
+  "base": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_expanded_20261103\\firmware_prior_domain",
+  "changed_source_files": [
+    "minimal_app.c",
+    "mroi_client.c",
+    "mroi_client.h",
+    "mroi_guard.S"
+  ],
+  "training_performed": false,
+  "weights_unchanged": true,
+  "device": false,
+  "Flash_write": false
+}

@@ -1,0 +1,370 @@
+{
+  "stage": "place",
+  "state": "ACTUAL_NATIVE_PLACE_ACCEPTED_AFTER_LIMITED_XML_PATH_REOPEN_REVIEW",
+  "passed": true,
+  "device": false,
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "gate": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\macro_anchor_admission.json",
+    "sha256": "ce665c9ae534052f8e551183111575696f36403a9ddb06fea4b509776a2c5d19"
+  },
+  "anchor_plan": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\anchor_plan.json",
+    "sha256": "70be8390fa648b556bb56324d6d5f534f9d8078f0177966019e12858e871d680"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\synth_20261103_181022_258861\\reader_landmark_s3_gate.db",
+    "sha256": "429817dc8620833533bc7ace88e6b1cc042c5f5e4cdc7f3497c4f7d0595f2cab"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011",
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\ddr_group.tcl",
+      "sha256": "b68c72d86fdd7c5449e5fc13fdd7ef490bf41c814667f0d1041e7ac3709f3810"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\DefaultFlow.tcl",
+      "sha256": "7a102d52945252bf12f441d1fbb9dd2ead0528a9c4d16326b5b69850d4b114b2"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\execute.tcl",
+      "sha256": "948136c1dd5cf2240513e1c76b80952c5e4027c93baa8be76c6fa3f46d22269e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3.prj",
+      "sha256": "51846a2cb7650f82d74fded94dd57c57b45791f715039dbe98bf66388acb6d1c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\settings.cfg",
+      "sha256": "0b35c0a8d77a79fc1330c130ae6f03738cd8ba6e8a6c07c852348279fe1383a8"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\ui_macro_anchors.adc",
+      "sha256": "a0b45dc231b411cbdf996bb5a0eac09d7f48b9dc3481f51a052745f25a2366cd"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\run_guided_place.py",
+      "sha256": "b79b730eab1c01614fdcdc06ef97e508a06bed30bf4e2cee76ceab283dfab627"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\anchor_plan.json",
+      "sha256": "70be8390fa648b556bb56324d6d5f534f9d8078f0177966019e12858e871d680"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\macro_anchor_admission.json",
+      "sha256": "ce665c9ae534052f8e551183111575696f36403a9ddb06fea4b509776a2c5d19"
+    }
+  ],
+  "original_latest_place": null,
+  "source_reused_no_synthesis": true,
+  "source_tools_unchanged": true,
+  "macro_constraints_loaded_by_read_adc": true,
+  "DDR_semantic_group_member_count": 37,
+  "DDR_soft_group_preserved": true,
+  "DDR_semantic_admission": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\ddr_semantic_admission.json",
+    "sha256": "690ee29a3a13039324845803ef43616ef8b0829a9a74c79826422c8ea5e395eb"
+  },
+  "fresh_ASR_review_required": true,
+  "clockBound_and_macro_review_required": true,
+  "route_or_bitgen_admitted": false,
+  "exit_code": 0,
+  "elapsed_s": 207.48399999999674,
+  "output": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_place.db",
+    "sha256": "07e58145d5d105324dec19f8cc66ecdaf48c77f08cab7cf057b95637d1c31c37"
+  },
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\console.log",
+    "sha256": "822a21cd33564d164aceee7bceb07fd89dfc4c89c27f7c77d35b792f786bcb59"
+  },
+  "errors": [],
+  "resources": {
+    "Slice": 20106,
+    "Slice_is_SYN_estimate": false,
+    "FF": 22980,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "ten_macro_positions_match": true,
+  "actual_commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "open_project reader_landmark_s3.prj -noanalyze",
+    "import_db C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/td_project/reader_landmark_s3_Runs/synth_20261103_181022_258861/reader_landmark_s3_gate.db",
+    "set_param route effort normal",
+    "set_param route fix_hold on",
+    "set_param route timing on",
+    "set_param route post_route_opt off",
+    "read_adc C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/user_source/constraints_source/pin.adc",
+    "set_pin_assignment  I_sys_clk   LOCATION = C4; IOSTANDARD  = LVCMOS33; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  I_rst_n   LOCATION = B9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_cam_scl   LOCATION = K3; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  IO_cam_sda   LOCATION = J3; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  O_cam_24m   LOCATION = L3; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  O_cam_rst   LOCATION = L2; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  O_tmds_ch0_p   LOCATION = G16; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_tmds_ch1_p   LOCATION = F17; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_tmds_ch2_p   LOCATION = H14; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_tmds_clk_p   LOCATION = C17; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_mode_key_n   LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_hdmi_hpd_en_sense   LOCATION = B17; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[0]   LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[1]   LOCATION = C11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[2]   LOCATION = B11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[3]   LOCATION = E7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[4]   LOCATION = E6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[5]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[6]   LOCATION = B7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[7]   LOCATION = E5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[0]   LOCATION = G15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[1]   LOCATION = G14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[2]   LOCATION = A17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[3]   LOCATION = A18; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[4]   LOCATION = B16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[5]   LOCATION = A15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[6]   LOCATION = B15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[7]   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_saturation_sw[0]   LOCATION = A4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_saturation_sw[1]   LOCATION = B4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_preset_sw[0]   LOCATION = E11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_preset_sw[1]   LOCATION = D11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "clear_sdc -user",
+    "read_sdc C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/td_project/base_auto_quality.sdc",
+    "commit_param -step place",
+    "insert_debugger",
+    "read_adc ui_macro_anchors.adc",
+    "set_inst_assignment u_dashboard/mult2_syn_59 location = x27y44z0;",
+    "set_inst_assignment u_dashboard/mult4_syn_60 location = x27y56z1;",
+    "set_inst_assignment u_dashboard/ramread0_syn_23 location = x37y56z0;",
+    "set_inst_assignment u_dashboard/ramread0_syn_29 location = x37y52z1;",
+    "set_inst_assignment u_dashboard/ramread1_syn_23 location = x23y72z0;",
+    "set_inst_assignment u_dashboard/ramread1_syn_29 location = x23y72z1;",
+    "set_inst_assignment u_dashboard/ramread1_syn_35 location = x23y76z0;",
+    "set_inst_assignment u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1 location = x7y8z1;",
+    "set_inst_assignment u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1 location = x7y8z0;",
+    "set_inst_assignment u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1 location = x7y12z0;",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_3",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_reg",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_full_nxt_b[1]_syn_1",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_wptr_reg[0]",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[16]",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[2]",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[30]",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[44]",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_62",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_76",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_empty_nxt_syn_3",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[0]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[10]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[11]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[12]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[13]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[1]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[20]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[21]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[22]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[23]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[24]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[25]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[26]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[27]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[28]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[29]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[30]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[31]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[32]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[40]_syn_9",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[7]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[8]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[9]_syn_5",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[21]",
+    "report_cells  -attributes -connection",
+    "get_cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_cmd_wrapper/u_ddrphy_cmd_execution/cmd_decode[1]$u_ddrphy_cmd_decode/cmd_code[1]_syn_1",
+    "report_cells  -attributes -connection",
+    "create_bound ddr_critical_group -mode soft -width 8 -height 8 -origin 3 41",
+    "add_cells_to_bound -bound ddr_critical_group -cells u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_3 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_nxt_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_empty_reg u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_full_nxt_b[1]_syn_1 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/cas_fifo_wptr_reg[0] u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[16] u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[2] u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[30] u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/pageInfo_reg[44] u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_62 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/sel3_syn_76 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_empty_nxt_syn_3 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[0]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[10]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[11]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[12]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[13]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[1]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[20]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[21]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[22]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[23]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[24]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[25]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[26]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[27]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[28]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[29]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[30]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[31]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[32]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[40]_syn_9 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[7]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[8]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_nxt[9]_syn_5 u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_alc_mc_top/page_ctrl[2]$u_page_ctrl/txn_fifo_output_reg[21] u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_cmd_wrapper/u_ddrphy_cmd_execution/cmd_decode[1]$u_ddrphy_cmd_decode/cmd_code[1]_syn_1",
+    "get_cells u_dashboard/mult2_syn_59",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/mult4_syn_60",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread0_syn_23",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread0_syn_29",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread1_syn_23",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread1_syn_29",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread1_syn_35",
+    "report_cells  -attributes -connection",
+    "get_cells u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+    "report_cells  -attributes -connection",
+    "get_cells u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+    "report_cells  -attributes -connection",
+    "get_cells u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+    "report_cells  -attributes -connection",
+    "place",
+    "legalize_phy_inst",
+    "start_timer",
+    "start_timer",
+    "start_timer",
+    "start_timer",
+    "start_timer",
+    "start_timer",
+    "start_timer",
+    "report_qor -step place -file place.qor",
+    "start_timer",
+    "report_area -io_info -file reader_landmark_s3_phy.area",
+    "export_db reader_landmark_s3_place.db",
+    "export_adc -file actual.adc",
+    "write_verilog actual_netlist.v",
+    "update_timing -mode manhattan",
+    "start_timer",
+    "report_timing_summary -ep_num 16 -path_num 1 -file reader_landmark_s3_place.timing",
+    "report_clock_summary -file clocks.txt",
+    "report_clock_utilization -file clock_utilization.txt",
+    "flow_status -file flow.status",
+    "get_cells u_dashboard/mult2_syn_59",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/mult4_syn_60",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread0_syn_23",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread0_syn_29",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread1_syn_23",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread1_syn_29",
+    "report_cells  -attributes -connection",
+    "get_cells u_dashboard/ramread1_syn_35",
+    "report_cells  -attributes -connection",
+    "get_cells u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+    "report_cells  -attributes -connection",
+    "get_cells u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+    "report_cells  -attributes -connection",
+    "get_cells u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+    "report_cells  -attributes -connection",
+    "export_db reader_landmark_s3_place.db",
+    "export_flow_status -s opt_place -e opt_place",
+    "flow_status"
+  ],
+  "actual_place_only_scope": true,
+  "after_rover_reserve": {
+    "Slice": -90,
+    "FF": 17052,
+    "ERAM": 4
+  },
+  "artifacts": {
+    ".opt_place.begin.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\.opt_place.begin.f",
+      "sha256": "57516b1056fb2c1c8a1f42077905b1806c8609bb5e3e74e13426487158598af9"
+    },
+    ".opt_place.end.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\.opt_place.end.f",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "actual.adc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\actual.adc",
+      "sha256": "650e52c572436270d99d50e5e0cf97fac2453e0076c25b6dfaa16862c183df15"
+    },
+    "actual_netlist.v": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\actual_netlist.v",
+      "sha256": "d5e563a1ac673f480087d5e9231607754a3e721215563976829d71d0c7536f73"
+    },
+    "clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\clocks.txt",
+      "sha256": "484e107ece40a2aac69411adbce325ac2818bbd4543912ffd22e5395d3f97d55"
+    },
+    "clock_utilization.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\clock_utilization.txt",
+      "sha256": "1fa31f767896aa8887718adb4b56f43e1e26cd56dbcc1c04556ca39067847da5"
+    },
+    "macro_actual_positions.json": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\macro_actual_positions.json",
+      "sha256": "c9eeddb0ea974c9e05119f910e3edcd8672b7ec0432e6280051868d2dd3f28ed"
+    },
+    "macro_reports.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\macro_reports.txt",
+      "sha256": "ef2cbbe31c316576ff3ef6c29ba70e1c29472cff8e8d5308f9baadd6c8d24fbc"
+    },
+    "reader_landmark_s3_phy.area": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_phy.area",
+      "sha256": "eeb7911635d389163dda8e4fc2fa901f4fe722b4c6a5fe17661685a2aa916251"
+    },
+    "reader_landmark_s3_place.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\reader_landmark_s3_place.timing",
+      "sha256": "bd16c84c27a0e63232499f6fc682688a68e043355543ac578c5cdb35484c2538"
+    },
+    "ui_macro_anchors.adc": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\ui_macro_anchors.adc",
+      "sha256": "a0b45dc231b411cbdf996bb5a0eac09d7f48b9dc3481f51a052745f25a2366cd"
+    }
+  },
+  "raw_native_receipt": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\guided_ui_place_20261103_184018_017011\\receipt.json",
+    "sha256": "7be56a9b6abbcd9fa2d5f15a32101471eaddeff62afc39c172add33f0feb7b7b"
+  },
+  "raw_place_host_error_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\native_place_xml_path_fail.json",
+    "sha256": "7be56a9b6abbcd9fa2d5f15a32101471eaddeff62afc39c172add33f0feb7b7b"
+  },
+  "native_project_open_errors": [
+    "PRJ-9210 ERROR: The XML file ../../../user_source/ip_source/blk_mem_gen_awb_delay_signal/blk_mem_gen_awb_delay_signal.xml does not exist.",
+    "PRJ-9210 ERROR: The XML file ../../../user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_zhenghe/blk_mem_gen_zhenghe.xml does not exist.",
+    "PRJ-9210 ERROR: The XML file ../../../user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_demosaic/blk_mem_gen_demosaic.xml does not exist."
+  ],
+  "XML_path_independent_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\XML_PATH_acceptance_review.json",
+    "sha256": "770a018f8207aae0ef5c575b40e8af9b6b3b14143390a134ff934be1fc2ffbd0"
+  },
+  "actual_place_fact_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\guided_place_facts_review.json",
+    "sha256": "f775705e90d1a17aceef354aa854ade37b67cef987dd19a5c9946920e46bce87"
+  },
+  "fresh_ASR_independent_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\fresh_ASR7_review.json",
+    "sha256": "3bd893526fd14879efe39dffdad364419d4e75cc6b7389eb892e20d4b3e24517"
+  },
+  "native_place_rerun": false
+}

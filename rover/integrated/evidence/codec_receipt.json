@@ -1,0 +1,605 @@
+{
+  "kind": "MERGED_ACTUAL_CPP_CODEC_INDEPENDENT_NEW_CFG_VECTORS",
+  "passed": true,
+  "count": 54,
+  "CFG": "8A2EBD57",
+  "golden_sha256": "5762673a8a70e3aeccd265e0984a595af8858ae7a0ed4ac0f2702da5b4c39adb",
+  "actual_cpp_executable_sha256": "7701e12d2a60dc888719e75bcae5f3ad6af9578c69b7c79c11ca44cab387a9b8",
+  "cases": [
+    {
+      "name": "HELLO_FPGA_ZERO",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "HELLO_ESP_REQUEST",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "HELLO_FPGA_CHALLENGE",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "HELLO_ESP_ECHO",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STATE_IDLE_CONTROL_ONLY",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STATE_ACTIVE_READY",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STATE_ACCEPTED0",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STATE_RUNNING1",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STATE_SETTLING1",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STATE_EARLY_NO_OUTPUT0",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "START_LEFT_DIAGNOSTIC",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "START_RIGHT_FORMAL",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STEP_LEFT_420MS_NEGATIVE",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STEP_RIGHT_SOURCE_WRAP",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STOP_PARTIAL_SOURCE_WRAP",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STOP_FULL",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "STOP_UNQUALIFIED_SAFE_BRAKE",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "OBS_CAMERA_PROGRESS",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "OBS_BOX",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "OBS_COMPLETED_NEGATIVE",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "OBS_READ_FENCE_FLOOR",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "OBS_CONTROL_NONE",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "RESULT_NEW_READ_SOURCE_WRAP",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "RESULT_Q_ZERO",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "RESULT_Q_MAX",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "ACK_START",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "FAIL_NO_IMAGE31",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "CANCEL",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "SEQ_WRAP_FFFF",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "SEQ_WRAP_ZERO",
+      "expected": [
+        true,
+        true
+      ],
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "OLD_VERSION_1_REJECT",
+      "expected": [
+        false,
+        false
+      ],
+      "actual": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "OLD_VERSION_2_REJECT",
+      "expected": [
+        false,
+        false
+      ],
+      "actual": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "OLD_VERSION_3_REJECT",
+      "expected": [
+        false,
+        false
+      ],
+      "actual": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "CRC_BODY_CORRUPT",
+      "expected": [
+        false,
+        false
+      ],
+      "actual": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "BAD_SYNC",
+      "expected": [
+        false,
+        false
+      ],
+      "actual": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "UNKNOWN_TYPE",
+      "expected": [
+        false,
+        false
+      ],
+      "actual": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "HEADER_RESERVED",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "START_RESERVED",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "START_DELTA_9999_REJECT",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "START_MODE2_REJECT",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "STEP_NEGATIVE_EVIDENCE_MISSING",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "STEP_EXPIRED_1101",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "STEP_BAD_DELTA",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "STEP_ACTION37_REJECT",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "RESULT_PUB_AGE201_REJECT",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "RESULT_REF_REJECT",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "RESULT_LAST_REJECT",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "RESULT_FORMAL_NOT_IMPLEMENTED",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "HELLO_CFG_MISMATCH",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "HELLO_BUILD_MISMATCH",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "STATE_RESERVED",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "ACK_RESERVED",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "STOP_RESERVED",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "CANCEL_RESERVED",
+      "expected": [
+        true,
+        false
+      ],
+      "actual": [
+        true,
+        false
+      ]
+    }
+  ],
+  "scope": "Actual new C++ codec vs independently generated bytes; no RTL or devices"
+}

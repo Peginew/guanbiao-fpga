@@ -1,0 +1,20 @@
+{
+  "purpose": "Root-authorized minimal semantic count correction; original bytes preserved",
+  "files": [
+    {
+      "original": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\run_td.py",
+      "archive": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\history\\before_semantic_count_fix_20261103\\run_td.py",
+      "sha256": "ca257b7dd77a68381dcdc38bccc6f03ece1ddb856118e51039a359ff53afc9c1"
+    },
+    {
+      "original": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\run_guided_place.py",
+      "archive": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\history\\before_semantic_count_fix_20261103\\guided_ui_macros\\run_guided_place.py",
+      "sha256": "0624fb0ac5fc0a0d11b506e45a761f35c9ca7bab9601bcfe7e06694dbcd7274e"
+    },
+    {
+      "original": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\guided_ui_macros\\prepare_anchor_plan.py",
+      "archive": "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\history\\before_semantic_count_fix_20261103\\guided_ui_macros\\prepare_anchor_plan.py",
+      "sha256": "b7afe8f7049d6556a50365e99bfbf361f3f7beef74ce8c12370c5bf4565e6abd"
+    }
+  ]
+}

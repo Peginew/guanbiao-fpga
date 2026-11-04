@@ -1,0 +1,249 @@
+{
+  "stage": "synth",
+  "state": "NATIVE_COMPLETE_INDEPENDENT_REVIEW_PENDING",
+  "passed": true,
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\source_freeze.json",
+    "sha256": "9d4661b453a52a0e0f05a5696bf6b769c982cfc82cd27c7c5ddc83bce878b828"
+  },
+  "gate": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\synth_admission.json",
+    "sha256": "3aaff3fba58d2255caca9192cfe8d7e989f029ff6bd719a97d7132f89d83f5c9"
+  },
+  "source_DB": null,
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135",
+  "device": false,
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\DefaultFlow.tcl",
+      "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\execute.tcl",
+      "sha256": "818a5fa391b7aa8d6f30aac09f93bf6cf74330b729cb14636f704c6b03c69572"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged.prj",
+      "sha256": "cec64d0e63e91aec75944d02150f84e59d57bcb650ba2ae5a0253beb48e14187"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\settings.cfg",
+      "sha256": "c16f727fceb69240d710d3100efdd5ea0c7f35af2d371bd8d219af09762971f8"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\synth_admission.json",
+      "sha256": "3aaff3fba58d2255caca9192cfe8d7e989f029ff6bd719a97d7132f89d83f5c9"
+    }
+  ],
+  "ddr_group_plan": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\ddr_group_plan.json",
+    "sha256": "21ffa6dea2f35505d720918be8817b1aaa3b71f96cbaee180971ff8ae4deab41"
+  },
+  "ddr_group_tcl": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\ddr_group.tcl",
+    "sha256": "be7825fc5d29da0c5198356aafe56c38c1f72d521fa6489f244b18a9543857c7"
+  },
+  "DDR_semantic_member_count": 37,
+  "DDR_semantic_independent_review_pending": true,
+  "exit_code": 0,
+  "elapsed_s": 266.18700000000536,
+  "errors": [],
+  "output": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged_gate.db",
+    "sha256": "2c1eac01aaa437844d9e43092dde1656e02b21d8c4309b09a2017fe0030b519e"
+  },
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\console.log",
+    "sha256": "cb5351d1a1d0d8b1ac10fa7b4bb202abdd25e138304a197f95d5865eca538d70"
+  },
+  "resources": {
+    "Slice": 22578,
+    "Slice_is_SYN_estimate": true,
+    "FF": 23775,
+    "ERAM": 102,
+    "DSP": 40,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "actual_commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "open_project reader_staged.prj",
+    "commit_param -step design",
+    "commit_param -step design",
+    "elaborate -top design_top_wrapper",
+    "read_adc C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/constraints_source/pin.adc",
+    "set_pin_assignment  I_sys_clk   LOCATION = C4; IOSTANDARD  = LVCMOS33; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  I_rst_n   LOCATION = B9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_cam_scl   LOCATION = K3; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  IO_cam_sda   LOCATION = J3; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  O_cam_24m   LOCATION = L3; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  O_cam_rst   LOCATION = L2; IOSTANDARD  = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; ",
+    "set_pin_assignment  O_tmds_ch0_p   LOCATION = G16; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_tmds_ch1_p   LOCATION = F17; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_tmds_ch2_p   LOCATION = H14; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_tmds_clk_p   LOCATION = C17; IOSTANDARD = TMDS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_mode_key_n   LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_hdmi_hpd_en_sense   LOCATION = B17; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[0]   LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[1]   LOCATION = C11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[2]   LOCATION = B11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[3]   LOCATION = E7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[4]   LOCATION = E6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[5]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[6]   LOCATION = B7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_segment_n[7]   LOCATION = E5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[0]   LOCATION = G15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[1]   LOCATION = G14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[2]   LOCATION = A17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[3]   LOCATION = A18; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[4]   LOCATION = B16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[5]   LOCATION = A15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[6]   LOCATION = B15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  O_meter_digit_n[7]   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_saturation_sw[0]   LOCATION = A4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_saturation_sw[1]   LOCATION = B4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_preset_sw[0]   LOCATION = E11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "set_pin_assignment  I_preset_sw[1]   LOCATION = D11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; ",
+    "read_ip_adc -ip ddr2 -file C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ph1p35_ddr/ddr2/src/adc/ddr2.adc",
+    "set_ippin_assignment ddr2  ddr_ck_p      LOCATION = X0Y44Z2; IOSTANDARD = DIFF_SSTL15; #pl44c",
+    "set_ippin_assignment ddr2  ddr_ck_n      LOCATION = X0Y44Z3; IOSTANDARD = DIFF_SSTL15; #pl44d",
+    "set_ippin_assignment ddr2  ddr_cke[0]    LOCATION = X0Y44Z1; IOSTANDARD = SSTL15; #pl44b",
+    "set_ippin_assignment ddr2  ddr_cs_n[0]   LOCATION = X0Y53Z0; IOSTANDARD = SSTL15; #pl53a",
+    "set_ippin_assignment ddr2  ddr_odt[0]    LOCATION = X0Y47Z0; IOSTANDARD = SSTL15; #pl47a",
+    "set_ippin_assignment ddr2  ddr_we_n      LOCATION = X0Y47Z1; IOSTANDARD = SSTL15; #pl47b",
+    "set_ippin_assignment ddr2  ddr_cas_n     LOCATION = X0Y56Z0; IOSTANDARD = SSTL15; #pl56a",
+    "set_ippin_assignment ddr2  ddr_ras_n     LOCATION = X0Y44Z0; IOSTANDARD = SSTL15; #pl44a",
+    "set_ippin_assignment ddr2  ddr_ba[0]     LOCATION = X0Y50Z0; IOSTANDARD = SSTL15; #pl50a",
+    "set_ippin_assignment ddr2  ddr_ba[1]     LOCATION = X0Y61Z0; IOSTANDARD = SSTL15; #pl61a",
+    "set_ippin_assignment ddr2  ddr_addr[0]   LOCATION = X0Y64Z0; IOSTANDARD = SSTL15; #pl64a",
+    "set_ippin_assignment ddr2  ddr_addr[1]   LOCATION = X0Y73Z0; IOSTANDARD = SSTL15; #pl73a",
+    "set_ippin_assignment ddr2  ddr_addr[2]   LOCATION = X0Y67Z0; IOSTANDARD = SSTL15; #pl67a",
+    "set_ippin_assignment ddr2  ddr_addr[3]   LOCATION = X0Y50Z1; IOSTANDARD = SSTL15; #pl50b",
+    "set_ippin_assignment ddr2  ddr_addr[4]   LOCATION = X0Y76Z0; IOSTANDARD = SSTL15; #pl76a",
+    "set_ippin_assignment ddr2  ddr_addr[5]   LOCATION = X0Y53Z1; IOSTANDARD = SSTL15; #pl53b",
+    "set_ippin_assignment ddr2  ddr_addr[6]   LOCATION = X0Y76Z1; IOSTANDARD = SSTL15; #pl76b",
+    "set_ippin_assignment ddr2  ddr_addr[7]   LOCATION = X0Y56Z1; IOSTANDARD = SSTL15; #pl56b",
+    "set_ippin_assignment ddr2  ddr_addr[8]   LOCATION = X0Y76Z2; IOSTANDARD = SSTL15; #pl76c",
+    "set_ippin_assignment ddr2  ddr_addr[9]   LOCATION = X0Y61Z1; IOSTANDARD = SSTL15; #pl61b",
+    "set_ippin_assignment ddr2  ddr_addr[10]  LOCATION = X0Y67Z1; IOSTANDARD = SSTL15; #pl67b",
+    "set_ippin_assignment ddr2  ddr_addr[11]  LOCATION = X0Y76Z3; IOSTANDARD = SSTL15; #pl76d",
+    "set_ippin_assignment ddr2  ddr_addr[12]  LOCATION = X0Y64Z1; IOSTANDARD = SSTL15; #pl64b",
+    "set_ippin_assignment ddr2  ddr_dqs_p[0]    LOCATION = X0Y33Z2; IOSTANDARD = DIFF_SSTL15; #pl33c",
+    "set_ippin_assignment ddr2  ddr_dqs_n[0]    LOCATION = X0Y33Z3; IOSTANDARD = DIFF_SSTL15; #pl33d",
+    "set_ippin_assignment ddr2  ddr_dm[0]       LOCATION = X0Y30Z2; IOSTANDARD = SSTL15; #pl30c",
+    "set_ippin_assignment ddr2  ddr_dq[0]       LOCATION = X0Y33Z0; IOSTANDARD = SSTL15; #pl33a",
+    "set_ippin_assignment ddr2  ddr_dq[1]       LOCATION = X0Y30Z3; IOSTANDARD = SSTL15; #pl30d",
+    "set_ippin_assignment ddr2  ddr_dq[2]       LOCATION = X0Y36Z0; IOSTANDARD = SSTL15; #pl36a",
+    "set_ippin_assignment ddr2  ddr_dq[3]       LOCATION = X0Y36Z1; IOSTANDARD = SSTL15; #pl36b",
+    "set_ippin_assignment ddr2  ddr_dq[4]       LOCATION = X0Y36Z3; IOSTANDARD = SSTL15; #pl36d",
+    "set_ippin_assignment ddr2  ddr_dq[5]       LOCATION = X0Y36Z2; IOSTANDARD = SSTL15; #pl36c",
+    "set_ippin_assignment ddr2  ddr_dq[6]       LOCATION = X0Y30Z0; IOSTANDARD = SSTL15; #pl30a",
+    "set_ippin_assignment ddr2  ddr_dq[7]       LOCATION = X0Y33Z1; IOSTANDARD = SSTL15; #pl33b",
+    "set_ippin_assignment ddr2  ddr_dqs_p[1]    LOCATION = X0Y13Z2; IOSTANDARD = DIFF_SSTL15; #pl13c",
+    "set_ippin_assignment ddr2  ddr_dqs_n[1]    LOCATION = X0Y13Z3; IOSTANDARD = DIFF_SSTL15; #pl13d",
+    "set_ippin_assignment ddr2  ddr_dm[1]       LOCATION = X0Y16Z0; IOSTANDARD = SSTL15; #pl16a",
+    "set_ippin_assignment ddr2  ddr_dq[8]       LOCATION = X0Y16Z1; IOSTANDARD = SSTL15; #pl16b",
+    "set_ippin_assignment ddr2  ddr_dq[9]       LOCATION = X0Y16Z3; IOSTANDARD = SSTL15; #pl16d",
+    "set_ippin_assignment ddr2  ddr_dq[10]      LOCATION = X0Y10Z0; IOSTANDARD = SSTL15; #pl10a",
+    "set_ippin_assignment ddr2  ddr_dq[11]      LOCATION = X0Y10Z2; IOSTANDARD = SSTL15; #pl10c",
+    "set_ippin_assignment ddr2  ddr_dq[12]      LOCATION = X0Y10Z3; IOSTANDARD = SSTL15; #pl10d",
+    "set_ippin_assignment ddr2  ddr_dq[13]      LOCATION = X0Y10Z1; IOSTANDARD = SSTL15; #pl10b",
+    "set_ippin_assignment ddr2  ddr_dq[14]      LOCATION = X0Y16Z2; IOSTANDARD = SSTL15; #pl16c",
+    "set_ippin_assignment ddr2  ddr_dq[15]      LOCATION = X0Y13Z0; IOSTANDARD = SSTL15; #pl13a",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_mlclk_1  LOCATION = X0Y59Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_mlclk_2  LOCATION = X0Y59Z1",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll0/u_pll_inst  LOCATION = X0Y40Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll1/u_pll_inst  LOCATION = X0Y79Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[0]$u_ioclk_0  LOCATION = X0Y59Z0;",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[0]$u_ioclk_1  LOCATION = X0Y59Z1;",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[1]$u_ioclk_0  LOCATION = X0Y19Z0;",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/ioclk[1]$u_ioclk_1  LOCATION = X0Y19Z1;",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/ac_byte[0]$ac_byte_used$u_ddrphy_ac_byte_wrapper/u_ddrphy_byte LOCATION = X0Y70Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/ac_byte[1]$ac_byte_used$u_ddrphy_ac_byte_wrapper/u_ddrphy_byte LOCATION = X0Y60Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/ac_byte[2]$ac_byte_used$u_ddrphy_ac_byte_wrapper/u_ddrphy_byte LOCATION = X0Y50Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/ac_byte[3]$ac_byte_used$u_ddrphy_ac_byte_wrapper/u_ddrphy_byte LOCATION = X0Y40Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/dx_byte[0]$dx_byte_used$u_ddrphy_dx_byte_wrapper/u_ddrphy_byte LOCATION = X0Y30Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/dx_byte[1]$dx_byte_used$u_ddrphy_dx_byte_wrapper/u_ddrphy_byte LOCATION = X0Y10Z0",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/bkref[0]$u_ddrphy_bankref  LOCATION = X0Y19Z0;",
+    "set_ipinst_assignment ddr2 ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy/bkref[1]$u_ddrphy_bankref  LOCATION = X0Y59Z0;",
+    "read_sdc C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/td_project/base_auto_quality.sdc",
+    "read_sdc -ip ddr2 C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ph1p35_ddr/ddr2/src/sdc/ddr2.sdc",
+    "read_sdc -ip w128_d512_fifo C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.tcl",
+    "read_sdc -ip mcu_roi50 C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/ip_source/mcu_roi50/mcu_roi50.tcl",
+    "export_db reader_staged_elaborate.db",
+    "commit_param -step rtl",
+    "insert_debugger",
+    "optimize_rtl",
+    "report_area -file reader_staged_rtl.area",
+    "export_db reader_staged_rtl.db",
+    "commit_param -step gate",
+    "optimize_gate -packarea reader_staged_gate.area",
+    "update_pll_param -module design_top_wrapper",
+    "start_timer",
+    "end_timer",
+    "report_qor -step gate -file gate.qor",
+    "start_timer",
+    "report_area -file reader_staged_gate.area",
+    "legalize_phy_inst",
+    "update_timing",
+    "start_timer",
+    "report_timing_status -file reader_staged_gate.ts",
+    "report_timing_summary -file reader_staged_gate.timing",
+    "flow_status -file flow.status",
+    "export_db reader_staged_gate.db",
+    "export_flow_status -s read_design -e opt_gate",
+    "flow_status",
+    "write_verilog actual_netlist.v",
+    "report_clock_summary -file clocks.txt"
+  ],
+  "artifacts": {
+    ".opt_gate.begin.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\.opt_gate.begin.f",
+      "sha256": "bab2c02e55f6da953a88e267113a147d4d7d9f5e1e2e97da89b9a9a087556c3e"
+    },
+    ".opt_gate.end.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\.opt_gate.end.f",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".opt_rtl.begin.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\.opt_rtl.begin.f",
+      "sha256": "bab2c02e55f6da953a88e267113a147d4d7d9f5e1e2e97da89b9a9a087556c3e"
+    },
+    ".opt_rtl.end.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\.opt_rtl.end.f",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".read_design.begin.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\.read_design.begin.f",
+      "sha256": "bab2c02e55f6da953a88e267113a147d4d7d9f5e1e2e97da89b9a9a087556c3e"
+    },
+    ".read_design.end.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\.read_design.end.f",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "actual_netlist.v": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\actual_netlist.v",
+      "sha256": "ce0d9bd663ad2cc866478cb0ab79d37fb1f16cb2770aa8038af86203bb9258f3"
+    },
+    "clocks.txt": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\clocks.txt",
+      "sha256": "366edeb06e031c1cc2713419d597bfdacfd718d47834b314acfb1216a7686284"
+    },
+    "reader_staged_gate.area": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged_gate.area",
+      "sha256": "3c6ece4d42c23345d1f7c130c155efc987cc8c7a83784141cc85d19f4cbcd4bd"
+    },
+    "reader_staged_gate.timing": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged_gate.timing",
+      "sha256": "55d2e4e37b650d449f6aba9a0242ee1a4b86957ef2b921fd3f892cb921cdd4a5"
+    },
+    "reader_staged_gate.ts": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged_gate.ts",
+      "sha256": "b4cdbccad713882e4ae5217d2d18244b656182936d8554759accd043871e826d"
+    },
+    "reader_staged_rtl.area": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\synth_20261104_041522_844135\\reader_staged_rtl.area",
+      "sha256": "f59e1009fdefa8f45173fefeca77385084492835da47ce7497b11eb95dbdd7ae"
+    }
+  }
+}

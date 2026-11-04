@@ -1,0 +1,11 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\design_top_wrapper.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_shared_mapper_20261104\project\user_source\hdl_source\design_top_wrapper.v
+@@ -1039,7 +1039,7 @@
+        .ui_age_loc(S_ui_age_loc),.ui_age_geo(S_ui_age_geo),.ui_age_read(S_ui_age_read),
+        .ui_psi(S_ui_psi),.ui_psi_valid(S_ui_psi_valid),.ui_psi_source(S_ui_psi_source),.ui_hard_fault(S_ui_hard_fault),
+         .ui_ref_mode(S_ui_ref_mode),.ui_ref_valid(S_ui_ref_valid),.ui_ref_psi(S_ui_ref_psi));
+-    t06_hdmi_dashboard #(.TEXT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_text.mem"),.FONT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/user_source/hdl_source/ui/ui_font.mem")) u_dashboard(
++    t06_hdmi_dashboard #(.TEXT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_text.mem"),.FONT_FILE("C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/user_source/hdl_source/ui/ui_font.mem")) u_dashboard(
+        .clk(S_hdmi_pixel_clk),.rst_n(S_hdmi_rst_n),.vs(S_pair_vs),.de(S_pair_de),.rgb(S_pair_rgb),
+        .mode(S_ui_display_style[4:0]),.sat(S_ui_display_style[6:5]),
+        .meter_payload(S_ui_meter_payload),.meter_debug(S_ui_meter_debug),.meter_show(S_ui_meter_flags),.estimated(S_ui_meter_estimated),

@@ -1,0 +1,59 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_roi_reader.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_shared_mapper_20261104\project\user_source\hdl_source\meter_pair\t06_meter_roi_reader.v
+@@ -56,7 +56,9 @@
+  output reg [10:0] progress_hub_x_q4,progress_hub_y_q4,output reg [8:0] progress_angle,
+  output wire [31:0] progress_source,progress_config,output wire [15:0] progress_target,
+  output wire [10:0] progress_x0,output wire [9:0] progress_y0,
+- output wire [2:0] progress_stride,output wire [6:0] progress_radius
++ output wire [2:0] progress_stride,output wire [6:0] progress_radius,
++ output wire [12:0] native_hub_x,native_hub_y,
++ output reg [12:0] progress_native_x,progress_native_y
+ );
+ // CORE wrapper only. The live component owns every CSI/HCLK CDC and RAM lease.
+ // Old hub/needle/StripCNN blocks are replaced, never prerequisites for analysis.
+@@ -127,9 +129,22 @@
+  wire [6:0] ar=direct_confirm?confirm_radius:conf_radius;
+  // Q4 coordinates describe actual block centres; native block-centre offset
+  // (stride-1)/2 is retained, including the stride4 half-pixel.
+- wire [16:0] nxq4=({6'd0,result_x0}<<4)+hub_x_q4*result_stride+((result_stride-1'b1)<<3);
+- wire [16:0] nyq4=({7'd0,result_y0}<<4)+hub_y_q4*result_stride+((result_stride-1'b1)<<3);
++ // Exactly one native mapper. At a passed early event it maps the incoming
++ // frozen live code; all other cycles map the original final registers.
++ // Cache the early native coordinates with its package: TRACK confirmation
++ // can arrive after WAIT_CPU, so visual must not remap that package later.
++ wire map_progress=state==WAIT_CPU&&live_progress&&!kill&&!take&&
++  live_target==owner_target&&live_config==owner_config&&
++  (progress_pointer||progress_hub)&&(!progress_valid||!progress_needle_valid||progress_pointer);
++ wire [10:0] map_x0=map_progress?live_x:result_x0;
++ wire [9:0] map_y0=map_progress?live_y:result_y0;
++ wire [2:0] map_stride=map_progress?live_stride:result_stride;
++ wire [10:0] map_hx=map_progress?live_progress_code[21:11]:hub_x_q4;
++ wire [10:0] map_hy=map_progress?live_progress_code[10:0]:hub_y_q4;
++ wire [16:0] nxq4=({6'd0,map_x0}<<4)+map_hx*map_stride+((map_stride-1'b1)<<3);
++ wire [16:0] nyq4=({7'd0,map_y0}<<4)+map_hy*map_stride+((map_stride-1'b1)<<3);
+  wire [12:0] nx=(nxq4+17'd8)>>4,ny=(nyq4+17'd8)>>4;
++ assign native_hub_x=nx;assign native_hub_y=ny;
+  wire [12:0] dx=nx>=ax?nx-ax:ax-nx,dy=ny>=ay?ny-ay:ay-ny;
+  wire [6:0] dr=held_radius>=ar?held_radius-ar:ar-held_radius;
+  wire association=dx<=({10'd0,result_stride}<<3)&&dy<=({10'd0,result_stride}<<3)&&dr<=4;
+@@ -148,7 +163,7 @@
+   .busy(mbusy),.done(mdone),.value_valid(mgood),.value_q16(mq16),.value_bcd(mbcd),.reason(mreason));
+  always @(posedge clk or negedge rst_n)begin
+   if(!rst_n)begin
+-   progress_valid<=0;progress_pulse<=0;progress_needle_valid<=0;progress_hub_x_q4<=0;progress_hub_y_q4<=0;progress_angle<=0;
++   progress_valid<=0;progress_pulse<=0;progress_needle_valid<=0;progress_hub_x_q4<=0;progress_hub_y_q4<=0;progress_angle<=0;progress_native_x<=0;progress_native_y<=0;
+    state<=IDLE;owner_target<=0;owner_config<=0;age<=0;age_active<=0;passed<=0;mstart<=0;
+    result_pulse<=0;candidate_valid<=0;value_valid<=0;visual_stable<=0;reason<=0;
+    result_hint_source<=0;result_source<=0;result_confirmed_source<=0;result_config<=0;result_target<=0;
+@@ -159,9 +174,9 @@
+   end else begin
+    mstart<=0;result_pulse<=0;progress_pulse<=0;
+    if(kill||take)begin progress_valid<=0;progress_needle_valid<=0;end
+-   else if(state==WAIT_CPU&&live_progress&&live_target==owner_target&&live_config==owner_config&&
+-           (progress_pointer||progress_hub)&&(!progress_valid||!progress_needle_valid||progress_pointer))begin
++   else if(map_progress)begin
+     progress_valid<=1;progress_pulse<=1;progress_needle_valid<=progress_pointer;
++    progress_native_x<=nx;progress_native_y<=ny;
+     progress_hub_x_q4<=live_progress_code[21:11];progress_hub_y_q4<=live_progress_code[10:0];
+     progress_angle<=progress_pointer?live_progress_code[30:22]:9'd0;
+    end

@@ -1,0 +1,8 @@
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module meter_mcu_roi_ahb_live
+-- Compiling module meter_mcu_live_roi
+-- Compiling module t06_meter_roi_reader
+-- Compiling module t06_meter_visual_pipeline
+
+Top level modules:
+	t06_meter_visual_pipeline

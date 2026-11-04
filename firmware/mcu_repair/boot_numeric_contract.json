@@ -1,0 +1,28 @@
+{
+  "status": "ACTUAL_ELF_FPU_START_AND_POLAR_ROUNDING_CONTRACT_PASS",
+  "ELF_path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\repair_20261104\\firmware\\build\\meter_landmark_reader.elf",
+  "ELF_sha256": "793de53afa53a0046a2325d6f2ef6373e98d43e5ee0257ace2b203709c0599df",
+  "ELF_flags": 3,
+  "ABI": "ILP32F",
+  "stack_top": 134266880,
+  "stack_alignment": 16,
+  "FPU": {
+    "enable_address": 551551154,
+    "compressed_lui": "0x6299 x5=0x6000",
+    "set_FS_instruction": "0x3002a073 CSRRS mstatus,x5",
+    "result_FS_bits": "11 Dirty beforemain",
+    "FCSR_instruction": "0x00301073 CSRRW fcsr,x0",
+    "rounding": "frm0 nearest-even;fflags0"
+  },
+  "polar_F32": {
+    "fp_contract": "off",
+    "fast_math": false,
+    "fmul_count": 8,
+    "fadd_count": 3,
+    "fused_FMA_count": 0,
+    "machinecode_sha256": "e6a85e5381d987a3c80174d21e14b02a3f388332fa6b21e3061724c91d6b706e"
+  },
+  "source_scope": "OfficialSDKstartup reused, no newFPUprotectionlayers",
+  "new_board_execution": false,
+  "hardware_actions": false
+}

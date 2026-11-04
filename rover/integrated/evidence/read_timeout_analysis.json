@@ -1,0 +1,50 @@
+{
+  "kind": "OBSERVED_TRAINED_PRODUCER_READ_CLOCK_ORIGINS_AND_ESP_WAIT_BOUND",
+  "sources_observed_not_global_FPGA_freeze": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\fpga\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_pair_link.v",
+      "sha256": "ad5661e74cf26dd3680d96fdf605987df5de4258fe8ecf3b4f49e0c012d3168a",
+      "bytes": 14155
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\fpga\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+      "sha256": "307d5f36b623147acc9e1ecd782e21338a916b38196682571190744338055e81",
+      "bytes": 38262
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\fpga\\project\\user_source\\hdl_source\\meter_pair\\rover_uart_link.v",
+      "sha256": "302bd425694ee17b9c9c1844ec374e839575ec4ea57248e09d2d0967850ed579",
+      "bytes": 18777
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA\\LiteScanLink.h",
+      "sha256": "9968d64e9bcea4c40e4e59887b332bc670472aa63f785ed57c0f40ed89e28f83",
+      "bytes": 21312
+    }
+  ],
+  "producer_clock_hz": 75000000,
+  "actual_instance_job_cycles": 1500000000,
+  "actual_instance_phase_cycles": 1800000000,
+  "job_clock_origin": "REQUEST_ROI acceptance roi_request && roi_ready sets read_job_active=1, read_job_age=0; saturating increment while active, expiry at MAX_READ_JOB_CYCLES-1.",
+  "phase_clock_origin": "phase_cycles resets in WAIT_OWNER and explicit state transitions; MAX_PHASE_CYCLES is a per-phase watchdog, not a global floor-to-result completion promise.",
+  "ESP_READ_clock_origin": "First fully received and accepted typed OBS READ_FENCE sets readKnown_=true/readAt_=now. Repeated floor does not reset; RESULT requires elapsed<26000 and expiry fires elapsed>=26000.",
+  "FPGA_floor_delivery_gate": "floor_published is set only after floor_inflight and frame_ready&&!frame_send&&!tb_valid&&tb_ready; RESULT also requires exact current read/floor/owner/phase.",
+  "WAIT_budget_ms": 26000,
+  "rationale": "24s observed producer phase budget plus 2s bounded UART/scheduling margin. Floor can precede ROI acquisition/job start; this is an independent bounded receiver wait, not a proof every capture/compute fits or succeeds.",
+  "safe_failure": "Busy producer, capture/ARM/owner/phase/job timeout, cancellation, lease loss or outer budget exhaustion can still fail and park; no blind motion or automatic retries are added.",
+  "unchanged_ms": {
+    "result_publication_age_max": 200,
+    "post_terminal_true_park": 6000,
+    "missing_floor": 1000,
+    "no_image_after_ready": 3500,
+    "IMU_age": 180,
+    "STATE_fresh": 250,
+    "action": 5000,
+    "task": 300000,
+    "point": 600000
+  },
+  "wire_result": "Existing normalized bar U0.16; trained PSI_Q8 conversion remains in FPGA, no reinterpretation at ESP.",
+  "formalReadingValid": false,
+  "devices": false,
+  "native_TD": false
+}

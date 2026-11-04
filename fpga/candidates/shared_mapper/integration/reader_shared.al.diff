@@ -1,0 +1,14 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\td_project\reader_staged.al
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_shared_mapper_20261104\project\td_project\reader_shared.al
+@@ -1,9 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<Project Version="3" Minor="2" Path="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_staged_display_20261104/project/td_project">
++<Project Version="3" Minor="2" Path="C:/Users/Edward/Desktop/FPGA/MCU_Live_ROI_20261029/native_reader_shared_mapper_20261104/project/td_project">
+     <Project_Created_Time></Project_Created_Time>
+     <TD_Encoding>UTF-8</TD_Encoding>
+     <TD_Version>6.2.168116</TD_Version>
+-    <Name>reader_staged</Name>
++    <Name>reader_shared</Name>
+     <HardWare>
+         <Family>PH1</Family>
+         <Device>PH1P35MDG324</Device>

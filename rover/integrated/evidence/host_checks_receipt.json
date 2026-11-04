@@ -1,0 +1,341 @@
+{
+  "kind": "TRAINED_STABLE3S_MERGE_FRESH_ACTUAL_CPP_AND_ROBOTAPP_MOCK_HAL",
+  "at": "2026-11-04T05:53:23.262956+08:00",
+  "passed": true,
+  "compiler": {
+    "path": "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\g++.exe",
+    "sha256": "2a5a72df806256ce16b7dbb6667b2cace1669259dc9aa2874849ccfa40f593bb"
+  },
+  "compiles": [
+    {
+      "unit": "robotapp_lite_host",
+      "command": [
+        "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\g++.exe",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-function",
+        "-Wno-misleading-indentation",
+        "-IC:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\stubs",
+        "-IC:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\robotapp_lite_host.cpp",
+        "-o",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\robotapp_lite_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable_sha256": "30f88fefa1121d9769a99c91a5a6336e54d3692ca1eeea66e02d0d12f297392c"
+    },
+    {
+      "unit": "console_host",
+      "command": [
+        "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\g++.exe",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-function",
+        "-Wno-misleading-indentation",
+        "-IC:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\stubs",
+        "-IC:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\console_host.cpp",
+        "-o",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\console_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable_sha256": "a834a1587860f86e8c220ab5a15a293ec7c214d3a7526c55e3b38cbab0c6c515"
+    },
+    {
+      "unit": "deadline_host",
+      "command": [
+        "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\g++.exe",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-function",
+        "-Wno-misleading-indentation",
+        "-IC:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\stubs",
+        "-IC:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\deadline_host.cpp",
+        "-o",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\deadline_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable_sha256": "3fe7f4ab29eea04c97cb9684d981925b0a5844a9528302d7d9cffca4ccf3a472"
+    },
+    {
+      "unit": "result_retention_host",
+      "command": [
+        "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\g++.exe",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-function",
+        "-Wno-misleading-indentation",
+        "-IC:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\stubs",
+        "-IC:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\result_retention_host.cpp",
+        "-o",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\result_retention_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable_sha256": "4e4ae87a2f4a0f7505c7db61d630a7402e1b7993244e988ec0c0f668749ebd82"
+    },
+    {
+      "unit": "trained_read_host",
+      "command": [
+        "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\g++.exe",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-function",
+        "-Wno-misleading-indentation",
+        "-IC:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\stubs",
+        "-IC:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\trained_read_host.cpp",
+        "-o",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\trained_read_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable_sha256": "4063860c21a0e7d0b3aaa85071a49ea4f7adb852c34c4a63d863407710b9fa1b"
+    },
+    {
+      "unit": "codec_oracle_host",
+      "command": [
+        "C:\\Users\\Edward\\Desktop\\mingw64\\bin\\g++.exe",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-function",
+        "-Wno-misleading-indentation",
+        "-IC:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\stubs",
+        "-IC:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\codec_oracle_host.cpp",
+        "-o",
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\codec_oracle_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable_sha256": "7701e12d2a60dc888719e75bcae5f3ad6af9578c69b7c79c11ca44cab387a9b8"
+    }
+  ],
+  "cases": [
+    {
+      "case": "normal",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\robotapp_lite_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "3a6f60bf1e43dba07f4092589818e2bdfbe9b5b1dcac83fd0c8e516037add190",
+      "executable_sha256": "30f88fefa1121d9769a99c91a5a6336e54d3692ca1eeea66e02d0d12f297392c",
+      "actual_summary": {
+        "event": "summary",
+        "checks": 4811,
+        "passed": true,
+        "device": false
+      }
+    },
+    {
+      "case": "drop_start",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\robotapp_lite_host.exe",
+        "drop_start"
+      ],
+      "exit_code": 0,
+      "log_sha256": "0389b8d1a7907c8a0ab0a5b35b5186309f1d3e246559af7e749c9481b978b122",
+      "executable_sha256": "30f88fefa1121d9769a99c91a5a6336e54d3692ca1eeea66e02d0d12f297392c",
+      "actual_summary": {
+        "event": "summary",
+        "checks": 4839,
+        "passed": true,
+        "device": false
+      }
+    },
+    {
+      "case": "drop_ack",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\robotapp_lite_host.exe",
+        "drop_ack"
+      ],
+      "exit_code": 0,
+      "log_sha256": "7c8ba80501f387487f8612ba06a6cb737a824ea64625eac3bb9dc29d6b828839",
+      "executable_sha256": "30f88fefa1121d9769a99c91a5a6336e54d3692ca1eeea66e02d0d12f297392c",
+      "actual_summary": {
+        "event": "summary",
+        "checks": 4841,
+        "passed": true,
+        "device": false
+      }
+    },
+    {
+      "case": "formal",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\robotapp_lite_host.exe",
+        "formal"
+      ],
+      "exit_code": 0,
+      "log_sha256": "305d423a9d1717df3aaa25c578a4a7363de167e1b498f58e9b5671954d52239c",
+      "executable_sha256": "30f88fefa1121d9769a99c91a5a6336e54d3692ca1eeea66e02d0d12f297392c",
+      "actual_summary": {
+        "event": "summary",
+        "checks": 4812,
+        "passed": true,
+        "device": false
+      }
+    },
+    {
+      "case": "full_step",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\robotapp_lite_host.exe",
+        "full_step"
+      ],
+      "exit_code": 0,
+      "log_sha256": "21b4e90aa47894d02fa244776d360a4532cb1de6d4c438885f44c0825c03ce27",
+      "executable_sha256": "30f88fefa1121d9769a99c91a5a6336e54d3692ca1eeea66e02d0d12f297392c",
+      "actual_summary": {
+        "event": "summary",
+        "checks": 5180,
+        "passed": true,
+        "device": false
+      }
+    },
+    {
+      "case": "console",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\console_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "2590af7d401a906bdce385233bfb645d56a309f13aa5a220a149a5ba8ceaa22b",
+      "executable_sha256": "a834a1587860f86e8c220ab5a15a293ec7c214d3a7526c55e3b38cbab0c6c515",
+      "actual_summary": {
+        "event": "summary",
+        "checks": 1624,
+        "passed": true,
+        "device": false
+      }
+    },
+    {
+      "case": "deadline",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\deadline_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "0fcc10c500d34db3c3e3b98d38d571196872aada927649dc237913b67a204e28",
+      "executable_sha256": "3fe7f4ab29eea04c97cb9684d981925b0a5844a9528302d7d9cffca4ccf3a472",
+      "actual_summary": {
+        "passed": true,
+        "checks": 47,
+        "cases": 8,
+        "device": false
+      }
+    },
+    {
+      "case": "result_retention",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\result_retention_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "4eb4bf0dc6b9c63de0fecf52cf217e6c2a175c42f41b2b8b9b17d596cdc1eccc",
+      "executable_sha256": "4e4ae87a2f4a0f7505c7db61d630a7402e1b7993244e988ec0c0f668749ebd82",
+      "actual_summary": {
+        "passed": true,
+        "checks": 21,
+        "cases": 3,
+        "device": false
+      }
+    },
+    {
+      "case": "trained_read",
+      "command": [
+        "C:\\Users\\Edward\\Documents\\ChatGPT\\\u5d4c\u8d5bFPGA\\hardware\\fpga_rover_trained_merge_20261104\\esp32\\tests\\trained_read_host.exe"
+      ],
+      "exit_code": 0,
+      "log_sha256": "bcac7441cb918af5d8e6f9917c56cc28534c60cf8d9efe4823b54339e16c0d93",
+      "executable_sha256": "4063860c21a0e7d0b3aaa85071a49ea4f7adb852c34c4a63d863407710b9fa1b",
+      "actual_summary": {
+        "passed": true,
+        "checks": 47,
+        "cases": 9,
+        "device": false,
+        "read_timeout_ms": 26000
+      }
+    }
+  ],
+  "source_root": "C:\\Users\\Edward\\Desktop\\FPGA\\Stable3s_Rover_Merged_20261104\\esp32\\ESP32S3_4WD_Web_FPGA",
+  "source_sha256": {
+    "AppState.inc": "5331ef9e40f5ed0cf69d391a5b8c8a8b8e21e5feb4385137120ef679539166f5",
+    "BufferedConsole.h": "eae0f42a5a92af4ff76f6905745f63cc43acad10870a404017c35d0888473b32",
+    "Calibration.h": "68665d203aa294f2ec68d516f7caa02b974e4e6e064b8df74dadd968b4e4972d",
+    "CarConfig.h": "51166eb97c524f237c7df716c8389a8d9701179425d7fbe277e1b7c91eabe134",
+    "ConsoleUi.h": "2f2b23cb193ce9e4f521a9e95b0da624c50e5b54586b4b69852e39c7453ebb9a",
+    "ESP32S3_4WD_Web_FPGA.ino": "8c3ba3c5b6c112614091abf043b32f6c174790f202d8c502b81035c71c401755",
+    "FgInterrupts.inc": "3d076e9b037a21daf1d2f02bfa89732456f4055e34bf0704c0134a3a625ff5b8",
+    "FpgaRuntime.inc": "ef9e77a3d6612024bd34af56afe7b4378f69ab5068f53a9b59606bc2134c8325",
+    "FpgaUartLink.h": "c735ee2fa2262ab2908ce3efb6370d05043dc5b325e3dc42b68ad46ab7f0163c",
+    "GoalDrive.h": "cd0897e764167e83ed39eee24d266335c98650d2490eaa104e2ae6f3fa6d8544",
+    "GoalDriveRuntime.inc": "bfde78923c9eadeb8faccd425f1f6f3142df12904728151438aebd0524383896",
+    "GuanbiaoProtocolV4.h": "7dd553b96ac8da582c2bde50d69dcc5e4c32c832f068c178193d432b51e662d1",
+    "HttpForm.h": "3a80ad8da89e5aa41c769799a1c7d76d785126a7f7213344be4ea0fd24d64366",
+    "ImuHeading.h": "d3106a50b520b06e3e5232fd07dc50db968c684f2a28ca98f658a1734b6ea567",
+    "ImuMotion.h": "a8be48dbc3aad4dcd45565431bdd70b853fd616e93e90d73560fb92d2d109ebb",
+    "ImuRuntime.inc": "91ef5815f51d4816b41cbf374bfa1f369459daa2536b06b4aa58884fe1f40277",
+    "InspectionExecutor.h": "fd28f437878050521dca0fdaa828198844304938a577d8d110805fb8f28f2346",
+    "LineBuffer.h": "727c45e4b629c614753ef7160f9e133033999e9bdeb0e4fa683b73667724562c",
+    "LiteScanLink.h": "9968d64e9bcea4c40e4e59887b332bc670472aa63f785ed57c0f40ed89e28f83",
+    "MotorStartAssist.h": "97cc28847fa4a22252ccbfc7a8370c387ad4f871762ad6ebc0fea2daaecaae03",
+    "NativeHttpServer.h": "a8118824712550603182a527fd6804c5a2f12592f029ebe79a21e7445ed46429",
+    "Navigation.h": "ce1c45d0f8695a30c795129128feaad05e0c0831fd6d27ed6f35f42f85be62b4",
+    "Navigation.inc": "303171e573bde26eaf33951c42ddb6749903e29d21138d93c209677f5dd4164b",
+    "ObstacleMap.h": "01fee69bdf91109e060559ef1c03b1c2e526a5aec66c6ea38ba4469260d8f78c",
+    "PathPlan.h": "0906539f1371b8151c73406fa24d9dadae7178b041d9ad163606495bf3ec5ae0",
+    "RobotApp.cpp": "e09d6e61bd72930ff0de5125d6e4bf1d83238528f7a970bcd9852bfd502f91e5",
+    "RobotApp.h": "4dca3b6b4a2969feb458b631517d3cfdc9aa4594dacd6a19b0e3c7e72b3cfe73",
+    "RoutePlan.h": "45c0cf68fcd4d8fb255ffccb9b2d4a2e6fa0a8909264173c5243a2754ac3ffb6",
+    "RouteRuntime.inc": "9f64429fee09b1a9e2af176d043f874780b2a37dee7eb1f2281efaa4be87a4a1",
+    "RouteSpeed.h": "dbc05e517b37a3320a343911c02f904ba2b5eecdc21ceb0d7f9d939729ac9589",
+    "Runtime.inc": "c6e2e7e643bf71efebb574e5e86f787e69420a9b60096ba88d86c71bb8a9afa3",
+    "RxProbe.h": "869039b2fe31541fbac34875e4f39f155976a03553b1019d71bbcf2afff5517c",
+    "ScanPlan.h": "56cbb08edc71f6ee8752cb23b906a67a151c9b3c3f772a25e1ec9072fb3c35fa",
+    "Stage1Control.h": "818a8cb474c662d03690718172f9320f3d836ceeee9332c94e6bb84a92c78f63",
+    "StraightStability.h": "a9b450d2bd6f220b1e48a85bbda58a3b4fdc4de0c848c54440c8dcfb8bdd813a",
+    "WebBridge.h": "0efe8a72c83833e7e318d76ed32d043d6ac9083b81f44b89031fec4bd81a4114",
+    "WebRuntime.inc": "91f6b3d3a13d6e8db87db7b1a983c851feb4c2e506e90ae05c5969261beb371a",
+    "WebUi.h": "c9699e1f98ee469641edc93ff4cd69d486e473417af028a031af083cbb998976",
+    "WebUiGzip.h": "ae746dcf3dcc01fd53d8fd66a84141423ac872aa747ada3cb275d1cae4449e57",
+    "WheelPid.h": "a022551488feed0a047ae0e5286487521d08404a140435ee90b5cea65366cb8a",
+    "WireCodecV4.h": "d6004e48a3d13b56406a40cf803f1ec7f7f68b0211699336fbf619fcde784fa7"
+  },
+  "source_stable": true,
+  "driver_files": {
+    "codec_oracle_host.cpp": "f30acb9f7b1dc73f68cb5a948ea99b9c51fb23c449e29397bbf082972cd8bac7",
+    "console_host.cpp": "d941f71f5619f8e403d076d5fe3156349f0ce9654336c4903794cab82da6c4b5",
+    "deadline_host.cpp": "8edd3b02b1bf5ed48af5c6eb48cd3863b8c7ba27b743f93f8bd91d6425f87d55",
+    "result_retention_host.cpp": "7b04c63dd69f09572fcd493a8e68e9bffed3df6ced8681ac7ddc95cc162397fa",
+    "robotapp_lite_host.cpp": "b411bb8cd60f68cb9b0fece4105cb825f000768c115b94316c92fd823fa18abe",
+    "trained_read_host.cpp": "8916cbb032a0f9271858246a820d159fce17869f0be9649f388c289de3dea345"
+  },
+  "mock_support": "c5d778836195831b9318d450778ef5d2766b1b86ebdd3bd9cb4fb3891ec218af",
+  "checks": 26222,
+  "scope": "Actual extracted/adapted C++ link/executor and RobotApp with mock GPIO/PWM/FG/IMU and peer bytes; millisecond injection, not RTL or devices.",
+  "CFG": "8A2EBD57",
+  "READ_TIMEOUT_MS": 26000,
+  "formalReadingValid": false,
+  "devices": false,
+  "flashed": false,
+  "native_TD": false
+}

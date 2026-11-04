@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "stage": "staged_literal_route",
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\source_freeze.json",
+    "sha256": "9d4661b453a52a0e0f05a5696bf6b769c982cfc82cd27c7c5ddc83bce878b828"
+  },
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\latest_place.json",
+    "sha256": "410f54a9aac5b9e888f395071d33a397a66bd24e1e4bc5bb8b2015684c5b9c74"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\staged_20261104\\place_20261104_042828_324748\\reader_staged_place.db",
+    "sha256": "b19824575e986fed2a11db6423e8c0e0c145d32e88eb16a48dc84e749322d075"
+  },
+  "expected_rules": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\expected_rules.json",
+    "sha256": "75213bcbd67336678e93049e223ed72701c2723cb6fd40a187d9f9af71c138ba"
+  },
+  "native_probe": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\latest_probe.json",
+    "sha256": "0f947cb73ed2885cf4d90bc357db4d4d12418234f09328fcc07dbe9af9e5a01d"
+  },
+  "endpoint_identity": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\endpoints\\fresh_identity.json",
+    "sha256": "579745294b009e16cf34c1613708f97d12385aca268993976f89bca9c0ab7473"
+  },
+  "ASR_mapping": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\placed_asr_mapping.json",
+    "sha256": "8460b8a11b6f48d0efa00498427cec872af2291a39b14528af0e3fc15d41d32a"
+  },
+  "runner_sha256": "24066a0358c3f4c94d3f91a328c6e7adf0440c42dc0fd79d83bd23c9dd7cf416",
+  "literal_files": {
+    "asr_literal.sdc": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\asr_literal.sdc",
+      "sha256": "4d8e2669f91fa192e786ddff6333a86b6ec9e2ca2294283c5e1fa625c613c95d"
+    },
+    "PSI17_exact_Q_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\endpoints\\PSI17_exact_Q_candidate.sdc",
+      "sha256": "af3617f5547d9be8c2b17aaecbf58420b9131a58f35549c06b0e65bf3ff5cbe0"
+    },
+    "progress32_exact_Q_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\endpoints\\progress32_exact_Q_candidate.sdc",
+      "sha256": "f71dc1b3d8cff3ef719411ccf698717596583d7afdb37ac2b22b28c9f8604fb2"
+    },
+    "progressCtrl2_exact_QD_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\endpoints\\progressCtrl2_exact_QD_candidate.sdc",
+      "sha256": "86b10b16184e11a0152ec60310dffd6b296afef3355e2630cbb42bf05eb2b757"
+    },
+    "diagnostic4_exact_QD_candidate.sdc": {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\endpoints\\diagnostic4_exact_QD_candidate.sdc",
+      "sha256": "b79f0d3511f0c7e3688a0fc41645bd4b30738bb9e04b0a49390617d3893f3ab0"
+    }
+  },
+  "pure_literal_before_first_timer": true,
+  "source_and_physical_entities_review_passed": true,
+  "held_control_CDC_review_passed": true,
+  "probe_effective_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\physical_source\\probe_contract_review.json",
+    "sha256": "ccd4315c535eaa16fc7616a41a5815bd2490b701f2a9256300b04084b49040e9"
+  },
+  "independent_reviews": [
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\final_source_gate.json",
+      "sha256": "79ab393fd2e5303a917ca5bc234a8569a11ece6d9b5503cdd7af21a6b35e622e"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\ddr_semantic_review.json",
+      "sha256": "f8c8cb6171e84da23f5e8f1fbd106aa243c99f98abf7bc0ce4e60a83e59e6b68"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\physical_source\\place_entity_review.json",
+      "sha256": "49310854dc910766d27d536fe967af0c180f193aa400000c0d07a70003ea7d2b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\physical_source\\probe_contract_review.json",
+      "sha256": "ccd4315c535eaa16fc7616a41a5815bd2490b701f2a9256300b04084b49040e9"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\probe_asr_review.json",
+      "sha256": "0e0c714e46a9d290b584ee90d6cc62c40b36b04c4239bc1aba40b8ce8322a8c3"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\review\\synth_progress_inventory.json",
+      "sha256": "df744332695eb58009f2ee1d0552ec7b179b966810a6677fa1b07b99a458245f"
+    }
+  ],
+  "root_route_only_authorized": true,
+  "preferred_rover_reserve_shortfall_slice": 350,
+  "remaining_slice": 850,
+  "reserve_full1200_preserved": false,
+  "slight_reserve_borrow_authority": "User previously permits slight borrowing while preserving picture/recognition quality; current networks/weights and all original modes preserved.",
+  "bitgen_admitted": false,
+  "device": false
+}

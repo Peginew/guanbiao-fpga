@@ -1,0 +1,2 @@
+set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_toggle_reg_syn_3.oqa}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_sync_reg[0]_syn_2.ima}] -datapath_only 7.200
+set_max_delay -from [get_pins {u_meter_pair/pipeline/reader/live/progress_seen_reg_syn_3.oqb}] -to [get_pins {u_meter_pair/pipeline/reader/live/progress_ack_sync_reg[0]_syn_2.ima}] -datapath_only 7.200

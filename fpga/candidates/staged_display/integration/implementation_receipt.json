@@ -1,0 +1,244 @@
+{
+  "status": "RTL_STAGE_DISPLAY_COMPONENT_COMPLETE_PHYSICAL_AND_BOARD_PENDING",
+  "passed_components": true,
+  "project": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project",
+  "name": "reader_staged",
+  "source_ready": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\source_ready.json",
+    "sha256": "05deb66bd2a83cc64f89406837f240f473bb4fb137679fb8d5376245e5a86780"
+  },
+  "latest_components": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\tests\\components_20261104_041532_892596\\receipt.json",
+    "sha256": "817f6f41ffe308a5475aafdb2530439539ed77ffc79cdababcf640db14e8c489"
+  },
+  "checks": 10047,
+  "base_unchanged": true,
+  "changes": [
+    {
+      "file": "td_project\\base_auto_quality.sdc",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\base_auto_quality.sdc",
+        "sha256": "a8382c43630c3b7ccbd3a0f1337f1636ac136210e7e0968252a93f978386b740"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\td_project\\base_auto_quality.sdc",
+        "sha256": "5a7e3f68cec29012143fb5893598617694aba742657d0f47fc30c186147df574"
+      },
+      "kind": "STAGE_PROGRESS_OR_PASSIVE_CANCEL_DIAGNOSTIC",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\base_auto_quality.sdc.diff",
+        "sha256": "1c4c3f76e984e6685d43943439eb78b76b2ef2a6ac37fec07dddb4f73d862f14"
+      }
+    },
+    {
+      "file": "td_project\\reader_staged.al",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3.al",
+        "sha256": "e9f48912cfe3f9f4e77a4410e10c5027b298774d25216d4ab55d78e610960751"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\td_project\\reader_staged.al",
+        "sha256": "4e2905a94130d88fa44eae105338f6bd5c026ae12078c6489744026e95e67a8c"
+      },
+      "kind": "ABSOLUTE_PATH_OR_PROJECT_NAME_ONLY",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\reader_staged.al.diff",
+        "sha256": "b096e7b6b53b9c3e33deefa97bd782bbdc4644a67d9ce0fd2ca914d6e37f8592"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\design_top_wrapper.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+        "sha256": "64ff1d8ea7fc18a97a1bb57f80a78ffb7d2951e0062e8151cf716f7b0a275beb"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\design_top_wrapper.v",
+        "sha256": "b1295714631d68fd67e9192cb76f278bfb5161983b51c925e9d870c16bc3142e"
+      },
+      "kind": "ABSOLUTE_PATH_OR_PROJECT_NAME_ONLY",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\design_top_wrapper.v.diff",
+        "sha256": "a22d0a8ac17b3d7df80125bcefc4bc848e54f15e997d0d6500942bb6f106c80c"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\hdmi_mixer.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\hdmi_mixer.v",
+        "sha256": "2ab6fc9a726c71025611fdb56a1ad7373ed55123f58f531f15d3ff711be5dd46"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\hdmi_mixer.v",
+        "sha256": "c8e082750facd9a97ae94c4fc7175a54486f8af160ea0a12478ed24d223bf404"
+      },
+      "kind": "ABSOLUTE_PATH_OR_PROJECT_NAME_ONLY",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\hdmi_mixer.v.diff",
+        "sha256": "bd3287973dcdc7f3946affb25b0effbff66c5f0491f90528cb899224ec96ac16"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\meter_pair\\meter_mcu_live_roi.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_live_roi.v",
+        "sha256": "2c1839c5db2a4a519640032c888b5cfd58219dd692d1e92b9bd8524eb386e433"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_live_roi.v",
+        "sha256": "c5c3d703b3a2788cecd64a6df1cbb1551b8c21f0c418615bf96ac16b60a8d054"
+      },
+      "kind": "STAGE_PROGRESS_OR_PASSIVE_CANCEL_DIAGNOSTIC",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\meter_mcu_live_roi.v.diff",
+        "sha256": "dcbc9c71df8820f70e79033b22710cf0834ba615d96e7ded66a2c9e8fe9e7f91"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v",
+        "sha256": "91b2fea1e66cffa2ef558532ec64ee1070e10a8ebef4da02c4a5da9e82f7a40b"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v",
+        "sha256": "2d8ac535bff0e0d637241b5511cf785480bc5b5148d3afa425bf79ed819debcf"
+      },
+      "kind": "STAGE_PROGRESS_OR_PASSIVE_CANCEL_DIAGNOSTIC",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\meter_mcu_roi_ahb_live.v.diff",
+        "sha256": "dbe070b35a8052a0ad5796eb5230f7efc047685896fac1d231e416f57e4f7f23"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+        "sha256": "d2c7e54bd488b2fb886eacaa5cf80c2fadf63d650893791830e5b1bb136eaee6"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+        "sha256": "e5a62d507e8cae86d16b48c7d4e17a8bd5b8368e1c34b7afdeb3c0016c3faa8b"
+      },
+      "kind": "STAGE_PROGRESS_OR_PASSIVE_CANCEL_DIAGNOSTIC",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\t06_meter_roi_reader.v.diff",
+        "sha256": "9a7684e5e97f68950b0d51d8b15b435d81c151a2c43cd58f19bbc9286c6f6d8b"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+        "sha256": "f93eb50c3c4d0687183d2f6ee559e75374b892cacc3212b5e2da64f73a352bee"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+        "sha256": "ab3f8b4b0891767f337604864ac5ff20392e810e871c76b8f78cd223277dc096"
+      },
+      "kind": "STAGE_PROGRESS_OR_PASSIVE_CANCEL_DIAGNOSTIC",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\t06_meter_visual_pipeline.v.diff",
+        "sha256": "12301b367ef686176f22fbac7dad8fee1583082a797b7dfff611c5ea2e13a1f7"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+        "sha256": "b9a4390d9ef124e94f23a2638305010b771c7bb4216938ae6ce9a774e5b8c4ce"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+        "sha256": "1ae3b3de2a4ae91100d1e592017fc92c80c0ca3276c3555abadde1e06e0148f6"
+      },
+      "kind": "ABSOLUTE_PATH_OR_PROJECT_NAME_ONLY",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\t06_hdmi_dashboard.v.diff",
+        "sha256": "57b1689f72af80a8de9001ddcd40e74f533016bdd4573d6eaa129f0cee23c655"
+      }
+    },
+    {
+      "file": "user_source\\hdl_source\\ui\\t06_ui_logo_rom.v",
+      "old": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\user_source\\hdl_source\\ui\\t06_ui_logo_rom.v",
+        "sha256": "e6f92a713d89ec4004bbbb3bb9bfc2660e15b003f2ec4c502e3552db12a2ca94"
+      },
+      "new": {
+        "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\ui\\t06_ui_logo_rom.v",
+        "sha256": "bd6892b067bbc1051c0df59e04422b8eb90c24fb17355b2dfd803a22a37a4364"
+      },
+      "kind": "ABSOLUTE_PATH_OR_PROJECT_NAME_ONLY",
+      "diff": {
+        "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\integration\\t06_ui_logo_rom.v.diff",
+        "sha256": "777b7147c09e082bdf45f8b0f7e4230cc562f9548cdd04815689ea7f681b26ea"
+      }
+    }
+  ],
+  "four_RTL_plus_one_SDC_only_functional_scope": [
+    "td_project\\base_auto_quality.sdc",
+    "user_source\\hdl_source\\meter_pair\\meter_mcu_live_roi.v",
+    "user_source\\hdl_source\\meter_pair\\meter_mcu_roi_ahb_live.v",
+    "user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+    "user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v"
+  ],
+  "REF_helper_unchanged_SHA256": "0a2cc864b68152c7ab17fe8a5cc4241a1583d01bd12f16d515c0d62cba7b7e2c",
+  "progress_contract": {
+    "FEATURES064": 3,
+    "stage_data_offset": "11C",
+    "mode": "ownerclaimed32bitmailbox/trueAHBbackpressure/held32toggleACK",
+    "metadata": "ExistingimmutableROI/currentclaim; noadded175bitmetadataregister",
+    "normal_RES1_120_unchanged": true,
+    "progress_does_not_release_ROI": true,
+    "progress_does_not_grant_READ_or_scalar": true,
+    "early_hub_and_needle_independent_of_PSI": true,
+    "same_T_confirmation_required_for_geometry": true,
+    "pure_compute_timeout_keeps_same_owner_geometry": true,
+    "true_owner_stream_motion_config_fault_revokes": true,
+    "new_hub_does_not_mix_with_old_source_needle": true
+  },
+  "passive_cancellation_contract": {
+    "read_offset": "208",
+    "source_bits_in_observer_context": "18:15",
+    "first_cause_holds_to_MCU_global_reset": true,
+    "event4_sticky4_two_stage_sync8_total_FF": 16,
+    "enum": {
+      "0": "NONE",
+      "1": "READ_WATCHDOG",
+      "2": "PHASE_TIMEOUT",
+      "3": "SEARCH_OR_RESTART",
+      "4": "STREAM_FAULT",
+      "5": "CONTEXT",
+      "6": "DISABLED_OR_CANCEL",
+      "7": "MOTION_OR_NOT_STATIONARY",
+      "8": "MEASUREMENT_FAULT",
+      "9": "READ_WITHDRAW_OR_PREPARE_PERMIT",
+      "10": "OWNED_FRAME_LOSS",
+      "11": "ARM_TIMEOUT",
+      "12": "UNCONFIRMED_T",
+      "13": "FINAL_RESULT_METADATA_REJECT"
+    },
+    "priority": "Originaltask-callorder, same-cyclelastNBAwins; onlyoldread_job_activecanrecord. Describesfirstwithdrawpath,notexclusivephysicalrootcause.",
+    "stable_debug_read": "Waitforsettling; readtwiceequal; neverafunctionalconsumer"
+  },
+  "retained_READ_contract": "OriginalfinalCRC/claim/source/calibration/quality/stabilityguardandthreefreshobservationsremain; numbersshownthroughui_flagsareLASTdisplayevidence,notcurrentREADpermission.",
+  "display_LABEL_evidence": {
+    "dashboard": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\ui\\t06_hdmi_dashboard.v",
+      "sha256": "1ae3b3de2a4ae91100d1e592017fc92c80c0ca3276c3555abadde1e06e0148f6"
+    },
+    "line125": "kind3=>LAST/WAIT",
+    "OSD": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_staged_display_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_pair_bench_osd.v",
+      "sha256": "b8d712e3fb919f795abfeb560e91440b425488038240606ee7c13cc80ab9b37e"
+    },
+    "qualified_flags2": "show_measure,notformalREAD"
+  },
+  "boundaries": [
+    "RealcomponentDUTswithacceptedlive-ROI/locatorfrontiersandrastercoordinateinjection; notcamera/MCUCNNcorrectness.",
+    "Firstcancellationcausehasnotyetbeenreadfromanactualnewstagebit; no17.5scauseisdeclaredsolved.",
+    "Logicalprogress/diagnosticSMDclausesrequirefreshSYN/placedQpin/ASR/ordinaryDATA/FINALreview; nooldphysicalmappingreused."
+  ],
+  "TD_or_device_actions_by_this_agent": false,
+  "no_more_production_changes": true
+}

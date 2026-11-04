@@ -1,0 +1,760 @@
+{
+  "status": "FRESH_SYN_HARD_MACRO_NAMES_ONLY_NO_COORDINATES",
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\synth_20261104_070046_253570\\reader_shared_gate.db",
+    "sha256": "94ebcef7a09a437e93de40c185b8eaacbb21515a4743a9213e07d3abcc347cdd"
+  },
+  "netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\shared_mapper_20261104\\synth_20261104_070046_253570\\actual_netlist.v",
+    "sha256": "bc0d20f96abb05c68715a05ba55257e7a3d5046ef2e67fb0fd278b62c17ff37e"
+  },
+  "macros": [
+    {
+      "name": "u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+      "type": "PH1P_PHY_PLL_V2"
+    },
+    {
+      "name": "u_dashboard/mult2_syn_59",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_dashboard/mult2_syn_60",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_dashboard/mult4_syn_60",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_dashboard/mult4_syn_61",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_dashboard/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_dashboard/ramread0_syn_29",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_29",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_dashboard/ramread1_syn_35",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index0_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_index1_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_mixer/u_anlogic_logo_rom/u_palette_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_524",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_587",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_608",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_380",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_401",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult0_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult0_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult1_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult1_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult2_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult2_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult3_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult3_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult4_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult4_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult5_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult5_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult6_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult6_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult7_syn_166",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/mult7_syn_167",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_2",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_43",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/signal_delay_d/u_rgb_delay_ram/ram_f84573da5ab5_Inst/username_inst_syn_84",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/u_stats/mult0_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/u_stats/mult0_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/u_stats/mult1_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/u_stats/mult1_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/u_stats/mult2_syn_58",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_awb/u_stats/mult2_syn_59",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[1]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/two_line_buffer[2]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/ram_syn_2",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_demosaic/raw_matrix_3x3_buffer_d/zhenghe_d/blk_mem_gen_zhenghe_d1/ram_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/ramread0_syn_44",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/ramread1_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/ramread1_syn_44",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/ramread2_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/ramread2_syn_44",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_color_a/ram_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_color_b/ram_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_color_c/ram_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult0_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult0_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult10_syn_58",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult10_syn_59",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult11_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult11_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult1_syn_58",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult1_syn_59",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult2_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult2_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult3_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult3_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult4_syn_58",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult4_syn_59",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult5_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult5_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult6_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult6_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult7_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult7_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult8_syn_58",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult8_syn_59",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult9_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_gray_exact/mult9_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_point_rom/g_channel[0]$g_pair[0]$rom_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_point_rom/g_channel[0]$g_pair[1]$rom_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_point_rom/g_channel[1]$g_pair[0]$rom_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_point_rom/g_channel[1]$g_pair[1]$rom_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_point_rom/g_channel[2]$g_pair[0]$rom_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_point_rom/g_channel[2]$g_pair[1]$rom_syn_1",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_support_rows/ramread0_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_support_rows/ramread0_syn_41",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_isp_top/u_t06/u_filter/u_support_rows/ramread0_syn_58",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_106",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_147",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_mc_to_user_interface/U_w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d_Inst/ram_inst/ramread0_syn_65",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_mcu_bootrom/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+      "type": "PH1P_PHY_PLL_V2"
+    },
+    {
+      "name": "u_mcu_processor/MCU_a112bff27f0f_Inst/PH1P_PHY_MCU_Inst",
+      "type": "PH1P_PHY_MCU"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/mult0_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/mult0_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/mult1_syn_152",
+      "type": "PH1P_PHY_DSPTADD"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/mult1_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/mult1_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/mult2_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/mult2_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/osd/direction_line/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_102",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_108",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_110",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_112",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_114",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_116",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_118",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_120",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_122",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_124",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_126",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_128",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_130",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_132",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_30",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_36",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_42",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_48",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_54",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_60",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_66",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_72",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_78",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_84",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_90",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/frame_cache/ramread1_syn_96",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult1_syn_59",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult1_syn_60",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult2_syn_59",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult2_syn_60",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult3_syn_59",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult3_syn_60",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult4_syn_59",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/mult4_syn_60",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread0_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread1_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread2_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread3_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread4_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread4_syn_30",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread5_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread5_syn_30",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread6_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread6_syn_30",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread7_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/live/capture/ramread7_syn_30",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/mult0_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/mult0_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/mult1_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/reader/mult1_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/metric/mult0_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/metric/mult0_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/metric/ramread3_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/mult0_syn_152",
+      "type": "PH1P_PHY_DSPTADD"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/mult0_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/mult0_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/mult1_syn_59",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/mult1_syn_60",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/mult2_syn_57",
+      "type": "PH1P_PHY_DSPSIOU_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/mult2_syn_58",
+      "type": "PH1P_PHY_DSPMULT_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_meter_pair/pipeline/search/ramread0_syn_44",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX",
+      "type": "PH1P_PHY_MIPIIO_RX"
+    },
+    {
+      "name": "u_motion/u_core/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_motion/u_core/ramread1_syn_24",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_motion/u_core/ramread1_syn_30",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_motion/u_core/ramread1_syn_36",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_motion/u_core/ramread1_syn_42",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_motion/u_core/ramread1_syn_48",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_motion/u_core/ramread1_syn_50",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_motion/u_core/ramread1_syn_52",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll0/u_pll_inst",
+      "type": "PH1P_PHY_PLL_V2"
+    },
+    {
+      "name": "u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll1/u_pll_inst",
+      "type": "PH1P_PHY_PLL_V2"
+    },
+    {
+      "name": "u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_105",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_146",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_64",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_105",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_146",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_23",
+      "type": "PH1P_PHY_ERAM_V2"
+    },
+    {
+      "name": "u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/ram_inst/ramread0_syn_64",
+      "type": "PH1P_PHY_ERAM_V2"
+    }
+  ],
+  "physical_coordinates_copied": false,
+  "native_run": false,
+  "device": false
+}

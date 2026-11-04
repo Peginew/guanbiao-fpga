@@ -1,0 +1,78 @@
+# V4 32-byte trained Stable3s merge protocol
+
+2026-11-03. Protocol layout and ownership rules approved by root; generated constants are a software contract, not implementation/native/board acceptance. V3 remains unchanged. Repeated ownership and budget state move to ESP; original video/REF/UI/READ producer is preserved. No resource fit is claimed.
+
+All multibyte integers are little endian. Frame size is exactly 32 bytes. CRC-16/CCITT-FALSE, polynomial 0x1021, initial 0xFFFF, no reflection/xorout; bytes 30/31 are low/high CRC over bytes 2..29 only. Sync bytes are A5 5A. V1/V2/V3 are explicitly rejected.
+
+| Offset | Bytes | Field |
+|---|---:|---|
+| 0 | 2 | Sync A5 5A |
+| 2 | 1 | Version 4 |
+| 3 | 1 | Type |
+| 4 | 2 | Sender transport sequence |
+| 6 | 1 | Action ID, 0 or 1..36 |
+| 7 | 1 | Header flags, reserved zero in normal frames |
+| 8 | 4 | Full binding token |
+| 12 | 4 | Full TaskKey; special HELLO meaning below |
+| 16 | 4 | Full motion epoch; special HELLO meaning below |
+| 20 | 10 | Type payload |
+| 30 | 2 | CRC low, high |
+
+Types retain the numeric labels HELLO=1, STATE=2, START=3, CANCEL=4, ACK=5, OBS=6, RESULT=7, FAIL=8, STEP_REQUEST=9, STOP_ACTION=10. Equal labels do not imply old-wire compatibility.
+
+| Type | Payload offsets relative to 20 (exactly 10 bytes) |
+|---|---|
+| HELLO | BUILD u32 @0; capabilities u16 @4; FRAME_BYTES u8 @6 (=32); MAX_VERSION u8 @7 (=4); reserved u16 @8 (=0) |
+| STATE (ESP→FPGA) | IMU_AGE_MS u16 @0; PARK_AGE_MS u16 @2; STATUS_REASON u8 @4 (status low3/reason high5); STATE_FLAGS u8 @5; reserved u32 @6 (=0) |
+| START | STEP_MDEG i16 @0 (=+10000 or -10000); MODE u8 @2 (0 formal review, 1 locally enabled diagnostic continuous); flags u8 @3 (=0); reserved bytes @4..9 (=0) |
+| STEP_REQUEST | TRIGGER_SOURCE u32 @0; CONSERVATIVE_AGE_MS u16 @4; STEP_MDEG i16 @6 (=frozen START); NEG_FLAGS u16 @8 |
+| OBS | SOURCE u32 @0; AGE_MS u16 @4; OBS_FLAGS u16 @6; STAGE u8 @8; REASON u8 @9 |
+| RESULT | READ_SOURCE u32 @0; RAW_Q16 u16 @4; PUBLICATION_AGE_MS u16 @6; RESULT_FLAGS u8 @8; REASON u8 @9 |
+| ACK | ACK_SEQ u16 @0; ACK_TYPE u8 @2; STATUS u8 @3; REASON u8 @4; reserved bytes @5..9 (=0) |
+| FAIL | SOURCE u32 @0; REASON u8 @4; DETAIL u8 @5; reserved u32 @6 (=0) |
+| STOP_ACTION | BOX_SOURCE u32 @0; CONSERVATIVE_AGE_MS u16 @4; BOX_FLAGS u16 @6; REASON u8 @8; reserved byte @9 (=0) |
+| CANCEL | REASON u8 @0; reserved bytes @1..9 (=0) |
+
+STATE flags: IMU_VALID=1, POSE_VALID=2, PARKED=4, ARMED_LOCAL=8, CALIBRATED=16, FAULT=32, READY_STEP=64, READY_READ=128. READY flags are ESP admission summaries from its exact ledger, actual park and deadlines, not remote ARM authority. FPGA checks READY plus fresh exact-owner STATE, PARKED, parkAge>=6000, IMU age<=180ms and state age<=250ms. Status and reason numeric values retain the exact V3 labels. OBS flags retain CAMERA_ALIVE=1, ANALYSIS_HEALTHY=2, BOX_CREDIBLE=4, BOX_PARTIAL=8, FRESH=16, COMPLETED_NEGATIVE=32, PAUSE=64, READ_FENCE=128, READING=256, ERROR=512, and add CAMERA_PROGRESS=1024. RESULT flags retain ACTUAL_READ=1, CANDIDATE=2, FORMAL=4, REF=8, LAST=16; current candidate may send only ACTUAL_READ|CANDIDATE, never FORMAL/REF/LAST.
+
+## Atomic binding and TaskKey ownership
+
+HELLO reuses header TaskKey for the complete ESP boot/session identity and header epoch for the complete CFG32; normal meanings resume only after binding. ESP HELLO carries token=0 (request) or the exact received challenge (echo), key=its own full32 boot/session, epoch=CFG. FPGA HELLO carries token=current nonzero challenge, key=the full32 ESP session being challenged, epoch=CFG. Boot/unbound FPGA HELLO uses token=0/key=0 and must finish its physical transmission before any bind. HELLO BUILD/caps/size/version/CFG are checked. Exact echo commits one binding atomically; no half-built binding can start a task. HELLO does not renew the operational STATE lease. Live same-peer HELLO retries do not rotate the challenge. Unknown peer, expired binding or a different ESP boot identity revokes the old task, brakes/disarms at ESP, rotates the challenge and resets sequence admission. No automatic re-arm/restart follows rebinding.
+
+Root lifecycle decision: non-reuse scope is the active FPGA uptime/live binding history, not mathematical uniqueness across unlimited power loss. ESP chooses a new nonzero full random32 boot/session on restart or FPGA zero HELLO. FPGA allocates its first challenge from that full ESP session, then advances the full32 challenge by1 on a new binding, skipping0; same pending/live peer HELLO retries retain the challenge. Before allocation wraps/reuses a token in the current uptime, fail closed and require a new explicit boot/bind lifecycle. No NVS allocator is introduced. This token is not a hash/truncation of point/pose/plan identity. Cross-power-cycle random32 collision freedom and cryptographic authentication are not claimed. Reset/rebind brakes/disarms/revokes all tasks and never auto-resumes; delayed packets are accepted only under the current exact token/key/epoch and forward-sequence gates.
+
+ESP owns a full32 strictly increasing TaskKey allocator and an exact immutable ledger mapping each key to binding, full point ID, full pose/origin ID, plan ID/configuration, local mode, direction and all budgets. Changing origin, plan ownership or point revokes the old key and parks. FPGA stores only the exact current token/key, epoch/action and required visual phase state; it never reconstructs a point or pose from a hash. TaskKey=0 is idle/control only. A START with a larger nonzero key atomically installs the new key and immutable direction/mode after fresh STATE and actual park admission. Repeated identical START for the active key may ACK without resetting any timer/source fence/action/ESP budget. A changed same-key START fails closed. Completed/failed/cancelled keys remain tombstoned; an old START cannot resurrect them. No TaskKey wrap within a binding. Seq16 uses half-range forward admission; duplicate commands can only be idempotent retries, never lease renewal. Wrong token/key/epoch cannot renew leases.
+
+Before every START attempt ESP supplies fresh idle STATE (key0/action0) then the exact START. Retry interval is200ms, at most3 START transmissions and a separate total<=1000ms start phase. After preparing START, FPGA must wait for the first fresh matching active-TaskKey STATE before any STEP/READ. During AwaitStart, key0 STATE may only aid the control plane/re-ACK and cannot supply visual/action permission. After active-key confirmation, key0 immediately withdraws old visual permission and cannot revive it; operational admission requires the matching active key and a new source fence after any ownership/epoch interruption. START retry and lost-ACK handling must be tested against real producer bytes. ACK is receipt/admission only, never drive completion or parking.
+
+## One minimal visual state machine, ESP owns plans and budgets
+
+FPGA retains WAIT_IMAGE → WAIT_ACTION → WAIT_PARK → WAIT_IMAGE, or READ_FENCE → WAIT_READ → TERMINAL. No XYH window/local search/sector/yaw planner, task TTL counter, six-second timer, action retry queue, pose/plan ledger or elapsed reporting is required in FPGA. ESP alone enforces task TTL (300s), at most36 steps/cumulative360 degrees, per-action5s, READ26s, point600s and all bounded retry/phase deadlines. A same-point retry cannot reset any of those ledger budgets. FPGA requests the frozen +10000/-10000 millidegree step only after a genuinely completed fresh post-fence negative. STEP contains its own exact trigger source, conservative age and completed-negative flags: losing an earlier OBS cannot remove or replace its admission evidence. ESP may reject it for any budget, owner, range, arm, IMU or park reason. No pending/healthy-camera event is a negative. STEP is sent once; no automatic FPGA STEP retransmission. Lost STEP/STATE/ACK produces bounded safe failure under ESP's phase/task deadlines, never unbounded motion.
+
+Actions use IDs1..36, strictly increasing within a TaskKey. Same ID semantic replay never repeats motion or refreshes deadlines. Conflicting same-ID request brakes/fails. Actual output start advances epoch once; real quiet/braked terminal advances it once; zero-output early stop never invents a motion transition. ESP's exact ledger alone validates the complete ACCEPTED/RUNNING/SETTLING/terminal epoch progression and action ownership; FPGA does not duplicate that ledger. Every accepted STATE epoch change immediately revokes old observation/READ ownership and requires a new actual source fence before visual use. DONE is not a parking claim. Real IMU/FG quiet, brakes and park age remain required. Fresh credible partial/full box while moving requests immediate STOP_ACTION for that exact action; STOP carries its own box source/age/flags. Partial may stop but cannot authorize READ. A plain/expired STOP may safely brake the matching action but grants no image/read permission. STOP/CANCEL never renew lease or authorize another action.
+
+The full6000ms clock belongs only to ESP: its origin is actual terminalConfirmed and continuous true park, not command issue time, the first rawquiet sample, or a previously accumulated idle duration. Interrupting true park resets this inhibition. Maturity is sticky while the same owner stays truly parked, using sufficient-width/saturating arithmetic without an8192ms rollback. FPGA stores no independent13bit six-second counter; every STEP/READ admission hard-checks the matching fresh STATE with PARKED plus the corresponding READY_STEP/READY_READ, parkAge>=6000, IMU age<=180ms, state age<=250ms and all local permission flags. READY alone is insufficient. This is an explicit V4 ownership change from V3. Fresh post-park CSI mailbox fence is mandatory before negative/box observation can be used. After six seconds, missing fresh image may wait only under ESP's bounded phase deadline (3500ms); it cannot become a blind step. Initial task with no motion may directly READ a trustworthy new box after parked admission and its independent READ fence. Local pre-alignment, sector/grid direction, navigation/multi-point queues are ESP-only and must be complete/parked before START.
+
+FPGA camera freshness comes only from its actual camera_update/source producer and local watchdog. STATE has no camera-source echo. OBS CAMERA_PROGRESS carries SOURCE=the actual camera source; locator BOX/NEGATIVE carries its separate source; READ_FENCE carries the actual CSI floor. These source kinds are mutually exclusive, with explicit flags, and ESP stores their identities separately. CAMERA_ALIVE alone in an unrelated packet does not invent a camera-source advance. A heartbeat never qualifies as locator negative/box or READ evidence.
+
+READ requires an independent actual CSI mailbox floor under the exact key/epoch/owner. Mandatory OBS READ_FENCE flag carries SOURCE=floor, AGE=FFFF, STAGE=READ_FENCE and clears BOX/NEGATIVE/READ qualifications; it is a typed floor event, not a locator observation. Full physical frame transmission, including the final stop bit, must finish before consuming a cached actual VU/RESULT. ESP's26000ms READ deadline begins when that real READ_FENCE event has been completely received and accepted, not an earlier LOC/command/capture event; duplicates cannot restart it. Missing floor publication is covered by a separate bounded ESP phase/task deadline and cannot wait forever. READ_SOURCE must be strictly forward of that floor under half-range comparison (source0 after wrap is valid). Original visual_read_guard owner/current_valid and no intervening motion/error/negative remain required. Lost floor event cannot be bypassed by RESULT. REF/LAST/pre-action frames never qualify.
+
+OBS AGE is a conservative capture-age upper bound: positive input raw≤150ms, negative completed input raw≤1000ms, plus bounded local cache≤31ms, queue residence, ceil actual UART transmission (32B at115200 is3ms) and1ms quantization. Expiry/saturation rejects, retries cannot exchange source or reduce age. RESULT AGE instead measures actual VU publication→delivery, including queue/serial/quantization, and must be≤200ms; never substitute LOC/capture age of another source. Long owned parked computation is not itself a READ TTL violation. ESP owns the26s READ deadline.
+
+At every cycle, fault/cancel/lease loss/unexpected motion/ESP deadline revocation wins over a simultaneous STEP or RESULT. It clears unsent decision/result state. STOP/FAIL/control revoke can still be emitted when ordinary decisions are inhibited. A queued expired RESULT cannot be delivered; a same-cycle CANCEL can retract an unsent result. No mutation of a previously issued action's source/epoch/direction or timer is allowed.
+
+Default formal-review mode never auto-advances from candidate-only data. Only an explicit local diagnostic-continuous enable may record a genuine fresh actual-VU candidate under the exact ledger/park/source context and proceed to the next point, with formalReadingValid=false and TEST labeling. No received frame can enable that local mode or arm motion. REF/LAST never record or advance.
+
+## Implementation admission evidence (not protocol approval)
+
+Root-signed contract/CFG and generated independent vectors; actual C++↔RTL handshake including reset/rebind/tombstones; negative→STEP, actual mocked drive/STOP/quiet→6s/new fences→VU; lost START/ACK/floor/STEP and terminal epoch/control-plane cases; deadline/CANCEL priority; six-second sampled clock scope distinct from real board timing. Actual new SYN/PLACE resource and full timing/DRC/DB chain are separate mandatory gates. No physical fit, bitstream, board reading or motion acceptance is claimed by this draft.
+
+ESP phase deadlines: a missing READ floor expires1000ms after the first real READ_PREPARE/READ_FENCE stage indication is received. Without such an indication, full6s park plus3500ms no-image deadline covers the wait. Heartbeats/duplicates do not restart either deadline. STEP acceptance and actual HAL-start phase expires1000ms; action5s starts at request acceptance. If no STEP arrives, ESP no-image phase still expires3500ms. FPGA adds no duplicate phase timers. READ26s starts on complete accepted READ_FENCE reception. Task300000ms is nested inside point600000ms; the first exhausted deadline wins.
+
+## Trained Stable3s source merge (2026-11-04)
+
+The producer is the exact trained Stable3s ZIP e477c9fdf8afa870ba1c236d7367f7383f39cafa3c48bee2eec921b64f6a8c7d: FEATURE register 0x064, PSI_Q8 register 0x124, unchanged trained MCU/weights from that ZIP. The later 2026-11-04 exception-repair MCU is not included. At 75MHz the actual pair-link instance bounds READ job to 1500000000 cycles (20s) and phase to 1800000000 cycles (24s). ESP READ_TIMEOUT_MS is 26000ms from complete accepted READ_FENCE reception: the 24s producer phase bound plus 2000ms bounded UART/scheduling margin. Both result admission and timeout expiry use that same generated constant; repeated floor/heartbeat never resets it. This is a waiting-budget change, not a promise of successful reading. The 200ms actual-VU-publication-to-delivery freshness, exact independent READ source/floor ownership, six-second true park, all link/IMU/STATE/camera leases and all movement budgets are unchanged.
+
+The 32B RESULT remains the existing normalized bar U0.16 value used by R24. The trained FPGA producer retains its PSI_Q8-to-bar conversion; PSI_Q8 must not be sent directly as RAW_Q16. REF/LAST and candidate/formal labels remain unchanged. This source-only merge and offline compilation do not authorize new native physical stages or devices.
+
+Canonical CFG32=`8A2EBD57`; core SHA256=`8668bc0eedef5bc6b9c6dbfa824c23e070b80608dbdf71a04a01e6d421d3338c`.

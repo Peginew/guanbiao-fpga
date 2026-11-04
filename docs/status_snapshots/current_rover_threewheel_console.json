@@ -1,0 +1,21 @@
+{
+  "version": "S3-THREE-WHEEL-CONSOLE-R20-20261103",
+  "task": "origin://workspace/hardware/rover_threewheel_console_20261103",
+  "completion": "origin://workspace/hardware/rover_threewheel_console_20261103/completion.json",
+  "candidate": "origin://desktop_fpga/ESP32S3_ThreeWheel_Console_R20_20261103",
+  "archive": "origin://desktop_fpga/ESP32S3_三轮车_完整上位机_R20_20261103.zip",
+  "archive_sha256": "24f89c64e3777be964b9f6c3e0d19d9fc612c1ce1413e3d67d73adb6858397e2",
+  "based_on": "R19 two powered wheels + real UART IMU",
+  "console_reference": "R15",
+  "status": "PASS_R20_FLASH_HASH_NVS_PRESERVATION_AND_APP_STARTUP",
+  "flashed": true,
+  "hardware_verified": false,
+  "application_startup_verified": true,
+  "hardware_movement_accuracy_verified": false,
+  "latest_board_deployment": "origin://desktop_fpga/R20_Flash_Backup_20261103/board_20261103_004700_280551/final_download_receipt.json",
+  "backup": "origin://desktop_fpga/R20_Flash_Backup_20261103/board_20261103_004700_280551/ESP32S3_before_R20_16MiB.bin",
+  "backup_sha256": "4c61ae6486559982e45b9976676b76aab706b0592c18b58d3ba53fb832a9a6ed",
+  "restore_instructions": "origin://desktop_fpga/R20_Flash_Backup_20261103/board_20261103_004700_280551/旧版备份与恢复说明.md",
+  "_archive_note": "Path values exported as origin aliases; no claim these are executable local paths. Original snapshot SHA recorded in source manifest.",
+  "_original_sha256": "4271ba191a2685fa91377e3f9bc0a3f203ce8c43ee210bbce40bfca4d1041880"
+}

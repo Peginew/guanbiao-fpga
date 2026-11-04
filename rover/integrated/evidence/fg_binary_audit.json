@@ -1,0 +1,12 @@
+{
+  "elfSha256": "3bb9c5b43f7c2e1c53a82ac8acc2dfb1bcc7f8c589e2d6bca0bddf23596c5a45",
+  "fgIsrSymbol": "403753b0 T fgBankInterrupt(void*)",
+  "fgIsrInIram": true,
+  "fgIsrHasNoFunctionCalls": true,
+  "retiredSymbols": {
+    "gpio_isr_register_on_core_static": [],
+    "gpio_install_isr_service": [],
+    "__attachInterrupt": []
+  },
+  "hardwareVerified": false
+}

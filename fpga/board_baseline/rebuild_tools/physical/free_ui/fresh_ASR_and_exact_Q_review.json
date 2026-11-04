@@ -1,0 +1,485 @@
+{
+  "passed": true,
+  "status": "PASS_FRESH_FREE_UI_REGISTERED_ASR_AND_EXACT_PSI_Q_IDENTITY",
+  "auditor": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\review\\physical_source\\audit_free_ui_contract.py",
+    "sha256": "528cfd0cb28c54f06075b0d35826204f4c4b101ef5526f36761c7b11203fa9af"
+  },
+  "place_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\latest_place.json",
+    "sha256": "5141b6ef2d9418cc65d0f2eec5bb5cdd107db409f705e4317addf2421aeb04e2"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\reader_landmark_s3_place.db",
+    "sha256": "933dd7ff62641d1d759d74a77d285b0bd8b460f3e1b65c6aefc0c0ca7b1f1300"
+  },
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "actual_netlist": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\p_1103_213750_576589\\actual_netlist.v",
+    "sha256": "f4f32adf04a1b4b43a05825aac3456714f245c9a2a4ce8fe234fb292f1f08d03"
+  },
+  "producer_handoff": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\fresh_physical_handoff.json",
+    "sha256": "df9e41c0092b960da8a4dee220897ac338230fcfc53f2d008f12c2f814052680"
+  },
+  "ASR_mapping": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\placed_asr_mapping.json",
+    "sha256": "8a7b7c9a1068aaf4891ffe8dd7c819a60803ad13c977e8bf62e1a1c2b23299b0"
+  },
+  "ASR_literal": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\asr_literal.sdc",
+    "sha256": "26ed6d584ba73b8e8c7c03ddff7fc56606830ec2c66bb9620c3f4d35c105b07a"
+  },
+  "ASR_count": 6,
+  "logical_FF_count": 12,
+  "serial_registered12": [
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u0_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u1_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "A",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u2_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "A",
+      "D": "1'b1",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[0]_syn_2",
+      "half": "B",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[0]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    },
+    {
+      "logical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[2]",
+      "physical": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff_reg[2]_syn_2",
+      "half": "A",
+      "D": "\\u_hdmi_tx/u_hdmi2phy_wrapper/u3_lane_lvds_8_1/u_serial_reset/release_ff[1]",
+      "clockroot": [
+        "\\u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL",
+        5
+      ]
+    }
+  ],
+  "no_foreign_registered_ASR_half": true,
+  "PSI_source_count": 17,
+  "PSI_expected_path_count": 17,
+  "PSI_source_records": [
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[0]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[0]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[1]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[1]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2",
+      "destination_half": "A",
+      "destination_Q_pin": "oqa",
+      "destination_input_pins": [
+        "imf"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[2]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[2]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[3]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[3]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[3]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[5]_syn_2",
+      "destination_half": "A",
+      "destination_Q_pin": "oqa",
+      "destination_input_pins": [
+        "imf"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[4]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[4]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[4]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[5]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[5]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[5]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[5]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[6]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[6]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[6]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[7]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[7]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[7]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3",
+      "destination_half": "A",
+      "destination_Q_pin": "oqa",
+      "destination_input_pins": [
+        "imf"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[8]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[8]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2",
+      "destination_half": "A",
+      "destination_Q_pin": "oqa",
+      "destination_input_pins": [
+        "imf"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[9]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[9]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[9]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[9]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[10]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[2]_syn_2.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[10]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[2]_syn_2",
+      "destination_half": "A",
+      "destination_Q_pin": "oqa",
+      "destination_input_pins": [
+        "imf"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[11]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[1]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[11]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[11]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[12]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[12]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[12]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[13]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[13]_syn_2.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[13]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[14]_syn_2",
+      "destination_half": "A",
+      "destination_Q_pin": "oqa",
+      "destination_input_pins": [
+        "imf"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[14]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_q8_reg[14]_syn_2.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[14]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[14]_syn_2",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_q8[15]",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3",
+      "half": "A",
+      "outputpin": "oqa",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqa",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8[15]",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_q8_reg[15]_syn_2",
+      "destination_half": "A",
+      "destination_Q_pin": "oqa",
+      "destination_input_pins": [
+        "imf"
+      ]
+    },
+    {
+      "logical": "\\u_meter_pair/pipeline/reader/live/return_psi_valid",
+      "physical": "\\u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3",
+      "half": "B",
+      "outputpin": "oqb",
+      "pin": "u_meter_pair/pipeline/reader/live/return_psi_valid_reg_syn_3.oqb",
+      "clockroot": [
+        "\\u_mcu_clocks/ph1p_phy_pll_wrapper_08353213927c_Inst/u_PH1P_PHY_PLL",
+        0
+      ],
+      "destination_logical": "\\u_meter_pair/pipeline/reader/live/result_psi_valid",
+      "destination_physical": "\\u_meter_pair/pipeline/reader/live/result_psi_valid_reg_syn_3",
+      "destination_half": "B",
+      "destination_Q_pin": "oqb",
+      "destination_input_pins": [
+        "ie"
+      ]
+    }
+  ],
+  "PSI_exact_Q_literal": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\psi_exact_qpins.sdc",
+    "sha256": "c445016e0ba578a04a89043dcc06aa98cb66d03f2151794910b5bf86fad72054"
+  },
+  "PSI_reviewed_source_mapping": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\psi17_sources_reviewed.json",
+    "sha256": "7dc47e554bb30da32fd5f5396b4cdf0a6a894a4b1127d746d7b609c532cd5018"
+  },
+  "old_physical_Q_or_ASR_pins_copied": false,
+  "ASR_literal_byte_equality_to_history_is_coincidental_not_evidence": true,
+  "native_pre_route_active17_required": true,
+  "PSI_Tco_and_final_slack_pending": true,
+  "bitgen_admitted": false,
+  "device": false
+}

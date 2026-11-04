@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "stage": "free_ui_place",
+  "root_authorized_activation": true,
+  "only_physical_delta_is_omitting_ten_UI_LOCs": true,
+  "fresh_ASR_and_exactQ_required": true,
+  "manifest_sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6",
+  "source_db_sha256": "429817dc8620833533bc7ace88e6b1cc042c5f5e4cdc7f3497c4f7d0595f2cab",
+  "anchor_plan_sha256": "70be8390fa648b556bb56324d6d5f534f9d8078f0177966019e12858e871d680",
+  "anchor_adc_sha256": "a0b45dc231b411cbdf996bb5a0eac09d7f48b9dc3481f51a052745f25a2366cd",
+  "ddr_group_plan_sha256": "5bd1221a780d23279a15873f0a5ca573264ed38a0df499b2f1d4ef71bd92423f",
+  "ddr_group_tcl_sha256": "b68c72d86fdd7c5449e5fc13fdd7ef490bf41c814667f0d1041e7ac3709f3810",
+  "ddr_semantic_admission_sha256": "690ee29a3a13039324845803ef43616ef8b0829a9a74c79826422c8ea5e395eb",
+  "frozen_guided_runner_sha256": "b79b730eab1c01614fdcdc06ef97e508a06bed30bf4e2cee76ceab283dfab627",
+  "runner_sha256": "df9f808425d79e4779d0de1ca8e8d20dcb9b478407b58eab231909b24553aaad",
+  "generated_flow_sha256": "a761d68ef74b6b694f38cad4dd89ea6da487d542ca45ad35ea0ad04d6779db4a",
+  "generated_settings_sha256": "c54b865f45cba9f49afcfb43f7b0b6cd7ba4770105b285fa4fbfab8585bdbcfc",
+  "independent_static_review": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\free_ui\\static_review.json",
+    "sha256": "b04ff0bc088c1e6f668c29714090fd1c60bd4caa9c04cc9771161c5fa3dc43d1"
+  },
+  "previous_failed_route": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\latest_guided_route_actual.json",
+    "sha256": "6bb61681c4eac7418dc82eb4e0f34db5115d60ebb07c7deef320830099f73f84"
+  },
+  "reason": "Same frozen bb1f Stable3s+trained PSI source; original constrained placement did not converge within 7200s. Last complete Phase3 count385; no final DB or bit. Release only ten added UI/Logo LOCs, keep DDR soft group and all original timing.",
+  "hardware_actions": false,
+  "bitgen_admitted": false
+}

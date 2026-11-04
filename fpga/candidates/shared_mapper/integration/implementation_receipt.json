@@ -1,0 +1,43 @@
+{
+  "status": "FINITE_SHARED_MAPPER_COMPONENT_PASS_NO_SYN_OR_PLACE",
+  "project": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project",
+  "name": "reader_shared",
+  "source_changes": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_roi_reader.v",
+      "sha256": "5307a7f1c9259320e95dc74eef9bc852b9f46a091cdc492dc97254a54867e05b"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_shared_mapper_20261104\\project\\user_source\\hdl_source\\meter_pair\\t06_meter_visual_pipeline.v",
+      "sha256": "e1d4b14780171a92e83a5ca84d0bd1d3a0e344d49e4ddeb9eaf903692f918527"
+    }
+  ],
+  "clone_receipt": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\integration\\clone_receipt.json",
+    "sha256": "d7f1cc224f1d01524d3d2a31d6bb9a27bd903c87940d7c2c13dadd3bcce66a84"
+  },
+  "components": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\shared_mapper_20261104\\tests\\components_20261104_063620_770835\\receipt.json",
+    "sha256": "cd09219c1b96afa175955ec3d69eb2351b0755bedd7ef3314e5c39a52efdbd9c"
+  },
+  "total_checks": 58850,
+  "main272_inputs_tools_unchanged": true,
+  "main_frozen_manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\physical\\source_freeze.json",
+    "sha256": "9d4661b453a52a0e0f05a5696bf6b769c982cfc82cd27c7c5ddc83bce878b828"
+  },
+  "baseSDC_unchanged": true,
+  "MCU6035_unmodified": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\staged_display_20261104\\firmware\\build\\build_receipt.json",
+    "sha256": "58b00770600558ca94e03582b19148256fa8abeae44887fc382d29c9976a5b11"
+  },
+  "algorithm_threshold_owner_order_changes": false,
+  "arithmetic": "17bit Q4 sum +8 then >>4,13bit unsigned native cache; no clamp. Two multiplier operations explicitly shared; DSP benefit not measured.",
+  "boundaries": [
+    "Late TRACK consumes cached early native fields even in CONFIRM/PUBLISH/IDLE",
+    "Final observation consumes final mapper; real HQUIET drains early requests before final. Synthetic simultaneous early+final is additionally covered.",
+    "Visual/link test uses reader-native cache output frontier; separate actual reader arithmetic/cache suite checks all valid Q4 coordinates and stride1..4."
+  ],
+  "source_final": true,
+  "TD_or_device": false
+}

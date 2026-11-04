@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "stage": "synth",
+  "manifest_sha256": "ROOT_REPLACE_WITH_SHA256_OF_NEW_source_freeze.json_AFTER_SOURCE_REVIEW",
+  "source_review": null,
+  "scope": "Only this new Stable3s + trained-MCU PSI candidate. Preserve original bb1f Stable3s source behavior and selected MCU7b58/weights. No UART/device/Flash. Actual SYN capture and subsequent new-SYN macro identity review remain required.",
+  "template_only_not_an_admission": true,
+  "device": false
+}

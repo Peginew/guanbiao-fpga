@@ -1,0 +1,44 @@
+--- C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_staged_display_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v
++++ C:\Users\Edward\Desktop\FPGA\MCU_Live_ROI_20261029\native_reader_shared_mapper_20261104\project\user_source\hdl_source\meter_pair\t06_meter_visual_pipeline.v
+@@ -134,8 +134,8 @@
+  wire [10:0] result_x;wire [9:0] result_y;wire [2:0] result_stride;
+  wire [6:0] hub_x,hub_y;wire [15:0] roi_q16,roi_bcd;wire [1:0] stable_count;wire [7:0] mean_gray;wire [21:0] gradient;
+  wire [4:0] roi_stage_flags;wire [120:0] reader_capture_debug;
+- wire [10:0] hub_x_q4,hub_y_q4;wire [31:0] mcu_result_crc;
+- wire progress_have,progress_pulse,progress_needle;wire [10:0] progress_hx,progress_hy,progress_x;
++ wire [12:0] reader_native_x,reader_native_y,progress_native_x,progress_native_y;wire [31:0] mcu_result_crc;
++ wire progress_have,progress_pulse,progress_needle;wire [10:0] progress_x;
+  wire [9:0] progress_y;wire [8:0] progress_angle;wire [2:0] progress_stride;wire [6:0] progress_radius;
+  wire [31:0] progress_source,progress_config;wire [15:0] progress_target;
+  // Passive observation only. These registers never control the pipeline.
+@@ -150,9 +150,9 @@
+   .mcu_hrdata(mcu_hrdata),.mcu_hresp(mcu_hresp),.mcu_hready(mcu_hready),
+   .observer_context(observer_context),
+   .owned_roi_good(roi_owned_good),.owned_roi_source(roi_owned_source),.platform_armed(roi_platform_armed),
+-  .hub_x_q4(hub_x_q4),.hub_y_q4(hub_y_q4),.mcu_result_crc(mcu_result_crc),
++  .hub_x_q4(),.hub_y_q4(),.native_hub_x(reader_native_x),.native_hub_y(reader_native_y),.mcu_result_crc(mcu_result_crc),
+   .progress_valid(progress_have),.progress_pulse(progress_pulse),.progress_needle_valid(progress_needle),
+-  .progress_hub_x_q4(progress_hx),.progress_hub_y_q4(progress_hy),.progress_angle(progress_angle),
++  .progress_hub_x_q4(),.progress_hub_y_q4(),.progress_native_x(progress_native_x),.progress_native_y(progress_native_y),.progress_angle(progress_angle),
+   .progress_source(progress_source),.progress_config(progress_config),.progress_target(progress_target),
+   .progress_x0(progress_x),.progress_y0(progress_y),.progress_stride(progress_stride),.progress_radius(progress_radius),
+   .csi_clk(csi_clk),.clk(core_clk),.arst_n(arst_n),.gray4(delayed_gray),.gray_valid(delayed_valid),.gray_sof(delayed_sof),.gray_eol(delayed_eol),.frame_error(delayed_error),.source_id(delayed_source),.source_id_valid(delayed_source_valid),.capture_frame_allowed(cap_open),
+@@ -259,14 +259,10 @@
+   progress_source==roi_owned_source&&roi_owned_good&&progress_config==hint_cfg&&
+   progress_config==active_config&&progress_target==active_target_id&&capture_motion==motion_epoch;
+  wire early_request=early_context&&(progress_pulse||confirm_valid)&&!axis_display_update;
+- wire [10:0] display_x=early_request?progress_x:result_x;
+- wire [9:0] display_y=early_request?progress_y:result_y;
+- wire [2:0] display_stride=early_request?progress_stride:result_stride;
+- wire [10:0] display_hx=early_request?progress_hx:hub_x_q4,display_hy=early_request?progress_hy:hub_y_q4;
+- // One shared native-coordinate mapper, rather than two added multiplier paths.
+- wire [16:0] display_nxq4=({6'd0,display_x}<<4)+display_hx*display_stride+((display_stride-1'b1)<<3);
+- wire [16:0] display_nyq4=({7'd0,display_y}<<4)+display_hy*display_stride+((display_stride-1'b1)<<3);
+- wire [12:0] display_nx=(display_nxq4+17'd8)>>4,display_ny=(display_nyq4+17'd8)>>4;
++ // Reader owns the only mapper. Early native coordinates were cached
++ // on the same accepted-code edge and remain tied to that entire package.
++ wire [12:0] display_nx=early_request?progress_native_x:reader_native_x;
++ wire [12:0] display_ny=early_request?progress_native_y:reader_native_y;
+  wire [12:0] early_dx=display_nx>=confirm_x?display_nx-confirm_x:confirm_x-display_nx;
+  wire [12:0] early_dy=display_ny>=confirm_y?display_ny-confirm_y:confirm_y-display_ny;
+  wire [6:0] early_dr=progress_radius>=confirm_radius?progress_radius-confirm_radius:confirm_radius-progress_radius;

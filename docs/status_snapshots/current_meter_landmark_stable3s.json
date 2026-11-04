@@ -1,0 +1,97 @@
+{
+  "status": "PASS_PERMANENT_MCU_REPAIR_BYTES_AND_CONTROLLED_EXCEPTION_RECOVERY_READOUT_PENDING",
+  "date_local": "2026-11-03",
+  "task": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103",
+  "contract": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/task_contract.json",
+    "sha256": "5e3c050fffc6f788cb112950f9cf184869386f2dc596c8b7971570106e470bcb"
+  },
+  "baseline_bit": {
+    "path": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_hdmi_ui_ref_stable3s_20261103/Meter_HDMI_UI_REF_Stable3s_20261103.bit",
+    "sha256": "bb1f843fb29c66f798be37520472cfaac3be728b6d439130fa38c3efa081d697",
+    "bytes": 1789539,
+    "native_bitgen": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_hdmi_ui_ref_stable3s_20261103/project/td_project/hdmi_ui_ref_s3_Runs/bitgen_20261103_051210_710656/hdmi_ui_ref_s3.bit"
+  },
+  "baseline_project": {
+    "path": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_hdmi_ui_ref_stable3s_20261103/project/td_project/hdmi_ui_ref_s3.al",
+    "sha256": "becd9b3be8f12b655be98c57d88c5037780a94a5233263901d99996e46a87263"
+  },
+  "MCU_ELF_sha256": "793de53afa53a0046a2325d6f2ef6373e98d43e5ee0257ace2b203709c0599df",
+  "new_bit_ready": true,
+  "hardware_actions": true,
+  "board_validation": false,
+  "automatic_download": false,
+  "project": {
+    "path": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/project/td_project/reader_landmark_s3.al",
+    "sha256": "e9f48912cfe3f9f4e77a4410e10c5027b298774d25216d4ab55d78e610960751"
+  },
+  "integration": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/integration/integration_receipt.json",
+    "sha256": "21da8f7c7cac9310eced495488fc06e691d01896d1eabd5d535a907dce21a6ca"
+  },
+  "actual_component_checks": 10007,
+  "old_d882_not_selected_for_requested_baseline": true,
+  "actual_placed_resources": {
+    "Slice": 20096,
+    "Slice_is_SYN_estimate": false,
+    "FF": 22978,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "placed_slice_free": 1120,
+  "preferred_rover_slice_reserve": 1200,
+  "preferred_reserve_shortfall_placed": 80,
+  "previous_route_pointer": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/physical/latest_guided_route_actual.json",
+  "current_physical_stage": {
+    "stage": "OFFLINE_DELIVERY_COMPLETE",
+    "pointer": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/completion.json"
+  },
+  "completion": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/completion.json",
+    "sha256": "e30e21f870c55dfa7c2b9522e980dc0495a632251b1addd4ad3a2eb0558f55a3"
+  },
+  "bit": {
+    "path": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/Meter_Stable3s_Trained_Readout_20261103.bit",
+    "sha256": "87dac25cb2b06591a1e0ab1a644296f27477530394907027bf061ee6d11c2bed"
+  },
+  "archive": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/delivery/Stable3s_Trained_MCU_FPGA_Pair_20261103.zip",
+    "sha256": "e477c9fdf8afa870ba1c236d7367f7383f39cafa3c48bee2eec921b64f6a8c7d"
+  },
+  "final_physical_review": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/review/physical_source/final_physical_review.json",
+    "sha256": "8dbbb369ea82a471bdf4441f2137b5b4d3e00ef8d26a1dd21218f1fc11cca674"
+  },
+  "final_DB": {
+    "path": "origin://desktop_fpga/s3_free_ui_20261103/r_1103_221419_019896/reader_landmark_s3_pr.db",
+    "sha256": "e47cc43c02152c1433624355cd1a4c2d0937b05de71240ed4089b017bf76cd34"
+  },
+  "FINAL": {
+    "SWNS": 0.106,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "actual_final_conflict_count": 0,
+  "actual_resources": {
+    "Slice": 20096,
+    "Slice_is_SYN_estimate": false,
+    "FF": 22978,
+    "ERAM": 102,
+    "DSP": 38,
+    "PLL": 4,
+    "MCU": 1
+  },
+  "remaining_slice": 1120,
+  "preferred_reserve_shortfall": 80,
+  "permanent_deployment": {
+    "path": "origin://desktop_fpga/mcu_exception_repair_20261104/final_repair_receipt.json",
+    "sha256": "898ed27d39a0a71396ed16af133c9809e855e1aef83195380e6f2a30534db00e"
+  },
+  "MCU_runtime": "Repaired guard controlled real exception recovery verified. Staged hub/needle display not yet implemented; full READ not observed.",
+  "MCU_Flash_payload_sha256": "347b9d10e3adc7a715f37917461874fac669f044a739aef4c368cbe2c424c6c1",
+  "_archive_note": "Path values exported as origin aliases; no claim these are executable local paths. Original snapshot SHA recorded in source manifest.",
+  "_original_sha256": "995db315a292d413d0e1c5bd3d097d3a5a8473d6d31fa91f033c00aa5c0bfc87"
+}

@@ -1,0 +1,53 @@
+{
+  "status": "FULL_SYSTEM_SOURCE_PROJECT_DELIVERED_NOT_IMPLEMENTED",
+  "task": "origin://workspace/hardware/fpga_rover_trained_merge_20261104",
+  "state": "origin://workspace/hardware/fpga_rover_trained_merge_20261104/task_state.json",
+  "output_root": "origin://desktop_fpga/Stable3s_Rover_Merged_20261104",
+  "user_request": {
+    "path": "origin://workspace/hardware/fpga_rover_trained_merge_20261104/USER_MERGE_REQUEST.json",
+    "sha256": "f8c8bd02037292560c9657acb6e12a40306b691f3231e074bf5bf0c60c34c2eb"
+  },
+  "source_base_ZIP": {
+    "path": "origin://workspace/algorithm_work/meter_landmark_stable3s_20261103/delivery/Stable3s_Trained_MCU_FPGA_Pair_20261103.zip",
+    "sha256": "e477c9fdf8afa870ba1c236d7367f7383f39cafa3c48bee2eec921b64f6a8c7d"
+  },
+  "previous_task": "origin://workspace/hardware/fpga_rover_scan_lite_20261103",
+  "new_bit": null,
+  "source_project_merge_only": true,
+  "route_final_proven": false,
+  "current_board_upgrade_ready": false,
+  "current_board_context": {
+    "snapshot": {
+      "path": "origin://workspace/hardware/fpga_rover_scan_lite_20261103/review/board_compatibility_20261104/current_meter_landmark_stable3s_at_context_update.json",
+      "sha256": "995db315a292d413d0e1c5bd3d097d3a5a8473d6d31fa91f033c00aa5c0bfc87"
+    },
+    "FPGA_bit": {
+      "path": "origin://desktop_fpga/MCU_Live_ROI_20261029/native_reader_landmark_s3_20261103/Meter_Stable3s_Trained_Readout_20261103.bit",
+      "sha256": "87dac25cb2b06591a1e0ab1a644296f27477530394907027bf061ee6d11c2bed"
+    },
+    "MCU_ELF_sha256": "793de53afa53a0046a2325d6f2ef6373e98d43e5ee0257ace2b203709c0599df",
+    "MCU_Flash_payload_sha256": "347b9d10e3adc7a715f37917461874fac669f044a739aef4c368cbe2c424c6c1",
+    "fresh_device_read_in_this_task": false
+  },
+  "devices": false,
+  "updated_at": "2026-11-04T06:16:08.440148+08:00",
+  "state_ref": {
+    "path": "origin://workspace/hardware/fpga_rover_trained_merge_20261104/task_state.json",
+    "sha256": "c95458c19dde77af579dd33f47ae3a91eb1f214e7e28fb71a2dccb157ca80fce"
+  },
+  "completion": {
+    "path": "origin://workspace/hardware/fpga_rover_trained_merge_20261104/full_system_delivery_receipt.json",
+    "sha256": "8f0fcdbf3613181a09f4d596c35943755ce95a8d298328232e6c71b1f6cb9f27"
+  },
+  "ZIP": {
+    "path": "origin://desktop_fpga/观表_全系统完整工程_20261104.zip",
+    "sha256": "923b2b313e06182937147201c4942d6416e0bcc9298a69843d06e41874dae1d9"
+  },
+  "project": "origin://desktop_fpga/Stable3s_Rover_Merged_20261104/fpga/project/td_project/reader_landmark_s3.al",
+  "CFG": "8A2EBD57",
+  "source_elaboration_passed": true,
+  "new_implementation_passed": false,
+  "system_entry": "origin://desktop_fpga/Stable3s_Rover_Merged_20261104/00_全系统工程入口.md",
+  "_archive_note": "Path values exported as origin aliases; no claim these are executable local paths. Original snapshot SHA recorded in source manifest.",
+  "_original_sha256": "4b86c8155cf38b09d39e3633618997bbdab9309ece82ac0cdd9e8facf8c9b608"
+}

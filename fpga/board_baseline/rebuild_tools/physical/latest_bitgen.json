@@ -1,0 +1,83 @@
+{
+  "stage": "bitgen",
+  "state": "NATIVE_COMPLETE_INDEPENDENT_REVIEW_PENDING",
+  "passed": true,
+  "manifest": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\source_freeze.json",
+    "sha256": "3cdb63a0a6c025d0caa93b27d0abc32fd024e20729867770b39d9b88e7773cb6"
+  },
+  "gate": {
+    "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\bitgen_admission.json",
+    "sha256": "d983dd2b85d6558d4375897bb343a137a22ec4cc207626adcbf320835772c362"
+  },
+  "source_DB": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\s3_free_ui_20261103\\r_1103_221419_019896\\reader_landmark_s3_pr.db",
+    "sha256": "e47cc43c02152c1433624355cd1a4c2d0937b05de71240ed4089b017bf76cd34"
+  },
+  "run": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814",
+  "device": false,
+  "controls": [
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\DefaultFlow.tcl",
+      "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\execute.tcl",
+      "sha256": "cff682e26166d635d80df77ac4ad6ed0c090fa60c37fa38ca83af334f41f4caa"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\reader_landmark_s3.prj",
+      "sha256": "51846a2cb7650f82d74fded94dd57c57b45791f715039dbe98bf66388acb6d1c"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\reader_landmark_s3_pr.db",
+      "sha256": "e47cc43c02152c1433624355cd1a4c2d0937b05de71240ed4089b017bf76cd34"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\settings.cfg",
+      "sha256": "6e019fcb79814c35ac4551fd8f5b83ebb98ac4f55f5c7d73e0246d0a5595f8e8"
+    },
+    {
+      "path": "C:\\Users\\Edward\\Documents\\ChatGPT\\嵌赛FPGA\\algorithm_work\\meter_landmark_stable3s_20261103\\physical\\bitgen_admission.json",
+      "sha256": "d983dd2b85d6558d4375897bb343a137a22ec4cc207626adcbf320835772c362"
+    }
+  ],
+  "exit_code": 0,
+  "elapsed_s": 10.703000000008615,
+  "errors": [],
+  "output": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\reader_landmark_s3.bit",
+    "sha256": "87dac25cb2b06591a1e0ab1a644296f27477530394907027bf061ee6d11c2bed"
+  },
+  "log": {
+    "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\console.log",
+    "sha256": "0acfd0700e74fe41b60dc9405d71f4eab13ad42947b8b111f8729e6dc66efe28"
+  },
+  "resources": {},
+  "actual_commands": [
+    "import_device ph1_35p.db -package PH1P35MDG324 -speed 3",
+    "open_project reader_landmark_s3.prj -noanalyze",
+    "import_db reader_landmark_s3_pr.db",
+    "commit_param -step bitgen",
+    "bitgen -bit reader_landmark_s3.bit",
+    "export_bid reader_landmark_s3_inst.bid",
+    "setup_debugger",
+    "export_bitgen_param -file .bitgen_param.f",
+    "export_flow_status -s bitgen -e bitgen",
+    "flow_profiling"
+  ],
+  "artifacts": {
+    ".bitgen.begin.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\.bitgen.begin.f",
+      "sha256": "3af5986f6ca0a69f28bc18dccc724d43b78d6613e0c1938e64d15defe261e5cd"
+    },
+    ".bitgen.end.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\.bitgen.end.f",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".bitgen_param.f": {
+      "path": "C:\\Users\\Edward\\Desktop\\FPGA\\MCU_Live_ROI_20261029\\native_reader_landmark_s3_20261103\\project\\td_project\\reader_landmark_s3_Runs\\bitgen_20261103_224512_814814\\.bitgen_param.f",
+      "sha256": "d68f0bcdcaf7b76014f69af7163fc64c9c01645fd9a739884977a2616665c114"
+    }
+  }
+}
